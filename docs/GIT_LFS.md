@@ -1,9 +1,10 @@
 # Git LFS usage
 
 All `*.png`, `*.svg` and `*.plot.json` files are tracked by Git LFS. The
-122 MiB copied F1 source catalog is also tracked explicitly. The files remain
-present at their ordinary repository paths; Git stores small pointer records
-while GitHub stores the corresponding content objects.
+122 MiB copied F1 source catalog and the 61 MiB hiking release contract are
+also tracked explicitly. The files remain present at their ordinary repository
+paths; Git stores small pointer records while GitHub stores the corresponding
+content objects.
 
 ## First clone
 
@@ -22,9 +23,11 @@ an LFS pointer. Run `git lfs pull`.
 ## Why LFS is required here
 
 The complete repository contains 447 PNGs, 455 SVGs and 424 plot manifests.
-The image/vector files exceed 2 GiB before Git compression, while two JSON
-objects exceed GitHub's enforced 100 MiB regular-Git limit. LFS avoids an
-oversized Git pack and keeps the ordinary Git history focused on code and
+There are 1,328 LFS-tracked paths with 3,193,815,853 bytes of payload. The
+image/vector files exceed 2 GiB before Git compression, while two JSON payloads
+exceed GitHub's enforced 100 MiB regular-Git limit. The hiking contract is below
+that hard limit but above GitHub's recommended 50 MiB maximum, so it is tracked
+in LFS as well. LFS keeps the ordinary Git history focused on code and
 documentation.
 
 Official references:

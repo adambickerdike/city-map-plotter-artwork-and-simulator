@@ -1,6 +1,6 @@
 # Verification record
 
-Verified locally on 18 August 2026 before the initial GitHub upload.
+Verified locally and from a clean GitHub clone on 18 August 2026.
 
 ## Repository integrity
 
@@ -20,6 +20,22 @@ Command:
 python3 scripts/verify_repository.py --full
 ```
 
+## Published-repository proof
+
+The private GitHub repository was cloned into an empty temporary directory with
+LFS smudging initially disabled. All remote objects were then fetched and
+checked out before verification:
+
+```text
+Git tracked paths:          2,617
+LFS tracked paths:          1,328
+LFS payload:                3,193,815,853 bytes
+LFS checkout:               PASS
+Git LFS fsck:               PASS
+clean working tree:         PASS
+full checksum audit:        PASS
+```
+
 ## Code verification
 
 ```text
@@ -33,6 +49,10 @@ generated viewer JavaScript:  PASS
 The 64 tests are the 29 shared motion/job/controller tests in
 `test_plotter_system.py` plus the 35 physical paper/nib/simulator truthfulness
 tests in `test_paper_and_pens.py`.
+
+Ruff lint and formatting cover the simulator/controller tools, repository
+verification script and focused tests. The copied renderer modules are retained
+as generation-source evidence and are not reformatted by this release.
 
 ## Augusta motion proof
 
@@ -59,4 +79,3 @@ is nominal.
 `/home/adam`, outside the repository. The server selected a free loopback port,
 returned `{"ok": true}` from `/health`, served the studio root with HTTP 200,
 and shut down cleanly.
-

@@ -37,9 +37,10 @@ its pen-separated SVG jobs.
 
 ## Clone the complete files
 
-PNG, SVG, plot-manifest assets and one source catalog above GitHub's 100 MiB
-object limit are stored with Git LFS. Install Git LFS before cloning or pulling
-so the working tree contains the real files rather than pointer files.
+PNG, SVG and plot-manifest assets are stored with Git LFS. The 122 MiB F1
+source catalog and 61 MiB hiking release contract are also tracked explicitly.
+Install Git LFS before cloning or pulling so the working tree contains the real
+files rather than pointer files.
 
 ```bash
 git lfs install
