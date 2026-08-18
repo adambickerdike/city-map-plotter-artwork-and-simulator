@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "city-map-plotter"
+version = "0.2.0"
+description = "Turn OpenStreetMap vector data into paper-sized, pen-aware SVG maps."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "City Map Plotter contributors" }]
+dependencies = [
+  "jsonschema[format-nongpl]>=4.23,<5",
+  "shapely>=2.0,<3",
+]
+
+[project.optional-dependencies]
+pbf = [
+  "osmium>=4.0,<5",
+]
+zoomstack = [
+  "mapbox-vector-tile>=2.2,<3",
+]
+hiking-context = [
+  "contourpy>=1.3,<2",
+  "numpy>=2.0,<3",
+  "pyproj>=3.7,<4",
+  "rasterio>=1.4,<2",
+]
+bridge-source = [
+  "numpy>=2.0,<3",
+  "Pillow>=11,<13",
+  "scipy>=1.14,<2",
+]
+abstract-3d = [
+  "numpy>=2.0,<3",
+]
+plotter = [
+  "pyserial>=3.5,<4",
+]
+dev = [
+  "mypy>=1.11,<2",
+  "pytest>=8,<9",
+  "ruff>=0.12,<0.13",
+  "types-jsonschema>=4.23,<5",
+  "types-shapely>=2.0,<3",
+]
+
+[project.scripts]
+mapplot = "city_map_plotter.cli:main"
+mapplot-hike = "city_map_plotter.niche_cli:main"
+mapplot-architecture = "city_map_plotter.architecture_cli:main"
+mapplot-bridges = "city_map_plotter.bridge_cli:main"
+mapplot-golf = "city_map_plotter.golf_cli:main"
+mapplot-academic = "city_map_plotter.academic_cli:main"
+mapplot-place = "city_map_plotter.place_cli:main"
+mapplot-abstract = "city_map_plotter.abstract_v2_cli:main"
+mapplot-abstract-v1 = "city_map_plotter.abstract_cli:main"
+mapplot-objects = "city_map_plotter.technical_cli:main"
+mapplot-sports = "city_map_plotter.sports_cli:main"
+mapplot-f1 = "city_map_plotter.f1_cli:main"
+mapplot-circuits = "city_map_plotter.motorsport_cli:main"
+mapplot-transit = "city_map_plotter.transit_cli:main"
+mapplot-rail = "city_map_plotter.transit_cli:main"
+mapplot-web = "city_map_plotter.webui.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+city_map_plotter = [
+  "data/*.json",
+  "webui/static/*.html",
+]

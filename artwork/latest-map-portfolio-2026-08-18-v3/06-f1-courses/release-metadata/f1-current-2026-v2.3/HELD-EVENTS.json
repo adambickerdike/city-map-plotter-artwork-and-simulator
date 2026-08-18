@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "release_id": "f1-circuit-atlas-2026-v2",
+  "catalog_id": "f1-circuits-2026",
+  "catalog_file_sha256": "b117b4a2f0b40277417fd255d80f80b7dcc936e97f614e56e7095bdf7179746e",
+  "season": 2026,
+  "rendering_preset": "circuit-atlas-v2",
+  "artifact_kind": "circuit-atlas-v2",
+  "selection_mode": "all-renderable",
+  "catalog_event_count": 23,
+  "selected_event_count": 22,
+  "selected_event_ids": [
+    "australia-albert-park-2026",
+    "china-shanghai-2026",
+    "japan-suzuka-2026",
+    "miami-international-autodrome-2026",
+    "canada-gilles-villeneuve-2026",
+    "monaco-2026",
+    "barcelona-catalunya-2026",
+    "austria-red-bull-ring-2026",
+    "great-britain-silverstone-2026",
+    "belgium-spa-francorchamps-2026",
+    "hungary-hungaroring-2026",
+    "netherlands-zandvoort-2026",
+    "italy-monza-2026",
+    "azerbaijan-baku-2026",
+    "bahrain-gp-sepang-malaysia-2026",
+    "singapore-marina-bay-2026",
+    "united-states-cota-2026",
+    "mexico-city-rodriguez-2026",
+    "sao-paulo-interlagos-2026",
+    "las-vegas-strip-2026",
+    "qatar-lusail-2026",
+    "abu-dhabi-yas-marina-2026"
+  ],
+  "renderable_event_count": 22,
+  "renderable_event_ids": [
+    "australia-albert-park-2026",
+    "china-shanghai-2026",
+    "japan-suzuka-2026",
+    "miami-international-autodrome-2026",
+    "canada-gilles-villeneuve-2026",
+    "monaco-2026",
+    "barcelona-catalunya-2026",
+    "austria-red-bull-ring-2026",
+    "great-britain-silverstone-2026",
+    "belgium-spa-francorchamps-2026",
+    "hungary-hungaroring-2026",
+    "netherlands-zandvoort-2026",
+    "italy-monza-2026",
+    "azerbaijan-baku-2026",
+    "bahrain-gp-sepang-malaysia-2026",
+    "singapore-marina-bay-2026",
+    "united-states-cota-2026",
+    "mexico-city-rodriguez-2026",
+    "sao-paulo-interlagos-2026",
+    "las-vegas-strip-2026",
+    "qatar-lusail-2026",
+    "abu-dhabi-yas-marina-2026"
+  ],
+  "unselected_renderable_event_ids": [],
+  "held_event_count": 1,
+  "held_event_ids": [
+    "madrid-madring-2026"
+  ],
+  "held_events": [
+    {
+      "event_id": "madrid-madring-2026",
+      "event_name": "Spanish Grand Prix",
+      "circuit_id": "madrid-madring",
+      "circuit_name": "MADRING",
+      "calendar_order": 14,
+      "calendar_status": "confirmed",
+      "configuration_reference_season": null,
+      "configuration_identity_status": null,
+      "configuration_disclosure": null,
+      "geometry_status": "provisional",
+      "normalized_model_present": false,
+      "source_geometry_sha256": null,
+      "hold_reason_codes": [
+        "geometry-status-not-renderable",
+        "normalized-model-absent"
+      ],
+      "hold_reasons": [
+        "homologation status is pending",
+        "circuit geometry is unresolved",
+        "circuit-owner outline rights require legal clearance",
+        "physical pen calibration and plotted proof remain outstanding"
+      ],
+      "status": {
+        "calendar_status": "confirmed",
+        "wmsc_status": "approved",
+        "homologation_status": "pending",
+        "geometry_status": "provisional",
+        "release_gate": "hold"
+      },
+      "source_refs": [
+        "f1-race-page-madrid-madring-2026",
+        "fia-2026-calendar-wmsc-amended",
+        "madring-2026-la-monumental",
+        "osm-circuit-context-madrid-madring-2026"
+      ]
+    }
+  ],
+  "policy": {
+    "all": "Exact complete-catalog gate; refuses any event without an eligible normalized geometry model.",
+    "all_renderable": "Review-only subset; selects only renderer-eligible normalized models and preserves every omitted event in this ledger.",
+    "rights_and_physical_proof": "Independent release holds; renderability does not clear either."
+  }
+}

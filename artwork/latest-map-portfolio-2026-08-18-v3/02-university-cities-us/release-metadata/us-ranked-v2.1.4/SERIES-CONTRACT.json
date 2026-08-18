@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "series_id": "university-memorabilia-ranked-2026-v2.1.4",
+  "status": "review-only",
+  "expected_subject_count": 50,
+  "collections": [
+    "uk-times-good-university-guide-2026-top-30",
+    "us-qs-world-university-rankings-2027-top-20"
+  ],
+  "catalog": {
+    "path": "release-metadata/ranked-universities-2026-v1.json",
+    "sha256": "9a58174a4e13f0ac7a66f9a91d4789d63ca71cdcb7d899d534731deca4f1e5fe"
+  },
+  "render_recipe": {
+    "path": "release-metadata/render-recipe-v2.1.4.json",
+    "sha256": "a3a8e6932fe4d6175e90ec25d5ce30922dad39c434297ef9a6a722a96dd153fc"
+  },
+  "renderer": {
+    "path": "release-metadata/renderer-contract",
+    "tree_sha256": "2197dace775a09bd73d70cc9233be3689f5439f0e10942000ebc191f42065e4c",
+    "archive": "release-metadata/renderer-contract.tar",
+    "archive_sha256": "794e4a44716e3739d22200370203a171cad05a52f79b5f00949c461fa46998f7",
+    "base_tree_sha256": "648f15740f25916df854045581adbe20df067bbb55d30ecf8fe3a366d4db286d",
+    "fingerprint": {
+      "format_id": "plate-format-v1",
+      "format_resource": "city_map_plotter/data/format-v1.json",
+      "format_sha256": "87cb84c49795b6e95816d18a2516d78909235dfba9416dbd3727cddc1a2f53b2",
+      "generator": "city-map-plotter 0.2.0",
+      "sha256": "0a2106ff042bcccb7e73ad5fe3d253d0a5c7c18f2ca2425a35ea33aa29f69366",
+      "source_file_count": 28,
+      "source_tree_sha256": "ec85f76b87b92d7bc97b0dc033c218c6b1b79adb7990c06743166b63fda7a2e1",
+      "theme_catalog_id": "city-map-plotter-themes-v2",
+      "theme_catalog_sha256": "17e2649675de85dffba23ca7d3d06d2483e49c8aede788447a5f365b6992ad98",
+      "theme_resource": "city_map_plotter/data/themes-v1.json"
+    },
+    "base_fingerprint": {
+      "format_id": "plate-format-v1",
+      "format_resource": "city_map_plotter/data/format-v1.json",
+      "format_sha256": "87cb84c49795b6e95816d18a2516d78909235dfba9416dbd3727cddc1a2f53b2",
+      "generator": "city-map-plotter 0.2.0",
+      "sha256": "375d54f1cb29c68227dd5ddff8d05235b8f137d4e433ae31bd5834d611dab5e7",
+      "source_file_count": 28,
+      "source_tree_sha256": "5d339e1a7ea83405d2d48cac76a55edb6ddd92f419d47087d2c527d429d9945c",
+      "theme_catalog_id": "city-map-plotter-themes-v2",
+      "theme_catalog_sha256": "17e2649675de85dffba23ca7d3d06d2483e49c8aede788447a5f365b6992ad98",
+      "theme_resource": "city_map_plotter/data/themes-v1.json"
+    },
+    "derivation": {
+      "id": "university-memorabilia-v2.1.4-pinned-source-correctness",
+      "visual_policy": "v2.1 parameters and style are unchanged",
+      "overrides": [
+        {
+          "path": "city_map_plotter/cartography.py",
+          "source_sha256": "454e60954507f5cc056a14c0d4ddd6b80df4d511860f1edafeabbed49c361dc2",
+          "scope": "Preserve crop-boundary slivers for the physical-minimum ledger, retain projected landmark-area identity, and suppress conceptual closed-bay edges only when exact dotted-surface carriers prove representation."
+        },
+        {
+          "path": "city_map_plotter/batch.py",
+          "source_sha256": "25028ecd6009b687207c98af7fcecb0db6b494c1950be900431558e84097030f",
+          "scope": "Bind published rank fields and the exact visible title into the existing per-artifact contract digest, and keep the advisory batch lock outside the release tree."
+        },
+        {
+          "path": "city_map_plotter/cli.py",
+          "source_sha256": "f0433203d60088243fa4dc796b2b508926ad124c1fb2eaa096177b714b21ff7b",
+          "scope": "Accept the verified per-subject source manifest in the frozen catalog runner, protect it from output collisions, and skip public-service delay when every item has an injected saved JSON input."
+        },
+        {
+          "path": "city_map_plotter/completeness.py",
+          "source_sha256": "6cef168aae36ad154175ac6137ae019052229ea59889285887fc08d96018d75d",
+          "scope": "Retain and audit complete area-relation way rings while recording impossible explicit node ring-members as advisories, and accept only exact same-role relation-ring deduplication with explicit reindex evidence."
+        },
+        {
+          "path": "city_map_plotter/svg.py",
+          "source_sha256": "755f896b0fa22667e0898a788a4840e89a562f2f9c8c11423c86eab48abaf57c",
+          "scope": "Keep the canonical ten-slot physical inventory stable when a plate has no geometry for one slot, omit empty groups from the master, and emit an explicit zero-path per-slot SVG without requesting a physical pen load."
+        }
+      ]
+    }
+  },
+  "style": {
+    "path": "release-metadata/renderer-contract/university-memorabilia-v2.json",
+    "sha256": "d5bc3c092d6cc05bbbc9581b5463a043716cfd5a8b237f8df634a44d6b6f7910"
+  },
+  "source_contract": {
+    "mode": "pinned-input-json-set",
+    "path": "release-metadata/source-snapshots/source-manifest.json",
+    "manifest_sha256": "581d07bc7262664d4b1134ec42b30ddd9a086f9915e067068b4f0fe77e121362",
+    "cohort_sha256": "1a861b085466c23ce2c97ce03b3807459bf96cf3e0c3c0faccbf3079b97cd6d3",
+    "subject_count": 50,
+    "network_fallback": false,
+    "production_eligible": false
+  },
+  "output_contract": {
+    "paper": "A5 portrait",
+    "preset": "a5-balanced-poster",
+    "poster_layout": "university-memorabilia",
+    "families": [
+      "roads",
+      "water",
+      "railways",
+      "parks",
+      "buildings"
+    ],
+    "detail_profile": "plotter-faithful",
+    "simplify_mm": 0.04,
+    "road_style": "centreline",
+    "extent_fit": "contain",
+    "water_fill": "dots",
+    "landmark_buildings": true,
+    "radius_km": 2.0,
+    "pen_profile": "actual-pens",
+    "inventory_pen_slots": 10,
+    "empty_pen_slot_policy": "manifest-and-zero-path-split-without-empty-master-group",
+    "split_by_pen": true,
+    "optimise_travel": true,
+    "physical_audit": true,
+    "scale_bar": false,
+    "scale_detail": false,
+    "north_mark": true,
+    "png_dpi": 254,
+    "title_policy": "uppercase-city-or-campus-locality",
+    "attribution_mode": "external",
+    "external_attribution_placement": "Accompanying product page, packaging, and series attribution file"
+  }
+}

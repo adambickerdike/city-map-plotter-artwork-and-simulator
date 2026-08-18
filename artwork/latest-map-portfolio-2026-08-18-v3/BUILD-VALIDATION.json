@@ -1,0 +1,48 @@
+{
+  "artifact_count": 423,
+  "checksum_entry_count": 2463,
+  "contact_sheet_count": 22,
+  "format_validation": {
+    "exit_status": 0,
+    "format_contract": "docs/format/format-v1.json",
+    "schema_version": 1,
+    "status": "passed",
+    "svg_count": 423,
+    "validator": "tools/validate_format.py",
+    "warnings_as_errors": false
+  },
+  "generated_at": "2026-08-18T00:00:00Z",
+  "on_page_attribution_audit": {
+    "artwork_svg_count": 423,
+    "audit": "drawn-open-map-attribution",
+    "contact_sheet_svg_count": 22,
+    "external_attribution_placement": "ATTRIBUTION.md",
+    "failure_count": 0,
+    "failures": [],
+    "inspected_svg_count": 445,
+    "png_derivation": "Every artwork PNG was copied with its SVG; transformed PNGs were rerasterised from the audited SVG at the original pixel dimensions. Every contact sheet was regenerated from those portfolio PNGs.",
+    "removed_visible_path_count": 22340,
+    "schema_version": 1,
+    "scope_note": "Source/licence metadata is intentionally retained; this audit covers copy attached to visible SVG path/text elements.",
+    "status": "passed",
+    "transformed_artifact_count": 351
+  },
+  "pen_job_policy": "excluded-not-distinct-artwork",
+  "plot_manifest_count": 423,
+  "png_count": 423,
+  "schema_version": 1,
+  "source_audit": {
+    "artifact_count": 423,
+    "counts_by_domain": {
+      "01-university-cities-uk": 30,
+      "02-university-cities-us": 20,
+      "03-hiking-maps": 80,
+      "04-marathon-courses": 14,
+      "05-rowing-races": 8,
+      "06-f1-courses": 246,
+      "07-golf-courses": 25
+    }
+  },
+  "status": "assembled-and-format-validated",
+  "svg_count": 423
+}

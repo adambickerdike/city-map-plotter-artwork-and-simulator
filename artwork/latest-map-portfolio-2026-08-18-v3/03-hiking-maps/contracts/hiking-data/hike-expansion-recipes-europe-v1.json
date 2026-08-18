@@ -1,0 +1,242 @@
+{
+  "schema_version": "hike-expansion-recipes-europe-v1",
+  "generated_at": "2026-08-03",
+  "source_catalogue": "/tmp/hiking-additional-15-routes-2026-08-03.json",
+  "purpose": "Machine-actionable, north-up A5 pen-plot recipes for 15 additional European long-distance hikes, with exact Waymarked Trails relation provenance and branch-safe geometry selection.",
+  "coordinate_order": "bbox=[west,south,east,north]",
+  "verification": {
+    "checked_at": "2026-08-03",
+    "waymarked_contract": "GET https://hiking.waymarkedtrails.org/api/v1/details/relation/{relation_id}?lang=en",
+    "osm_contract": "GET https://api.openstreetmap.org/api/0.6/relation/{relation_id}.json",
+    "result": "15/15 exact Waymarked endpoints returned HTTP 200 and non-empty route geometry; 9 are direct route.main recipes and 6 carry explicit component, variant, loop or transfer rules.",
+    "jura_resolution": {
+      "original_candidate": "Jura Crest Trail",
+      "finding": "No single current relation was trustworthy enough to replace the previously identified Jura stage set as one continuous, unambiguous plot source.",
+      "replacement": "Four Headwaters Trail (Vier-Quellen-Weg), SwitzerlandMobility route 49",
+      "replacement_relation_id": 3094421,
+      "reason": "One verified relation, 80.934 km of usable geometry against the current official 82 km / five-stage route."
+    }
+  },
+  "production_defaults": {
+    "paper": {
+      "standard": "ISO A5",
+      "portrait_mm": [148, 210],
+      "landscape_mm": [210, 148],
+      "north_up": true,
+      "fit_mode": "contain_without_rotation",
+      "safe_margin_mm": 8,
+      "map_frame": {
+        "portrait_mm": {"x": 10, "y": 12, "width": 128, "height": 158},
+        "landscape_mm": {"x": 10, "y": 10, "width": 190, "height": 104}
+      },
+      "title_band_position": "below_map"
+    },
+    "pen_plan": [
+      {"layer": "relief", "pen": "Grey 0.25 mm", "stroke_hex": "#9AA1A6"},
+      {"layer": "water_and_coast", "pen": "Blue 0.25 mm", "stroke_hex": "#64A9CF"},
+      {"layer": "vegetation", "pen": "Green 0.25 mm", "stroke_hex": "#79AD8F"},
+      {"layer": "minor_context_and_labels", "pen": "Black 0.25 mm", "stroke_hex": "#667078"},
+      {"layer": "frame_and_title", "pen": "Black 0.60 mm", "stroke_hex": "#202A31"},
+      {"layer": "hiking_route", "pen": "Red 0.40 mm", "stroke_hex": "#D74843"}
+    ],
+    "geometry_rules": {
+      "route_appendices_default": "exclude",
+      "route_simplification_tolerance_on_paper_mm": 0.10,
+      "context_simplification_tolerance_on_paper_mm": 0.22,
+      "minimum_drawable_segment_mm": 0.35,
+      "minimum_label_clearance_from_route_mm": 1.2,
+      "route_line_width_mm": 0.40,
+      "relief_line_width_mm": 0.25,
+      "water_line_width_mm": 0.25,
+      "vegetation_line_width_mm": 0.25,
+      "no_filled_polygons": true,
+      "clip_all_geometry_to_map_frame": true
+    },
+    "context_cap_units": {
+      "contour_paths": "maximum retained contour polylines after clipping and simplification",
+      "hachure_strokes": "maximum individual relief hachure strokes",
+      "water_area_paths": "maximum lake, reservoir, estuary or sea-boundary polygons/paths",
+      "water_line_paths": "maximum rivers, burns, becks or canals",
+      "woodland_area_paths": "maximum woodland boundary paths",
+      "woodland_symbol_strokes": "maximum individual tree/texture strokes",
+      "road_paths": "maximum contextual roads, excluding the hiking route",
+      "place_labels": "maximum settlements, passes and trail-stage places",
+      "peak_labels": "maximum named mountains or high points",
+      "water_labels": "maximum named seas, lochs, lakes, rivers or glaciers",
+      "total_context_path_length_mm": "hard cap on all non-route, non-frame pen travel"
+    },
+    "attribution": {
+      "osm": "OpenStreetMap contributors, ODbL 1.0",
+      "placement": "discreet provenance line or associated product documentation; never omit from the sellable product package",
+      "snapshot_required": true
+    }
+  },
+  "recipes": [
+    {
+      "id": "RTE-GB-ENG-PW-01",
+      "slug": "pennine-way",
+      "official": {"name": "Pennine Way", "distance_km": 431, "reference": "National Trail", "from": "Edale", "to": "Kirk Yetholm", "url": "https://www.nationaltrail.co.uk/en_GB/trails/pennine-way/", "http_status": 200},
+      "a5": {"format": "a5-portrait", "orientation": "portrait", "north_up": true},
+      "osm_relation": {"id": 4080347, "version": 20, "timestamp": "2025-04-30T14:45:30Z", "url": "https://www.openstreetmap.org/relation/4080347"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/4080347?lang=en", "http_status": 200, "name": "Pennine Way", "ref": null, "osm_distance_tag": "431 km", "parsed_official_length_m": 431000, "route_length_m": 411311, "bbox_epsg3857_m": [-285246.86658443505, 7050680.830296199, -202252.3641886811, 7468788.087903292], "bbox_wgs84": [-2.56242, 53.36436, -1.81686, 55.54714], "linear": "sorted", "route_linear": "yes", "main_parts": 11, "appendix_parts": 1, "base_lines": 1274, "vertices": 17913},
+      "geometry_recipe": {"status": "usable_direct", "draw": "route.main recursively", "appendices": "exclude", "direction": "Edale to Kirk Yetholm", "distance_label": "431 km official; plotted OSM geometry 411.3 km"},
+      "context_caps": {"contour_paths": 70, "hachure_strokes": 560, "water_area_paths": 14, "water_line_paths": 18, "woodland_area_paths": 12, "woodland_symbol_strokes": 220, "road_paths": 10, "place_labels": 16, "peak_labels": 6, "water_labels": 7, "total_context_path_length_mm": 5000},
+      "label_seed": {"places": ["Edale", "Hawes", "Middleton-in-Teesdale", "Alston", "Kirk Yetholm"], "peaks": ["Kinder Scout", "Pen-y-ghent", "Cross Fell", "The Cheviot"], "water": ["Torside Reservoir", "River Aire", "River Tees", "South Tyne"]}
+    },
+    {
+      "id": "RTE-GB-ENG-SWCP-01",
+      "slug": "south-west-coast-path",
+      "official": {"name": "South West Coast Path", "distance_km": 1014, "reference": "SWCP / National Trail", "from": "Minehead", "to": "South Haven Point", "url": "https://www.nationaltrail.co.uk/en_GB/trails/south-west-coast-path/trail-information/", "http_status": 200},
+      "a5": {"format": "a5-landscape", "orientation": "landscape", "north_up": true},
+      "osm_relation": {"id": 2376086, "version": 50, "timestamp": "2025-11-29T19:16:52Z", "url": "https://www.openstreetmap.org/relation/2376086"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/2376086?lang=en", "http_status": 200, "name": "South West Coast Path", "ref": "SWCP", "osm_distance_tag": "1013", "parsed_official_length_m": 1013000, "route_length_m": 1032641, "bbox_epsg3857_m": [-636205.2500978708, 6439270.235904805, -214238.21168603646, 6664025.244697937], "bbox_wgs84": [-5.71513, 49.95953, -1.92453, 51.24094], "linear": "sorted", "route_linear": "yes", "main_parts": 52, "appendix_parts": 3, "base_lines": 8064, "vertices": 67649},
+      "geometry_recipe": {"status": "usable_direct", "draw": "route.main recursively", "appendices": "exclude", "direction": "Minehead to South Haven Point", "distance_label": "1,014 km official; plotted OSM geometry 1,032.6 km"},
+      "context_caps": {"contour_paths": 58, "hachure_strokes": 500, "water_area_paths": 16, "water_line_paths": 12, "woodland_area_paths": 10, "woodland_symbol_strokes": 180, "road_paths": 8, "place_labels": 18, "peak_labels": 5, "water_labels": 8, "total_context_path_length_mm": 4800},
+      "label_seed": {"places": ["Minehead", "Ilfracombe", "Padstow", "St Ives", "Penzance", "Falmouth", "Plymouth", "Exmouth", "Weymouth", "South Haven Point"], "peaks": ["Great Hangman", "Selworthy Beacon", "Golden Cap"], "water": ["Bristol Channel", "Atlantic Ocean", "English Channel", "Poole Harbour"]}
+    },
+    {
+      "id": "RTE-GB-ENG-C2C-01",
+      "slug": "coast-to-coast-walk",
+      "official": {"name": "Coast to Coast National Trail", "distance_km": 309, "reference": "C2C / National Trail", "from": "St Bees", "to": "Robin Hood's Bay", "url": "https://www.nationaltrail.co.uk/en_GB/trails/coast-to-coast/", "http_status": 200},
+      "a5": {"format": "a5-landscape", "orientation": "landscape", "north_up": true},
+      "osm_relation": {"id": 12145, "version": 383, "timestamp": "2025-09-28T12:29:44Z", "url": "https://www.openstreetmap.org/relation/12145"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/12145?lang=en", "http_status": 200, "name": "Coast to Coast Walk", "ref": "C2C", "osm_distance_tag": "300 km", "parsed_official_length_m": 300000, "route_length_m": 302138, "bbox_epsg3857_m": [-405102.3915914822, 7240562.01495253, -58068.47653842164, 7273362.809410992], "bbox_wgs84": [-3.63910, 54.37010, -0.52164, 54.54139], "linear": "no", "route_linear": "no", "main_parts": 3, "appendix_parts": 0, "base_lines": 1217, "vertices": 17187},
+      "geometry_recipe": {"status": "usable_normalized", "draw": "all three route.main subrelations [7336321,7336320,7336319]", "appendices": "none", "order": "west-to-east by endpoint proximity", "endpoint_snap_tolerance_m": 250, "distance_label": "309 km official; plotted OSM geometry 302.1 km", "qa": "Reject if the ordered components do not make one St Bees-to-Robin Hood's Bay chain."},
+      "context_caps": {"contour_paths": 72, "hachure_strokes": 620, "water_area_paths": 12, "water_line_paths": 16, "woodland_area_paths": 12, "woodland_symbol_strokes": 220, "road_paths": 10, "place_labels": 16, "peak_labels": 6, "water_labels": 7, "total_context_path_length_mm": 5100},
+      "label_seed": {"places": ["St Bees", "Rosthwaite", "Patterdale", "Kirkby Stephen", "Richmond", "Grosmont", "Robin Hood's Bay"], "peaks": ["Kidsty Pike", "Nine Standards Rigg", "Helvellyn"], "water": ["Irish Sea", "Ennerdale Water", "River Swale", "North Sea"]}
+    },
+    {
+      "id": "RTE-GB-SCT-CWT-01",
+      "slug": "cape-wrath-trail",
+      "official": {"name": "Cape Wrath Trail", "distance_km": 370, "reference": null, "from": "Fort William", "to": "Cape Wrath lighthouse", "url": "https://www.capewrathtrail.org.uk/", "http_status": 200, "scope_note": "Unofficial route with no single sanctioned alignment."},
+      "a5": {"format": "a5-portrait", "orientation": "portrait", "north_up": true},
+      "osm_relation": {"id": 9327615, "version": 16, "timestamp": "2021-05-17T23:50:03Z", "url": "https://www.openstreetmap.org/relation/9327615"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/9327615?lang=en", "http_status": 200, "name": "Cape Wrath Trail", "ref": null, "osm_distance_tag": null, "parsed_official_length_m": null, "route_length_m": 529527, "bbox_epsg3857_m": [-631299.923340218, 7712658.357775087, -525912.8931141976, 8099811.340257715], "bbox_wgs84": [-5.67106, 56.76707, -4.72436, 58.62518], "linear": "no", "route_linear": "no", "main_parts": 8, "appendix_parts": 7, "base_lines": 1018, "vertices": 26329},
+      "geometry_recipe": {"status": "usable_normalized_manual_qa", "draw_selected_member_relations_recursively_main_only": [6334405, 9331377, 9331755, 9332336, 9333761], "selected_length_m": 371327, "exclude_overlapping_main_members": [9327614, 9331992, 9332711], "exclude_top_level_alternates": [9487696, 10302812, 10306630, 10306728, 10306701, 12725389, 10320587], "exclude_all_nested_appendices": true, "endpoint_snap_tolerance_m": 2500, "gap_policy": "Do not draw a straight bridge; resolve any residual named-stage gap through OSM foot-access ways and require visual QA.", "distance_label": "about 370 km; chosen plotted alignment 371.3 km", "qa": "The raw 529.5 km master is forbidden because it double-counts alternatives."},
+      "context_caps": {"contour_paths": 78, "hachure_strokes": 680, "water_area_paths": 18, "water_line_paths": 18, "woodland_area_paths": 12, "woodland_symbol_strokes": 200, "road_paths": 7, "place_labels": 14, "peak_labels": 7, "water_labels": 9, "total_context_path_length_mm": 5200},
+      "label_seed": {"places": ["Fort William", "Glenfinnan", "Morvich", "Kinlochewe", "Ullapool", "Inchnadamph", "Cape Wrath"], "peaks": ["Ben Nevis", "Sgurr na Ciche", "Beinn Eighe", "Suilven", "Foinaven"], "water": ["Loch Linnhe", "Loch Hourn", "Loch Duich", "Sandwood Bay"]}
+    },
+    {
+      "id": "RTE-GB-SCT-SUW-01",
+      "slug": "southern-upland-way",
+      "official": {"name": "Southern Upland Way", "distance_km": 344, "reference": "Scotland's Great Trail", "from": "Portpatrick", "to": "Cockburnspath", "url": "https://www.scotlandsgreattrails.com/trail/southern-upland-way/", "http_status": 200},
+      "a5": {"format": "a5-landscape", "orientation": "landscape", "north_up": true},
+      "osm_relation": {"id": 4736666, "version": 7, "timestamp": "2021-03-06T01:26:05Z", "url": "https://www.openstreetmap.org/relation/4736666"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/4736666?lang=en", "http_status": 200, "name": "Southern Upland Way", "ref": null, "osm_distance_tag": "344", "parsed_official_length_m": 344000, "route_length_m": 348789, "bbox_epsg3857_m": [-572771.4524019404, 7331365.417881109, -258736.55286608197, 7546080.473535099], "bbox_wgs84": [-5.14529, 54.84254, -2.32427, 55.93799], "linear": "sorted", "route_linear": "yes", "main_parts": 3, "appendix_parts": 0, "base_lines": 552, "vertices": 12143},
+      "geometry_recipe": {"status": "usable_direct", "draw": "route.main recursively", "appendices": "none", "direction": "Portpatrick to Cockburnspath", "distance_label": "344 km official; plotted OSM geometry 348.8 km"},
+      "context_caps": {"contour_paths": 66, "hachure_strokes": 560, "water_area_paths": 14, "water_line_paths": 16, "woodland_area_paths": 14, "woodland_symbol_strokes": 240, "road_paths": 9, "place_labels": 15, "peak_labels": 5, "water_labels": 7, "total_context_path_length_mm": 4900},
+      "label_seed": {"places": ["Portpatrick", "New Luce", "Sanquhar", "Wanlockhead", "Moffat", "Melrose", "Cockburnspath"], "peaks": ["Merrick", "Lowther Hill", "Ettrick Pen"], "water": ["Irish Sea", "Loch Trool", "St Mary's Loch", "North Sea"]}
+    },
+    {
+      "id": "RTE-GB-WLS-PCP-01",
+      "slug": "pembrokeshire-coast-path",
+      "official": {"name": "Pembrokeshire Coast Path", "distance_km": 299, "reference": "National Trail", "from": "St Dogmaels", "to": "Amroth", "url": "https://www.nationaltrail.co.uk/en_GB/trails/pembrokeshire-coast-path/", "http_status": 200},
+      "a5": {"format": "a5-portrait", "orientation": "portrait", "north_up": true},
+      "osm_relation": {"id": 77964, "version": 438, "timestamp": "2026-03-02T20:34:09Z", "url": "https://www.openstreetmap.org/relation/77964"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/77964?lang=en", "http_status": 200, "name": "Pembrokeshire Coast Path", "ref": null, "osm_distance_tag": "300", "parsed_official_length_m": 300000, "route_length_m": 285464, "bbox_epsg3857_m": [-592197.6163651911, 6727902.901140687, -517340.0232809206, 6821046.3086968195], "bbox_wgs84": [-5.31980, 51.59878, -4.64734, 52.11555], "linear": "yes", "route_linear": "yes", "main_parts": 1, "appendix_parts": 2, "base_lines": 882, "vertices": 19043},
+      "geometry_recipe": {"status": "usable_direct", "draw": "route.main recursively", "appendices": "exclude", "direction": "St Dogmaels to Amroth", "distance_label": "299 km official; plotted OSM geometry 285.5 km"},
+      "context_caps": {"contour_paths": 62, "hachure_strokes": 520, "water_area_paths": 16, "water_line_paths": 10, "woodland_area_paths": 10, "woodland_symbol_strokes": 180, "road_paths": 8, "place_labels": 15, "peak_labels": 4, "water_labels": 8, "total_context_path_length_mm": 4700},
+      "label_seed": {"places": ["St Dogmaels", "Newport", "St Davids", "Broad Haven", "Pembroke", "Tenby", "Amroth"], "peaks": ["Foel Cwmcerwyn", "Carn Ingli", "Mynydd Dinas"], "water": ["Cardigan Bay", "Irish Sea", "Milford Haven", "Daugleddau Estuary"]}
+    },
+    {
+      "id": "RTE-GB-WLS-ODP-01",
+      "slug": "offas-dyke-path",
+      "official": {"name": "Offa's Dyke Path", "distance_km": 285, "reference": "ODP / National Trail", "from": "Sedbury Cliffs", "to": "Prestatyn", "url": "https://www.nationaltrail.co.uk/en_GB/trails/offas-dyke-path/trail-information/", "http_status": 200},
+      "a5": {"format": "a5-portrait", "orientation": "portrait", "north_up": true},
+      "osm_relation": {"id": 9649, "version": 420, "timestamp": "2026-04-19T11:40:36Z", "url": "https://www.openstreetmap.org/relation/9649"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/9649?lang=en", "http_status": 200, "name": "Offa's Dyke Path", "ref": "ODP", "osm_distance_tag": "285 km", "parsed_official_length_m": 285000, "route_length_m": 285798, "bbox_epsg3857_m": [-379911.0023319969, 6733952.157932046, -294810.1681911981, 7046609.874914777], "bbox_wgs84": [-3.41280, 51.63253, -2.64832, 53.34253], "linear": "sorted", "route_linear": "sorted", "main_parts": 10, "appendix_parts": 1, "base_lines": 977, "vertices": 10748},
+      "geometry_recipe": {"status": "usable_direct", "draw": "route.main recursively", "appendices": "exclude", "direction": "Sedbury Cliffs to Prestatyn", "distance_label": "285 km official; plotted OSM geometry 285.8 km"},
+      "context_caps": {"contour_paths": 68, "hachure_strokes": 570, "water_area_paths": 12, "water_line_paths": 18, "woodland_area_paths": 12, "woodland_symbol_strokes": 210, "road_paths": 10, "place_labels": 16, "peak_labels": 6, "water_labels": 7, "total_context_path_length_mm": 5000},
+      "label_seed": {"places": ["Sedbury Cliffs", "Monmouth", "Hay-on-Wye", "Knighton", "Llangollen", "Prestatyn"], "peaks": ["Black Mountain", "Moel y Gamelin", "Moel Famau"], "water": ["Severn Estuary", "River Wye", "River Dee", "Irish Sea"]}
+    },
+    {
+      "id": "RTE-FR-COR-GR20-01",
+      "slug": "gr20-corsica",
+      "official": {"name": "GR 20", "distance_km": 180, "reference": "GR 20", "from": "Calenzana", "to": "Conca", "url": "https://boutique.ffrandonnee.fr/topoguide/gr20-a-travers-la-montagne-corse", "http_status": 200},
+      "a5": {"format": "a5-portrait", "orientation": "portrait", "north_up": true},
+      "osm_relation": {"id": 101692, "version": 141, "timestamp": "2026-03-09T14:29:13Z", "url": "https://www.openstreetmap.org/relation/101692"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/101692?lang=en", "http_status": 200, "name": "GR 20", "ref": "GR 20", "osm_distance_tag": null, "parsed_official_length_m": null, "route_length_m": 183631, "bbox_epsg3857_m": [985144.4316317056, 5121333.271759698, 1039055.770842045, 5237404.938964773], "bbox_wgs84": [8.84970, 41.73478, 9.33400, 42.50815], "linear": "yes", "route_linear": "yes", "main_parts": 1, "appendix_parts": 1, "base_lines": 169, "vertices": 9808},
+      "geometry_recipe": {"status": "usable_direct", "draw": "route.main recursively", "appendices": "exclude", "direction": "Calenzana to Conca", "distance_label": "about 180 km official; plotted OSM geometry 183.6 km"},
+      "context_caps": {"contour_paths": 108, "hachure_strokes": 820, "water_area_paths": 10, "water_line_paths": 14, "woodland_area_paths": 10, "woodland_symbol_strokes": 200, "road_paths": 7, "place_labels": 14, "peak_labels": 8, "water_labels": 6, "total_context_path_length_mm": 5900},
+      "label_seed": {"places": ["Calenzana", "Asco", "Vizzavona", "Bavella", "Conca"], "peaks": ["Monte Cinto", "Paglia Orba", "Monte d'Oro", "Monte Renoso"], "water": ["Lac de Nino", "Lac de Melo", "Lac de Capitello", "Mediterranean Sea"]}
+    },
+    {
+      "id": "RTE-EU-TMB-LOOP-01",
+      "slug": "tour-du-mont-blanc",
+      "official": {"name": "Tour du Mont Blanc", "distance_km": 170, "reference": "TMB", "from": "loop", "to": "loop", "url": "https://www.montourdumontblanc.com/fr/", "http_status": 200},
+      "a5": {"format": "a5-portrait", "orientation": "portrait", "north_up": true},
+      "osm_relation": {"id": 124456, "version": 252, "timestamp": "2025-01-15T20:03:14Z", "url": "https://www.openstreetmap.org/relation/124456"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/124456?lang=en", "http_status": 200, "name": "Tour du Mont Blanc", "ref": "TMB", "osm_distance_tag": null, "parsed_official_length_m": null, "route_length_m": 165828, "bbox_epsg3857_m": [746575.8312877243, 5731843.788078609, 793520.9971393042, 5789724.130976805], "bbox_wgs84": [6.70660, 45.69649, 7.12832, 46.05847], "linear": "sorted", "route_linear": "yes", "main_parts": 1, "appendix_parts": 7, "base_lines": 972, "vertices": 25560},
+      "geometry_recipe": {"status": "usable_direct", "draw": "route.main recursively as closed circuit", "appendices": "exclude all seven variants", "roundtrip": true, "closure_snap_tolerance_m": 100, "distance_label": "over 170 km official; plotted main circuit 165.8 km"},
+      "context_caps": {"contour_paths": 112, "hachure_strokes": 900, "water_area_paths": 10, "water_line_paths": 14, "woodland_area_paths": 10, "woodland_symbol_strokes": 210, "road_paths": 8, "place_labels": 15, "peak_labels": 8, "water_labels": 6, "total_context_path_length_mm": 6100},
+      "label_seed": {"places": ["Les Houches", "Courmayeur", "La Fouly", "Champex", "Trient"], "peaks": ["Mont Blanc", "Grandes Jorasses", "Aiguille de Bionnassay", "Mont Dolent"], "water": ["Arve", "Dora Baltea", "Dranse de Ferret", "Glacier du Miage"]}
+    },
+    {
+      "id": "RTE-EU-WHR-01",
+      "slug": "walkers-haute-route",
+      "official": {"name": "Walker's Haute Route", "distance_km": 200, "reference": "WHR", "from": "Chamonix", "to": "Zermatt", "url": "https://www.chamonix.net/english/summer-activities/trekking/haute-route", "http_status": 200, "scope_note": "Published totals vary with chosen stages and variants; 200 km is the product reference."},
+      "a5": {"format": "a5-landscape", "orientation": "landscape", "north_up": true},
+      "osm_relation": {"id": 3020521, "version": 241, "timestamp": "2026-06-26T17:38:40Z", "url": "https://www.openstreetmap.org/relation/3020521"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/3020521?lang=en", "http_status": 200, "name": "Walker's Haute Route", "ref": "WHR", "osm_distance_tag": null, "parsed_official_length_m": null, "route_length_m": 209116, "bbox_epsg3857_m": [764676.5586018959, 5768017.898583407, 869738.1462965821, 5816380.114836454], "bbox_wgs84": [6.86921, 45.92300, 7.81299, 46.22438], "linear": "no", "route_linear": "no", "main_parts": 23, "appendix_parts": 6, "base_lines": 1021, "vertices": 25872},
+      "geometry_recipe": {"status": "usable_normalized", "draw": "all 23 route.main stage relations in Chamonix-to-Zermatt endpoint order", "appendices": "exclude all six alternates", "endpoint_snap_tolerance_m": 300, "distance_label": "about 200 km; plotted selected stages 209.1 km", "qa": "Require a single west-to-east chain and reject any duplicated stage before rendering."},
+      "context_caps": {"contour_paths": 106, "hachure_strokes": 850, "water_area_paths": 10, "water_line_paths": 14, "woodland_area_paths": 9, "woodland_symbol_strokes": 180, "road_paths": 8, "place_labels": 15, "peak_labels": 8, "water_labels": 6, "total_context_path_length_mm": 5900},
+      "label_seed": {"places": ["Chamonix", "Argentiere", "Verbier", "Arolla", "Gruben", "Zermatt"], "peaks": ["Mont Blanc", "Grand Combin", "Weisshorn", "Matterhorn"], "water": ["Lac de Moiry", "Lac des Dix", "Glacier d'Otemma", "Zinal Glacier"]}
+    },
+    {
+      "id": "RTE-CH-4HW-49",
+      "slug": "four-headwaters-trail",
+      "official": {"name": "Four Headwaters Trail (Vier-Quellen-Weg)", "distance_km": 82, "reference": "SwitzerlandMobility 49", "from": "Andermatt / Oberalp Pass", "to": "Furka Pass / Belvedere", "stages": 5, "url": "https://schweizmobil.ch/en/hiking-in-switzerland/route-49", "http_status": 200},
+      "a5": {"format": "a5-landscape", "orientation": "landscape", "north_up": true},
+      "osm_relation": {"id": 3094421, "version": 94, "timestamp": "2026-07-14T12:37:20Z", "url": "https://www.openstreetmap.org/relation/3094421"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/3094421?lang=en", "http_status": 200, "name": "Vier-Quellen-Weg", "ref": "49", "osm_distance_tag": "81", "parsed_official_length_m": 81000, "route_length_m": 80934, "bbox_epsg3857_m": [925907.7572249501, 5855965.537802608, 967122.9303991315, 5886723.051763248], "bbox_wgs84": [8.317571, 46.469851, 8.687813, 46.659816], "linear": "no", "route_linear": "no", "main_parts": 3, "appendix_parts": 2, "base_lines": 218, "vertices": 7054},
+      "geometry_recipe": {"status": "usable_normalized", "draw": "all three route.main linear components in endpoint order", "appendices": "exclude two endpoint stubs totalling 238 m", "endpoint_snap_tolerance_m": 150, "distance_label": "82 km official; plotted OSM geometry 80.9 km", "qa": "The 605 m middle main component is retained as a connector, not treated as an alternative."},
+      "context_caps": {"contour_paths": 104, "hachure_strokes": 820, "water_area_paths": 12, "water_line_paths": 16, "woodland_area_paths": 8, "woodland_symbol_strokes": 150, "road_paths": 8, "place_labels": 13, "peak_labels": 8, "water_labels": 8, "total_context_path_length_mm": 5700},
+      "label_seed": {"places": ["Andermatt", "Oberalp Pass", "Gotthard Pass", "Nufenen Pass", "Furka Pass"], "peaks": ["Piz Badus", "Pizzo Rotondo", "Dammastock", "Galenstock"], "water": ["Lai da Tuma / Rhine source", "Reuss source", "Ticino source", "Rhone Glacier", "Lago di Lucendro"], "ranges": ["Gotthard Massif", "Uri Alps", "Lepontine Alps"]},
+      "dem": {"name": "swissALTI3D", "url": "https://www.swisstopo.admin.ch/en/height-model-swissalti3d", "terms_url": "https://www.swisstopo.admin.ch/en/terms-of-use-free-geodata"}
+    },
+    {
+      "id": "RTE-IT-DOL-AV1-01",
+      "slug": "alta-via-1-dolomites",
+      "official": {"name": "Alta Via 1 delle Dolomiti", "distance_km": 125, "reference": "AV1", "from": "Lago di Braies", "to": "Belluno", "url": "https://www.dolomitibelluno.it/en/things-to-do/alte-vie/alta-via-n-1/", "http_status": 200},
+      "a5": {"format": "a5-portrait", "orientation": "portrait", "north_up": true},
+      "osm_relation": {"id": 177743, "version": 191, "timestamp": "2026-07-11T13:58:34Z", "url": "https://www.openstreetmap.org/relation/177743"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/177743?lang=en", "http_status": 200, "name": "Alta via n. 1 delle Dolomiti - Dolomiten-Höhenweg Nr. 1", "ref": "AV1", "osm_distance_tag": "125", "parsed_official_length_m": 125000, "route_length_m": 117885, "bbox_epsg3857_m": [1334037.5268963517, 5802489.695611787, 1359984.6641788327, 5893226.214525294], "bbox_wgs84": [11.98386, 46.13799, 12.21695, 46.69990], "linear": "sorted", "route_linear": "sorted", "main_parts": 10, "appendix_parts": 13, "base_lines": 391, "vertices": 11909},
+      "geometry_recipe": {"status": "usable_direct", "draw": "route.main recursively", "appendices": "exclude all 13 variants", "direction": "Lago di Braies to Belluno", "distance_label": "125 km official; plotted main alignment 117.9 km"},
+      "context_caps": {"contour_paths": 110, "hachure_strokes": 860, "water_area_paths": 10, "water_line_paths": 12, "woodland_area_paths": 10, "woodland_symbol_strokes": 190, "road_paths": 8, "place_labels": 14, "peak_labels": 8, "water_labels": 6, "total_context_path_length_mm": 6000},
+      "label_seed": {"places": ["Lago di Braies", "Fanes", "Cortina d'Ampezzo", "Passo Giau", "Belluno"], "peaks": ["Croda Rossa", "Tofane", "Pelmo", "Civetta"], "water": ["Lago di Braies", "Lago di Limo", "Cordevole", "Piave"]}
+    },
+    {
+      "id": "RTE-SE-KUNGS-01",
+      "slug": "kungsleden",
+      "official": {"name": "Kungsleden", "distance_km": 450, "reference": "KL", "from": "Abisko", "to": "Hemavan", "url": "https://www.swedishtouristassociation.com/trails/kungsleden/", "http_status": 200},
+      "a5": {"format": "a5-portrait", "orientation": "portrait", "north_up": true},
+      "osm_relation": {"id": 1657661, "version": 116, "timestamp": "2025-04-20T22:16:07Z", "url": "https://www.openstreetmap.org/relation/1657661"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/1657661?lang=en", "http_status": 200, "name": "Kungsleden (summer)", "ref": "KL", "osm_distance_tag": null, "parsed_official_length_m": null, "route_length_m": 540310, "bbox_epsg3857_m": [1679466.2705519188, 9826269.61501627, 2116538.9742461825, 10554627.908128249], "bbox_wgs84": [15.08690, 65.81453, 19.01319, 68.35937], "linear": "yes", "route_linear": "yes", "main_parts": 31, "appendix_parts": 0, "base_lines": 452, "vertices": 13423},
+      "geometry_recipe": {"status": "usable_normalized", "draw_main_stage_relations_except": [17085819, 17085818, 17085817, 17085816, 18864010], "exclude_reason": {"17085819,17085818,17085817,17085816": "Singi-Kebnekaise-Nikkaluokta out-and-back spur/retrace, 65.552 km", "18864010": "Vakkotavare-Saltoluokta non-walking transfer, 32.316 km"}, "selected_walking_length_m": 442442, "draw_transfer_relation": {"relation_id": 18864010, "style": "Grey 0.25 mm dashed 1.5/1.0 mm", "label": "road/ferry transfer", "do_not_count_as_walked_route": true}, "appendices": "none", "direction": "Abisko to Hemavan", "distance_label": "about 450 km; selected walking geometry 442.4 km", "qa": "The raw 540.3 km relation is forbidden because it includes the Nikkaluokta out-and-back and transport link."},
+      "context_caps": {"contour_paths": 72, "hachure_strokes": 600, "water_area_paths": 18, "water_line_paths": 20, "woodland_area_paths": 12, "woodland_symbol_strokes": 190, "road_paths": 5, "place_labels": 17, "peak_labels": 7, "water_labels": 9, "total_context_path_length_mm": 5100},
+      "label_seed": {"places": ["Abisko", "Alesjaure", "Singi", "Vakkotavare", "Saltoluokta", "Kvikkjokk", "Jakkvik", "Ammarnas", "Hemavan"], "peaks": ["Kebnekaise", "Sarektjakka", "Norra Sytertoppen"], "water": ["Tornetrask", "Alesjaure", "Teusajaure", "Langas", "Tarnasjon"]}
+    },
+    {
+      "id": "RTE-EU-POB-LOOP-01",
+      "slug": "peaks-of-the-balkans",
+      "official": {"name": "Peaks of the Balkans", "distance_km": 192, "reference": "POB", "from": "cross-border loop", "to": "cross-border loop", "url": "https://www.plavto.me/en/tourist-offer/peaks-of-the-balkans/", "http_status": 200, "scope_note": "Classic loop distance; signed variants and current reroutes may differ."},
+      "a5": {"format": "a5-portrait", "orientation": "portrait", "north_up": true},
+      "osm_relation": {"id": 4726204, "version": 190, "timestamp": "2026-05-17T05:54:07Z", "url": "https://www.openstreetmap.org/relation/4726204"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/4726204?lang=en", "http_status": 200, "name": "Peaks of the Balkans", "ref": "POB", "osm_distance_tag": "179", "parsed_official_length_m": 179000, "route_length_m": 194548, "bbox_epsg3857_m": [2199460.4955837727, 5221117.500915887, 2244502.8773792232, 5272936.644045655], "bbox_wgs84": [19.75809, 42.40020, 20.16271, 42.74301], "linear": "no", "route_linear": "no", "main_parts": 8, "appendix_parts": 3, "base_lines": 281, "vertices": 11342},
+      "geometry_recipe": {"status": "usable_direct_loop", "draw": "all eight route.main components as one circuit", "appendices": "exclude three stubs totalling 1.416 km", "roundtrip": true, "closure_snap_tolerance_m": 200, "distance_label": "192 km classic loop; plotted OSM circuit 194.5 km", "qa": "Non-linear status is expected for a loop; reject only duplicate edges or a closure gap over tolerance."},
+      "context_caps": {"contour_paths": 110, "hachure_strokes": 880, "water_area_paths": 10, "water_line_paths": 14, "woodland_area_paths": 10, "woodland_symbol_strokes": 190, "road_paths": 7, "place_labels": 14, "peak_labels": 8, "water_labels": 6, "total_context_path_length_mm": 6000},
+      "label_seed": {"places": ["Theth", "Valbona", "Cerem", "Doberdol", "Milishevc", "Rugova", "Plav"], "peaks": ["Maja Jezerca", "Gjeravica", "Maja e Ropës"], "water": ["Lake Plav", "Valbona River", "Theth River", "Rugova Gorge"]}
+    },
+    {
+      "id": "RTE-ES-MAL-GR221-01",
+      "slug": "gr221-ruta-de-pedra-en-sec",
+      "official": {"name": "Ruta de Pedra en Sec GR 221", "distance_km": 150.1, "reference": "GR 221", "from": "Port d'Andratx", "to": "Pollenca", "url": "https://caminsdepedra.conselldemallorca.es/en/dry-stone-route-gr-221", "http_status": 200, "scope_note": "Official project total; the mapped open alignment is shorter."},
+      "a5": {"format": "a5-landscape", "orientation": "landscape", "north_up": true},
+      "osm_relation": {"id": 16358020, "version": 1, "timestamp": "2023-09-21T09:37:33Z", "url": "https://www.openstreetmap.org/relation/16358020"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/16358020?lang=en", "http_status": 200, "name": "GR 221 Ruta de Pedra en Sec", "ref": "GR 221", "osm_distance_tag": null, "parsed_official_length_m": null, "route_length_m": 135976, "bbox_epsg3857_m": [262826.3752980815, 4807874.505413153, 343163.3808859748, 4852343.113487245], "bbox_wgs84": [2.36101, 39.59924, 3.08269, 39.90635], "linear": "no", "route_linear": "no", "main_parts": 8, "appendix_parts": 0, "base_lines": 445, "vertices": 8449},
+      "geometry_recipe": {"status": "usable_normalized_scope_disclosure", "draw": "all eight route.main stage relations [16357771,16357770,16357769,16358019,16358018,16358017,16358016,10289403]", "appendices": "none", "order": "Port d'Andratx to Pollenca by endpoint proximity", "endpoint_snap_tolerance_m": 250, "distance_label": "135.98 km mapped alignment", "official_distance_provenance_only": "150.1 km official project route", "qa": "Do not invent geometry to close the 14.1 km official-versus-OSM scope difference; disclose it and freeze the child relation revisions."},
+      "context_caps": {"contour_paths": 88, "hachure_strokes": 700, "water_area_paths": 10, "water_line_paths": 10, "woodland_area_paths": 12, "woodland_symbol_strokes": 210, "road_paths": 8, "place_labels": 15, "peak_labels": 7, "water_labels": 6, "total_context_path_length_mm": 5400},
+      "label_seed": {"places": ["Port d'Andratx", "Estellencs", "Esporles", "Valldemossa", "Deia", "Soller", "Lluc", "Pollenca"], "peaks": ["Puig Major", "Massanella", "Teix", "Galatzo"], "water": ["Mediterranean Sea", "Cuber Reservoir", "Gorg Blau"]}
+    }
+  ]
+}

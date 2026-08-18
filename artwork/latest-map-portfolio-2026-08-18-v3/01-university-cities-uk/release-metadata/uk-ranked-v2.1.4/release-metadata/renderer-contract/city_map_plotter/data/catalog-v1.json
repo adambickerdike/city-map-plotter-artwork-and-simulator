@@ -1,0 +1,4288 @@
+{
+  "schema_version": 1,
+  "catalog_version": "2026.08.1",
+  "as_of": "2026-08-01",
+  "coordinate_provenance": {
+    "note": "Campus coordinates use Wikidata P625 seed points; city coordinates are manually verified WGS84 centres. They are framing seeds, not authoritative boundaries.",
+    "source_urls": [
+      "https://www.wikidata.org/",
+      "https://www.openstreetmap.org/copyright"
+    ]
+  },
+  "collections": [
+    {
+      "id": "uk-russell-group",
+      "title": "All Russell Group universities",
+      "kind": "university",
+      "scope": "United Kingdom",
+      "as_of": "2026-08-01",
+      "methodology": "Complete current Russell Group membership. Entries are institutions, not de-duplicated cities, so the five London members remain distinct memorabilia subjects. Positions are alphabetical and are not ranks.",
+      "source_urls": [
+        "https://www.russellgroup.ac.uk/our-universities"
+      ],
+      "entries": [
+        {
+          "subject_id": "uk-university-birmingham",
+          "position": 1,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-bristol",
+          "position": 2,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-cambridge",
+          "position": 3,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-cardiff",
+          "position": 4,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-durham",
+          "position": 5,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-edinburgh",
+          "position": 6,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-exeter",
+          "position": 7,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-glasgow",
+          "position": 8,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-imperial",
+          "position": 9,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-kings",
+          "position": 10,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-leeds",
+          "position": 11,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-liverpool",
+          "position": 12,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-lse",
+          "position": 13,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-manchester",
+          "position": 14,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-newcastle",
+          "position": 15,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-nottingham",
+          "position": 16,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-oxford",
+          "position": 17,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-queen-mary",
+          "position": 18,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-queens-belfast",
+          "position": 19,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-sheffield",
+          "position": 20,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-southampton",
+          "position": 21,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-ucl",
+          "position": 22,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-warwick",
+          "position": 23,
+          "membership": "Russell Group"
+        },
+        {
+          "subject_id": "uk-university-york",
+          "position": 24,
+          "membership": "Russell Group"
+        }
+      ]
+    },
+    {
+      "id": "us-student-cities-qs-2027",
+      "title": "All U.S. cities in QS Best Student Cities 2027",
+      "kind": "student_city",
+      "scope": "United States",
+      "as_of": "2026-08-01",
+      "methodology": "Complete U.S. subset of QS Best Student Cities 2027, ordered by global overall rank. QS requires a qualifying city to exceed 250,000 people and contain at least two universities in the current QS World University Rankings.",
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings?countries=United+States",
+        "https://www.qs.com/insights/best-student-cities",
+        "https://www.topuniversities.com/best-student-cities/methodology"
+      ],
+      "entries": [
+        {
+          "subject_id": "us-city-boston",
+          "position": 1,
+          "rank": "18",
+          "score": 87.6,
+          "edition": 2027
+        },
+        {
+          "subject_id": "us-city-new-york",
+          "position": 2,
+          "rank": "=23",
+          "score": 84.7,
+          "edition": 2027
+        },
+        {
+          "subject_id": "us-city-los-angeles",
+          "position": 3,
+          "rank": "42",
+          "score": 79.6,
+          "edition": 2027
+        },
+        {
+          "subject_id": "us-city-san-francisco",
+          "position": 4,
+          "rank": "44",
+          "score": 78.9,
+          "edition": 2027
+        },
+        {
+          "subject_id": "us-city-chicago",
+          "position": 5,
+          "rank": "46",
+          "score": 75.6,
+          "edition": 2027
+        },
+        {
+          "subject_id": "us-city-philadelphia",
+          "position": 6,
+          "rank": "73",
+          "score": 67.6,
+          "edition": 2027
+        },
+        {
+          "subject_id": "us-city-washington-dc",
+          "position": 7,
+          "rank": "=81",
+          "score": 64.5,
+          "edition": 2027
+        },
+        {
+          "subject_id": "us-city-atlanta",
+          "position": 8,
+          "rank": "83",
+          "score": 63.7,
+          "edition": 2027
+        },
+        {
+          "subject_id": "us-city-pittsburgh",
+          "position": 9,
+          "rank": "=84",
+          "score": 63.6,
+          "edition": 2027
+        },
+        {
+          "subject_id": "us-city-san-diego",
+          "position": 10,
+          "rank": "92",
+          "score": 61.7,
+          "edition": 2027
+        },
+        {
+          "subject_id": "us-city-baltimore",
+          "position": 11,
+          "rank": "104",
+          "score": 59.9,
+          "edition": 2027
+        },
+        {
+          "subject_id": "us-city-seattle",
+          "position": 12,
+          "rank": "106",
+          "score": 59.6,
+          "edition": 2027
+        },
+        {
+          "subject_id": "us-city-houston",
+          "position": 13,
+          "rank": "121",
+          "score": 54.3,
+          "edition": 2027
+        },
+        {
+          "subject_id": "us-city-miami",
+          "position": 14,
+          "rank": "=138",
+          "score": 50.1,
+          "edition": 2027
+        }
+      ]
+    },
+    {
+      "id": "us-top-100-campus-cities-qs-2027",
+      "title": "U.S. top-100 university campus localities omitted by the QS city criterion",
+      "kind": "student_city",
+      "scope": "United States",
+      "as_of": "2026-08-01",
+      "methodology": "Adds the primary-campus locality of every U.S. institution in the global QS World University Rankings 2027 top 100 when that locality is absent from the QS U.S. student-city list. This restores commercially important smaller college towns without misrepresenting them as ranked QS student cities.",
+      "source_urls": [
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://www.topuniversities.com/best-student-cities/methodology"
+      ],
+      "entries": [
+        {
+          "subject_id": "us-campus-city-cambridge-ma",
+          "position": 1,
+          "rank": "1",
+          "edition": 2027,
+          "featured_institution": "Massachusetts Institute of Technology"
+        },
+        {
+          "subject_id": "us-campus-city-stanford-palo-alto",
+          "position": 2,
+          "rank": "=2",
+          "edition": 2027,
+          "featured_institution": "Stanford University"
+        },
+        {
+          "subject_id": "us-campus-city-pasadena",
+          "position": 3,
+          "rank": "7",
+          "edition": 2027,
+          "featured_institution": "California Institute of Technology"
+        },
+        {
+          "subject_id": "us-campus-city-ithaca",
+          "position": 4,
+          "rank": "=16",
+          "edition": 2027,
+          "featured_institution": "Cornell University"
+        },
+        {
+          "subject_id": "us-campus-city-new-haven",
+          "position": 5,
+          "rank": "=16",
+          "edition": 2027,
+          "featured_institution": "Yale University"
+        },
+        {
+          "subject_id": "us-campus-city-berkeley",
+          "position": 6,
+          "rank": "=20",
+          "edition": 2027,
+          "featured_institution": "University of California, Berkeley"
+        },
+        {
+          "subject_id": "us-campus-city-princeton",
+          "position": 7,
+          "rank": "27",
+          "edition": 2027,
+          "featured_institution": "Princeton University"
+        },
+        {
+          "subject_id": "us-campus-city-evanston",
+          "position": 8,
+          "rank": "=45",
+          "edition": 2027,
+          "featured_institution": "Northwestern University"
+        },
+        {
+          "subject_id": "us-campus-city-ann-arbor",
+          "position": 9,
+          "rank": "51",
+          "edition": 2027,
+          "featured_institution": "University of Michigan"
+        },
+        {
+          "subject_id": "us-campus-city-providence",
+          "position": 10,
+          "rank": "66",
+          "edition": 2027,
+          "featured_institution": "Brown University"
+        },
+        {
+          "subject_id": "us-campus-city-durham-nc",
+          "position": 11,
+          "rank": "70",
+          "edition": 2027,
+          "featured_institution": "Duke University"
+        },
+        {
+          "subject_id": "us-campus-city-austin",
+          "position": 12,
+          "rank": "72",
+          "edition": 2027,
+          "featured_institution": "University of Texas at Austin"
+        },
+        {
+          "subject_id": "us-campus-city-champaign-urbana",
+          "position": 13,
+          "rank": "74",
+          "edition": 2027,
+          "featured_institution": "University of Illinois Urbana-Champaign"
+        },
+        {
+          "subject_id": "us-campus-city-state-college",
+          "position": 14,
+          "rank": "=92",
+          "edition": 2027,
+          "featured_institution": "Pennsylvania State University"
+        },
+        {
+          "subject_id": "us-campus-city-west-lafayette",
+          "position": 15,
+          "rank": "=100",
+          "edition": 2027,
+          "featured_institution": "Purdue University"
+        }
+      ]
+    },
+    {
+      "id": "europe-student-cities-qs-2027",
+      "title": "Top 25 non-UK European student cities",
+      "kind": "student_city",
+      "scope": "Europe excluding the United Kingdom",
+      "as_of": "2026-08-01",
+      "methodology": "First 25 European entries outside the United Kingdom in QS Best Student Cities 2027, ordered by global overall rank. The UK is excluded here because Russell Group institutions have their own collection.",
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings",
+        "https://www.qs.com/insights/best-student-cities",
+        "https://www.topuniversities.com/best-student-cities/methodology"
+      ],
+      "entries": [
+        {
+          "subject_id": "eu-city-munich",
+          "position": 1,
+          "rank": "=5",
+          "score": 94.1,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-paris",
+          "position": 2,
+          "rank": "7",
+          "score": 92.5,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-berlin",
+          "position": 3,
+          "rank": "8",
+          "score": 91.8,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-vienna",
+          "position": 4,
+          "rank": "9",
+          "score": 90.9,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-zurich",
+          "position": 5,
+          "rank": "10",
+          "score": 90.6,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-amsterdam",
+          "position": 6,
+          "rank": "19",
+          "score": 86.8,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-lausanne",
+          "position": 7,
+          "rank": "=23",
+          "score": 84.7,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-stockholm",
+          "position": 8,
+          "rank": "25",
+          "score": 84.6,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-prague",
+          "position": 9,
+          "rank": "27",
+          "score": 84,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-copenhagen",
+          "position": 10,
+          "rank": "28",
+          "score": 83.4,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-madrid",
+          "position": 11,
+          "rank": "29",
+          "score": 83.2,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-barcelona",
+          "position": 12,
+          "rank": "32",
+          "score": 81.8,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-dublin",
+          "position": 13,
+          "rank": "=35",
+          "score": 80.6,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-leuven",
+          "position": 14,
+          "rank": "=35",
+          "score": 80.6,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-milan",
+          "position": 15,
+          "rank": "39",
+          "score": 80.1,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-rome",
+          "position": 16,
+          "rank": "47",
+          "score": 74.5,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-gothenburg",
+          "position": 17,
+          "rank": "51",
+          "score": 74,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-lisbon",
+          "position": 18,
+          "rank": "56",
+          "score": 73.2,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-warsaw",
+          "position": 19,
+          "rank": "58",
+          "score": 72.5,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-brussels",
+          "position": 20,
+          "rank": "=61",
+          "score": 71.4,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-brno",
+          "position": 21,
+          "rank": "63",
+          "score": 71.3,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-budapest",
+          "position": 22,
+          "rank": "64",
+          "score": 70.3,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-turin",
+          "position": 23,
+          "rank": "66",
+          "score": 70,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-helsinki",
+          "position": 24,
+          "rank": "68",
+          "score": 69.7,
+          "edition": 2027
+        },
+        {
+          "subject_id": "eu-city-lyon",
+          "position": 25,
+          "rank": "71",
+          "score": 69,
+          "edition": 2027
+        }
+      ]
+    },
+    {
+      "id": "global-marathons-core-2026",
+      "title": "30 globally significant marathon map candidates",
+      "kind": "marathon",
+      "scope": "Global",
+      "as_of": "2026-08-01",
+      "methodology": "Recurring races from positions 1–30 of the World Athletics 2025 combined men's/women's Marathon Competition Performance Ranking; excludes the one-off #17 Brussels–Leuven European Running Championships route and adds Cape Town because Abbott World Marathon Majors confirmed it as the eighth Major from 2027. Status labels are checked against the 2026 World Athletics Label calendar. This is an auditable elite-performance core, not a popularity poll.",
+      "audit": {
+        "geographic_distribution": {
+          "Europe": 12,
+          "Asia": 8,
+          "North America": 5,
+          "Middle East": 3,
+          "Africa": 1,
+          "Oceania": 1,
+          "South America": 0
+        },
+        "limitations": [
+          "The World Athletics competition-performance method emphasizes elite fields and results rather than participant demand, heritage, scenery, or memorabilia appeal.",
+          "A combined men's/women's ranking disadvantages women-only races; Nagoya Women's Marathon and Osaka Women's Marathon are 2026 Platinum races but are outside this core.",
+          "The core has no South American race and should not be presented as geographically representative."
+        ],
+        "memorabilia_expansion_candidates": [
+          "Athens Marathon — The Authentic",
+          "Nagoya Women's Marathon",
+          "Osaka Women's Marathon",
+          "Buenos Aires Marathon",
+          "Rio de Janeiro Marathon",
+          "Mexico City Marathon",
+          "Mumbai Marathon",
+          "Rome Marathon",
+          "Dublin Marathon"
+        ]
+      },
+      "source_urls": [
+        "https://worldathletics.org/records/competition-performance-rankings?page=1&sortBy=score&type=7&year=2025",
+        "https://worldathletics.org/competitions/world-athletics-label-road-races/calendar-results",
+        "https://www.worldmarathonmajors.com/content-hub/sanlam-cape-town-marathon-becomes-a-major"
+      ],
+      "entries": [
+        {
+          "subject_id": "marathon-london",
+          "position": 1,
+          "rank": "1",
+          "ranking_year": 2025,
+          "wa_label_2026": "Platinum",
+          "major_status": "active"
+        },
+        {
+          "subject_id": "marathon-chicago",
+          "position": 2,
+          "rank": "2",
+          "ranking_year": 2025,
+          "wa_label_2026": "Platinum",
+          "major_status": "active"
+        },
+        {
+          "subject_id": "marathon-tokyo",
+          "position": 3,
+          "rank": "3",
+          "ranking_year": 2025,
+          "wa_label_2026": "Platinum",
+          "major_status": "active"
+        },
+        {
+          "subject_id": "marathon-valencia",
+          "position": 4,
+          "rank": "4",
+          "ranking_year": 2025,
+          "wa_label_2026": "Platinum",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-boston",
+          "position": 5,
+          "rank": "5",
+          "ranking_year": 2025,
+          "wa_label_2026": "Platinum",
+          "major_status": "active"
+        },
+        {
+          "subject_id": "marathon-amsterdam",
+          "position": 6,
+          "rank": "6",
+          "ranking_year": 2025,
+          "wa_label_2026": "Platinum",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-hamburg",
+          "position": 7,
+          "rank": "7",
+          "ranking_year": 2025,
+          "wa_label_2026": "Not listed",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-berlin",
+          "position": 8,
+          "rank": "8",
+          "ranking_year": 2025,
+          "wa_label_2026": "Platinum",
+          "major_status": "active"
+        },
+        {
+          "subject_id": "marathon-shanghai",
+          "position": 9,
+          "rank": "9",
+          "ranking_year": 2025,
+          "wa_label_2026": "Platinum",
+          "major_status": "candidate"
+        },
+        {
+          "subject_id": "marathon-new-york",
+          "position": 10,
+          "rank": "10",
+          "ranking_year": 2025,
+          "wa_label_2026": "Platinum",
+          "major_status": "active"
+        },
+        {
+          "subject_id": "marathon-sydney",
+          "position": 11,
+          "rank": "11",
+          "ranking_year": 2025,
+          "wa_label_2026": "Platinum",
+          "major_status": "active"
+        },
+        {
+          "subject_id": "marathon-barcelona",
+          "position": 12,
+          "rank": "12",
+          "ranking_year": 2025,
+          "wa_label_2026": "Elite",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-dubai",
+          "position": 13,
+          "rank": "13",
+          "ranking_year": 2025,
+          "wa_label_2026": "Label",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-rotterdam",
+          "position": 14,
+          "rank": "14",
+          "ranking_year": 2025,
+          "wa_label_2026": "Gold",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-seoul",
+          "position": 15,
+          "rank": "15",
+          "ranking_year": 2025,
+          "wa_label_2026": "Platinum",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-xiamen",
+          "position": 16,
+          "rank": "16",
+          "ranking_year": 2025,
+          "wa_label_2026": "Platinum",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-paris",
+          "position": 17,
+          "rank": "18",
+          "ranking_year": 2025,
+          "wa_label_2026": "Gold",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-daegu",
+          "position": 18,
+          "rank": "19",
+          "ranking_year": 2025,
+          "wa_label_2026": "Gold",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-frankfurt",
+          "position": 19,
+          "rank": "20",
+          "ranking_year": 2025,
+          "wa_label_2026": "Not listed",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-osaka",
+          "position": 20,
+          "rank": "21",
+          "ranking_year": 2025,
+          "wa_label_2026": "Gold",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-seville",
+          "position": 21,
+          "rank": "=22",
+          "ranking_year": 2025,
+          "wa_label_2026": "Elite",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-wuxi",
+          "position": 22,
+          "rank": "=22",
+          "ranking_year": 2025,
+          "wa_label_2026": "Gold",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-prague",
+          "position": 23,
+          "rank": "24",
+          "ranking_year": 2025,
+          "wa_label_2026": "Elite",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-doha",
+          "position": 24,
+          "rank": "25",
+          "ranking_year": 2025,
+          "wa_label_2026": "Gold",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-kosice",
+          "position": 25,
+          "rank": "26",
+          "ranking_year": 2025,
+          "wa_label_2026": "Label",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-houston",
+          "position": 26,
+          "rank": "27",
+          "ranking_year": 2025,
+          "wa_label_2026": "Gold",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-abu-dhabi",
+          "position": 27,
+          "rank": "28",
+          "ranking_year": 2025,
+          "wa_label_2026": "Gold",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-toronto",
+          "position": 28,
+          "rank": "29",
+          "ranking_year": 2025,
+          "wa_label_2026": "Elite",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-wuhan",
+          "position": 29,
+          "rank": "30",
+          "ranking_year": 2025,
+          "wa_label_2026": "Elite",
+          "major_status": "none"
+        },
+        {
+          "subject_id": "marathon-cape-town",
+          "position": 30,
+          "rank": null,
+          "ranking_year": 2025,
+          "wa_label_2026": "Elite",
+          "major_status": "joins_2027"
+        }
+      ]
+    }
+  ],
+  "subjects": [
+    {
+      "id": "uk-university-birmingham",
+      "kind": "university",
+      "name": "University of Birmingham",
+      "location": {
+        "city": "Birmingham",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          52.450555555,
+          -1.930555555
+        ],
+        "query": "University of Birmingham, Birmingham, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.birmingham.ac.uk/",
+        "wikidata_id": "Q223429",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.birmingham.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-bristol",
+      "kind": "university",
+      "name": "University of Bristol",
+      "location": {
+        "city": "Bristol",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          51.456388888,
+          -2.604444444
+        ],
+        "query": "University of Bristol, Bristol, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.bristol.ac.uk/",
+        "wikidata_id": "Q459506",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.bristol.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-cambridge",
+      "kind": "university",
+      "name": "University of Cambridge",
+      "location": {
+        "city": "Cambridge",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          52.205355979,
+          0.113157269
+        ],
+        "query": "University of Cambridge, Cambridge, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.cam.ac.uk/",
+        "wikidata_id": "Q35794",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.cam.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-cardiff",
+      "kind": "university",
+      "name": "Cardiff University",
+      "location": {
+        "city": "Cardiff",
+        "region": "Wales",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          51.487433333,
+          -3.178230555
+        ],
+        "query": "Cardiff University, Cardiff, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.cardiff.ac.uk/",
+        "wikidata_id": "Q1035745",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.cardiff.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-durham",
+      "kind": "university",
+      "name": "Durham University",
+      "location": {
+        "city": "Durham",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          54.775,
+          -1.575
+        ],
+        "query": "Durham University, Durham, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.durham.ac.uk/",
+        "wikidata_id": "Q458393",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.durham.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-edinburgh",
+      "kind": "university",
+      "name": "University of Edinburgh",
+      "location": {
+        "city": "Edinburgh",
+        "region": "Scotland",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          55.947388888,
+          -3.187194444
+        ],
+        "query": "University of Edinburgh, Edinburgh, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.ed.ac.uk/",
+        "wikidata_id": "Q160302",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.ed.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-exeter",
+      "kind": "university",
+      "name": "University of Exeter",
+      "location": {
+        "city": "Exeter",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          50.736111111,
+          -3.535
+        ],
+        "query": "University of Exeter, Exeter, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.exeter.ac.uk/",
+        "wikidata_id": "Q1414861",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.exeter.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-glasgow",
+      "kind": "university",
+      "name": "University of Glasgow",
+      "location": {
+        "city": "Glasgow",
+        "region": "Scotland",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          55.872222222,
+          -4.288055555
+        ],
+        "query": "University of Glasgow, Glasgow, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.gla.ac.uk/",
+        "wikidata_id": "Q192775",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.gla.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-imperial",
+      "kind": "university",
+      "name": "Imperial College London",
+      "location": {
+        "city": "London",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          51.498308,
+          -0.176882
+        ],
+        "query": "Imperial College London, London, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.imperial.ac.uk/",
+        "wikidata_id": "Q189022",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.imperial.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-kings",
+      "kind": "university",
+      "name": "King's College London",
+      "location": {
+        "city": "London",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          51.511944444,
+          -0.116111111
+        ],
+        "query": "King's College London, London, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.kcl.ac.uk/",
+        "wikidata_id": "Q245247",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.kcl.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-leeds",
+      "kind": "university",
+      "name": "University of Leeds",
+      "location": {
+        "city": "Leeds",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          53.807222222,
+          -1.551666666
+        ],
+        "query": "University of Leeds, Leeds, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.leeds.ac.uk/",
+        "wikidata_id": "Q503424",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.leeds.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-liverpool",
+      "kind": "university",
+      "name": "University of Liverpool",
+      "location": {
+        "city": "Liverpool",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          53.406,
+          -2.967
+        ],
+        "query": "University of Liverpool, Liverpool, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.liverpool.ac.uk/",
+        "wikidata_id": "Q499510",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.liverpool.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-lse",
+      "kind": "university",
+      "name": "London School of Economics and Political Science",
+      "location": {
+        "city": "London",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          51.513888888,
+          -0.116666666
+        ],
+        "query": "London School of Economics and Political Science, London, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.lse.ac.uk/",
+        "wikidata_id": "Q174570",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.lse.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-manchester",
+      "kind": "university",
+      "name": "University of Manchester",
+      "location": {
+        "city": "Manchester",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          53.466111111,
+          -2.231944444
+        ],
+        "query": "University of Manchester, Manchester, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.manchester.ac.uk/",
+        "wikidata_id": "Q230899",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.manchester.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-newcastle",
+      "kind": "university",
+      "name": "Newcastle University",
+      "location": {
+        "city": "Newcastle upon Tyne",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          54.978,
+          -1.615
+        ],
+        "query": "Newcastle University, Newcastle upon Tyne, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.ncl.ac.uk/",
+        "wikidata_id": "Q837164",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.ncl.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-nottingham",
+      "kind": "university",
+      "name": "University of Nottingham",
+      "location": {
+        "city": "Nottingham",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          52.938888888,
+          -1.196944444
+        ],
+        "query": "University of Nottingham, Nottingham, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.nottingham.ac.uk/",
+        "wikidata_id": "Q472316",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.nottingham.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-oxford",
+      "kind": "university",
+      "name": "University of Oxford",
+      "location": {
+        "city": "Oxford",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          51.755,
+          -1.255
+        ],
+        "query": "University of Oxford, Oxford, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.ox.ac.uk/",
+        "wikidata_id": "Q34433",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.ox.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-queen-mary",
+      "kind": "university",
+      "name": "Queen Mary University of London",
+      "location": {
+        "city": "London",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          51.5240671,
+          -0.0403745
+        ],
+        "query": "Queen Mary University of London, London, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.qmul.ac.uk/",
+        "wikidata_id": "Q195668",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.qmul.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-queens-belfast",
+      "kind": "university",
+      "name": "Queen's University Belfast",
+      "location": {
+        "city": "Belfast",
+        "region": "Northern Ireland",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          54.584166666,
+          -5.934722222
+        ],
+        "query": "Queen's University Belfast, Belfast, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.qub.ac.uk/",
+        "wikidata_id": "Q877925",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.qub.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-sheffield",
+      "kind": "university",
+      "name": "University of Sheffield",
+      "location": {
+        "city": "Sheffield",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          53.380722222,
+          -1.488805555
+        ],
+        "query": "University of Sheffield, Sheffield, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.sheffield.ac.uk/",
+        "wikidata_id": "Q823917",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.sheffield.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-southampton",
+      "kind": "university",
+      "name": "University of Southampton",
+      "location": {
+        "city": "Southampton",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          50.93463,
+          -1.39595
+        ],
+        "query": "University of Southampton, Southampton, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.southampton.ac.uk/",
+        "wikidata_id": "Q76473",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.southampton.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-ucl",
+      "kind": "university",
+      "name": "University College London",
+      "location": {
+        "city": "London",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          51.524722222,
+          -0.133611111
+        ],
+        "query": "University College London, London, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.ucl.ac.uk/",
+        "wikidata_id": "Q193196",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.ucl.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-warwick",
+      "kind": "university",
+      "name": "University of Warwick",
+      "location": {
+        "city": "Coventry",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          52.380080555,
+          -1.561930555
+        ],
+        "query": "University of Warwick, Coventry, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://warwick.ac.uk/",
+        "wikidata_id": "Q865528",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://warwick.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "uk-university-york",
+      "kind": "university",
+      "name": "University of York",
+      "location": {
+        "city": "York",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          53.94659,
+          -1.0525
+        ],
+        "query": "University of York, York, United Kingdom",
+        "preview_radius_km": 2.5,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.york.ac.uk/",
+        "wikidata_id": "Q967165",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.york.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities"
+      ]
+    },
+    {
+      "id": "us-city-boston",
+      "kind": "student_city",
+      "name": "Boston",
+      "location": {
+        "city": "Boston",
+        "region": "Massachusetts",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          42.3601,
+          -71.0589
+        ],
+        "query": "Boston, Massachusetts, United States",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS Best Student Cities 2027",
+        "featured_institutions": [
+          "Massachusetts Institute of Technology",
+          "Harvard University",
+          "Boston University",
+          "Northeastern University",
+          "Tufts University"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings?countries=United+States"
+      ]
+    },
+    {
+      "id": "us-city-new-york",
+      "kind": "student_city",
+      "name": "New York",
+      "location": {
+        "city": "New York",
+        "region": "New York",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          40.7128,
+          -74.006
+        ],
+        "query": "New York, New York, United States",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS Best Student Cities 2027",
+        "featured_institutions": [
+          "Columbia University",
+          "New York University",
+          "City University of New York",
+          "Fordham University",
+          "The New School"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings?countries=United+States"
+      ]
+    },
+    {
+      "id": "us-city-los-angeles",
+      "kind": "student_city",
+      "name": "Los Angeles",
+      "location": {
+        "city": "Los Angeles",
+        "region": "California",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          34.0522,
+          -118.2437
+        ],
+        "query": "Los Angeles, California, United States",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS Best Student Cities 2027",
+        "featured_institutions": [
+          "University of California, Los Angeles",
+          "University of Southern California",
+          "Loyola Marymount University"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings?countries=United+States"
+      ]
+    },
+    {
+      "id": "us-city-san-francisco",
+      "kind": "student_city",
+      "name": "San Francisco",
+      "location": {
+        "city": "San Francisco",
+        "region": "California",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          37.7749,
+          -122.4194
+        ],
+        "query": "San Francisco, California, United States",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS Best Student Cities 2027",
+        "featured_institutions": [
+          "Stanford University",
+          "University of California, Berkeley",
+          "University of San Francisco",
+          "San Francisco State University"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings?countries=United+States"
+      ]
+    },
+    {
+      "id": "us-city-chicago",
+      "kind": "student_city",
+      "name": "Chicago",
+      "location": {
+        "city": "Chicago",
+        "region": "Illinois",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          41.8781,
+          -87.6298
+        ],
+        "query": "Chicago, Illinois, United States",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS Best Student Cities 2027",
+        "featured_institutions": [
+          "University of Chicago",
+          "Northwestern University",
+          "University of Illinois Chicago",
+          "Illinois Institute of Technology",
+          "Loyola University Chicago"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings?countries=United+States"
+      ]
+    },
+    {
+      "id": "us-city-philadelphia",
+      "kind": "student_city",
+      "name": "Philadelphia",
+      "location": {
+        "city": "Philadelphia",
+        "region": "Pennsylvania",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          39.9526,
+          -75.1652
+        ],
+        "query": "Philadelphia, Pennsylvania, United States",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS Best Student Cities 2027",
+        "featured_institutions": [
+          "University of Pennsylvania",
+          "Temple University",
+          "Drexel University",
+          "Villanova University"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings?countries=United+States"
+      ]
+    },
+    {
+      "id": "us-city-washington-dc",
+      "kind": "student_city",
+      "name": "Washington, DC",
+      "location": {
+        "city": "Washington, DC",
+        "region": "District of Columbia",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          38.9072,
+          -77.0369
+        ],
+        "query": "Washington, DC, District of Columbia, United States",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS Best Student Cities 2027",
+        "featured_institutions": [
+          "Georgetown University",
+          "George Washington University",
+          "American University",
+          "Howard University",
+          "University of Maryland, College Park"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings?countries=United+States"
+      ]
+    },
+    {
+      "id": "us-city-atlanta",
+      "kind": "student_city",
+      "name": "Atlanta",
+      "location": {
+        "city": "Atlanta",
+        "region": "Georgia",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          33.749,
+          -84.388
+        ],
+        "query": "Atlanta, Georgia, United States",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS Best Student Cities 2027",
+        "featured_institutions": [
+          "Georgia Institute of Technology",
+          "Emory University",
+          "Georgia State University"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings?countries=United+States"
+      ]
+    },
+    {
+      "id": "us-city-pittsburgh",
+      "kind": "student_city",
+      "name": "Pittsburgh",
+      "location": {
+        "city": "Pittsburgh",
+        "region": "Pennsylvania",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          40.4406,
+          -79.9959
+        ],
+        "query": "Pittsburgh, Pennsylvania, United States",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS Best Student Cities 2027",
+        "featured_institutions": [
+          "Carnegie Mellon University",
+          "University of Pittsburgh"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings?countries=United+States"
+      ]
+    },
+    {
+      "id": "us-city-san-diego",
+      "kind": "student_city",
+      "name": "San Diego",
+      "location": {
+        "city": "San Diego",
+        "region": "California",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          32.7157,
+          -117.1611
+        ],
+        "query": "San Diego, California, United States",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS Best Student Cities 2027",
+        "featured_institutions": [
+          "University of California, San Diego",
+          "San Diego State University",
+          "University of San Diego"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings?countries=United+States"
+      ]
+    },
+    {
+      "id": "us-city-baltimore",
+      "kind": "student_city",
+      "name": "Baltimore",
+      "location": {
+        "city": "Baltimore",
+        "region": "Maryland",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          39.2904,
+          -76.6122
+        ],
+        "query": "Baltimore, Maryland, United States",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS Best Student Cities 2027",
+        "featured_institutions": [
+          "Johns Hopkins University",
+          "University of Maryland, Baltimore County",
+          "Morgan State University",
+          "University of Maryland, Baltimore"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings?countries=United+States"
+      ]
+    },
+    {
+      "id": "us-city-seattle",
+      "kind": "student_city",
+      "name": "Seattle",
+      "location": {
+        "city": "Seattle",
+        "region": "Washington",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          47.6062,
+          -122.3321
+        ],
+        "query": "Seattle, Washington, United States",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS Best Student Cities 2027",
+        "featured_institutions": [
+          "University of Washington",
+          "Seattle University"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings?countries=United+States"
+      ]
+    },
+    {
+      "id": "us-city-houston",
+      "kind": "student_city",
+      "name": "Houston",
+      "location": {
+        "city": "Houston",
+        "region": "Texas",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          29.7604,
+          -95.3698
+        ],
+        "query": "Houston, Texas, United States",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS Best Student Cities 2027",
+        "featured_institutions": [
+          "Rice University",
+          "University of Houston"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings?countries=United+States"
+      ]
+    },
+    {
+      "id": "us-city-miami",
+      "kind": "student_city",
+      "name": "Miami",
+      "location": {
+        "city": "Miami",
+        "region": "Florida",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          25.7617,
+          -80.1918
+        ],
+        "query": "Miami, Florida, United States",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS Best Student Cities 2027",
+        "featured_institutions": [
+          "University of Miami",
+          "Florida International University",
+          "Barry University"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings?countries=United+States"
+      ]
+    },
+    {
+      "id": "us-campus-city-cambridge-ma",
+      "kind": "student_city",
+      "name": "Cambridge",
+      "location": {
+        "city": "Cambridge",
+        "region": "Massachusetts",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          42.3736,
+          -71.1097
+        ],
+        "query": "Cambridge, Massachusetts, United States",
+        "preview_radius_km": 4,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS World University Rankings 2027 top-100 campus locality",
+        "featured_institutions": [
+          "Massachusetts Institute of Technology",
+          "Harvard University"
+        ],
+        "geometry_status": "seed_point_ready",
+        "parent_metro": "Boston"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/qs-top-uni-wur"
+      ]
+    },
+    {
+      "id": "us-campus-city-stanford-palo-alto",
+      "kind": "student_city",
+      "name": "Stanford–Palo Alto",
+      "location": {
+        "city": "Stanford–Palo Alto",
+        "region": "California",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          37.4275,
+          -122.1697
+        ],
+        "query": "Stanford–Palo Alto, California, United States",
+        "preview_radius_km": 4,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS World University Rankings 2027 top-100 campus locality",
+        "featured_institutions": [
+          "Stanford University"
+        ],
+        "geometry_status": "seed_point_ready",
+        "parent_metro": "San Francisco Bay Area"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/qs-top-uni-wur"
+      ]
+    },
+    {
+      "id": "us-campus-city-pasadena",
+      "kind": "student_city",
+      "name": "Pasadena",
+      "location": {
+        "city": "Pasadena",
+        "region": "California",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          34.1478,
+          -118.1445
+        ],
+        "query": "Pasadena, California, United States",
+        "preview_radius_km": 4,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS World University Rankings 2027 top-100 campus locality",
+        "featured_institutions": [
+          "California Institute of Technology"
+        ],
+        "geometry_status": "seed_point_ready",
+        "parent_metro": "Los Angeles"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/qs-top-uni-wur"
+      ]
+    },
+    {
+      "id": "us-campus-city-ithaca",
+      "kind": "student_city",
+      "name": "Ithaca",
+      "location": {
+        "city": "Ithaca",
+        "region": "New York",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          42.443,
+          -76.5019
+        ],
+        "query": "Ithaca, New York, United States",
+        "preview_radius_km": 4,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS World University Rankings 2027 top-100 campus locality",
+        "featured_institutions": [
+          "Cornell University"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/qs-top-uni-wur"
+      ]
+    },
+    {
+      "id": "us-campus-city-new-haven",
+      "kind": "student_city",
+      "name": "New Haven",
+      "location": {
+        "city": "New Haven",
+        "region": "Connecticut",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          41.3083,
+          -72.9279
+        ],
+        "query": "New Haven, Connecticut, United States",
+        "preview_radius_km": 4,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS World University Rankings 2027 top-100 campus locality",
+        "featured_institutions": [
+          "Yale University"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/qs-top-uni-wur"
+      ]
+    },
+    {
+      "id": "us-campus-city-berkeley",
+      "kind": "student_city",
+      "name": "Berkeley",
+      "location": {
+        "city": "Berkeley",
+        "region": "California",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          37.8715,
+          -122.273
+        ],
+        "query": "Berkeley, California, United States",
+        "preview_radius_km": 4,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS World University Rankings 2027 top-100 campus locality",
+        "featured_institutions": [
+          "University of California, Berkeley"
+        ],
+        "geometry_status": "seed_point_ready",
+        "parent_metro": "San Francisco Bay Area"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/qs-top-uni-wur"
+      ]
+    },
+    {
+      "id": "us-campus-city-princeton",
+      "kind": "student_city",
+      "name": "Princeton",
+      "location": {
+        "city": "Princeton",
+        "region": "New Jersey",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          40.3573,
+          -74.6672
+        ],
+        "query": "Princeton, New Jersey, United States",
+        "preview_radius_km": 4,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS World University Rankings 2027 top-100 campus locality",
+        "featured_institutions": [
+          "Princeton University"
+        ],
+        "geometry_status": "seed_point_ready",
+        "parent_metro": "New York–Philadelphia corridor"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/qs-top-uni-wur"
+      ]
+    },
+    {
+      "id": "us-campus-city-evanston",
+      "kind": "student_city",
+      "name": "Evanston",
+      "location": {
+        "city": "Evanston",
+        "region": "Illinois",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          42.0451,
+          -87.6877
+        ],
+        "query": "Evanston, Illinois, United States",
+        "preview_radius_km": 4,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS World University Rankings 2027 top-100 campus locality",
+        "featured_institutions": [
+          "Northwestern University"
+        ],
+        "geometry_status": "seed_point_ready",
+        "parent_metro": "Chicago"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/qs-top-uni-wur"
+      ]
+    },
+    {
+      "id": "us-campus-city-ann-arbor",
+      "kind": "student_city",
+      "name": "Ann Arbor",
+      "location": {
+        "city": "Ann Arbor",
+        "region": "Michigan",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          42.2808,
+          -83.743
+        ],
+        "query": "Ann Arbor, Michigan, United States",
+        "preview_radius_km": 4,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS World University Rankings 2027 top-100 campus locality",
+        "featured_institutions": [
+          "University of Michigan"
+        ],
+        "geometry_status": "seed_point_ready",
+        "parent_metro": "Detroit–Ann Arbor"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/qs-top-uni-wur"
+      ]
+    },
+    {
+      "id": "us-campus-city-providence",
+      "kind": "student_city",
+      "name": "Providence",
+      "location": {
+        "city": "Providence",
+        "region": "Rhode Island",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          41.824,
+          -71.4128
+        ],
+        "query": "Providence, Rhode Island, United States",
+        "preview_radius_km": 4,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS World University Rankings 2027 top-100 campus locality",
+        "featured_institutions": [
+          "Brown University"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/qs-top-uni-wur"
+      ]
+    },
+    {
+      "id": "us-campus-city-durham-nc",
+      "kind": "student_city",
+      "name": "Durham",
+      "location": {
+        "city": "Durham",
+        "region": "North Carolina",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          35.994,
+          -78.8986
+        ],
+        "query": "Durham, North Carolina, United States",
+        "preview_radius_km": 4,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS World University Rankings 2027 top-100 campus locality",
+        "featured_institutions": [
+          "Duke University"
+        ],
+        "geometry_status": "seed_point_ready",
+        "parent_metro": "Research Triangle"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/qs-top-uni-wur"
+      ]
+    },
+    {
+      "id": "us-campus-city-austin",
+      "kind": "student_city",
+      "name": "Austin",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          30.2672,
+          -97.7431
+        ],
+        "query": "Austin, Texas, United States",
+        "preview_radius_km": 4,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS World University Rankings 2027 top-100 campus locality",
+        "featured_institutions": [
+          "University of Texas at Austin"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/qs-top-uni-wur"
+      ]
+    },
+    {
+      "id": "us-campus-city-champaign-urbana",
+      "kind": "student_city",
+      "name": "Champaign–Urbana",
+      "location": {
+        "city": "Champaign–Urbana",
+        "region": "Illinois",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          40.1106,
+          -88.2073
+        ],
+        "query": "Champaign–Urbana, Illinois, United States",
+        "preview_radius_km": 4,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS World University Rankings 2027 top-100 campus locality",
+        "featured_institutions": [
+          "University of Illinois Urbana-Champaign"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/qs-top-uni-wur"
+      ]
+    },
+    {
+      "id": "us-campus-city-state-college",
+      "kind": "student_city",
+      "name": "State College–University Park",
+      "location": {
+        "city": "State College–University Park",
+        "region": "Pennsylvania",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          40.7934,
+          -77.86
+        ],
+        "query": "State College–University Park, Pennsylvania, United States",
+        "preview_radius_km": 4,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS World University Rankings 2027 top-100 campus locality",
+        "featured_institutions": [
+          "Pennsylvania State University"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/qs-top-uni-wur"
+      ]
+    },
+    {
+      "id": "us-campus-city-west-lafayette",
+      "kind": "student_city",
+      "name": "West Lafayette",
+      "location": {
+        "city": "West Lafayette",
+        "region": "Indiana",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          40.4259,
+          -86.9081
+        ],
+        "query": "West Lafayette, Indiana, United States",
+        "preview_radius_km": 4,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "QS World University Rankings 2027 top-100 campus locality",
+        "featured_institutions": [
+          "Purdue University"
+        ],
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/qs-top-uni-wur"
+      ]
+    },
+    {
+      "id": "eu-city-munich",
+      "kind": "student_city",
+      "name": "Munich",
+      "location": {
+        "city": "Munich",
+        "country": "Germany",
+        "country_code": "DE"
+      },
+      "map": {
+        "center": [
+          48.1351,
+          11.582
+        ],
+        "query": "Munich, Germany",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-paris",
+      "kind": "student_city",
+      "name": "Paris",
+      "location": {
+        "city": "Paris",
+        "country": "France",
+        "country_code": "FR"
+      },
+      "map": {
+        "center": [
+          48.8566,
+          2.3522
+        ],
+        "query": "Paris, France",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-berlin",
+      "kind": "student_city",
+      "name": "Berlin",
+      "location": {
+        "city": "Berlin",
+        "country": "Germany",
+        "country_code": "DE"
+      },
+      "map": {
+        "center": [
+          52.52,
+          13.405
+        ],
+        "query": "Berlin, Germany",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-vienna",
+      "kind": "student_city",
+      "name": "Vienna",
+      "location": {
+        "city": "Vienna",
+        "country": "Austria",
+        "country_code": "AT"
+      },
+      "map": {
+        "center": [
+          48.2082,
+          16.3738
+        ],
+        "query": "Vienna, Austria",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-zurich",
+      "kind": "student_city",
+      "name": "Zurich",
+      "location": {
+        "city": "Zurich",
+        "country": "Switzerland",
+        "country_code": "CH"
+      },
+      "map": {
+        "center": [
+          47.3769,
+          8.5417
+        ],
+        "query": "Zurich, Switzerland",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-amsterdam",
+      "kind": "student_city",
+      "name": "Amsterdam",
+      "location": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "country_code": "NL"
+      },
+      "map": {
+        "center": [
+          52.3676,
+          4.9041
+        ],
+        "query": "Amsterdam, Netherlands",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-lausanne",
+      "kind": "student_city",
+      "name": "Lausanne",
+      "location": {
+        "city": "Lausanne",
+        "country": "Switzerland",
+        "country_code": "CH"
+      },
+      "map": {
+        "center": [
+          46.5197,
+          6.6323
+        ],
+        "query": "Lausanne, Switzerland",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-stockholm",
+      "kind": "student_city",
+      "name": "Stockholm",
+      "location": {
+        "city": "Stockholm",
+        "country": "Sweden",
+        "country_code": "SE"
+      },
+      "map": {
+        "center": [
+          59.3293,
+          18.0686
+        ],
+        "query": "Stockholm, Sweden",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-prague",
+      "kind": "student_city",
+      "name": "Prague",
+      "location": {
+        "city": "Prague",
+        "country": "Czechia",
+        "country_code": "CZ"
+      },
+      "map": {
+        "center": [
+          50.0755,
+          14.4378
+        ],
+        "query": "Prague, Czechia",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-copenhagen",
+      "kind": "student_city",
+      "name": "Copenhagen",
+      "location": {
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "country_code": "DK"
+      },
+      "map": {
+        "center": [
+          55.6761,
+          12.5683
+        ],
+        "query": "Copenhagen, Denmark",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-madrid",
+      "kind": "student_city",
+      "name": "Madrid",
+      "location": {
+        "city": "Madrid",
+        "country": "Spain",
+        "country_code": "ES"
+      },
+      "map": {
+        "center": [
+          40.4168,
+          -3.7038
+        ],
+        "query": "Madrid, Spain",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-barcelona",
+      "kind": "student_city",
+      "name": "Barcelona",
+      "location": {
+        "city": "Barcelona",
+        "country": "Spain",
+        "country_code": "ES"
+      },
+      "map": {
+        "center": [
+          41.3874,
+          2.1686
+        ],
+        "query": "Barcelona, Spain",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-dublin",
+      "kind": "student_city",
+      "name": "Dublin",
+      "location": {
+        "city": "Dublin",
+        "country": "Ireland",
+        "country_code": "IE"
+      },
+      "map": {
+        "center": [
+          53.3498,
+          -6.2603
+        ],
+        "query": "Dublin, Ireland",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-leuven",
+      "kind": "student_city",
+      "name": "Leuven",
+      "location": {
+        "city": "Leuven",
+        "country": "Belgium",
+        "country_code": "BE"
+      },
+      "map": {
+        "center": [
+          50.8798,
+          4.7005
+        ],
+        "query": "Leuven, Belgium",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-milan",
+      "kind": "student_city",
+      "name": "Milan",
+      "location": {
+        "city": "Milan",
+        "country": "Italy",
+        "country_code": "IT"
+      },
+      "map": {
+        "center": [
+          45.4642,
+          9.19
+        ],
+        "query": "Milan, Italy",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-rome",
+      "kind": "student_city",
+      "name": "Rome",
+      "location": {
+        "city": "Rome",
+        "country": "Italy",
+        "country_code": "IT"
+      },
+      "map": {
+        "center": [
+          41.9028,
+          12.4964
+        ],
+        "query": "Rome, Italy",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-gothenburg",
+      "kind": "student_city",
+      "name": "Gothenburg",
+      "location": {
+        "city": "Gothenburg",
+        "country": "Sweden",
+        "country_code": "SE"
+      },
+      "map": {
+        "center": [
+          57.7089,
+          11.9746
+        ],
+        "query": "Gothenburg, Sweden",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-lisbon",
+      "kind": "student_city",
+      "name": "Lisbon",
+      "location": {
+        "city": "Lisbon",
+        "country": "Portugal",
+        "country_code": "PT"
+      },
+      "map": {
+        "center": [
+          38.7223,
+          -9.1393
+        ],
+        "query": "Lisbon, Portugal",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-warsaw",
+      "kind": "student_city",
+      "name": "Warsaw",
+      "location": {
+        "city": "Warsaw",
+        "country": "Poland",
+        "country_code": "PL"
+      },
+      "map": {
+        "center": [
+          52.2297,
+          21.0122
+        ],
+        "query": "Warsaw, Poland",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-brussels",
+      "kind": "student_city",
+      "name": "Brussels",
+      "location": {
+        "city": "Brussels",
+        "country": "Belgium",
+        "country_code": "BE"
+      },
+      "map": {
+        "center": [
+          50.8503,
+          4.3517
+        ],
+        "query": "Brussels, Belgium",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-brno",
+      "kind": "student_city",
+      "name": "Brno",
+      "location": {
+        "city": "Brno",
+        "country": "Czechia",
+        "country_code": "CZ"
+      },
+      "map": {
+        "center": [
+          49.1951,
+          16.6068
+        ],
+        "query": "Brno, Czechia",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-budapest",
+      "kind": "student_city",
+      "name": "Budapest",
+      "location": {
+        "city": "Budapest",
+        "country": "Hungary",
+        "country_code": "HU"
+      },
+      "map": {
+        "center": [
+          47.4979,
+          19.0402
+        ],
+        "query": "Budapest, Hungary",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-turin",
+      "kind": "student_city",
+      "name": "Turin",
+      "location": {
+        "city": "Turin",
+        "country": "Italy",
+        "country_code": "IT"
+      },
+      "map": {
+        "center": [
+          45.0703,
+          7.6869
+        ],
+        "query": "Turin, Italy",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-helsinki",
+      "kind": "student_city",
+      "name": "Helsinki",
+      "location": {
+        "city": "Helsinki",
+        "country": "Finland",
+        "country_code": "FI"
+      },
+      "map": {
+        "center": [
+          60.1699,
+          24.9384
+        ],
+        "query": "Helsinki, Finland",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "eu-city-lyon",
+      "kind": "student_city",
+      "name": "Lyon",
+      "location": {
+        "city": "Lyon",
+        "country": "France",
+        "country_code": "FR"
+      },
+      "map": {
+        "center": [
+          45.764,
+          4.8357
+        ],
+        "query": "Lyon, France",
+        "preview_radius_km": 5,
+        "purpose": "student_city"
+      },
+      "details": {
+        "selection_tier": "Top 25 non-UK European entries in QS Best Student Cities 2027",
+        "geometry_status": "seed_point_ready"
+      },
+      "source_urls": [
+        "https://www.topuniversities.com/city-rankings"
+      ]
+    },
+    {
+      "id": "marathon-london",
+      "kind": "marathon",
+      "name": "TCS London Marathon",
+      "location": {
+        "city": "London",
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "region": "England"
+      },
+      "map": {
+        "center": [
+          51.5074,
+          -0.1278
+        ],
+        "query": "London, United Kingdom",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "1",
+        "wa_label_year": 2026,
+        "wa_label": "Platinum",
+        "major_status": "active",
+        "start_place": "Greenwich/Blackheath",
+        "finish_place": "Westminster",
+        "municipalities": [
+          "Greenwich",
+          "Lewisham",
+          "Southwark",
+          "Tower Hamlets",
+          "City of London",
+          "Westminster"
+        ],
+        "route_scope": "multi_municipality",
+        "route_source_url": "https://www.londonmarathonevents.co.uk/london-marathon/course",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.londonmarathonevents.co.uk/london-marathon/course"
+      ]
+    },
+    {
+      "id": "marathon-chicago",
+      "kind": "marathon",
+      "name": "Bank of America Chicago Marathon",
+      "location": {
+        "city": "Chicago",
+        "country": "United States",
+        "country_code": "US",
+        "region": "Illinois"
+      },
+      "map": {
+        "center": [
+          41.8781,
+          -87.6298
+        ],
+        "query": "Chicago, United States",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "2",
+        "wa_label_year": 2026,
+        "wa_label": "Platinum",
+        "major_status": "active",
+        "start_place": "Grant Park",
+        "finish_place": "Grant Park",
+        "municipalities": [
+          "Chicago"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://www.chicagomarathon.com/runners/course-amenities/",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.chicagomarathon.com/runners/course-amenities/"
+      ]
+    },
+    {
+      "id": "marathon-tokyo",
+      "kind": "marathon",
+      "name": "Tokyo Marathon",
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "country_code": "JP",
+        "region": "Tokyo Metropolis"
+      },
+      "map": {
+        "center": [
+          35.6762,
+          139.6503
+        ],
+        "query": "Tokyo, Japan",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "3",
+        "wa_label_year": 2026,
+        "wa_label": "Platinum",
+        "major_status": "active",
+        "start_place": "Shinjuku",
+        "finish_place": "Chiyoda",
+        "municipalities": [
+          "Shinjuku",
+          "Chiyoda",
+          "Taito",
+          "Sumida",
+          "Koto",
+          "Chuo",
+          "Minato"
+        ],
+        "route_scope": "multi_municipality",
+        "route_source_url": "https://www.marathon.tokyo/en/about/course/",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.marathon.tokyo/en/about/course/"
+      ]
+    },
+    {
+      "id": "marathon-valencia",
+      "kind": "marathon",
+      "name": "Valencia Marathon",
+      "location": {
+        "city": "Valencia",
+        "country": "Spain",
+        "country_code": "ES"
+      },
+      "map": {
+        "center": [
+          39.4699,
+          -0.3763
+        ],
+        "query": "Valencia, Spain",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "4",
+        "wa_label_year": 2026,
+        "wa_label": "Platinum",
+        "major_status": "none",
+        "start_place": "Plaça de la Marató",
+        "finish_place": "City of Arts and Sciences",
+        "municipalities": [
+          "Valencia"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://www.valenciaciudaddelrunning.com/en/marathon/official-route-marathon/",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.valenciaciudaddelrunning.com/en/marathon/official-route-marathon/"
+      ]
+    },
+    {
+      "id": "marathon-boston",
+      "kind": "marathon",
+      "name": "Boston Marathon",
+      "location": {
+        "city": "Boston",
+        "country": "United States",
+        "country_code": "US",
+        "region": "Massachusetts"
+      },
+      "map": {
+        "center": [
+          42.3601,
+          -71.0589
+        ],
+        "query": "Boston, United States",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "5",
+        "wa_label_year": 2026,
+        "wa_label": "Platinum",
+        "major_status": "active",
+        "start_place": "Hopkinton",
+        "finish_place": "Boston",
+        "municipalities": [
+          "Hopkinton",
+          "Ashland",
+          "Framingham",
+          "Natick",
+          "Wellesley",
+          "Newton",
+          "Brookline",
+          "Boston"
+        ],
+        "route_scope": "multi_municipality",
+        "route_source_url": "https://www.baa.org/races/boston-marathon/the-course/",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.baa.org/races/boston-marathon/the-course/"
+      ]
+    },
+    {
+      "id": "marathon-amsterdam",
+      "kind": "marathon",
+      "name": "TCS Amsterdam Marathon",
+      "location": {
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "country_code": "NL"
+      },
+      "map": {
+        "center": [
+          52.3676,
+          4.9041
+        ],
+        "query": "Amsterdam, Netherlands",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "6",
+        "wa_label_year": 2026,
+        "wa_label": "Platinum",
+        "major_status": "none",
+        "start_place": "Olympic Stadium",
+        "finish_place": "Olympic Stadium",
+        "municipalities": [
+          "Amsterdam",
+          "Ouder-Amstel"
+        ],
+        "route_scope": "multi_municipality",
+        "route_source_url": "https://www.tcsamsterdammarathon.eu/tcs-marathon",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.tcsamsterdammarathon.eu/tcs-marathon"
+      ]
+    },
+    {
+      "id": "marathon-hamburg",
+      "kind": "marathon",
+      "name": "Haspa Marathon Hamburg",
+      "location": {
+        "city": "Hamburg",
+        "country": "Germany",
+        "country_code": "DE"
+      },
+      "map": {
+        "center": [
+          53.5511,
+          9.9937
+        ],
+        "query": "Hamburg, Germany",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "7",
+        "wa_label_year": 2026,
+        "wa_label": "Not listed",
+        "major_status": "none",
+        "start_place": "Hamburg",
+        "finish_place": "Hamburg",
+        "municipalities": [
+          "Hamburg"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://haspa-marathon-hamburg.de/strecke/",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://haspa-marathon-hamburg.de/strecke/"
+      ]
+    },
+    {
+      "id": "marathon-berlin",
+      "kind": "marathon",
+      "name": "BMW Berlin Marathon",
+      "location": {
+        "city": "Berlin",
+        "country": "Germany",
+        "country_code": "DE"
+      },
+      "map": {
+        "center": [
+          52.52,
+          13.405
+        ],
+        "query": "Berlin, Germany",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "8",
+        "wa_label_year": 2026,
+        "wa_label": "Platinum",
+        "major_status": "active",
+        "start_place": "Tiergarten",
+        "finish_place": "Brandenburg Gate",
+        "municipalities": [
+          "Berlin"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://www.bmw-berlin-marathon.com/das-rennen/strecke",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.bmw-berlin-marathon.com/das-rennen/strecke"
+      ]
+    },
+    {
+      "id": "marathon-shanghai",
+      "kind": "marathon",
+      "name": "Shanghai Marathon",
+      "location": {
+        "city": "Shanghai",
+        "country": "China",
+        "country_code": "CN"
+      },
+      "map": {
+        "center": [
+          31.2304,
+          121.4737
+        ],
+        "query": "Shanghai, China",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "9",
+        "wa_label_year": 2026,
+        "wa_label": "Platinum",
+        "major_status": "candidate",
+        "start_place": "Shanghai",
+        "finish_place": "Shanghai",
+        "municipalities": [
+          "Shanghai"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://www.shang-ma.com/",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.shang-ma.com/"
+      ]
+    },
+    {
+      "id": "marathon-new-york",
+      "kind": "marathon",
+      "name": "TCS New York City Marathon",
+      "location": {
+        "city": "New York",
+        "country": "United States",
+        "country_code": "US",
+        "region": "New York"
+      },
+      "map": {
+        "center": [
+          40.7128,
+          -74.006
+        ],
+        "query": "New York, United States",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "10",
+        "wa_label_year": 2026,
+        "wa_label": "Platinum",
+        "major_status": "active",
+        "start_place": "Staten Island",
+        "finish_place": "Manhattan",
+        "municipalities": [
+          "Staten Island",
+          "Brooklyn",
+          "Queens",
+          "The Bronx",
+          "Manhattan"
+        ],
+        "route_scope": "multi_municipality",
+        "route_source_url": "https://www.nyrr.org/tcsnycmarathon/race-day/the-course",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.nyrr.org/tcsnycmarathon/race-day/the-course"
+      ]
+    },
+    {
+      "id": "marathon-sydney",
+      "kind": "marathon",
+      "name": "TCS Sydney Marathon",
+      "location": {
+        "city": "Sydney",
+        "country": "Australia",
+        "country_code": "AU",
+        "region": "New South Wales"
+      },
+      "map": {
+        "center": [
+          -33.8688,
+          151.2093
+        ],
+        "query": "Sydney, Australia",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "11",
+        "wa_label_year": 2026,
+        "wa_label": "Platinum",
+        "major_status": "active",
+        "start_place": "North Sydney",
+        "finish_place": "Sydney Opera House",
+        "municipalities": [
+          "North Sydney",
+          "Sydney"
+        ],
+        "route_scope": "multi_municipality",
+        "route_source_url": "https://www.tcssydneymarathon.com/course",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.tcssydneymarathon.com/course"
+      ]
+    },
+    {
+      "id": "marathon-barcelona",
+      "kind": "marathon",
+      "name": "Zurich Marató Barcelona",
+      "location": {
+        "city": "Barcelona",
+        "country": "Spain",
+        "country_code": "ES"
+      },
+      "map": {
+        "center": [
+          41.3874,
+          2.1686
+        ],
+        "query": "Barcelona, Spain",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "12",
+        "wa_label_year": 2026,
+        "wa_label": "Elite",
+        "major_status": "none",
+        "start_place": "Barcelona",
+        "finish_place": "Barcelona",
+        "municipalities": [
+          "Barcelona"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://www.zurichmaratobarcelona.es/en/course/",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.zurichmaratobarcelona.es/en/course/"
+      ]
+    },
+    {
+      "id": "marathon-dubai",
+      "kind": "marathon",
+      "name": "Dubai Marathon",
+      "location": {
+        "city": "Dubai",
+        "country": "United Arab Emirates",
+        "country_code": "AE"
+      },
+      "map": {
+        "center": [
+          25.2048,
+          55.2708
+        ],
+        "query": "Dubai, United Arab Emirates",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "13",
+        "wa_label_year": 2026,
+        "wa_label": "Label",
+        "major_status": "none",
+        "start_place": "Dubai",
+        "finish_place": "Dubai",
+        "municipalities": [
+          "Dubai"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://www.dubaimarathon.org/race-info/routes-maps/",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.dubaimarathon.org/race-info/routes-maps/"
+      ]
+    },
+    {
+      "id": "marathon-rotterdam",
+      "kind": "marathon",
+      "name": "NN Marathon Rotterdam",
+      "location": {
+        "city": "Rotterdam",
+        "country": "Netherlands",
+        "country_code": "NL"
+      },
+      "map": {
+        "center": [
+          51.9244,
+          4.4777
+        ],
+        "query": "Rotterdam, Netherlands",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "14",
+        "wa_label_year": 2026,
+        "wa_label": "Gold",
+        "major_status": "none",
+        "start_place": "Rotterdam",
+        "finish_place": "Rotterdam",
+        "municipalities": [
+          "Rotterdam"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://nnmarathonrotterdam.nl/en/course/",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://nnmarathonrotterdam.nl/en/course/"
+      ]
+    },
+    {
+      "id": "marathon-seoul",
+      "kind": "marathon",
+      "name": "Seoul Marathon",
+      "location": {
+        "city": "Seoul",
+        "country": "South Korea",
+        "country_code": "KR"
+      },
+      "map": {
+        "center": [
+          37.5665,
+          126.978
+        ],
+        "query": "Seoul, South Korea",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "15",
+        "wa_label_year": 2026,
+        "wa_label": "Platinum",
+        "major_status": "none",
+        "start_place": "Gwanghwamun Square",
+        "finish_place": "Jamsil Sports Complex",
+        "municipalities": [
+          "Seoul"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://en.seoul-marathon.com/home",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://en.seoul-marathon.com/home"
+      ]
+    },
+    {
+      "id": "marathon-xiamen",
+      "kind": "marathon",
+      "name": "C&D Xiamen Marathon",
+      "location": {
+        "city": "Xiamen",
+        "country": "China",
+        "country_code": "CN",
+        "region": "Fujian"
+      },
+      "map": {
+        "center": [
+          24.4798,
+          118.0894
+        ],
+        "query": "Xiamen, China",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "16",
+        "wa_label_year": 2026,
+        "wa_label": "Platinum",
+        "major_status": "none",
+        "start_place": "Xiamen",
+        "finish_place": "Xiamen",
+        "municipalities": [
+          "Xiamen"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://www.xmim.org/en/",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.xmim.org/en/"
+      ]
+    },
+    {
+      "id": "marathon-paris",
+      "kind": "marathon",
+      "name": "Schneider Electric Marathon de Paris",
+      "location": {
+        "city": "Paris",
+        "country": "France",
+        "country_code": "FR"
+      },
+      "map": {
+        "center": [
+          48.8566,
+          2.3522
+        ],
+        "query": "Paris, France",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "18",
+        "wa_label_year": 2026,
+        "wa_label": "Gold",
+        "major_status": "none",
+        "start_place": "Champs-Élysées",
+        "finish_place": "Avenue Foch",
+        "municipalities": [
+          "Paris"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://www.schneiderelectricparismarathon.com/en/information/route-and-profiles",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.schneiderelectricparismarathon.com/en/information/route-and-profiles"
+      ]
+    },
+    {
+      "id": "marathon-daegu",
+      "kind": "marathon",
+      "name": "Daegu Marathon",
+      "location": {
+        "city": "Daegu",
+        "country": "South Korea",
+        "country_code": "KR"
+      },
+      "map": {
+        "center": [
+          35.8714,
+          128.6014
+        ],
+        "query": "Daegu, South Korea",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "19",
+        "wa_label_year": 2026,
+        "wa_label": "Gold",
+        "major_status": "none",
+        "start_place": "Daegu Stadium",
+        "finish_place": "Daegu Stadium",
+        "municipalities": [
+          "Daegu"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://daegumarathon.daegu.go.kr/englishpage.php",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://daegumarathon.daegu.go.kr/englishpage.php"
+      ]
+    },
+    {
+      "id": "marathon-frankfurt",
+      "kind": "marathon",
+      "name": "Mainova Frankfurt Marathon",
+      "location": {
+        "city": "Frankfurt",
+        "country": "Germany",
+        "country_code": "DE",
+        "region": "Hesse"
+      },
+      "map": {
+        "center": [
+          50.1109,
+          8.6821
+        ],
+        "query": "Frankfurt, Germany",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "20",
+        "wa_label_year": 2026,
+        "wa_label": "Not listed",
+        "major_status": "none",
+        "start_place": "Frankfurt",
+        "finish_place": "Festhalle",
+        "municipalities": [
+          "Frankfurt"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://www.frankfurt-marathon.com/dein-lauf/marathon/strecke/",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.frankfurt-marathon.com/dein-lauf/marathon/strecke/"
+      ]
+    },
+    {
+      "id": "marathon-osaka",
+      "kind": "marathon",
+      "name": "Osaka Marathon",
+      "location": {
+        "city": "Osaka",
+        "country": "Japan",
+        "country_code": "JP",
+        "region": "Osaka Prefecture"
+      },
+      "map": {
+        "center": [
+          34.6937,
+          135.5023
+        ],
+        "query": "Osaka, Japan",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "21",
+        "wa_label_year": 2026,
+        "wa_label": "Gold",
+        "major_status": "none",
+        "start_place": "Osaka",
+        "finish_place": "Osaka Castle Park",
+        "municipalities": [
+          "Osaka"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://www.osaka-marathon.com/2026/en/",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.osaka-marathon.com/2026/en/"
+      ]
+    },
+    {
+      "id": "marathon-seville",
+      "kind": "marathon",
+      "name": "Zurich Seville Marathon",
+      "location": {
+        "city": "Seville",
+        "country": "Spain",
+        "country_code": "ES"
+      },
+      "map": {
+        "center": [
+          37.3891,
+          -5.9845
+        ],
+        "query": "Seville, Spain",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "=22",
+        "wa_label_year": 2026,
+        "wa_label": "Elite",
+        "major_status": "none",
+        "start_place": "Avenida de María Luisa",
+        "finish_place": "Paseo de las Delicias",
+        "municipalities": [
+          "Seville"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://www.zurichmaratonsevilla.es/en/zms-course-map",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.zurichmaratonsevilla.es/en/zms-course-map"
+      ]
+    },
+    {
+      "id": "marathon-wuxi",
+      "kind": "marathon",
+      "name": "Wuxi Marathon",
+      "location": {
+        "city": "Wuxi",
+        "country": "China",
+        "country_code": "CN",
+        "region": "Jiangsu"
+      },
+      "map": {
+        "center": [
+          31.4912,
+          120.3119
+        ],
+        "query": "Wuxi, China",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "=22",
+        "wa_label_year": 2026,
+        "wa_label": "Gold",
+        "major_status": "none",
+        "start_place": "Wuxi",
+        "finish_place": "Wuxi",
+        "municipalities": [
+          "Wuxi"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://en.wuxi.gov.cn/2025-12/19/c_1149056.htm",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://en.wuxi.gov.cn/2025-12/19/c_1149056.htm"
+      ]
+    },
+    {
+      "id": "marathon-prague",
+      "kind": "marathon",
+      "name": "Vodafone Prague Marathon",
+      "location": {
+        "city": "Prague",
+        "country": "Czechia",
+        "country_code": "CZ"
+      },
+      "map": {
+        "center": [
+          50.0755,
+          14.4378
+        ],
+        "query": "Prague, Czechia",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "24",
+        "wa_label_year": 2026,
+        "wa_label": "Elite",
+        "major_status": "none",
+        "start_place": "Prague",
+        "finish_place": "Prague",
+        "municipalities": [
+          "Prague"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://www.runczech.com/en/events/vodafone-prague-marathon-2026",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.runczech.com/en/events/vodafone-prague-marathon-2026"
+      ]
+    },
+    {
+      "id": "marathon-doha",
+      "kind": "marathon",
+      "name": "Doha Marathon by Ooredoo",
+      "location": {
+        "city": "Doha",
+        "country": "Qatar",
+        "country_code": "QA"
+      },
+      "map": {
+        "center": [
+          25.2854,
+          51.531
+        ],
+        "query": "Doha, Qatar",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "25",
+        "wa_label_year": 2026,
+        "wa_label": "Gold",
+        "major_status": "none",
+        "start_place": "Doha Corniche",
+        "finish_place": "Doha Corniche",
+        "municipalities": [
+          "Doha"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://dohamarathonooredoo.com/en/race-info",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://dohamarathonooredoo.com/en/race-info"
+      ]
+    },
+    {
+      "id": "marathon-kosice",
+      "kind": "marathon",
+      "name": "Košice Peace Marathon",
+      "location": {
+        "city": "Košice",
+        "country": "Slovakia",
+        "country_code": "SK"
+      },
+      "map": {
+        "center": [
+          48.7164,
+          21.2611
+        ],
+        "query": "Košice, Slovakia",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "26",
+        "wa_label_year": 2026,
+        "wa_label": "Label",
+        "major_status": "none",
+        "start_place": "Košice",
+        "finish_place": "Košice",
+        "municipalities": [
+          "Košice"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://www.kosicemarathon.com/race-info-mmm/?lang=en",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.kosicemarathon.com/race-info-mmm/?lang=en"
+      ]
+    },
+    {
+      "id": "marathon-houston",
+      "kind": "marathon",
+      "name": "Chevron Houston Marathon",
+      "location": {
+        "city": "Houston",
+        "country": "United States",
+        "country_code": "US",
+        "region": "Texas"
+      },
+      "map": {
+        "center": [
+          29.7604,
+          -95.3698
+        ],
+        "query": "Houston, United States",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "27",
+        "wa_label_year": 2026,
+        "wa_label": "Gold",
+        "major_status": "none",
+        "start_place": "Houston",
+        "finish_place": "Houston",
+        "municipalities": [
+          "Houston",
+          "West University Place"
+        ],
+        "route_scope": "multi_municipality",
+        "route_source_url": "https://www.chevronhoustonmarathon.com/participants/funrun/course-map/",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.chevronhoustonmarathon.com/participants/funrun/course-map/"
+      ]
+    },
+    {
+      "id": "marathon-abu-dhabi",
+      "kind": "marathon",
+      "name": "ADNOC Abu Dhabi Marathon",
+      "location": {
+        "city": "Abu Dhabi",
+        "country": "United Arab Emirates",
+        "country_code": "AE"
+      },
+      "map": {
+        "center": [
+          24.4539,
+          54.3773
+        ],
+        "query": "Abu Dhabi, United Arab Emirates",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "28",
+        "wa_label_year": 2026,
+        "wa_label": "Gold",
+        "major_status": "none",
+        "start_place": "Abu Dhabi",
+        "finish_place": "Abu Dhabi",
+        "municipalities": [
+          "Abu Dhabi"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://www.adnocabudhabimarathon.com/",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.adnocabudhabimarathon.com/"
+      ]
+    },
+    {
+      "id": "marathon-toronto",
+      "kind": "marathon",
+      "name": "TCS Toronto Waterfront Marathon",
+      "location": {
+        "city": "Toronto",
+        "country": "Canada",
+        "country_code": "CA",
+        "region": "Ontario"
+      },
+      "map": {
+        "center": [
+          43.6532,
+          -79.3832
+        ],
+        "query": "Toronto, Canada",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "29",
+        "wa_label_year": 2026,
+        "wa_label": "Elite",
+        "major_status": "none",
+        "start_place": "Toronto",
+        "finish_place": "Toronto",
+        "municipalities": [
+          "Toronto"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://www.torontowaterfrontmarathon.com/event-info/",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://www.torontowaterfrontmarathon.com/event-info/"
+      ]
+    },
+    {
+      "id": "marathon-wuhan",
+      "kind": "marathon",
+      "name": "Bank of China Wuhan Marathon",
+      "location": {
+        "city": "Wuhan",
+        "country": "China",
+        "country_code": "CN",
+        "region": "Hubei"
+      },
+      "map": {
+        "center": [
+          30.5928,
+          114.3055
+        ],
+        "query": "Wuhan, China",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": "30",
+        "wa_label_year": 2026,
+        "wa_label": "Elite",
+        "major_status": "none",
+        "start_place": "Yangtze riverfront",
+        "finish_place": "Qingshan Bund",
+        "municipalities": [
+          "Wuhan"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://english.wuhan.gov.cn/H_1/NWP/202512/t20251216_2695688.shtml",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://english.wuhan.gov.cn/H_1/NWP/202512/t20251216_2695688.shtml"
+      ]
+    },
+    {
+      "id": "marathon-cape-town",
+      "kind": "marathon",
+      "name": "Sanlam Cape Town Marathon",
+      "location": {
+        "city": "Cape Town",
+        "country": "South Africa",
+        "country_code": "ZA",
+        "region": "Western Cape"
+      },
+      "map": {
+        "center": [
+          -33.9249,
+          18.4241
+        ],
+        "query": "Cape Town, South Africa",
+        "preview_radius_km": 8,
+        "purpose": "city_preview"
+      },
+      "details": {
+        "wa_ranking_year": 2025,
+        "wa_rank": null,
+        "wa_label_year": 2026,
+        "wa_label": "Elite",
+        "major_status": "joins_2027",
+        "start_place": "Cape Town",
+        "finish_place": "Green Point",
+        "municipalities": [
+          "Cape Town"
+        ],
+        "route_scope": "single_city",
+        "route_source_url": "https://capetownmarathon.com/marathon/",
+        "geometry_status": "pending_official_route"
+      },
+      "source_urls": [
+        "https://capetownmarathon.com/marathon/"
+      ]
+    }
+  ]
+}

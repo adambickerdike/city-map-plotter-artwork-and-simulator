@@ -1,0 +1,1880 @@
+{
+  "schema_version": 1,
+  "id": "hike-expansion-recipes-v1",
+  "generated_at": "2026-08-03",
+  "purpose": "Thirty verified additional north-up A5 hiking subjects; each emits detailed-map and terrain-relief artwork.",
+  "audit_sources": [
+    {
+      "scope": "Europe",
+      "source_file": "hike-expansion-recipes-europe-v1.json",
+      "sha256": "5257a5e5f3f1436dae983e1adae9bd9423e36a4222969834ab90aa10852aaf17"
+    },
+    {
+      "scope": "Americas",
+      "source_file": "hike-expansion-recipes-americas-v1.json",
+      "sha256": "1671a708d20188a139e96bc798c75324ea46da64dbe6c4c4c4092d953dce3cc3"
+    }
+  ],
+  "routes": [
+    {
+      "id": "RTE-GB-ENG-PW-01",
+      "title": "Pennine Way",
+      "country": "England",
+      "relation_id": 4080347,
+      "official_url": "https://www.nationaltrail.co.uk/en_GB/trails/pennine-way/",
+      "official_publisher": "National Trails",
+      "official_distance_km": 431,
+      "start": "Edale",
+      "finish": "Kirk Yetholm",
+      "format_id": "a5-portrait",
+      "context_caps": {
+        "settlement": 16,
+        "peak": 6,
+        "pass": 4,
+        "road": 10,
+        "water": 14,
+        "river": 18,
+        "coast": 10,
+        "woodland": 12,
+        "grass": 12
+      },
+      "verified_relation": {
+        "id": 4080347,
+        "version": 20,
+        "timestamp": "2025-04-30T14:45:30Z",
+        "url": "https://www.openstreetmap.org/relation/4080347"
+      },
+      "verified_waymarked": {
+        "route_length_m": 411311,
+        "bbox_wgs84": [
+          -2.56242,
+          53.36436,
+          -1.81686,
+          55.54714
+        ],
+        "base_lines": 1274,
+        "vertices": 17913
+      },
+      "geometry_recipe": {
+        "status": "usable_direct",
+        "draw": "route.main recursively",
+        "appendices": "exclude",
+        "direction": "Edale to Kirk Yetholm",
+        "distance_label": "431 km official; plotted OSM geometry 411.3 km"
+      },
+      "label_seed": {
+        "places": [
+          "Edale",
+          "Hawes",
+          "Middleton-in-Teesdale",
+          "Alston",
+          "Kirk Yetholm"
+        ],
+        "peaks": [
+          "Kinder Scout",
+          "Pen-y-ghent",
+          "Cross Fell",
+          "The Cheviot"
+        ],
+        "water": [
+          "Torside Reservoir",
+          "River Aire",
+          "River Tees",
+          "South Tyne"
+        ]
+      }
+    },
+    {
+      "id": "RTE-GB-ENG-SWCP-01",
+      "title": "South West Coast Path",
+      "country": "England",
+      "relation_id": 2376086,
+      "official_url": "https://www.nationaltrail.co.uk/en_GB/trails/south-west-coast-path/trail-information/",
+      "official_publisher": "National Trails",
+      "official_distance_km": 1014,
+      "start": "Minehead",
+      "finish": "South Haven",
+      "format_id": "a5-landscape",
+      "context_caps": {
+        "settlement": 18,
+        "peak": 5,
+        "pass": 4,
+        "road": 8,
+        "water": 16,
+        "river": 12,
+        "coast": 10,
+        "woodland": 10,
+        "grass": 10
+      },
+      "verified_relation": {
+        "id": 2376086,
+        "version": 50,
+        "timestamp": "2025-11-29T19:16:52Z",
+        "url": "https://www.openstreetmap.org/relation/2376086"
+      },
+      "verified_waymarked": {
+        "route_length_m": 1032641,
+        "bbox_wgs84": [
+          -5.71513,
+          49.95953,
+          -1.92453,
+          51.24094
+        ],
+        "base_lines": 8064,
+        "vertices": 67649
+      },
+      "geometry_recipe": {
+        "status": "usable_direct",
+        "draw": "route.main recursively",
+        "appendices": "exclude",
+        "direction": "Minehead to South Haven Point",
+        "distance_label": "1,014 km official; plotted OSM geometry 1,032.6 km"
+      },
+      "label_seed": {
+        "places": [
+          "Minehead",
+          "Ilfracombe",
+          "Padstow",
+          "St Ives",
+          "Penzance",
+          "Falmouth",
+          "Plymouth",
+          "Exmouth",
+          "Weymouth",
+          "South Haven Point"
+        ],
+        "peaks": [
+          "Great Hangman",
+          "Selworthy Beacon",
+          "Golden Cap"
+        ],
+        "water": [
+          "Bristol Channel",
+          "Atlantic Ocean",
+          "English Channel",
+          "Poole Harbour"
+        ]
+      }
+    },
+    {
+      "id": "RTE-GB-ENG-C2C-01",
+      "title": "Coast to Coast",
+      "country": "England",
+      "relation_id": 12145,
+      "official_url": "https://www.nationaltrail.co.uk/en_GB/trails/coast-to-coast/",
+      "official_publisher": "National Trails",
+      "official_distance_km": 309,
+      "start": "St Bees",
+      "finish": "Robin Hood's Bay",
+      "format_id": "a5-landscape",
+      "context_caps": {
+        "settlement": 16,
+        "peak": 6,
+        "pass": 4,
+        "road": 10,
+        "water": 12,
+        "river": 16,
+        "coast": 10,
+        "woodland": 12,
+        "grass": 12
+      },
+      "verified_relation": {
+        "id": 12145,
+        "version": 383,
+        "timestamp": "2025-09-28T12:29:44Z",
+        "url": "https://www.openstreetmap.org/relation/12145"
+      },
+      "verified_waymarked": {
+        "route_length_m": 302138,
+        "bbox_wgs84": [
+          -3.6391,
+          54.3701,
+          -0.52164,
+          54.54139
+        ],
+        "base_lines": 1217,
+        "vertices": 17187
+      },
+      "geometry_recipe": {
+        "status": "usable_normalized",
+        "draw": "all three route.main subrelations [7336321,7336320,7336319]",
+        "appendices": "none",
+        "order": "west-to-east by endpoint proximity",
+        "endpoint_snap_tolerance_m": 250,
+        "distance_label": "309 km official; plotted OSM geometry 302.1 km",
+        "qa": "Reject if the ordered components do not make one St Bees-to-Robin Hood's Bay chain."
+      },
+      "label_seed": {
+        "places": [
+          "St Bees",
+          "Rosthwaite",
+          "Patterdale",
+          "Kirkby Stephen",
+          "Richmond",
+          "Grosmont",
+          "Robin Hood's Bay"
+        ],
+        "peaks": [
+          "Kidsty Pike",
+          "Nine Standards Rigg",
+          "Helvellyn"
+        ],
+        "water": [
+          "Irish Sea",
+          "Ennerdale Water",
+          "River Swale",
+          "North Sea"
+        ]
+      }
+    },
+    {
+      "id": "RTE-GB-SCT-CWT-01",
+      "context_cache_key": "branch-safe-v1",
+      "title": "Cape Wrath Trail",
+      "country": "Scotland",
+      "relation_id": 9327615,
+      "official_url": "https://www.capewrathtrail.org.uk/",
+      "official_publisher": "Cape Wrath Trail",
+      "official_distance_km": 370,
+      "start": "Fort William",
+      "finish": "Cape Wrath",
+      "format_id": "a5-portrait",
+      "context_caps": {
+        "settlement": 14,
+        "peak": 7,
+        "pass": 4,
+        "road": 7,
+        "water": 18,
+        "river": 18,
+        "coast": 10,
+        "woodland": 12,
+        "grass": 12
+      },
+      "verified_relation": {
+        "id": 9327615,
+        "version": 16,
+        "timestamp": "2021-05-17T23:50:03Z",
+        "url": "https://www.openstreetmap.org/relation/9327615"
+      },
+      "verified_waymarked": {
+        "route_length_m": 529527,
+        "bbox_wgs84": [
+          -5.67106,
+          56.76707,
+          -4.72436,
+          58.62518
+        ],
+        "base_lines": 1018,
+        "vertices": 26329
+      },
+      "geometry_recipe": {
+        "status": "usable_normalized_manual_qa",
+        "draw_selected_member_relations_recursively_main_only": [
+          6334405,
+          9331377,
+          9331755,
+          9332336,
+          9333761
+        ],
+        "selected_length_m": 371327,
+        "exclude_overlapping_main_members": [
+          9327614,
+          9331992,
+          9332711
+        ],
+        "exclude_top_level_alternates": [
+          9487696,
+          10302812,
+          10306630,
+          10306728,
+          10306701,
+          12725389,
+          10320587
+        ],
+        "exclude_all_nested_appendices": true,
+        "endpoint_snap_tolerance_m": 2500,
+        "gap_policy": "Do not draw a straight bridge; resolve any residual named-stage gap through OSM foot-access ways and require visual QA.",
+        "distance_label": "about 370 km; chosen plotted alignment 371.3 km",
+        "qa": "The raw 529.5 km master is forbidden because it double-counts alternatives."
+      },
+      "label_seed": {
+        "places": [
+          "Fort William",
+          "Glenfinnan",
+          "Morvich",
+          "Kinlochewe",
+          "Ullapool",
+          "Inchnadamph",
+          "Cape Wrath"
+        ],
+        "peaks": [
+          "Ben Nevis",
+          "Sgurr na Ciche",
+          "Beinn Eighe",
+          "Suilven",
+          "Foinaven"
+        ],
+        "water": [
+          "Loch Linnhe",
+          "Loch Hourn",
+          "Loch Duich",
+          "Sandwood Bay"
+        ]
+      }
+    },
+    {
+      "id": "RTE-GB-SCT-SUW-01",
+      "title": "Southern Upland Way",
+      "country": "Scotland",
+      "relation_id": 4736666,
+      "official_url": "https://www.scotlandsgreattrails.com/trail/southern-upland-way/",
+      "official_publisher": "Scotland's Great Trails",
+      "official_distance_km": 344,
+      "start": "Portpatrick",
+      "finish": "Cockburnspath",
+      "detail_copy": "Portpatrick > Cockburnspath",
+      "format_id": "a5-landscape",
+      "route_simplification_webmercator_m": 80.0,
+      "required_context_labels": {
+        "peak": [
+          "Lowther Hill"
+        ]
+      },
+      "context_caps": {
+        "settlement": 15,
+        "peak": 5,
+        "pass": 4,
+        "road": 9,
+        "water": 14,
+        "river": 16,
+        "coast": 10,
+        "woodland": 14,
+        "grass": 14
+      },
+      "verified_relation": {
+        "id": 4736666,
+        "version": 7,
+        "timestamp": "2021-03-06T01:26:05Z",
+        "url": "https://www.openstreetmap.org/relation/4736666"
+      },
+      "verified_waymarked": {
+        "route_length_m": 348789,
+        "bbox_wgs84": [
+          -5.14529,
+          54.84254,
+          -2.32427,
+          55.93799
+        ],
+        "base_lines": 552,
+        "vertices": 12143
+      },
+      "geometry_recipe": {
+        "status": "usable_direct",
+        "draw": "route.main recursively",
+        "appendices": "none",
+        "direction": "Portpatrick to Cockburnspath",
+        "distance_label": "344 km official; plotted OSM geometry 348.8 km"
+      },
+      "label_seed": {
+        "places": [
+          "Portpatrick",
+          "New Luce",
+          "Sanquhar",
+          "Wanlockhead",
+          "Moffat",
+          "Melrose",
+          "Cockburnspath"
+        ],
+        "peaks": [
+          "Merrick",
+          "Lowther Hill",
+          "Ettrick Pen"
+        ],
+        "water": [
+          "Irish Sea",
+          "Loch Trool",
+          "St Mary's Loch",
+          "North Sea"
+        ]
+      }
+    },
+    {
+      "id": "RTE-GB-WLS-PCP-01",
+      "title": "Pembrokeshire Coast Path",
+      "country": "Wales",
+      "relation_id": 77964,
+      "official_url": "https://www.nationaltrail.co.uk/en_GB/trails/pembrokeshire-coast-path/",
+      "official_publisher": "National Trails",
+      "official_distance_km": 299,
+      "start": "St Dogmaels",
+      "finish": "Amroth",
+      "format_id": "a5-portrait",
+      "context_caps": {
+        "settlement": 15,
+        "peak": 4,
+        "pass": 4,
+        "road": 8,
+        "water": 16,
+        "river": 10,
+        "coast": 10,
+        "woodland": 10,
+        "grass": 10
+      },
+      "verified_relation": {
+        "id": 77964,
+        "version": 438,
+        "timestamp": "2026-03-02T20:34:09Z",
+        "url": "https://www.openstreetmap.org/relation/77964"
+      },
+      "verified_waymarked": {
+        "route_length_m": 285464,
+        "bbox_wgs84": [
+          -5.3198,
+          51.59878,
+          -4.64734,
+          52.11555
+        ],
+        "base_lines": 882,
+        "vertices": 19043
+      },
+      "geometry_recipe": {
+        "status": "usable_direct",
+        "draw": "route.main recursively",
+        "appendices": "exclude",
+        "direction": "St Dogmaels to Amroth",
+        "distance_label": "299 km official; plotted OSM geometry 285.5 km"
+      },
+      "label_seed": {
+        "places": [
+          "St Dogmaels",
+          "Newport",
+          "St Davids",
+          "Broad Haven",
+          "Pembroke",
+          "Tenby",
+          "Amroth"
+        ],
+        "peaks": [
+          "Foel Cwmcerwyn",
+          "Carn Ingli",
+          "Mynydd Dinas"
+        ],
+        "water": [
+          "Cardigan Bay",
+          "Irish Sea",
+          "Milford Haven",
+          "Daugleddau Estuary"
+        ]
+      }
+    },
+    {
+      "id": "RTE-GB-WLS-ODP-01",
+      "title": "Offa's Dyke Path",
+      "country": "Wales",
+      "relation_id": 9649,
+      "official_url": "https://www.nationaltrail.co.uk/en_GB/trails/offas-dyke-path/trail-information/",
+      "official_publisher": "National Trails",
+      "official_distance_km": 285,
+      "start": "Sedbury Cliffs",
+      "finish": "Prestatyn",
+      "format_id": "a5-portrait",
+      "context_caps": {
+        "settlement": 16,
+        "peak": 6,
+        "pass": 4,
+        "road": 10,
+        "water": 12,
+        "river": 18,
+        "coast": 10,
+        "woodland": 12,
+        "grass": 12
+      },
+      "verified_relation": {
+        "id": 9649,
+        "version": 420,
+        "timestamp": "2026-04-19T11:40:36Z",
+        "url": "https://www.openstreetmap.org/relation/9649"
+      },
+      "verified_waymarked": {
+        "route_length_m": 285798,
+        "bbox_wgs84": [
+          -3.4128,
+          51.63253,
+          -2.64832,
+          53.34253
+        ],
+        "base_lines": 977,
+        "vertices": 10748
+      },
+      "geometry_recipe": {
+        "status": "usable_direct",
+        "draw": "route.main recursively",
+        "appendices": "exclude",
+        "direction": "Sedbury Cliffs to Prestatyn",
+        "distance_label": "285 km official; plotted OSM geometry 285.8 km"
+      },
+      "label_seed": {
+        "places": [
+          "Sedbury Cliffs",
+          "Monmouth",
+          "Hay-on-Wye",
+          "Knighton",
+          "Llangollen",
+          "Prestatyn"
+        ],
+        "peaks": [
+          "Black Mountain",
+          "Moel y Gamelin",
+          "Moel Famau"
+        ],
+        "water": [
+          "Severn Estuary",
+          "River Wye",
+          "River Dee",
+          "Irish Sea"
+        ]
+      }
+    },
+    {
+      "id": "RTE-FR-COR-GR20-01",
+      "title": "GR 20",
+      "country": "France",
+      "relation_id": 101692,
+      "official_url": "https://boutique.ffrandonnee.fr/topoguide/gr20-a-travers-la-montagne-corse",
+      "official_publisher": "FFRandonnée",
+      "official_distance_km": 180,
+      "start": "Calenzana",
+      "finish": "Conca",
+      "format_id": "a5-portrait",
+      "context_caps": {
+        "settlement": 14,
+        "peak": 8,
+        "pass": 4,
+        "road": 7,
+        "water": 10,
+        "river": 14,
+        "coast": 10,
+        "woodland": 10,
+        "grass": 10
+      },
+      "verified_relation": {
+        "id": 101692,
+        "version": 141,
+        "timestamp": "2026-03-09T14:29:13Z",
+        "url": "https://www.openstreetmap.org/relation/101692"
+      },
+      "verified_waymarked": {
+        "route_length_m": 183631,
+        "bbox_wgs84": [
+          8.8497,
+          41.73478,
+          9.334,
+          42.50815
+        ],
+        "base_lines": 169,
+        "vertices": 9808
+      },
+      "geometry_recipe": {
+        "status": "usable_direct",
+        "draw": "route.main recursively",
+        "appendices": "exclude",
+        "direction": "Calenzana to Conca",
+        "distance_label": "about 180 km official; plotted OSM geometry 183.6 km"
+      },
+      "label_seed": {
+        "places": [
+          "Calenzana",
+          "Asco",
+          "Vizzavona",
+          "Bavella",
+          "Conca"
+        ],
+        "peaks": [
+          "Monte Cinto",
+          "Paglia Orba",
+          "Monte d'Oro",
+          "Monte Renoso"
+        ],
+        "water": [
+          "Lac de Nino",
+          "Lac de Melo",
+          "Lac de Capitello",
+          "Mediterranean Sea"
+        ]
+      }
+    },
+    {
+      "id": "RTE-EU-TMB-LOOP-01",
+      "title": "Tour du Mont Blanc",
+      "country": "France / Italy / Switzerland",
+      "relation_id": 124456,
+      "official_url": "https://www.montourdumontblanc.com/fr/",
+      "official_publisher": "Autour du Mont-Blanc",
+      "official_distance_km": 170,
+      "start": "loop",
+      "finish": "loop",
+      "format_id": "a5-portrait",
+      "context_caps": {
+        "settlement": 15,
+        "peak": 8,
+        "pass": 4,
+        "road": 8,
+        "water": 10,
+        "river": 14,
+        "coast": 10,
+        "woodland": 10,
+        "grass": 10
+      },
+      "verified_relation": {
+        "id": 124456,
+        "version": 252,
+        "timestamp": "2025-01-15T20:03:14Z",
+        "url": "https://www.openstreetmap.org/relation/124456"
+      },
+      "verified_waymarked": {
+        "route_length_m": 165828,
+        "bbox_wgs84": [
+          6.7066,
+          45.69649,
+          7.12832,
+          46.05847
+        ],
+        "base_lines": 972,
+        "vertices": 25560
+      },
+      "geometry_recipe": {
+        "status": "usable_direct",
+        "draw": "route.main recursively as closed circuit",
+        "appendices": "exclude all seven variants",
+        "roundtrip": true,
+        "closure_snap_tolerance_m": 100,
+        "distance_label": "over 170 km official; plotted main circuit 165.8 km"
+      },
+      "label_seed": {
+        "places": [
+          "Les Houches",
+          "Courmayeur",
+          "La Fouly",
+          "Champex",
+          "Trient"
+        ],
+        "peaks": [
+          "Mont Blanc",
+          "Grandes Jorasses",
+          "Aiguille de Bionnassay",
+          "Mont Dolent"
+        ],
+        "water": [
+          "Arve",
+          "Dora Baltea",
+          "Dranse de Ferret",
+          "Glacier du Miage"
+        ]
+      }
+    },
+    {
+      "id": "RTE-EU-WHR-01",
+      "title": "Walker's Haute Route",
+      "country": "France / Switzerland",
+      "relation_id": 3020521,
+      "official_url": "https://www.chamonix.net/english/summer-activities/trekking/haute-route",
+      "official_publisher": "Chamonix.net",
+      "official_distance_km": 200,
+      "start": "Chamonix",
+      "finish": "Zermatt",
+      "format_id": "a5-landscape",
+      "context_caps": {
+        "settlement": 15,
+        "peak": 8,
+        "pass": 4,
+        "road": 8,
+        "water": 10,
+        "river": 14,
+        "coast": 10,
+        "woodland": 9,
+        "grass": 9
+      },
+      "verified_relation": {
+        "id": 3020521,
+        "version": 241,
+        "timestamp": "2026-06-26T17:38:40Z",
+        "url": "https://www.openstreetmap.org/relation/3020521"
+      },
+      "verified_waymarked": {
+        "route_length_m": 209116,
+        "bbox_wgs84": [
+          6.86921,
+          45.923,
+          7.81299,
+          46.22438
+        ],
+        "base_lines": 1021,
+        "vertices": 25872
+      },
+      "geometry_recipe": {
+        "status": "usable_normalized",
+        "draw": "all 23 route.main stage relations in Chamonix-to-Zermatt endpoint order",
+        "appendices": "exclude all six alternates",
+        "endpoint_snap_tolerance_m": 300,
+        "distance_label": "about 200 km; plotted selected stages 209.1 km",
+        "qa": "Require a single west-to-east chain and reject any duplicated stage before rendering."
+      },
+      "label_seed": {
+        "places": [
+          "Chamonix",
+          "Argentiere",
+          "Verbier",
+          "Arolla",
+          "Gruben",
+          "Zermatt"
+        ],
+        "peaks": [
+          "Mont Blanc",
+          "Grand Combin",
+          "Weisshorn",
+          "Matterhorn"
+        ],
+        "water": [
+          "Lac de Moiry",
+          "Lac des Dix",
+          "Glacier d'Otemma",
+          "Zinal Glacier"
+        ]
+      }
+    },
+    {
+      "id": "RTE-CH-4HW-49",
+      "title": "Four Sources",
+      "country": "Switzerland",
+      "relation_id": 3094421,
+      "official_url": "https://schweizmobil.ch/en/hiking-in-switzerland/route-49",
+      "official_publisher": "SwitzerlandMobility",
+      "official_distance_km": 82,
+      "start": "Oberalp Pass",
+      "finish": "Furka Pass",
+      "detail_start": "Oberalp",
+      "detail_finish": "Furka",
+      "format_id": "a5-landscape",
+      "context_caps": {
+        "settlement": 13,
+        "peak": 8,
+        "pass": 4,
+        "road": 8,
+        "water": 12,
+        "river": 16,
+        "coast": 10,
+        "woodland": 8,
+        "grass": 8
+      },
+      "verified_relation": {
+        "id": 3094421,
+        "version": 94,
+        "timestamp": "2026-07-14T12:37:20Z",
+        "url": "https://www.openstreetmap.org/relation/3094421"
+      },
+      "verified_waymarked": {
+        "route_length_m": 80934,
+        "bbox_wgs84": [
+          8.317571,
+          46.469851,
+          8.687813,
+          46.659816
+        ],
+        "base_lines": 218,
+        "vertices": 7054
+      },
+      "geometry_recipe": {
+        "status": "usable_normalized",
+        "reverse_output": true,
+        "draw": "all three route.main linear components in endpoint order",
+        "appendices": "exclude two endpoint stubs totalling 238 m",
+        "endpoint_snap_tolerance_m": 150,
+        "distance_label": "82 km official; plotted OSM geometry 80.9 km",
+        "qa": "The 605 m middle main component is retained as a connector, not treated as an alternative."
+      },
+      "label_seed": {
+        "places": [
+          "Andermatt",
+          "Oberalp Pass",
+          "Gotthard Pass",
+          "Nufenen Pass",
+          "Furka Pass"
+        ],
+        "peaks": [
+          "Piz Badus",
+          "Pizzo Rotondo",
+          "Dammastock",
+          "Galenstock"
+        ],
+        "water": [
+          "Lai da Tuma / Rhine source",
+          "Reuss source",
+          "Ticino source",
+          "Rhone Glacier",
+          "Lago di Lucendro"
+        ],
+        "ranges": [
+          "Gotthard Massif",
+          "Uri Alps",
+          "Lepontine Alps"
+        ]
+      }
+    },
+    {
+      "id": "RTE-IT-DOL-AV1-01",
+      "title": "Alta Via 1",
+      "country": "Italy",
+      "relation_id": 177743,
+      "official_url": "https://www.dolomitibelluno.it/en/things-to-do/alte-vie/alta-via-n-1/",
+      "official_publisher": "Dolomiti Bellunesi",
+      "official_distance_km": 125,
+      "start": "Lago di Braies",
+      "finish": "Belluno",
+      "format_id": "a5-portrait",
+      "context_caps": {
+        "settlement": 14,
+        "peak": 8,
+        "pass": 4,
+        "road": 8,
+        "water": 10,
+        "river": 12,
+        "coast": 10,
+        "woodland": 10,
+        "grass": 10
+      },
+      "verified_relation": {
+        "id": 177743,
+        "version": 191,
+        "timestamp": "2026-07-11T13:58:34Z",
+        "url": "https://www.openstreetmap.org/relation/177743"
+      },
+      "verified_waymarked": {
+        "route_length_m": 117885,
+        "bbox_wgs84": [
+          11.98386,
+          46.13799,
+          12.21695,
+          46.6999
+        ],
+        "base_lines": 391,
+        "vertices": 11909
+      },
+      "geometry_recipe": {
+        "status": "usable_direct",
+        "draw": "route.main recursively",
+        "appendices": "exclude all 13 variants",
+        "direction": "Lago di Braies to Belluno",
+        "distance_label": "125 km official; plotted main alignment 117.9 km"
+      },
+      "label_seed": {
+        "places": [
+          "Lago di Braies",
+          "Fanes",
+          "Cortina d'Ampezzo",
+          "Passo Giau",
+          "Belluno"
+        ],
+        "peaks": [
+          "Croda Rossa",
+          "Tofane",
+          "Pelmo",
+          "Civetta"
+        ],
+        "water": [
+          "Lago di Braies",
+          "Lago di Limo",
+          "Cordevole",
+          "Piave"
+        ]
+      }
+    },
+    {
+      "id": "RTE-SE-KUNGS-01",
+      "context_cache_key": "branch-safe-v1",
+      "title": "Kungsleden",
+      "country": "Sweden",
+      "relation_id": 1657661,
+      "official_url": "https://www.swedishtouristassociation.com/trails/kungsleden/",
+      "official_publisher": "Swedish Tourist Association",
+      "official_distance_km": 450,
+      "start": "Abisko",
+      "finish": "Hemavan",
+      "format_id": "a5-portrait",
+      "context_caps": {
+        "settlement": 17,
+        "peak": 7,
+        "pass": 4,
+        "road": 5,
+        "water": 18,
+        "river": 20,
+        "coast": 10,
+        "woodland": 12,
+        "grass": 12
+      },
+      "verified_relation": {
+        "id": 1657661,
+        "version": 116,
+        "timestamp": "2025-04-20T22:16:07Z",
+        "url": "https://www.openstreetmap.org/relation/1657661"
+      },
+      "verified_waymarked": {
+        "route_length_m": 540310,
+        "bbox_wgs84": [
+          15.0869,
+          65.81453,
+          19.01319,
+          68.35937
+        ],
+        "base_lines": 452,
+        "vertices": 13423
+      },
+      "geometry_recipe": {
+        "status": "usable_normalized",
+        "draw_main_stage_relations_except": [
+          17085819,
+          17085818,
+          17085817,
+          17085816,
+          18864010
+        ],
+        "exclude_reason": {
+          "17085819,17085818,17085817,17085816": "Singi-Kebnekaise-Nikkaluokta out-and-back spur/retrace, 65.552 km",
+          "18864010": "Vakkotavare-Saltoluokta non-walking transfer, 32.316 km"
+        },
+        "selected_walking_length_m": 442442,
+        "draw_transfer_relation": {
+          "relation_id": 18864010,
+          "style": "Grey 0.25 mm dashed 1.5/1.0 mm",
+          "label": "road/ferry transfer",
+          "do_not_count_as_walked_route": true
+        },
+        "appendices": "none",
+        "direction": "Abisko to Hemavan",
+        "distance_label": "about 450 km; selected walking geometry 442.4 km",
+        "qa": "The raw 540.3 km relation is forbidden because it includes the Nikkaluokta out-and-back and transport link."
+      },
+      "label_seed": {
+        "places": [
+          "Abisko",
+          "Alesjaure",
+          "Singi",
+          "Vakkotavare",
+          "Saltoluokta",
+          "Kvikkjokk",
+          "Jakkvik",
+          "Ammarnas",
+          "Hemavan"
+        ],
+        "peaks": [
+          "Kebnekaise",
+          "Sarektjakka",
+          "Norra Sytertoppen"
+        ],
+        "water": [
+          "Tornetrask",
+          "Alesjaure",
+          "Teusajaure",
+          "Langas",
+          "Tarnasjon"
+        ]
+      }
+    },
+    {
+      "id": "RTE-EU-POB-LOOP-01",
+      "title": "Peaks of the Balkans",
+      "country": "Albania / Montenegro / Kosovo",
+      "relation_id": 4726204,
+      "official_url": "https://www.plavto.me/en/tourist-offer/peaks-of-the-balkans/",
+      "official_publisher": "Plav Tourism Organisation",
+      "official_distance_km": 192,
+      "start": "Theth",
+      "finish": "Theth",
+      "format_id": "a5-portrait",
+      "context_caps": {
+        "settlement": 14,
+        "peak": 8,
+        "pass": 4,
+        "road": 7,
+        "water": 10,
+        "river": 14,
+        "coast": 10,
+        "woodland": 10,
+        "grass": 10
+      },
+      "verified_relation": {
+        "id": 4726204,
+        "version": 190,
+        "timestamp": "2026-05-17T05:54:07Z",
+        "url": "https://www.openstreetmap.org/relation/4726204"
+      },
+      "verified_waymarked": {
+        "route_length_m": 194548,
+        "bbox_wgs84": [
+          19.75809,
+          42.4002,
+          20.16271,
+          42.74301
+        ],
+        "base_lines": 281,
+        "vertices": 11342
+      },
+      "geometry_recipe": {
+        "status": "usable_direct_loop",
+        "draw": "all eight route.main components as one circuit",
+        "appendices": "exclude three stubs totalling 1.416 km",
+        "roundtrip": true,
+        "closure_snap_tolerance_m": 200,
+        "distance_label": "192 km classic loop; plotted OSM circuit 194.5 km",
+        "qa": "Non-linear status is expected for a loop; reject only duplicate edges or a closure gap over tolerance."
+      },
+      "label_seed": {
+        "places": [
+          "Theth",
+          "Valbona",
+          "Cerem",
+          "Doberdol",
+          "Milishevc",
+          "Rugova",
+          "Plav"
+        ],
+        "peaks": [
+          "Maja Jezerca",
+          "Gjeravica",
+          "Maja e Ropës"
+        ],
+        "water": [
+          "Lake Plav",
+          "Valbona River",
+          "Theth River",
+          "Rugova Gorge"
+        ]
+      }
+    },
+    {
+      "id": "RTE-ES-MAL-GR221-01",
+      "title": "GR 221 Dry Stone Route",
+      "country": "Spain",
+      "relation_id": 16358020,
+      "official_url": "https://caminsdepedra.conselldemallorca.es/en/dry-stone-route-gr-221",
+      "official_publisher": "Consell de Mallorca",
+      "official_distance_km": 150.1,
+      "start": "Andratx",
+      "finish": "Pollenca",
+      "format_id": "a5-landscape",
+      "context_caps": {
+        "settlement": 15,
+        "peak": 7,
+        "pass": 4,
+        "road": 8,
+        "water": 10,
+        "river": 10,
+        "coast": 10,
+        "woodland": 12,
+        "grass": 12
+      },
+      "verified_relation": {
+        "id": 16358020,
+        "version": 1,
+        "timestamp": "2023-09-21T09:37:33Z",
+        "url": "https://www.openstreetmap.org/relation/16358020"
+      },
+      "verified_waymarked": {
+        "route_length_m": 135976,
+        "bbox_wgs84": [
+          2.36101,
+          39.59924,
+          3.08269,
+          39.90635
+        ],
+        "base_lines": 445,
+        "vertices": 8449
+      },
+      "geometry_recipe": {
+        "status": "usable_normalized_scope_disclosure",
+        "draw": "all eight route.main stage relations [16357771,16357770,16357769,16358019,16358018,16358017,16358016,10289403]",
+        "appendices": "none",
+        "order": "Port d'Andratx to Pollenca by endpoint proximity",
+        "endpoint_snap_tolerance_m": 250,
+        "distance_label": "135.98 km mapped alignment",
+        "official_distance_provenance_only": "150.1 km official project route",
+        "qa": "Do not invent geometry to close the 14.1 km official-versus-OSM scope difference; disclose it and freeze the child relation revisions."
+      },
+      "label_seed": {
+        "places": [
+          "Port d'Andratx",
+          "Estellencs",
+          "Esporles",
+          "Valldemossa",
+          "Deia",
+          "Soller",
+          "Lluc",
+          "Pollenca"
+        ],
+        "peaks": [
+          "Puig Major",
+          "Massanella",
+          "Teix",
+          "Galatzo"
+        ],
+        "water": [
+          "Mediterranean Sea",
+          "Cuber Reservoir",
+          "Gorg Blau"
+        ]
+      }
+    },
+    {
+      "id": "RTE-US-AT-01",
+      "source_catalog_id": "US-AT",
+      "title": "Appalachian Trail",
+      "country": "United States",
+      "relation_id": 156553,
+      "official_url": "https://appalachiantrail.org/experience/hike-the-trail/at-basics/",
+      "official_publisher": "Appalachian Trail Conservancy",
+      "official_distance_km": 3537.2,
+      "start": "Georgia",
+      "finish": "Maine",
+      "format_id": "a5-landscape",
+      "context_caps": {
+        "settlement": 12,
+        "peak": 7,
+        "pass": 4,
+        "road": 12,
+        "water": 5,
+        "river": 10,
+        "coast": 10,
+        "woodland": 12,
+        "grass": 12
+      },
+      "verified_relation": {
+        "relation_id": 156553,
+        "relation_type": "superroute",
+        "name": "Appalachian Trail",
+        "ref": "AT",
+        "version": 114,
+        "timestamp": "2026-05-19T03:10:45Z"
+      },
+      "verified_waymarked": {
+        "route_length_m": 3392174,
+        "bbox_wgs84": [
+          -84.2491,
+          34.55765,
+          -68.9215,
+          45.90445
+        ],
+        "base_lines": 2097,
+        "vertices": 196406,
+        "groups_at_10m": 1,
+        "mst_max_gap_m": 0.0
+      },
+      "geometry_recipe": {
+        "status": "verified",
+        "note": "Generalise state-section geometry only after full merge; preserve the NE-SW silhouette and six major river crossings."
+      },
+      "label_seed": {}
+    },
+    {
+      "id": "RTE-US-PCT-01",
+      "source_catalog_id": "US-PCT",
+      "title": "Pacific Crest Trail",
+      "country": "United States",
+      "relation_id": 1225378,
+      "official_url": "https://www.pcta.org/2024/how-long-is-the-pct-really-93700/",
+      "official_publisher": "Pacific Crest Trail Association",
+      "official_distance_km": 4274.1,
+      "start": "Campo",
+      "finish": "Manning Park",
+      "format_id": "a5-portrait",
+      "context_caps": {
+        "settlement": 10,
+        "peak": 8,
+        "pass": 4,
+        "road": 10,
+        "water": 5,
+        "river": 10,
+        "coast": 10,
+        "woodland": 12,
+        "grass": 12
+      },
+      "verified_relation": {
+        "relation_id": 1225378,
+        "relation_type": "superroute",
+        "name": "Pacific Crest Trail",
+        "ref": "PCT",
+        "version": 414,
+        "timestamp": "2025-08-09T00:55:11Z"
+      },
+      "verified_waymarked": {
+        "route_length_m": 4222252,
+        "bbox_wgs84": [
+          -123.25818,
+          32.58973,
+          -116.41244,
+          49.06406
+        ],
+        "base_lines": 982,
+        "vertices": 258096,
+        "groups_at_10m": 1,
+        "mst_max_gap_m": 0.0
+      },
+      "geometry_recipe": {
+        "status": "verified",
+        "note": "Keep the border-to-border spine dominant; context roads are crossings only and biome textures are limited to desert, Sierra, and Cascades bands."
+      },
+      "label_seed": {}
+    },
+    {
+      "id": "RTE-US-CDT-01",
+      "source_catalog_id": "US-CDT",
+      "title": "Continental Divide Trail",
+      "country": "United States",
+      "relation_id": 921198,
+      "official_url": "https://www.nps.gov/subjects/nationaltrailssystem/national-scenic-trails.htm",
+      "official_publisher": "US National Park Service",
+      "official_distance_km": 4989.0,
+      "start": "Crazy Cook",
+      "finish": "Waterton Lake",
+      "format_id": "a5-portrait",
+      "context_caps": {
+        "settlement": 10,
+        "peak": 8,
+        "pass": 4,
+        "road": 12,
+        "water": 5,
+        "river": 10,
+        "coast": 10,
+        "woodland": 12,
+        "grass": 12
+      },
+      "verified_relation": {
+        "relation_id": 921198,
+        "relation_type": "superroute",
+        "name": "Continental Divide National Scenic Trail",
+        "ref": "CDT",
+        "version": 423,
+        "timestamp": "2026-01-12T08:47:08Z"
+      },
+      "verified_waymarked": {
+        "route_length_m": 4825721,
+        "bbox_wgs84": [
+          -113.93624,
+          31.49538,
+          -105.66181,
+          48.99869
+        ],
+        "base_lines": 1733,
+        "vertices": 147037,
+        "groups_at_10m": 1,
+        "mst_max_gap_m": 0.0
+      },
+      "geometry_recipe": {
+        "status": "verified",
+        "note": "Do not mix Antelope Wells, Columbus, or Chief Mountain variants into the solid primary line; variants require a separately named optional layer."
+      },
+      "label_seed": {}
+    },
+    {
+      "id": "RTE-US-FNST-01",
+      "source_catalog_id": "US-FNST",
+      "title": "Florida Trail",
+      "country": "United States",
+      "relation_id": 1163455,
+      "official_url": "https://floridatrail.org/faqs/",
+      "official_publisher": "Florida Trail Association",
+      "official_distance_km": 2414.0,
+      "start": "Cypress",
+      "finish": "Fort Pickens",
+      "format_id": "a5-landscape",
+      "context_caps": {
+        "settlement": 9,
+        "peak": 1,
+        "pass": 4,
+        "road": 8,
+        "water": 8,
+        "river": 16,
+        "coast": 10,
+        "woodland": 15,
+        "grass": 15
+      },
+      "verified_relation": {
+        "relation_id": 1163455,
+        "relation_type": "route",
+        "name": "Florida National Scenic Trail",
+        "ref": "FT",
+        "version": 209,
+        "timestamp": "2026-04-01T09:57:03Z"
+      },
+      "verified_waymarked": {
+        "route_length_m": 2258392,
+        "bbox_wgs84": [
+          -87.28962,
+          25.85719,
+          -80.60947,
+          30.99692
+        ],
+        "base_lines": 2381,
+        "vertices": 76201,
+        "groups_at_10m": 1,
+        "mst_max_gap_m": 0.0
+      },
+      "geometry_recipe": {
+        "status": "verified",
+        "reverse_output": true,
+        "note": "This is a water-and-wetland relief plate. Prefer coast, swamp, spring, and river textures to conventional mountain contours."
+      },
+      "label_seed": {}
+    },
+    {
+      "id": "RTE-US-CT-01",
+      "source_catalog_id": "US-CT",
+      "title": "Colorado Trail",
+      "country": "United States",
+      "relation_id": 3445384,
+      "official_url": "https://coloradotrail.org/trail/",
+      "official_publisher": "Colorado Trail Foundation",
+      "official_distance_km": 782.1,
+      "start": "Denver",
+      "finish": "Durango",
+      "format_id": "a5-landscape",
+      "context_caps": {
+        "settlement": 8,
+        "peak": 8,
+        "pass": 4,
+        "road": 10,
+        "water": 5,
+        "river": 10,
+        "coast": 10,
+        "woodland": 12,
+        "grass": 12
+      },
+      "verified_relation": {
+        "relation_id": 3445384,
+        "relation_type": "route",
+        "name": "Colorado Trail",
+        "ref": "CT",
+        "version": 160,
+        "timestamp": "2025-08-16T18:49:41Z"
+      },
+      "verified_waymarked": {
+        "route_length_m": 767598,
+        "bbox_wgs84": [
+          -108.03876,
+          37.33138,
+          -105.09366,
+          39.55157
+        ],
+        "base_lines": 341,
+        "vertices": 44962,
+        "groups_at_10m": 1,
+        "mst_max_gap_m": 0.0
+      },
+      "geometry_recipe": {
+        "status": "verified",
+        "reverse_output": true,
+        "note": "Relation is the continuous primary Denver-Durango line, not all 567 network miles. Collegiate West may be added only as a labelled alternate layer."
+      },
+      "label_seed": {}
+    },
+    {
+      "id": "RTE-US-LT-01",
+      "source_catalog_id": "US-LT",
+      "title": "Long Trail",
+      "country": "United States",
+      "relation_id": 391736,
+      "official_url": "https://www.greenmountainclub.org/the-long-trail/",
+      "official_publisher": "Green Mountain Club",
+      "official_distance_km": 437.7,
+      "start": "Massachusetts Line",
+      "finish": "Canada Line",
+      "format_id": "a5-portrait",
+      "context_caps": {
+        "settlement": 6,
+        "peak": 6,
+        "pass": 4,
+        "road": 8,
+        "water": 5,
+        "river": 8,
+        "coast": 8,
+        "woodland": 9,
+        "grass": 9
+      },
+      "verified_relation": {
+        "relation_id": 391736,
+        "relation_type": "route",
+        "name": "Long Trail",
+        "ref": "LT",
+        "version": 175,
+        "timestamp": "2025-08-21T13:49:37Z"
+      },
+      "verified_waymarked": {
+        "route_length_m": 401046,
+        "bbox_wgs84": [
+          -73.15553,
+          42.74382,
+          -72.48793,
+          45.00865
+        ],
+        "base_lines": 153,
+        "vertices": 19976,
+        "groups_at_10m": 1,
+        "mst_max_gap_m": 0.0
+      },
+      "geometry_recipe": {
+        "status": "verified",
+        "note": "Use the five Green Mountain summit labels as the main visual cadence; suppress approach trails and most minor roads."
+      },
+      "label_seed": {}
+    },
+    {
+      "id": "RTE-US-WOND-01",
+      "source_catalog_id": "US-WOND",
+      "title": "Wonderland Trail",
+      "country": "United States",
+      "relation_id": 4111743,
+      "official_url": "https://www.nps.gov/mora/planyourvisit/the-wonderland-trail.htm",
+      "official_publisher": "US National Park Service",
+      "official_distance_km": 149.7,
+      "start": "Longmire",
+      "finish": "Longmire",
+      "format_id": "a5-portrait",
+      "context_caps": {
+        "settlement": 1,
+        "peak": 4,
+        "pass": 4,
+        "road": 4,
+        "water": 6,
+        "river": 12,
+        "coast": 10,
+        "woodland": 9,
+        "grass": 9
+      },
+      "verified_relation": {
+        "relation_id": 4111743,
+        "relation_type": "route",
+        "name": "Wonderland Trail",
+        "ref": null,
+        "version": 62,
+        "timestamp": "2025-09-14T22:52:40Z"
+      },
+      "verified_waymarked": {
+        "route_length_m": 137693,
+        "bbox_wgs84": [
+          -121.91262,
+          46.75195,
+          -121.60502,
+          46.97155
+        ],
+        "base_lines": 82,
+        "vertices": 5644,
+        "groups_at_10m": 1,
+        "mst_max_gap_m": 0.0
+      },
+      "geometry_recipe": {
+        "status": "verified",
+        "note": "Preserve the loop and central massif negative space; glacier-fed rivers are radial context, not decorative fill."
+      },
+      "label_seed": {}
+    },
+    {
+      "id": "RTE-US-TRT-01",
+      "source_catalog_id": "US-TRT",
+      "title": "Tahoe Rim Trail",
+      "country": "United States",
+      "relation_id": 3094865,
+      "official_url": "https://tahoerimtrail.org/maps-trail-info/",
+      "official_publisher": "Tahoe Rim Trail Association",
+      "official_distance_km": 265.5,
+      "start": "Tahoe City",
+      "finish": "Tahoe City",
+      "format_id": "a5-portrait",
+      "context_caps": {
+        "settlement": 5,
+        "peak": 6,
+        "pass": 4,
+        "road": 6,
+        "water": 5,
+        "river": 10,
+        "coast": 10,
+        "woodland": 9,
+        "grass": 9
+      },
+      "verified_relation": {
+        "relation_id": 3094865,
+        "relation_type": "route",
+        "name": "Tahoe Rim Trail",
+        "ref": "TRT",
+        "version": 128,
+        "timestamp": "2026-06-26T04:53:27Z"
+      },
+      "verified_waymarked": {
+        "route_length_m": 269768,
+        "bbox_wgs84": [
+          -120.25012,
+          38.72224,
+          -119.88054,
+          39.33122
+        ],
+        "base_lines": 158,
+        "vertices": 16432,
+        "groups_at_10m": 1,
+        "mst_max_gap_m": 0.0
+      },
+      "geometry_recipe": {
+        "status": "verified",
+        "note": "Lake Tahoe is the central negative-space shape; relief stays outside the shoreline and overlapping PCT geometry must not create a duplicate stroke."
+      },
+      "label_seed": {}
+    },
+    {
+      "id": "RTE-CA-GDT-01",
+      "source_catalog_id": "CA-GDT",
+      "title": "Great Divide Trail",
+      "country": "Canada",
+      "relation_id": 8139599,
+      "official_url": "https://greatdividetrail.com/discover-the-gdt/",
+      "official_publisher": "Great Divide Trail Association",
+      "official_distance_km": 1123.0,
+      "start": "Waterton Lakes",
+      "finish": "Kakwa Provincial Park",
+      "format_id": "a5-portrait",
+      "context_caps": {
+        "settlement": 6,
+        "peak": 8,
+        "pass": 4,
+        "road": 8,
+        "water": 6,
+        "river": 12,
+        "coast": 10,
+        "woodland": 12,
+        "grass": 12
+      },
+      "verified_relation": {
+        "relation_id": 8139599,
+        "relation_type": "route",
+        "name": "Great Divide Trail",
+        "ref": "GDT",
+        "version": 8,
+        "timestamp": "2026-01-12T08:54:09Z"
+      },
+      "verified_waymarked": {
+        "route_length_m": 1133210,
+        "bbox_wgs84": [
+          -120.42014,
+          48.99869,
+          -113.90583,
+          53.99805
+        ],
+        "base_lines": 439,
+        "vertices": 67909,
+        "groups_at_10m": 1,
+        "mst_max_gap_m": 0.0
+      },
+      "geometry_recipe": {
+        "status": "verified",
+        "reverse_output": true,
+        "note": "Keep the remote northern sections sparse; four major watershed labels and the lake-pass-valley cadence carry the context."
+      },
+      "label_seed": {}
+    },
+    {
+      "id": "RTE-CA-WCT-01",
+      "source_catalog_id": "CA-WCT",
+      "title": "West Coast Trail",
+      "country": "Canada",
+      "relation_id": 6955341,
+      "official_url": "https://parks.canada.ca/pn-np/bc/pacificrim/activ/sco-wct",
+      "official_publisher": "Parks Canada",
+      "official_distance_km": 75.0,
+      "start": "Pachena",
+      "finish": "Gordon",
+      "format_id": "a5-landscape",
+      "context_caps": {
+        "settlement": 3,
+        "peak": 2,
+        "pass": 4,
+        "road": 3,
+        "water": 7,
+        "river": 14,
+        "coast": 10,
+        "woodland": 12,
+        "grass": 12
+      },
+      "verified_relation": {
+        "relation_id": 6955341,
+        "relation_type": "route",
+        "name": "West Coast Trail",
+        "ref": null,
+        "version": 29,
+        "timestamp": "2025-12-23T05:10:20Z"
+      },
+      "verified_waymarked": {
+        "route_length_m": 75945,
+        "bbox_wgs84": [
+          -125.13028,
+          48.5428,
+          -124.40958,
+          48.79325
+        ],
+        "base_lines": 257,
+        "vertices": 3593,
+        "groups_at_10m": 3,
+        "mst_max_gap_m": 51.0
+      },
+      "geometry_recipe": {
+        "status": "verified",
+        "note": "Inspect all six micro-connectors. Ferry/cable/tidal crossings get a dashed connector layer; never silently snap across water."
+      },
+      "label_seed": {}
+    },
+    {
+      "id": "RTE-US-ONRT-01",
+      "source_catalog_id": "US-ONRT",
+      "title": "Ouachita Trail",
+      "country": "United States",
+      "relation_id": 3838499,
+      "official_url": "https://www.friendsoftheouachita.org/about-the-ot/",
+      "official_publisher": "Friends of the Ouachita Trail",
+      "official_distance_km": 358.9,
+      "start": "Talimena",
+      "finish": "Pinnacle",
+      "format_id": "a5-landscape",
+      "context_caps": {
+        "settlement": 5,
+        "peak": 6,
+        "pass": 4,
+        "road": 8,
+        "water": 5,
+        "river": 10,
+        "coast": 10,
+        "woodland": 12,
+        "grass": 12
+      },
+      "verified_relation": {
+        "relation_id": 3838499,
+        "relation_type": "route",
+        "name": "Ouachita National Recreation Trail",
+        "ref": "OT",
+        "version": 42,
+        "timestamp": "2026-07-01T01:06:19Z"
+      },
+      "verified_waymarked": {
+        "route_length_m": 350458,
+        "bbox_wgs84": [
+          -94.95153,
+          34.65881,
+          -92.46367,
+          34.91483
+        ],
+        "base_lines": 69,
+        "vertices": 8831,
+        "groups_at_10m": 1,
+        "mst_max_gap_m": 0.0
+      },
+      "geometry_recipe": {
+        "status": "verified",
+        "note": "Replacement for Ice Age Trail. Emphasise long east-west ridges, Lake Ouachita, forest texture, and shelters; suppress forest-road clutter."
+      },
+      "label_seed": {}
+    },
+    {
+      "id": "RTE-US-JMT-01",
+      "source_catalog_id": "US-JMT",
+      "title": "John Muir Trail",
+      "country": "United States",
+      "relation_id": 1244828,
+      "official_url": "https://home.nps.gov/yose/planyourvisit/jmt.htm",
+      "official_publisher": "US National Park Service",
+      "official_distance_km": 339.6,
+      "start": "Yosemite",
+      "finish": "Mount Whitney",
+      "format_id": "a5-portrait",
+      "context_caps": {
+        "settlement": 4,
+        "peak": 9,
+        "pass": 4,
+        "road": 5,
+        "water": 7,
+        "river": 14,
+        "coast": 10,
+        "woodland": 12,
+        "grass": 12
+      },
+      "verified_relation": {
+        "relation_id": 1244828,
+        "relation_type": "route",
+        "name": "John Muir Trail",
+        "ref": "JMT",
+        "version": 96,
+        "timestamp": "2025-05-22T19:20:14Z"
+      },
+      "verified_waymarked": {
+        "route_length_m": 335745,
+        "bbox_wgs84": [
+          -119.55858,
+          36.55887,
+          -118.29148,
+          37.8721
+        ],
+        "base_lines": 94,
+        "vertices": 26966,
+        "groups_at_10m": 1,
+        "mst_max_gap_m": 0.0
+      },
+      "geometry_recipe": {
+        "status": "verified",
+        "note": "Replacement for Arizona Trail. Deduplicate the long PCT overlap in geometry while retaining JMT identity, and give High Sierra passes/lakes priority over roads."
+      },
+      "label_seed": {}
+    },
+    {
+      "id": "RTE-US-NPT-01",
+      "source_catalog_id": "US-NPT",
+      "title": "Northville-Placid Trail",
+      "country": "United States",
+      "relation_id": 4286650,
+      "official_url": "https://dec.ny.gov/news/press-releases/2026/5/dec-announces-final-recreation-management-plan-for-several-hamilton-county-conservation-easement-tracts",
+      "official_publisher": "New York State DEC",
+      "official_distance_km": 222.1,
+      "start": "Northville",
+      "finish": "Lake Placid",
+      "format_id": "a5-portrait",
+      "context_caps": {
+        "settlement": 5,
+        "peak": 5,
+        "pass": 4,
+        "road": 7,
+        "water": 8,
+        "river": 16,
+        "coast": 10,
+        "woodland": 12,
+        "grass": 12
+      },
+      "verified_relation": {
+        "relation_id": 4286650,
+        "relation_type": "route",
+        "name": "Northville-Placid Trail",
+        "ref": null,
+        "version": 30,
+        "timestamp": "2026-06-25T07:23:30Z"
+      },
+      "verified_waymarked": {
+        "route_length_m": 221014,
+        "bbox_wgs84": [
+          -74.62668,
+          43.20416,
+          -73.98599,
+          44.27643
+        ],
+        "base_lines": 133,
+        "vertices": 6286,
+        "groups_at_10m": 1,
+        "mst_max_gap_m": 0.0
+      },
+      "geometry_recipe": {
+        "status": "verified",
+        "note": "Replacement for Sunshine Coast Trail. Lakes, ponds, rivers, lean-tos, and wilderness blocks carry the plate; avoid rendering the dense minor-trail network."
+      },
+      "label_seed": {}
+    },
+    {
+      "id": "RTE-US-CA-CHILKOOT-01",
+      "source_catalog_id": "US-CA-CHILKOOT",
+      "title": "Chilkoot Trail",
+      "country": "United States and Canada",
+      "relation_id": 1225005,
+      "official_url": "https://www.nps.gov/klgo/planyourvisit/planning-your-hike.htm",
+      "official_publisher": "US National Park Service",
+      "official_distance_km": 53.0,
+      "start": "Dyea",
+      "finish": "Bennett",
+      "format_id": "a5-portrait",
+      "context_caps": {
+        "settlement": 3,
+        "peak": 7,
+        "pass": 4,
+        "road": 3,
+        "water": 5,
+        "river": 10,
+        "coast": 10,
+        "woodland": 12,
+        "grass": 12
+      },
+      "verified_relation": {
+        "relation_id": 1225005,
+        "relation_type": "route",
+        "name": "Chilkoot Trail",
+        "ref": null,
+        "version": 26,
+        "timestamp": "2025-09-06T02:15:28Z"
+      },
+      "verified_waymarked": {
+        "route_length_m": 50199,
+        "bbox_wgs84": [
+          -135.34665,
+          59.51189,
+          -134.99611,
+          59.84546
+        ],
+        "base_lines": 113,
+        "vertices": 2228,
+        "groups_at_10m": 1,
+        "mst_max_gap_m": 0.0
+      },
+      "geometry_recipe": {
+        "status": "verified",
+        "note": "Replacement for Bruce Trail. Label the international boundary and distinguish canonical historic geometry from current 2026 permitted hiking access."
+      },
+      "label_seed": {}
+    },
+    {
+      "id": "RTE-CA-FUNDY-01",
+      "source_catalog_id": "CA-FUNDY",
+      "title": "Fundy Footpath",
+      "country": "Canada",
+      "relation_id": 4077806,
+      "official_url": "https://parks.canada.ca/pn-np/nb/fundy/visit/~/link.aspx?_id=A2B7DACF6DE247DEA3B38DB8D090B8A8&_z=z",
+      "official_publisher": "Parks Canada",
+      "official_distance_km": 41.0,
+      "start": "Fundy Park",
+      "finish": "St Martins",
+      "format_id": "a5-landscape",
+      "context_caps": {
+        "settlement": 3,
+        "peak": 4,
+        "pass": 4,
+        "road": 3,
+        "water": 6,
+        "river": 12,
+        "coast": 10,
+        "woodland": 12,
+        "grass": 12
+      },
+      "verified_relation": {
+        "relation_id": 4077806,
+        "relation_type": "route",
+        "name": "Fundy Footpath",
+        "ref": null,
+        "version": 7,
+        "timestamp": "2025-09-06T01:54:35Z"
+      },
+      "verified_waymarked": {
+        "route_length_m": 37976,
+        "bbox_wgs84": [
+          -65.40952,
+          45.41965,
+          -65.09765,
+          45.53313
+        ],
+        "base_lines": 9,
+        "vertices": 1486,
+        "groups_at_10m": 1,
+        "mst_max_gap_m": 0.0
+      },
+      "geometry_recipe": {
+        "status": "verified",
+        "note": "Replacement for East Coast Trail. Recipe deliberately maps the continuous 41 km core, not the newer 64 km extended itinerary. Emphasise tidal rivers, ravines, and the Bay of Fundy edge."
+      },
+      "label_seed": {}
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "city-map-plotter/device-profile-v1",
+  "id": "grbl-servo-template-v1",
+  "name": "GRBL servo plotter — configure before use",
+  "calibration_state": "template-unverified",
+  "work_area_mm": {
+    "width": 420.0,
+    "height": 297.0
+  },
+  "motion": {
+    "name": "Uncalibrated GRBL servo plotter",
+    "motion_model": "grbl-cartesian",
+    "pen_down_speed_mm_s": 40.0,
+    "pen_up_speed_mm_s": 80.0,
+    "acceleration_mm_s2": 500.0,
+    "pen_lift_s": 0.3,
+    "pen_lower_s": 0.3,
+    "pen_change_s": 25.0,
+    "cornering_tolerance_mm": 0.05,
+    "curve_flatness_mm": 0.02,
+    "command_latency_s": 0.0,
+    "timing_scale": 1.0,
+    "timing_uncertainty_fraction": 0.25,
+    "calibration_state": "nominal-unmeasured",
+    "allow_page_rotation": true
+  },
+  "controller": {
+    "driver": "grbl",
+    "execution_enabled": false,
+    "serial_baud": 115200,
+    "origin_mm": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "invert_x": false,
+    "invert_y": true,
+    "page_rotation": "auto",
+    "coordinate_system": "G54",
+    "expected_work_offset_mm": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "header_commands": [],
+    "pen_up_commands": [],
+    "pen_down_commands": [],
+    "footer_commands": [],
+    "home_command": "$H",
+    "unlock_command": "$X",
+    "return_home": false,
+    "expected_settings": {}
+  }
+}

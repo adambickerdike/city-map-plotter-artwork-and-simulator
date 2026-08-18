@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "schweizmobil-hike-route-6-facts-v1",
+  "publisher": "SwitzerlandMobility",
+  "url": "https://schweizmobil.ch/en/hiking-in-switzerland/route-6",
+  "acquisition_url": "https://schweizmobil.ch/api/4/route_or_segment/hike/6/0?lang=en",
+  "retrieved_at": "2026-08-04T21:45:31Z",
+  "raw_snapshot_file": "schweizmobil-route-6-api-2026-08-04.json.gz",
+  "raw_snapshot_sha256": "f73c58071e91b1c60b45dbb1423a79e2eee3feb4c76792428c29fbed98140607",
+  "facts": {
+    "land": "hike",
+    "category": "national",
+    "route_number": 6,
+    "segment_number": 0,
+    "title": "Alpine Passes Trail",
+    "start": "St. Moritz, Corviglia",
+    "end": "St-Gingolph",
+    "published_distance_km": 695.0,
+    "published_ascent_m": 47100.0,
+    "published_descent_m": 49200.0,
+    "stage_count": 43,
+    "stage_numbers": [
+      1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,
+      16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
+      31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43
+    ]
+  },
+  "use": "Frozen route identity, endpoints, published distance and stage count only; no SwitzerlandMobility map geometry is copied."
+}

@@ -1,0 +1,277 @@
+{
+  "schema_version": "1.0",
+  "generated_utc": "2026-08-03T22:51:19Z",
+  "title": "Verified Americas hiking expansion recipes for paired A5 map and relief plates",
+  "route_count": 15,
+  "data_contract": {
+    "osm_relation_metadata_endpoint": "https://api.openstreetmap.org/api/0.6/relation/{relation_id}.json",
+    "waymarked_details_endpoint": "https://hiking.waymarkedtrails.org/api/v1/details/relation/{relation_id}",
+    "waymarked_geometry_location": "Embedded LineString objects under route in the details JSON. The former /geometry/gpx endpoint returned HTTP 404 during this audit and is not used.",
+    "waymarked_bbox_crs": "EPSG:3857",
+    "derived_bbox_crs": "EPSG:4326 in [west,south,east,north] order",
+    "licence": "OpenStreetMap data: ODbL 1.0",
+    "licence_url": "https://www.openstreetmap.org/copyright",
+    "required_attribution": "© OpenStreetMap contributors",
+    "freshness_rule": "Before every production batch, re-fetch OSM version/timestamp and Waymarked details. Invalidate cached geometry if either changes.",
+    "continuity_gate": {
+      "normal": "Waymarked route.linear is yes or sorted and all top-level chains form one endpoint-connected group within 10 m.",
+      "microgap_exception": "Allowed only when official and computed lengths agree within 5%, all chains form one group within 100 m, maximum minimum-spanning gap is <=75 m, and each inserted connector is manually classified. Never draw an unexplained bridge over water.",
+      "geometry_gate": "HTTP 200, expected relation id/name, positive computed length, non-empty bbox, and at least 100 embedded coordinate pairs."
+    },
+    "a5_defaults": {
+      "paper_mm": [148, 210],
+      "north_up": true,
+      "safe_margin_mm": 8,
+      "title_band_mm": 18,
+      "footer_band_mm": 18,
+      "minimum_path_spacing_mm": 0.30,
+      "route_pen_role": "primary route",
+      "relief_pen_role": "contours/hachures",
+      "context_rule": "Caps are hard maxima after clipping and simplification, not targets."
+    }
+  },
+  "routes": [
+    {
+      "id": "US-AT",
+      "canonical_name": "Appalachian Trail",
+      "country_region": "United States; Georgia to Maine",
+      "endpoints": ["Springer Mountain, Georgia", "Baxter Peak on Katahdin, Maine"],
+      "official": {"distance": 2197.9, "unit": "mi", "reference_url": "https://appalachiantrail.org/experience/hike-the-trail/at-basics/", "distance_note": "2026 official length; changes annually"},
+      "osm": {"relation_id": 156553, "relation_type": "superroute", "name": "Appalachian Trail", "ref": "AT", "version": 114, "timestamp": "2026-05-19T03:10:45Z"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/156553", "http_status": 200, "computed_length_m": 3392174, "bbox_epsg3857": [-9378566.789340144, 4103928.3677871367, -7672306.407160045, 5765050.416780092], "bbox_wgs84": [-84.24910, 34.55765, -68.92150, 45.90445], "linear": "yes", "main_chain_count": 12, "groups_at_10m": 1, "mst_max_gap_m": 0.0, "base_geometry_count": 2097, "coordinate_pair_count": 196406, "geometry_usable": true},
+      "a5": {"orientation": "landscape", "crop_padding_percent": 4},
+      "context_caps": {"roads": 12, "settlements": 12, "water_features": 10, "water_labels": 7, "peak_labels": 7, "vegetation_zones": 4, "side_trails": 0, "contour_interval_m": 200, "contour_paths": 380},
+      "recipe_note": "Generalise state-section geometry only after full merge; preserve the NE-SW silhouette and six major river crossings."
+    },
+    {
+      "id": "US-PCT",
+      "canonical_name": "Pacific Crest Trail",
+      "country_region": "United States; California, Oregon, Washington",
+      "endpoints": ["Mexico border near Campo, California", "Canada border near Manning Park, British Columbia"],
+      "official": {"distance": 2655.8, "unit": "mi", "reference_url": "https://www.pcta.org/2024/how-long-is-the-pct-really-93700/", "distance_note": "PCTA best estimate; often rounded to 2,650 mi"},
+      "osm": {"relation_id": 1225378, "relation_type": "superroute", "name": "Pacific Crest Trail", "ref": "PCT", "version": 414, "timestamp": "2025-08-09T00:55:11Z"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/1225378", "http_status": 200, "computed_length_m": 4222252, "bbox_epsg3857": [-13721037.766913963, 3840972.7415559925, -12958973.988080475, 6285737.745244638], "bbox_wgs84": [-123.25818, 32.58973, -116.41244, 49.06406], "linear": "yes", "main_chain_count": 29, "groups_at_10m": 1, "mst_max_gap_m": 0.0, "base_geometry_count": 982, "coordinate_pair_count": 258096, "geometry_usable": true},
+      "a5": {"orientation": "portrait", "crop_padding_percent": 4},
+      "context_caps": {"roads": 10, "settlements": 10, "water_features": 10, "water_labels": 7, "peak_labels": 8, "vegetation_zones": 4, "side_trails": 0, "contour_interval_m": 250, "contour_paths": 420},
+      "recipe_note": "Keep the border-to-border spine dominant; context roads are crossings only and biome textures are limited to desert, Sierra, and Cascades bands."
+    },
+    {
+      "id": "US-CDT",
+      "canonical_name": "Continental Divide National Scenic Trail",
+      "country_region": "United States; New Mexico to Montana",
+      "endpoints": ["Crazy Cook Monument, New Mexico primary southern alignment", "Waterton Lake primary northern alignment"],
+      "official": {"distance": 3100, "unit": "mi approximately", "reference_url": "https://www.nps.gov/subjects/nationaltrailssystem/national-scenic-trails.htm", "distance_note": "Alternates change walked distance; recipe uses the OSM canonical superroute"},
+      "osm": {"relation_id": 921198, "relation_type": "superroute", "name": "Continental Divide National Scenic Trail", "ref": "CDT", "version": 423, "timestamp": "2026-01-12T08:47:08Z"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/921198", "http_status": 200, "computed_length_m": 4825721, "official_length_tag_m": 4988000, "bbox_epsg3857": [-12683324.286491903, 3697251.7728857263, -11762219.041342909, 6274639.626309932], "bbox_wgs84": [-113.93624, 31.49538, -105.66181, 48.99869], "linear": "yes", "main_chain_count": 4, "groups_at_10m": 1, "mst_max_gap_m": 0.0, "base_geometry_count": 1733, "coordinate_pair_count": 147037, "geometry_usable": true},
+      "a5": {"orientation": "portrait", "crop_padding_percent": 4},
+      "context_caps": {"roads": 12, "settlements": 10, "water_features": 10, "water_labels": 7, "peak_labels": 8, "vegetation_zones": 4, "side_trails": 0, "contour_interval_m": 250, "contour_paths": 420},
+      "recipe_note": "Do not mix Antelope Wells, Columbus, or Chief Mountain variants into the solid primary line; variants require a separately named optional layer."
+    },
+    {
+      "id": "US-FNST",
+      "canonical_name": "Florida National Scenic Trail",
+      "country_region": "United States; Florida",
+      "endpoints": ["Oasis Visitor Center, Big Cypress", "Fort Pickens, Gulf Islands National Seashore"],
+      "official": {"distance": 1500, "unit": "mi approximately", "reference_url": "https://floridatrail.org/faqs/", "distance_note": "Association network estimate including branches/connectors; OSM canonical relation is about 1,403 mi"},
+      "osm": {"relation_id": 1163455, "relation_type": "route", "name": "Florida National Scenic Trail", "ref": "FT", "version": 209, "timestamp": "2026-04-01T09:57:03Z"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/1163455", "http_status": 200, "computed_length_m": 2258392, "bbox_epsg3857": [-9717035.938618857, 2981403.617181207, -8973405.231439305, 3632349.698602375], "bbox_wgs84": [-87.28962, 25.85719, -80.60947, 30.99692], "linear": "yes", "main_chain_count": 4, "groups_at_10m": 1, "mst_max_gap_m": 0.0, "base_geometry_count": 2381, "coordinate_pair_count": 76201, "geometry_usable": true},
+      "a5": {"orientation": "landscape", "crop_padding_percent": 4},
+      "context_caps": {"roads": 8, "settlements": 9, "water_features": 16, "water_labels": 10, "peak_labels": 1, "vegetation_zones": 5, "side_trails": 0, "contour_interval_m": 10, "contour_paths": 60},
+      "recipe_note": "This is a water-and-wetland relief plate. Prefer coast, swamp, spring, and river textures to conventional mountain contours."
+    },
+    {
+      "id": "US-CT",
+      "canonical_name": "Colorado Trail",
+      "country_region": "United States; Colorado",
+      "endpoints": ["Waterton Canyon near Denver", "Junction Creek near Durango"],
+      "official": {"distance": 486, "unit": "mi via Collegiate East", "reference_url": "https://coloradotrail.org/trail/", "distance_note": "491 mi via Collegiate West; 567 mi is the combined network including both alternatives"},
+      "osm": {"relation_id": 3445384, "relation_type": "route", "name": "Colorado Trail", "ref": "CT", "version": 160, "timestamp": "2025-08-16T18:49:41Z"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/3445384", "http_status": 200, "computed_length_m": 767598, "bbox_epsg3857": [-12026819.660081102, 4485398.4994334085, -11698972.193599816, 4800990.717654893], "bbox_wgs84": [-108.03876, 37.33138, -105.09366, 39.55157], "linear": "yes", "main_chain_count": 3, "groups_at_10m": 1, "mst_max_gap_m": 0.0, "base_geometry_count": 341, "coordinate_pair_count": 44962, "geometry_usable": true},
+      "a5": {"orientation": "landscape", "crop_padding_percent": 5},
+      "context_caps": {"roads": 10, "settlements": 8, "water_features": 10, "water_labels": 7, "peak_labels": 8, "vegetation_zones": 4, "side_trails": 0, "contour_interval_m": 100, "contour_paths": 500},
+      "recipe_note": "Relation is the continuous primary Denver-Durango line, not all 567 network miles. Collegiate West may be added only as a labelled alternate layer."
+    },
+    {
+      "id": "US-LT",
+      "canonical_name": "Long Trail",
+      "country_region": "United States; Vermont",
+      "endpoints": ["Massachusetts-Vermont state line", "Vermont-Quebec border near Journey's End"],
+      "official": {"distance": 272, "unit": "mi", "reference_url": "https://www.greenmountainclub.org/the-long-trail/", "distance_note": "Official rounded length"},
+      "osm": {"relation_id": 391736, "relation_type": "route", "name": "Long Trail", "ref": "LT", "version": 175, "timestamp": "2025-08-21T13:49:37Z"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/391736", "http_status": 200, "computed_length_m": 401046, "official_length_tag_m": 437700, "bbox_epsg3857": [-8143636.860381705, 5273059.407649067, -8069319.790216931, 5622883.433267329], "bbox_wgs84": [-73.15553, 42.74382, -72.48793, 45.00865], "linear": "yes", "main_chain_count": 1, "groups_at_10m": 1, "mst_max_gap_m": 0.0, "base_geometry_count": 153, "coordinate_pair_count": 19976, "geometry_usable": true},
+      "a5": {"orientation": "portrait", "crop_padding_percent": 6},
+      "context_caps": {"roads": 8, "settlements": 6, "water_features": 8, "water_labels": 5, "peak_labels": 6, "vegetation_zones": 3, "side_trails": 0, "contour_interval_m": 50, "contour_paths": 350},
+      "recipe_note": "Use the five Green Mountain summit labels as the main visual cadence; suppress approach trails and most minor roads."
+    },
+    {
+      "id": "US-WOND",
+      "canonical_name": "Wonderland Trail",
+      "country_region": "United States; Mount Rainier National Park, Washington",
+      "endpoints": ["Loop; canonical artwork start at Longmire"],
+      "official": {"distance": 93, "unit": "mi", "reference_url": "https://www.nps.gov/mora/planyourvisit/the-wonderland-trail.htm", "distance_note": "Loop around Mount Rainier"},
+      "osm": {"relation_id": 4111743, "relation_type": "route", "name": "Wonderland Trail", "ref": null, "version": 62, "timestamp": "2025-09-14T22:52:40Z"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/4111743", "http_status": 200, "computed_length_m": 137693, "bbox_epsg3857": [-13571250.712882163, 5901679.422018, -13537009.416375505, 5937432.033483767], "bbox_wgs84": [-121.91262, 46.75195, -121.60502, 46.97155], "linear": "sorted", "main_chain_count": 3, "groups_at_10m": 1, "mst_max_gap_m": 0.0, "base_geometry_count": 82, "coordinate_pair_count": 5644, "geometry_usable": true},
+      "a5": {"orientation": "portrait", "crop_padding_percent": 8},
+      "context_caps": {"roads": 4, "settlements": 1, "water_features": 12, "water_labels": 8, "peak_labels": 4, "vegetation_zones": 3, "side_trails": 0, "contour_interval_m": 100, "contour_paths": 450},
+      "recipe_note": "Preserve the loop and central massif negative space; glacier-fed rivers are radial context, not decorative fill."
+    },
+    {
+      "id": "US-TRT",
+      "canonical_name": "Tahoe Rim Trail",
+      "country_region": "United States; California and Nevada",
+      "endpoints": ["Loop; canonical artwork start at Tahoe City Mile Marker Zero"],
+      "official": {"distance": 165, "unit": "mi", "reference_url": "https://tahoerimtrail.org/maps-trail-info/", "distance_note": "Official rounded loop length"},
+      "osm": {"relation_id": 3094865, "relation_type": "route", "name": "Tahoe Rim Trail", "ref": "TRT", "version": 128, "timestamp": "2026-06-26T04:53:27Z"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/3094865", "http_status": 200, "computed_length_m": 269768, "bbox_epsg3857": [-13386182.682827497, 4681962.001520493, -13345040.223544702, 4769227.371321269], "bbox_wgs84": [-120.25012, 38.72224, -119.88054, 39.33122], "linear": "yes", "main_chain_count": 1, "groups_at_10m": 1, "mst_max_gap_m": 0.0, "base_geometry_count": 158, "coordinate_pair_count": 16432, "geometry_usable": true},
+      "a5": {"orientation": "portrait", "crop_padding_percent": 8},
+      "context_caps": {"roads": 6, "settlements": 5, "water_features": 10, "water_labels": 7, "peak_labels": 6, "vegetation_zones": 3, "side_trails": 0, "contour_interval_m": 100, "contour_paths": 400},
+      "recipe_note": "Lake Tahoe is the central negative-space shape; relief stays outside the shoreline and overlapping PCT geometry must not create a duplicate stroke."
+    },
+    {
+      "id": "CA-GDT",
+      "canonical_name": "Great Divide Trail",
+      "country_region": "Canada; Alberta and British Columbia",
+      "endpoints": ["Waterton Lakes at the Canada-US border", "Kakwa Provincial Park"],
+      "official": {"distance": 1123, "unit": "km", "reference_url": "https://greatdividetrail.com/discover-the-gdt/", "distance_note": "Current official fact-sheet length; alternates exist"},
+      "osm": {"relation_id": 8139599, "relation_type": "route", "name": "Great Divide Trail", "ref": "GDT", "version": 8, "timestamp": "2026-01-12T08:54:09Z"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/8139599", "http_status": 200, "computed_length_m": 1133210, "bbox_epsg3857": [-13405108.165117007, 6274639.626309932, -12679939.105304675, 7169787.885919309], "bbox_wgs84": [-120.42014, 48.99869, -113.90583, 53.99805], "linear": "yes", "main_chain_count": 7, "groups_at_10m": 1, "mst_max_gap_m": 0.0, "base_geometry_count": 439, "coordinate_pair_count": 67909, "geometry_usable": true},
+      "a5": {"orientation": "portrait", "crop_padding_percent": 5},
+      "context_caps": {"roads": 8, "settlements": 6, "water_features": 12, "water_labels": 8, "peak_labels": 8, "vegetation_zones": 4, "side_trails": 0, "contour_interval_m": 200, "contour_paths": 450},
+      "recipe_note": "Keep the remote northern sections sparse; four major watershed labels and the lake-pass-valley cadence carry the context."
+    },
+    {
+      "id": "CA-WCT",
+      "canonical_name": "West Coast Trail",
+      "country_region": "Canada; Pacific Rim National Park Reserve, British Columbia",
+      "endpoints": ["Pachena Bay", "Gordon River"],
+      "official": {"distance": 75, "unit": "km", "reference_url": "https://parks.canada.ca/pn-np/bc/pacificrim/activ/sco-wct", "distance_note": "Official route length"},
+      "osm": {"relation_id": 6955341, "relation_type": "route", "name": "West Coast Trail", "ref": null, "version": 29, "timestamp": "2025-12-23T05:10:20Z"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/6955341", "http_status": 200, "computed_length_m": 75945, "bbox_epsg3857": [-13929438.673933476, 6197636.480247185, -13849210.783710457, 6239852.763304872], "bbox_wgs84": [-125.13028, 48.54280, -124.40958, 48.79325], "linear": "no", "main_chain_count": 7, "groups_at_10m": 3, "groups_at_100m": 1, "mst_max_gap_m": 51.0, "base_geometry_count": 257, "coordinate_pair_count": 3593, "geometry_usable": true, "continuity_exception": "Accepted microgaps; geometry length is within 1.3% of official and all parts connect under the 75 m exception threshold."},
+      "a5": {"orientation": "landscape", "crop_padding_percent": 8},
+      "context_caps": {"roads": 3, "settlements": 3, "water_features": 14, "water_labels": 9, "peak_labels": 2, "vegetation_zones": 4, "side_trails": 0, "contour_interval_m": 25, "contour_paths": 240},
+      "recipe_note": "Inspect all six micro-connectors. Ferry/cable/tidal crossings get a dashed connector layer; never silently snap across water."
+    },
+    {
+      "id": "US-ONRT",
+      "canonical_name": "Ouachita National Recreation Trail",
+      "country_region": "United States; Oklahoma and Arkansas",
+      "endpoints": ["Talimena State Park, Oklahoma", "Pinnacle Mountain State Park, Arkansas"],
+      "official": {"distance": 223, "unit": "mi", "reference_url": "https://www.friendsoftheouachita.org/about-the-ot/", "distance_note": "Official-maintainer distance"},
+      "osm": {"relation_id": 3838499, "relation_type": "route", "name": "Ouachita National Recreation Trail", "ref": "OT", "version": 42, "timestamp": "2026-07-01T01:06:19Z"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/3838499", "http_status": 200, "computed_length_m": 350458, "bbox_epsg3857": [-10569956.158885375, 4117610.275242113, -10293008.783728724, 4152313.167868419], "bbox_wgs84": [-94.95153, 34.65881, -92.46367, 34.91483], "linear": "yes", "main_chain_count": 1, "groups_at_10m": 1, "mst_max_gap_m": 0.0, "base_geometry_count": 69, "coordinate_pair_count": 8831, "geometry_usable": true},
+      "a5": {"orientation": "landscape", "crop_padding_percent": 6},
+      "context_caps": {"roads": 8, "settlements": 5, "water_features": 10, "water_labels": 7, "peak_labels": 6, "vegetation_zones": 4, "side_trails": 0, "contour_interval_m": 50, "contour_paths": 300},
+      "recipe_note": "Replacement for Ice Age Trail. Emphasise long east-west ridges, Lake Ouachita, forest texture, and shelters; suppress forest-road clutter."
+    },
+    {
+      "id": "US-JMT",
+      "canonical_name": "John Muir Trail",
+      "country_region": "United States; Sierra Nevada, California",
+      "endpoints": ["Happy Isles, Yosemite Valley", "Mount Whitney summit"],
+      "official": {"distance": 211, "unit": "mi", "reference_url": "https://home.nps.gov/yose/planyourvisit/jmt.htm", "distance_note": "NPS current rounded distance; alternate NPS pages state 210.4 or approximately 214 mi"},
+      "osm": {"relation_id": 1244828, "relation_type": "route", "name": "John Muir Trail", "ref": "JMT", "version": 96, "timestamp": "2025-05-22T19:20:14Z"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/1244828", "http_status": 200, "computed_length_m": 335745, "official_length_tag_m": 343900, "bbox_epsg3857": [-13309200.735372622, 4377795.519561297, -13168147.251991011, 4561373.202305326], "bbox_wgs84": [-119.55858, 36.55887, -118.29148, 37.87210], "linear": "yes", "main_chain_count": 1, "groups_at_10m": 1, "mst_max_gap_m": 0.0, "base_geometry_count": 94, "coordinate_pair_count": 26966, "geometry_usable": true},
+      "a5": {"orientation": "portrait", "crop_padding_percent": 7},
+      "context_caps": {"roads": 5, "settlements": 4, "water_features": 14, "water_labels": 9, "peak_labels": 9, "vegetation_zones": 4, "side_trails": 0, "contour_interval_m": 100, "contour_paths": 480},
+      "recipe_note": "Replacement for Arizona Trail. Deduplicate the long PCT overlap in geometry while retaining JMT identity, and give High Sierra passes/lakes priority over roads."
+    },
+    {
+      "id": "US-NPT",
+      "canonical_name": "Northville-Placid Trail",
+      "country_region": "United States; Adirondack Park, New York",
+      "endpoints": ["Waterfront Park, Northville", "Lake Placid"],
+      "official": {"distance": 138, "unit": "mi", "reference_url": "https://dec.ny.gov/news/press-releases/2026/5/dec-announces-final-recreation-management-plan-for-several-hamilton-county-conservation-easement-tracts", "distance_note": "Latest NYSDEC 2026 statement; older DEC unit pages state 133-135 mi before reroutes"},
+      "osm": {"relation_id": 4286650, "relation_type": "route", "name": "Northville-Placid Trail", "ref": null, "version": 30, "timestamp": "2026-06-25T07:23:30Z"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/4286650", "http_status": 200, "computed_length_m": 221014, "bbox_epsg3857": [-8307404.017192571, 5343098.294230427, -8236082.821691822, 5508320.602298248], "bbox_wgs84": [-74.62668, 43.20416, -73.98599, 44.27643], "linear": "yes", "main_chain_count": 1, "groups_at_10m": 1, "mst_max_gap_m": 0.0, "base_geometry_count": 133, "coordinate_pair_count": 6286, "geometry_usable": true},
+      "a5": {"orientation": "portrait", "crop_padding_percent": 7},
+      "context_caps": {"roads": 7, "settlements": 5, "water_features": 16, "water_labels": 10, "peak_labels": 5, "vegetation_zones": 4, "side_trails": 0, "contour_interval_m": 25, "contour_paths": 280},
+      "recipe_note": "Replacement for Sunshine Coast Trail. Lakes, ponds, rivers, lean-tos, and wilderness blocks carry the plate; avoid rendering the dense minor-trail network."
+    },
+    {
+      "id": "US-CA-CHILKOOT",
+      "canonical_name": "Chilkoot Trail",
+      "country_region": "United States and Canada; Alaska to British Columbia",
+      "endpoints": ["Dyea, Alaska", "Bennett, British Columbia"],
+      "official": {"distance": 53, "unit": "km", "reference_url": "https://www.nps.gov/klgo/planyourvisit/planning-your-hike.htm", "distance_note": "Canonical international historic trail; in 2026 hikers cannot legally cross the international border on-trail"},
+      "osm": {"relation_id": 1225005, "relation_type": "route", "name": "Chilkoot Trail", "ref": null, "version": 26, "timestamp": "2025-09-06T02:15:28Z"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/1225005", "http_status": 200, "computed_length_m": 50199, "official_length_tag_m": 53000, "bbox_epsg3857": [-15066719.935936436, 8291859.277140672, -15027698.613890965, 8365411.695063314], "bbox_wgs84": [-135.34665, 59.51189, -134.99611, 59.84546], "linear": "yes", "main_chain_count": 1, "groups_at_10m": 1, "mst_max_gap_m": 0.0, "base_geometry_count": 113, "coordinate_pair_count": 2228, "geometry_usable": true},
+      "a5": {"orientation": "portrait", "crop_padding_percent": 9},
+      "context_caps": {"roads": 3, "settlements": 3, "water_features": 10, "water_labels": 7, "peak_labels": 7, "vegetation_zones": 4, "side_trails": 0, "contour_interval_m": 50, "contour_paths": 340},
+      "recipe_note": "Replacement for Bruce Trail. Label the international boundary and distinguish canonical historic geometry from current 2026 permitted hiking access."
+    },
+    {
+      "id": "CA-FUNDY",
+      "canonical_name": "Fundy Footpath",
+      "country_region": "Canada; New Brunswick",
+      "endpoints": ["Goose River in Fundy National Park", "Big Salmon River near St. Martins"],
+      "official": {"distance": 41, "unit": "km core footpath", "reference_url": "https://parks.canada.ca/pn-np/nb/fundy/visit/~/link.aspx?_id=A2B7DACF6DE247DEA3B38DB8D090B8A8&_z=z", "distance_note": "Parks Canada core footpath; provincial tourism also markets a 63.4-64 km extended itinerary"},
+      "osm": {"relation_id": 4077806, "relation_type": "route", "name": "Fundy Footpath", "ref": null, "version": 7, "timestamp": "2025-09-06T01:54:35Z"},
+      "waymarked": {"details_url": "https://hiking.waymarkedtrails.org/api/v1/details/relation/4077806", "http_status": 200, "computed_length_m": 37976, "bbox_epsg3857": [-7281354.170001768, 5687830.498414978, -7246636.8490885785, 5705846.547646653], "bbox_wgs84": [-65.40952, 45.41965, -65.09765, 45.53313], "linear": "yes", "main_chain_count": 1, "groups_at_10m": 1, "mst_max_gap_m": 0.0, "base_geometry_count": 9, "coordinate_pair_count": 1486, "geometry_usable": true},
+      "a5": {"orientation": "landscape", "crop_padding_percent": 10},
+      "context_caps": {"roads": 3, "settlements": 3, "water_features": 12, "water_labels": 8, "peak_labels": 4, "vegetation_zones": 4, "side_trails": 0, "contour_interval_m": 25, "contour_paths": 240},
+      "recipe_note": "Replacement for East Coast Trail. Recipe deliberately maps the continuous 41 km core, not the newer 64 km extended itinerary. Emphasise tidal rivers, ravines, and the Bay of Fundy edge."
+    }
+  ],
+  "rejected_catalogue_relations": [
+    {
+      "catalogue_name": "Arizona National Scenic Trail",
+      "relation_id": 2804113,
+      "details_http_status": 200,
+      "computed_length_m": 1257826,
+      "embedded_coordinate_pairs": 83098,
+      "failure": "route.linear=no; 13 chains remain 3 disconnected groups at 1 km tolerance; maximum bridge required 18,420.9 m",
+      "replacement_id": "US-JMT"
+    },
+    {
+      "catalogue_name": "Ice Age National Scenic Trail",
+      "relation_id": 2381423,
+      "details_http_status": 200,
+      "computed_length_m": 1142346,
+      "official_length_tag_m": 1770230,
+      "embedded_coordinate_pairs": 53593,
+      "failure": "Only about 65% of tagged length; 138 chains, 64 groups at 1 km tolerance, maximum bridge 49,389.8 m",
+      "replacement_id": "US-ONRT"
+    },
+    {
+      "catalogue_name": "Bruce Trail",
+      "relation_id": 5583286,
+      "details_http_status": 200,
+      "computed_length_m": 1036375,
+      "official_length_approx_m": 900000,
+      "embedded_coordinate_pairs": 36519,
+      "failure": "Branched superroute exceeds official main-route length by about 15%; 16 top parts remain 5 groups at 1 km and require a 31,950.2 m bridge",
+      "replacement_id": "US-CA-CHILKOOT"
+    },
+    {
+      "catalogue_name": "East Coast Trail",
+      "relation_id": 2199386,
+      "details_http_status": 200,
+      "computed_length_m": 315443,
+      "official_current_length_m": 336000,
+      "embedded_coordinate_pairs": 14245,
+      "failure": "25 path components remain 7 groups at 1 km tolerance and require a 15,986.0 m bridge; relation does not yield the current continuous 336 km itinerary",
+      "replacement_id": "CA-FUNDY"
+    },
+    {
+      "catalogue_name": "Sunshine Coast Trail",
+      "relation_id": 7406716,
+      "details_http_status": 200,
+      "computed_length_m": 197497,
+      "official_length_approx_m": 180000,
+      "embedded_coordinate_pairs": 14452,
+      "failure": "44 chains remain 10 groups at 1 km tolerance and require an 8,556.9 m bridge; computed geometry is also about 10% longer than the official route",
+      "replacement_id": "US-NPT"
+    }
+  ],
+  "validation_summary": {
+    "details_endpoints_checked": 20,
+    "accepted_recipes": 15,
+    "accepted_normal_continuity": 14,
+    "accepted_microgap_exception": 1,
+    "rejected_and_replaced": 5,
+    "accepted_endpoint_failures": 0,
+    "former_gpx_subendpoint_status": 404,
+    "all_accepted_details_endpoints_have_embedded_geometry": true,
+    "all_accepted_relation_ids_verified_against_current_osm_api": true
+  }
+}

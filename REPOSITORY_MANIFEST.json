@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "repository": "adambickerdike/city-map-plotter-artwork-and-simulator",
+  "release_status": "private-review-and-engineering-handoff",
+  "source_portfolio": "latest-map-portfolio-2026-08-18-v3",
+  "portfolio": {
+    "distinct_plate_count": 423,
+    "contact_sheet_count": 22,
+    "png_count": 445,
+    "svg_count": 445,
+    "plot_manifest_count": 423,
+    "checksum_entry_count": 2463
+  },
+  "repository_assets": {
+    "png_count": 447,
+    "png_bytes": 821708295,
+    "svg_count": 455,
+    "svg_bytes": 1380052612,
+    "git_lfs_patterns": [
+      "*.png",
+      "*.svg",
+      "*.plot.json",
+      "artwork/latest-map-portfolio-2026-08-18-v3/06-f1-courses/code/src/city_map_plotter/data/f1-circuits-2026.json"
+    ],
+    "git_lfs_approximate_bytes": 3130068106
+  },
+  "simulator": {
+    "shared_motion_engine": "tools/plotsim.py",
+    "interactive_studio": "tools/plotter_studio.py",
+    "controller_entry_point": "tools/plotter_control.py",
+    "plot_job_and_grbl_engine": "tools/plotjob.py",
+    "portable_viewer_builder": "tools/build_plotsim_viewer.py",
+    "documentation": "docs/plotter/PLOTTER_SOFTWARE.md",
+    "focused_test_suites": [
+      "tests/test_plotter_system.py",
+      "tests/test_paper_and_pens.py"
+    ],
+    "focused_test_count": 64
+  }
+}

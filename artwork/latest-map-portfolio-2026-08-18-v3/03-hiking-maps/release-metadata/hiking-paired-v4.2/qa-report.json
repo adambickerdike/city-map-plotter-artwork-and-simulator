@@ -1,0 +1,1863 @@
+{
+  "schema_version": 2,
+  "series_dir": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06",
+  "passed": true,
+  "entry_count": 80,
+  "subject_count": 40,
+  "artifact_count": 80,
+  "variants": [
+    "detailed-map",
+    "terrain-relief"
+  ],
+  "counts_by_domain": {
+    "hikes": 80
+  },
+  "counts_by_variant": {
+    "detailed-map": 40,
+    "terrain-relief": 40
+  },
+  "suite_failures": [],
+  "failed_entry_count": 0,
+  "results": [
+    {
+      "id": "RTE-GB-WHW-01--detailed-map",
+      "artifact_id": "RTE-GB-WHW-01--detailed-map",
+      "subject_id": "RTE-GB-WHW-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 6,
+      "coverage": 0.080426,
+      "travel_ratio": 1.516,
+      "plotsim_ratios": [
+        1.52,
+        1.52,
+        0.53
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-WHW-01--terrain-relief",
+      "artifact_id": "RTE-GB-WHW-01--terrain-relief",
+      "subject_id": "RTE-GB-WHW-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.105511,
+      "travel_ratio": 1.529,
+      "plotsim_ratios": [
+        1.53,
+        1.53,
+        0.48
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-HEB-WALK-01--detailed-map",
+      "artifact_id": "RTE-GB-HEB-WALK-01--detailed-map",
+      "subject_id": "RTE-GB-HEB-WALK-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.068094,
+      "travel_ratio": 1.53,
+      "plotsim_ratios": [
+        1.53,
+        1.53,
+        0.59
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-HEB-WALK-01--terrain-relief",
+      "artifact_id": "RTE-GB-HEB-WALK-01--terrain-relief",
+      "subject_id": "RTE-GB-HEB-WALK-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.075766,
+      "travel_ratio": 1.663,
+      "plotsim_ratios": [
+        1.66,
+        1.66,
+        0.57
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-GGW-01--detailed-map",
+      "artifact_id": "RTE-GB-GGW-01--detailed-map",
+      "subject_id": "RTE-GB-GGW-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 6,
+      "coverage": 0.077369,
+      "travel_ratio": 1.602,
+      "plotsim_ratios": [
+        1.6,
+        1.6,
+        0.57
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-GGW-01--terrain-relief",
+      "artifact_id": "RTE-GB-GGW-01--terrain-relief",
+      "subject_id": "RTE-GB-GGW-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.100562,
+      "travel_ratio": 1.54,
+      "plotsim_ratios": [
+        1.54,
+        1.54,
+        0.5
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-JMW-WALK-01--detailed-map",
+      "artifact_id": "RTE-GB-JMW-WALK-01--detailed-map",
+      "subject_id": "RTE-GB-JMW-WALK-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.052508,
+      "travel_ratio": 1.727,
+      "plotsim_ratios": [
+        1.73,
+        1.73,
+        0.61
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-JMW-WALK-01--terrain-relief",
+      "artifact_id": "RTE-GB-JMW-WALK-01--terrain-relief",
+      "subject_id": "RTE-GB-JMW-WALK-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.098804,
+      "travel_ratio": 1.39,
+      "plotsim_ratios": [
+        1.39,
+        1.39,
+        0.43
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-CH-VA1-01--detailed-map",
+      "artifact_id": "RTE-CH-VA1-01--detailed-map",
+      "subject_id": "RTE-CH-VA1-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.075951,
+      "travel_ratio": 1.328,
+      "plotsim_ratios": [
+        1.33,
+        1.33,
+        0.52
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-CH-VA1-01--terrain-relief",
+      "artifact_id": "RTE-CH-VA1-01--terrain-relief",
+      "subject_id": "RTE-CH-VA1-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.091089,
+      "travel_ratio": 1.352,
+      "plotsim_ratios": [
+        1.35,
+        1.35,
+        0.49
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-CH-AP6-01--detailed-map",
+      "artifact_id": "RTE-CH-AP6-01--detailed-map",
+      "subject_id": "RTE-CH-AP6-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 6,
+      "coverage": 0.074068,
+      "travel_ratio": 1.153,
+      "plotsim_ratios": [
+        1.15,
+        1.15,
+        0.45
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-CH-AP6-01--terrain-relief",
+      "artifact_id": "RTE-CH-AP6-01--terrain-relief",
+      "subject_id": "RTE-CH-AP6-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.103628,
+      "travel_ratio": 1.085,
+      "plotsim_ratios": [
+        1.09,
+        1.09,
+        0.41
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-FR-ECR-976000--detailed-map",
+      "artifact_id": "RTE-FR-ECR-976000--detailed-map",
+      "subject_id": "RTE-FR-ECR-976000",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.063203,
+      "travel_ratio": 1.294,
+      "plotsim_ratios": [
+        1.3,
+        1.3,
+        0.55
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-FR-ECR-976000--terrain-relief",
+      "artifact_id": "RTE-FR-ECR-976000--terrain-relief",
+      "subject_id": "RTE-FR-ECR-976000",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.108343,
+      "travel_ratio": 1.452,
+      "plotsim_ratios": [
+        1.45,
+        1.45,
+        0.43
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-FR-ECR-995181--detailed-map",
+      "artifact_id": "RTE-FR-ECR-995181--detailed-map",
+      "subject_id": "RTE-FR-ECR-995181",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 6,
+      "coverage": 0.059467,
+      "travel_ratio": 1.241,
+      "plotsim_ratios": [
+        1.24,
+        1.24,
+        0.52
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-FR-ECR-995181--terrain-relief",
+      "artifact_id": "RTE-FR-ECR-995181--terrain-relief",
+      "subject_id": "RTE-FR-ECR-995181",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.099805,
+      "travel_ratio": 1.093,
+      "plotsim_ratios": [
+        1.09,
+        1.09,
+        0.41
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-IS-LAUG-01--detailed-map",
+      "artifact_id": "RTE-IS-LAUG-01--detailed-map",
+      "subject_id": "RTE-IS-LAUG-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 6,
+      "coverage": 0.064269,
+      "travel_ratio": 1.391,
+      "plotsim_ratios": [
+        1.39,
+        1.39,
+        0.54
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-IS-LAUG-01--terrain-relief",
+      "artifact_id": "RTE-IS-LAUG-01--terrain-relief",
+      "subject_id": "RTE-IS-LAUG-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.097874,
+      "travel_ratio": 1.413,
+      "plotsim_ratios": [
+        1.41,
+        1.41,
+        0.47
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-ES-CAM-ES01C--detailed-map",
+      "artifact_id": "RTE-ES-CAM-ES01C--detailed-map",
+      "subject_id": "RTE-ES-CAM-ES01C",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.074971,
+      "travel_ratio": 1.372,
+      "plotsim_ratios": [
+        1.37,
+        1.37,
+        0.5
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-ES-CAM-ES01C--terrain-relief",
+      "artifact_id": "RTE-ES-CAM-ES01C--terrain-relief",
+      "subject_id": "RTE-ES-CAM-ES01C",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.084369,
+      "travel_ratio": 1.329,
+      "plotsim_ratios": [
+        1.33,
+        1.33,
+        0.47
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-ENG-PW-01--detailed-map",
+      "artifact_id": "RTE-GB-ENG-PW-01--detailed-map",
+      "subject_id": "RTE-GB-ENG-PW-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.076158,
+      "travel_ratio": 1.151,
+      "plotsim_ratios": [
+        1.15,
+        1.15,
+        0.46
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-ENG-PW-01--terrain-relief",
+      "artifact_id": "RTE-GB-ENG-PW-01--terrain-relief",
+      "subject_id": "RTE-GB-ENG-PW-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.094294,
+      "travel_ratio": 1.038,
+      "plotsim_ratios": [
+        1.04,
+        1.04,
+        0.4
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-ENG-SWCP-01--detailed-map",
+      "artifact_id": "RTE-GB-ENG-SWCP-01--detailed-map",
+      "subject_id": "RTE-GB-ENG-SWCP-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 6,
+      "coverage": 0.071913,
+      "travel_ratio": 1.191,
+      "plotsim_ratios": [
+        1.19,
+        1.19,
+        0.5
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-ENG-SWCP-01--terrain-relief",
+      "artifact_id": "RTE-GB-ENG-SWCP-01--terrain-relief",
+      "subject_id": "RTE-GB-ENG-SWCP-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.102042,
+      "travel_ratio": 1.094,
+      "plotsim_ratios": [
+        1.09,
+        1.09,
+        0.44
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-ENG-C2C-01--detailed-map",
+      "artifact_id": "RTE-GB-ENG-C2C-01--detailed-map",
+      "subject_id": "RTE-GB-ENG-C2C-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.059106,
+      "travel_ratio": 1.045,
+      "plotsim_ratios": [
+        1.05,
+        1.05,
+        0.44
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-ENG-C2C-01--terrain-relief",
+      "artifact_id": "RTE-GB-ENG-C2C-01--terrain-relief",
+      "subject_id": "RTE-GB-ENG-C2C-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.086353,
+      "travel_ratio": 0.859,
+      "plotsim_ratios": [
+        0.86,
+        0.86,
+        0.34
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-SCT-CWT-01--detailed-map",
+      "artifact_id": "RTE-GB-SCT-CWT-01--detailed-map",
+      "subject_id": "RTE-GB-SCT-CWT-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.065304,
+      "travel_ratio": 0.976,
+      "plotsim_ratios": [
+        0.98,
+        0.98,
+        0.48
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-SCT-CWT-01--terrain-relief",
+      "artifact_id": "RTE-GB-SCT-CWT-01--terrain-relief",
+      "subject_id": "RTE-GB-SCT-CWT-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.097203,
+      "travel_ratio": 0.904,
+      "plotsim_ratios": [
+        0.91,
+        0.91,
+        0.41
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-SCT-SUW-01--detailed-map",
+      "artifact_id": "RTE-GB-SCT-SUW-01--detailed-map",
+      "subject_id": "RTE-GB-SCT-SUW-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 6,
+      "coverage": 0.064859,
+      "travel_ratio": 1.359,
+      "plotsim_ratios": [
+        1.36,
+        1.36,
+        0.53
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-SCT-SUW-01--terrain-relief",
+      "artifact_id": "RTE-GB-SCT-SUW-01--terrain-relief",
+      "subject_id": "RTE-GB-SCT-SUW-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.094103,
+      "travel_ratio": 1.235,
+      "plotsim_ratios": [
+        1.24,
+        1.24,
+        0.46
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-WLS-PCP-01--detailed-map",
+      "artifact_id": "RTE-GB-WLS-PCP-01--detailed-map",
+      "subject_id": "RTE-GB-WLS-PCP-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 6,
+      "coverage": 0.083484,
+      "travel_ratio": 0.987,
+      "plotsim_ratios": [
+        0.99,
+        0.99,
+        0.44
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-WLS-PCP-01--terrain-relief",
+      "artifact_id": "RTE-GB-WLS-PCP-01--terrain-relief",
+      "subject_id": "RTE-GB-WLS-PCP-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.11753,
+      "travel_ratio": 0.881,
+      "plotsim_ratios": [
+        0.88,
+        0.88,
+        0.38
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-WLS-ODP-01--detailed-map",
+      "artifact_id": "RTE-GB-WLS-ODP-01--detailed-map",
+      "subject_id": "RTE-GB-WLS-ODP-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 6,
+      "coverage": 0.068982,
+      "travel_ratio": 1.204,
+      "plotsim_ratios": [
+        1.2,
+        1.2,
+        0.5
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-GB-WLS-ODP-01--terrain-relief",
+      "artifact_id": "RTE-GB-WLS-ODP-01--terrain-relief",
+      "subject_id": "RTE-GB-WLS-ODP-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.091102,
+      "travel_ratio": 1.112,
+      "plotsim_ratios": [
+        1.11,
+        1.11,
+        0.44
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-FR-COR-GR20-01--detailed-map",
+      "artifact_id": "RTE-FR-COR-GR20-01--detailed-map",
+      "subject_id": "RTE-FR-COR-GR20-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 6,
+      "coverage": 0.080006,
+      "travel_ratio": 1.025,
+      "plotsim_ratios": [
+        1.03,
+        1.03,
+        0.49
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-FR-COR-GR20-01--terrain-relief",
+      "artifact_id": "RTE-FR-COR-GR20-01--terrain-relief",
+      "subject_id": "RTE-FR-COR-GR20-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.100873,
+      "travel_ratio": 0.981,
+      "plotsim_ratios": [
+        0.98,
+        0.98,
+        0.44
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-EU-TMB-LOOP-01--detailed-map",
+      "artifact_id": "RTE-EU-TMB-LOOP-01--detailed-map",
+      "subject_id": "RTE-EU-TMB-LOOP-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 6,
+      "coverage": 0.08345,
+      "travel_ratio": 1.18,
+      "plotsim_ratios": [
+        1.18,
+        1.18,
+        0.49
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-EU-TMB-LOOP-01--terrain-relief",
+      "artifact_id": "RTE-EU-TMB-LOOP-01--terrain-relief",
+      "subject_id": "RTE-EU-TMB-LOOP-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.115516,
+      "travel_ratio": 1.127,
+      "plotsim_ratios": [
+        1.13,
+        1.13,
+        0.44
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-EU-WHR-01--detailed-map",
+      "artifact_id": "RTE-EU-WHR-01--detailed-map",
+      "subject_id": "RTE-EU-WHR-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.076274,
+      "travel_ratio": 1.207,
+      "plotsim_ratios": [
+        1.21,
+        1.21,
+        0.52
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-EU-WHR-01--terrain-relief",
+      "artifact_id": "RTE-EU-WHR-01--terrain-relief",
+      "subject_id": "RTE-EU-WHR-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.096107,
+      "travel_ratio": 1.251,
+      "plotsim_ratios": [
+        1.25,
+        1.25,
+        0.46
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-CH-4HW-49--detailed-map",
+      "artifact_id": "RTE-CH-4HW-49--detailed-map",
+      "subject_id": "RTE-CH-4HW-49",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.072323,
+      "travel_ratio": 1.189,
+      "plotsim_ratios": [
+        1.19,
+        1.19,
+        0.51
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-CH-4HW-49--terrain-relief",
+      "artifact_id": "RTE-CH-4HW-49--terrain-relief",
+      "subject_id": "RTE-CH-4HW-49",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.101532,
+      "travel_ratio": 1.125,
+      "plotsim_ratios": [
+        1.13,
+        1.13,
+        0.44
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-IT-DOL-AV1-01--detailed-map",
+      "artifact_id": "RTE-IT-DOL-AV1-01--detailed-map",
+      "subject_id": "RTE-IT-DOL-AV1-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.070453,
+      "travel_ratio": 1.251,
+      "plotsim_ratios": [
+        1.25,
+        1.25,
+        0.57
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-IT-DOL-AV1-01--terrain-relief",
+      "artifact_id": "RTE-IT-DOL-AV1-01--terrain-relief",
+      "subject_id": "RTE-IT-DOL-AV1-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.100137,
+      "travel_ratio": 1.27,
+      "plotsim_ratios": [
+        1.27,
+        1.27,
+        0.52
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-SE-KUNGS-01--detailed-map",
+      "artifact_id": "RTE-SE-KUNGS-01--detailed-map",
+      "subject_id": "RTE-SE-KUNGS-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.065437,
+      "travel_ratio": 1.006,
+      "plotsim_ratios": [
+        1.01,
+        1.01,
+        0.47
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-SE-KUNGS-01--terrain-relief",
+      "artifact_id": "RTE-SE-KUNGS-01--terrain-relief",
+      "subject_id": "RTE-SE-KUNGS-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.095811,
+      "travel_ratio": 0.825,
+      "plotsim_ratios": [
+        0.83,
+        0.83,
+        0.4
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-EU-POB-LOOP-01--detailed-map",
+      "artifact_id": "RTE-EU-POB-LOOP-01--detailed-map",
+      "subject_id": "RTE-EU-POB-LOOP-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.096392,
+      "travel_ratio": 1.16,
+      "plotsim_ratios": [
+        1.16,
+        1.16,
+        0.51
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-EU-POB-LOOP-01--terrain-relief",
+      "artifact_id": "RTE-EU-POB-LOOP-01--terrain-relief",
+      "subject_id": "RTE-EU-POB-LOOP-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.121343,
+      "travel_ratio": 1.137,
+      "plotsim_ratios": [
+        1.14,
+        1.14,
+        0.44
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-ES-MAL-GR221-01--detailed-map",
+      "artifact_id": "RTE-ES-MAL-GR221-01--detailed-map",
+      "subject_id": "RTE-ES-MAL-GR221-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 6,
+      "coverage": 0.066683,
+      "travel_ratio": 1.374,
+      "plotsim_ratios": [
+        1.38,
+        1.38,
+        0.49
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-ES-MAL-GR221-01--terrain-relief",
+      "artifact_id": "RTE-ES-MAL-GR221-01--terrain-relief",
+      "subject_id": "RTE-ES-MAL-GR221-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.081989,
+      "travel_ratio": 1.479,
+      "plotsim_ratios": [
+        1.48,
+        1.48,
+        0.51
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-AT-01--detailed-map",
+      "artifact_id": "RTE-US-AT-01--detailed-map",
+      "subject_id": "RTE-US-AT-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.072451,
+      "travel_ratio": 1.309,
+      "plotsim_ratios": [
+        1.31,
+        1.31,
+        0.49
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-AT-01--terrain-relief",
+      "artifact_id": "RTE-US-AT-01--terrain-relief",
+      "subject_id": "RTE-US-AT-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.09164,
+      "travel_ratio": 1.253,
+      "plotsim_ratios": [
+        1.25,
+        1.25,
+        0.41
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-PCT-01--detailed-map",
+      "artifact_id": "RTE-US-PCT-01--detailed-map",
+      "subject_id": "RTE-US-PCT-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.070413,
+      "travel_ratio": 1.124,
+      "plotsim_ratios": [
+        1.13,
+        1.13,
+        0.49
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-PCT-01--terrain-relief",
+      "artifact_id": "RTE-US-PCT-01--terrain-relief",
+      "subject_id": "RTE-US-PCT-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.097093,
+      "travel_ratio": 0.982,
+      "plotsim_ratios": [
+        0.98,
+        0.98,
+        0.4
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-CDT-01--detailed-map",
+      "artifact_id": "RTE-US-CDT-01--detailed-map",
+      "subject_id": "RTE-US-CDT-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 5,
+      "coverage": 0.070518,
+      "travel_ratio": 1.111,
+      "plotsim_ratios": [
+        1.11,
+        1.11,
+        0.53
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-CDT-01--terrain-relief",
+      "artifact_id": "RTE-US-CDT-01--terrain-relief",
+      "subject_id": "RTE-US-CDT-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 6,
+      "coverage": 0.102425,
+      "travel_ratio": 0.959,
+      "plotsim_ratios": [
+        0.96,
+        0.96,
+        0.4
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-FNST-01--detailed-map",
+      "artifact_id": "RTE-US-FNST-01--detailed-map",
+      "subject_id": "RTE-US-FNST-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.066617,
+      "travel_ratio": 1.442,
+      "plotsim_ratios": [
+        1.44,
+        1.44,
+        0.52
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-FNST-01--terrain-relief",
+      "artifact_id": "RTE-US-FNST-01--terrain-relief",
+      "subject_id": "RTE-US-FNST-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.071887,
+      "travel_ratio": 1.515,
+      "plotsim_ratios": [
+        1.52,
+        1.52,
+        0.48
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-CT-01--detailed-map",
+      "artifact_id": "RTE-US-CT-01--detailed-map",
+      "subject_id": "RTE-US-CT-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.071334,
+      "travel_ratio": 1.004,
+      "plotsim_ratios": [
+        1.01,
+        1.01,
+        0.49
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-CT-01--terrain-relief",
+      "artifact_id": "RTE-US-CT-01--terrain-relief",
+      "subject_id": "RTE-US-CT-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.093436,
+      "travel_ratio": 0.874,
+      "plotsim_ratios": [
+        0.88,
+        0.88,
+        0.39
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-LT-01--detailed-map",
+      "artifact_id": "RTE-US-LT-01--detailed-map",
+      "subject_id": "RTE-US-LT-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 6,
+      "coverage": 0.060531,
+      "travel_ratio": 1.118,
+      "plotsim_ratios": [
+        1.12,
+        1.12,
+        0.47
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-LT-01--terrain-relief",
+      "artifact_id": "RTE-US-LT-01--terrain-relief",
+      "subject_id": "RTE-US-LT-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.088263,
+      "travel_ratio": 1.015,
+      "plotsim_ratios": [
+        1.02,
+        1.02,
+        0.4
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-WOND-01--detailed-map",
+      "artifact_id": "RTE-US-WOND-01--detailed-map",
+      "subject_id": "RTE-US-WOND-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 6,
+      "coverage": 0.086937,
+      "travel_ratio": 0.985,
+      "plotsim_ratios": [
+        0.99,
+        0.99,
+        0.44
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-WOND-01--terrain-relief",
+      "artifact_id": "RTE-US-WOND-01--terrain-relief",
+      "subject_id": "RTE-US-WOND-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.117608,
+      "travel_ratio": 0.973,
+      "plotsim_ratios": [
+        0.97,
+        0.97,
+        0.41
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-TRT-01--detailed-map",
+      "artifact_id": "RTE-US-TRT-01--detailed-map",
+      "subject_id": "RTE-US-TRT-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.094194,
+      "travel_ratio": 0.946,
+      "plotsim_ratios": [
+        0.95,
+        0.95,
+        0.48
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-TRT-01--terrain-relief",
+      "artifact_id": "RTE-US-TRT-01--terrain-relief",
+      "subject_id": "RTE-US-TRT-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.112764,
+      "travel_ratio": 0.882,
+      "plotsim_ratios": [
+        0.88,
+        0.88,
+        0.43
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-CA-GDT-01--detailed-map",
+      "artifact_id": "RTE-CA-GDT-01--detailed-map",
+      "subject_id": "RTE-CA-GDT-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.072072,
+      "travel_ratio": 1.133,
+      "plotsim_ratios": [
+        1.13,
+        1.13,
+        0.43
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-CA-GDT-01--terrain-relief",
+      "artifact_id": "RTE-CA-GDT-01--terrain-relief",
+      "subject_id": "RTE-CA-GDT-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.094251,
+      "travel_ratio": 1.014,
+      "plotsim_ratios": [
+        1.01,
+        1.01,
+        0.41
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-CA-WCT-01--detailed-map",
+      "artifact_id": "RTE-CA-WCT-01--detailed-map",
+      "subject_id": "RTE-CA-WCT-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 6,
+      "coverage": 0.055197,
+      "travel_ratio": 1.108,
+      "plotsim_ratios": [
+        1.11,
+        1.11,
+        0.49
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-CA-WCT-01--terrain-relief",
+      "artifact_id": "RTE-CA-WCT-01--terrain-relief",
+      "subject_id": "RTE-CA-WCT-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.083938,
+      "travel_ratio": 1.014,
+      "plotsim_ratios": [
+        1.01,
+        1.01,
+        0.4
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-ONRT-01--detailed-map",
+      "artifact_id": "RTE-US-ONRT-01--detailed-map",
+      "subject_id": "RTE-US-ONRT-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.062695,
+      "travel_ratio": 1.24,
+      "plotsim_ratios": [
+        1.24,
+        1.24,
+        0.5
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-ONRT-01--terrain-relief",
+      "artifact_id": "RTE-US-ONRT-01--terrain-relief",
+      "subject_id": "RTE-US-ONRT-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.08142,
+      "travel_ratio": 1.156,
+      "plotsim_ratios": [
+        1.16,
+        1.16,
+        0.43
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-JMT-01--detailed-map",
+      "artifact_id": "RTE-US-JMT-01--detailed-map",
+      "subject_id": "RTE-US-JMT-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 6,
+      "coverage": 0.062059,
+      "travel_ratio": 1.046,
+      "plotsim_ratios": [
+        1.05,
+        1.05,
+        0.5
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-JMT-01--terrain-relief",
+      "artifact_id": "RTE-US-JMT-01--terrain-relief",
+      "subject_id": "RTE-US-JMT-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.092007,
+      "travel_ratio": 0.951,
+      "plotsim_ratios": [
+        0.95,
+        0.95,
+        0.42
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-NPT-01--detailed-map",
+      "artifact_id": "RTE-US-NPT-01--detailed-map",
+      "subject_id": "RTE-US-NPT-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 6,
+      "coverage": 0.063287,
+      "travel_ratio": 1.141,
+      "plotsim_ratios": [
+        1.14,
+        1.14,
+        0.52
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-NPT-01--terrain-relief",
+      "artifact_id": "RTE-US-NPT-01--terrain-relief",
+      "subject_id": "RTE-US-NPT-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.101698,
+      "travel_ratio": 1.023,
+      "plotsim_ratios": [
+        1.02,
+        1.02,
+        0.41
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-CA-CHILKOOT-01--detailed-map",
+      "artifact_id": "RTE-US-CA-CHILKOOT-01--detailed-map",
+      "subject_id": "RTE-US-CA-CHILKOOT-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 6,
+      "coverage": 0.056075,
+      "travel_ratio": 1.263,
+      "plotsim_ratios": [
+        1.26,
+        1.26,
+        0.54
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-US-CA-CHILKOOT-01--terrain-relief",
+      "artifact_id": "RTE-US-CA-CHILKOOT-01--terrain-relief",
+      "subject_id": "RTE-US-CA-CHILKOOT-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-portrait",
+      "pen_steps": 7,
+      "coverage": 0.093203,
+      "travel_ratio": 1.152,
+      "plotsim_ratios": [
+        1.15,
+        1.15,
+        0.46
+      ],
+      "png_dimensions": [
+        1748,
+        2480
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-CA-FUNDY-01--detailed-map",
+      "artifact_id": "RTE-CA-FUNDY-01--detailed-map",
+      "subject_id": "RTE-CA-FUNDY-01",
+      "variant_id": "detailed-map",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.058451,
+      "travel_ratio": 1.218,
+      "plotsim_ratios": [
+        1.22,
+        1.22,
+        0.51
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    },
+    {
+      "id": "RTE-CA-FUNDY-01--terrain-relief",
+      "artifact_id": "RTE-CA-FUNDY-01--terrain-relief",
+      "subject_id": "RTE-CA-FUNDY-01",
+      "variant_id": "terrain-relief",
+      "domain": "hikes",
+      "passed": true,
+      "failures": [],
+      "format_id": "a5-landscape",
+      "pen_steps": 7,
+      "coverage": 0.086888,
+      "travel_ratio": 1.186,
+      "plotsim_ratios": [
+        1.19,
+        1.19,
+        0.41
+      ],
+      "png_dimensions": [
+        2480,
+        1748
+      ],
+      "png_pixel_parity": true
+    }
+  ]
+}

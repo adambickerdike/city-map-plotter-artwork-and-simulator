@@ -1,0 +1,2494 @@
+{
+  "schema_version": 1,
+  "id": "plate-format-v1",
+  "description": "Canonical plate formats for pen-plotted poster generation. All values are derived by tools/build_format_spec.py; edit the rules there, never these numbers.",
+  "derivation": {
+    "safe_margin": "clamp(0.0405 * short_edge, 6.0, 12.0) mm",
+    "title_cap": "0.0473 * short_edge mm",
+    "type_ladder_multiples_of_title": {
+      "title": 1.0,
+      "detail": 0.336,
+      "subtitle": 0.323,
+      "legend": 0.323,
+      "attribution": 0.286
+    },
+    "min_cap_height": "8.0 x nib",
+    "title_line_ink_clearance": "1.0 x title nib of white paper between serialized line ink envelopes",
+    "min_stroke_length": "3.0 x nib",
+    "rail_fraction_landscape": 0.265,
+    "bridge_zones": "map_field inset by one gap; label bands are attribution cap + one gap; bridge_drawing receives a second horizontal gap inset",
+    "bridge_pen_roles": "construction/context/dimension/fine use the 0.25 mm general-colour pen; copy resolves through the sheet text role; secondary uses 0.40 mm; primary and frame resolve through the sheet furniture primary role",
+    "technical_zones": "map_field inset by one gap, then split into equal top/bottom and left/right panels separated by the same gap",
+    "technical_pen_roles": "semantic engineered-object hierarchy resolved to the real studio inventory; fine roles use 0.25 mm, secondary/accent use 0.40 mm, labels use the sheet text role and the principal silhouette uses the sheet primary role",
+    "max_ink_coverage": 0.28,
+    "map_linework_nibs": "fine roles held at the narrowest real nib; only primary/heavy scale with the sheet",
+    "landmark_buildings": "weight from map_linework_nib_mm[nib_role]; inclusion from max_objects, ink_budget_field_fraction and minimum_area_scale, raised with the sheet because a bigger field can carry more named landmarks before they silt up"
+  },
+  "subject_policy": {
+    "map": {
+      "sheets": [
+        "A5",
+        "A4",
+        "A3"
+      ],
+      "preferred": "A4",
+      "note": "A5 only carries a culled feature set. Full all-roads detail is an A3 design; A4 is the practical compromise."
+    },
+    "schematic": {
+      "sheets": [
+        "A5",
+        "A4",
+        "A3"
+      ],
+      "preferred": "A3",
+      "note": "Car/aircraft/ship line drawings use all three sheets with physical LOD: identity views survive A5; A4/A3 restore progressively finer mechanical detail. A3 remains the preferred collector edition."
+    },
+    "route_plate": {
+      "sheets": [
+        "A5",
+        "A4",
+        "A3"
+      ],
+      "preferred": "A5",
+      "note": "A single highlighted route with a deliberately culled terrain context may use A5; dense topographic or navigational editions must move up in sheet size rather than shrink below real nibs."
+    }
+  },
+  "formats": {
+    "a5-portrait": {
+      "id": "a5-portrait",
+      "sheet": "A5",
+      "orientation": "portrait",
+      "archetype": "stack",
+      "page_mm": {
+        "width": 148.0,
+        "height": 210.0
+      },
+      "safe_margin_mm": 6.0,
+      "content_inset_mm": 12.0,
+      "gap_mm": 3.0,
+      "border": {
+        "style": "double",
+        "allowed_styles": [
+          "none",
+          "hairline",
+          "double",
+          "rule",
+          "corner"
+        ],
+        "outer": {
+          "x": 6.0,
+          "y": 6.0,
+          "width": 136.0,
+          "height": 198.0
+        },
+        "inner_offset_mm": 1.5,
+        "nib_role": "heavy"
+      },
+      "zones_mm": {
+        "title": {
+          "x": 12.0,
+          "y": 12.0,
+          "width": 124.0,
+          "height": 12.6
+        },
+        "subtitle": {
+          "x": 12.0,
+          "y": 27.6,
+          "width": 124.0,
+          "height": 4.522
+        },
+        "map_field": {
+          "x": 12.0,
+          "y": 35.122,
+          "width": 124.0,
+          "height": 128.924
+        },
+        "furniture": {
+          "x": 12.0,
+          "y": 167.046,
+          "width": 124.0,
+          "height": 5.426
+        },
+        "detail": {
+          "x": 12.0,
+          "y": 175.473,
+          "width": 124.0,
+          "height": 15.523
+        },
+        "attribution": {
+          "x": 12.0,
+          "y": 193.996,
+          "width": 124.0,
+          "height": 4.004
+        }
+      },
+      "crew_zones_mm": {
+        "crew_title": {
+          "x": 12.0,
+          "y": 12.0,
+          "width": 107.0,
+          "height": 12.6
+        },
+        "crew_compass": {
+          "x": 122.0,
+          "y": 12.0,
+          "width": 14.0,
+          "height": 21.598
+        },
+        "crew_meta": {
+          "x": 12.0,
+          "y": 27.6,
+          "width": 107.0,
+          "height": 5.998
+        },
+        "crew_map_field": {
+          "x": 12.0,
+          "y": 36.598,
+          "width": 124.0,
+          "height": 114.062
+        },
+        "crew_block": {
+          "x": 12.0,
+          "y": 153.659,
+          "width": 124.0,
+          "height": 40.337
+        }
+      },
+      "split_zones_mm": {
+        "head_main": {
+          "x": 12.0,
+          "y": 12.0,
+          "width": 88.14,
+          "height": 20.122
+        },
+        "head_rail": {
+          "x": 103.14,
+          "y": 12.0,
+          "width": 32.86,
+          "height": 20.122
+        },
+        "foot_main": {
+          "x": 12.0,
+          "y": 167.046,
+          "width": 88.14,
+          "height": 23.95
+        },
+        "foot_rail": {
+          "x": 103.14,
+          "y": 167.046,
+          "width": 32.86,
+          "height": 23.95
+        }
+      },
+      "bridge_zones_mm": {
+        "bridge_field_label": {
+          "x": 15.0,
+          "y": 38.122,
+          "width": 118.0,
+          "height": 5.002
+        },
+        "bridge_drawing": {
+          "x": 18.0,
+          "y": 43.124,
+          "width": 112.0,
+          "height": 112.92
+        },
+        "bridge_dimension_label": {
+          "x": 15.0,
+          "y": 156.044,
+          "width": 118.0,
+          "height": 5.002
+        }
+      },
+      "technical_zones_mm": {
+        "technical_field": {
+          "x": 15.0,
+          "y": 38.122,
+          "width": 118.0,
+          "height": 122.924
+        },
+        "technical_top": {
+          "x": 15.0,
+          "y": 38.122,
+          "width": 118.0,
+          "height": 59.962
+        },
+        "technical_bottom_left": {
+          "x": 15.0,
+          "y": 101.084,
+          "width": 57.5,
+          "height": 59.962
+        },
+        "technical_bottom_right": {
+          "x": 75.5,
+          "y": 101.084,
+          "width": 57.5,
+          "height": 59.962
+        },
+        "technical_left": {
+          "x": 15.0,
+          "y": 38.122,
+          "width": 57.5,
+          "height": 122.924
+        },
+        "technical_right_top": {
+          "x": 75.5,
+          "y": 38.122,
+          "width": 57.5,
+          "height": 59.962
+        },
+        "technical_right_bottom": {
+          "x": 75.5,
+          "y": 101.084,
+          "width": 57.5,
+          "height": 59.962
+        }
+      },
+      "circuit_zones_mm": {
+        "circuit_course": {
+          "x": 12.0,
+          "y": 167.046,
+          "width": 60.5,
+          "height": 10.475
+        },
+        "circuit_history": {
+          "x": 75.5,
+          "y": 167.046,
+          "width": 60.5,
+          "height": 10.475
+        },
+        "circuit_record": {
+          "x": 12.0,
+          "y": 180.521,
+          "width": 60.5,
+          "height": 10.475
+        },
+        "circuit_drawing": {
+          "x": 75.5,
+          "y": 180.521,
+          "width": 60.5,
+          "height": 10.475
+        }
+      },
+      "map_field_aspect": 0.962,
+      "crew_map_field_aspect": 1.087128,
+      "type_scale_mm": {
+        "title": 7.0,
+        "detail": 2.352,
+        "subtitle": 2.261,
+        "legend": 2.261,
+        "attribution": 2.002
+      },
+      "type_nib_role": {
+        "title": "heavy",
+        "subtitle": "text",
+        "detail": "text",
+        "legend": "text",
+        "attribution": "hairline"
+      },
+      "nib_ladder_mm": [
+        0.25,
+        0.4,
+        0.6,
+        0.7,
+        1.0
+      ],
+      "nib_roles_mm": {
+        "hairline": 0.25,
+        "text": 0.25,
+        "primary": 0.4,
+        "heavy": 0.6
+      },
+      "map_linework_nib_mm": {
+        "hairline": 0.25,
+        "text": 0.25,
+        "primary": 0.4,
+        "heavy": 0.6
+      },
+      "bridge_pen_roles": {
+        "construction": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "context": {
+          "ink": "Blue",
+          "nib_mm": 0.25
+        },
+        "dimension": {
+          "ink": "Red",
+          "nib_mm": 0.25
+        },
+        "copy": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "fine": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "secondary": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "primary": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "frame": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        }
+      },
+      "technical_pen_roles": {
+        "principal_silhouette": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "major_structural_edges": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "glazing_openings": {
+          "ink": "Blue",
+          "nib_mm": 0.25
+        },
+        "panel_seam_lines": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "mechanical_detail": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "internal_cutaway_structure": {
+          "ink": "Red",
+          "nib_mm": 0.25
+        },
+        "texture_material_hatching": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "shadow_hatching": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "construction_geometry": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "dimensions_leaders": {
+          "ink": "Red",
+          "nib_mm": 0.25
+        },
+        "labels_specifications": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "accent_feature": {
+          "ink": "Purple",
+          "nib_mm": 0.4
+        },
+        "background_context": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        }
+      },
+      "landmark_buildings": {
+        "nib_role": "hairline",
+        "ink_budget_field_fraction": 0.004,
+        "max_objects": 12,
+        "minimum_area_scale": 1.5,
+        "minimum_oriented_span_mm": 0.5,
+        "minimum_visible_perimeter_mm": 0.75,
+        "nib_mm": 0.25,
+        "max_ink_mm2": 63.946
+      },
+      "race_course": {
+        "ink": "Red",
+        "target_width_mm": 0.8
+      },
+      "ink_budget": {
+        "max_coverage": 0.28,
+        "field_area_mm2": 15986.576,
+        "max_ink_mm2": 4476.241
+      },
+      "detail_lines": 3,
+      "rules": {
+        "min_cap_height_mm": {
+          "title": 4.8,
+          "subtitle": 2.0,
+          "detail": 2.0,
+          "legend": 2.0,
+          "attribution": 2.0
+        },
+        "min_stroke_mm_by_nib": {
+          "0.25": 0.75,
+          "0.4": 1.2,
+          "0.6": 1.8,
+          "0.7": 2.1,
+          "1": 3.0
+        },
+        "title_line_layout": {
+          "maximum_lines": 2,
+          "nib_mm": 0.6,
+          "horizontal_ink_inset_mm": 0.3,
+          "min_ink_clearance_nib_multiple": 1.0,
+          "min_ink_clearance_mm": 0.6,
+          "min_path_bounds_gap_mm": 1.2
+        }
+      },
+      "memorabilia_zones_mm": {
+        "memorabilia_city_title": {
+          "x": 12.0,
+          "y": 12.0,
+          "width": 78.0,
+          "height": 12.6
+        },
+        "memorabilia_coordinates": {
+          "x": 94.0,
+          "y": 12.0,
+          "width": 42.0,
+          "height": 3.0
+        },
+        "memorabilia_compass": {
+          "x": 126.0,
+          "y": 17.0,
+          "width": 10.0,
+          "height": 14.0
+        },
+        "memorabilia_person_name": {
+          "x": 12.0,
+          "y": 167.046,
+          "width": 124.0,
+          "height": 10.5
+        },
+        "memorabilia_degree": {
+          "x": 12.0,
+          "y": 180.0,
+          "width": 54.0,
+          "height": 11.0
+        },
+        "memorabilia_honours": {
+          "x": 70.0,
+          "y": 180.0,
+          "width": 38.0,
+          "height": 11.0
+        },
+        "memorabilia_years": {
+          "x": 112.0,
+          "y": 180.0,
+          "width": 24.0,
+          "height": 11.0
+        }
+      }
+    },
+    "a5-landscape": {
+      "id": "a5-landscape",
+      "sheet": "A5",
+      "orientation": "landscape",
+      "archetype": "rail",
+      "page_mm": {
+        "width": 210.0,
+        "height": 148.0
+      },
+      "safe_margin_mm": 6.0,
+      "content_inset_mm": 12.0,
+      "gap_mm": 3.0,
+      "border": {
+        "style": "double",
+        "allowed_styles": [
+          "none",
+          "hairline",
+          "double",
+          "rule",
+          "corner"
+        ],
+        "outer": {
+          "x": 6.0,
+          "y": 6.0,
+          "width": 198.0,
+          "height": 136.0
+        },
+        "inner_offset_mm": 1.5,
+        "nib_role": "heavy"
+      },
+      "zones_mm": {
+        "map_field": {
+          "x": 12.0,
+          "y": 12.0,
+          "width": 133.71,
+          "height": 124.0
+        },
+        "title": {
+          "x": 148.71,
+          "y": 12.0,
+          "width": 49.29,
+          "height": 12.6
+        },
+        "subtitle": {
+          "x": 148.71,
+          "y": 27.6,
+          "width": 49.29,
+          "height": 4.522
+        },
+        "detail": {
+          "x": 148.71,
+          "y": 35.122,
+          "width": 49.29,
+          "height": 15.523
+        },
+        "furniture": {
+          "x": 148.71,
+          "y": 53.645,
+          "width": 49.29,
+          "height": 5.426
+        },
+        "attribution": {
+          "x": 148.71,
+          "y": 131.996,
+          "width": 49.29,
+          "height": 4.004
+        }
+      },
+      "crew_zones_mm": {
+        "crew_title": {
+          "x": 12.0,
+          "y": 12.0,
+          "width": 169.0,
+          "height": 12.6
+        },
+        "crew_compass": {
+          "x": 184.0,
+          "y": 12.0,
+          "width": 14.0,
+          "height": 21.598
+        },
+        "crew_meta": {
+          "x": 12.0,
+          "y": 27.6,
+          "width": 169.0,
+          "height": 5.998
+        },
+        "crew_map_field": {
+          "x": 12.0,
+          "y": 36.598,
+          "width": 186.0,
+          "height": 52.062
+        },
+        "crew_block": {
+          "x": 12.0,
+          "y": 91.659,
+          "width": 186.0,
+          "height": 40.337
+        }
+      },
+      "split_zones_mm": {
+        "head_main": {
+          "x": 148.71,
+          "y": 12.0,
+          "width": 33.228,
+          "height": 20.122
+        },
+        "head_rail": {
+          "x": 184.938,
+          "y": 12.0,
+          "width": 13.062,
+          "height": 20.122
+        },
+        "foot_main": {
+          "x": 148.71,
+          "y": 53.645,
+          "width": 33.228,
+          "height": -3.0
+        },
+        "foot_rail": {
+          "x": 184.938,
+          "y": 53.645,
+          "width": 13.062,
+          "height": -3.0
+        }
+      },
+      "bridge_zones_mm": {
+        "bridge_field_label": {
+          "x": 15.0,
+          "y": 15.0,
+          "width": 127.71,
+          "height": 5.002
+        },
+        "bridge_drawing": {
+          "x": 18.0,
+          "y": 20.002,
+          "width": 121.71,
+          "height": 107.996
+        },
+        "bridge_dimension_label": {
+          "x": 15.0,
+          "y": 127.998,
+          "width": 127.71,
+          "height": 5.002
+        }
+      },
+      "technical_zones_mm": {
+        "technical_field": {
+          "x": 15.0,
+          "y": 15.0,
+          "width": 127.71,
+          "height": 118.0
+        },
+        "technical_top": {
+          "x": 15.0,
+          "y": 15.0,
+          "width": 127.71,
+          "height": 57.5
+        },
+        "technical_bottom_left": {
+          "x": 15.0,
+          "y": 75.5,
+          "width": 62.355,
+          "height": 57.5
+        },
+        "technical_bottom_right": {
+          "x": 80.355,
+          "y": 75.5,
+          "width": 62.355,
+          "height": 57.5
+        },
+        "technical_left": {
+          "x": 15.0,
+          "y": 15.0,
+          "width": 62.355,
+          "height": 118.0
+        },
+        "technical_right_top": {
+          "x": 80.355,
+          "y": 15.0,
+          "width": 62.355,
+          "height": 57.5
+        },
+        "technical_right_bottom": {
+          "x": 80.355,
+          "y": 75.5,
+          "width": 62.355,
+          "height": 57.5
+        }
+      },
+      "circuit_zones_mm": {
+        "circuit_course": {
+          "x": 148.71,
+          "y": 35.122,
+          "width": 49.29,
+          "height": 21.219
+        },
+        "circuit_history": {
+          "x": 148.71,
+          "y": 59.341,
+          "width": 49.29,
+          "height": 21.219
+        },
+        "circuit_record": {
+          "x": 148.71,
+          "y": 83.559,
+          "width": 49.29,
+          "height": 21.219
+        },
+        "circuit_drawing": {
+          "x": 148.71,
+          "y": 107.778,
+          "width": 49.29,
+          "height": 21.219
+        }
+      },
+      "map_field_aspect": 1.078,
+      "crew_map_field_aspect": 3.572663,
+      "type_scale_mm": {
+        "title": 7.0,
+        "detail": 2.352,
+        "subtitle": 2.261,
+        "legend": 2.261,
+        "attribution": 2.002
+      },
+      "type_nib_role": {
+        "title": "heavy",
+        "subtitle": "text",
+        "detail": "text",
+        "legend": "text",
+        "attribution": "hairline"
+      },
+      "nib_ladder_mm": [
+        0.25,
+        0.4,
+        0.6,
+        0.7,
+        1.0
+      ],
+      "nib_roles_mm": {
+        "hairline": 0.25,
+        "text": 0.25,
+        "primary": 0.4,
+        "heavy": 0.6
+      },
+      "map_linework_nib_mm": {
+        "hairline": 0.25,
+        "text": 0.25,
+        "primary": 0.4,
+        "heavy": 0.6
+      },
+      "bridge_pen_roles": {
+        "construction": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "context": {
+          "ink": "Blue",
+          "nib_mm": 0.25
+        },
+        "dimension": {
+          "ink": "Red",
+          "nib_mm": 0.25
+        },
+        "copy": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "fine": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "secondary": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "primary": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "frame": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        }
+      },
+      "technical_pen_roles": {
+        "principal_silhouette": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "major_structural_edges": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "glazing_openings": {
+          "ink": "Blue",
+          "nib_mm": 0.25
+        },
+        "panel_seam_lines": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "mechanical_detail": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "internal_cutaway_structure": {
+          "ink": "Red",
+          "nib_mm": 0.25
+        },
+        "texture_material_hatching": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "shadow_hatching": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "construction_geometry": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "dimensions_leaders": {
+          "ink": "Red",
+          "nib_mm": 0.25
+        },
+        "labels_specifications": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "accent_feature": {
+          "ink": "Purple",
+          "nib_mm": 0.4
+        },
+        "background_context": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        }
+      },
+      "landmark_buildings": {
+        "nib_role": "hairline",
+        "ink_budget_field_fraction": 0.004,
+        "max_objects": 12,
+        "minimum_area_scale": 1.5,
+        "minimum_oriented_span_mm": 0.5,
+        "minimum_visible_perimeter_mm": 0.75,
+        "nib_mm": 0.25,
+        "max_ink_mm2": 66.32
+      },
+      "race_course": {
+        "ink": "Red",
+        "target_width_mm": 0.8
+      },
+      "ink_budget": {
+        "max_coverage": 0.28,
+        "field_area_mm2": 16580.04,
+        "max_ink_mm2": 4642.411
+      },
+      "detail_lines": 3,
+      "rules": {
+        "min_cap_height_mm": {
+          "title": 4.8,
+          "subtitle": 2.0,
+          "detail": 2.0,
+          "legend": 2.0,
+          "attribution": 2.0
+        },
+        "min_stroke_mm_by_nib": {
+          "0.25": 0.75,
+          "0.4": 1.2,
+          "0.6": 1.8,
+          "0.7": 2.1,
+          "1": 3.0
+        },
+        "title_line_layout": {
+          "maximum_lines": 2,
+          "nib_mm": 0.6,
+          "horizontal_ink_inset_mm": 0.3,
+          "min_ink_clearance_nib_multiple": 1.0,
+          "min_ink_clearance_mm": 0.6,
+          "min_path_bounds_gap_mm": 1.2
+        }
+      }
+    },
+    "a4-portrait": {
+      "id": "a4-portrait",
+      "sheet": "A4",
+      "orientation": "portrait",
+      "archetype": "stack",
+      "page_mm": {
+        "width": 210.0,
+        "height": 297.0
+      },
+      "safe_margin_mm": 8.5,
+      "content_inset_mm": 17.0,
+      "gap_mm": 4.25,
+      "border": {
+        "style": "double",
+        "allowed_styles": [
+          "none",
+          "hairline",
+          "double",
+          "rule",
+          "corner"
+        ],
+        "outer": {
+          "x": 8.5,
+          "y": 8.5,
+          "width": 193.0,
+          "height": 280.0
+        },
+        "inner_offset_mm": 2.125,
+        "nib_role": "heavy"
+      },
+      "zones_mm": {
+        "title": {
+          "x": 17.0,
+          "y": 17.0,
+          "width": 176.0,
+          "height": 19.0
+        },
+        "subtitle": {
+          "x": 17.0,
+          "y": 40.25,
+          "width": 176.0,
+          "height": 6.416
+        },
+        "map_field": {
+          "x": 17.0,
+          "y": 50.916,
+          "width": 176.0,
+          "height": 180.929
+        },
+        "furniture": {
+          "x": 17.0,
+          "y": 236.095,
+          "width": 176.0,
+          "height": 7.699
+        },
+        "detail": {
+          "x": 17.0,
+          "y": 248.044,
+          "width": 176.0,
+          "height": 22.024
+        },
+        "attribution": {
+          "x": 17.0,
+          "y": 274.318,
+          "width": 176.0,
+          "height": 5.682
+        }
+      },
+      "crew_zones_mm": {
+        "crew_title": {
+          "x": 17.0,
+          "y": 17.0,
+          "width": 151.884,
+          "height": 17.879
+        },
+        "crew_compass": {
+          "x": 173.134,
+          "y": 17.0,
+          "width": 19.866,
+          "height": 30.639
+        },
+        "crew_meta": {
+          "x": 17.0,
+          "y": 39.129,
+          "width": 151.884,
+          "height": 8.509
+        },
+        "crew_map_field": {
+          "x": 17.0,
+          "y": 51.889,
+          "width": 176.0,
+          "height": 160.95
+        },
+        "crew_block": {
+          "x": 17.0,
+          "y": 217.088,
+          "width": 176.0,
+          "height": 57.23
+        }
+      },
+      "split_zones_mm": {
+        "head_main": {
+          "x": 17.0,
+          "y": 17.0,
+          "width": 125.11,
+          "height": 29.666
+        },
+        "head_rail": {
+          "x": 146.36,
+          "y": 17.0,
+          "width": 46.64,
+          "height": 29.666
+        },
+        "foot_main": {
+          "x": 17.0,
+          "y": 236.095,
+          "width": 125.11,
+          "height": 33.973
+        },
+        "foot_rail": {
+          "x": 146.36,
+          "y": 236.095,
+          "width": 46.64,
+          "height": 33.973
+        }
+      },
+      "bridge_zones_mm": {
+        "bridge_field_label": {
+          "x": 21.25,
+          "y": 55.166,
+          "width": 167.5,
+          "height": 7.091
+        },
+        "bridge_drawing": {
+          "x": 25.5,
+          "y": 62.257,
+          "width": 159.0,
+          "height": 158.247
+        },
+        "bridge_dimension_label": {
+          "x": 21.25,
+          "y": 220.504,
+          "width": 167.5,
+          "height": 7.091
+        }
+      },
+      "technical_zones_mm": {
+        "technical_field": {
+          "x": 21.25,
+          "y": 55.166,
+          "width": 167.5,
+          "height": 172.429
+        },
+        "technical_top": {
+          "x": 21.25,
+          "y": 55.166,
+          "width": 167.5,
+          "height": 84.09
+        },
+        "technical_bottom_left": {
+          "x": 21.25,
+          "y": 143.505,
+          "width": 81.625,
+          "height": 84.09
+        },
+        "technical_bottom_right": {
+          "x": 107.125,
+          "y": 143.505,
+          "width": 81.625,
+          "height": 84.09
+        },
+        "technical_left": {
+          "x": 21.25,
+          "y": 55.166,
+          "width": 81.625,
+          "height": 172.429
+        },
+        "technical_right_top": {
+          "x": 107.125,
+          "y": 55.166,
+          "width": 81.625,
+          "height": 84.09
+        },
+        "technical_right_bottom": {
+          "x": 107.125,
+          "y": 143.505,
+          "width": 81.625,
+          "height": 84.09
+        }
+      },
+      "circuit_zones_mm": {
+        "circuit_course": {
+          "x": 17.0,
+          "y": 236.095,
+          "width": 85.875,
+          "height": 14.861
+        },
+        "circuit_history": {
+          "x": 107.125,
+          "y": 236.095,
+          "width": 85.875,
+          "height": 14.861
+        },
+        "circuit_record": {
+          "x": 17.0,
+          "y": 255.207,
+          "width": 85.875,
+          "height": 14.861
+        },
+        "circuit_drawing": {
+          "x": 107.125,
+          "y": 255.207,
+          "width": 85.875,
+          "height": 14.861
+        }
+      },
+      "map_field_aspect": 0.973,
+      "crew_map_field_aspect": 1.093507,
+      "type_scale_mm": {
+        "title": 9.933,
+        "detail": 3.337,
+        "subtitle": 3.208,
+        "legend": 3.208,
+        "attribution": 2.841
+      },
+      "type_nib_role": {
+        "title": "heavy",
+        "subtitle": "text",
+        "detail": "text",
+        "legend": "text",
+        "attribution": "hairline"
+      },
+      "nib_ladder_mm": [
+        0.25,
+        0.4,
+        0.6,
+        0.7,
+        1.0
+      ],
+      "nib_roles_mm": {
+        "hairline": 0.25,
+        "text": 0.4,
+        "primary": 0.6,
+        "heavy": 1.0
+      },
+      "map_linework_nib_mm": {
+        "hairline": 0.25,
+        "text": 0.25,
+        "primary": 0.6,
+        "heavy": 1.0
+      },
+      "bridge_pen_roles": {
+        "construction": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "context": {
+          "ink": "Blue",
+          "nib_mm": 0.25
+        },
+        "dimension": {
+          "ink": "Red",
+          "nib_mm": 0.25
+        },
+        "copy": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "fine": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "secondary": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "primary": {
+          "ink": "Black",
+          "nib_mm": 0.6
+        },
+        "frame": {
+          "ink": "Black",
+          "nib_mm": 0.6
+        }
+      },
+      "technical_pen_roles": {
+        "principal_silhouette": {
+          "ink": "Black",
+          "nib_mm": 0.6
+        },
+        "major_structural_edges": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "glazing_openings": {
+          "ink": "Blue",
+          "nib_mm": 0.25
+        },
+        "panel_seam_lines": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "mechanical_detail": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "internal_cutaway_structure": {
+          "ink": "Red",
+          "nib_mm": 0.25
+        },
+        "texture_material_hatching": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "shadow_hatching": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "construction_geometry": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "dimensions_leaders": {
+          "ink": "Red",
+          "nib_mm": 0.25
+        },
+        "labels_specifications": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "accent_feature": {
+          "ink": "Purple",
+          "nib_mm": 0.4
+        },
+        "background_context": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        }
+      },
+      "landmark_buildings": {
+        "nib_role": "text",
+        "ink_budget_field_fraction": 0.008,
+        "max_objects": 24,
+        "minimum_area_scale": 1.0,
+        "minimum_oriented_span_mm": 0.5,
+        "minimum_visible_perimeter_mm": 0.75,
+        "nib_mm": 0.25,
+        "max_ink_mm2": 254.748
+      },
+      "race_course": {
+        "ink": "Red",
+        "target_width_mm": 1.2
+      },
+      "ink_budget": {
+        "max_coverage": 0.28,
+        "field_area_mm2": 31843.504,
+        "max_ink_mm2": 8916.181
+      },
+      "detail_lines": 3,
+      "rules": {
+        "min_cap_height_mm": {
+          "title": 8.0,
+          "subtitle": 3.2,
+          "detail": 3.2,
+          "legend": 3.2,
+          "attribution": 2.0
+        },
+        "min_stroke_mm_by_nib": {
+          "0.25": 0.75,
+          "0.4": 1.2,
+          "0.6": 1.8,
+          "0.7": 2.1,
+          "1": 3.0
+        },
+        "title_line_layout": {
+          "maximum_lines": 2,
+          "nib_mm": 1.0,
+          "horizontal_ink_inset_mm": 0.5,
+          "min_ink_clearance_nib_multiple": 1.0,
+          "min_ink_clearance_mm": 1.0,
+          "min_path_bounds_gap_mm": 2.0
+        }
+      },
+      "memorabilia_zones_mm": {
+        "memorabilia_city_title": {
+          "x": 17.027,
+          "y": 17.027,
+          "width": 110.676,
+          "height": 17.878
+        },
+        "memorabilia_coordinates": {
+          "x": 133.378,
+          "y": 17.027,
+          "width": 59.595,
+          "height": 4.257
+        },
+        "memorabilia_compass": {
+          "x": 178.784,
+          "y": 24.122,
+          "width": 14.189,
+          "height": 19.865
+        },
+        "memorabilia_person_name": {
+          "x": 17.027,
+          "y": 237.025,
+          "width": 175.946,
+          "height": 14.899
+        },
+        "memorabilia_degree": {
+          "x": 17.027,
+          "y": 255.405,
+          "width": 76.622,
+          "height": 15.608
+        },
+        "memorabilia_honours": {
+          "x": 99.324,
+          "y": 255.405,
+          "width": 53.919,
+          "height": 15.608
+        },
+        "memorabilia_years": {
+          "x": 158.919,
+          "y": 255.405,
+          "width": 34.054,
+          "height": 15.608
+        }
+      }
+    },
+    "a4-landscape": {
+      "id": "a4-landscape",
+      "sheet": "A4",
+      "orientation": "landscape",
+      "archetype": "rail",
+      "page_mm": {
+        "width": 297.0,
+        "height": 210.0
+      },
+      "safe_margin_mm": 8.5,
+      "content_inset_mm": 17.0,
+      "gap_mm": 4.25,
+      "border": {
+        "style": "double",
+        "allowed_styles": [
+          "none",
+          "hairline",
+          "double",
+          "rule",
+          "corner"
+        ],
+        "outer": {
+          "x": 8.5,
+          "y": 8.5,
+          "width": 280.0,
+          "height": 193.0
+        },
+        "inner_offset_mm": 2.125,
+        "nib_role": "heavy"
+      },
+      "zones_mm": {
+        "map_field": {
+          "x": 17.0,
+          "y": 17.0,
+          "width": 189.055,
+          "height": 176.0
+        },
+        "title": {
+          "x": 210.305,
+          "y": 17.0,
+          "width": 69.695,
+          "height": 19.0
+        },
+        "subtitle": {
+          "x": 210.305,
+          "y": 40.25,
+          "width": 69.695,
+          "height": 6.416
+        },
+        "detail": {
+          "x": 210.305,
+          "y": 50.916,
+          "width": 69.695,
+          "height": 22.024
+        },
+        "furniture": {
+          "x": 210.305,
+          "y": 77.19,
+          "width": 69.695,
+          "height": 7.699
+        },
+        "attribution": {
+          "x": 210.305,
+          "y": 187.318,
+          "width": 69.695,
+          "height": 5.682
+        }
+      },
+      "crew_zones_mm": {
+        "crew_title": {
+          "x": 17.0,
+          "y": 17.0,
+          "width": 238.884,
+          "height": 17.879
+        },
+        "crew_compass": {
+          "x": 260.134,
+          "y": 17.0,
+          "width": 19.866,
+          "height": 30.639
+        },
+        "crew_meta": {
+          "x": 17.0,
+          "y": 39.129,
+          "width": 238.884,
+          "height": 8.509
+        },
+        "crew_map_field": {
+          "x": 17.0,
+          "y": 51.889,
+          "width": 263.0,
+          "height": 73.95
+        },
+        "crew_block": {
+          "x": 17.0,
+          "y": 130.088,
+          "width": 263.0,
+          "height": 57.23
+        }
+      },
+      "split_zones_mm": {
+        "head_main": {
+          "x": 210.305,
+          "y": 17.0,
+          "width": 46.976,
+          "height": 29.666
+        },
+        "head_rail": {
+          "x": 261.531,
+          "y": 17.0,
+          "width": 18.469,
+          "height": 29.666
+        },
+        "foot_main": {
+          "x": 210.305,
+          "y": 77.19,
+          "width": 46.976,
+          "height": -4.25
+        },
+        "foot_rail": {
+          "x": 261.531,
+          "y": 77.19,
+          "width": 18.469,
+          "height": -4.25
+        }
+      },
+      "bridge_zones_mm": {
+        "bridge_field_label": {
+          "x": 21.25,
+          "y": 21.25,
+          "width": 180.555,
+          "height": 7.091
+        },
+        "bridge_drawing": {
+          "x": 25.5,
+          "y": 28.341,
+          "width": 172.055,
+          "height": 153.318
+        },
+        "bridge_dimension_label": {
+          "x": 21.25,
+          "y": 181.659,
+          "width": 180.555,
+          "height": 7.091
+        }
+      },
+      "technical_zones_mm": {
+        "technical_field": {
+          "x": 21.25,
+          "y": 21.25,
+          "width": 180.555,
+          "height": 167.5
+        },
+        "technical_top": {
+          "x": 21.25,
+          "y": 21.25,
+          "width": 180.555,
+          "height": 81.625
+        },
+        "technical_bottom_left": {
+          "x": 21.25,
+          "y": 107.125,
+          "width": 88.153,
+          "height": 81.625
+        },
+        "technical_bottom_right": {
+          "x": 113.653,
+          "y": 107.125,
+          "width": 88.153,
+          "height": 81.625
+        },
+        "technical_left": {
+          "x": 21.25,
+          "y": 21.25,
+          "width": 88.153,
+          "height": 167.5
+        },
+        "technical_right_top": {
+          "x": 113.653,
+          "y": 21.25,
+          "width": 88.153,
+          "height": 81.625
+        },
+        "technical_right_bottom": {
+          "x": 113.653,
+          "y": 107.125,
+          "width": 88.153,
+          "height": 81.625
+        }
+      },
+      "circuit_zones_mm": {
+        "circuit_course": {
+          "x": 210.305,
+          "y": 50.916,
+          "width": 69.695,
+          "height": 29.851
+        },
+        "circuit_history": {
+          "x": 210.305,
+          "y": 85.017,
+          "width": 69.695,
+          "height": 29.851
+        },
+        "circuit_record": {
+          "x": 210.305,
+          "y": 119.117,
+          "width": 69.695,
+          "height": 29.851
+        },
+        "circuit_drawing": {
+          "x": 210.305,
+          "y": 153.218,
+          "width": 69.695,
+          "height": 29.851
+        }
+      },
+      "map_field_aspect": 1.074,
+      "crew_map_field_aspect": 3.556457,
+      "type_scale_mm": {
+        "title": 9.933,
+        "detail": 3.337,
+        "subtitle": 3.208,
+        "legend": 3.208,
+        "attribution": 2.841
+      },
+      "type_nib_role": {
+        "title": "heavy",
+        "subtitle": "text",
+        "detail": "text",
+        "legend": "text",
+        "attribution": "hairline"
+      },
+      "nib_ladder_mm": [
+        0.25,
+        0.4,
+        0.6,
+        0.7,
+        1.0
+      ],
+      "nib_roles_mm": {
+        "hairline": 0.25,
+        "text": 0.4,
+        "primary": 0.6,
+        "heavy": 1.0
+      },
+      "map_linework_nib_mm": {
+        "hairline": 0.25,
+        "text": 0.25,
+        "primary": 0.6,
+        "heavy": 1.0
+      },
+      "bridge_pen_roles": {
+        "construction": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "context": {
+          "ink": "Blue",
+          "nib_mm": 0.25
+        },
+        "dimension": {
+          "ink": "Red",
+          "nib_mm": 0.25
+        },
+        "copy": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "fine": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "secondary": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "primary": {
+          "ink": "Black",
+          "nib_mm": 0.6
+        },
+        "frame": {
+          "ink": "Black",
+          "nib_mm": 0.6
+        }
+      },
+      "technical_pen_roles": {
+        "principal_silhouette": {
+          "ink": "Black",
+          "nib_mm": 0.6
+        },
+        "major_structural_edges": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "glazing_openings": {
+          "ink": "Blue",
+          "nib_mm": 0.25
+        },
+        "panel_seam_lines": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "mechanical_detail": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "internal_cutaway_structure": {
+          "ink": "Red",
+          "nib_mm": 0.25
+        },
+        "texture_material_hatching": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "shadow_hatching": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "construction_geometry": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "dimensions_leaders": {
+          "ink": "Red",
+          "nib_mm": 0.25
+        },
+        "labels_specifications": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "accent_feature": {
+          "ink": "Purple",
+          "nib_mm": 0.4
+        },
+        "background_context": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        }
+      },
+      "landmark_buildings": {
+        "nib_role": "text",
+        "ink_budget_field_fraction": 0.008,
+        "max_objects": 24,
+        "minimum_area_scale": 1.0,
+        "minimum_oriented_span_mm": 0.5,
+        "minimum_visible_perimeter_mm": 0.75,
+        "nib_mm": 0.25,
+        "max_ink_mm2": 266.189
+      },
+      "race_course": {
+        "ink": "Red",
+        "target_width_mm": 1.2
+      },
+      "ink_budget": {
+        "max_coverage": 0.28,
+        "field_area_mm2": 33273.68,
+        "max_ink_mm2": 9316.63
+      },
+      "detail_lines": 3,
+      "rules": {
+        "min_cap_height_mm": {
+          "title": 8.0,
+          "subtitle": 3.2,
+          "detail": 3.2,
+          "legend": 3.2,
+          "attribution": 2.0
+        },
+        "min_stroke_mm_by_nib": {
+          "0.25": 0.75,
+          "0.4": 1.2,
+          "0.6": 1.8,
+          "0.7": 2.1,
+          "1": 3.0
+        },
+        "title_line_layout": {
+          "maximum_lines": 2,
+          "nib_mm": 1.0,
+          "horizontal_ink_inset_mm": 0.5,
+          "min_ink_clearance_nib_multiple": 1.0,
+          "min_ink_clearance_mm": 1.0,
+          "min_path_bounds_gap_mm": 2.0
+        }
+      }
+    },
+    "a3-portrait": {
+      "id": "a3-portrait",
+      "sheet": "A3",
+      "orientation": "portrait",
+      "archetype": "stack",
+      "page_mm": {
+        "width": 297.0,
+        "height": 420.0
+      },
+      "safe_margin_mm": 12.0,
+      "content_inset_mm": 24.0,
+      "gap_mm": 6.0,
+      "border": {
+        "style": "double",
+        "allowed_styles": [
+          "none",
+          "hairline",
+          "double",
+          "rule",
+          "corner"
+        ],
+        "outer": {
+          "x": 12.0,
+          "y": 12.0,
+          "width": 273.0,
+          "height": 396.0
+        },
+        "inner_offset_mm": 3.0,
+        "nib_role": "heavy"
+      },
+      "zones_mm": {
+        "title": {
+          "x": 24.0,
+          "y": 24.0,
+          "width": 249.0,
+          "height": 25.286
+        },
+        "subtitle": {
+          "x": 24.0,
+          "y": 55.286,
+          "width": 249.0,
+          "height": 9.076
+        },
+        "map_field": {
+          "x": 24.0,
+          "y": 70.362,
+          "width": 249.0,
+          "height": 257.558
+        },
+        "furniture": {
+          "x": 24.0,
+          "y": 333.921,
+          "width": 249.0,
+          "height": 10.891
+        },
+        "detail": {
+          "x": 24.0,
+          "y": 350.812,
+          "width": 249.0,
+          "height": 31.152
+        },
+        "attribution": {
+          "x": 24.0,
+          "y": 387.964,
+          "width": 249.0,
+          "height": 8.036
+        }
+      },
+      "crew_zones_mm": {
+        "crew_title": {
+          "x": 24.0,
+          "y": 24.0,
+          "width": 214.904,
+          "height": 25.286
+        },
+        "crew_compass": {
+          "x": 244.904,
+          "y": 24.0,
+          "width": 28.096,
+          "height": 43.322
+        },
+        "crew_meta": {
+          "x": 24.0,
+          "y": 55.286,
+          "width": 214.904,
+          "height": 12.036
+        },
+        "crew_map_field": {
+          "x": 24.0,
+          "y": 73.322,
+          "width": 249.0,
+          "height": 227.694
+        },
+        "crew_block": {
+          "x": 24.0,
+          "y": 307.016,
+          "width": 249.0,
+          "height": 80.948
+        }
+      },
+      "split_zones_mm": {
+        "head_main": {
+          "x": 24.0,
+          "y": 24.0,
+          "width": 177.015,
+          "height": 40.362
+        },
+        "head_rail": {
+          "x": 207.015,
+          "y": 24.0,
+          "width": 65.985,
+          "height": 40.362
+        },
+        "foot_main": {
+          "x": 24.0,
+          "y": 333.921,
+          "width": 177.015,
+          "height": 48.043
+        },
+        "foot_rail": {
+          "x": 207.015,
+          "y": 333.921,
+          "width": 65.985,
+          "height": 48.043
+        }
+      },
+      "bridge_zones_mm": {
+        "bridge_field_label": {
+          "x": 30.0,
+          "y": 76.362,
+          "width": 237.0,
+          "height": 10.018
+        },
+        "bridge_drawing": {
+          "x": 36.0,
+          "y": 86.38,
+          "width": 225.0,
+          "height": 225.522
+        },
+        "bridge_dimension_label": {
+          "x": 30.0,
+          "y": 311.902,
+          "width": 237.0,
+          "height": 10.018
+        }
+      },
+      "technical_zones_mm": {
+        "technical_field": {
+          "x": 30.0,
+          "y": 76.362,
+          "width": 237.0,
+          "height": 245.558
+        },
+        "technical_top": {
+          "x": 30.0,
+          "y": 76.362,
+          "width": 237.0,
+          "height": 119.779
+        },
+        "technical_bottom_left": {
+          "x": 30.0,
+          "y": 202.141,
+          "width": 115.5,
+          "height": 119.779
+        },
+        "technical_bottom_right": {
+          "x": 151.5,
+          "y": 202.141,
+          "width": 115.5,
+          "height": 119.779
+        },
+        "technical_left": {
+          "x": 30.0,
+          "y": 76.362,
+          "width": 115.5,
+          "height": 245.558
+        },
+        "technical_right_top": {
+          "x": 151.5,
+          "y": 76.362,
+          "width": 115.5,
+          "height": 119.779
+        },
+        "technical_right_bottom": {
+          "x": 151.5,
+          "y": 202.141,
+          "width": 115.5,
+          "height": 119.779
+        }
+      },
+      "circuit_zones_mm": {
+        "circuit_course": {
+          "x": 24.0,
+          "y": 333.921,
+          "width": 121.5,
+          "height": 21.022
+        },
+        "circuit_history": {
+          "x": 151.5,
+          "y": 333.921,
+          "width": 121.5,
+          "height": 21.022
+        },
+        "circuit_record": {
+          "x": 24.0,
+          "y": 360.942,
+          "width": 121.5,
+          "height": 21.022
+        },
+        "circuit_drawing": {
+          "x": 151.5,
+          "y": 360.942,
+          "width": 121.5,
+          "height": 21.022
+        }
+      },
+      "map_field_aspect": 0.967,
+      "crew_map_field_aspect": 1.093573,
+      "type_scale_mm": {
+        "title": 14.048,
+        "detail": 4.72,
+        "subtitle": 4.538,
+        "legend": 4.538,
+        "attribution": 4.018
+      },
+      "type_nib_role": {
+        "title": "heavy",
+        "subtitle": "text",
+        "detail": "text",
+        "legend": "text",
+        "attribution": "hairline"
+      },
+      "nib_ladder_mm": [
+        0.25,
+        0.4,
+        0.6,
+        0.7,
+        1.0
+      ],
+      "nib_roles_mm": {
+        "hairline": 0.4,
+        "text": 0.4,
+        "primary": 0.6,
+        "heavy": 1.0
+      },
+      "map_linework_nib_mm": {
+        "hairline": 0.25,
+        "text": 0.4,
+        "primary": 0.6,
+        "heavy": 1.0
+      },
+      "bridge_pen_roles": {
+        "construction": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "context": {
+          "ink": "Blue",
+          "nib_mm": 0.25
+        },
+        "dimension": {
+          "ink": "Red",
+          "nib_mm": 0.25
+        },
+        "copy": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "fine": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "secondary": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "primary": {
+          "ink": "Black",
+          "nib_mm": 0.6
+        },
+        "frame": {
+          "ink": "Black",
+          "nib_mm": 0.6
+        }
+      },
+      "technical_pen_roles": {
+        "principal_silhouette": {
+          "ink": "Black",
+          "nib_mm": 0.6
+        },
+        "major_structural_edges": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "glazing_openings": {
+          "ink": "Blue",
+          "nib_mm": 0.25
+        },
+        "panel_seam_lines": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "mechanical_detail": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "internal_cutaway_structure": {
+          "ink": "Red",
+          "nib_mm": 0.25
+        },
+        "texture_material_hatching": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "shadow_hatching": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "construction_geometry": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "dimensions_leaders": {
+          "ink": "Red",
+          "nib_mm": 0.25
+        },
+        "labels_specifications": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "accent_feature": {
+          "ink": "Purple",
+          "nib_mm": 0.4
+        },
+        "background_context": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        }
+      },
+      "landmark_buildings": {
+        "nib_role": "text",
+        "ink_budget_field_fraction": 0.012,
+        "max_objects": 32,
+        "minimum_area_scale": 0.75,
+        "minimum_oriented_span_mm": 0.5,
+        "minimum_visible_perimeter_mm": 0.75,
+        "nib_mm": 0.4,
+        "max_ink_mm2": 769.583
+      },
+      "race_course": {
+        "ink": "Red",
+        "target_width_mm": 1.6
+      },
+      "ink_budget": {
+        "max_coverage": 0.28,
+        "field_area_mm2": 64131.942,
+        "max_ink_mm2": 17956.944
+      },
+      "detail_lines": 3,
+      "rules": {
+        "min_cap_height_mm": {
+          "title": 8.0,
+          "subtitle": 3.2,
+          "detail": 3.2,
+          "legend": 3.2,
+          "attribution": 3.2
+        },
+        "min_stroke_mm_by_nib": {
+          "0.25": 0.75,
+          "0.4": 1.2,
+          "0.6": 1.8,
+          "0.7": 2.1,
+          "1": 3.0
+        },
+        "title_line_layout": {
+          "maximum_lines": 2,
+          "nib_mm": 1.0,
+          "horizontal_ink_inset_mm": 0.5,
+          "min_ink_clearance_nib_multiple": 1.0,
+          "min_ink_clearance_mm": 1.0,
+          "min_path_bounds_gap_mm": 2.0
+        }
+      },
+      "memorabilia_zones_mm": {
+        "memorabilia_city_title": {
+          "x": 24.081,
+          "y": 24.081,
+          "width": 156.527,
+          "height": 25.285
+        },
+        "memorabilia_coordinates": {
+          "x": 188.635,
+          "y": 24.081,
+          "width": 84.284,
+          "height": 6.02
+        },
+        "memorabilia_compass": {
+          "x": 252.851,
+          "y": 34.115,
+          "width": 20.068,
+          "height": 28.095
+        },
+        "memorabilia_person_name": {
+          "x": 24.081,
+          "y": 335.221,
+          "width": 248.838,
+          "height": 21.071
+        },
+        "memorabilia_degree": {
+          "x": 24.081,
+          "y": 361.216,
+          "width": 108.365,
+          "height": 22.074
+        },
+        "memorabilia_honours": {
+          "x": 140.473,
+          "y": 361.216,
+          "width": 76.257,
+          "height": 22.074
+        },
+        "memorabilia_years": {
+          "x": 224.757,
+          "y": 361.216,
+          "width": 48.162,
+          "height": 22.074
+        }
+      }
+    },
+    "a3-landscape": {
+      "id": "a3-landscape",
+      "sheet": "A3",
+      "orientation": "landscape",
+      "archetype": "rail",
+      "page_mm": {
+        "width": 420.0,
+        "height": 297.0
+      },
+      "safe_margin_mm": 12.0,
+      "content_inset_mm": 24.0,
+      "gap_mm": 6.0,
+      "border": {
+        "style": "double",
+        "allowed_styles": [
+          "none",
+          "hairline",
+          "double",
+          "rule",
+          "corner"
+        ],
+        "outer": {
+          "x": 12.0,
+          "y": 12.0,
+          "width": 396.0,
+          "height": 273.0
+        },
+        "inner_offset_mm": 3.0,
+        "nib_role": "heavy"
+      },
+      "zones_mm": {
+        "map_field": {
+          "x": 24.0,
+          "y": 24.0,
+          "width": 267.42,
+          "height": 249.0
+        },
+        "title": {
+          "x": 297.42,
+          "y": 24.0,
+          "width": 98.58,
+          "height": 25.286
+        },
+        "subtitle": {
+          "x": 297.42,
+          "y": 55.286,
+          "width": 98.58,
+          "height": 9.076
+        },
+        "detail": {
+          "x": 297.42,
+          "y": 70.362,
+          "width": 98.58,
+          "height": 31.152
+        },
+        "furniture": {
+          "x": 297.42,
+          "y": 107.514,
+          "width": 98.58,
+          "height": 10.891
+        },
+        "attribution": {
+          "x": 297.42,
+          "y": 264.964,
+          "width": 98.58,
+          "height": 8.036
+        }
+      },
+      "crew_zones_mm": {
+        "crew_title": {
+          "x": 24.0,
+          "y": 24.0,
+          "width": 337.904,
+          "height": 25.286
+        },
+        "crew_compass": {
+          "x": 367.904,
+          "y": 24.0,
+          "width": 28.096,
+          "height": 43.322
+        },
+        "crew_meta": {
+          "x": 24.0,
+          "y": 55.286,
+          "width": 337.904,
+          "height": 12.036
+        },
+        "crew_map_field": {
+          "x": 24.0,
+          "y": 73.322,
+          "width": 372.0,
+          "height": 104.694
+        },
+        "crew_block": {
+          "x": 24.0,
+          "y": 184.016,
+          "width": 372.0,
+          "height": 80.948
+        }
+      },
+      "split_zones_mm": {
+        "head_main": {
+          "x": 297.42,
+          "y": 24.0,
+          "width": 66.456,
+          "height": 40.362
+        },
+        "head_rail": {
+          "x": 369.876,
+          "y": 24.0,
+          "width": 26.124,
+          "height": 40.362
+        },
+        "foot_main": {
+          "x": 297.42,
+          "y": 107.514,
+          "width": 66.456,
+          "height": -6.0
+        },
+        "foot_rail": {
+          "x": 369.876,
+          "y": 107.514,
+          "width": 26.124,
+          "height": -6.0
+        }
+      },
+      "bridge_zones_mm": {
+        "bridge_field_label": {
+          "x": 30.0,
+          "y": 30.0,
+          "width": 255.42,
+          "height": 10.018
+        },
+        "bridge_drawing": {
+          "x": 36.0,
+          "y": 40.018,
+          "width": 243.42,
+          "height": 216.964
+        },
+        "bridge_dimension_label": {
+          "x": 30.0,
+          "y": 256.982,
+          "width": 255.42,
+          "height": 10.018
+        }
+      },
+      "technical_zones_mm": {
+        "technical_field": {
+          "x": 30.0,
+          "y": 30.0,
+          "width": 255.42,
+          "height": 237.0
+        },
+        "technical_top": {
+          "x": 30.0,
+          "y": 30.0,
+          "width": 255.42,
+          "height": 115.5
+        },
+        "technical_bottom_left": {
+          "x": 30.0,
+          "y": 151.5,
+          "width": 124.71,
+          "height": 115.5
+        },
+        "technical_bottom_right": {
+          "x": 160.71,
+          "y": 151.5,
+          "width": 124.71,
+          "height": 115.5
+        },
+        "technical_left": {
+          "x": 30.0,
+          "y": 30.0,
+          "width": 124.71,
+          "height": 237.0
+        },
+        "technical_right_top": {
+          "x": 160.71,
+          "y": 30.0,
+          "width": 124.71,
+          "height": 115.5
+        },
+        "technical_right_bottom": {
+          "x": 160.71,
+          "y": 151.5,
+          "width": 124.71,
+          "height": 115.5
+        }
+      },
+      "circuit_zones_mm": {
+        "circuit_course": {
+          "x": 297.42,
+          "y": 70.362,
+          "width": 98.58,
+          "height": 42.651
+        },
+        "circuit_history": {
+          "x": 297.42,
+          "y": 119.012,
+          "width": 98.58,
+          "height": 42.651
+        },
+        "circuit_record": {
+          "x": 297.42,
+          "y": 167.663,
+          "width": 98.58,
+          "height": 42.651
+        },
+        "circuit_drawing": {
+          "x": 297.42,
+          "y": 216.314,
+          "width": 98.58,
+          "height": 42.651
+        }
+      },
+      "map_field_aspect": 1.074,
+      "crew_map_field_aspect": 3.553212,
+      "type_scale_mm": {
+        "title": 14.048,
+        "detail": 4.72,
+        "subtitle": 4.538,
+        "legend": 4.538,
+        "attribution": 4.018
+      },
+      "type_nib_role": {
+        "title": "heavy",
+        "subtitle": "text",
+        "detail": "text",
+        "legend": "text",
+        "attribution": "hairline"
+      },
+      "nib_ladder_mm": [
+        0.25,
+        0.4,
+        0.6,
+        0.7,
+        1.0
+      ],
+      "nib_roles_mm": {
+        "hairline": 0.4,
+        "text": 0.4,
+        "primary": 0.6,
+        "heavy": 1.0
+      },
+      "map_linework_nib_mm": {
+        "hairline": 0.25,
+        "text": 0.4,
+        "primary": 0.6,
+        "heavy": 1.0
+      },
+      "bridge_pen_roles": {
+        "construction": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "context": {
+          "ink": "Blue",
+          "nib_mm": 0.25
+        },
+        "dimension": {
+          "ink": "Red",
+          "nib_mm": 0.25
+        },
+        "copy": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "fine": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "secondary": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "primary": {
+          "ink": "Black",
+          "nib_mm": 0.6
+        },
+        "frame": {
+          "ink": "Black",
+          "nib_mm": 0.6
+        }
+      },
+      "technical_pen_roles": {
+        "principal_silhouette": {
+          "ink": "Black",
+          "nib_mm": 0.6
+        },
+        "major_structural_edges": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "glazing_openings": {
+          "ink": "Blue",
+          "nib_mm": 0.25
+        },
+        "panel_seam_lines": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "mechanical_detail": {
+          "ink": "Black",
+          "nib_mm": 0.25
+        },
+        "internal_cutaway_structure": {
+          "ink": "Red",
+          "nib_mm": 0.25
+        },
+        "texture_material_hatching": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "shadow_hatching": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "construction_geometry": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        },
+        "dimensions_leaders": {
+          "ink": "Red",
+          "nib_mm": 0.25
+        },
+        "labels_specifications": {
+          "ink": "Black",
+          "nib_mm": 0.4
+        },
+        "accent_feature": {
+          "ink": "Purple",
+          "nib_mm": 0.4
+        },
+        "background_context": {
+          "ink": "Grey",
+          "nib_mm": 0.25
+        }
+      },
+      "landmark_buildings": {
+        "nib_role": "text",
+        "ink_budget_field_fraction": 0.012,
+        "max_objects": 32,
+        "minimum_area_scale": 0.75,
+        "minimum_oriented_span_mm": 0.5,
+        "minimum_visible_perimeter_mm": 0.75,
+        "nib_mm": 0.4,
+        "max_ink_mm2": 799.051
+      },
+      "race_course": {
+        "ink": "Red",
+        "target_width_mm": 1.6
+      },
+      "ink_budget": {
+        "max_coverage": 0.28,
+        "field_area_mm2": 66587.58,
+        "max_ink_mm2": 18644.522
+      },
+      "detail_lines": 3,
+      "rules": {
+        "min_cap_height_mm": {
+          "title": 8.0,
+          "subtitle": 3.2,
+          "detail": 3.2,
+          "legend": 3.2,
+          "attribution": 3.2
+        },
+        "min_stroke_mm_by_nib": {
+          "0.25": 0.75,
+          "0.4": 1.2,
+          "0.6": 1.8,
+          "0.7": 2.1,
+          "1": 3.0
+        },
+        "title_line_layout": {
+          "maximum_lines": 2,
+          "nib_mm": 1.0,
+          "horizontal_ink_inset_mm": 0.5,
+          "min_ink_clearance_nib_multiple": 1.0,
+          "min_ink_clearance_mm": 1.0,
+          "min_path_bounds_gap_mm": 2.0
+        }
+      }
+    }
+  }
+}

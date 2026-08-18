@@ -1,0 +1,90 @@
+{
+  "version": 0.6,
+  "generator": "test fixture",
+  "osm3s": {"timestamp_osm_base": "2026-01-01T00:00:00Z"},
+  "elements": [
+    {
+      "type": "way",
+      "id": 101,
+      "tags": {"highway": "primary", "name": "Marathon Avenue"},
+      "geometry": [
+        {"lat": 51.5000, "lon": -0.1400},
+        {"lat": 51.5050, "lon": -0.1300},
+        {"lat": 51.5100, "lon": -0.1200}
+      ]
+    },
+    {
+      "type": "way",
+      "id": 102,
+      "tags": {"highway": "residential", "name": "Finish Street"},
+      "geometry": [
+        {"lat": 51.5020, "lon": -0.1250},
+        {"lat": 51.5070, "lon": -0.1250}
+      ]
+    },
+    {
+      "type": "way",
+      "id": 103,
+      "tags": {"highway": "footway", "name": "Riverside Path"},
+      "geometry": [
+        {"lat": 51.5010, "lon": -0.1390},
+        {"lat": 51.5015, "lon": -0.1200}
+      ]
+    },
+    {
+      "type": "way",
+      "id": 201,
+      "tags": {"waterway": "river", "name": "Test River"},
+      "geometry": [
+        {"lat": 51.5030, "lon": -0.1410},
+        {"lat": 51.5040, "lon": -0.1300},
+        {"lat": 51.5030, "lon": -0.1190}
+      ]
+    },
+    {
+      "type": "way",
+      "id": 202,
+      "tags": {"natural": "water", "name": "Test Lake"},
+      "geometry": [
+        {"lat": 51.5060, "lon": -0.1380},
+        {"lat": 51.5080, "lon": -0.1380},
+        {"lat": 51.5080, "lon": -0.1340},
+        {"lat": 51.5060, "lon": -0.1340},
+        {"lat": 51.5060, "lon": -0.1380}
+      ]
+    },
+    {
+      "type": "way",
+      "id": 301,
+      "tags": {"railway": "rail", "name": "Test Railway"},
+      "geometry": [
+        {"lat": 51.4990, "lon": -0.1320},
+        {"lat": 51.5110, "lon": -0.1280}
+      ]
+    },
+    {
+      "type": "way",
+      "id": 401,
+      "tags": {"leisure": "park", "name": "Test Park"},
+      "geometry": [
+        {"lat": 51.5050, "lon": -0.1280},
+        {"lat": 51.5090, "lon": -0.1280},
+        {"lat": 51.5090, "lon": -0.1220},
+        {"lat": 51.5050, "lon": -0.1220},
+        {"lat": 51.5050, "lon": -0.1280}
+      ]
+    },
+    {
+      "type": "way",
+      "id": 501,
+      "tags": {"building": "yes", "name": "Test Hall"},
+      "geometry": [
+        {"lat": 51.5040, "lon": -0.1320},
+        {"lat": 51.5050, "lon": -0.1320},
+        {"lat": 51.5050, "lon": -0.1300},
+        {"lat": 51.5040, "lon": -0.1300},
+        {"lat": 51.5040, "lon": -0.1320}
+      ]
+    }
+  ]
+}

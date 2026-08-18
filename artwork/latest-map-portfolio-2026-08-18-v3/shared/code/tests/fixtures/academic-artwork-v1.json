@@ -1,0 +1,612 @@
+{
+  "schema_version": 1,
+  "id": "academic-artwork-test-fixtures-v1",
+  "defaults": {
+    "subtitle": "PROJECT DATA / 2026",
+    "credit_line": "PROJECT TEST DATA",
+    "rights_status": "project-authored",
+    "composition_mode": "reconstructed-from-data",
+    "metadata": {
+      "authors": ["Dr Ada Researcher", "Prof Rowan Supervisor"],
+      "year": "2026",
+      "doi": "10.0000/project.fixture",
+      "significance_statement": "THE SUPPLIED RESPONSE RETAINS ITS MEASURED MAXIMUM",
+      "variable_definitions": "E / ENERGY; N / STATE INDEX",
+      "researcher": "Dr Ada Researcher",
+      "date": "6 August 2026",
+      "author": "Dr Ada Researcher",
+      "degree": "Doctor of Philosophy",
+      "department": "Department of Physical Sciences",
+      "institution": "Example University",
+      "supervisors": ["Prof Rowan Supervisor", "Dr Morgan Adviser"],
+      "graduate_name": "Ada Graduate",
+      "coordinates": "53.946 N / 1.053 W",
+      "inventors": ["A. Inventor", "B. Engineer"],
+      "patent_number": "GB 0000000",
+      "filing_date": "1 January 2025",
+      "laboratory": "Example Quantum Laboratory"
+    },
+    "sources": [
+      {
+        "id": "fixture-source",
+        "kind": "project-authored",
+        "rights_basis": "project-authored",
+        "license": "project-authored test fixture",
+        "attribution": "CITY MAP PLOTTER TEST SUITE",
+        "method": "synthetic values and geometry authored solely for deterministic renderer tests"
+      }
+    ],
+    "details": [
+      "VALUES AND UNITS PRESERVED",
+      "TRANSFORMATIONS RECORDED",
+      "NO RASTER PRODUCTION ART"
+    ]
+  },
+  "cases": [
+    {
+      "case": "single-curve-error-bars-and-fit",
+      "expected": "buildable",
+      "record": {
+        "preset": "graph-as-landscape",
+        "format_id": "a4-landscape",
+        "title": "MEASUREMENT AND FIT",
+        "plate_title": "CURVE",
+        "elements": [
+          {
+            "id": "measurement",
+            "kind": "graph",
+            "source_refs": ["fixture-source"],
+            "transformation": {
+              "id": "uncertainty-hatching-v1",
+              "description": "Measured coordinates, fitted coordinates, and supplied uncertainty are represented without changing values.",
+              "parameters": {"hatch_representation": "sparse-vertical-strokes"},
+              "changes_values": false
+            },
+            "x_axis": {
+              "scale": "linear", "minimum": 0, "maximum": 4,
+              "label": "FIELD", "unit": "T",
+              "ticks": [{"value": 0, "label": "0"}, {"value": 2, "label": "2"}, {"value": 4, "label": "4"}]
+            },
+            "y_axis": {
+              "scale": "linear", "minimum": -1, "maximum": 4,
+              "label": "RESPONSE", "unit": "A",
+              "ticks": [{"value": -1, "label": "-1"}, {"value": 1.5, "label": "1.5"}, {"value": 4, "label": "4"}]
+            },
+            "traces": [
+              {
+                "id": "measured", "semantic_role": "measured", "line_style": "solid-markers", "marker": "circle",
+                "x": [0, 1, 2, 3, 4], "y": [0, 1.2, 2.8, 1.4, 0.1],
+                "error_y": [0.2, 0.25, 0.3, 0.2, 0.15],
+                "uncertainty": {
+                  "lower": [-0.2, 0.95, 2.5, 1.2, -0.05],
+                  "upper": [0.2, 1.45, 3.1, 1.6, 0.25],
+                  "hatch_strokes": 5
+                }
+              },
+              {
+                "id": "model", "semantic_role": "fit", "line_style": "dashed", "marker": "square",
+                "x": [0, 1, 2, 3, 4], "y": [0.1, 1.1, 2.7, 1.5, 0.2]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case": "multi-trace-spectrum-narrow-peaks",
+      "expected": "buildable",
+      "record": {
+        "preset": "graph-as-landscape",
+        "format_id": "a4-landscape",
+        "title": "EXTREMA-PRESERVING SPECTRUM",
+        "plate_title": "SPECTRUM",
+        "elements": [
+          {
+            "id": "spectrum",
+            "kind": "graph",
+            "source_refs": ["fixture-source"],
+            "transformation": {
+              "id": "extrema-preserving-downsample-v1",
+              "description": "Source indices are selected by indexed minima and maxima while narrow peaks and protected events remain unchanged.",
+              "parameters": {"max_points_per_run": 8},
+              "changes_values": false
+            },
+            "x_axis": {
+              "scale": "linear", "minimum": 0, "maximum": 16,
+              "label": "FREQUENCY", "unit": "THZ",
+              "ticks": [{"value": 0, "label": "0"}, {"value": 8, "label": "8"}, {"value": 16, "label": "16"}]
+            },
+            "y_axis": {
+              "scale": "linear", "minimum": 0, "maximum": 12,
+              "label": "INTENSITY", "unit": "AU",
+              "ticks": [{"value": 0, "label": "0"}, {"value": 6, "label": "6"}, {"value": 12, "label": "12"}]
+            },
+            "traces": [
+              {
+                "id": "sample-a", "semantic_role": "measured", "line_style": "solid-markers", "marker": "circle",
+                "protected_indices": [7, 12],
+                "x": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+                "y": [0.2, 0.3, 0.25, 0.4, 0.5, 0.45, 0.6, 11.2, 0.7, 0.65, 0.8, 0.75, 8.8, 0.7, 0.5, 0.4, 0.3]
+              },
+              {
+                "id": "sample-b", "semantic_role": "comparison", "line_style": "dashed", "marker": "cross",
+                "protected_indices": [8, 13],
+                "x": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+                "y": [0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.8, 9.7, 0.9, 0.85, 0.9, 1.0, 6.4, 0.8, 0.6, 0.5]
+              },
+              {
+                "id": "reference", "semantic_role": "reference", "line_style": "solid", "marker": "square",
+                "protected_indices": [7],
+                "x": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+                "y": [0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 5.5, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.65, 0.5, 0.3]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case": "hysteresis-positive-negative-branches",
+      "expected": "buildable",
+      "record": {
+        "preset": "graph-as-landscape",
+        "format_id": "a4-landscape",
+        "title": "HYSTERESIS LOOP",
+        "plate_title": "LOOP",
+        "elements": [
+          {
+            "id": "loop",
+            "kind": "graph",
+            "source_refs": ["fixture-source"],
+            "transformation": {
+              "id": "extrema-preserving-downsample-v1",
+              "description": "Indexed downsampling preserves source order and the field-reversal point separating positive and negative branches.",
+              "parameters": {"max_points_per_run": 6},
+              "changes_values": false
+            },
+            "x_axis": {
+              "scale": "linear", "minimum": -3, "maximum": 3,
+              "label": "FIELD", "unit": "T",
+              "ticks": [{"value": -3, "label": "-3"}, {"value": 0, "label": "0"}, {"value": 3, "label": "3"}]
+            },
+            "y_axis": {
+              "scale": "linear", "minimum": -2, "maximum": 2,
+              "label": "MAGNETISATION", "unit": "AM2",
+              "ticks": [{"value": -2, "label": "-2"}, {"value": 0, "label": "0"}, {"value": 2, "label": "2"}]
+            },
+            "traces": [
+              {
+                "id": "cycle", "semantic_role": "measured", "line_style": "solid-markers", "marker": "cross",
+                "x": [-3, -2, -1, 0, 1, 2, 3, 2, 1, 0, -1, -2, -3],
+                "y": [-1.8, -1.5, -1.1, -0.6, 0.1, 0.9, 1.6, 1.2, 0.7, 0.1, -0.6, -1.2, -1.8]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case": "logarithmic-graph-annotations-uncertainty",
+      "expected": "buildable",
+      "record": {
+        "preset": "graph-as-landscape",
+        "format_id": "a4-landscape",
+        "title": "LOGARITHMIC RESPONSE",
+        "plate_title": "LOG DATA",
+        "elements": [
+          {
+            "id": "log-response",
+            "kind": "graph",
+            "source_refs": ["fixture-source"],
+            "transformation": {
+              "id": "uncertainty-hatching-v1",
+              "description": "Explicit log10 axes map supplied positive coordinates; uncertainty boundaries remain source values.",
+              "parameters": {"axis_scale": "log10"},
+              "changes_values": false
+            },
+            "x_axis": {
+              "scale": "log10", "minimum": 1, "maximum": 1000,
+              "label": "FREQUENCY", "unit": "HZ",
+              "ticks": [{"value": 1, "label": "1"}, {"value": 10, "label": "10"}, {"value": 100, "label": "100"}, {"value": 1000, "label": "1000"}]
+            },
+            "y_axis": {
+              "scale": "log10", "minimum": 0.05, "maximum": 200,
+              "label": "POWER", "unit": "W",
+              "ticks": [{"value": 0.1, "label": "0.1"}, {"value": 1, "label": "1"}, {"value": 10, "label": "10"}, {"value": 100, "label": "100"}]
+            },
+            "traces": [
+              {
+                "id": "response", "semantic_role": "measured", "line_style": "solid-markers", "marker": "square",
+                "x": [1, 10, 100, 1000], "y": [0.1, 0.8, 8, 80],
+                "uncertainty": {
+                  "lower": [0.08, 0.6, 6, 60],
+                  "upper": [0.13, 1.1, 11, 110],
+                  "hatch_strokes": 4
+                }
+              }
+            ],
+            "annotations": [{"x": 100, "y": 8, "label": "TRANSITION"}]
+          }
+        ]
+      }
+    },
+    {
+      "case": "heatmap-selected-contour-levels",
+      "expected": "buildable",
+      "record": {
+        "preset": "microscopy-contour-study",
+        "format_id": "a4-landscape",
+        "title": "SCALAR FIELD CONTOURS",
+        "plate_title": "CONTOURS",
+        "elements": [
+          {
+            "id": "field",
+            "kind": "scalar-field",
+            "source_refs": ["fixture-source"],
+            "transformation": {
+              "id": "selected-contours-v1",
+              "description": "Selected level curves are computed from the supplied scalar grid without raster output or value interpolation.",
+              "parameters": {"levels": [1, 2, 3]},
+              "changes_values": false
+            },
+            "mode": "rich",
+            "x": [0, 1, 2, 3],
+            "y": [0, 1, 2, 3],
+            "values": [[0, 0.5, 1, 1.5], [0.5, 1.5, 2.5, 2], [1, 2.5, 4, 2.5], [1.5, 2, 2.5, 1.5]],
+            "levels": [1, 2, 3],
+            "scale_bar": {"length": 1, "unit": "UM", "label": "1 UM"}
+          }
+        ]
+      }
+    },
+    {
+      "case": "multi-panel-graph-schematic-microscopy",
+      "expected": "buildable",
+      "record": {
+        "preset": "figure-as-art",
+        "format_id": "a3-landscape",
+        "title": "THREE-PANEL RESULT",
+        "plate_title": "PANELS",
+        "elements": [
+          {
+            "id": "panel-a",
+            "kind": "graph",
+            "source_refs": ["fixture-source"],
+            "transformation": {
+              "id": "multi-panel-relayout-v1",
+              "description": "Panel A is re-laid out from supplied values without changing axes or coordinates.",
+              "parameters": {"panel_label": "A"},
+              "changes_values": false
+            },
+            "x_axis": {"scale": "linear", "minimum": 0, "maximum": 2, "label": "TIME", "unit": "S", "ticks": [{"value": 0, "label": "0"}, {"value": 2, "label": "2"}]},
+            "y_axis": {"scale": "linear", "minimum": 0, "maximum": 2, "label": "SIGNAL", "unit": "V", "ticks": [{"value": 0, "label": "0"}, {"value": 2, "label": "2"}]},
+            "traces": [{"id": "signal", "semantic_role": "measured", "line_style": "solid", "marker": "circle", "x": [0, 0.5, 1, 1.5, 2], "y": [0.2, 0.8, 1.7, 1.1, 0.4]}]
+          },
+          {
+            "id": "panel-b",
+            "kind": "schematic",
+            "source_refs": ["fixture-source"],
+            "transformation": {
+              "id": "identity",
+              "description": "Panel B retains supplied components, ports, and optical topology.",
+              "parameters": {"panel_label": "B"},
+              "changes_values": false
+            },
+            "components": [
+              {"id": "source", "type": "source", "label": "SRC", "position": [15, 50], "size": [12, 14], "ports": {"out": [0.5, 0]}},
+              {"id": "lens", "type": "lens", "label": "L1", "position": [50, 50], "size": [7, 24], "ports": {"in": [-0.5, 0], "out": [0.5, 0]}},
+              {"id": "detector", "type": "detector", "label": "DET", "position": [84, 50], "size": [13, 16], "ports": {"in": [-0.5, 0]}}
+            ],
+            "connections": [
+              {"id": "beam-a", "from": {"component": "source", "port": "out"}, "to": {"component": "lens", "port": "in"}, "path_type": "optical", "routing": "straight", "direction": "forward"},
+              {"id": "beam-b", "from": {"component": "lens", "port": "out"}, "to": {"component": "detector", "port": "in"}, "path_type": "optical", "routing": "straight", "direction": "forward"}
+            ]
+          },
+          {
+            "id": "panel-c",
+            "kind": "scalar-field",
+            "source_refs": ["fixture-source"],
+            "transformation": {
+              "id": "selected-contours-v1",
+              "description": "Panel C uses selected contours from the supplied microscopy-like scalar field.",
+              "parameters": {"panel_label": "C", "levels": [1, 2]},
+              "changes_values": false
+            },
+            "mode": "sparse",
+            "x": [0, 1, 2, 3], "y": [0, 1, 2, 3],
+            "values": [[0, 0.4, 0.8, 1.2], [0.4, 1.2, 2.2, 1.6], [0.8, 2.2, 3.2, 2.1], [1.2, 1.6, 2.1, 1.2]],
+            "levels": [1, 2],
+            "scale_bar": {"length": 1, "unit": "UM", "label": "1 UM"}
+          }
+        ]
+      }
+    },
+    {
+      "case": "long-equation-integral-matrix-scripts",
+      "expected": "buildable",
+      "record": {
+        "preset": "equation-centrepiece",
+        "format_id": "a3-landscape",
+        "title": "STRUCTURED DERIVATION",
+        "plate_title": "EQUATION",
+        "elements": [
+          {
+            "id": "derivation",
+            "kind": "equation",
+            "source_refs": ["fixture-source"],
+            "transformation": {
+              "id": "identity",
+              "description": "The structured mathematical expression is laid out uniformly without arbitrary line breaks.",
+              "parameters": {"renderer": "structured-stroke-math"},
+              "changes_values": false
+            },
+            "expression": {
+              "type": "row",
+              "items": [
+                {
+                  "type": "integral",
+                  "lower": {"type": "text", "value": "0"},
+                  "upper": {"type": "symbol", "name": "infinity"},
+                  "body": {
+                    "type": "row",
+                    "items": [
+                      {"type": "script", "base": {"type": "symbol", "name": "psi"}, "sub": {"type": "text", "value": "n"}, "sup": {"type": "text", "value": "*"}},
+                      {"type": "group", "body": {"type": "text", "value": "x"}},
+                      {"type": "matrix", "rows": [[{"type": "script", "base": "a", "sub": "11"}, {"type": "script", "base": "a", "sub": "12"}], [{"type": "script", "base": "a", "sub": "21"}, {"type": "script", "base": "a", "sub": "22", "pen_role": "accent"}]]}
+                    ]
+                  }
+                },
+                {"type": "text", "value": "="},
+                {"type": "fraction", "numerator": {"type": "script", "base": {"type": "symbol", "name": "Delta"}, "sup": "2"}, "denominator": {"type": "row", "items": [{"type": "symbol", "name": "sigma"}, {"type": "script", "base": "t", "sub": "0"}]}}
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "case": "connected-optical-electrical-experiment",
+      "expected": "buildable",
+      "record": {
+        "preset": "experimental-path",
+        "format_id": "a3-landscape",
+        "title": "COUPLED EXPERIMENTAL PATH",
+        "plate_title": "SETUP",
+        "elements": [
+          {
+            "id": "experiment",
+            "kind": "schematic",
+            "source_refs": ["fixture-source"],
+            "transformation": {
+              "id": "identity",
+              "description": "All component identities, named ports, path classes, directions, and connections are retained.",
+              "parameters": {"routing": "caller-supplied-and-orthogonal"},
+              "changes_values": false
+            },
+            "components": [
+              {"id": "laser", "type": "source", "label": "LASER", "position": [8, 28], "size": [9, 12], "ports": {"out": [0.5, 0], "power": [0, 0.5]}},
+              {"id": "lens-one", "type": "lens", "label": "L1", "position": [24, 28], "size": [5, 22], "ports": {"in": [-0.5, 0], "out": [0.5, 0]}},
+              {"id": "splitter", "type": "beam-splitter", "label": "BS", "position": [40, 28], "size": [8, 13], "ports": {"in": [-0.5, 0], "out": [0.5, 0], "tap": [0, 0.5]}},
+              {"id": "sample", "type": "sample", "label": "SAMPLE", "position": [57, 28], "size": [10, 15], "ports": {"in": [-0.5, 0], "out": [0.5, 0], "control": [0, 0.5]}},
+              {"id": "detector", "type": "detector", "label": "DET", "position": [75, 28], "size": [10, 14], "ports": {"in": [-0.5, 0], "data": [0.5, 0]}},
+              {"id": "monitor", "type": "detector", "label": "MON", "position": [40, 70], "size": [10, 14], "ports": {"in": [0, -0.5], "data": [0.5, 0]}},
+              {"id": "controller", "type": "controller", "label": "CTRL", "position": [64, 70], "size": [12, 13], "ports": {"monitor": [-0.5, 0], "detector": [0.5, -0.2], "sample": [0, -0.5], "power": [-0.5, -0.3]}},
+              {"id": "supply", "type": "box", "label": "PSU", "position": [88, 70], "size": [11, 13], "ports": {"out": [-0.5, 0]}}
+            ],
+            "connections": [
+              {"id": "beam-one", "from": {"component": "laser", "port": "out"}, "to": {"component": "lens-one", "port": "in"}, "path_type": "optical", "routing": "straight", "direction": "forward"},
+              {"id": "beam-two", "from": {"component": "lens-one", "port": "out"}, "to": {"component": "splitter", "port": "in"}, "path_type": "optical", "routing": "straight", "direction": "forward"},
+              {"id": "beam-three", "from": {"component": "splitter", "port": "out"}, "to": {"component": "sample", "port": "in"}, "path_type": "optical", "routing": "straight", "direction": "forward"},
+              {"id": "beam-four", "from": {"component": "sample", "port": "out"}, "to": {"component": "detector", "port": "in"}, "path_type": "optical", "routing": "straight", "direction": "forward"},
+              {"id": "monitor-beam", "from": {"component": "splitter", "port": "tap"}, "to": {"component": "monitor", "port": "in"}, "path_type": "optical", "routing": "straight", "direction": "forward"},
+              {"id": "monitor-data", "from": {"component": "monitor", "port": "data"}, "to": {"component": "controller", "port": "monitor"}, "path_type": "data", "routing": "straight", "direction": "forward"},
+              {"id": "detector-data", "from": {"component": "detector", "port": "data"}, "to": {"component": "controller", "port": "detector"}, "path_type": "data", "routing": "orthogonal", "direction": "forward"},
+              {"id": "sample-control", "from": {"component": "controller", "port": "sample"}, "to": {"component": "sample", "port": "control"}, "path_type": "control", "routing": "straight", "direction": "forward"},
+              {"id": "supply-power", "from": {"component": "supply", "port": "out"}, "to": {"component": "controller", "port": "power"}, "path_type": "electrical", "routing": "straight", "direction": "forward"}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case": "semiconductor-photonic-cross-section",
+      "expected": "buildable",
+      "record": {
+        "preset": "device-blueprint",
+        "format_id": "a3-landscape",
+        "title": "PHOTONIC DEVICE SECTION",
+        "plate_title": "CHIP",
+        "elements": [
+          {
+            "id": "chip",
+            "kind": "device",
+            "source_refs": ["fixture-source"],
+            "transformation": {
+              "id": "identity",
+              "description": "Supplied layer polygons, materials, and dimensions are represented as boundaries and section hatching.",
+              "parameters": {"fill_policy": "none"},
+              "changes_values": false
+            },
+            "scale_label": "SECTION WIDTH 20 UM / DIMENSIONS SUPPLIED",
+            "layers": [
+              {"id": "substrate", "material": "SILICON", "semantic_role": "structure", "polygon": [[5, 55], [95, 55], [95, 90], [5, 90]], "hatch_angle_deg": 35, "hatch_spacing_mm": 4},
+              {"id": "oxide", "material": "SILICON DIOXIDE", "semantic_role": "comparison", "polygon": [[5, 38], [95, 38], [95, 55], [5, 55]], "hatch_angle_deg": -35, "hatch_spacing_mm": 4},
+              {"id": "waveguide", "material": "SILICON NITRIDE", "semantic_role": "fit", "polygon": [[38, 28], [62, 28], [62, 38], [38, 38]], "hatch_angle_deg": 90, "hatch_spacing_mm": 3}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case": "crystal-structure-supplied-coordinates",
+      "expected": "buildable",
+      "record": {
+        "preset": "molecular-crystal-structure",
+        "format_id": "a4-portrait",
+        "title": "SUPPLIED UNIT CELL",
+        "plate_title": "UNIT CELL",
+        "elements": [
+          {
+            "id": "unit-cell",
+            "kind": "structure",
+            "source_refs": ["fixture-source"],
+            "transformation": {
+              "id": "identity",
+              "description": "Only supplied atomic positions, bonds, bond classes, projection, and unit-cell edges are drawn.",
+              "parameters": {"projection": "isometric"},
+              "changes_values": false
+            },
+            "projection": {"type": "isometric"},
+            "atom_radius_mm": 1.2,
+            "atoms": [
+              {"id": "site-a", "element": "Si", "position": [0, 0, 0], "label": "SI1"},
+              {"id": "site-b", "element": "Si", "position": [1, 0, 0]},
+              {"id": "site-c", "element": "O", "position": [1, 1, 0], "label": "O1"},
+              {"id": "site-d", "element": "O", "position": [0, 1, 1]}
+            ],
+            "bonds": [
+              {"id": "bond-ab", "atoms": ["site-a", "site-b"], "class": "Si-Si", "hidden": false},
+              {"id": "bond-bc", "atoms": ["site-b", "site-c"], "class": "Si-O", "hidden": false},
+              {"id": "bond-cd", "atoms": ["site-c", "site-d"], "class": "Si-O", "hidden": true}
+            ],
+            "unit_cell_edges": [
+              [[0, 0, 0], [1, 0, 0]],
+              [[1, 0, 0], [1, 1, 0]],
+              [[1, 1, 0], [0, 1, 1]],
+              [[0, 1, 1], [0, 0, 0]]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case": "thesis-long-title-multiple-supervisors",
+      "expected": "buildable",
+      "record": {
+        "preset": "thesis-portrait",
+        "format_id": "a3-portrait",
+        "title": "A MULTISCALE INVESTIGATION OF NONLINEAR TRANSPORT ACROSS COUPLED PHOTONIC AND QUANTUM MATERIAL INTERFACES UNDER NONEQUILIBRIUM CONDITIONS",
+        "plate_title": "THESIS PORTRAIT",
+        "title_layout": "wrapped-title",
+        "elements": [
+          {
+            "id": "thesis-equation",
+            "kind": "equation",
+            "source_refs": ["fixture-source"],
+            "transformation": {
+              "id": "identity",
+              "description": "The supplied thesis equation is retained as one structured mathematical expression.",
+              "parameters": {},
+              "changes_values": false
+            },
+            "expression": {"type": "row", "items": [{"type": "script", "base": "H", "sub": "eff"}, {"type": "text", "value": "="}, {"type": "symbol", "name": "Sigma", "pen_role": "accent"}, {"type": "script", "base": "g", "sub": "ij"}]}
+          }
+        ]
+      }
+    },
+    {
+      "case": "graduation-campus-and-subject-motif",
+      "expected": "buildable",
+      "record": {
+        "preset": "graduation-coordinates",
+        "format_id": "a3-portrait",
+        "title": "GRADUATION COORDINATES",
+        "plate_title": "GRADUATION",
+        "elements": [
+          {
+            "id": "campus-outline",
+            "kind": "campus",
+            "source_refs": ["fixture-source"],
+            "transformation": {
+              "id": "identity",
+              "description": "Project-authored campus-like fixture geometry is fitted without changing its topology.",
+              "parameters": {"geometry_role": "campus-building-outline"},
+              "changes_values": false
+            },
+            "coordinates_label": "53.946 N / 1.053 W",
+            "paths": [
+              {"id": "main-building", "role": "panel", "path": {"schema_version": 1, "kind": "bridge-vector-path", "start": [0, 0], "segments": [{"kind": "line", "to": [90, 0]}, {"kind": "line", "to": [90, 55]}, {"kind": "line", "to": [55, 55]}, {"kind": "line", "to": [55, 85]}, {"kind": "line", "to": [0, 85]}], "closed": true}},
+              {"id": "walkway", "role": "unclassified", "path": {"schema_version": 1, "kind": "bridge-vector-path", "start": [10, 12], "segments": [{"kind": "line", "to": [80, 12]}, {"kind": "line", "to": [80, 42]}, {"kind": "line", "to": [25, 42]}], "closed": false}}
+            ]
+          },
+          {
+            "id": "subject-motif",
+            "kind": "equation",
+            "source_refs": ["fixture-source"],
+            "transformation": {
+              "id": "identity",
+              "description": "The graduate's supplied subject equation is used as a factual scientific motif.",
+              "parameters": {},
+              "changes_values": false
+            },
+            "expression": {"type": "row", "items": [{"type": "script", "base": "E", "sub": "n"}, {"type": "text", "value": "="}, {"type": "text", "value": "H", "pen_role": "accent"}, {"type": "symbol", "name": "omega"}, {"type": "group", "body": {"type": "row", "items": [{"type": "text", "value": "n+1/2"}]}}]}
+          }
+        ]
+      }
+    },
+    {
+      "case": "patent-object-numbered-views",
+      "expected": "buildable",
+      "record": {
+        "preset": "patent-invention-plate",
+        "format_id": "a3-landscape",
+        "title": "INVENTION PLATE",
+        "plate_title": "PATENT",
+        "elements": [
+          {
+            "id": "invention",
+            "kind": "patent-views",
+            "source_refs": ["fixture-source"],
+            "transformation": {
+              "id": "identity",
+              "description": "Supplied invention outlines and factual view numbers are arranged on a generic technical plate.",
+              "parameters": {"official-document-layout": false},
+              "changes_values": false
+            },
+            "views": [
+              {"id": "plan", "label": "FIG 1 / PLAN", "paths": [{"schema_version": 1, "kind": "bridge-vector-path", "start": [0, 0], "segments": [{"kind": "line", "to": [70, 0]}, {"kind": "line", "to": [85, 25]}, {"kind": "line", "to": [70, 50]}, {"kind": "line", "to": [0, 50]}], "closed": true}]},
+              {"id": "elevation", "label": "FIG 2 / ELEVATION", "paths": [{"schema_version": 1, "kind": "bridge-vector-path", "start": [0, 0], "segments": [{"kind": "line", "to": [85, 0]}, {"kind": "line", "to": [70, 35]}, {"kind": "line", "to": [15, 35]}], "closed": true}]},
+              {"id": "section", "label": "FIG 3 / SECTION A-A", "paths": [{"schema_version": 1, "kind": "bridge-vector-path", "start": [0, 0], "segments": [{"kind": "line", "to": [60, 0]}, {"kind": "line", "to": [60, 45]}, {"kind": "line", "to": [0, 45]}], "closed": true}]}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case": "unsupported-raster-screenshot-review",
+      "expected": "review-required",
+      "record": {
+        "preset": "figure-as-art",
+        "format_id": "a4-landscape",
+        "title": "RASTER INTAKE REVIEW",
+        "rights_status": "review-required",
+        "elements": [
+          {
+            "id": "screenshot",
+            "kind": "raster-review",
+            "source_refs": ["fixture-source"],
+            "transformation": {
+              "id": "identity",
+              "description": "No automatic tracing is performed on this unsupported screenshot.",
+              "parameters": {},
+              "changes_values": false
+            },
+            "limitation": "Raster screenshot supplied without underlying values, segmentation, or rights-cleared vectors."
+          },
+          {
+            "id": "reconstruction-request",
+            "kind": "vector",
+            "source_refs": ["fixture-source"],
+            "transformation": {
+              "id": "identity",
+              "description": "Placeholder records the requested future vector reconstruction and emits no substitute during review.",
+              "parameters": {},
+              "changes_values": false
+            },
+            "paths": [{"schema_version": 1, "kind": "bridge-vector-path", "start": [0, 0], "segments": [{"kind": "line", "to": [10, 10]}], "closed": false}]
+          }
+        ]
+      }
+    }
+  ]
+}

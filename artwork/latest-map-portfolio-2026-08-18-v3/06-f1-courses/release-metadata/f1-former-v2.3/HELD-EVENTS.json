@@ -1,0 +1,541 @@
+{
+  "schema_version": 1,
+  "release_id": "f1-circuit-atlas-legacy-v1-v2",
+  "catalog_id": "f1-circuits-legacy-v1",
+  "catalog_file_sha256": "0a170f3764fe772d50be89c62df2cb1e47e8ba4ac8af9a0169ae7be1aeae1614",
+  "season": 2026,
+  "rendering_preset": "circuit-atlas-v2",
+  "artifact_kind": "circuit-atlas-v2",
+  "selection_mode": "all-renderable",
+  "catalog_event_count": 34,
+  "selected_event_count": 19,
+  "selected_event_ids": [
+    "imola-grand-prix-2025",
+    "hockenheim-grand-prix-2019",
+    "fuji-grand-prix-2008",
+    "portimao-grand-prix-2021",
+    "mugello-grand-prix-2020",
+    "buddh-grand-prix-2013",
+    "istanbul-grand-prix-2021",
+    "jerez-grand-prix-1997",
+    "watkins-glen-long-course-1980",
+    "sepang-grand-prix-2017",
+    "nurburgring-grand-prix-2013",
+    "donington-grand-prix-1993",
+    "mosport-grand-prix-1977",
+    "bahrain-grand-prix-2025",
+    "jeddah-grand-prix-2025",
+    "nurburgring-nordschleife-current-reference-1976",
+    "brands-hatch-grand-prix-current-reference-1986",
+    "estoril-grand-prix-current-reference-1996",
+    "kyalami-grand-prix-current-reference-1993"
+  ],
+  "renderable_event_count": 19,
+  "renderable_event_ids": [
+    "imola-grand-prix-2025",
+    "hockenheim-grand-prix-2019",
+    "fuji-grand-prix-2008",
+    "portimao-grand-prix-2021",
+    "mugello-grand-prix-2020",
+    "buddh-grand-prix-2013",
+    "istanbul-grand-prix-2021",
+    "jerez-grand-prix-1997",
+    "watkins-glen-long-course-1980",
+    "sepang-grand-prix-2017",
+    "nurburgring-grand-prix-2013",
+    "donington-grand-prix-1993",
+    "mosport-grand-prix-1977",
+    "bahrain-grand-prix-2025",
+    "jeddah-grand-prix-2025",
+    "nurburgring-nordschleife-current-reference-1976",
+    "brands-hatch-grand-prix-current-reference-1986",
+    "estoril-grand-prix-current-reference-1996",
+    "kyalami-grand-prix-current-reference-1993"
+  ],
+  "unselected_renderable_event_ids": [],
+  "held_event_count": 15,
+  "held_event_ids": [
+    "paul-ricard-grand-prix-2022",
+    "magny-cours-grand-prix-2008",
+    "korea-grand-prix-2013",
+    "valencia-street-2012",
+    "nurburgring-nordschleife-1976",
+    "hockenheim-forest-2001",
+    "brands-hatch-grand-prix-1986",
+    "estoril-grand-prix-1996",
+    "kyalami-grand-prix-1985",
+    "adelaide-street-1995",
+    "long-beach-street-1983",
+    "indianapolis-grand-prix-2007",
+    "reims-gueux-1966",
+    "montjuic-1975",
+    "spa-fourteen-kilometre-1970"
+  ],
+  "held_events": [
+    {
+      "event_id": "paul-ricard-grand-prix-2022",
+      "event_name": "French Grand Prix configuration",
+      "circuit_id": "paul-ricard-grand-prix",
+      "circuit_name": "Circuit Paul Ricard",
+      "calendar_order": 4,
+      "calendar_status": "historic-reference",
+      "configuration_reference_season": 2022,
+      "configuration_identity_status": "current-source-f1-reference",
+      "configuration_disclosure": "OSM relation explicitly names the French Grand Prix course, but this is current-source reference artwork rather than a period reconstruction; source simplification is reported by the length gate.",
+      "geometry_status": "provisional",
+      "normalized_model_present": false,
+      "source_geometry_sha256": null,
+      "hold_reason_codes": [
+        "geometry-status-not-renderable",
+        "normalized-model-absent"
+      ],
+      "hold_reasons": [
+        "leaf-pruned source ways that cannot belong to an exact-endpoint cycle: [790806549, 799477739]",
+        "measured OSM lap differs from published reference length by 1.326309%",
+        "circuit-owner outline rights require legal clearance",
+        "physical pen calibration and plotted proof remain outstanding"
+      ],
+      "status": {
+        "calendar_status": "historic-reference",
+        "wmsc_status": null,
+        "homologation_status": null,
+        "geometry_status": "provisional",
+        "release_gate": "hold-rights-and-physical-proof"
+      },
+      "source_refs": [
+        "f1-results-2022",
+        "fia-licensed-circuits-2022-08-15",
+        "osm-circuit-context-paul-ricard-grand-prix-2022"
+      ]
+    },
+    {
+      "event_id": "magny-cours-grand-prix-2008",
+      "event_name": "French Grand Prix configuration",
+      "circuit_id": "magny-cours-grand-prix",
+      "circuit_name": "Circuit de Nevers Magny-Cours",
+      "calendar_order": 10,
+      "calendar_status": "historic-reference",
+      "configuration_reference_season": 2008,
+      "configuration_identity_status": "current-surviving-equivalent",
+      "configuration_disclosure": "Current course reflects the operator-recorded 2003 Chateau d'Eau and Lycee revision used by F1 through 2008.",
+      "geometry_status": "provisional",
+      "normalized_model_present": false,
+      "source_geometry_sha256": null,
+      "hold_reason_codes": [
+        "geometry-status-not-renderable",
+        "normalized-model-absent"
+      ],
+      "hold_reasons": [
+        "measured OSM lap differs from published reference length by 1.061528%",
+        "circuit-owner outline rights require legal clearance",
+        "physical pen calibration and plotted proof remain outstanding"
+      ],
+      "status": {
+        "calendar_status": "historic-reference",
+        "wmsc_status": null,
+        "homologation_status": null,
+        "geometry_status": "provisional",
+        "release_gate": "hold-rights-and-physical-proof"
+      },
+      "source_refs": [
+        "f1-results-2008",
+        "fia-licensed-circuits-2022-08-15",
+        "magny-cours-history",
+        "osm-circuit-context-magny-cours-grand-prix-2008"
+      ]
+    },
+    {
+      "event_id": "korea-grand-prix-2013",
+      "event_name": "Korean Grand Prix configuration",
+      "circuit_id": "korea-grand-prix",
+      "circuit_name": "Korea International Circuit",
+      "calendar_order": 22,
+      "calendar_status": "historic-reference-hold",
+      "configuration_reference_season": 2013,
+      "configuration_identity_status": "held",
+      "configuration_disclosure": "The mapped F1 trace has an 8.1 m topological gap and is not closed by inference.",
+      "geometry_status": "unavailable",
+      "normalized_model_present": false,
+      "source_geometry_sha256": null,
+      "hold_reason_codes": [
+        "geometry-status-not-renderable",
+        "normalized-model-absent"
+      ],
+      "hold_reasons": [
+        "selected OSM F1 way is not an exact-endpoint closed cycle",
+        "no connector may be inferred"
+      ],
+      "status": {
+        "calendar_status": "historic-reference-hold",
+        "wmsc_status": null,
+        "homologation_status": null,
+        "geometry_status": "unavailable",
+        "release_gate": "hold"
+      },
+      "source_refs": [
+        "fia-licensed-circuits-2022-08-15"
+      ]
+    },
+    {
+      "event_id": "valencia-street-2012",
+      "event_name": "European Grand Prix configuration",
+      "circuit_id": "valencia-street",
+      "circuit_name": "Valencia Street Circuit",
+      "calendar_order": 23,
+      "calendar_status": "historic-reference-hold",
+      "configuration_reference_season": 2012,
+      "configuration_identity_status": "held",
+      "configuration_disclosure": "Redevelopment and removed temporary links prevent an exact current OSM cycle.",
+      "geometry_status": "unavailable",
+      "normalized_model_present": false,
+      "source_geometry_sha256": null,
+      "hold_reason_codes": [
+        "geometry-status-not-renderable",
+        "normalized-model-absent"
+      ],
+      "hold_reasons": [
+        "historic street layout is not an exact surviving OSM cycle",
+        "temporary bridge and event infrastructure are not source-qualified"
+      ],
+      "status": {
+        "calendar_status": "historic-reference-hold",
+        "wmsc_status": null,
+        "homologation_status": null,
+        "geometry_status": "unavailable",
+        "release_gate": "hold"
+      },
+      "source_refs": []
+    },
+    {
+      "event_id": "nurburgring-nordschleife-1976",
+      "event_name": "German Grand Prix configuration",
+      "circuit_id": "nurburgring-nordschleife",
+      "circuit_name": "Nurburgring Nordschleife",
+      "calendar_order": 24,
+      "calendar_status": "historic-reference-hold",
+      "configuration_reference_season": 1976,
+      "configuration_identity_status": "held",
+      "configuration_disclosure": "The current 20.832 km Nordschleife was shortened after the 1976 F1 era and cannot stand in for that layout.",
+      "geometry_status": "unavailable",
+      "normalized_model_present": false,
+      "source_geometry_sha256": null,
+      "hold_reason_codes": [
+        "geometry-status-not-renderable",
+        "normalized-model-absent"
+      ],
+      "hold_reasons": [
+        "current OSM relation is not the 1976 F1 configuration",
+        "historic geometry is not coordinate-qualified"
+      ],
+      "status": {
+        "calendar_status": "historic-reference-hold",
+        "wmsc_status": null,
+        "homologation_status": null,
+        "geometry_status": "unavailable",
+        "release_gate": "hold"
+      },
+      "source_refs": [
+        "nurburgring-history"
+      ]
+    },
+    {
+      "event_id": "hockenheim-forest-2001",
+      "event_name": "German Grand Prix configuration",
+      "circuit_id": "hockenheim-forest",
+      "circuit_name": "Hockenheimring 6.8 km course",
+      "calendar_order": 25,
+      "calendar_status": "historic-reference-hold",
+      "configuration_reference_season": 2001,
+      "configuration_identity_status": "held",
+      "configuration_disclosure": "The operator records demolition/reconstruction beginning in 2002.",
+      "geometry_status": "unavailable",
+      "normalized_model_present": false,
+      "source_geometry_sha256": null,
+      "hold_reason_codes": [
+        "geometry-status-not-renderable",
+        "normalized-model-absent"
+      ],
+      "hold_reasons": [
+        "historic forest course was materially demolished",
+        "current GP course must not be substituted"
+      ],
+      "status": {
+        "calendar_status": "historic-reference-hold",
+        "wmsc_status": null,
+        "homologation_status": null,
+        "geometry_status": "unavailable",
+        "release_gate": "hold"
+      },
+      "source_refs": [
+        "hockenheim-history"
+      ]
+    },
+    {
+      "event_id": "brands-hatch-grand-prix-1986",
+      "event_name": "British Grand Prix configuration",
+      "circuit_id": "brands-hatch-grand-prix",
+      "circuit_name": "Brands Hatch Grand Prix Circuit",
+      "calendar_order": 26,
+      "calendar_status": "historic-reference-hold",
+      "configuration_reference_season": 1986,
+      "configuration_identity_status": "held",
+      "configuration_disclosure": "The current relation includes the post-F1 Sheene Curve/Dingle Dell revision.",
+      "geometry_status": "unavailable",
+      "normalized_model_present": false,
+      "source_geometry_sha256": null,
+      "hold_reason_codes": [
+        "geometry-status-not-renderable",
+        "normalized-model-absent"
+      ],
+      "hold_reasons": [
+        "current configuration differs materially from 1986",
+        "historic coordinate source not frozen"
+      ],
+      "status": {
+        "calendar_status": "historic-reference-hold",
+        "wmsc_status": null,
+        "homologation_status": null,
+        "geometry_status": "unavailable",
+        "release_gate": "hold"
+      },
+      "source_refs": []
+    },
+    {
+      "event_id": "estoril-grand-prix-1996",
+      "event_name": "Portuguese Grand Prix configuration",
+      "circuit_id": "estoril-grand-prix",
+      "circuit_name": "Circuito do Estoril",
+      "calendar_order": 27,
+      "calendar_status": "historic-reference-hold",
+      "configuration_reference_season": 1996,
+      "configuration_identity_status": "held",
+      "configuration_disclosure": "The operator records a later radical Turn 1 change and 1999 reopening.",
+      "geometry_status": "unavailable",
+      "normalized_model_present": false,
+      "source_geometry_sha256": null,
+      "hold_reason_codes": [
+        "geometry-status-not-renderable",
+        "normalized-model-absent"
+      ],
+      "hold_reasons": [
+        "current layout is not the 1996 F1 course"
+      ],
+      "status": {
+        "calendar_status": "historic-reference-hold",
+        "wmsc_status": null,
+        "homologation_status": null,
+        "geometry_status": "unavailable",
+        "release_gate": "hold"
+      },
+      "source_refs": []
+    },
+    {
+      "event_id": "kyalami-grand-prix-1985",
+      "event_name": "South African Grand Prix configuration",
+      "circuit_id": "kyalami-grand-prix",
+      "circuit_name": "Kyalami Grand Prix Circuit",
+      "calendar_order": 28,
+      "calendar_status": "historic-reference-hold",
+      "configuration_reference_season": 1985,
+      "configuration_identity_status": "held",
+      "configuration_disclosure": "The original layout and modern rebuilt venue are materially different.",
+      "geometry_status": "unavailable",
+      "normalized_model_present": false,
+      "source_geometry_sha256": null,
+      "hold_reason_codes": [
+        "geometry-status-not-renderable",
+        "normalized-model-absent"
+      ],
+      "hold_reasons": [
+        "modern Kyalami must not be substituted for the 1967-1985 course"
+      ],
+      "status": {
+        "calendar_status": "historic-reference-hold",
+        "wmsc_status": null,
+        "homologation_status": null,
+        "geometry_status": "unavailable",
+        "release_gate": "hold"
+      },
+      "source_refs": []
+    },
+    {
+      "event_id": "adelaide-street-1995",
+      "event_name": "Australian Grand Prix configuration",
+      "circuit_id": "adelaide-street",
+      "circuit_name": "Adelaide Street Circuit",
+      "calendar_order": 29,
+      "calendar_status": "historic-reference-hold",
+      "configuration_reference_season": 1995,
+      "configuration_identity_status": "held",
+      "configuration_disclosure": "Current mapped event relation does not assemble as one exact F1 cycle.",
+      "geometry_status": "unavailable",
+      "normalized_model_present": false,
+      "source_geometry_sha256": null,
+      "hold_reason_codes": [
+        "geometry-status-not-renderable",
+        "normalized-model-absent"
+      ],
+      "hold_reasons": [
+        "historic temporary street links are unresolved"
+      ],
+      "status": {
+        "calendar_status": "historic-reference-hold",
+        "wmsc_status": null,
+        "homologation_status": null,
+        "geometry_status": "unavailable",
+        "release_gate": "hold"
+      },
+      "source_refs": []
+    },
+    {
+      "event_id": "long-beach-street-1983",
+      "event_name": "United States West Grand Prix configuration",
+      "circuit_id": "long-beach-street",
+      "circuit_name": "Long Beach Street Circuit",
+      "calendar_order": 30,
+      "calendar_status": "historic-reference-hold",
+      "configuration_reference_season": 1983,
+      "configuration_identity_status": "held",
+      "configuration_disclosure": "The modern race route is not the 1983 Formula 1 layout.",
+      "geometry_status": "unavailable",
+      "normalized_model_present": false,
+      "source_geometry_sha256": null,
+      "hold_reason_codes": [
+        "geometry-status-not-renderable",
+        "normalized-model-absent"
+      ],
+      "hold_reasons": [
+        "modern street route cannot be substituted for 1983"
+      ],
+      "status": {
+        "calendar_status": "historic-reference-hold",
+        "wmsc_status": null,
+        "homologation_status": null,
+        "geometry_status": "unavailable",
+        "release_gate": "hold"
+      },
+      "source_refs": []
+    },
+    {
+      "event_id": "indianapolis-grand-prix-2007",
+      "event_name": "United States Grand Prix configuration",
+      "circuit_id": "indianapolis-grand-prix",
+      "circuit_name": "Indianapolis Motor Speedway Formula One Course",
+      "calendar_order": 31,
+      "calendar_status": "historic-reference-hold",
+      "configuration_reference_season": 2007,
+      "configuration_identity_status": "held",
+      "configuration_disclosure": "Historic F1 pieces remain mapped, but no source relation selects one exact 13-turn cycle.",
+      "geometry_status": "unavailable",
+      "normalized_model_present": false,
+      "source_geometry_sha256": null,
+      "hold_reason_codes": [
+        "geometry-status-not-renderable",
+        "normalized-model-absent"
+      ],
+      "hold_reasons": [
+        "historic configuration needs an exact ordered source selection"
+      ],
+      "status": {
+        "calendar_status": "historic-reference-hold",
+        "wmsc_status": null,
+        "homologation_status": null,
+        "geometry_status": "unavailable",
+        "release_gate": "hold"
+      },
+      "source_refs": []
+    },
+    {
+      "event_id": "reims-gueux-1966",
+      "event_name": "French Grand Prix configuration",
+      "circuit_id": "reims-gueux",
+      "circuit_name": "Circuit de Reims-Gueux",
+      "calendar_order": 32,
+      "calendar_status": "historic-reference-hold",
+      "configuration_reference_season": 1966,
+      "configuration_identity_status": "held",
+      "configuration_disclosure": "Surviving public roads do not by themselves qualify the exact 1966 racing centreline.",
+      "geometry_status": "unavailable",
+      "normalized_model_present": false,
+      "source_geometry_sha256": null,
+      "hold_reason_codes": [
+        "geometry-status-not-renderable",
+        "normalized-model-absent"
+      ],
+      "hold_reasons": [
+        "historic road-course selection is not source-qualified"
+      ],
+      "status": {
+        "calendar_status": "historic-reference-hold",
+        "wmsc_status": null,
+        "homologation_status": null,
+        "geometry_status": "unavailable",
+        "release_gate": "hold"
+      },
+      "source_refs": []
+    },
+    {
+      "event_id": "montjuic-1975",
+      "event_name": "Spanish Grand Prix configuration",
+      "circuit_id": "montjuic",
+      "circuit_name": "Montjuic Circuit",
+      "calendar_order": 33,
+      "calendar_status": "historic-reference-hold",
+      "configuration_reference_season": 1975,
+      "configuration_identity_status": "held",
+      "configuration_disclosure": "Modern park roads are not accepted as an exact 1975 racing source.",
+      "geometry_status": "unavailable",
+      "normalized_model_present": false,
+      "source_geometry_sha256": null,
+      "hold_reason_codes": [
+        "geometry-status-not-renderable",
+        "normalized-model-absent"
+      ],
+      "hold_reasons": [
+        "historic street circuit is not coordinate-qualified"
+      ],
+      "status": {
+        "calendar_status": "historic-reference-hold",
+        "wmsc_status": null,
+        "homologation_status": null,
+        "geometry_status": "unavailable",
+        "release_gate": "hold"
+      },
+      "source_refs": []
+    },
+    {
+      "event_id": "spa-fourteen-kilometre-1970",
+      "event_name": "Belgian Grand Prix configuration",
+      "circuit_id": "spa-fourteen-kilometre",
+      "circuit_name": "Spa-Francorchamps fourteen-kilometre course",
+      "calendar_order": 34,
+      "calendar_status": "historic-reference-hold",
+      "configuration_reference_season": 1970,
+      "configuration_identity_status": "held",
+      "configuration_disclosure": "The modern 7 km circuit is not the 14 km road course used through 1970.",
+      "geometry_status": "unavailable",
+      "normalized_model_present": false,
+      "source_geometry_sha256": null,
+      "hold_reason_codes": [
+        "geometry-status-not-renderable",
+        "normalized-model-absent"
+      ],
+      "hold_reasons": [
+        "modern Spa geometry must not be substituted for the 1970 course"
+      ],
+      "status": {
+        "calendar_status": "historic-reference-hold",
+        "wmsc_status": null,
+        "homologation_status": null,
+        "geometry_status": "unavailable",
+        "release_gate": "hold"
+      },
+      "source_refs": []
+    }
+  ],
+  "policy": {
+    "all": "Exact complete-catalog gate; refuses any event without an eligible normalized geometry model.",
+    "all_renderable": "Review-only subset; selects only renderer-eligible normalized models and preserves every omitted event in this ledger.",
+    "rights_and_physical_proof": "Independent release holds; renderability does not clear either."
+  }
+}

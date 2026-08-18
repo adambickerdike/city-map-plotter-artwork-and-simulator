@@ -1,0 +1,196 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://city-map-plotter.invalid/schemas/device-profile-v1.schema.json",
+  "title": "City Map Plotter device profile v1",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema",
+    "id",
+    "name",
+    "calibration_state",
+    "work_area_mm",
+    "motion",
+    "controller"
+  ],
+  "properties": {
+    "schema": {
+      "const": "city-map-plotter/device-profile-v1"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "calibration_state": {
+      "type": "string",
+      "minLength": 1
+    },
+    "work_area_mm": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["width", "height"],
+      "properties": {
+        "width": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "height": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "motion": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "motion_model",
+        "pen_down_speed_mm_s",
+        "pen_up_speed_mm_s",
+        "acceleration_mm_s2",
+        "pen_lift_s",
+        "pen_lower_s",
+        "pen_change_s",
+        "cornering_tolerance_mm",
+        "curve_flatness_mm",
+        "timing_scale",
+        "timing_uncertainty_fraction",
+        "calibration_state"
+      ],
+      "properties": {
+        "motion_model": {
+          "enum": ["isotropic", "grbl-cartesian"]
+        },
+        "pen_down_speed_mm_s": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "pen_up_speed_mm_s": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "acceleration_mm_s2": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "pen_lift_s": {
+          "type": "number",
+          "minimum": 0
+        },
+        "pen_lower_s": {
+          "type": "number",
+          "minimum": 0
+        },
+        "pen_change_s": {
+          "type": "number",
+          "minimum": 0
+        },
+        "cornering_tolerance_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "curve_flatness_mm": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "timing_scale": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "timing_uncertainty_fraction": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    },
+    "controller": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "driver",
+        "execution_enabled",
+        "origin_mm",
+        "page_rotation",
+        "coordinate_system",
+        "expected_work_offset_mm",
+        "pen_up_commands",
+        "pen_down_commands"
+      ],
+      "properties": {
+        "driver": {
+          "enum": ["disabled", "grbl"]
+        },
+        "execution_enabled": {
+          "type": "boolean"
+        },
+        "serial_baud": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "origin_mm": {
+          "type": "object",
+          "required": ["x", "y"],
+          "properties": {
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            }
+          }
+        },
+        "page_rotation": {
+          "enum": ["auto", "0", "90", "180", "270"]
+        },
+        "coordinate_system": {
+          "enum": ["G54", "G55", "G56", "G57", "G58", "G59"]
+        },
+        "expected_work_offset_mm": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["x", "y", "z"],
+          "properties": {
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            },
+            "z": {
+              "type": "number"
+            }
+          }
+        },
+        "pen_up_commands": {
+          "$ref": "#/$defs/commands"
+        },
+        "pen_down_commands": {
+          "$ref": "#/$defs/commands"
+        },
+        "expected_settings": {
+          "type": "object",
+          "propertyNames": {
+            "pattern": "^\\$[0-9]+$"
+          },
+          "additionalProperties": {
+            "type": "number"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "commands": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[^\\r\\n]*$"
+      }
+    }
+  }
+}

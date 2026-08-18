@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "id": "hike-explicit-elevations-v1",
+  "retrieved_at": "2026-08-04T00:00:00Z",
+  "source": {
+    "publisher": "OpenStreetMap contributors",
+    "url": "https://www.openstreetmap.org",
+    "license": "ODbL-1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "value_contract": "Explicit ele tag in metres on the named summit node; never a raster estimate."
+  },
+  "objects": [
+    {
+      "source_object": "node/25697071",
+      "version": 15,
+      "timestamp": "2025-02-04T22:23:45Z",
+      "name": "Ben Lomond",
+      "elevation_m": 974
+    },
+    {
+      "source_object": "node/8870212",
+      "version": 35,
+      "timestamp": "2025-11-24T17:15:40Z",
+      "name": "Ben Nevis",
+      "elevation_m": 1345
+    },
+    {
+      "source_object": "node/252103762",
+      "version": 16,
+      "timestamp": "2025-02-04T22:30:29Z",
+      "name": "Beinn Dorain",
+      "elevation_m": 1076
+    },
+    {
+      "source_object": "node/633549042",
+      "version": 8,
+      "timestamp": "2025-02-04T22:22:44Z",
+      "name": "An Cliseam",
+      "elevation_m": 799
+    },
+    {
+      "source_object": "node/481338204",
+      "version": 7,
+      "timestamp": "2025-02-04T22:26:19Z",
+      "name": "Meall Fuar-mhonaidh",
+      "elevation_m": 699
+    },
+    {
+      "source_object": "node/31209291",
+      "version": 48,
+      "timestamp": "2026-06-21T06:00:02Z",
+      "name": "Arthur's Seat",
+      "elevation_m": 251
+    },
+    {
+      "source_object": "node/320730229",
+      "version": 9,
+      "timestamp": "2026-03-25T20:12:56Z",
+      "name": "North Berwick Law",
+      "elevation_m": 187
+    },
+    {
+      "source_object": "node/26864921",
+      "version": 13,
+      "timestamp": "2026-06-24T06:13:33Z",
+      "name": "Titlis",
+      "elevation_m": 3238
+    },
+    {
+      "source_object": "node/31664302",
+      "version": 22,
+      "timestamp": "2024-04-09T12:02:40Z",
+      "name": "Eiger",
+      "elevation_m": 3970
+    },
+    {
+      "source_object": "node/1435708318",
+      "version": 11,
+      "timestamp": "2023-12-31T23:09:20Z",
+      "name": "Jungfrau",
+      "elevation_m": 4158
+    },
+    {
+      "source_object": "node/26863664",
+      "version": 50,
+      "timestamp": "2025-09-30T08:16:45Z",
+      "name": "Matterhorn",
+      "elevation_m": 4478
+    },
+    {
+      "source_object": "node/345609932",
+      "version": 5,
+      "timestamp": "2026-02-27T18:49:17Z",
+      "name": "Mont Pelvoux Pointe Durand",
+      "elevation_m": 3932
+    },
+    {
+      "source_object": "node/389502737",
+      "version": 5,
+      "timestamp": "2020-02-05T18:08:45Z",
+      "name": "Pic Sans Nom",
+      "elevation_m": 3913
+    },
+    {
+      "source_object": "node/13391555323",
+      "version": 2,
+      "timestamp": "2025-12-20T21:57:12Z",
+      "name": "Sommet Cental (L'Olan)",
+      "elevation_m": 3558
+    },
+    {
+      "source_object": "node/4999575296",
+      "version": 5,
+      "timestamp": "2025-02-06T11:12:43Z",
+      "name": "Kidsty Pike",
+      "elevation_m": 781,
+      "feature_id": "osm-node-4999575296",
+      "subject_ids": ["RTE-GB-ENG-C2C-01"],
+      "point": [-2.8549729, 54.5055193],
+      "source_ref": "osm-context",
+      "snapshot_sha256": "129726b3ce1263af2e37a1682b63b7dcba6937188ae84cd9ff6a033d652575e9"
+    },
+    {
+      "source_object": "node/281399025",
+      "version": 63,
+      "timestamp": "2025-12-25T16:42:19Z",
+      "name": "Mont Blanc / Monte Bianco",
+      "label": "Mont Blanc",
+      "elevation_m": 4807.3,
+      "feature_id": "osm-node-281399025",
+      "subject_ids": ["RTE-EU-TMB-LOOP-01"],
+      "point": [6.8651706, 45.8327056],
+      "source_ref": "osm-context",
+      "snapshot_sha256": "f0a3711da9d26631e6d8451ca6bc4bd7cf0e3e6c60b670d350772daf0cde0e9c",
+      "priority": -10,
+      "label_required": true,
+      "distance_to_route_m": 9147.3,
+      "route_axis_fraction": 0.423615
+    }
+  ]
+}

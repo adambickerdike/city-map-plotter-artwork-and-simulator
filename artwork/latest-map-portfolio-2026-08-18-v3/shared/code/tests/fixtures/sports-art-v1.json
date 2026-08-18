@@ -1,0 +1,525 @@
+{
+  "schema_version": 1,
+  "id": "sports-art-test-fixtures-v1",
+  "cases": [
+    {
+      "case": "dense-urban-marathon-many-turns",
+      "record": {
+        "schema_version": 1,
+        "id": "fixture-urban-marathon",
+        "preset": "route-hero",
+        "event": {
+          "name": "Urban Marathon",
+          "date": "2026-04-12",
+          "location": "Test City",
+          "discipline": "running",
+          "official_distance": {
+            "value": 42.195,
+            "unit": "km",
+            "source_ref": "fixture-source"
+          }
+        },
+        "participant": {
+          "name": "ALEX RUNNER",
+          "bib_number": "2046",
+          "finish_time": "03:28:14"
+        },
+        "sources": [
+          {
+            "id": "fixture-source",
+            "publisher": "Project test fixture",
+            "license": "project-authored",
+            "attribution": "PROJECT TEST FIXTURE",
+            "use": "synthetic route and metadata for renderer tests"
+          }
+        ],
+        "route": {
+          "geometry_status": "official-supplied",
+          "coordinate_space": "local",
+          "discipline": "run",
+          "direction_marks": "arrows",
+          "segments": [
+            {
+              "id": "urban-course",
+              "discipline": "run",
+              "source_ref": "fixture-source",
+              "points": [
+                [0, 0], [80, 0], [80, 55], [145, 55], [145, 15],
+                [210, 15], [210, 95], [155, 95], [155, 150], [250, 150],
+                [250, 210], [185, 210], [185, 265], [310, 265], [310, 330]
+              ]
+            }
+          ],
+          "markers": [
+            {
+              "id": "stadium-entry",
+              "kind": "landmark",
+              "label": "STADIUM ENTRY",
+              "point": [310, 330],
+              "source_ref": "fixture-source"
+            }
+          ]
+        },
+        "context": {
+          "features": [
+            {
+              "id": "river",
+              "kind": "water-boundary",
+              "source_ref": "fixture-source",
+              "points": [[-20, 120], [100, 125], [220, 118], [340, 130]]
+            },
+            {
+              "id": "event-road",
+              "kind": "road",
+              "source_ref": "fixture-source",
+              "points": [[20, -10], [20, 340]]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case": "rural-out-and-back-half-marathon",
+      "record": {
+        "schema_version": 1,
+        "id": "fixture-rural-half",
+        "preset": "minimal-line",
+        "event": {
+          "name": "Rural Half Marathon",
+          "date": "2026-05-03",
+          "location": "Test Valley",
+          "official_distance": {
+            "value": 21.0975,
+            "unit": "km",
+            "source_ref": "fixture-source"
+          }
+        },
+        "sources": [
+          {
+            "id": "fixture-source",
+            "publisher": "Project test fixture",
+            "license": "project-authored",
+            "attribution": "PROJECT TEST FIXTURE",
+            "use": "synthetic out-and-back source geometry"
+          }
+        ],
+        "route": {
+          "geometry_status": "official-supplied",
+          "coordinate_space": "local",
+          "direction_marks": "arrows",
+          "segments": [
+            {
+              "id": "out-and-back",
+              "discipline": "run",
+              "source_ref": "fixture-source",
+              "points": [
+                [0, 0], [100, 5], [200, 20], [300, 10], [400, 0],
+                [300, 10], [200, 20], [100, 5], [0, 0]
+              ]
+            }
+          ],
+          "markers": [
+            {
+              "id": "turnaround",
+              "kind": "checkpoint",
+              "label": "TURN",
+              "point": [400, 0],
+              "source_ref": "fixture-source"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case": "mountain-ultramarathon-contours-profile",
+      "record": {
+        "schema_version": 1,
+        "id": "fixture-mountain-ultra",
+        "preset": "topographic-challenge",
+        "event": {
+          "name": "Mountain Ultramarathon",
+          "date": "2026-06-20",
+          "location": "Test Range",
+          "elevation_gain": "4100 M",
+          "highest_point": "2475 M",
+          "official_distance": {
+            "value": 82,
+            "unit": "km",
+            "source_ref": "fixture-source"
+          }
+        },
+        "sources": [
+          {
+            "id": "fixture-source",
+            "publisher": "Project test fixture",
+            "license": "project-authored",
+            "attribution": "PROJECT TEST FIXTURE",
+            "use": "synthetic route, DEM profile, and contours"
+          }
+        ],
+        "route": {
+          "geometry_status": "source-sampled",
+          "coordinate_space": "local",
+          "direction_marks": "progressive",
+          "segments": [
+            {
+              "id": "ultra-course",
+              "discipline": "run",
+              "source_ref": "fixture-source",
+              "points": [
+                {"coordinates": [0, 0], "elevation_m": 520},
+                {"coordinates": [80, 60], "elevation_m": 880},
+                {"coordinates": [130, 160], "elevation_m": 1320},
+                {"coordinates": [210, 210], "elevation_m": 1780},
+                {"coordinates": [290, 170], "elevation_m": 2475},
+                {"coordinates": [360, 250], "elevation_m": 2110},
+                {"coordinates": [430, 330], "elevation_m": 1540},
+                {"coordinates": [510, 300], "elevation_m": 720}
+              ]
+            }
+          ]
+        },
+        "context": {
+          "features": [
+            {
+              "id": "contour-1000",
+              "kind": "contour",
+              "elevation_m": 1000,
+              "source_ref": "fixture-source",
+              "points": [[-20, 80], [120, 110], [260, 90], [430, 130], [530, 120]]
+            },
+            {
+              "id": "contour-1500",
+              "kind": "contour",
+              "elevation_m": 1500,
+              "source_ref": "fixture-source",
+              "points": [[20, 160], [150, 190], [280, 160], [420, 210], [500, 190]]
+            },
+            {
+              "id": "contour-2000",
+              "kind": "contour",
+              "elevation_m": 2000,
+              "source_ref": "fixture-source",
+              "points": [[100, 235], [220, 270], [330, 230], [430, 270]]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "case": "multi-lap-circuit-race",
+      "record": {
+        "schema_version": 1,
+        "id": "fixture-multi-lap",
+        "preset": "circuit-blueprint",
+        "event": {
+          "name": "Four Lap Circuit Race",
+          "date": "2026-07-04",
+          "location": "Test Park"
+        },
+        "sources": [
+          {
+            "id": "fixture-source",
+            "publisher": "Project test fixture",
+            "license": "project-authored",
+            "attribution": "PROJECT TEST FIXTURE",
+            "use": "synthetic circuit, laps, pit lane, and sectors"
+          }
+        ],
+        "route": {
+          "geometry_status": "official-supplied",
+          "coordinate_space": "local",
+          "direction_marks": "arrows",
+          "segments": [
+            {"id": "lap-one", "discipline": "cycling", "source_ref": "fixture-source", "lap": 1, "points": [[0, 0], [130, -20], [220, 60], [170, 170], [40, 190], [-30, 90], [0, 0]]},
+            {"id": "lap-two", "discipline": "cycling", "source_ref": "fixture-source", "lap": 2, "points": [[0, 0], [130, -20], [220, 60], [170, 170], [40, 190], [-30, 90], [0, 0]]},
+            {"id": "lap-three", "discipline": "cycling", "source_ref": "fixture-source", "lap": 3, "points": [[0, 0], [130, -20], [220, 60], [170, 170], [40, 190], [-30, 90], [0, 0]]},
+            {"id": "lap-four", "discipline": "cycling", "source_ref": "fixture-source", "lap": 4, "points": [[0, 0], [130, -20], [220, 60], [170, 170], [40, 190], [-30, 90], [0, 0]]}
+          ],
+          "markers": [
+            {"id": "sector-one", "kind": "sector", "label": "S1", "point": [220, 60], "source_ref": "fixture-source"},
+            {"id": "sector-two", "kind": "sector", "label": "S2", "point": [40, 190], "source_ref": "fixture-source"}
+          ]
+        },
+        "context": {
+          "features": [
+            {"id": "pit-lane", "kind": "pit-lane", "source_ref": "fixture-source", "points": [[5, 8], [105, 0], [150, 25]]},
+            {"id": "site", "kind": "site-outline", "source_ref": "fixture-source", "points": [[-55, -45], [250, -45], [250, 220], [-55, 220], [-55, -45]]}
+          ]
+        }
+      }
+    },
+    {
+      "case": "triathlon-three-disciplines-transitions",
+      "record": {
+        "schema_version": 1,
+        "id": "fixture-triathlon",
+        "preset": "multi-discipline",
+        "event": {
+          "name": "Test Triathlon",
+          "date": "2026-07-11",
+          "location": "Test Bay",
+          "official_distance": {"value": 51.5, "unit": "km", "source_ref": "fixture-source"},
+          "discipline_distances": {
+            "swim": {"value": 1.5, "unit": "km", "source_ref": "fixture-source"},
+            "bike": {"value": 40, "unit": "km", "source_ref": "fixture-source"},
+            "run": {"value": 10, "unit": "km", "source_ref": "fixture-source"}
+          }
+        },
+        "sources": [
+          {"id": "fixture-source", "publisher": "Project test fixture", "license": "project-authored", "attribution": "PROJECT TEST FIXTURE", "use": "synthetic swim, bike, run, and transitions"}
+        ],
+        "route": {
+          "geometry_status": "official-supplied",
+          "coordinate_space": "local",
+          "direction_marks": "arrows",
+          "segments": [
+            {"id": "swim", "discipline": "swim", "source_ref": "fixture-source", "points": [[0, 0], [70, 50], [130, 0], [0, 0]], "transition_label": "T1"},
+            {"id": "bike", "discipline": "bike", "source_ref": "fixture-source", "points": [[0, 0], [180, 20], [260, 120], [120, 180], [0, 0]], "transition_label": "T2"},
+            {"id": "run", "discipline": "run", "source_ref": "fixture-source", "points": [[0, 0], [-60, 70], [-20, 150], [80, 170]]}
+          ]
+        }
+      }
+    },
+    {
+      "case": "rowing-course-multiple-bridges",
+      "record": {
+        "schema_version": 1,
+        "id": "fixture-rowing-head",
+        "preset": "river-course",
+        "event": {"name": "Test Head Race", "date": "2026-03-21", "location": "Test River"},
+        "participant": {"name": "TEST BOAT CLUB", "seat": "BOW", "boat_name": "TEST EIGHT"},
+        "sources": [
+          {"id": "fixture-source", "publisher": "Project test fixture", "license": "project-authored", "attribution": "PROJECT TEST FIXTURE", "use": "synthetic centreline, banks, and bridges"}
+        ],
+        "route": {
+          "geometry_status": "verified-centreline",
+          "coordinate_space": "local",
+          "direction_marks": "arrows",
+          "segments": [
+            {"id": "river-centreline", "discipline": "rowing", "source_ref": "fixture-source", "points": [[0, 0], [80, 25], [155, 10], [230, 55], [300, 40], [380, 90]]}
+          ],
+          "markers": [
+            {"id": "bridge-one", "kind": "bridge", "label": "FIRST BRIDGE", "point": [80, 25], "source_ref": "fixture-source"},
+            {"id": "bridge-two", "kind": "bridge", "label": "MIDDLE BRIDGE", "point": [230, 55], "source_ref": "fixture-source"},
+            {"id": "bridge-three", "kind": "bridge", "label": "FINISH BRIDGE", "point": [380, 90], "source_ref": "fixture-source"}
+          ]
+        },
+        "context": {
+          "features": [
+            {"id": "north-bank", "kind": "river-bank", "source_ref": "fixture-source", "points": [[-10, 18], [80, 45], [155, 30], [230, 75], [300, 60], [390, 110]]},
+            {"id": "south-bank", "kind": "river-bank", "source_ref": "fixture-source", "points": [[10, -18], [80, 5], [155, -10], [230, 35], [300, 20], [370, 70]]},
+            {"id": "bridge-line-one", "kind": "bridge", "source_ref": "fixture-source", "points": [[75, 0], [85, 50]]},
+            {"id": "bridge-line-two", "kind": "bridge", "source_ref": "fixture-source", "points": [[220, 30], [240, 80]]},
+            {"id": "bridge-line-three", "kind": "bridge", "source_ref": "fixture-source", "points": [[365, 65], [390, 115]]}
+          ]
+        }
+      }
+    },
+    {
+      "case": "sailing-course-marks-coastline",
+      "record": {
+        "schema_version": 1,
+        "id": "fixture-sailing-race",
+        "preset": "sailing-chart",
+        "event": {"name": "Test Yacht Race", "date": "2026-08-01", "location": "Test Sound"},
+        "participant": {"name": "SKIPPER EXAMPLE", "boat_name": "TEST YACHT", "finish_time": "04:16:02"},
+        "sources": [
+          {"id": "fixture-source", "publisher": "Project test fixture", "license": "project-authored", "attribution": "PROJECT TEST FIXTURE", "use": "synthetic coastline, legs, headings, and marks"}
+        ],
+        "route": {
+          "geometry_status": "official-supplied",
+          "coordinate_space": "local",
+          "direction_marks": "arrows",
+          "segments": [
+            {"id": "race-legs", "discipline": "sailing", "source_ref": "fixture-source", "points": [[20, 20], [160, 40], [230, 160], [70, 210], [20, 20]]}
+          ],
+          "markers": [
+            {"id": "mark-a", "kind": "mark", "label": "A / 078 DEG", "point": [160, 40], "source_ref": "fixture-source"},
+            {"id": "mark-b", "kind": "buoy", "label": "B / 151 DEG", "point": [230, 160], "source_ref": "fixture-source"},
+            {"id": "mark-c", "kind": "mark", "label": "C / 248 DEG", "point": [70, 210], "source_ref": "fixture-source"}
+          ]
+        },
+        "context": {
+          "features": [
+            {"id": "coast", "kind": "coastline", "source_ref": "fixture-source", "points": [[-20, -10], [40, 5], [90, -15], [160, 0], [260, -5]]},
+            {"id": "island", "kind": "island", "source_ref": "fixture-source", "points": [[180, 100], [200, 110], [195, 130], [175, 120], [180, 100]]}
+          ]
+        }
+      }
+    },
+    {
+      "case": "motorsport-sectors-pit-elevation",
+      "record": {
+        "schema_version": 1,
+        "id": "fixture-motorsport-telemetry",
+        "preset": "race-telemetry",
+        "event": {"name": "Test Track Day", "date": "2026-08-02", "location": "Test Circuit"},
+        "participant": {"name": "DRIVER EXAMPLE", "vehicle": "TEST CAR", "lap_time": "01:42.318"},
+        "sources": [
+          {"id": "fixture-source", "publisher": "Project test fixture", "license": "project-authored", "attribution": "PROJECT TEST FIXTURE", "use": "synthetic circuit, pit lane, sectors, elevation, and telemetry"}
+        ],
+        "route": {
+          "geometry_status": "official-supplied",
+          "coordinate_space": "local",
+          "channel_units": {"speed": "km/h", "throttle": "%", "brake": "%"},
+          "direction_marks": "arrows",
+          "segments": [
+            {
+              "id": "timed-lap",
+              "discipline": "motorsport",
+              "source_ref": "fixture-source",
+              "lap": 1,
+              "points": [
+                {"coordinates": [0, 0], "distance_m": 0, "elevation_m": 88, "channels": {"speed": 72, "throttle": 45, "brake": 0}},
+                {"coordinates": [130, -25], "distance_m": 900, "elevation_m": 92, "channels": {"speed": 168, "throttle": 100, "brake": 0}},
+                {"coordinates": [240, 55], "distance_m": 1800, "elevation_m": 105, "channels": {"speed": 94, "throttle": 20, "brake": 72}},
+                {"coordinates": [185, 180], "distance_m": 2750, "elevation_m": 118, "channels": {"speed": 132, "throttle": 78, "brake": 0}},
+                {"coordinates": [40, 205], "distance_m": 3600, "elevation_m": 96, "channels": {"speed": 82, "throttle": 30, "brake": 64}},
+                {"coordinates": [-35, 95], "distance_m": 4500, "elevation_m": 84, "channels": {"speed": 146, "throttle": 92, "brake": 0}},
+                {"coordinates": [0, 0], "distance_m": 5200, "elevation_m": 88, "channels": {"speed": 76, "throttle": 48, "brake": 0}}
+              ]
+            }
+          ],
+          "markers": [
+            {"id": "sector-one", "kind": "sector", "label": "S1", "point": [240, 55], "source_ref": "fixture-source"},
+            {"id": "sector-two", "kind": "sector", "label": "S2", "point": [40, 205], "source_ref": "fixture-source"}
+          ]
+        },
+        "context": {
+          "features": [
+            {"id": "pit-lane", "kind": "pit-lane", "source_ref": "fixture-source", "points": [[8, 8], [110, 5], [155, 22]]},
+            {"id": "drs", "kind": "drs-zone", "source_ref": "fixture-source", "points": [[35, -3], [118, -20]]},
+            {"id": "site", "kind": "site-outline", "source_ref": "fixture-source", "points": [[-60, -55], [270, -55], [270, 230], [-60, 230], [-60, -55]]}
+          ]
+        }
+      }
+    },
+    {
+      "case": "stadium-detailed-supplied-geometry",
+      "record": {
+        "schema_version": 1,
+        "id": "fixture-detailed-stadium",
+        "preset": "stadium-architecture",
+        "venue": {
+          "name": "Detailed Test Ground",
+          "location": "Test Town",
+          "source_level": "accurate-plan",
+          "coordinate_space": "local",
+          "capacity": "42000",
+          "opening_date": "1998-08-15",
+          "coordinates": [-1.2345, 52.3456],
+          "components": [
+            {"id": "envelope", "kind": "envelope", "source_ref": "fixture-source", "points": [[0, 0], [210, 0], [230, 25], [230, 155], [210, 180], [0, 180], [-20, 155], [-20, 25], [0, 0]]},
+            {"id": "bowl-outer", "kind": "seating-bowl", "source_ref": "fixture-source", "texture": "hatch", "points": [[25, 20], [185, 20], [205, 45], [205, 135], [185, 160], [25, 160], [5, 135], [5, 45], [25, 20]]},
+            {"id": "pitch", "kind": "pitch", "source_ref": "fixture-source", "points": [[52, 38], [158, 38], [158, 143], [52, 143], [52, 38]]},
+            {"id": "halfway", "kind": "pitch-marking", "source_ref": "fixture-source", "points": [[52, 90.5], [158, 90.5]]},
+            {"id": "west-stand", "kind": "stand", "label": "WEST STAND", "source_ref": "fixture-source", "points": [[20, 35], [45, 35], [45, 145], [20, 145], [20, 35]]},
+            {"id": "east-stand", "kind": "stand", "label": "EAST STAND", "source_ref": "fixture-source", "points": [[165, 35], [190, 35], [190, 145], [165, 145], [165, 35]]},
+            {"id": "roof-truss-one", "kind": "roof-truss", "source_ref": "fixture-source", "points": [[-5, 20], [105, -8], [215, 20]]},
+            {"id": "roof-truss-two", "kind": "roof-truss", "source_ref": "fixture-source", "points": [[-5, 160], [105, 188], [215, 160]]},
+            {"id": "south-concourse", "kind": "concourse", "source_ref": "fixture-source", "points": [[5, 168], [205, 168]]}
+          ]
+        },
+        "sources": [
+          {"id": "fixture-source", "publisher": "Project test fixture", "license": "project-authored", "attribution": "PROJECT TEST FIXTURE", "use": "synthetic detailed stadium plan"}
+        ]
+      }
+    },
+    {
+      "case": "stadium-footprint-and-pitch-only",
+      "record": {
+        "schema_version": 1,
+        "id": "fixture-minimal-stadium",
+        "preset": "stadium-architecture",
+        "venue": {
+          "name": "Minimal Test Ground",
+          "source_level": "verified-footprint-and-pitch",
+          "coordinate_space": "local",
+          "components": [
+            {"id": "footprint", "kind": "footprint", "source_ref": "fixture-source", "points": [[0, 0], [180, 0], [180, 140], [0, 140], [0, 0]]},
+            {"id": "pitch", "kind": "pitch", "source_ref": "fixture-source", "points": [[35, 18], [145, 18], [145, 122], [35, 122], [35, 18]]}
+          ]
+        },
+        "sources": [
+          {"id": "fixture-source", "publisher": "Project test fixture", "license": "project-authored", "attribution": "PROJECT TEST FIXTURE", "use": "synthetic footprint and pitch only"}
+        ]
+      }
+    },
+    {
+      "case": "long-name-many-performance-fields",
+      "record": {
+        "schema_version": 1,
+        "id": "fixture-long-personalisation",
+        "preset": "personal-best",
+        "format_id": "a4-landscape",
+        "event": {
+          "name": "Personal Best Road Race",
+          "date": "2026-09-13",
+          "location": "Test Borough",
+          "official_distance": {"value": 10, "unit": "km", "source_ref": "fixture-source"}
+        },
+        "participant": {
+          "name": "ALEXANDRA MAXIMILIANE MONTGOMERY-WINTERS",
+          "bib_number": "10001",
+          "finish_time": "00:41:52",
+          "position": "143 / 3820",
+          "category": "F40 / 12TH",
+          "personal_best": true,
+          "pace": "4:11 / KM"
+        },
+        "sources": [
+          {"id": "fixture-source", "publisher": "Project test fixture", "license": "project-authored", "attribution": "PROJECT TEST FIXTURE", "use": "synthetic event route and user-supplied performance"}
+        ],
+        "route": {
+          "geometry_status": "official-supplied",
+          "coordinate_space": "local",
+          "direction_marks": "none",
+          "segments": [
+            {"id": "pb-course", "discipline": "run", "source_ref": "fixture-source", "points": [[0, 0], [100, 40], [180, 10], [260, 100], [170, 170], [60, 130], [0, 0]]}
+          ]
+        }
+      }
+    },
+    {
+      "case": "gps-spikes-repeats-missing-elevation",
+      "record": {
+        "schema_version": 1,
+        "id": "fixture-noisy-route",
+        "preset": "route-and-elevation",
+        "event": {"name": "Noisy Source Route", "date": "2026-10-10", "location": "Test Hills"},
+        "sources": [
+          {"id": "fixture-source", "publisher": "Project test fixture", "license": "project-authored", "attribution": "PROJECT TEST FIXTURE", "use": "synthetic noisy GPS and partial elevation"}
+        ],
+        "route": {
+          "geometry_status": "user-supplied",
+          "coordinate_space": "local",
+          "direction_marks": "none",
+          "filtering": {
+            "enabled": true,
+            "spike_detour_ratio": 6,
+            "spike_minimum_leg_m": 30,
+            "spike_median_leg_multiplier": 4,
+            "maximum_speed_m_s": 18
+          },
+          "segments": [
+            {
+              "id": "noisy-track",
+              "discipline": "run",
+              "source_ref": "fixture-source",
+              "points": [
+                {"coordinates": [0, 0], "elevation_m": 10},
+                {"coordinates": [0, 0], "elevation_m": null},
+                {"coordinates": [100, 0], "elevation_m": 12},
+                {"coordinates": [10000, 10000], "elevation_m": null},
+                {"coordinates": [200, 0], "elevation_m": null},
+                {"coordinates": [300, 20], "elevation_m": 15},
+                {"coordinates": [400, 0], "elevation_m": 16}
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

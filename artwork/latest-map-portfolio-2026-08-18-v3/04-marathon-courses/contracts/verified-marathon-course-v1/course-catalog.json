@@ -1,0 +1,525 @@
+{
+  "as_of": "2026-08-16",
+  "catalog_sha256": "1988f77d119967d0f5f07c1e938c52ab787e91f69dc66200a381f72c00b0447f",
+  "course_count": 14,
+  "courses": [
+    {
+      "acquisition_kind": "organiser-strava-embed",
+      "city": "London",
+      "country": "United Kingdom",
+      "display_title": "LONDON MARATHON",
+      "edition": "2026",
+      "event_name": "2026 TCS London Marathon",
+      "evidence_pages": [
+        {
+          "allow_unavailable": false,
+          "filename": "organiser-course-page.html",
+          "label": "organiser-course-page",
+          "required_markers": [
+            "3477685973392799106"
+          ],
+          "url": "https://www.londonmarathonevents.co.uk/london-marathon/course"
+        }
+      ],
+      "geometry_markers": [
+        "__ROUTE_DATA__",
+        "2026 TCS London Marathon"
+      ],
+      "geometry_url": "https://strava-embeds.com/route/3477685973392799106",
+      "id": "london-marathon-2026",
+      "kml_document_marker": null,
+      "kml_placemark": null,
+      "landing_page_url": "https://www.londonmarathonevents.co.uk/london-marathon/course",
+      "legacy_subject_id": "marathon-london",
+      "normalized_filename": "london-marathon-2026.geojson",
+      "organiser": "London Marathon Events",
+      "position": 1,
+      "raw_filename": "strava-route-3477685973392799106.html",
+      "relation_id": null,
+      "source_note": "The organiser page embeds this exact Strava route id.",
+      "vector_status": "current organiser-published 2026 vector",
+      "zip_member": null
+    },
+    {
+      "acquisition_kind": "google-mymaps-kml",
+      "city": "Tokyo",
+      "country": "Japan",
+      "display_title": "TOKYO MARATHON",
+      "edition": "2026",
+      "event_name": "Tokyo Marathon 2026",
+      "evidence_pages": [
+        {
+          "allow_unavailable": false,
+          "filename": "organiser-course-page.html",
+          "label": "organiser-course-page",
+          "required_markers": [
+            "1jGYjkrF_m5K3rWgYJu1XqyMbjHPq2pQ",
+            "2026"
+          ],
+          "url": "https://www.marathon.tokyo/en/about/course/"
+        }
+      ],
+      "geometry_markers": [
+        "Tokyo Marathon 2026"
+      ],
+      "geometry_url": "https://www.google.com/maps/d/kml?mid=1jGYjkrF_m5K3rWgYJu1XqyMbjHPq2pQ&forcekml=1",
+      "id": "tokyo-marathon-2026",
+      "kml_document_marker": "Tokyo Marathon 2026",
+      "kml_placemark": null,
+      "landing_page_url": "https://www.marathon.tokyo/en/about/course/",
+      "legacy_subject_id": "marathon-tokyo",
+      "normalized_filename": "tokyo-marathon-2026.kml",
+      "organiser": "Tokyo Marathon Foundation",
+      "position": 2,
+      "raw_filename": "tokyo-marathon-2026.kml",
+      "relation_id": null,
+      "source_note": "",
+      "vector_status": "current organiser-published 2026 vector",
+      "zip_member": null
+    },
+    {
+      "acquisition_kind": "google-mymaps-kml",
+      "city": "Valencia",
+      "country": "Spain",
+      "display_title": "VALENCIA MARATHON",
+      "edition": "2026",
+      "event_name": "Valencia Marathon Trinidad Alfonso Zurich 2026",
+      "evidence_pages": [
+        {
+          "allow_unavailable": false,
+          "filename": "organiser-course-page.html",
+          "label": "organiser-course-page",
+          "required_markers": [
+            "1BEeuxU3kRDyxewR7Pp4Rqu_7Knajvxo",
+            "2026"
+          ],
+          "url": "https://www.valenciaciudaddelrunning.com/en/marathon/official-route-marathon/"
+        }
+      ],
+      "geometry_markers": [
+        "RECORRIDO · RACE LINE"
+      ],
+      "geometry_url": "https://www.google.com/maps/d/kml?mid=1BEeuxU3kRDyxewR7Pp4Rqu_7Knajvxo&forcekml=1",
+      "id": "valencia-marathon-2026",
+      "kml_document_marker": null,
+      "kml_placemark": "RECORRIDO · RACE LINE",
+      "landing_page_url": "https://www.valenciaciudaddelrunning.com/en/marathon/official-route-marathon/",
+      "legacy_subject_id": "marathon-valencia",
+      "normalized_filename": "valencia-marathon-2026-race-line.geojson",
+      "organiser": "Valencia Ciudad del Running",
+      "position": 3,
+      "raw_filename": "valencia-marathon-2026-all-layers.kml",
+      "relation_id": null,
+      "source_note": "The raw map has starts, access lines and annotations; only the Placemark named RECORRIDO · RACE LINE is admitted.",
+      "vector_status": "current organiser-published 2026 vector",
+      "zip_member": null
+    },
+    {
+      "acquisition_kind": "osm-relation",
+      "city": "Boston",
+      "country": "United States",
+      "display_title": "BOSTON MARATHON",
+      "edition": "2026",
+      "event_name": "130th Boston Marathon",
+      "evidence_pages": [
+        {
+          "allow_unavailable": false,
+          "filename": "organiser-course-page.html",
+          "label": "organiser-course-page",
+          "required_markers": [
+            "2026-Course-Map.pdf"
+          ],
+          "url": "https://www.baa.org/races/boston-marathon/the-course/"
+        },
+        {
+          "allow_unavailable": false,
+          "filename": "official-course-map.pdf",
+          "label": "official-course-map",
+          "required_markers": [
+            "%PDF"
+          ],
+          "url": "https://www.baa.org/wp-content/uploads/2026/03/2026-Course-Map.pdf"
+        }
+      ],
+      "geometry_markers": [],
+      "geometry_url": "https://www.openstreetmap.org/relation/11680552",
+      "id": "boston-marathon-2026",
+      "kml_document_marker": null,
+      "kml_placemark": null,
+      "landing_page_url": "https://www.baa.org/races/boston-marathon/the-course/",
+      "legacy_subject_id": "marathon-boston",
+      "normalized_filename": "boston-marathon-relation-11680552.geojson",
+      "organiser": "Boston Athletic Association",
+      "position": 4,
+      "raw_filename": "relation-11680552.json.gz",
+      "relation_id": 11680552,
+      "source_note": "The vector is OSM relation/11680552; the organiser's 2026 map is retained as the independent event/course identity check.",
+      "vector_status": "verified OSM course relation checked against official 2026 map",
+      "zip_member": null
+    },
+    {
+      "acquisition_kind": "direct-gpx",
+      "city": "Berlin",
+      "country": "Germany",
+      "display_title": "BERLIN MARATHON",
+      "edition": "2025",
+      "event_name": "BMW Berlin Marathon",
+      "evidence_pages": [
+        {
+          "allow_unavailable": false,
+          "filename": "organiser-course-page.html",
+          "label": "organiser-course-page",
+          "required_markers": [
+            "BM25_Marathon-Strecke.gpx"
+          ],
+          "url": "https://www.bmw-berlin-marathon.com/das-rennen/strecke"
+        }
+      ],
+      "geometry_markers": [],
+      "geometry_url": "https://www.bmw-berlin-marathon.com/fileadmin/media/events/berlinmarathon/gpx/BM25_Marathon-Strecke.gpx",
+      "id": "berlin-marathon-2025",
+      "kml_document_marker": null,
+      "kml_placemark": null,
+      "landing_page_url": "https://www.bmw-berlin-marathon.com/das-rennen/strecke",
+      "legacy_subject_id": "marathon-berlin",
+      "normalized_filename": "berlin-marathon-2025.gpx",
+      "organiser": "SCC EVENTS",
+      "position": 5,
+      "raw_filename": "BM25_Marathon-Strecke.gpx",
+      "relation_id": null,
+      "source_note": "",
+      "vector_status": "latest vector currently published by organiser (2025)",
+      "zip_member": null
+    },
+    {
+      "acquisition_kind": "direct-gpx",
+      "city": "Sydney",
+      "country": "Australia",
+      "display_title": "SYDNEY MARATHON",
+      "edition": "2025",
+      "event_name": "TCS Sydney Marathon",
+      "evidence_pages": [
+        {
+          "allow_unavailable": true,
+          "filename": "organiser-course-page.html",
+          "label": "organiser-course-page",
+          "required_markers": [
+            "cbc827_3c7f6f8e7cd54e4a8f570891c1cabff9"
+          ],
+          "url": "https://www.tcssydneymarathon.com/course"
+        }
+      ],
+      "geometry_markers": [],
+      "geometry_url": "https://b6bf2f2b-ace0-4e08-b630-3e45a19de9b9.filesusr.com/ugd/cbc827_3c7f6f8e7cd54e4a8f570891c1cabff9.gpx?dn=2025%20TCS%20Sydney%20Marathon%20Course%20with%20KM%20markers.gpx",
+      "id": "sydney-marathon-2025",
+      "kml_document_marker": null,
+      "kml_placemark": null,
+      "landing_page_url": "https://www.tcssydneymarathon.com/course",
+      "legacy_subject_id": "marathon-sydney",
+      "normalized_filename": "sydney-marathon-2025.gpx",
+      "organiser": "Pont3 / TCS Sydney Marathon",
+      "position": 6,
+      "raw_filename": "2025-tcs-sydney-marathon-course.gpx",
+      "relation_id": null,
+      "source_note": "",
+      "vector_status": "latest vector currently published by organiser (2025)",
+      "zip_member": null
+    },
+    {
+      "acquisition_kind": "direct-gpx",
+      "city": "Marrakech",
+      "country": "Morocco",
+      "display_title": "MARRAKECH MARATHON",
+      "edition": "2026",
+      "event_name": "Marathon International de Marrakech 2026",
+      "evidence_pages": [
+        {
+          "allow_unavailable": false,
+          "filename": "organiser-home-page.html",
+          "label": "organiser-home-page",
+          "required_markers": [
+            "https://marathonmarrakech.ma/parcours/"
+          ],
+          "url": "https://marathonmarrakech.ma/"
+        },
+        {
+          "allow_unavailable": false,
+          "filename": "organiser-linked-drive-folder.html",
+          "label": "organiser-linked-drive-folder",
+          "required_markers": [
+            "1YtrJEfA9F7DrLXVgDHMG4e0LMXyiq1an"
+          ],
+          "url": "https://drive.google.com/drive/folders/1pJ-5wmleDUIA2N4r1ApGiai1X7hUDKoc?usp=sharing"
+        },
+        {
+          "allow_unavailable": false,
+          "filename": "route-file-record.html",
+          "label": "route-file-record",
+          "required_markers": [
+            "1YtrJEfA9F7DrLXVgDHMG4e0LMXyiq1an"
+          ],
+          "url": "https://drive.google.com/file/d/1YtrJEfA9F7DrLXVgDHMG4e0LMXyiq1an/view"
+        }
+      ],
+      "geometry_markers": [],
+      "geometry_url": "https://drive.usercontent.google.com/download?id=1YtrJEfA9F7DrLXVgDHMG4e0LMXyiq1an&export=download&confirm=t",
+      "id": "marrakech-marathon-2026",
+      "kml_document_marker": null,
+      "kml_placemark": null,
+      "landing_page_url": "https://marathonmarrakech.ma/parcours/?lang=en",
+      "legacy_subject_id": null,
+      "normalized_filename": "marrakech-marathon-2026.gpx",
+      "organiser": "Marathon International de Marrakech",
+      "position": 7,
+      "raw_filename": "marrakech-full-marathon-2026.gpx",
+      "relation_id": null,
+      "source_note": "The organiser course page returned HTTP 500 at build time; its working official home-page link to /parcours/ and the linked Drive folder/file record are pinned with the GPX.",
+      "vector_status": "current organiser-linked 2026 vector",
+      "zip_member": null
+    },
+    {
+      "acquisition_kind": "direct-gpx",
+      "city": "Geneva",
+      "country": "Switzerland",
+      "display_title": "GENEVA MARATHON",
+      "edition": "2026",
+      "event_name": "Generali Geneve Marathon 2026",
+      "evidence_pages": [
+        {
+          "allow_unavailable": false,
+          "filename": "organiser-course-page.html",
+          "label": "organiser-course-page",
+          "required_markers": [
+            "1851e34d983d4d3ca2569fba05324ff3"
+          ],
+          "url": "https://www.generaligenevemarathon.com/marathon"
+        }
+      ],
+      "geometry_markers": [],
+      "geometry_url": "https://512763f9-e0e1-4531-92c1-a627ccca8323.filesusr.com/ugd/a32e51_1851e34d983d4d3ca2569fba05324ff3.gpx?dn=Marathon_ggm2026.gpx",
+      "id": "geneva-marathon-2026",
+      "kml_document_marker": null,
+      "kml_placemark": null,
+      "landing_page_url": "https://www.generaligenevemarathon.com/marathon",
+      "legacy_subject_id": null,
+      "normalized_filename": "geneva-marathon-2026.gpx",
+      "organiser": "Generali Geneve Marathon",
+      "position": 8,
+      "raw_filename": "Marathon_ggm2026.gpx",
+      "relation_id": null,
+      "source_note": "",
+      "vector_status": "latest organiser-published vector (2026)",
+      "zip_member": null
+    },
+    {
+      "acquisition_kind": "direct-gpx",
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "display_title": "ROTTERDAM MARATHON",
+      "edition": "2026",
+      "event_name": "NN Marathon Rotterdam 2026",
+      "evidence_pages": [
+        {
+          "allow_unavailable": false,
+          "filename": "organiser-course-page.html",
+          "label": "organiser-course-page",
+          "required_markers": [
+            "NN-Marathon-Rotterdam-2026-Marathon-DEF.gpx"
+          ],
+          "url": "https://nnmarathonrotterdam.nl/parcoursen/"
+        }
+      ],
+      "geometry_markers": [],
+      "geometry_url": "https://nnmarathonrotterdam.nl/wp-content/uploads/sites/52/2026/03/NN-Marathon-Rotterdam-2026-Marathon-DEF.gpx",
+      "id": "rotterdam-marathon-2026",
+      "kml_document_marker": null,
+      "kml_placemark": null,
+      "landing_page_url": "https://nnmarathonrotterdam.nl/parcoursen/",
+      "legacy_subject_id": null,
+      "normalized_filename": "rotterdam-marathon-2026.gpx",
+      "organiser": "Golazo / NN Marathon Rotterdam",
+      "position": 9,
+      "raw_filename": "NN-Marathon-Rotterdam-2026-Marathon-DEF.gpx",
+      "relation_id": null,
+      "source_note": "",
+      "vector_status": "current organiser-published 2026 vector",
+      "zip_member": null
+    },
+    {
+      "acquisition_kind": "direct-gpx",
+      "city": "Frankfurt",
+      "country": "Germany",
+      "display_title": "FRANKFURT MARATHON",
+      "edition": "2026",
+      "event_name": "Mainova Frankfurt Marathon 2026",
+      "evidence_pages": [
+        {
+          "allow_unavailable": false,
+          "filename": "organiser-course-page.html",
+          "label": "organiser-course-page",
+          "required_markers": [
+            "mainova-frankfurt-marathon_strecke_marathonstrecke_-01.gpx",
+            "2026"
+          ],
+          "url": "https://www.frankfurt-marathon.com/dein-lauf/marathon/strecke/"
+        }
+      ],
+      "geometry_markers": [],
+      "geometry_url": "https://deploy.frankfurt-marathon.com/wp-content/uploads/mainova-frankfurt-marathon_strecke_marathonstrecke_-01.gpx",
+      "id": "frankfurt-marathon-2026",
+      "kml_document_marker": null,
+      "kml_placemark": null,
+      "landing_page_url": "https://www.frankfurt-marathon.com/dein-lauf/marathon/strecke/",
+      "legacy_subject_id": null,
+      "normalized_filename": "frankfurt-marathon-2026.gpx",
+      "organiser": "motion events / Frankfurt Marathon",
+      "position": 10,
+      "raw_filename": "mainova-frankfurt-marathon-2026.gpx",
+      "relation_id": null,
+      "source_note": "",
+      "vector_status": "current organiser-published 2026 vector",
+      "zip_member": null
+    },
+    {
+      "acquisition_kind": "zip-gpx",
+      "city": "Stockholm",
+      "country": "Sweden",
+      "display_title": "STOCKHOLM MARATHON",
+      "edition": "2026",
+      "event_name": "adidas Stockholm Marathon 2026",
+      "evidence_pages": [
+        {
+          "allow_unavailable": false,
+          "filename": "organiser-course-page.html",
+          "label": "organiser-course-page",
+          "required_markers": [
+            "SM26h.gpx_.zip",
+            "2026"
+          ],
+          "url": "https://stockholmmarathon.se/start/banan/"
+        }
+      ],
+      "geometry_markers": [],
+      "geometry_url": "https://stockholmmarathon.se/wp-content/uploads/2026/05/SM26h.gpx_.zip",
+      "id": "stockholm-marathon-2026",
+      "kml_document_marker": null,
+      "kml_placemark": null,
+      "landing_page_url": "https://stockholmmarathon.se/start/banan/",
+      "legacy_subject_id": null,
+      "normalized_filename": "stockholm-marathon-2026.gpx",
+      "organiser": "Marathongruppen / Stockholm Marathon",
+      "position": 11,
+      "raw_filename": "SM26h.gpx_.zip",
+      "relation_id": null,
+      "source_note": "",
+      "vector_status": "current organiser-published 2026 vector",
+      "zip_member": "SM26h.gpx"
+    },
+    {
+      "acquisition_kind": "direct-gpx",
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "display_title": "JAKARTA MARATHON",
+      "edition": "2026",
+      "event_name": "BTN Jakarta International Marathon 2026",
+      "evidence_pages": [
+        {
+          "allow_unavailable": false,
+          "filename": "organiser-course-page.html",
+          "label": "organiser-course-page",
+          "required_markers": [
+            "Rute Marathon - BTN Jakim 2026.gpx"
+          ],
+          "url": "https://jakim.id/race"
+        }
+      ],
+      "geometry_markers": [],
+      "geometry_url": "https://jakim.id/assets/file/Rute%20Marathon%20-%20BTN%20Jakim%202026.gpx",
+      "id": "jakarta-marathon-2026",
+      "kml_document_marker": null,
+      "kml_placemark": null,
+      "landing_page_url": "https://jakim.id/race",
+      "legacy_subject_id": null,
+      "normalized_filename": "jakarta-marathon-2026.gpx",
+      "organiser": "BTN Jakarta International Marathon",
+      "position": 12,
+      "raw_filename": "Rute-Marathon-BTN-Jakim-2026.gpx",
+      "relation_id": null,
+      "source_note": "",
+      "vector_status": "current organiser-published 2026 vector",
+      "zip_member": null
+    },
+    {
+      "acquisition_kind": "direct-gpx",
+      "city": "Zermatt",
+      "country": "Switzerland",
+      "display_title": "ZERMATT MARATHON",
+      "edition": "2026",
+      "event_name": "Gornergrat Zermatt Marathon 2026",
+      "evidence_pages": [
+        {
+          "allow_unavailable": false,
+          "filename": "organiser-course-page.html",
+          "label": "organiser-course-page",
+          "required_markers": [
+            "resource_link_id=4a"
+          ],
+          "url": "https://www.zermattmarathon.ch/en/our-courses/marathon"
+        }
+      ],
+      "geometry_markers": [],
+      "geometry_url": "https://www.zermattmarathon.ch?action=get_file&id=30&resource_link_id=4a",
+      "id": "zermatt-marathon-2026",
+      "kml_document_marker": null,
+      "kml_placemark": null,
+      "landing_page_url": "https://www.zermattmarathon.ch/en/our-courses/marathon",
+      "legacy_subject_id": null,
+      "normalized_filename": "zermatt-marathon-2026.gpx",
+      "organiser": "Gornergrat Zermatt Marathon",
+      "position": 13,
+      "raw_filename": "zermatt-marathon-2026.gpx",
+      "relation_id": null,
+      "source_note": "",
+      "vector_status": "current organiser-published 2026 vector",
+      "zip_member": null
+    },
+    {
+      "acquisition_kind": "direct-gpx",
+      "city": "La Baule / Guerande",
+      "country": "France",
+      "display_title": "CÔTE D'AMOUR",
+      "edition": "2026",
+      "event_name": "Marathon International de la Cote d'Amour Amarris 2026",
+      "evidence_pages": [
+        {
+          "allow_unavailable": false,
+          "filename": "organiser-course-page.html",
+          "label": "organiser-course-page",
+          "required_markers": [
+            "a4ef2f4465ad49d5a4961dae3b3d44ba",
+            "2026"
+          ],
+          "url": "https://www.marathondelacotedamour.com/marathon"
+        }
+      ],
+      "geometry_markers": [],
+      "geometry_url": "https://804ed606-f2eb-4923-b4d7-3c62fbd26f13.filesusr.com/ugd/d20372_a4ef2f4465ad49d5a4961dae3b3d44ba.gpx?dn=Marathon+International+de+la+C%C3%B4te+d%27Amour+Amarris.gpx",
+      "id": "cote-d-amour-marathon-2026",
+      "kml_document_marker": null,
+      "kml_placemark": null,
+      "landing_page_url": "https://www.marathondelacotedamour.com/marathon",
+      "legacy_subject_id": null,
+      "normalized_filename": "cote-d-amour-marathon-2026.gpx",
+      "organiser": "Marathon de la Cote d'Amour",
+      "position": 14,
+      "raw_filename": "marathon-cote-d-amour-amarris-2026.gpx",
+      "relation_id": null,
+      "source_note": "",
+      "vector_status": "current organiser-published 2026 vector",
+      "zip_member": null
+    }
+  ],
+  "id": "verified-marathon-course-plates-2026-08-16-v1",
+  "schema_version": 1,
+  "selection_method": "Fourteen newest defensible organiser-published vectors available to this audit, plus Boston's verified OSM relation checked against the official current course map. No raster tracing."
+}

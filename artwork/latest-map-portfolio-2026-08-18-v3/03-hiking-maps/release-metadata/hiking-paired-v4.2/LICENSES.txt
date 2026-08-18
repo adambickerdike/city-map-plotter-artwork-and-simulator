@@ -1,0 +1,1553 @@
+HIKING SERIES SOURCE AND LICENCE REGISTER
+
+RELEASE STATUS: REVIEW ONLY — NOT COMMERCIALLY CLEARED.
+
+This register identifies each factual input and its declared terms. It is 
+not a substitute for the full licence text or a route-by-route rights review.
+Follow the source URLs and resolve all attribution obligations before sale.
+The AWS-hosted Mapzen terrain product has mixed underlying source terms; 
+its location-specific provider attribution remains an explicit blocker.
+
+WEST HIGHLAND WAY (RTE-GB-WHW-01)
+---------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/16287
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Official route authority/site
+Use: name, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.westhighlandway.org/the-route/
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Nominatim
+Use: curated contextual feature points and generalized water/woodland boundaries; independent source selection
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors / openstreetmap.org/copyright
+URL: https://nominatim.openstreetmap.org/ui/search.html
+Provider attribution review required: no
+
+Source ID: osm-scotland-landcover-2026-08-02
+Publisher: OpenStreetMap contributors / Geofabrik
+Use: systematic source polygons for plot-legible woodland and forest context
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors; openstreetmap.org/copyright
+URL: https://download.geofabrik.de/europe/united-kingdom/scotland-260802.osm.pbf
+Provider attribution review required: no
+
+Source ID: osm-scotland-hydrography-2026-08-02
+Publisher: OpenStreetMap contributors / Geofabrik
+Use: systematic source polygons and lines for coast, major inland water, and named route-context rivers
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors; openstreetmap.org/copyright
+URL: https://download.geofabrik.de/europe/united-kingdom/scotland-260802.osm.pbf
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations and source-precedence-selected continuous elevation contours for paired v4.2 artworks; source-native terrain retained separately
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+Source ID: os-terrain-50-2026
+Publisher: Ordnance Survey
+Use: OS Terrain 50 50 m DTM; generalized 150 m upland mask and selected elevation contours
+Declared licence: Open Government Licence v3.0
+Attribution: Contains OS data © Crown copyright and database right 2026
+URL: https://osdatahub.os.uk/downloads/open/Terrain50
+Provider attribution review required: no
+
+HEBRIDEAN WAY (RTE-GB-HEB-WALK-01)
+----------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/7610425
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Official route authority/site
+Use: name, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.visitouterhebrides.co.uk/routes
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Nominatim
+Use: curated contextual points and generalized hydrography/landcover boundaries; independent source selection
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors / openstreetmap.org/copyright
+URL: https://nominatim.openstreetmap.org/ui/search.html
+Provider attribution review required: no
+
+Source ID: natural-earth-context
+Publisher: Natural Earth
+Use: generalized coastline context
+Declared licence: public-domain
+Attribution: Made with Natural Earth
+URL: https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-coastline/
+Provider attribution review required: no
+
+Source ID: osm-scotland-hiking-context-2026-08-02
+Publisher: OpenStreetMap contributors / Geofabrik
+Use: systematic source geometry for factual forest/woodland, coast, major inland water, and named route-context rivers
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors; openstreetmap.org/copyright
+URL: https://download.geofabrik.de/europe/united-kingdom/scotland-260802.osm.pbf
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations and source-precedence-selected continuous elevation contours for paired v4.2 artworks; source-native terrain retained separately
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+Source ID: os-terrain-50-2026
+Publisher: Ordnance Survey
+Use: retained native OS Terrain 50 DTM and contour evidence for source-precedence comparison; not emitted by paired v4.2 artworks
+Declared licence: Open Government Licence v3.0
+Attribution: Contains OS data © Crown copyright and database right 2026
+URL: https://osdatahub.os.uk/downloads/open/Terrain50
+Provider attribution review required: no
+
+GREAT GLEN WAY (RTE-GB-GGW-01)
+------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/126572
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Official route authority/site
+Use: name, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.highland.gov.uk/news/article/17313/great_glen_way_route_improvements_now_open
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Nominatim
+Use: curated contextual points and generalized hydrography/landcover boundaries; independent source selection
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors / openstreetmap.org/copyright
+URL: https://nominatim.openstreetmap.org/ui/search.html
+Provider attribution review required: no
+
+Source ID: natural-earth-context
+Publisher: Natural Earth
+Use: generalized coastline context
+Declared licence: public-domain
+Attribution: Made with Natural Earth
+URL: https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-coastline/
+Provider attribution review required: no
+
+Source ID: osm-scotland-hiking-context-2026-08-02
+Publisher: OpenStreetMap contributors / Geofabrik
+Use: systematic source geometry for factual forest/woodland, coast, major inland water, and named route-context rivers
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors; openstreetmap.org/copyright
+URL: https://download.geofabrik.de/europe/united-kingdom/scotland-260802.osm.pbf
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations and source-precedence-selected continuous elevation contours for paired v4.2 artworks; source-native terrain retained separately
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+Source ID: os-terrain-50-2026
+Publisher: Ordnance Survey
+Use: OS Terrain 50 50 m DTM; selected, elevation-valued artwork contours
+Declared licence: Open Government Licence v3.0
+Attribution: Contains OS data © Crown copyright and database right 2026
+URL: https://osdatahub.os.uk/downloads/open/Terrain50
+Provider attribution review required: no
+
+JOHN MUIR WAY (RTE-GB-JMW-WALK-01)
+----------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/49215
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Official route authority/site
+Use: name, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://johnmuirway.org/doing-route/walking-route
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Nominatim
+Use: curated contextual points and generalized hydrography/landcover boundaries; independent source selection
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors / openstreetmap.org/copyright
+URL: https://nominatim.openstreetmap.org/ui/search.html
+Provider attribution review required: no
+
+Source ID: natural-earth-context
+Publisher: Natural Earth
+Use: generalized coastline context
+Declared licence: public-domain
+Attribution: Made with Natural Earth
+URL: https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-coastline/
+Provider attribution review required: no
+
+Source ID: osm-scotland-hiking-context-2026-08-02
+Publisher: OpenStreetMap contributors / Geofabrik
+Use: systematic source geometry for factual forest/woodland, coast, major inland water, and named route-context rivers
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors; openstreetmap.org/copyright
+URL: https://download.geofabrik.de/europe/united-kingdom/scotland-260802.osm.pbf
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations and source-precedence-selected continuous elevation contours for paired v4.2 artworks; source-native terrain retained separately
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+Source ID: os-terrain-50-2026
+Publisher: Ordnance Survey
+Use: OS Terrain 50 50 m DTM; selected, elevation-valued artwork contours
+Declared licence: Open Government Licence v3.0
+Attribution: Contains OS data © Crown copyright and database right 2026
+URL: https://osdatahub.os.uk/downloads/open/Terrain50
+Provider attribution review required: no
+
+VIA ALPINA (RTE-CH-VA1-01)
+--------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/12359033
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Official route authority/site
+Use: name, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://schweizmobil.ch/en/hiking-in-switzerland/route-1
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Nominatim
+Use: curated contextual points and generalized hydrography/landcover boundaries; independent source selection
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors / openstreetmap.org/copyright
+URL: https://nominatim.openstreetmap.org/ui/search.html
+Provider attribution review required: no
+
+Source ID: osm-switzerland-hiking-context-2026-08-02
+Publisher: OpenStreetMap contributors / Geofabrik
+Use: systematic source geometry for factual forest/woodland, coast, major inland water, and named route-context rivers
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors; openstreetmap.org/copyright
+URL: https://download.geofabrik.de/europe/switzerland-260802.osm.pbf
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations and source-precedence-selected continuous elevation contours for paired v4.2 artworks; source-native terrain retained separately
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+Source ID: swisstopo-swissaltiregio-2026-08-03
+Publisher: Federal Office of Topography swisstopo and named source partners
+Use: retained native swissALTIregio DEM and contour evidence for source-precedence comparison; not emitted by paired v4.2 artworks
+Declared licence: Swiss federal free geodata terms; composite source conditions
+Attribution: Bundesamt für Landestopografie swisstopo; Tarquini S., I. Isola, M. Favalli, A. Battistini, G. Dotta (2023). TINITALY, a digital elevation model of Italy with a 10 meters cell size (Version 1.1). Istituto Nazionale di Geofisica e Vulcanologia (INGV), doi:10.13127/tinitaly/1.1; DGM Österreich, geoland.at; DGM1, Bayerische Vermessungsverwaltung; DGM1, Baden-Württemberg: LGL; RGEAlti, Institut National de l’information géographique et forestière
+URL: https://www.swisstopo.admin.ch/en/height-model-swissaltiregio
+Provider attribution review required: no
+
+ALPINE PASSES TRAIL (RTE-CH-AP6-01)
+-----------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: one source-ordered route chain; A5 hero simplification and complete profile-only geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/18021781
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: SwitzerlandMobility
+Use: frozen route identity, endpoints, published distance and stage count; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://schweizmobil.ch/en/hiking-in-switzerland/route-6
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Nominatim
+Use: curated contextual points and generalized hydrography/landcover boundaries; independent source selection
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors / openstreetmap.org/copyright
+URL: https://nominatim.openstreetmap.org/ui/search.html
+Provider attribution review required: no
+
+Source ID: osm-switzerland-hiking-context-2026-08-02
+Publisher: OpenStreetMap contributors / Geofabrik
+Use: systematic source geometry for factual forest/woodland, coast, major inland water, and named route-context rivers
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors; openstreetmap.org/copyright
+URL: https://download.geofabrik.de/europe/switzerland-260802.osm.pbf
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; complete ordered profile-only route elevations and frozen terrain relief
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+Source ID: swisstopo-swissaltiregio-2026-08-03
+Publisher: Federal Office of Topography swisstopo and named source partners
+Use: retained native DEM and contour evidence for source-precedence comparison; not emitted by paired v4.2 artworks
+Declared licence: Swiss federal free geodata terms; composite source conditions
+Attribution: Bundesamt für Landestopografie swisstopo; Tarquini S., I. Isola, M. Favalli, A. Battistini, G. Dotta (2023). TINITALY, a digital elevation model of Italy with a 10 meters cell size (Version 1.1). Istituto Nazionale di Geofisica e Vulcanologia (INGV), doi:10.13127/tinitaly/1.1; DGM Österreich, geoland.at; DGM1, Bayerische Vermessungsverwaltung; DGM1, Baden-Württemberg: LGL; RGEAlti, Institut National de l’information géographique et forestière
+URL: https://www.swisstopo.admin.ch/en/height-model-swissaltiregio
+Provider attribution review required: no
+
+TOUR DES REFUGES (RTE-FR-ECR-976000)
+------------------------------------
+Source ID: ecrins-open
+Publisher: Parc national des Écrins
+Use: route geometry, elevation and factual metrics
+Declared licence: Licence-Ouverte-2.0
+Attribution: Source: Parc national des Écrins — Randonnées du Parc national des Écrins
+URL: https://www.data.gouv.fr/datasets/randonnees-du-parc-national-des-ecrins
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Nominatim
+Use: curated contextual points and generalized hydrography/landcover boundaries; independent source selection
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors / openstreetmap.org/copyright
+URL: https://nominatim.openstreetmap.org/ui/search.html
+Provider attribution review required: no
+
+Source ID: osm-paca-context-2026-08-02
+Publisher: OpenStreetMap contributors / Geofabrik
+Use: systematic source geometry for factual forest/woodland, coast, major inland water, and named route-context rivers
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors; openstreetmap.org/copyright
+URL: https://download.geofabrik.de/europe/france/provence-alpes-cote-d-azur-260802.osm.pbf
+Provider attribution review required: no
+
+Source ID: ign-france-contours-wfs-2026-08-03
+Publisher: Institut national de l'information géographique et forestière (IGN)
+Use: official elevation contours; clipped, projected, simplified, and selected at a 100 m artwork interval
+Declared licence: Licence Ouverte 2.0
+Attribution: Source: IGN — Courbes de niveau; Licence Ouverte 2.0
+URL: https://data.geopf.fr/annexes/ressources/documentation/DC_Courbes_de_niveau_1-0.pdf
+Provider attribution review required: no
+
+TOUR DU PIC DE VALSENESTRE (RTE-FR-ECR-995181)
+----------------------------------------------
+Source ID: ecrins-open
+Publisher: Parc national des Écrins
+Use: route geometry, elevation and factual metrics
+Declared licence: Licence-Ouverte-2.0
+Attribution: Source: Parc national des Écrins — Randonnées du Parc national des Écrins
+URL: https://www.data.gouv.fr/datasets/randonnees-du-parc-national-des-ecrins
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Nominatim
+Use: curated contextual points and generalized hydrography/landcover boundaries; independent source selection
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors / openstreetmap.org/copyright
+URL: https://nominatim.openstreetmap.org/ui/search.html
+Provider attribution review required: no
+
+Source ID: osm-rhone-alpes-context-2026-08-02
+Publisher: OpenStreetMap contributors / Geofabrik
+Use: systematic source geometry for factual forest/woodland, coast, major inland water, and named route-context rivers
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors; openstreetmap.org/copyright
+URL: https://download.geofabrik.de/europe/france/rhone-alpes-260802.osm.pbf
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; source-precedence-selected continuous elevation contours for paired v4.2 artworks; source-native terrain retained separately
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+Source ID: ign-france-contours-wfs-2026-08-03
+Publisher: Institut national de l'information géographique et forestière (IGN)
+Use: official elevation contours; clipped, projected, simplified, and selected at a 300 m artwork interval
+Declared licence: Licence Ouverte 2.0
+Attribution: Source: IGN — Courbes de niveau; Licence Ouverte 2.0
+URL: https://data.geopf.fr/annexes/ressources/documentation/DC_Courbes_de_niveau_1-0.pdf
+Provider attribution review required: no
+
+LAUGAVEGUR (RTE-IS-LAUG-01)
+---------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/1225037
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Official route authority/site
+Use: name, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.fi.is/en/hiking-trails/trails/view/laugavegur
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Nominatim
+Use: curated contextual points and generalized hydrography/landcover boundaries; independent source selection
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors / openstreetmap.org/copyright
+URL: https://nominatim.openstreetmap.org/ui/search.html
+Provider attribution review required: no
+
+Source ID: osm-iceland-hiking-context-2026-08-02
+Publisher: OpenStreetMap contributors / Geofabrik
+Use: systematic source geometry for factual forest/woodland, coast, major inland water, and named route-context rivers
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors; openstreetmap.org/copyright
+URL: https://download.geofabrik.de/europe/iceland-260802.osm.pbf
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations and source-precedence-selected continuous elevation contours for paired v4.2 artworks; source-native terrain retained separately
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+Source ID: natt-islandsdem-v1-20m
+Publisher: Náttúrufræðistofnun
+Use: retained native ÍslandsDEM v1.0 DEM and contour evidence for source-precedence comparison; not emitted by paired v4.2 artworks
+Declared licence: CC BY 4.0
+Attribution: ÍslandsDEM v1.0 by Náttúrufræðistofnun; CC BY 4.0
+URL: https://gatt.natt.is/geonetwork/srv/api/records/e6712430-a63c-4ae5-9158-c89d16da6361
+Provider attribution review required: no
+
+CAMINO FRANCÉS (RTE-ES-CAM-ES01C)
+---------------------------------
+Source ID: cnig-feaacs
+Publisher: CNIG / FEAACS
+Use: official GPX route and elevation samples
+Declared licence: CC-BY-4.0
+Attribution: Obra derivada de Rutas de Caminos de Santiago 2020–2026 CC-BY 4.0 FEAACS
+URL: https://centrodedescargas.cnig.es/CentroDescargas/camino-santiago
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Nominatim
+Use: curated contextual points and generalized hydrography/landcover boundaries; independent source selection
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors / openstreetmap.org/copyright
+URL: https://nominatim.openstreetmap.org/ui/search.html
+Provider attribution review required: no
+
+Source ID: natural-earth-context
+Publisher: Natural Earth
+Use: generalized coastline context
+Declared licence: public-domain
+Attribution: Made with Natural Earth
+URL: https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-coastline/
+Provider attribution review required: no
+
+Source ID: osm-spain-regional-hiking-context-2026-08-02
+Publisher: OpenStreetMap contributors / Geofabrik
+Use: systematic source geometry for factual forest/woodland, coast, major inland water, and named route-context rivers
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors; openstreetmap.org/copyright
+URL: https://download.geofabrik.de/europe/spain/castilla-y-leon-260802.osm.pbf
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z8
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; source-precedence-selected continuous elevation contours for paired v4.2 artworks; source-native terrain retained separately
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+Source ID: ign-es-mdt25-cob1-camino-corridor
+Publisher: Instituto Geográfico Nacional / CNIG España
+Use: retained native MDT25 corridor DEM and contour evidence for source-precedence comparison; not emitted by paired v4.2 artworks
+Declared licence: CC BY 4.0 compatible IGN Spain open-data policy
+Attribution: Obra derivada de MDT25-cob1 2008-2015 CC-BY 4.0 scne.es
+URL: https://centrodedescargas.cnig.es/CentroDescargas/modelo-digital-terreno-mdt25-primera-cobertura
+Provider attribution review required: no
+
+PENNINE WAY (RTE-GB-ENG-PW-01)
+------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/4080347
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: National Trails
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.nationaltrail.co.uk/en_GB/trails/pennine-way/
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z8
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+SOUTH WEST COAST PATH (RTE-GB-ENG-SWCP-01)
+------------------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/2376086
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: National Trails
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.nationaltrail.co.uk/en_GB/trails/south-west-coast-path/trail-information/
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+COAST TO COAST (RTE-GB-ENG-C2C-01)
+----------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/12145
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: National Trails
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.nationaltrail.co.uk/en_GB/trails/coast-to-coast/
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route/peak elevations, selected elevation contours, and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+CAPE WRATH TRAIL (RTE-GB-SCT-CWT-01)
+------------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/9327615
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Cape Wrath Trail
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.capewrathtrail.org.uk/
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+SOUTHERN UPLAND WAY (RTE-GB-SCT-SUW-01)
+---------------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/4736666
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Scotland's Great Trails
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.scotlandsgreattrails.com/trail/southern-upland-way/
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z10
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+PEMBROKESHIRE COAST PATH (RTE-GB-WLS-PCP-01)
+--------------------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/77964
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: National Trails
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.nationaltrail.co.uk/en_GB/trails/pembrokeshire-coast-path/
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+OFFA'S DYKE PATH (RTE-GB-WLS-ODP-01)
+------------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/9649
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: National Trails
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.nationaltrail.co.uk/en_GB/trails/offas-dyke-path/trail-information/
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+GR 20 (RTE-FR-COR-GR20-01)
+--------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/101692
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: FFRandonnée
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://boutique.ffrandonnee.fr/topoguide/gr20-a-travers-la-montagne-corse
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+TOUR DU MONT BLANC (RTE-EU-TMB-LOOP-01)
+---------------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/124456
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Autour du Mont-Blanc
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.montourdumontblanc.com/fr/
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+WALKER'S HAUTE ROUTE (RTE-EU-WHR-01)
+------------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/3020521
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Chamonix.net
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.chamonix.net/english/summer-activities/trekking/haute-route
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+FOUR SOURCES (RTE-CH-4HW-49)
+----------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/3094421
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: SwitzerlandMobility
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://schweizmobil.ch/en/hiking-in-switzerland/route-49
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+ALTA VIA 1 (RTE-IT-DOL-AV1-01)
+------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/177743
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Dolomiti Bellunesi
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.dolomitibelluno.it/en/things-to-do/alte-vie/alta-via-n-1/
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+KUNGSLEDEN (RTE-SE-KUNGS-01)
+----------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/1657661
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Swedish Tourist Association
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.swedishtouristassociation.com/trails/kungsleden/
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z8
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+PEAKS OF THE BALKANS (RTE-EU-POB-LOOP-01)
+-----------------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/4726204
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Plav Tourism Organisation
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.plavto.me/en/tourist-offer/peaks-of-the-balkans/
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+GR 221 DRY STONE ROUTE (RTE-ES-MAL-GR221-01)
+--------------------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/16358020
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Consell de Mallorca
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://caminsdepedra.conselldemallorca.es/en/dry-stone-route-gr-221
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+APPALACHIAN TRAIL (RTE-US-AT-01)
+--------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/156553
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Appalachian Trail Conservancy
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://appalachiantrail.org/experience/hike-the-trail/at-basics/
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z6
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+PACIFIC CREST TRAIL (RTE-US-PCT-01)
+-----------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/1225378
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Pacific Crest Trail Association
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.pcta.org/2024/how-long-is-the-pct-really-93700/
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z6
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+CONTINENTAL DIVIDE TRAIL (RTE-US-CDT-01)
+----------------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/921198
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: US National Park Service
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.nps.gov/subjects/nationaltrailssystem/national-scenic-trails.htm
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z6
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+Source ID: natural-earth-rivers-10m
+Publisher: Natural Earth
+Use: selected generalized river centrelines at 1:10m scale
+Declared licence: public-domain
+Attribution: Made with Natural Earth
+URL: https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-rivers-lake-centerlines/
+Provider attribution review required: no
+
+Source ID: natural-earth-lakes-10m
+Publisher: Natural Earth
+Use: selected generalized inland shorelines at 1:10m scale
+Declared licence: public-domain
+Attribution: Made with Natural Earth
+URL: https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-lakes/
+Provider attribution review required: no
+
+FLORIDA TRAIL (RTE-US-FNST-01)
+------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/1163455
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Florida Trail Association
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://floridatrail.org/faqs/
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z8
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+COLORADO TRAIL (RTE-US-CT-01)
+-----------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/3445384
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Colorado Trail Foundation
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://coloradotrail.org/trail/
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+LONG TRAIL (RTE-US-LT-01)
+-------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/391736
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Green Mountain Club
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.greenmountainclub.org/the-long-trail/
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+WONDERLAND TRAIL (RTE-US-WOND-01)
+---------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/4111743
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: US National Park Service
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.nps.gov/mora/planyourvisit/the-wonderland-trail.htm
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+TAHOE RIM TRAIL (RTE-US-TRT-01)
+-------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/3094865
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Tahoe Rim Trail Association
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://tahoerimtrail.org/maps-trail-info/
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+GREAT DIVIDE TRAIL (RTE-CA-GDT-01)
+----------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/8139599
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Great Divide Trail Association
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://greatdividetrail.com/discover-the-gdt/
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z7
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+WEST COAST TRAIL (RTE-CA-WCT-01)
+--------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/6955341
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Parks Canada
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://parks.canada.ca/pn-np/bc/pacificrim/activ/sco-wct
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+OUACHITA TRAIL (RTE-US-ONRT-01)
+-------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/3838499
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Friends of the Ouachita Trail
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.friendsoftheouachita.org/about-the-ot/
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+JOHN MUIR TRAIL (RTE-US-JMT-01)
+-------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/1244828
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: US National Park Service
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://home.nps.gov/yose/planyourvisit/jmt.htm
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+NORTHVILLE-PLACID TRAIL (RTE-US-NPT-01)
+---------------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/4286650
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: New York State DEC
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://dec.ny.gov/news/press-releases/2026/5/dec-announces-final-recreation-management-plan-for-several-hamilton-county-conservation-easement-tracts
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+CHILKOOT TRAIL (RTE-US-CA-CHILKOOT-01)
+--------------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/1225005
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: US National Park Service
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://www.nps.gov/klgo/planyourvisit/planning-your-hike.htm
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes
+
+FUNDY FOOTPATH (RTE-CA-FUNDY-01)
+--------------------------------
+Source ID: osm-route
+Publisher: OpenStreetMap contributors via Waymarked Trails
+Use: source-sampled route geometry
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/relation/4077806
+Provider attribution review required: no
+
+Source ID: official-identity
+Publisher: Parks Canada
+Use: route identity, endpoints and published distance; no rendered map copied
+Declared licence: reference-only
+Attribution: Identity reference only
+URL: https://parks.canada.ca/pn-np/nb/fundy/visit/~/link.aspx?_id=A2B7DACF6DE247DEA3B38DB8D090B8A8&_z=z
+Provider attribution review required: no
+
+Source ID: osm-context
+Publisher: OpenStreetMap contributors via Overpass API
+Use: selected roads, hydrography, vegetation, settlements and terrain points
+Declared licence: ODbL-1.0
+Attribution: © OpenStreetMap contributors
+URL: https://www.openstreetmap.org/copyright
+Provider attribution review required: no
+
+Source ID: aws-mapzen-terrarium-z9
+Publisher: Mapzen terrain tiles via AWS Open Data
+Use: cached Terrarium DEM tiles; sampled route elevations, selected elevation contours and frozen DEM-gradient fall lines
+Declared licence: mixed source terms; location-specific review required
+Attribution: Mapzen terrain tiles via AWS Open Data; underlying provider attribution required
+URL: https://registry.opendata.aws/terrain-tiles/
+Provider attribution review required: yes

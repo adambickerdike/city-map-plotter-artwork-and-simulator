@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "catalog_id": "f1-circuit-atlas-synthetic-v1",
+  "season": 2026,
+  "freeze": {
+    "frozen_at": "2026-08-10",
+    "status": "frozen-current-ledger"
+  },
+  "sources": [
+    {
+      "id": "synthetic-calendar-source",
+      "publisher": "Synthetic FIA calendar fixture",
+      "title": "Synthetic 2026 calendar evidence",
+      "source_kind": "calendar-ledger",
+      "licence": "synthetic-test-fixture",
+      "url": "https://example.invalid/f1-calendar",
+      "retrieved_at": "2026-08-09",
+      "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    {
+      "id": "synthetic-circuit-source",
+      "publisher": "Synthetic circuit survey fixture",
+      "title": "Synthetic Ring surveyed geometry",
+      "source_kind": "engineering-geometry",
+      "licence": "synthetic-test-fixture",
+      "url": "https://example.invalid/synthetic-ring",
+      "retrieved_at": "2026-08-09",
+      "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    }
+  ],
+  "events": [
+    {
+      "id": "synthetic-grand-prix",
+      "neutral_display_title": "Synthetic Circuit",
+      "calendar_order": 1,
+      "round": 1,
+      "event_name": "Synthetic Grand Prix",
+      "event_country": "Testland",
+      "host_country": "Testland",
+      "calendar_status": "confirmed",
+      "source_refs": [
+        "synthetic-calendar-source",
+        "synthetic-circuit-source"
+      ],
+      "circuit": {
+        "id": "synthetic-ring",
+        "name": "Synthetic Ring",
+        "official_name": "Synthetic Ring",
+        "site_type": "permanent",
+        "atlas_context_mode": "permanent",
+        "configuration_season": 2026,
+        "lap_length_m": 400.0,
+        "lap_direction": "CLOCKWISE",
+        "lap_direction_source_ref": "synthetic-circuit-source",
+        "published_length_km": 0.4,
+        "geometry": {
+          "status": "source-qualified",
+          "review_status": "synthetic-complete",
+          "official_centreline_length_m": {
+            "value": 400.0,
+            "source_ref": "synthetic-circuit-source"
+          },
+          "model": {
+            "coordinate_system": "local-metre",
+            "origin_wgs84": [
+              0.0,
+              0.0
+            ],
+            "lap": {
+              "type": "LineString",
+              "coordinates": [
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  100.0,
+                  0.0
+                ],
+                [
+                  100.0,
+                  100.0
+                ],
+                [
+                  0.0,
+                  100.0
+                ],
+                [
+                  0.0,
+                  0.0
+                ]
+              ],
+              "source_ref": "synthetic-circuit-source",
+              "source_object_id": "synthetic-lap-object"
+            },
+            "lap_source_objects": [
+              {
+                "id": "synthetic-lap-object",
+                "source_ref": "synthetic-circuit-source",
+                "geometry_role": "surveyed-centreline"
+              }
+            ],
+            "pit_lanes": [
+              {
+                "id": "synthetic-pit-main",
+                "geometry": {
+                  "type": "LineString",
+                  "coordinates": [
+                    [
+                      0.0,
+                      0.0
+                    ],
+                    [
+                      20.0,
+                      10.0
+                    ],
+                    [
+                      80.0,
+                      10.0
+                    ],
+                    [
+                      100.0,
+                      0.0
+                    ]
+                  ]
+                },
+                "entry_station_fraction": 0.0,
+              "exit_station_fraction": 0.25,
+              "source_ref": "synthetic-circuit-source",
+              "source_object_id": "synthetic-pit-object",
+              "source_objects": [
+                "synthetic-pit-object"
+              ]
+              }
+            ],
+            "track_boundaries": [
+              {
+                "type": "Feature",
+                "id": "synthetic-boundary-outer",
+                "properties": {
+                  "source_ref": "synthetic-circuit-source",
+                  "source_objects": [
+                    "synthetic-boundary-object"
+                  ]
+                },
+                "geometry": {
+                  "type": "LineString",
+                  "coordinates": [
+                    [
+                      -5.0,
+                      -5.0
+                    ],
+                    [
+                      105.0,
+                      -5.0
+                    ],
+                    [
+                      105.0,
+                      105.0
+                    ],
+                    [
+                      -5.0,
+                      105.0
+                    ],
+                    [
+                      -5.0,
+                      -5.0
+                    ]
+                  ]
+                }
+              }
+            ],
+            "context": [
+              {
+                "id": "synthetic-host-road",
+                "kind": "road",
+                "name": "Synthetic Host Road",
+                "geometry": {
+                  "type": "LineString",
+                  "coordinates": [
+                    [
+                      -20.0,
+                      130.0
+                    ],
+                    [
+                      120.0,
+                      130.0
+                    ]
+                  ]
+                },
+                "source_ref": "synthetic-circuit-source",
+                "source_object_id": "synthetic-road-object",
+                "source_objects": [
+                  "synthetic-road-object"
+                ],
+                "tags": {
+                  "highway": "secondary"
+                },
+                "temporary_status": "permanent",
+                "valid_for_season": 2026
+              }
+            ],
+            "turn_stations": [
+              {
+                "id": "turn-1",
+                "number": 1,
+                "name": null,
+                "station_fraction": 0.125,
+                "chainage_m": 50.0,
+                "point": [
+                  50.0,
+                  0.0
+                ],
+                "derivation": "station-projected-from-source-lap",
+                "anchor_method": "geometry-chainage",
+                "status": "geometric-turn-station",
+                "source_ref": "synthetic-circuit-source",
+                "source_object_id": "synthetic-lap-object"
+              },
+              {
+                "id": "turn-2",
+                "number": 2,
+                "name": null,
+                "station_fraction": 0.375,
+                "chainage_m": 150.0,
+                "point": [
+                  100.0,
+                  50.0
+                ],
+                "derivation": "station-projected-from-source-lap",
+                "anchor_method": "geometry-chainage",
+                "status": "geometric-turn-station",
+                "source_ref": "synthetic-circuit-source",
+                "source_object_id": "synthetic-lap-object"
+              },
+              {
+                "id": "turn-3",
+                "number": 3,
+                "name": null,
+                "station_fraction": 0.625,
+                "chainage_m": 250.0,
+                "point": [
+                  50.0,
+                  100.0
+                ],
+                "derivation": "station-projected-from-source-lap",
+                "anchor_method": "geometry-chainage",
+                "status": "geometric-turn-station",
+                "source_ref": "synthetic-circuit-source",
+                "source_object_id": "synthetic-lap-object"
+              },
+              {
+                "id": "turn-4",
+                "number": 4,
+                "name": null,
+                "station_fraction": 0.875,
+                "chainage_m": 350.0,
+                "point": [
+                  0.0,
+                  50.0
+                ],
+                "derivation": "station-projected-from-source-lap",
+                "anchor_method": "geometry-chainage",
+                "status": "geometric-turn-station",
+                "source_ref": "synthetic-circuit-source",
+                "source_object_id": "synthetic-lap-object"
+              }
+            ],
+            "start_finish": {
+              "point": [
+                0.0,
+                0.0
+              ],
+              "station_fraction": 0.0,
+              "source_ref": "synthetic-circuit-source",
+              "source_object_id": "synthetic-lap-object",
+              "source_objects": [
+                "synthetic-lap-object"
+              ],
+              "status": "source-surveyed-line"
+            },
+            "special_sections": [
+              {
+                "id": "synthetic-tunnel-section",
+                "kind": "tunnel",
+                "geometry": {
+                  "type": "LineString",
+                  "coordinates": [
+                    [
+                      10.0,
+                      0.0
+                    ],
+                    [
+                      40.0,
+                      0.0
+                    ]
+                  ]
+                },
+                "source_ref": "synthetic-circuit-source",
+                "source_object_id": "synthetic-tunnel-object",
+                "source_objects": [
+                  "synthetic-tunnel-object"
+                ]
+              }
+            ],
+            "geometry_sha256": "e2b2550ec2a8fb69976ba2505133783b3e4edca955361896c860029c7be4001c"
+          }
+        }
+      }
+    }
+  ],
+  "excluded_calendar_events": [
+    {
+      "id": "synthetic-sakhir-exclusion",
+      "name": "Sakhir",
+      "status": "called-off",
+      "source_ref": "synthetic-calendar-source"
+    },
+    {
+      "id": "synthetic-jeddah-exclusion",
+      "name": "Jeddah",
+      "status": "called-off",
+      "source_ref": "synthetic-calendar-source"
+    }
+  ]
+}

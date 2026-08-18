@@ -1,0 +1,432 @@
+{
+  "contract_sha256": "a614587d41b26af8ff7319ff8bc32015229b6269e728f5024d0f53caa0b39f24",
+  "entries": [
+    {
+      "acquisition_mode": "reused-exact-legacy-overpass-response",
+      "canonical_json_sha256": "a5871089acc3e340ebc0335ff8bb378c49b4e4b1943eba9d713aef1c93b6173b",
+      "course_id": "london-marathon-2026",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "file": {
+        "path": "osm/london-marathon-2026.json.gz",
+        "sha256": "2b4c26743eb103d478e5ea2773d5f80339ab172c644be663b1afce3e31a379a9",
+        "size_bytes": 22287969
+      },
+      "format_id": "a4-landscape",
+      "from_cache": true,
+      "legacy_manifest": "output/marathon-series/marathon-london.plot.json",
+      "osm_base_timestamp": "2026-08-03T18:12:05Z",
+      "position": 1,
+      "query": "[out:json][timeout:180];\n(\n  way[\"highway\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  way[\"area:highway\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  relation[\"area:highway\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  way[\"waterway\"~\"^(canal|ditch|drain|river|riverbank|stream|tidal_channel)$\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  way[\"natural\"=\"water\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  relation[\"natural\"=\"water\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  way[\"natural\"=\"bay\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  relation[\"natural\"=\"bay\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  way[\"natural\"=\"coastline\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  way[\"landuse\"=\"reservoir\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  relation[\"landuse\"=\"reservoir\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  way[\"landuse\"=\"basin\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  relation[\"landuse\"=\"basin\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  way[\"natural\"=\"wetland\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  relation[\"natural\"=\"wetland\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  way[\"man_made\"~\"^(breakwater|pier)$\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  relation[\"waterway\"=\"riverbank\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  way[\"railway\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  way[\"disused:railway\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  way[\"leisure\"~\"^(nature_reserve|park)$\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  relation[\"leisure\"~\"^(nature_reserve|park)$\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  way[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  relation[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  way[\"landuse\"~\"^(allotments|orchard|village_green)$\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  relation[\"landuse\"~\"^(allotments|orchard|village_green)$\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  way[\"natural\"~\"^(heath|scrub|wood)$\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  relation[\"natural\"~\"^(heath|scrub|wood)$\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  way[\"leisure\"=\"golf_course\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n  relation[\"leisure\"=\"golf_course\"](51.4254214,-0.1547705,51.5604486,0.0781505);\n) -> .selected;\nrel.selected -> .relation_roots;\n.relation_roots >> -> .relation_closure;\n(\n  .selected;\n  rel.relation_closure;\n);\nout geom qt;\n",
+      "query_extent_wgs84": {
+        "east": 0.0781505,
+        "north": 51.5604486,
+        "south": 51.4254214,
+        "west": -0.1547705
+      },
+      "query_sha256": "aef8746344712acfafbaa11f99939a41f85686f5e29c3b31c7821dace806b4ec",
+      "render_extent_wgs84": {
+        "east": 0.07155840000000002,
+        "north": 51.55662707546133,
+        "south": 51.42924292453868,
+        "west": -0.1481784
+      }
+    },
+    {
+      "acquisition_mode": "live-overpass-then-pinned",
+      "canonical_json_sha256": "42218cb9d9eec0e3af38f9ae2bbddd1d2cabae5f48c15623d3d84350fd7338c7",
+      "course_id": "tokyo-marathon-2026",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "file": {
+        "path": "osm/tokyo-marathon-2026.json.gz",
+        "sha256": "4c7544bc4d8ff7772c0416a6f1e1bb1fb68c8fe919b52c87f248885282bb1442",
+        "size_bytes": 8144643
+      },
+      "format_id": "a4-landscape",
+      "from_cache": true,
+      "osm_base_timestamp": "2026-08-16T20:02:51Z",
+      "position": 2,
+      "query": "[out:json][timeout:180];\n(\n  way[\"highway\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  way[\"area:highway\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  relation[\"area:highway\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  way[\"waterway\"~\"^(canal|ditch|drain|river|riverbank|stream|tidal_channel)$\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  way[\"natural\"=\"water\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  relation[\"natural\"=\"water\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  way[\"natural\"=\"bay\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  relation[\"natural\"=\"bay\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  way[\"natural\"=\"coastline\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  way[\"landuse\"=\"reservoir\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  relation[\"landuse\"=\"reservoir\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  way[\"landuse\"=\"basin\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  relation[\"landuse\"=\"basin\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  way[\"natural\"=\"wetland\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  relation[\"natural\"=\"wetland\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  way[\"man_made\"~\"^(breakwater|pier)$\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  relation[\"waterway\"=\"riverbank\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  way[\"railway\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  way[\"disused:railway\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  way[\"leisure\"~\"^(nature_reserve|park)$\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  relation[\"leisure\"~\"^(nature_reserve|park)$\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  way[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  relation[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  way[\"landuse\"~\"^(allotments|orchard|village_green)$\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  relation[\"landuse\"~\"^(allotments|orchard|village_green)$\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  way[\"natural\"~\"^(heath|scrub|wood)$\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  relation[\"natural\"~\"^(heath|scrub|wood)$\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  way[\"leisure\"=\"golf_course\"](35.6320716,139.6845816,35.7248684,139.8072744);\n  relation[\"leisure\"=\"golf_course\"](35.6320716,139.6845816,35.7248684,139.8072744);\n) -> .selected;\nrel.selected -> .relation_roots;\n.relation_roots >> -> .relation_closure;\n(\n  .selected;\n  rel.relation_closure;\n);\nout geom qt;\n",
+      "query_extent_wgs84": {
+        "east": 139.8072743976,
+        "north": 35.72486836802319,
+        "south": 35.63207163197682,
+        "west": 139.6845816024
+      },
+      "query_sha256": "b83e461ef35d7da3b4766637ff6ae3bd56ddcc5ab00b1677b3e2e3d8bbe245b9",
+      "render_extent_wgs84": {
+        "east": 139.80380196,
+        "north": 35.722242045304895,
+        "south": 35.63469795469511,
+        "west": 139.68805404
+      }
+    },
+    {
+      "acquisition_mode": "reused-exact-legacy-overpass-response",
+      "canonical_json_sha256": "2d80fa7f2247437f7144eaf4cf56d323095a1b1f199aaed6d8845ad099a48aa8",
+      "course_id": "valencia-marathon-2026",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "file": {
+        "path": "osm/valencia-marathon-2026.json.gz",
+        "sha256": "a14e9c2d3a8f8fb820b3fca8966e371a9638c583ffca38c83208ed6460596961",
+        "size_bytes": 4590038
+      },
+      "format_id": "a4-landscape",
+      "from_cache": true,
+      "legacy_manifest": "output/marathon-series/marathon-valencia.plot.json",
+      "osm_base_timestamp": "2026-08-03T07:50:21Z",
+      "position": 3,
+      "query": "[out:json][timeout:180];\n(\n  way[\"highway\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"area:highway\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  relation[\"area:highway\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"waterway\"~\"^(canal|ditch|drain|river|riverbank|stream|tidal_channel)$\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"natural\"=\"water\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  relation[\"natural\"=\"water\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"natural\"=\"bay\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  relation[\"natural\"=\"bay\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"natural\"=\"coastline\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"landuse\"=\"reservoir\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  relation[\"landuse\"=\"reservoir\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"landuse\"=\"basin\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  relation[\"landuse\"=\"basin\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"natural\"=\"wetland\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  relation[\"natural\"=\"wetland\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"man_made\"~\"^(breakwater|pier)$\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  relation[\"waterway\"=\"riverbank\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"railway\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"disused:railway\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"leisure\"~\"^(nature_reserve|park)$\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  relation[\"leisure\"~\"^(nature_reserve|park)$\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  relation[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"landuse\"~\"^(allotments|orchard|village_green)$\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  relation[\"landuse\"~\"^(allotments|orchard|village_green)$\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"natural\"~\"^(heath|scrub|wood)$\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  relation[\"natural\"~\"^(heath|scrub|wood)$\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"leisure\"=\"golf_course\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  relation[\"leisure\"=\"golf_course\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"building\"~\"^(castle|cathedral|chapel|church|civic|college|government|grandstand|hospital|mosque|palace|public|religious|shrine|sports_hall|stadium|synagogue|temple|train_station|university)$\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"building\"][\"amenity\"~\"^(arts_centre|college|courthouse|hospital|library|place_of_worship|theatre|townhall|university)$\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"building\"][\"tourism\"~\"^(gallery|museum)$\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"building\"][\"healthcare\"=\"hospital\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"building\"][\"historic\"~\"^(castle|memorial|monument|palace|tower)$\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"historic\"~\"^(castle|palace)$\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  way[\"leisure\"=\"stadium\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  relation[\"building\"~\"^(castle|cathedral|chapel|church|civic|college|government|grandstand|hospital|mosque|palace|public|religious|shrine|sports_hall|stadium|synagogue|temple|train_station|university)$\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  relation[\"building\"][\"amenity\"~\"^(arts_centre|college|courthouse|hospital|library|place_of_worship|theatre|townhall|university)$\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  relation[\"building\"][\"tourism\"~\"^(gallery|museum)$\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  relation[\"building\"][\"healthcare\"=\"hospital\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  relation[\"building\"][\"historic\"~\"^(castle|memorial|monument|palace|tower)$\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  relation[\"historic\"~\"^(castle|palace)$\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n  relation[\"leisure\"=\"stadium\"](39.4416744,-0.4122848,39.5086656,-0.3190752);\n) -> .selected;\nrel.selected -> .relation_roots;\n.relation_roots >> -> .relation_closure;\n(\n  .selected;\n  rel.relation_closure;\n);\nout geom qt;\n",
+      "query_extent_wgs84": {
+        "east": -0.3190752,
+        "north": 39.5086656,
+        "south": 39.4416744,
+        "west": -0.4122848
+      },
+      "query_sha256": "384ac97231affe1a108594fb6167730c5e15e8964733f2e47beb750966754ab0",
+      "render_extent_wgs84": {
+        "east": -0.321627,
+        "north": 39.50676155417975,
+        "south": 39.44355844582026,
+        "west": -0.409566
+      }
+    },
+    {
+      "acquisition_mode": "reused-exact-legacy-overpass-response",
+      "canonical_json_sha256": "2f81a5e0bcf3278e0be8571acdd292d3728a64fc5abe2120ac4573ecea59be02",
+      "course_id": "boston-marathon-2026",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "file": {
+        "path": "osm/boston-marathon-2026.json.gz",
+        "sha256": "52d44be42b0c6d49fc29f475bbed993d6d5859cee543e2994d804492c16d9e03",
+        "size_bytes": 45464595
+      },
+      "format_id": "a4-landscape",
+      "from_cache": true,
+      "legacy_manifest": "output/marathon-series/marathon-boston.plot.json",
+      "osm_base_timestamp": "2026-08-03T22:00:01Z",
+      "position": 4,
+      "query": "[out:json][timeout:180];\n(\n  way[\"highway\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  way[\"area:highway\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  relation[\"area:highway\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  way[\"waterway\"~\"^(canal|ditch|drain|river|riverbank|stream|tidal_channel)$\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  way[\"natural\"=\"water\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  relation[\"natural\"=\"water\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  way[\"natural\"=\"bay\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  relation[\"natural\"=\"bay\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  way[\"natural\"=\"coastline\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  way[\"landuse\"=\"reservoir\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  relation[\"landuse\"=\"reservoir\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  way[\"landuse\"=\"basin\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  relation[\"landuse\"=\"basin\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  way[\"natural\"=\"wetland\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  relation[\"natural\"=\"wetland\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  way[\"man_made\"~\"^(breakwater|pier)$\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  relation[\"waterway\"=\"riverbank\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  way[\"railway\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  way[\"disused:railway\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  way[\"leisure\"~\"^(nature_reserve|park)$\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  relation[\"leisure\"~\"^(nature_reserve|park)$\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  way[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  relation[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  way[\"landuse\"~\"^(allotments|orchard|village_green)$\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  relation[\"landuse\"~\"^(allotments|orchard|village_green)$\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  way[\"natural\"~\"^(heath|scrub|wood)$\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  relation[\"natural\"~\"^(heath|scrub|wood)$\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  way[\"leisure\"=\"golf_course\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n  relation[\"leisure\"=\"golf_course\"](42.1164604,-71.5500914,42.4631396,-71.0467686);\n) -> .selected;\nrel.selected -> .relation_roots;\n.relation_roots >> -> .relation_closure;\n(\n  .selected;\n  rel.relation_closure;\n);\nout geom qt;\n",
+      "query_extent_wgs84": {
+        "east": -71.0467686,
+        "north": 42.4631396,
+        "south": 42.1164604,
+        "west": -71.5500914
+      },
+      "query_sha256": "db9a08cfda858da74c277f960cc1826bdca05e1443378224ba0928ad64d327db",
+      "render_extent_wgs84": {
+        "east": -71.061032648,
+        "north": 42.453265937964986,
+        "south": 42.12626286203502,
+        "west": -71.535788552
+      }
+    },
+    {
+      "acquisition_mode": "reused-exact-legacy-overpass-response",
+      "canonical_json_sha256": "36b25e3acf4871343cf6c41083a9245d4e232f98d01900d01fc00a46d9633bff",
+      "course_id": "berlin-marathon-2025",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "file": {
+        "path": "osm/berlin-marathon-2025.json.gz",
+        "sha256": "ad7bebfdbcdbf5fc60311e045e857d3c0e15b1136869355b13ee7592064b1e38",
+        "size_bytes": 17460434
+      },
+      "format_id": "a4-landscape",
+      "from_cache": true,
+      "legacy_manifest": "output/marathon-series/marathon-berlin.plot.json",
+      "osm_base_timestamp": "2026-08-03T08:37:21Z",
+      "position": 5,
+      "query": "[out:json][timeout:180];\n(\n  way[\"highway\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"area:highway\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  relation[\"area:highway\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"waterway\"~\"^(canal|ditch|drain|river|riverbank|stream|tidal_channel)$\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"natural\"=\"water\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  relation[\"natural\"=\"water\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"natural\"=\"bay\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  relation[\"natural\"=\"bay\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"natural\"=\"coastline\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"landuse\"=\"reservoir\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  relation[\"landuse\"=\"reservoir\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"landuse\"=\"basin\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  relation[\"landuse\"=\"basin\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"natural\"=\"wetland\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  relation[\"natural\"=\"wetland\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"man_made\"~\"^(breakwater|pier)$\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  relation[\"waterway\"=\"riverbank\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"railway\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"disused:railway\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"leisure\"~\"^(nature_reserve|park)$\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  relation[\"leisure\"~\"^(nature_reserve|park)$\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  relation[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"landuse\"~\"^(allotments|orchard|village_green)$\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  relation[\"landuse\"~\"^(allotments|orchard|village_green)$\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"natural\"~\"^(heath|scrub|wood)$\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  relation[\"natural\"~\"^(heath|scrub|wood)$\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"leisure\"=\"golf_course\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  relation[\"leisure\"=\"golf_course\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"building\"~\"^(castle|cathedral|chapel|church|civic|college|government|grandstand|hospital|mosque|palace|public|religious|shrine|sports_hall|stadium|synagogue|temple|train_station|university)$\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"building\"][\"amenity\"~\"^(arts_centre|college|courthouse|hospital|library|place_of_worship|theatre|townhall|university)$\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"building\"][\"tourism\"~\"^(gallery|museum)$\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"building\"][\"healthcare\"=\"hospital\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"building\"][\"historic\"~\"^(castle|memorial|monument|palace|tower)$\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"historic\"~\"^(castle|palace)$\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  way[\"leisure\"=\"stadium\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  relation[\"building\"~\"^(castle|cathedral|chapel|church|civic|college|government|grandstand|hospital|mosque|palace|public|religious|shrine|sports_hall|stadium|synagogue|temple|train_station|university)$\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  relation[\"building\"][\"amenity\"~\"^(arts_centre|college|courthouse|hospital|library|place_of_worship|theatre|townhall|university)$\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  relation[\"building\"][\"tourism\"~\"^(gallery|museum)$\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  relation[\"building\"][\"healthcare\"=\"hospital\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  relation[\"building\"][\"historic\"~\"^(castle|memorial|monument|palace|tower)$\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  relation[\"historic\"~\"^(castle|palace)$\"](52.4505965,13.2703317,52.5466635,13.4398113);\n  relation[\"leisure\"=\"stadium\"](52.4505965,13.2703317,52.5466635,13.4398113);\n) -> .selected;\nrel.selected -> .relation_roots;\n.relation_roots >> -> .relation_closure;\n(\n  .selected;\n  rel.relation_closure;\n);\nout geom qt;\n",
+      "query_extent_wgs84": {
+        "east": 13.4398113,
+        "north": 52.5466635,
+        "south": 52.4505965,
+        "west": 13.2703317
+      },
+      "query_sha256": "3734f000be4e03cc7556be1a0b7a62e9a39943dfaf25dc5dae54269dfb6d7f40",
+      "render_extent_wgs84": {
+        "east": 13.4349066,
+        "north": 52.543873478365796,
+        "south": 52.4534145216342,
+        "west": 13.2753204
+      }
+    },
+    {
+      "acquisition_mode": "live-overpass-then-pinned",
+      "canonical_json_sha256": "7ab991c6295e02cbacd5cbc342f0d0816c2a657072f8c1c98dce381a2bdfd6e5",
+      "course_id": "sydney-marathon-2025",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "file": {
+        "path": "osm/sydney-marathon-2025.json.gz",
+        "sha256": "9b0de130629429c316fedcb6a5dd005cf23e2a70d02b0ee895c702e13bd1f764",
+        "size_bytes": 7182867
+      },
+      "format_id": "a4-portrait",
+      "from_cache": true,
+      "osm_base_timestamp": "2026-08-16T20:03:51Z",
+      "position": 6,
+      "query": "[out:json][timeout:180];\n(\n  way[\"highway\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  way[\"area:highway\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  relation[\"area:highway\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  way[\"waterway\"~\"^(canal|ditch|drain|river|riverbank|stream|tidal_channel)$\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  way[\"natural\"=\"water\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  relation[\"natural\"=\"water\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  way[\"natural\"=\"bay\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  relation[\"natural\"=\"bay\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  way[\"natural\"=\"coastline\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  way[\"landuse\"=\"reservoir\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  relation[\"landuse\"=\"reservoir\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  way[\"landuse\"=\"basin\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  relation[\"landuse\"=\"basin\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  way[\"natural\"=\"wetland\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  relation[\"natural\"=\"wetland\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  way[\"man_made\"~\"^(breakwater|pier)$\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  relation[\"waterway\"=\"riverbank\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  way[\"railway\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  way[\"disused:railway\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  way[\"leisure\"~\"^(nature_reserve|park)$\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  relation[\"leisure\"~\"^(nature_reserve|park)$\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  way[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  relation[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  way[\"landuse\"~\"^(allotments|orchard|village_green)$\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  relation[\"landuse\"~\"^(allotments|orchard|village_green)$\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  way[\"natural\"~\"^(heath|scrub|wood)$\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  relation[\"natural\"~\"^(heath|scrub|wood)$\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  way[\"leisure\"=\"golf_course\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n  relation[\"leisure\"=\"golf_course\"](-33.9383564,151.1506871,-33.8261053,151.2822485);\n) -> .selected;\nrel.selected -> .relation_roots;\n.relation_roots >> -> .relation_closure;\n(\n  .selected;\n  rel.relation_closure;\n);\nout geom qt;\n",
+      "query_extent_wgs84": {
+        "east": 151.2822485056029,
+        "north": -33.82610529864159,
+        "south": -33.9383563913584,
+        "west": 151.15068712539713
+      },
+      "query_sha256": "b36a9a6944d2b6757555c29fa5fd46aa341d49df70babe7c26e5137f559b9df1",
+      "render_extent_wgs84": {
+        "east": 151.27852507031406,
+        "north": -33.82928221635999,
+        "south": -33.93517947364,
+        "west": 151.15441056068596
+      }
+    },
+    {
+      "acquisition_mode": "live-overpass-then-pinned",
+      "canonical_json_sha256": "8ff3de990e83b8226e983de42f127bfe211a79e5837329c0688eed0682cd63b6",
+      "course_id": "marrakech-marathon-2026",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "file": {
+        "path": "osm/marrakech-marathon-2026.json.gz",
+        "sha256": "d99931b3a44a347734ab4ce972a6b95942a5767428371007f63c26a9edd38334",
+        "size_bytes": 1981214
+      },
+      "format_id": "a4-portrait",
+      "from_cache": true,
+      "osm_base_timestamp": "2026-08-16T20:03:51Z",
+      "position": 7,
+      "query": "[out:json][timeout:180];\n(\n  way[\"highway\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  way[\"area:highway\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  relation[\"area:highway\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  way[\"waterway\"~\"^(canal|ditch|drain|river|riverbank|stream|tidal_channel)$\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  way[\"natural\"=\"water\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  relation[\"natural\"=\"water\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  way[\"natural\"=\"bay\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  relation[\"natural\"=\"bay\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  way[\"natural\"=\"coastline\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  way[\"landuse\"=\"reservoir\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  relation[\"landuse\"=\"reservoir\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  way[\"landuse\"=\"basin\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  relation[\"landuse\"=\"basin\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  way[\"natural\"=\"wetland\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  relation[\"natural\"=\"wetland\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  way[\"man_made\"~\"^(breakwater|pier)$\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  relation[\"waterway\"=\"riverbank\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  way[\"railway\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  way[\"disused:railway\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  way[\"leisure\"~\"^(nature_reserve|park)$\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  relation[\"leisure\"~\"^(nature_reserve|park)$\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  way[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  relation[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  way[\"landuse\"~\"^(allotments|orchard|village_green)$\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  relation[\"landuse\"~\"^(allotments|orchard|village_green)$\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  way[\"natural\"~\"^(heath|scrub|wood)$\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  relation[\"natural\"~\"^(heath|scrub|wood)$\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  way[\"leisure\"=\"golf_course\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n  relation[\"leisure\"=\"golf_course\"](31.5857170,-8.0648459,31.6924746,-7.9428363);\n) -> .selected;\nrel.selected -> .relation_roots;\n.relation_roots >> -> .relation_closure;\n(\n  .selected;\n  rel.relation_closure;\n);\nout geom qt;\n",
+      "query_extent_wgs84": {
+        "east": -7.94283634604324,
+        "north": 31.692474615605903,
+        "south": 31.58571702519653,
+        "west": -8.064845852891843
+      },
+      "query_sha256": "839f628059189a0c57cb0bdd2df88f8405dbf65e6dbaeeee72079c9615f8b870",
+      "render_extent_wgs84": {
+        "east": -7.946289445293671,
+        "north": 31.6894531743679,
+        "south": 31.58873846643453,
+        "west": -8.06139275364141
+      }
+    },
+    {
+      "acquisition_mode": "live-overpass-then-pinned",
+      "canonical_json_sha256": "05baad454f8c43902f9eeea5c2b42f77388e9da6976d2dde6e3a7ebcc47fd7e9",
+      "course_id": "geneva-marathon-2026",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "file": {
+        "path": "osm/geneva-marathon-2026.json.gz",
+        "sha256": "984fdec52f42f7b43fc68098a1815457b80288d7c1d10afb1049ed3956028930",
+        "size_bytes": 5604701
+      },
+      "format_id": "a4-landscape",
+      "from_cache": true,
+      "osm_base_timestamp": "2026-08-16T20:04:50Z",
+      "position": 8,
+      "query": "[out:json][timeout:180];\n(\n  way[\"highway\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  way[\"area:highway\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  relation[\"area:highway\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  way[\"waterway\"~\"^(canal|ditch|drain|river|riverbank|stream|tidal_channel)$\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  way[\"natural\"=\"water\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  relation[\"natural\"=\"water\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  way[\"natural\"=\"bay\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  relation[\"natural\"=\"bay\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  way[\"natural\"=\"coastline\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  way[\"landuse\"=\"reservoir\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  relation[\"landuse\"=\"reservoir\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  way[\"landuse\"=\"basin\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  relation[\"landuse\"=\"basin\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  way[\"natural\"=\"wetland\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  relation[\"natural\"=\"wetland\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  way[\"man_made\"~\"^(breakwater|pier)$\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  relation[\"waterway\"=\"riverbank\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  way[\"railway\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  way[\"disused:railway\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  way[\"leisure\"~\"^(nature_reserve|park)$\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  relation[\"leisure\"~\"^(nature_reserve|park)$\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  way[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  relation[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  way[\"landuse\"~\"^(allotments|orchard|village_green)$\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  relation[\"landuse\"~\"^(allotments|orchard|village_green)$\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  way[\"natural\"~\"^(heath|scrub|wood)$\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  relation[\"natural\"~\"^(heath|scrub|wood)$\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  way[\"leisure\"=\"golf_course\"](46.1803438,6.1350173,46.2615562,6.2610827);\n  relation[\"leisure\"=\"golf_course\"](46.1803438,6.1350173,46.2615562,6.2610827);\n) -> .selected;\nrel.selected -> .relation_roots;\n.relation_roots >> -> .relation_closure;\n(\n  .selected;\n  rel.relation_closure;\n);\nout geom qt;\n",
+      "query_extent_wgs84": {
+        "east": 6.261082688,
+        "north": 46.26155615168974,
+        "south": 46.180343848310265,
+        "west": 6.1350173120000004
+      },
+      "query_sha256": "11965d1ff45a88c706a28912da8198202636dc785bbaa7db7d74c93877c215af",
+      "render_extent_wgs84": {
+        "east": 6.2575148,
+        "north": 46.25925769027334,
+        "south": 46.18264230972667,
+        "west": 6.1385852000000005
+      }
+    },
+    {
+      "acquisition_mode": "live-overpass-then-pinned",
+      "canonical_json_sha256": "e21a2e13466995b070b8f60cffdda1241f7d7407d3e1952a426c8e27d541182e",
+      "course_id": "rotterdam-marathon-2026",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "file": {
+        "path": "osm/rotterdam-marathon-2026.json.gz",
+        "sha256": "849e5bf8aeb7ebceb2e68b4b30b3bb5f96edbbc76049c53d171415874ab6a957",
+        "size_bytes": 7017611
+      },
+      "format_id": "a4-portrait",
+      "from_cache": true,
+      "osm_base_timestamp": "2026-08-16T20:05:51Z",
+      "position": 9,
+      "query": "[out:json][timeout:180];\n(\n  way[\"highway\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  way[\"area:highway\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  relation[\"area:highway\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  way[\"waterway\"~\"^(canal|ditch|drain|river|riverbank|stream|tidal_channel)$\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  way[\"natural\"=\"water\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  relation[\"natural\"=\"water\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  way[\"natural\"=\"bay\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  relation[\"natural\"=\"bay\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  way[\"natural\"=\"coastline\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  way[\"landuse\"=\"reservoir\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  relation[\"landuse\"=\"reservoir\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  way[\"landuse\"=\"basin\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  relation[\"landuse\"=\"basin\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  way[\"natural\"=\"wetland\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  relation[\"natural\"=\"wetland\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  way[\"man_made\"~\"^(breakwater|pier)$\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  relation[\"waterway\"=\"riverbank\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  way[\"railway\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  way[\"disused:railway\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  way[\"leisure\"~\"^(nature_reserve|park)$\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  relation[\"leisure\"~\"^(nature_reserve|park)$\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  way[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  relation[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  way[\"landuse\"~\"^(allotments|orchard|village_green)$\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  relation[\"landuse\"~\"^(allotments|orchard|village_green)$\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  way[\"natural\"~\"^(heath|scrub|wood)$\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  relation[\"natural\"~\"^(heath|scrub|wood)$\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  way[\"leisure\"=\"golf_course\"](51.8634444,4.4354544,51.9521381,4.5753393);\n  relation[\"leisure\"=\"golf_course\"](51.8634444,4.4354544,51.9521381,4.5753393);\n) -> .selected;\nrel.selected -> .relation_roots;\n.relation_roots >> -> .relation_closure;\n(\n  .selected;\n  rel.relation_closure;\n);\nout geom qt;\n",
+      "query_extent_wgs84": {
+        "east": 4.5753392684435985,
+        "north": 51.95213811172,
+        "south": 51.86344438828001,
+        "west": 4.435454431556402
+      },
+      "query_sha256": "d507479ae788c02e9c0c0830b415d335bed0c7828f4d85a20f52f2f8e2ea00dc",
+      "render_extent_wgs84": {
+        "east": 4.571380263626036,
+        "north": 51.949627912,
+        "south": 51.86595458800001,
+        "west": 4.439413436373965
+      }
+    },
+    {
+      "acquisition_mode": "live-overpass-then-pinned",
+      "canonical_json_sha256": "abda10e89f1417febc95bd73a29ba1db274e6c36e1c8b1241e217dc80e1b4ea0",
+      "course_id": "frankfurt-marathon-2026",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "file": {
+        "path": "osm/frankfurt-marathon-2026.json.gz",
+        "sha256": "b732eec65e27ef104069257127e9fa5b1795848cbe2c052246a5e713613006c1",
+        "size_bytes": 5540913
+      },
+      "format_id": "a4-landscape",
+      "from_cache": true,
+      "osm_base_timestamp": "2026-08-16T20:06:51Z",
+      "position": 10,
+      "query": "[out:json][timeout:180];\n(\n  way[\"highway\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  way[\"area:highway\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  relation[\"area:highway\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  way[\"waterway\"~\"^(canal|ditch|drain|river|riverbank|stream|tidal_channel)$\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  way[\"natural\"=\"water\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  relation[\"natural\"=\"water\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  way[\"natural\"=\"bay\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  relation[\"natural\"=\"bay\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  way[\"natural\"=\"coastline\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  way[\"landuse\"=\"reservoir\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  relation[\"landuse\"=\"reservoir\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  way[\"landuse\"=\"basin\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  relation[\"landuse\"=\"basin\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  way[\"natural\"=\"wetland\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  relation[\"natural\"=\"wetland\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  way[\"man_made\"~\"^(breakwater|pier)$\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  relation[\"waterway\"=\"riverbank\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  way[\"railway\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  way[\"disused:railway\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  way[\"leisure\"~\"^(nature_reserve|park)$\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  relation[\"leisure\"~\"^(nature_reserve|park)$\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  way[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  relation[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  way[\"landuse\"~\"^(allotments|orchard|village_green)$\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  relation[\"landuse\"~\"^(allotments|orchard|village_green)$\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  way[\"natural\"~\"^(heath|scrub|wood)$\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  relation[\"natural\"~\"^(heath|scrub|wood)$\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  way[\"leisure\"=\"golf_course\"](50.0589080,8.5402957,50.1530951,8.6980160);\n  relation[\"leisure\"=\"golf_course\"](50.0589080,8.5402957,50.1530951,8.6980160);\n) -> .selected;\nrel.selected -> .relation_roots;\n.relation_roots >> -> .relation_closure;\n(\n  .selected;\n  rel.relation_closure;\n);\nout geom qt;\n",
+      "query_extent_wgs84": {
+        "east": 8.69801595913754,
+        "north": 50.1530951060811,
+        "south": 50.058908023292126,
+        "west": 8.540295700799776
+      },
+      "query_sha256": "95a7607f950385ce8f3dde9c5bc633fea35f4106c94bd99191aa17370814ddf4",
+      "render_extent_wgs84": {
+        "east": 8.69355217824119,
+        "north": 50.150429433926696,
+        "south": 50.06157369544653,
+        "west": 8.544759481696127
+      }
+    },
+    {
+      "acquisition_mode": "live-overpass-then-pinned",
+      "canonical_json_sha256": "2acbde0fc6d5eb6239666458ff67fc4476bab3e3342209c265c811177ab616ee",
+      "course_id": "stockholm-marathon-2026",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "file": {
+        "path": "osm/stockholm-marathon-2026.json.gz",
+        "sha256": "cba13670ef6cc947464b33931bb006219cbd5fa244b45fd825f5a4bacd68622a",
+        "size_bytes": 4447589
+      },
+      "format_id": "a4-landscape",
+      "from_cache": true,
+      "osm_base_timestamp": "2026-08-16T20:06:51Z",
+      "position": 11,
+      "query": "[out:json][timeout:180];\n(\n  way[\"highway\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  way[\"area:highway\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  relation[\"area:highway\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  way[\"waterway\"~\"^(canal|ditch|drain|river|riverbank|stream|tidal_channel)$\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  way[\"natural\"=\"water\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  relation[\"natural\"=\"water\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  way[\"natural\"=\"bay\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  relation[\"natural\"=\"bay\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  way[\"natural\"=\"coastline\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  way[\"landuse\"=\"reservoir\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  relation[\"landuse\"=\"reservoir\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  way[\"landuse\"=\"basin\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  relation[\"landuse\"=\"basin\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  way[\"natural\"=\"wetland\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  relation[\"natural\"=\"wetland\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  way[\"man_made\"~\"^(breakwater|pier)$\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  relation[\"waterway\"=\"riverbank\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  way[\"railway\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  way[\"disused:railway\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  way[\"leisure\"~\"^(nature_reserve|park)$\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  relation[\"leisure\"~\"^(nature_reserve|park)$\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  way[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  relation[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  way[\"landuse\"~\"^(allotments|orchard|village_green)$\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  relation[\"landuse\"~\"^(allotments|orchard|village_green)$\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  way[\"natural\"~\"^(heath|scrub|wood)$\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  relation[\"natural\"~\"^(heath|scrub|wood)$\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  way[\"leisure\"=\"golf_course\"](59.2963770,18.0122538,59.3585459,18.1431407);\n  relation[\"leisure\"=\"golf_course\"](59.2963770,18.0122538,59.3585459,18.1431407);\n) -> .selected;\nrel.selected -> .relation_roots;\n.relation_roots >> -> .relation_closure;\n(\n  .selected;\n  rel.relation_closure;\n);\nout geom qt;\n",
+      "query_extent_wgs84": {
+        "east": 18.143140665184003,
+        "north": 59.35854594730937,
+        "south": 59.296377024690635,
+        "west": 18.012253780816
+      },
+      "query_sha256": "863027ab23515957670df82f39172171bcadb9342b692f36676219f6e98bf45d",
+      "render_extent_wgs84": {
+        "east": 18.1394363194,
+        "north": 59.35678644949941,
+        "south": 59.2981365225006,
+        "west": 18.0159581266
+      }
+    },
+    {
+      "acquisition_mode": "live-overpass-then-pinned",
+      "canonical_json_sha256": "394946a98b0d54116ee64c28cc1d7d976b5dbdbfeeae8ca84efe93b9bda3c347",
+      "course_id": "jakarta-marathon-2026",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "file": {
+        "path": "osm/jakarta-marathon-2026.json.gz",
+        "sha256": "85fb6464bb60d317a9286f1c8001f07d4189f911ac310da03859f8f13109ce51",
+        "size_bytes": 4364559
+      },
+      "format_id": "a4-portrait",
+      "from_cache": true,
+      "osm_base_timestamp": "2026-08-16T20:14:01Z",
+      "position": 12,
+      "query": "[out:json][timeout:180];\n(\n  way[\"highway\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  way[\"area:highway\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  relation[\"area:highway\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  way[\"waterway\"~\"^(canal|ditch|drain|river|riverbank|stream|tidal_channel)$\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  way[\"natural\"=\"water\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  relation[\"natural\"=\"water\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  way[\"natural\"=\"bay\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  relation[\"natural\"=\"bay\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  way[\"natural\"=\"coastline\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  way[\"landuse\"=\"reservoir\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  relation[\"landuse\"=\"reservoir\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  way[\"landuse\"=\"basin\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  relation[\"landuse\"=\"basin\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  way[\"natural\"=\"wetland\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  relation[\"natural\"=\"wetland\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  way[\"man_made\"~\"^(breakwater|pier)$\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  relation[\"waterway\"=\"riverbank\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  way[\"railway\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  way[\"disused:railway\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  way[\"leisure\"~\"^(nature_reserve|park)$\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  relation[\"leisure\"~\"^(nature_reserve|park)$\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  way[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  relation[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  way[\"landuse\"~\"^(allotments|orchard|village_green)$\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  relation[\"landuse\"~\"^(allotments|orchard|village_green)$\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  way[\"natural\"~\"^(heath|scrub|wood)$\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  relation[\"natural\"~\"^(heath|scrub|wood)$\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  way[\"leisure\"=\"golf_course\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n  relation[\"leisure\"=\"golf_course\"](-6.2632577,106.7681618,-6.1658127,106.8635362);\n) -> .selected;\nrel.selected -> .relation_roots;\n.relation_roots >> -> .relation_closure;\n(\n  .selected;\n  rel.relation_closure;\n);\nout geom qt;\n",
+      "query_extent_wgs84": {
+        "east": 106.86353619597259,
+        "north": -6.165812719511999,
+        "south": -6.263257660488,
+        "west": 106.76816180402741
+      },
+      "query_sha256": "8b2a664025d4b4a1b83ae52c3fd6fd6ec02800a7e8c9de70c097505c5fe4895f",
+      "render_extent_wgs84": {
+        "east": 106.86083692072886,
+        "north": -6.168570595199999,
+        "south": -6.2604997847999995,
+        "west": 106.77086107927114
+      }
+    },
+    {
+      "acquisition_mode": "live-overpass-then-pinned",
+      "canonical_json_sha256": "91a6b14342b76ebea4e5a53e8def7fcffd7ab881cc317e96c1522de3f28e486d",
+      "course_id": "zermatt-marathon-2026",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "file": {
+        "path": "osm/zermatt-marathon-2026.json.gz",
+        "sha256": "aa04f1894a047502c4138b1bdb42263d8bfb71d417203902e0ceaa557ea087ed",
+        "size_bytes": 1545003
+      },
+      "format_id": "a4-portrait",
+      "from_cache": true,
+      "osm_base_timestamp": "2026-08-16T20:08:46Z",
+      "position": 13,
+      "query": "[out:json][timeout:180];\n(\n  way[\"highway\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  way[\"area:highway\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  relation[\"area:highway\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  way[\"waterway\"~\"^(canal|ditch|drain|river|riverbank|stream|tidal_channel)$\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  way[\"natural\"=\"water\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  relation[\"natural\"=\"water\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  way[\"natural\"=\"bay\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  relation[\"natural\"=\"bay\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  way[\"natural\"=\"coastline\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  way[\"landuse\"=\"reservoir\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  relation[\"landuse\"=\"reservoir\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  way[\"landuse\"=\"basin\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  relation[\"landuse\"=\"basin\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  way[\"natural\"=\"wetland\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  relation[\"natural\"=\"wetland\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  way[\"man_made\"~\"^(breakwater|pier)$\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  relation[\"waterway\"=\"riverbank\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  way[\"railway\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  way[\"disused:railway\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  way[\"leisure\"~\"^(nature_reserve|park)$\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  relation[\"leisure\"~\"^(nature_reserve|park)$\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  way[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  relation[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  way[\"landuse\"~\"^(allotments|orchard|village_green)$\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  relation[\"landuse\"~\"^(allotments|orchard|village_green)$\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  way[\"natural\"~\"^(heath|scrub|wood)$\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  relation[\"natural\"~\"^(heath|scrub|wood)$\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  way[\"leisure\"=\"golf_course\"](45.9780537,7.6209746,46.1926990,7.9220908);\n  relation[\"leisure\"=\"golf_course\"](45.9780537,7.6209746,46.1926990,7.9220908);\n) -> .selected;\nrel.selected -> .relation_roots;\n.relation_roots >> -> .relation_closure;\n(\n  .selected;\n  rel.relation_closure;\n);\nout geom qt;\n",
+      "query_extent_wgs84": {
+        "east": 7.9220908446406515,
+        "north": 46.192699004589954,
+        "south": 45.97805368884336,
+        "west": 7.620974647423109
+      },
+      "query_sha256": "051947caeb6b12c74d7d5eab4bcef1e38dd7790f3cbe2b24e179ade6b1465cde",
+      "render_extent_wgs84": {
+        "east": 7.913568688115626,
+        "north": 46.186624137163165,
+        "south": 45.98412855627015,
+        "west": 7.629496803948134
+      }
+    },
+    {
+      "acquisition_mode": "live-overpass-then-pinned",
+      "canonical_json_sha256": "b0cec5be0e38d1faad50f7255e520aec9eec977cf799001f57bc333d3f1dc544",
+      "course_id": "cote-d-amour-marathon-2026",
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "file": {
+        "path": "osm/cote-d-amour-marathon-2026.json.gz",
+        "sha256": "a42140fe565346baf5931807e1e2950246d4570fb0f452d5a9276d44e682db35",
+        "size_bytes": 3853039
+      },
+      "format_id": "a4-landscape",
+      "from_cache": true,
+      "osm_base_timestamp": "2026-08-16T20:08:46Z",
+      "position": 14,
+      "query": "[out:json][timeout:180];\n(\n  way[\"highway\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  way[\"area:highway\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  relation[\"area:highway\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  way[\"waterway\"~\"^(canal|ditch|drain|river|riverbank|stream|tidal_channel)$\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  way[\"natural\"=\"water\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  relation[\"natural\"=\"water\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  way[\"natural\"=\"bay\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  relation[\"natural\"=\"bay\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  way[\"natural\"=\"coastline\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  way[\"landuse\"=\"reservoir\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  relation[\"landuse\"=\"reservoir\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  way[\"landuse\"=\"basin\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  relation[\"landuse\"=\"basin\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  way[\"natural\"=\"wetland\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  relation[\"natural\"=\"wetland\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  way[\"man_made\"~\"^(breakwater|pier)$\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  relation[\"waterway\"=\"riverbank\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  way[\"railway\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  way[\"disused:railway\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  way[\"leisure\"~\"^(nature_reserve|park)$\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  relation[\"leisure\"~\"^(nature_reserve|park)$\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  way[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  relation[\"landuse\"~\"^(forest|grass|recreation_ground|cemetery|meadow)$\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  way[\"landuse\"~\"^(allotments|orchard|village_green)$\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  relation[\"landuse\"~\"^(allotments|orchard|village_green)$\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  way[\"natural\"~\"^(heath|scrub|wood)$\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  relation[\"natural\"~\"^(heath|scrub|wood)$\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  way[\"leisure\"=\"golf_course\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n  relation[\"leisure\"=\"golf_course\"](47.2223756,-2.5587033,47.3407644,-2.3712767);\n) -> .selected;\nrel.selected -> .relation_roots;\n.relation_roots >> -> .relation_closure;\n(\n  .selected;\n  rel.relation_closure;\n);\nout geom qt;\n",
+      "query_extent_wgs84": {
+        "east": -2.3712766720000005,
+        "north": 47.34076436659071,
+        "south": 47.22237563340929,
+        "west": -2.558703328
+      },
+      "query_sha256": "9adac6ef6e73d1e266a8cfa9d83f1c3f389c80b3a1cc8b78736b69049e29aad6",
+      "render_extent_wgs84": {
+        "east": -2.3765812000000004,
+        "north": 47.33741374206671,
+        "south": 47.225726257933296,
+        "west": -2.5533988
+      }
+    }
+  ],
+  "entry_count": 14,
+  "families": [
+    "roads",
+    "water",
+    "railways",
+    "parks"
+  ],
+  "generated_at": "2026-08-16T00:00:00Z",
+  "id": "verified-marathon-osm-basemaps-2026-08-16-v1",
+  "license": {
+    "attribution": "© OpenStreetMap contributors",
+    "copyright_url": "https://www.openstreetmap.org/copyright",
+    "data": "Open Database License (ODbL) 1.0",
+    "license_url": "https://opendatacommons.org/licenses/odbl/1-0/"
+  },
+  "schema_version": 1,
+  "status": "review-only-pinned-overpass-json"
+}

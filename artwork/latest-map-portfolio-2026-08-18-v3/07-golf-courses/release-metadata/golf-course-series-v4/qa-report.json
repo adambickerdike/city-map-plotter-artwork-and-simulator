@@ -1,0 +1,1176 @@
+{
+  "schema_version": 1,
+  "series_id": "golf-courses-v2",
+  "artifact_count": 25,
+  "passed": true,
+  "review_mode": "review-only-nominal-unmeasured-pens",
+  "production_ready": false,
+  "checks": {
+    "checksums": true,
+    "binding_format": true,
+    "zero_physical_retrace": true,
+    "plot_simulation": true,
+    "v4_surface_contract": true
+  },
+  "max_document_travel_ratio": 0.97,
+  "max_field_ink_coverage": 0.10212,
+  "courses": [
+    {
+      "subject_id": "augusta-national",
+      "title": "AUGUSTA NATIONAL",
+      "format_id": "a3-portrait",
+      "scale_denominator": 4900,
+      "course_page_rotation_deg": 55,
+      "fitted_geometry_utilisation": {
+        "width": 0.947793,
+        "height": 0.995678,
+        "maximum": 0.995678
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 8.929,
+        "minimum_map_clearance_mm": 4.084,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.156209,
+        "water_dot_count": 116,
+        "water_dot_counts_by_role": {
+          "water-area-stipple-dot": 99,
+          "water-linear-stipple-dot": 17
+        },
+        "represented_water_source_count": 8,
+        "closed_water_dot_count": 116,
+        "legal_water_dot_count": 116,
+        "minimum_all_water_dot_spacing_mm": 2.451,
+        "minimum_area_water_dot_spacing_mm": 2.451,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": 0.1313,
+        "passed": true
+      },
+      "physical_pen_steps": 10,
+      "manifest_travel_ratio": 0.754,
+      "field_ink_coverage": 0.067247,
+      "plotsim": {
+        "document_ratio": 0.75,
+        "pen_down_m": 16.67,
+        "pen_up_m": 12.58,
+        "lifts": 924,
+        "physical_pens": 10
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "old-course-st-andrews",
+      "title": "THE OLD COURSE",
+      "format_id": "a3-portrait",
+      "scale_denominator": 7400,
+      "course_page_rotation_deg": 10,
+      "fitted_geometry_utilisation": {
+        "width": 0.990543,
+        "height": 0.99787,
+        "maximum": 0.99787
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 7.591,
+        "minimum_map_clearance_mm": 3.945,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.159225,
+        "water_dot_count": 19,
+        "water_dot_counts_by_role": {
+          "water-area-stipple-dot": 2,
+          "water-linear-stipple-dot": 13,
+          "water-narrow-boundary-stipple-dot": 4
+        },
+        "represented_water_source_count": 9,
+        "closed_water_dot_count": 19,
+        "legal_water_dot_count": 19,
+        "minimum_all_water_dot_spacing_mm": 0.635,
+        "minimum_area_water_dot_spacing_mm": 11.435,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": 1.0,
+        "passed": true
+      },
+      "physical_pen_steps": 10,
+      "manifest_travel_ratio": 0.836,
+      "field_ink_coverage": 0.040305,
+      "plotsim": {
+        "document_ratio": 0.84,
+        "pen_down_m": 11.75,
+        "pen_up_m": 9.84,
+        "lifts": 773,
+        "physical_pens": 10
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "pebble-beach",
+      "title": "PEBBLE BEACH GOLF LINKS",
+      "format_id": "a3-portrait",
+      "scale_denominator": 7200,
+      "course_page_rotation_deg": 81,
+      "fitted_geometry_utilisation": {
+        "width": 0.986409,
+        "height": 0.99611,
+        "maximum": 0.99611
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 17.984,
+        "minimum_map_clearance_mm": 3.899,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.159412,
+        "water_dot_count": 125,
+        "water_dot_counts_by_role": {
+          "water-linear-stipple-dot": 14,
+          "water-area-stipple-dot": 111
+        },
+        "represented_water_source_count": 6,
+        "closed_water_dot_count": 125,
+        "legal_water_dot_count": 125,
+        "minimum_all_water_dot_spacing_mm": 2.229,
+        "minimum_area_water_dot_spacing_mm": 5.003,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": 0.1261,
+        "passed": true
+      },
+      "physical_pen_steps": 10,
+      "manifest_travel_ratio": 0.952,
+      "field_ink_coverage": 0.040737,
+      "plotsim": {
+        "document_ratio": 0.95,
+        "pen_down_m": 12.36,
+        "pen_up_m": 11.79,
+        "lifts": 916,
+        "physical_pens": 10
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "pinehurst-no-2",
+      "title": "PINEHURST NO. 2",
+      "format_id": "a3-portrait",
+      "scale_denominator": 6200,
+      "course_page_rotation_deg": 81,
+      "fitted_geometry_utilisation": {
+        "width": 0.998332,
+        "height": 0.992611,
+        "maximum": 0.998332
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 8.866,
+        "minimum_map_clearance_mm": 4.182,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.158983,
+        "water_dot_count": 3,
+        "water_dot_counts_by_role": {
+          "water-area-stipple-dot": 3
+        },
+        "represented_water_source_count": 1,
+        "closed_water_dot_count": 3,
+        "legal_water_dot_count": 3,
+        "minimum_all_water_dot_spacing_mm": 2.575,
+        "minimum_area_water_dot_spacing_mm": 2.575,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": 0.6667,
+        "passed": true
+      },
+      "physical_pen_steps": 10,
+      "manifest_travel_ratio": 0.633,
+      "field_ink_coverage": 0.05822,
+      "plotsim": {
+        "document_ratio": 0.63,
+        "pen_down_m": 15.99,
+        "pen_up_m": 10.14,
+        "lifts": 846,
+        "physical_pens": 10
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "oakmont",
+      "title": "OAKMONT COUNTRY CLUB",
+      "format_id": "a3-portrait",
+      "scale_denominator": 4300,
+      "course_page_rotation_deg": 67,
+      "fitted_geometry_utilisation": {
+        "width": 0.923207,
+        "height": 0.979029,
+        "maximum": 0.979029
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 15.102,
+        "minimum_map_clearance_mm": 3.855,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.159196,
+        "water_dot_count": 62,
+        "water_dot_counts_by_role": {
+          "water-linear-stipple-dot": 62
+        },
+        "represented_water_source_count": 10,
+        "closed_water_dot_count": 62,
+        "legal_water_dot_count": 62,
+        "minimum_all_water_dot_spacing_mm": 2.852,
+        "minimum_area_water_dot_spacing_mm": null,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": null,
+        "passed": true
+      },
+      "physical_pen_steps": 9,
+      "manifest_travel_ratio": 0.795,
+      "field_ink_coverage": 0.064172,
+      "plotsim": {
+        "document_ratio": 0.8,
+        "pen_down_m": 15.88,
+        "pen_up_m": 12.64,
+        "lifts": 1018,
+        "physical_pens": 9
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "shinnecock-hills",
+      "title": "SHINNECOCK HILLS",
+      "format_id": "a3-portrait",
+      "scale_denominator": 4400,
+      "course_page_rotation_deg": -90,
+      "fitted_geometry_utilisation": {
+        "width": 0.998658,
+        "height": 0.994025,
+        "maximum": 0.998658
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 9.2,
+        "minimum_map_clearance_mm": 3.949,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.159174,
+        "water_dot_count": 8,
+        "water_dot_counts_by_role": {
+          "water-area-stipple-dot": 8
+        },
+        "represented_water_source_count": 2,
+        "closed_water_dot_count": 8,
+        "legal_water_dot_count": 8,
+        "minimum_all_water_dot_spacing_mm": 2.544,
+        "minimum_area_water_dot_spacing_mm": 2.544,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": 0.375,
+        "passed": true
+      },
+      "physical_pen_steps": 10,
+      "manifest_travel_ratio": 0.659,
+      "field_ink_coverage": 0.069596,
+      "plotsim": {
+        "document_ratio": 0.66,
+        "pen_down_m": 17.43,
+        "pen_up_m": 11.5,
+        "lifts": 992,
+        "physical_pens": 10
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "muirfield",
+      "title": "MUIRFIELD",
+      "format_id": "a3-portrait",
+      "scale_denominator": 4700,
+      "course_page_rotation_deg": 51,
+      "fitted_geometry_utilisation": {
+        "width": 0.724738,
+        "height": 0.980517,
+        "maximum": 0.980517
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 21.931,
+        "minimum_map_clearance_mm": 3.854,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.140228,
+        "water_dot_count": 0,
+        "water_dot_counts_by_role": {},
+        "represented_water_source_count": 0,
+        "closed_water_dot_count": 0,
+        "legal_water_dot_count": 0,
+        "minimum_all_water_dot_spacing_mm": null,
+        "minimum_area_water_dot_spacing_mm": null,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": null,
+        "passed": true
+      },
+      "physical_pen_steps": 8,
+      "manifest_travel_ratio": 0.761,
+      "field_ink_coverage": 0.053962,
+      "plotsim": {
+        "document_ratio": 0.76,
+        "pen_down_m": 13.42,
+        "pen_up_m": 10.23,
+        "lifts": 834,
+        "physical_pens": 8
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "carnoustie-championship",
+      "title": "CARNOUSTIE",
+      "format_id": "a3-portrait",
+      "scale_denominator": 5200,
+      "course_page_rotation_deg": -84,
+      "fitted_geometry_utilisation": {
+        "width": 0.804624,
+        "height": 0.984786,
+        "maximum": 0.984786
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 7.815,
+        "minimum_map_clearance_mm": 3.82,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.159036,
+        "water_dot_count": 190,
+        "water_dot_counts_by_role": {
+          "water-linear-stipple-dot": 190
+        },
+        "represented_water_source_count": 15,
+        "closed_water_dot_count": 190,
+        "legal_water_dot_count": 190,
+        "minimum_all_water_dot_spacing_mm": 1.073,
+        "minimum_area_water_dot_spacing_mm": null,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": null,
+        "passed": true
+      },
+      "physical_pen_steps": 9,
+      "manifest_travel_ratio": 0.862,
+      "field_ink_coverage": 0.048188,
+      "plotsim": {
+        "document_ratio": 0.86,
+        "pen_down_m": 12.62,
+        "pen_up_m": 10.89,
+        "lifts": 872,
+        "physical_pens": 9
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "royal-county-down",
+      "title": "ROYAL COUNTY DOWN",
+      "format_id": "a3-portrait",
+      "scale_denominator": 5000,
+      "course_page_rotation_deg": -19,
+      "fitted_geometry_utilisation": {
+        "width": 0.993883,
+        "height": 0.998683,
+        "maximum": 0.998683
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 7.505,
+        "minimum_map_clearance_mm": 3.913,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.159056,
+        "water_dot_count": 0,
+        "water_dot_counts_by_role": {},
+        "represented_water_source_count": 0,
+        "closed_water_dot_count": 0,
+        "legal_water_dot_count": 0,
+        "minimum_all_water_dot_spacing_mm": null,
+        "minimum_area_water_dot_spacing_mm": null,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": null,
+        "passed": true
+      },
+      "physical_pen_steps": 8,
+      "manifest_travel_ratio": 0.758,
+      "field_ink_coverage": 0.049614,
+      "plotsim": {
+        "document_ratio": 0.76,
+        "pen_down_m": 13.12,
+        "pen_up_m": 9.96,
+        "lifts": 754,
+        "physical_pens": 8
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "royal-portrush-dunluce",
+      "title": "DUNLUCE LINKS",
+      "format_id": "a3-portrait",
+      "scale_denominator": 5000,
+      "course_page_rotation_deg": -70,
+      "fitted_geometry_utilisation": {
+        "width": 0.983958,
+        "height": 0.983483,
+        "maximum": 0.983958
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 10.624,
+        "minimum_map_clearance_mm": 3.949,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.159161,
+        "water_dot_count": 0,
+        "water_dot_counts_by_role": {},
+        "represented_water_source_count": 0,
+        "closed_water_dot_count": 0,
+        "legal_water_dot_count": 0,
+        "minimum_all_water_dot_spacing_mm": null,
+        "minimum_area_water_dot_spacing_mm": null,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": null,
+        "passed": true
+      },
+      "physical_pen_steps": 8,
+      "manifest_travel_ratio": 0.771,
+      "field_ink_coverage": 0.049976,
+      "plotsim": {
+        "document_ratio": 0.77,
+        "pen_down_m": 12.96,
+        "pen_up_m": 10.0,
+        "lifts": 725,
+        "physical_pens": 8
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "royal-melbourne-west",
+      "title": "ROYAL MELBOURNE WEST",
+      "format_id": "a3-portrait",
+      "scale_denominator": 5400,
+      "course_page_rotation_deg": 83,
+      "fitted_geometry_utilisation": {
+        "width": 0.99409,
+        "height": 0.990894,
+        "maximum": 0.99409
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 9.708,
+        "minimum_map_clearance_mm": 3.977,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.159151,
+        "water_dot_count": 63,
+        "water_dot_counts_by_role": {
+          "water-area-stipple-dot": 63
+        },
+        "represented_water_source_count": 4,
+        "closed_water_dot_count": 63,
+        "legal_water_dot_count": 63,
+        "minimum_all_water_dot_spacing_mm": 2.461,
+        "minimum_area_water_dot_spacing_mm": 2.461,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": 0.1905,
+        "passed": true
+      },
+      "physical_pen_steps": 10,
+      "manifest_travel_ratio": 0.714,
+      "field_ink_coverage": 0.054114,
+      "plotsim": {
+        "document_ratio": 0.71,
+        "pen_down_m": 14.69,
+        "pen_up_m": 10.5,
+        "lifts": 875,
+        "physical_pens": 10
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "cypress-point",
+      "title": "CYPRESS POINT CLUB",
+      "format_id": "a3-portrait",
+      "scale_denominator": 6100,
+      "course_page_rotation_deg": -31,
+      "fitted_geometry_utilisation": {
+        "width": 0.984822,
+        "height": 0.984556,
+        "maximum": 0.984822
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 7.458,
+        "minimum_map_clearance_mm": 3.925,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.140308,
+        "water_dot_count": 6,
+        "water_dot_counts_by_role": {
+          "water-linear-stipple-dot": 6
+        },
+        "represented_water_source_count": 2,
+        "closed_water_dot_count": 6,
+        "legal_water_dot_count": 6,
+        "minimum_all_water_dot_spacing_mm": 1.166,
+        "minimum_area_water_dot_spacing_mm": null,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": null,
+        "passed": true
+      },
+      "physical_pen_steps": 9,
+      "manifest_travel_ratio": 0.755,
+      "field_ink_coverage": 0.045864,
+      "plotsim": {
+        "document_ratio": 0.76,
+        "pen_down_m": 13.3,
+        "pen_up_m": 10.06,
+        "lifts": 757,
+        "physical_pens": 9
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "royal-st-georges",
+      "title": "ROYAL ST GEORGE'S",
+      "format_id": "a3-portrait",
+      "scale_denominator": 5900,
+      "course_page_rotation_deg": -63,
+      "fitted_geometry_utilisation": {
+        "width": 0.939051,
+        "height": 0.999209,
+        "maximum": 0.999209
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 20.33,
+        "minimum_map_clearance_mm": 3.867,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.159213,
+        "water_dot_count": 40,
+        "water_dot_counts_by_role": {
+          "water-linear-stipple-dot": 33,
+          "water-area-stipple-dot": 7
+        },
+        "represented_water_source_count": 17,
+        "closed_water_dot_count": 40,
+        "legal_water_dot_count": 40,
+        "minimum_all_water_dot_spacing_mm": 1.446,
+        "minimum_area_water_dot_spacing_mm": 2.818,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": 0.2857,
+        "passed": true
+      },
+      "physical_pen_steps": 10,
+      "manifest_travel_ratio": 0.967,
+      "field_ink_coverage": 0.045742,
+      "plotsim": {
+        "document_ratio": 0.97,
+        "pen_down_m": 12.34,
+        "pen_up_m": 11.95,
+        "lifts": 775,
+        "physical_pens": 10
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "royal-birkdale",
+      "title": "ROYAL BIRKDALE",
+      "format_id": "a3-portrait",
+      "scale_denominator": 5400,
+      "course_page_rotation_deg": -19,
+      "fitted_geometry_utilisation": {
+        "width": 0.98924,
+        "height": 0.998642,
+        "maximum": 0.998642
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 9.018,
+        "minimum_map_clearance_mm": 4.064,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.159075,
+        "water_dot_count": 82,
+        "water_dot_counts_by_role": {
+          "water-narrow-boundary-stipple-dot": 70,
+          "water-area-stipple-dot": 4,
+          "water-linear-stipple-dot": 8
+        },
+        "represented_water_source_count": 25,
+        "closed_water_dot_count": 82,
+        "legal_water_dot_count": 82,
+        "minimum_all_water_dot_spacing_mm": 0.793,
+        "minimum_area_water_dot_spacing_mm": 5.804,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": 0.75,
+        "passed": true
+      },
+      "physical_pen_steps": 10,
+      "manifest_travel_ratio": 0.808,
+      "field_ink_coverage": 0.060649,
+      "plotsim": {
+        "document_ratio": 0.81,
+        "pen_down_m": 15.54,
+        "pen_up_m": 12.58,
+        "lifts": 1023,
+        "physical_pens": 10
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "royal-troon-old",
+      "title": "ROYAL TROON OLD COURSE",
+      "format_id": "a3-portrait",
+      "scale_denominator": 7900,
+      "course_page_rotation_deg": -6,
+      "fitted_geometry_utilisation": {
+        "width": 0.980284,
+        "height": 0.991926,
+        "maximum": 0.991926
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 9.999,
+        "minimum_map_clearance_mm": 3.901,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.159258,
+        "water_dot_count": 8,
+        "water_dot_counts_by_role": {
+          "water-narrow-boundary-stipple-dot": 8
+        },
+        "represented_water_source_count": 3,
+        "closed_water_dot_count": 8,
+        "legal_water_dot_count": 8,
+        "minimum_all_water_dot_spacing_mm": 2.926,
+        "minimum_area_water_dot_spacing_mm": null,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": null,
+        "passed": true
+      },
+      "physical_pen_steps": 10,
+      "manifest_travel_ratio": 0.77,
+      "field_ink_coverage": 0.040762,
+      "plotsim": {
+        "document_ratio": 0.77,
+        "pen_down_m": 12.49,
+        "pen_up_m": 9.62,
+        "lifts": 800,
+        "physical_pens": 10
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "turnberry-ailsa",
+      "title": "TURNBERRY AILSA",
+      "format_id": "a3-portrait",
+      "scale_denominator": 6800,
+      "course_page_rotation_deg": 43,
+      "fitted_geometry_utilisation": {
+        "width": 0.994461,
+        "height": 0.991097,
+        "maximum": 0.994461
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 10.066,
+        "minimum_map_clearance_mm": 4.022,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.158371,
+        "water_dot_count": 194,
+        "water_dot_counts_by_role": {
+          "water-area-stipple-dot": 181,
+          "water-linear-stipple-dot": 13
+        },
+        "represented_water_source_count": 6,
+        "closed_water_dot_count": 194,
+        "legal_water_dot_count": 194,
+        "minimum_all_water_dot_spacing_mm": 2.526,
+        "minimum_area_water_dot_spacing_mm": 4.43,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": 0.1105,
+        "passed": true
+      },
+      "physical_pen_steps": 10,
+      "manifest_travel_ratio": 0.922,
+      "field_ink_coverage": 0.044673,
+      "plotsim": {
+        "document_ratio": 0.92,
+        "pen_down_m": 12.58,
+        "pen_up_m": 11.62,
+        "lifts": 955,
+        "physical_pens": 10
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "royal-dornoch-championship",
+      "title": "ROYAL DORNOCH",
+      "format_id": "a3-portrait",
+      "scale_denominator": 7700,
+      "course_page_rotation_deg": 69,
+      "fitted_geometry_utilisation": {
+        "width": 0.987964,
+        "height": 0.986165,
+        "maximum": 0.987964
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 15.395,
+        "minimum_map_clearance_mm": 3.893,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.159227,
+        "water_dot_count": 0,
+        "water_dot_counts_by_role": {},
+        "represented_water_source_count": 0,
+        "closed_water_dot_count": 0,
+        "legal_water_dot_count": 0,
+        "minimum_all_water_dot_spacing_mm": null,
+        "minimum_area_water_dot_spacing_mm": null,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": null,
+        "passed": true
+      },
+      "physical_pen_steps": 8,
+      "manifest_travel_ratio": 0.797,
+      "field_ink_coverage": 0.037141,
+      "plotsim": {
+        "document_ratio": 0.8,
+        "pen_down_m": 11.4,
+        "pen_up_m": 9.1,
+        "lifts": 639,
+        "physical_pens": 8
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "sunningdale-old",
+      "title": "SUNNINGDALE OLD",
+      "format_id": "a3-portrait",
+      "scale_denominator": 6600,
+      "course_page_rotation_deg": 64,
+      "fitted_geometry_utilisation": {
+        "width": 0.709954,
+        "height": 0.995081,
+        "maximum": 0.995081
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 8.857,
+        "minimum_map_clearance_mm": 4.045,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.159223,
+        "water_dot_count": 3,
+        "water_dot_counts_by_role": {
+          "water-area-stipple-dot": 2,
+          "water-narrow-boundary-stipple-dot": 1
+        },
+        "represented_water_source_count": 2,
+        "closed_water_dot_count": 3,
+        "legal_water_dot_count": 3,
+        "minimum_all_water_dot_spacing_mm": 1.999,
+        "minimum_area_water_dot_spacing_mm": 4.237,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": 1.0,
+        "passed": true
+      },
+      "physical_pen_steps": 10,
+      "manifest_travel_ratio": 0.866,
+      "field_ink_coverage": 0.044173,
+      "plotsim": {
+        "document_ratio": 0.87,
+        "pen_down_m": 12.84,
+        "pen_up_m": 11.13,
+        "lifts": 759,
+        "physical_pens": 10
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "ballybunion-old",
+      "title": "BALLYBUNION OLD",
+      "format_id": "a3-portrait",
+      "scale_denominator": 5300,
+      "course_page_rotation_deg": 41,
+      "fitted_geometry_utilisation": {
+        "width": 0.986624,
+        "height": 0.983596,
+        "maximum": 0.986624
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 9.732,
+        "minimum_map_clearance_mm": 3.838,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.159237,
+        "water_dot_count": 10,
+        "water_dot_counts_by_role": {
+          "water-linear-stipple-dot": 10
+        },
+        "represented_water_source_count": 5,
+        "closed_water_dot_count": 10,
+        "legal_water_dot_count": 10,
+        "minimum_all_water_dot_spacing_mm": 0.941,
+        "minimum_area_water_dot_spacing_mm": null,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": null,
+        "passed": true
+      },
+      "physical_pen_steps": 9,
+      "manifest_travel_ratio": 0.785,
+      "field_ink_coverage": 0.041592,
+      "plotsim": {
+        "document_ratio": 0.79,
+        "pen_down_m": 11.48,
+        "pen_up_m": 9.03,
+        "lifts": 634,
+        "physical_pens": 9
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "winged-foot-west",
+      "title": "WINGED FOOT WEST",
+      "format_id": "a3-portrait",
+      "scale_denominator": 4900,
+      "course_page_rotation_deg": -40,
+      "fitted_geometry_utilisation": {
+        "width": 0.988545,
+        "height": 0.986155,
+        "maximum": 0.988545
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 8.305,
+        "minimum_map_clearance_mm": 3.934,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.150783,
+        "water_dot_count": 30,
+        "water_dot_counts_by_role": {
+          "water-linear-stipple-dot": 29,
+          "water-area-stipple-dot": 1
+        },
+        "represented_water_source_count": 3,
+        "closed_water_dot_count": 30,
+        "legal_water_dot_count": 30,
+        "minimum_all_water_dot_spacing_mm": 2.502,
+        "minimum_area_water_dot_spacing_mm": null,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": null,
+        "passed": true
+      },
+      "physical_pen_steps": 10,
+      "manifest_travel_ratio": 0.77,
+      "field_ink_coverage": 0.062829,
+      "plotsim": {
+        "document_ratio": 0.77,
+        "pen_down_m": 15.64,
+        "pen_up_m": 12.06,
+        "lifts": 889,
+        "physical_pens": 10
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "national-golf-links",
+      "title": "NATIONAL GOLF LINKS",
+      "format_id": "a3-portrait",
+      "scale_denominator": 7200,
+      "course_page_rotation_deg": -57,
+      "fitted_geometry_utilisation": {
+        "width": 0.989899,
+        "height": 0.991027,
+        "maximum": 0.991027
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 10.762,
+        "minimum_map_clearance_mm": 3.921,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.159258,
+        "water_dot_count": 72,
+        "water_dot_counts_by_role": {
+          "water-area-stipple-dot": 69,
+          "water-linear-stipple-dot": 3
+        },
+        "represented_water_source_count": 13,
+        "closed_water_dot_count": 72,
+        "legal_water_dot_count": 72,
+        "minimum_all_water_dot_spacing_mm": 2.463,
+        "minimum_area_water_dot_spacing_mm": 2.463,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": 0.1594,
+        "passed": true
+      },
+      "physical_pen_steps": 10,
+      "manifest_travel_ratio": 0.842,
+      "field_ink_coverage": 0.051414,
+      "plotsim": {
+        "document_ratio": 0.84,
+        "pen_down_m": 14.76,
+        "pen_up_m": 12.45,
+        "lifts": 1128,
+        "physical_pens": 10
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "seminole",
+      "title": "SEMINOLE GOLF CLUB",
+      "format_id": "a3-portrait",
+      "scale_denominator": 3500,
+      "course_page_rotation_deg": -6,
+      "fitted_geometry_utilisation": {
+        "width": 0.989023,
+        "height": 0.98819,
+        "maximum": 0.989023
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 11.465,
+        "minimum_map_clearance_mm": 3.923,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.128478,
+        "water_dot_count": 325,
+        "water_dot_counts_by_role": {
+          "water-area-stipple-dot": 325
+        },
+        "represented_water_source_count": 5,
+        "closed_water_dot_count": 325,
+        "legal_water_dot_count": 325,
+        "minimum_all_water_dot_spacing_mm": 2.452,
+        "minimum_area_water_dot_spacing_mm": 2.452,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": 0.1108,
+        "passed": true
+      },
+      "physical_pen_steps": 10,
+      "manifest_travel_ratio": 0.671,
+      "field_ink_coverage": 0.10212,
+      "plotsim": {
+        "document_ratio": 0.67,
+        "pen_down_m": 23.79,
+        "pen_up_m": 15.99,
+        "lifts": 1657,
+        "physical_pens": 10
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "whistling-straits",
+      "title": "WHISTLING STRAITS",
+      "format_id": "a3-portrait",
+      "scale_denominator": 9900,
+      "course_page_rotation_deg": 39,
+      "fitted_geometry_utilisation": {
+        "width": 0.987129,
+        "height": 0.999234,
+        "maximum": 0.999234
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 10.155,
+        "minimum_map_clearance_mm": 3.961,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.151745,
+        "water_dot_count": 107,
+        "water_dot_counts_by_role": {
+          "water-linear-stipple-dot": 27,
+          "water-area-stipple-dot": 80
+        },
+        "represented_water_source_count": 8,
+        "closed_water_dot_count": 107,
+        "legal_water_dot_count": 107,
+        "minimum_all_water_dot_spacing_mm": 0.859,
+        "minimum_area_water_dot_spacing_mm": 2.492,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": 0.15,
+        "passed": true
+      },
+      "physical_pen_steps": 10,
+      "manifest_travel_ratio": 0.757,
+      "field_ink_coverage": 0.054182,
+      "plotsim": {
+        "document_ratio": 0.76,
+        "pen_down_m": 16.15,
+        "pen_up_m": 12.25,
+        "lifts": 1802,
+        "physical_pens": 10
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "hirono",
+      "title": "HIRONO GOLF CLUB",
+      "format_id": "a3-portrait",
+      "scale_denominator": 5700,
+      "course_page_rotation_deg": 70,
+      "fitted_geometry_utilisation": {
+        "width": 0.997516,
+        "height": 0.989286,
+        "maximum": 0.997516
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 10.672,
+        "minimum_map_clearance_mm": 3.828,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.157075,
+        "water_dot_count": 113,
+        "water_dot_counts_by_role": {
+          "water-area-stipple-dot": 82,
+          "water-linear-stipple-dot": 31
+        },
+        "represented_water_source_count": 9,
+        "closed_water_dot_count": 113,
+        "legal_water_dot_count": 113,
+        "minimum_all_water_dot_spacing_mm": 2.462,
+        "minimum_area_water_dot_spacing_mm": 2.462,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": 0.1463,
+        "passed": true
+      },
+      "physical_pen_steps": 10,
+      "manifest_travel_ratio": 0.925,
+      "field_ink_coverage": 0.048542,
+      "plotsim": {
+        "document_ratio": 0.93,
+        "pen_down_m": 13.02,
+        "pen_up_m": 12.05,
+        "lifts": 832,
+        "physical_pens": 10
+      },
+      "passed": true,
+      "failures": []
+    },
+    {
+      "subject_id": "cabot-cliffs",
+      "title": "CABOT CLIFFS",
+      "format_id": "a3-portrait",
+      "scale_denominator": 7000,
+      "course_page_rotation_deg": -11,
+      "fitted_geometry_utilisation": {
+        "width": 0.991132,
+        "height": 0.98546,
+        "maximum": 0.991132
+      },
+      "label_feature_overlap_mm": 0.0,
+      "svg_label_clearance": {
+        "marker_count": 18,
+        "minimum_marker_separation_mm": 10.255,
+        "minimum_map_clearance_mm": 3.879,
+        "leader_label_crossings": 0
+      },
+      "v4_style": {
+        "playing_envelope_path_count": 1,
+        "minimum_green_fill_outline_clearance_mm": 0.159227,
+        "water_dot_count": 248,
+        "water_dot_counts_by_role": {
+          "water-area-stipple-dot": 238,
+          "water-linear-stipple-dot": 10
+        },
+        "represented_water_source_count": 9,
+        "closed_water_dot_count": 248,
+        "legal_water_dot_count": 248,
+        "minimum_all_water_dot_spacing_mm": 1.494,
+        "minimum_area_water_dot_spacing_mm": 2.451,
+        "maximum_15_degree_area_dot_nearest_bearing_bin_fraction": 0.1345,
+        "passed": true
+      },
+      "physical_pen_steps": 10,
+      "manifest_travel_ratio": 0.854,
+      "field_ink_coverage": 0.049603,
+      "plotsim": {
+        "document_ratio": 0.86,
+        "pen_down_m": 14.07,
+        "pen_up_m": 12.03,
+        "lifts": 1001,
+        "physical_pens": 10
+      },
+      "passed": true,
+      "failures": []
+    }
+  ],
+  "failures": []
+}

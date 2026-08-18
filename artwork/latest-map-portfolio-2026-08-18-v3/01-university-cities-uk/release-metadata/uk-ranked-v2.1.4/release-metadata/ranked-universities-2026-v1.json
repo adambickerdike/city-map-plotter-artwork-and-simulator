@@ -1,0 +1,2823 @@
+{
+  "schema_version": 1,
+  "catalog_version": "ranked-universities-2026-v1",
+  "as_of": "2026-08-03",
+  "coordinate_provenance": {
+    "note": "Centres identify institution-specific campus products. They are framing seeds, not surveyed campus boundaries.",
+    "base_catalog": {
+      "path": "src/city_map_plotter/data/catalog-v1.json",
+      "sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+      "coordinate_basis": "Wikidata P625 seed points"
+    },
+    "nominatim": {
+      "endpoint": "https://nominatim.openstreetmap.org/search",
+      "query_date": "2026-08-03",
+      "user_agent": "CityMapPlotter/0.2 (local pen-plot art batch)",
+      "selection_rule": "Manually reviewed bounded institution/campus feature, bounded main-campus feature, or documented representative anchor at the historic/main campus. Each centre is a framing seed, not a surveyed campus boundary; the exact role and OSM ref are recorded per subject.",
+      "copyright_url": "https://www.openstreetmap.org/copyright"
+    }
+  },
+  "collections": [
+    {
+      "id": "uk-times-good-university-guide-2026-top-30",
+      "title": "The Times and The Sunday Times UK top 30 universities 2026",
+      "kind": "university",
+      "scope": "United Kingdom",
+      "as_of": "2026-08-03",
+      "methodology": "Exact national top 30 from The Times and The Sunday Times Good University Guide 2026. Source ranks, ties, and table display order are retained; entries are institutions rather than deduplicated cities.",
+      "source_urls": [
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/"
+      ],
+      "entries": [
+        {
+          "subject_id": "uk-university-lse",
+          "position": 1,
+          "rank": "1",
+          "rank_number": 1,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "London School of Economics and Political Science"
+        },
+        {
+          "subject_id": "uk-university-st-andrews",
+          "position": 2,
+          "rank": "2",
+          "rank_number": 2,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "University of St Andrews"
+        },
+        {
+          "subject_id": "uk-university-durham",
+          "position": 3,
+          "rank": "3",
+          "rank_number": 3,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "Durham University"
+        },
+        {
+          "subject_id": "uk-university-cambridge",
+          "position": 4,
+          "rank": "4=",
+          "rank_number": 4,
+          "tied": true,
+          "edition": 2026,
+          "ranking_name": "University of Cambridge"
+        },
+        {
+          "subject_id": "uk-university-oxford",
+          "position": 5,
+          "rank": "4=",
+          "rank_number": 4,
+          "tied": true,
+          "edition": 2026,
+          "ranking_name": "University of Oxford"
+        },
+        {
+          "subject_id": "uk-university-imperial",
+          "position": 6,
+          "rank": "6",
+          "rank_number": 6,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "Imperial College London"
+        },
+        {
+          "subject_id": "uk-university-bath",
+          "position": 7,
+          "rank": "7",
+          "rank_number": 7,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "University of Bath"
+        },
+        {
+          "subject_id": "uk-university-warwick",
+          "position": 8,
+          "rank": "8",
+          "rank_number": 8,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "University of Warwick"
+        },
+        {
+          "subject_id": "uk-university-ucl",
+          "position": 9,
+          "rank": "9",
+          "rank_number": 9,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "University College London"
+        },
+        {
+          "subject_id": "uk-university-bristol",
+          "position": 10,
+          "rank": "10",
+          "rank_number": 10,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "University of Bristol"
+        },
+        {
+          "subject_id": "uk-university-strathclyde",
+          "position": 11,
+          "rank": "11",
+          "rank_number": 11,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "University of Strathclyde"
+        },
+        {
+          "subject_id": "uk-university-loughborough",
+          "position": 12,
+          "rank": "12",
+          "rank_number": 12,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "Loughborough University"
+        },
+        {
+          "subject_id": "uk-university-sheffield",
+          "position": 13,
+          "rank": "13",
+          "rank_number": 13,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "University of Sheffield"
+        },
+        {
+          "subject_id": "uk-university-exeter",
+          "position": 14,
+          "rank": "14",
+          "rank_number": 14,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "University of Exeter"
+        },
+        {
+          "subject_id": "uk-university-lancaster",
+          "position": 15,
+          "rank": "15",
+          "rank_number": 15,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "Lancaster University"
+        },
+        {
+          "subject_id": "uk-university-birmingham",
+          "position": 16,
+          "rank": "16",
+          "rank_number": 16,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "University of Birmingham"
+        },
+        {
+          "subject_id": "uk-university-southampton",
+          "position": 17,
+          "rank": "17",
+          "rank_number": 17,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "University of Southampton"
+        },
+        {
+          "subject_id": "uk-university-liverpool",
+          "position": 18,
+          "rank": "18",
+          "rank_number": 18,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "University of Liverpool"
+        },
+        {
+          "subject_id": "uk-university-kings",
+          "position": 19,
+          "rank": "19",
+          "rank_number": 19,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "King's College London"
+        },
+        {
+          "subject_id": "uk-university-york",
+          "position": 20,
+          "rank": "20",
+          "rank_number": 20,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "University of York"
+        },
+        {
+          "subject_id": "uk-university-queens-belfast",
+          "position": 21,
+          "rank": "21",
+          "rank_number": 21,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "Queen's University Belfast"
+        },
+        {
+          "subject_id": "uk-university-glasgow",
+          "position": 22,
+          "rank": "22",
+          "rank_number": 22,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "University of Glasgow"
+        },
+        {
+          "subject_id": "uk-university-aberdeen",
+          "position": 23,
+          "rank": "23=",
+          "rank_number": 23,
+          "tied": true,
+          "edition": 2026,
+          "ranking_name": "University of Aberdeen"
+        },
+        {
+          "subject_id": "uk-university-dundee",
+          "position": 24,
+          "rank": "23=",
+          "rank_number": 23,
+          "tied": true,
+          "edition": 2026,
+          "ranking_name": "University of Dundee"
+        },
+        {
+          "subject_id": "uk-university-edinburgh",
+          "position": 25,
+          "rank": "25",
+          "rank_number": 25,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "University of Edinburgh"
+        },
+        {
+          "subject_id": "uk-university-leeds",
+          "position": 26,
+          "rank": "26",
+          "rank_number": 26,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "University of Leeds"
+        },
+        {
+          "subject_id": "uk-university-manchester",
+          "position": 27,
+          "rank": "27",
+          "rank_number": 27,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "University of Manchester"
+        },
+        {
+          "subject_id": "uk-university-cardiff",
+          "position": 28,
+          "rank": "28=",
+          "rank_number": 28,
+          "tied": true,
+          "edition": 2026,
+          "ranking_name": "Cardiff University"
+        },
+        {
+          "subject_id": "uk-university-leicester",
+          "position": 29,
+          "rank": "28=",
+          "rank_number": 28,
+          "tied": true,
+          "edition": 2026,
+          "ranking_name": "University of Leicester"
+        },
+        {
+          "subject_id": "uk-university-nottingham",
+          "position": 30,
+          "rank": "30",
+          "rank_number": 30,
+          "tied": false,
+          "edition": 2026,
+          "ranking_name": "University of Nottingham"
+        }
+      ],
+      "audit": {
+        "cohort_size": 30,
+        "ranking_publisher": "Times Media Limited",
+        "ranking_edition": 2026,
+        "online_release_date": "2025-09-19",
+        "checked_on": "2026-08-03",
+        "ties_preserved": true,
+        "access_note": "The primary Times table is subscriber-gated; the same-day FE News national top-30 table supplies the accessible full transcription."
+      }
+    },
+    {
+      "id": "us-qs-world-university-rankings-2027-top-20",
+      "title": "QS World University Rankings 2027 U.S. top 20",
+      "kind": "university",
+      "scope": "United States",
+      "as_of": "2026-08-03",
+      "methodology": "Official QS World University Rankings 2027 results filtered to United States of America. Global ranks, global ties, scores, and QS table display order are retained without domestic re-ranking.",
+      "source_urls": [
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027"
+      ],
+      "entries": [
+        {
+          "subject_id": "us-university-mit",
+          "position": 1,
+          "rank": "1",
+          "rank_number": 1,
+          "tied": false,
+          "edition": 2027,
+          "ranking_name": "Massachusetts Institute of Technology (MIT)",
+          "score": 100.0
+        },
+        {
+          "subject_id": "us-university-stanford",
+          "position": 2,
+          "rank": "=2",
+          "rank_number": 2,
+          "tied": true,
+          "edition": 2027,
+          "ranking_name": "Stanford University",
+          "score": 99.2
+        },
+        {
+          "subject_id": "us-university-harvard",
+          "position": 3,
+          "rank": "5",
+          "rank_number": 5,
+          "tied": false,
+          "edition": 2027,
+          "ranking_name": "Harvard University",
+          "score": 97.4
+        },
+        {
+          "subject_id": "us-university-caltech",
+          "position": 4,
+          "rank": "7",
+          "rank_number": 7,
+          "tied": false,
+          "edition": 2027,
+          "ranking_name": "California Institute of Technology (Caltech)",
+          "score": 96.6
+        },
+        {
+          "subject_id": "us-university-pennsylvania",
+          "position": 5,
+          "rank": "15",
+          "rank_number": 15,
+          "tied": false,
+          "edition": 2027,
+          "ranking_name": "University of Pennsylvania",
+          "score": 91.7
+        },
+        {
+          "subject_id": "us-university-cornell",
+          "position": 6,
+          "rank": "=16",
+          "rank_number": 16,
+          "tied": true,
+          "edition": 2027,
+          "ranking_name": "Cornell University",
+          "score": 91.5
+        },
+        {
+          "subject_id": "us-university-yale",
+          "position": 7,
+          "rank": "=16",
+          "rank_number": 16,
+          "tied": true,
+          "edition": 2027,
+          "ranking_name": "Yale University",
+          "score": 91.5
+        },
+        {
+          "subject_id": "us-university-johns-hopkins",
+          "position": 8,
+          "rank": "=20",
+          "rank_number": 20,
+          "tied": true,
+          "edition": 2027,
+          "ranking_name": "Johns Hopkins University",
+          "score": 89.7
+        },
+        {
+          "subject_id": "us-university-uc-berkeley",
+          "position": 9,
+          "rank": "=20",
+          "rank_number": 20,
+          "tied": true,
+          "edition": 2027,
+          "ranking_name": "University of California, Berkeley (UCB)",
+          "score": 89.7
+        },
+        {
+          "subject_id": "us-university-chicago",
+          "position": 10,
+          "rank": "24",
+          "rank_number": 24,
+          "tied": false,
+          "edition": 2027,
+          "ranking_name": "University of Chicago",
+          "score": 89.2
+        },
+        {
+          "subject_id": "us-university-princeton",
+          "position": 11,
+          "rank": "27",
+          "rank_number": 27,
+          "tied": false,
+          "edition": 2027,
+          "ranking_name": "Princeton University",
+          "score": 88.9
+        },
+        {
+          "subject_id": "us-university-columbia",
+          "position": 12,
+          "rank": "=43",
+          "rank_number": 43,
+          "tied": true,
+          "edition": 2027,
+          "ranking_name": "Columbia University",
+          "score": 84.0
+        },
+        {
+          "subject_id": "us-university-northwestern",
+          "position": 13,
+          "rank": "=45",
+          "rank_number": 45,
+          "tied": true,
+          "edition": 2027,
+          "ranking_name": "Northwestern University",
+          "score": 83.8
+        },
+        {
+          "subject_id": "us-university-ucla",
+          "position": 14,
+          "rank": "49",
+          "rank_number": 49,
+          "tied": false,
+          "edition": 2027,
+          "ranking_name": "University of California, Los Angeles (UCLA)",
+          "score": 82.7
+        },
+        {
+          "subject_id": "us-university-michigan-ann-arbor",
+          "position": 15,
+          "rank": "51",
+          "rank_number": 51,
+          "tied": false,
+          "edition": 2027,
+          "ranking_name": "University of Michigan–Ann Arbor",
+          "score": 82.2
+        },
+        {
+          "subject_id": "us-university-carnegie-mellon",
+          "position": 16,
+          "rank": "55",
+          "rank_number": 55,
+          "tied": false,
+          "edition": 2027,
+          "ranking_name": "Carnegie Mellon University",
+          "score": 81.4
+        },
+        {
+          "subject_id": "us-university-nyu",
+          "position": 17,
+          "rank": "58",
+          "rank_number": 58,
+          "tied": false,
+          "edition": 2027,
+          "ranking_name": "New York University (NYU)",
+          "score": 80.8
+        },
+        {
+          "subject_id": "us-university-brown",
+          "position": 18,
+          "rank": "66",
+          "rank_number": 66,
+          "tied": false,
+          "edition": 2027,
+          "ranking_name": "Brown University",
+          "score": 77.4
+        },
+        {
+          "subject_id": "us-university-duke",
+          "position": 19,
+          "rank": "70",
+          "rank_number": 70,
+          "tied": false,
+          "edition": 2027,
+          "ranking_name": "Duke University",
+          "score": 75.8
+        },
+        {
+          "subject_id": "us-university-ut-austin",
+          "position": 20,
+          "rank": "72",
+          "rank_number": 72,
+          "tied": false,
+          "edition": 2027,
+          "ranking_name": "University of Texas at Austin",
+          "score": 75.3
+        }
+      ],
+      "audit": {
+        "cohort_size": 20,
+        "ranking_publisher": "QS Quacquarelli Symonds",
+        "ranking_edition": 2027,
+        "ranking_release_date": "2026-06-18",
+        "checked_on": "2026-08-03",
+        "ties_preserved": true,
+        "cutoff_note": "The twentieth U.S. institution is UT Austin at global rank 72; the next U.S. institution is UIUC at global rank 74."
+      }
+    }
+  ],
+  "subjects": [
+    {
+      "id": "uk-university-lse",
+      "kind": "university",
+      "name": "London School of Economics and Political Science",
+      "location": {
+        "city": "London",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          51.513888888,
+          -0.116666666
+        ],
+        "query": "London School of Economics and Political Science, London, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.lse.ac.uk/",
+        "wikidata_id": "Q174570",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-lse",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q174570",
+          "source_center": [
+            "51.513888888",
+            "-0.116666666"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.lse.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q174570",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-st-andrews",
+      "kind": "university",
+      "name": "University of St Andrews",
+      "location": {
+        "city": "St Andrews",
+        "region": "Scotland",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          56.3398554,
+          -2.8117775
+        ],
+        "query": "University of St Andrews, St Andrews, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.st-andrews.ac.uk/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "University of St Andrews, St Andrews, United Kingdom",
+          "query_date": "2026-08-03",
+          "osm_ref": "relation/10049408",
+          "source_center": [
+            "56.3398554",
+            "-2.8117775"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.st-andrews.ac.uk/",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.openstreetmap.org/relation/10049408",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-durham",
+      "kind": "university",
+      "name": "Durham University",
+      "location": {
+        "city": "Durham",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          54.775,
+          -1.575
+        ],
+        "query": "Durham University, Durham, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.durham.ac.uk/",
+        "wikidata_id": "Q458393",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-durham",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q458393",
+          "source_center": [
+            "54.775",
+            "-1.575"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.durham.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q458393",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-cambridge",
+      "kind": "university",
+      "name": "University of Cambridge",
+      "location": {
+        "city": "Cambridge",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          52.205355979,
+          0.113157269
+        ],
+        "query": "University of Cambridge, Cambridge, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.cam.ac.uk/",
+        "wikidata_id": "Q35794",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-cambridge",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q35794",
+          "source_center": [
+            "52.205355979",
+            "0.113157269"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.cam.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q35794",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-oxford",
+      "kind": "university",
+      "name": "University of Oxford",
+      "location": {
+        "city": "Oxford",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          51.755,
+          -1.255
+        ],
+        "query": "University of Oxford, Oxford, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.ox.ac.uk/",
+        "wikidata_id": "Q34433",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-oxford",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q34433",
+          "source_center": [
+            "51.755",
+            "-1.255"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.ox.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q34433",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-imperial",
+      "kind": "university",
+      "name": "Imperial College London",
+      "location": {
+        "city": "London",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          51.498308,
+          -0.176882
+        ],
+        "query": "Imperial College London, London, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.imperial.ac.uk/",
+        "wikidata_id": "Q189022",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-imperial",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q189022",
+          "source_center": [
+            "51.498308",
+            "-0.176882"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.imperial.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q189022",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-bath",
+      "kind": "university",
+      "name": "University of Bath",
+      "location": {
+        "city": "Bath",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          51.3766938,
+          -2.3234206
+        ],
+        "query": "University of Bath, Bath, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.bath.ac.uk/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "University of Bath, Bath, United Kingdom",
+          "query_date": "2026-08-03",
+          "osm_ref": "way/345133857",
+          "source_center": [
+            "51.3766938",
+            "-2.3234206"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.bath.ac.uk/",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.openstreetmap.org/way/345133857",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-warwick",
+      "kind": "university",
+      "name": "University of Warwick",
+      "location": {
+        "city": "Coventry",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          52.380080555,
+          -1.561930555
+        ],
+        "query": "University of Warwick, Coventry, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://warwick.ac.uk/",
+        "wikidata_id": "Q865528",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-warwick",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q865528",
+          "source_center": [
+            "52.380080555",
+            "-1.561930555"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://warwick.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q865528",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-ucl",
+      "kind": "university",
+      "name": "University College London",
+      "location": {
+        "city": "London",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          51.524722222,
+          -0.133611111
+        ],
+        "query": "University College London, London, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.ucl.ac.uk/",
+        "wikidata_id": "Q193196",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-ucl",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q193196",
+          "source_center": [
+            "51.524722222",
+            "-0.133611111"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.ucl.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q193196",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-bristol",
+      "kind": "university",
+      "name": "University of Bristol",
+      "location": {
+        "city": "Bristol",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          51.456388888,
+          -2.604444444
+        ],
+        "query": "University of Bristol, Bristol, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.bristol.ac.uk/",
+        "wikidata_id": "Q459506",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-bristol",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q459506",
+          "source_center": [
+            "51.456388888",
+            "-2.604444444"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.bristol.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q459506",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-strathclyde",
+      "kind": "university",
+      "name": "University of Strathclyde",
+      "location": {
+        "city": "Glasgow",
+        "region": "Scotland",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          55.8618812,
+          -4.2419566
+        ],
+        "query": "University of Strathclyde, Glasgow, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.strath.ac.uk/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "University of Strathclyde, Glasgow, United Kingdom",
+          "query_date": "2026-08-03",
+          "osm_ref": "way/20448384",
+          "source_center": [
+            "55.8618812",
+            "-4.2419566"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.strath.ac.uk/",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.openstreetmap.org/way/20448384",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-loughborough",
+      "kind": "university",
+      "name": "Loughborough University",
+      "location": {
+        "city": "Loughborough",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          52.763845,
+          -1.2372582
+        ],
+        "query": "Loughborough University, Loughborough, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.lboro.ac.uk/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "Loughborough University, Loughborough, United Kingdom",
+          "query_date": "2026-08-03",
+          "osm_ref": "way/9961576",
+          "source_center": [
+            "52.7638450",
+            "-1.2372582"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.lboro.ac.uk/",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.openstreetmap.org/way/9961576",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-sheffield",
+      "kind": "university",
+      "name": "University of Sheffield",
+      "location": {
+        "city": "Sheffield",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          53.380722222,
+          -1.488805555
+        ],
+        "query": "University of Sheffield, Sheffield, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.sheffield.ac.uk/",
+        "wikidata_id": "Q823917",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-sheffield",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q823917",
+          "source_center": [
+            "53.380722222",
+            "-1.488805555"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.sheffield.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q823917",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-exeter",
+      "kind": "university",
+      "name": "University of Exeter",
+      "location": {
+        "city": "Exeter",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          50.736111111,
+          -3.535
+        ],
+        "query": "University of Exeter, Exeter, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.exeter.ac.uk/",
+        "wikidata_id": "Q1414861",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-exeter",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q1414861",
+          "source_center": [
+            "50.736111111",
+            "-3.535"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.exeter.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q1414861",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-lancaster",
+      "kind": "university",
+      "name": "Lancaster University",
+      "location": {
+        "city": "Lancaster",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          54.0098429,
+          -2.7875768
+        ],
+        "query": "Lancaster University, Lancaster, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.lancaster.ac.uk/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "Lancaster University, Lancaster, United Kingdom",
+          "query_date": "2026-08-03",
+          "osm_ref": "way/23347159",
+          "source_center": [
+            "54.0098429",
+            "-2.7875768"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.lancaster.ac.uk/",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.openstreetmap.org/way/23347159",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-birmingham",
+      "kind": "university",
+      "name": "University of Birmingham",
+      "location": {
+        "city": "Birmingham",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          52.450555555,
+          -1.930555555
+        ],
+        "query": "University of Birmingham, Birmingham, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.birmingham.ac.uk/",
+        "wikidata_id": "Q223429",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-birmingham",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q223429",
+          "source_center": [
+            "52.450555555",
+            "-1.930555555"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.birmingham.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q223429",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-southampton",
+      "kind": "university",
+      "name": "University of Southampton",
+      "location": {
+        "city": "Southampton",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          50.93463,
+          -1.39595
+        ],
+        "query": "University of Southampton, Southampton, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.southampton.ac.uk/",
+        "wikidata_id": "Q76473",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-southampton",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q76473",
+          "source_center": [
+            "50.93463",
+            "-1.39595"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.southampton.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q76473",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-liverpool",
+      "kind": "university",
+      "name": "University of Liverpool",
+      "location": {
+        "city": "Liverpool",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          53.406,
+          -2.967
+        ],
+        "query": "University of Liverpool, Liverpool, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.liverpool.ac.uk/",
+        "wikidata_id": "Q499510",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-liverpool",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q499510",
+          "source_center": [
+            "53.406",
+            "-2.967"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.liverpool.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q499510",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-kings",
+      "kind": "university",
+      "name": "King's College London",
+      "location": {
+        "city": "London",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          51.511944444,
+          -0.116111111
+        ],
+        "query": "King's College London, London, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.kcl.ac.uk/",
+        "wikidata_id": "Q245247",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-kings",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q245247",
+          "source_center": [
+            "51.511944444",
+            "-0.116111111"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.kcl.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q245247",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-york",
+      "kind": "university",
+      "name": "University of York",
+      "location": {
+        "city": "York",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          53.94659,
+          -1.0525
+        ],
+        "query": "University of York, York, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.york.ac.uk/",
+        "wikidata_id": "Q967165",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-york",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q967165",
+          "source_center": [
+            "53.94659",
+            "-1.0525"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.york.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q967165",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-queens-belfast",
+      "kind": "university",
+      "name": "Queen's University Belfast",
+      "location": {
+        "city": "Belfast",
+        "region": "Northern Ireland",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          54.584166666,
+          -5.934722222
+        ],
+        "query": "Queen's University Belfast, Belfast, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.qub.ac.uk/",
+        "wikidata_id": "Q877925",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-queens-belfast",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q877925",
+          "source_center": [
+            "54.584166666",
+            "-5.934722222"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.qub.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q877925",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-glasgow",
+      "kind": "university",
+      "name": "University of Glasgow",
+      "location": {
+        "city": "Glasgow",
+        "region": "Scotland",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          55.872222222,
+          -4.288055555
+        ],
+        "query": "University of Glasgow, Glasgow, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.gla.ac.uk/",
+        "wikidata_id": "Q192775",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-glasgow",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q192775",
+          "source_center": [
+            "55.872222222",
+            "-4.288055555"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.gla.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q192775",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-aberdeen",
+      "kind": "university",
+      "name": "University of Aberdeen",
+      "location": {
+        "city": "Aberdeen",
+        "region": "Scotland",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          57.1645542,
+          -2.1018424
+        ],
+        "query": "University of Aberdeen, Aberdeen, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.abdn.ac.uk/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "University of Aberdeen, Aberdeen, United Kingdom",
+          "query_date": "2026-08-03",
+          "osm_ref": "relation/8451250",
+          "source_center": [
+            "57.1645542",
+            "-2.1018424"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.abdn.ac.uk/",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.openstreetmap.org/relation/8451250",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-dundee",
+      "kind": "university",
+      "name": "University of Dundee",
+      "location": {
+        "city": "Dundee",
+        "region": "Scotland",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          56.4579676,
+          -2.9821483
+        ],
+        "query": "University of Dundee, Dundee, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.dundee.ac.uk/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "University of Dundee, Dundee, United Kingdom",
+          "query_date": "2026-08-03",
+          "osm_ref": "way/45115495",
+          "source_center": [
+            "56.4579676",
+            "-2.9821483"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.dundee.ac.uk/",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.openstreetmap.org/way/45115495",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-edinburgh",
+      "kind": "university",
+      "name": "University of Edinburgh",
+      "location": {
+        "city": "Edinburgh",
+        "region": "Scotland",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          55.947388888,
+          -3.187194444
+        ],
+        "query": "University of Edinburgh, Edinburgh, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.ed.ac.uk/",
+        "wikidata_id": "Q160302",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-edinburgh",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q160302",
+          "source_center": [
+            "55.947388888",
+            "-3.187194444"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.ed.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q160302",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-leeds",
+      "kind": "university",
+      "name": "University of Leeds",
+      "location": {
+        "city": "Leeds",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          53.807222222,
+          -1.551666666
+        ],
+        "query": "University of Leeds, Leeds, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.leeds.ac.uk/",
+        "wikidata_id": "Q503424",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-leeds",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q503424",
+          "source_center": [
+            "53.807222222",
+            "-1.551666666"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.leeds.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q503424",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-manchester",
+      "kind": "university",
+      "name": "University of Manchester",
+      "location": {
+        "city": "Manchester",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          53.466111111,
+          -2.231944444
+        ],
+        "query": "University of Manchester, Manchester, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.manchester.ac.uk/",
+        "wikidata_id": "Q230899",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-manchester",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q230899",
+          "source_center": [
+            "53.466111111",
+            "-2.231944444"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.manchester.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q230899",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-cardiff",
+      "kind": "university",
+      "name": "Cardiff University",
+      "location": {
+        "city": "Cardiff",
+        "region": "Wales",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          51.487433333,
+          -3.178230555
+        ],
+        "query": "Cardiff University, Cardiff, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.cardiff.ac.uk/",
+        "wikidata_id": "Q1035745",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-cardiff",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q1035745",
+          "source_center": [
+            "51.487433333",
+            "-3.178230555"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.cardiff.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q1035745",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-leicester",
+      "kind": "university",
+      "name": "University of Leicester",
+      "location": {
+        "city": "Leicester",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          52.6087005,
+          -1.114824
+        ],
+        "query": "University of Leicester, Leicester, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://le.ac.uk/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "University of Leicester, Leicester, United Kingdom",
+          "query_date": "2026-08-03",
+          "osm_ref": "way/294335092",
+          "source_center": [
+            "52.6087005",
+            "-1.1148240"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://le.ac.uk/",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.openstreetmap.org/way/294335092",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "uk-university-nottingham",
+      "kind": "university",
+      "name": "University of Nottingham",
+      "location": {
+        "city": "Nottingham",
+        "region": "England",
+        "country": "United Kingdom",
+        "country_code": "GB"
+      },
+      "map": {
+        "center": [
+          52.938888888,
+          -1.196944444
+        ],
+        "query": "University of Nottingham, Nottingham, United Kingdom",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "membership": "Russell Group",
+        "institution_url": "https://www.nottingham.ac.uk/",
+        "wikidata_id": "Q472316",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "pinned bundled catalog-v1.json / Wikidata P625",
+          "base_subject_id": "uk-university-nottingham",
+          "base_catalog_sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+          "wikidata_id": "Q472316",
+          "source_center": [
+            "52.938888888",
+            "-1.196944444"
+          ]
+        }
+      },
+      "source_urls": [
+        "https://www.nottingham.ac.uk/",
+        "https://www.russellgroup.ac.uk/our-universities",
+        "https://www.thetimes.com/uk-university-rankings",
+        "https://www.thetimes.com/uk-university-rankings/feature-guide/article/best-good-university-guide-2026-nlg69hm5k",
+        "https://www.fenews.co.uk/fe-voices/the-times-and-the-sunday-times-good-university-guide-2026/",
+        "https://www.wikidata.org/wiki/Q472316",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "us-university-mit",
+      "kind": "university",
+      "name": "Massachusetts Institute of Technology (MIT)",
+      "location": {
+        "city": "Cambridge",
+        "region": "Massachusetts",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          42.3582529,
+          -71.0966272
+        ],
+        "query": "Massachusetts Institute of Technology, Cambridge, Massachusetts, United States",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.mit.edu/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "Massachusetts Institute of Technology, Cambridge, Massachusetts, United States",
+          "query_date": "2026-08-03",
+          "osm_ref": "relation/65066",
+          "source_center": [
+            "42.3582529",
+            "-71.0966272"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.mit.edu/",
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://www.openstreetmap.org/relation/65066",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "us-university-stanford",
+      "kind": "university",
+      "name": "Stanford University",
+      "location": {
+        "city": "Stanford",
+        "region": "California",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          37.4313138,
+          -122.1693654
+        ],
+        "query": "Stanford University, Stanford, California, United States",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.stanford.edu/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "Stanford University, Stanford, California, United States",
+          "query_date": "2026-08-03",
+          "osm_ref": "way/29268613",
+          "source_center": [
+            "37.4313138",
+            "-122.1693654"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.stanford.edu/",
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://www.openstreetmap.org/way/29268613",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "us-university-harvard",
+      "kind": "university",
+      "name": "Harvard University",
+      "location": {
+        "city": "Cambridge",
+        "region": "Massachusetts",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          42.3657432,
+          -71.1222139
+        ],
+        "query": "Harvard University, Cambridge, Massachusetts, United States",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.harvard.edu/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "Harvard University, Cambridge, Massachusetts, United States",
+          "query_date": "2026-08-03",
+          "osm_ref": "relation/2415825",
+          "source_center": [
+            "42.3657432",
+            "-71.1222139"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.harvard.edu/",
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://www.openstreetmap.org/relation/2415825",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "us-university-caltech",
+      "kind": "university",
+      "name": "California Institute of Technology (Caltech)",
+      "location": {
+        "city": "Pasadena",
+        "region": "California",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          34.1370138,
+          -118.1252883
+        ],
+        "query": "California Institute of Technology, Pasadena, California, United States",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.caltech.edu/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "California Institute of Technology, Pasadena, California, United States",
+          "query_date": "2026-08-03",
+          "osm_ref": "way/29111188",
+          "source_center": [
+            "34.1370138",
+            "-118.1252883"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.caltech.edu/",
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://www.openstreetmap.org/way/29111188",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "us-university-pennsylvania",
+      "kind": "university",
+      "name": "University of Pennsylvania",
+      "location": {
+        "city": "Philadelphia",
+        "region": "Pennsylvania",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          39.9522148,
+          -75.1955729
+        ],
+        "query": "University of Pennsylvania, Philadelphia, Pennsylvania, United States",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.upenn.edu/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "University of Pennsylvania, Philadelphia, Pennsylvania, United States",
+          "query_date": "2026-08-03",
+          "osm_ref": "relation/2594845",
+          "source_center": [
+            "39.9522148",
+            "-75.1955729"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.upenn.edu/",
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://www.openstreetmap.org/relation/2594845",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "us-university-cornell",
+      "kind": "university",
+      "name": "Cornell University",
+      "location": {
+        "city": "Ithaca",
+        "region": "New York",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          42.452916,
+          -76.4800635
+        ],
+        "query": "Cornell University, Ithaca, New York, United States",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.cornell.edu/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "Cornell University, Ithaca, New York, United States",
+          "query_date": "2026-08-03",
+          "osm_ref": "relation/11625564",
+          "source_center": [
+            "42.4529160",
+            "-76.4800635"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.cornell.edu/",
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://www.openstreetmap.org/relation/11625564",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "us-university-yale",
+      "kind": "university",
+      "name": "Yale University",
+      "location": {
+        "city": "New Haven",
+        "region": "Connecticut",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          41.3104643,
+          -72.9271397
+        ],
+        "query": "Cross Campus, New Haven, Connecticut, United States",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.yale.edu/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "Cross Campus, New Haven, Connecticut, United States",
+          "query_date": "2026-08-03",
+          "osm_ref": "relation/5421111",
+          "source_center": [
+            "41.3104643",
+            "-72.9271397"
+          ],
+          "selection_role": "representative_main_campus_anchor",
+          "selection_evidence_url": "https://locations.yale.edu/popular-locations-yale",
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.yale.edu/",
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://locations.yale.edu/popular-locations-yale",
+        "https://www.openstreetmap.org/relation/5421111",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "us-university-johns-hopkins",
+      "kind": "university",
+      "name": "Johns Hopkins University",
+      "location": {
+        "city": "Baltimore",
+        "region": "Maryland",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          39.3302023,
+          -76.6218536
+        ],
+        "query": "Johns Hopkins University Homewood Campus, Baltimore, Maryland, United States",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.jhu.edu/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "Johns Hopkins University Homewood Campus, Baltimore, Maryland, United States",
+          "query_date": "2026-08-03",
+          "osm_ref": "relation/8043868",
+          "source_center": [
+            "39.3302023",
+            "-76.6218536"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.jhu.edu/",
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://www.openstreetmap.org/relation/8043868",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "us-university-uc-berkeley",
+      "kind": "university",
+      "name": "University of California, Berkeley (UCB)",
+      "location": {
+        "city": "Berkeley",
+        "region": "California",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          37.8720601,
+          -122.2578318
+        ],
+        "query": "Sather Tower, Berkeley, California, United States",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.berkeley.edu/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "Sather Tower, Berkeley, California, United States",
+          "query_date": "2026-08-03",
+          "osm_ref": "way/24024507",
+          "source_center": [
+            "37.8720601",
+            "-122.2578318"
+          ],
+          "selection_role": "representative_main_campus_anchor",
+          "selection_evidence_url": "https://news.berkeley.edu/2015/02/04/campanile-centennial-celebration/",
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.berkeley.edu/",
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://news.berkeley.edu/2015/02/04/campanile-centennial-celebration/",
+        "https://www.openstreetmap.org/way/24024507",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "us-university-chicago",
+      "kind": "university",
+      "name": "University of Chicago",
+      "location": {
+        "city": "Chicago",
+        "region": "Illinois",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          41.7913274,
+          -87.6008421
+        ],
+        "query": "The University of Chicago, 5801 South Ellis Avenue, Chicago, Illinois, United States",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.uchicago.edu/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "The University of Chicago, 5801 South Ellis Avenue, Chicago, Illinois, United States",
+          "query_date": "2026-08-03",
+          "osm_ref": "relation/13117436",
+          "source_center": [
+            "41.7913274",
+            "-87.6008421"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.uchicago.edu/",
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://www.openstreetmap.org/relation/13117436",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "us-university-princeton",
+      "kind": "university",
+      "name": "Princeton University",
+      "location": {
+        "city": "Princeton",
+        "region": "New Jersey",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          40.3386752,
+          -74.6583655
+        ],
+        "query": "Princeton University, Princeton, New Jersey, United States",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.princeton.edu/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "Princeton University, Princeton, New Jersey, United States",
+          "query_date": "2026-08-03",
+          "osm_ref": "relation/6365145",
+          "source_center": [
+            "40.3386752",
+            "-74.6583655"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.princeton.edu/",
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://www.openstreetmap.org/relation/6365145",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "us-university-columbia",
+      "kind": "university",
+      "name": "Columbia University",
+      "location": {
+        "city": "New York City",
+        "region": "New York",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          40.8077507,
+          -73.9624901
+        ],
+        "query": "Columbia University, New York City, New York, United States",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.columbia.edu/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "Columbia University, New York City, New York, United States",
+          "query_date": "2026-08-03",
+          "osm_ref": "way/732228095",
+          "source_center": [
+            "40.8077507",
+            "-73.9624901"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.columbia.edu/",
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://www.openstreetmap.org/way/732228095",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "us-university-northwestern",
+      "kind": "university",
+      "name": "Northwestern University",
+      "location": {
+        "city": "Evanston",
+        "region": "Illinois",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          42.0557157,
+          -87.6752945
+        ],
+        "query": "Northwestern University, Evanston, Illinois, United States",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.northwestern.edu/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "Northwestern University, Evanston, Illinois, United States",
+          "query_date": "2026-08-03",
+          "osm_ref": "relation/2105485",
+          "source_center": [
+            "42.0557157",
+            "-87.6752945"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.northwestern.edu/",
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://www.openstreetmap.org/relation/2105485",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "us-university-ucla",
+      "kind": "university",
+      "name": "University of California, Los Angeles (UCLA)",
+      "location": {
+        "city": "Los Angeles",
+        "region": "California",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          34.0708777,
+          -118.4468503
+        ],
+        "query": "University of California Los Angeles, Los Angeles, California, United States",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.ucla.edu/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "University of California Los Angeles, Los Angeles, California, United States",
+          "query_date": "2026-08-03",
+          "osm_ref": "relation/7493269",
+          "source_center": [
+            "34.0708777",
+            "-118.4468503"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.ucla.edu/",
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://www.openstreetmap.org/relation/7493269",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "us-university-michigan-ann-arbor",
+      "kind": "university",
+      "name": "University of Michigan–Ann Arbor",
+      "location": {
+        "city": "Ann Arbor",
+        "region": "Michigan",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          42.2789918,
+          -83.7353389
+        ],
+        "query": "Central Campus, Ann Arbor, Michigan, United States",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://umich.edu/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "Central Campus, Ann Arbor, Michigan, United States",
+          "query_date": "2026-08-03",
+          "osm_ref": "way/40976143",
+          "source_center": [
+            "42.2789918",
+            "-83.7353389"
+          ],
+          "selection_role": "bounded_main_campus_feature",
+          "selection_evidence_url": "https://campusinvolvement.umich.edu/article/central-campus-diagnorth-campus-gerstacker-grove",
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://umich.edu/",
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://campusinvolvement.umich.edu/article/central-campus-diagnorth-campus-gerstacker-grove",
+        "https://www.openstreetmap.org/way/40976143",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "us-university-carnegie-mellon",
+      "kind": "university",
+      "name": "Carnegie Mellon University",
+      "location": {
+        "city": "Pittsburgh",
+        "region": "Pennsylvania",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          40.4439193,
+          -79.9428267
+        ],
+        "query": "Carnegie Mellon University, Pittsburgh, Pennsylvania, United States",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.cmu.edu/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "Carnegie Mellon University, Pittsburgh, Pennsylvania, United States",
+          "query_date": "2026-08-03",
+          "osm_ref": "relation/2279034",
+          "source_center": [
+            "40.4439193",
+            "-79.9428267"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.cmu.edu/",
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://www.openstreetmap.org/relation/2279034",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "us-university-nyu",
+      "kind": "university",
+      "name": "New York University (NYU)",
+      "location": {
+        "city": "New York City",
+        "region": "New York",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          40.7292053,
+          -73.9950148
+        ],
+        "query": "New York University, New York City, New York, United States",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.nyu.edu/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "New York University, New York City, New York, United States",
+          "query_date": "2026-08-03",
+          "osm_ref": "way/108156090",
+          "source_center": [
+            "40.7292053",
+            "-73.9950148"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.nyu.edu/",
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://www.openstreetmap.org/way/108156090",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "us-university-brown",
+      "kind": "university",
+      "name": "Brown University",
+      "location": {
+        "city": "Providence",
+        "region": "Rhode Island",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          41.8186395,
+          -71.4088009
+        ],
+        "query": "Brown University, Providence, Rhode Island, United States",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.brown.edu/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "Brown University, Providence, Rhode Island, United States",
+          "query_date": "2026-08-03",
+          "osm_ref": "relation/13816239",
+          "source_center": [
+            "41.8186395",
+            "-71.4088009"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.brown.edu/",
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://www.openstreetmap.org/relation/13816239",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "us-university-duke",
+      "kind": "university",
+      "name": "Duke University",
+      "location": {
+        "city": "Durham",
+        "region": "North Carolina",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          36.0001557,
+          -78.9442297
+        ],
+        "query": "Duke University, Durham, North Carolina, United States",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.duke.edu/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "Duke University, Durham, North Carolina, United States",
+          "query_date": "2026-08-03",
+          "osm_ref": "relation/7407432",
+          "source_center": [
+            "36.0001557",
+            "-78.9442297"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.duke.edu/",
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://www.openstreetmap.org/relation/7407432",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    },
+    {
+      "id": "us-university-ut-austin",
+      "kind": "university",
+      "name": "University of Texas at Austin",
+      "location": {
+        "city": "Austin",
+        "region": "Texas",
+        "country": "United States",
+        "country_code": "US"
+      },
+      "map": {
+        "center": [
+          30.2851494,
+          -97.7339352
+        ],
+        "query": "University of Texas at Austin, Austin, Texas, United States",
+        "preview_radius_km": 2.0,
+        "purpose": "campus"
+      },
+      "details": {
+        "institution_url": "https://www.utexas.edu/",
+        "geometry_status": "seed_point_ready",
+        "coordinate_provenance": {
+          "provider": "Nominatim / OpenStreetMap",
+          "endpoint": "https://nominatim.openstreetmap.org/search",
+          "query": "University of Texas at Austin, Austin, Texas, United States",
+          "query_date": "2026-08-03",
+          "osm_ref": "relation/1701848",
+          "source_center": [
+            "30.2851494",
+            "-97.7339352"
+          ],
+          "selection_role": "bounded_institution_or_campus_feature",
+          "selection_evidence_url": null,
+          "copyright_url": "https://www.openstreetmap.org/copyright"
+        }
+      },
+      "source_urls": [
+        "https://www.utexas.edu/",
+        "https://www.topuniversities.com/qs-top-uni-wur",
+        "https://www.qs.com/insights/qs-world-university-rankings-2027-results-table-excel",
+        "https://www.qs.com/insights/us-performance-in-the-qs-world-university-rankings-2027",
+        "https://www.openstreetmap.org/relation/1701848",
+        "https://www.openstreetmap.org/copyright"
+      ]
+    }
+  ]
+}

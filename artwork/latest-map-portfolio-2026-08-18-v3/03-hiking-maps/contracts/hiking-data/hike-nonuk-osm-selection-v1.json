@@ -1,0 +1,1959 @@
+{
+  "id": "hike-nonuk-osm-selection-v1",
+  "schema_version": 1,
+  "status": "frozen-audited-selection-gate",
+  "audit_date": "2026-08-03",
+  "audit_payload_sha256": "b6ab8696c3d3c315807f3d4193c795f477bf2fc308d2141765ff74fe9aba41ec",
+  "subjects": {
+    "RTE-CH-VA1-01": {
+      "extent": [
+        6.65,
+        46.25,
+        9.7,
+        47.3
+      ],
+      "coverage": {
+        "header_bbox_count": 1,
+        "crop_coverage_fraction": 1.0,
+        "crop_uncovered_area_degrees2": 0.0,
+        "route_coverage_fraction": 1.0,
+        "route_fully_covered": true,
+        "absence_claims_safe": true
+      },
+      "source_snapshots": [
+        {
+          "snapshot_content_sha256": "6aad17e81df8b41443700a4260f09a05170cf1903213dfe6e9b270d6b3f9adc3",
+          "source_timestamp": "2026-08-02T20:21:48Z",
+          "canonical_feature_count": 356739,
+          "canonical_feature_sha256": "d22de8f88cdff755405341eb42653b84d6ca1dc3cccf81d79c903fe1acf243ac",
+          "header_bbox_wgs84": {
+            "west": 5.954418,
+            "south": 45.816418,
+            "east": 10.49584,
+            "north": 47.81126
+          }
+        }
+      ],
+      "selection_rules": {
+        "water": "route_km <= 3 AND physical_perimeter_mm >= 0.75",
+        "woodland": "route_km <= 3 AND physical_area_mm2 >= 2.2",
+        "coast": "physical floor only; source contains no coastline and full crop is covered",
+        "rivers": "named river entity; route_km <= 1 AND length_km >= 8"
+      },
+      "expected": {
+        "water": 11,
+        "woodland": 9,
+        "coast": 0,
+        "rivers": 14
+      },
+      "water_source_objects": [
+        "relation/332617",
+        "relation/1442399",
+        "relation/3608141",
+        "way/4806832",
+        "relation/14778582",
+        "way/26944905",
+        "relation/6435138",
+        "relation/4076935",
+        "relation/20981656",
+        "way/4289168",
+        "relation/6692631"
+      ],
+      "landcover_source_objects": [
+        "relation/49094",
+        "relation/1277987",
+        "relation/1027432",
+        "relation/357487",
+        "relation/1259777",
+        "relation/918795",
+        "relation/49098",
+        "relation/3931620",
+        "relation/3362182"
+      ],
+      "coast_components": [],
+      "river_entities": [
+        {
+          "name": "Simme",
+          "normalized_name": "simme",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/8065707",
+            "way/24849005",
+            "way/29062467",
+            "way/29062468",
+            "way/29062470",
+            "way/97946894",
+            "way/97946910",
+            "way/284175469",
+            "way/284175470",
+            "way/284175471",
+            "way/284175472",
+            "way/284175473",
+            "way/706137891",
+            "way/863743121",
+            "way/1435708667"
+          ]
+        },
+        {
+          "name": "Rhein",
+          "normalized_name": "rhein",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/159018431",
+            "way/231714459",
+            "way/1417928672",
+            "way/1524365679",
+            "way/1524365680"
+          ]
+        },
+        {
+          "name": "Kander",
+          "normalized_name": "kander",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/26407310",
+            "way/34749462",
+            "way/131711228",
+            "way/131714622",
+            "way/150494525",
+            "way/152117239",
+            "way/152117245",
+            "way/242206693",
+            "way/863743120"
+          ]
+        },
+        {
+          "name": "Reuss",
+          "normalized_name": "reuss",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/4245442",
+            "way/4245448",
+            "way/26825641",
+            "way/33523595",
+            "way/39493441",
+            "way/100153067",
+            "way/100153135",
+            "way/163827346",
+            "way/645479523",
+            "way/645479528",
+            "way/645479529",
+            "way/645479530",
+            "way/645479531",
+            "way/645479532",
+            "way/645479533",
+            "way/863743124",
+            "way/863743125"
+          ]
+        },
+        {
+          "name": "Linth",
+          "normalized_name": "linth",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/341132879",
+            "way/575938766",
+            "way/813708377",
+            "way/829612632",
+            "way/837238305",
+            "way/856021727"
+          ]
+        },
+        {
+          "name": "Seez",
+          "normalized_name": "seez",
+          "wikidata": "Q679177",
+          "source_object_ids": [
+            "way/250170905",
+            "way/302035158",
+            "way/307614846",
+            "way/307614847",
+            "way/307616700",
+            "way/871930952"
+          ]
+        },
+        {
+          "name": "Engelberger Aa",
+          "normalized_name": "engelberger aa",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/34218669",
+            "way/712438885"
+          ]
+        },
+        {
+          "name": "Aare",
+          "normalized_name": "aare",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/37807363",
+            "way/364030384",
+            "way/429940242",
+            "way/429940243",
+            "way/1231365501",
+            "way/1444316892"
+          ]
+        },
+        {
+          "name": "Saane",
+          "normalized_name": "saane",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/129825553",
+            "way/284176538",
+            "way/1013412584",
+            "way/1013412585",
+            "way/1384657220",
+            "way/1435695616",
+            "way/1435695617",
+            "way/1544712638"
+          ]
+        },
+        {
+          "name": "Sernf",
+          "normalized_name": "sernf",
+          "wikidata": "Q2273779",
+          "source_object_ids": [
+            "way/305450401",
+            "way/856021728",
+            "way/856021729",
+            "way/856021730",
+            "way/856021731"
+          ]
+        },
+        {
+          "name": "La Sarine",
+          "normalized_name": "la sarine",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/257619877",
+            "way/284176537",
+            "way/284176539",
+            "way/1011859428"
+          ]
+        },
+        {
+          "name": "Schwarze Lütschine",
+          "normalized_name": "schwarze lütschine",
+          "wikidata": "Q84177697",
+          "source_object_ids": [
+            "way/35823315",
+            "way/155287132"
+          ]
+        },
+        {
+          "name": "Weisse Lütschine",
+          "normalized_name": "weisse lütschine",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/48595282"
+          ]
+        },
+        {
+          "name": "Engstlige",
+          "normalized_name": "engstlige",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/128384989",
+            "way/152622010",
+            "way/153318644",
+            "way/153526922",
+            "way/174167874",
+            "way/174167875"
+          ]
+        }
+      ],
+      "quarantined_source_objects": [],
+      "selected_source_object_count": 112,
+      "selected_source_object_manifest_sha256": "ed73b9ef72c93767d7119f6682bf791e1adbd5acffb4ed959e4adc6d80aa3f7d"
+    },
+    "RTE-CH-AP6-01": {
+      "extent": [
+        6.55,
+        45.65,
+        10.05,
+        46.9
+      ],
+      "coverage": {
+        "header_bbox_count": 1,
+        "crop_coverage_fraction": 0.8668655999999999,
+        "crop_uncovered_area_degrees2": 0.5824630000000007,
+        "route_coverage_fraction": 1.0,
+        "route_fully_covered": true,
+        "absence_claims_safe": false
+      },
+      "source_snapshots": [
+        {
+          "snapshot_content_sha256": "6aad17e81df8b41443700a4260f09a05170cf1903213dfe6e9b270d6b3f9adc3",
+          "source_timestamp": "2026-08-02T20:21:48Z",
+          "canonical_feature_count": 356739,
+          "canonical_feature_sha256": "d22de8f88cdff755405341eb42653b84d6ca1dc3cccf81d79c903fe1acf243ac",
+          "header_bbox_wgs84": {
+            "west": 5.954418,
+            "south": 45.816418,
+            "east": 10.49584,
+            "north": 47.81126
+          }
+        }
+      ],
+      "selection_rules": {
+        "water": "route_km <= 2 AND physical_perimeter_mm >= 0.75",
+        "woodland": "route_km <= 2 AND physical_area_mm2 >= 2.2",
+        "coast": "omit; no qualifying source component, but full-frame absence is not certified",
+        "rivers": "named river entity; route_km <= 1 AND length_km >= 8"
+      },
+      "expected": {
+        "water": 20,
+        "woodland": 10,
+        "coast": 0,
+        "rivers": 12
+      },
+      "water_source_objects": [
+        "relation/332617",
+        "way/6267838",
+        "way/23852674",
+        "relation/13089704",
+        "way/4289161",
+        "way/4289166",
+        "relation/157401",
+        "way/26613355",
+        "way/172656039",
+        "way/6004624",
+        "way/23852671",
+        "way/27183051",
+        "relation/14026982",
+        "way/208921192",
+        "relation/3105927",
+        "relation/6741636",
+        "relation/1067492",
+        "relation/11037439",
+        "way/1092215917",
+        "way/110182955"
+      ],
+      "landcover_source_objects": [
+        "relation/1824587",
+        "relation/4498152",
+        "relation/104232",
+        "relation/114908",
+        "relation/18009148",
+        "relation/7167798",
+        "relation/3105910",
+        "relation/4800267",
+        "relation/1824586",
+        "relation/92341"
+      ],
+      "coast_components": [],
+      "river_entities": [
+        {
+          "name": "Hinterrhein",
+          "normalized_name": "hinterrhein",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/8092636",
+            "way/38613288",
+            "way/76848628",
+            "way/165332341",
+            "way/165332342",
+            "way/186296254",
+            "way/186301549",
+            "way/234008382",
+            "way/234008383",
+            "way/234008384",
+            "way/234008385",
+            "way/245100791",
+            "way/245100792",
+            "way/658492459"
+          ]
+        },
+        {
+          "name": "Matter Vispa",
+          "normalized_name": "matter vispa",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/22327676",
+            "way/140574991",
+            "way/140587189",
+            "way/140587863",
+            "way/140588144",
+            "way/704071052",
+            "way/704351456",
+            "way/705227348",
+            "way/713092432",
+            "way/1349011837",
+            "way/1349057437",
+            "way/1349057440"
+          ]
+        },
+        {
+          "name": "La Borgne",
+          "normalized_name": "la borgne",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/124060399",
+            "way/1210912563",
+            "way/1408713808",
+            "way/1408713809"
+          ]
+        },
+        {
+          "name": "Saaser Vispa",
+          "normalized_name": "saaser vispa",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/243431527",
+            "way/476380437",
+            "way/1349011841",
+            "way/1349057399",
+            "way/1349057428",
+            "way/1349057434",
+            "way/1349057436"
+          ]
+        },
+        {
+          "name": "Gelgia",
+          "normalized_name": "gelgia",
+          "wikidata": "Q686341",
+          "source_object_ids": [
+            "way/75390605",
+            "way/173177394",
+            "way/216237584",
+            "way/216239752",
+            "way/216377518",
+            "way/218292935",
+            "way/218292938"
+          ]
+        },
+        {
+          "name": "Glogn",
+          "normalized_name": "glogn",
+          "wikidata": "Q493411",
+          "source_object_ids": [
+            "way/47610359",
+            "way/144405519"
+          ]
+        },
+        {
+          "name": "Brenno del Lucomagno",
+          "normalized_name": "brenno del lucomagno",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/328056212",
+            "way/328056213"
+          ]
+        },
+        {
+          "name": "Navizence",
+          "normalized_name": "navizence",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/50283585",
+            "way/212719203",
+            "way/213144657",
+            "way/317578034"
+          ]
+        },
+        {
+          "name": "Ticino",
+          "normalized_name": "ticino",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/6066566",
+            "way/76219907",
+            "way/76219909",
+            "way/431486290",
+            "way/658492483",
+            "way/1144350188",
+            "way/1144350189",
+            "way/1317015786",
+            "way/1317015787"
+          ]
+        },
+        {
+          "name": "La Borgne d'Arolla",
+          "normalized_name": "la borgne d'arolla",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/71441962"
+          ]
+        },
+        {
+          "name": "Dranse d'Entremont",
+          "normalized_name": "dranse d'entremont",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/28725998",
+            "way/33377965",
+            "way/450669425",
+            "way/514987704",
+            "way/1099951370",
+            "way/1099951371",
+            "way/1100560740",
+            "way/1286964747"
+          ]
+        },
+        {
+          "name": "Chrummbach",
+          "normalized_name": "chrummbach",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/243432079",
+            "way/1349057432"
+          ]
+        }
+      ],
+      "quarantined_source_objects": [],
+      "selected_source_object_count": 102,
+      "selected_source_object_manifest_sha256": "c3b89e6e720300ff90231ce43f054ad3ff3d6b3c4a8684ed7dc338f45d362ebe"
+    },
+    "RTE-IS-LAUG-01": {
+      "extent": [
+        -19.58,
+        63.64,
+        -19.0,
+        64.03
+      ],
+      "coverage": {
+        "header_bbox_count": 1,
+        "crop_coverage_fraction": 1.0,
+        "crop_uncovered_area_degrees2": 0.0,
+        "route_coverage_fraction": 1.0,
+        "route_fully_covered": true,
+        "absence_claims_safe": true
+      },
+      "source_snapshots": [
+        {
+          "snapshot_content_sha256": "6f9af2dc670312a976b4913d3ac350fdad854a55feecfc8c809069c875028a2e",
+          "source_timestamp": "2026-08-02T20:21:48Z",
+          "canonical_feature_count": 858,
+          "canonical_feature_sha256": "c97353fb4b0fe69a06ce4727e9aab430555a8d1e15437e60ee826b57d92288cf",
+          "header_bbox_wgs84": {
+            "west": -25.74085,
+            "south": 62.84553,
+            "east": -12.41708,
+            "north": 67.50085
+          }
+        }
+      ],
+      "selection_rules": {
+        "water": "route_km <= 5 AND area_km2 >= 0.08 (close-scale lake-body gate)",
+        "woodland": "route_km <= 3 AND physical_area_mm2 >= 2.2",
+        "coast": "physical floor only; source contains no coastline and full crop is covered",
+        "rivers": "named river entity; route_km <= 1 AND length_km >= 5"
+      },
+      "expected": {
+        "water": 6,
+        "woodland": 3,
+        "coast": 0,
+        "rivers": 10
+      },
+      "water_source_objects": [
+        "relation/14543032",
+        "way/172301514",
+        "relation/17810352",
+        "way/425188961",
+        "way/686981159",
+        "way/420340973"
+      ],
+      "landcover_source_objects": [
+        "relation/7424253",
+        "relation/13065242",
+        "relation/13065241"
+      ],
+      "coast_components": [],
+      "river_entities": [
+        {
+          "name": "Kaldaklofskvísl",
+          "normalized_name": "kaldaklofskvísl",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/421878470",
+            "way/421878472"
+          ]
+        },
+        {
+          "name": "Innri-Emstruá",
+          "normalized_name": "innri-emstruá",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/421878459",
+            "way/421878460",
+            "way/421878461",
+            "way/421878462"
+          ]
+        },
+        {
+          "name": "Þröngá",
+          "normalized_name": "þröngá",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/422799796"
+          ]
+        },
+        {
+          "name": "Bratthálskvísl",
+          "normalized_name": "bratthálskvísl",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/421878311",
+            "way/421878312"
+          ]
+        },
+        {
+          "name": "Ljósá",
+          "normalized_name": "ljósá",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/422799806",
+            "way/422799808",
+            "way/422799809"
+          ]
+        },
+        {
+          "name": "Bláfjallakvísl",
+          "normalized_name": "bláfjallakvísl",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/421878308",
+            "way/421878309"
+          ]
+        },
+        {
+          "name": "Krossá",
+          "normalized_name": "krossá",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/24932419",
+            "way/510315484"
+          ]
+        },
+        {
+          "name": "Markarfljót",
+          "normalized_name": "markarfljót",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/421878475",
+            "way/422863999",
+            "way/633124475"
+          ]
+        },
+        {
+          "name": "Jökulgilskvísl",
+          "normalized_name": "jökulgilskvísl",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/401754233",
+            "way/422863994"
+          ]
+        },
+        {
+          "name": "Ljósá",
+          "normalized_name": "ljósá",
+          "wikidata": "Q35335012",
+          "source_object_ids": [
+            "way/420032037"
+          ]
+        }
+      ],
+      "quarantined_source_objects": [],
+      "selected_source_object_count": 31,
+      "selected_source_object_manifest_sha256": "125d6c277f97656d20109e21584299276ab35dfb261323dd6a43fa8a2fc2adcd"
+    },
+    "RTE-ES-CAM-ES01C": {
+      "extent": [
+        -9.2,
+        41.95,
+        -1.55,
+        43.3
+      ],
+      "coverage": {
+        "header_bbox_count": 4,
+        "crop_coverage_fraction": 0.9758443248470609,
+        "crop_uncovered_area_degrees2": 0.24946773514197707,
+        "route_coverage_fraction": 1.0,
+        "route_fully_covered": true,
+        "absence_claims_safe": false
+      },
+      "source_snapshots": [
+        {
+          "snapshot_content_sha256": "9d6d8c5b33f8eac6dc56538e1b895b146ba280659fd57698e7e039c8280f9554",
+          "source_timestamp": "2026-08-02T20:21:48Z",
+          "canonical_feature_count": 102588,
+          "canonical_feature_sha256": "a1c8e2be4422ffc3b9a460df749bd63246cbaf068cce44af653359293e8fb2ac",
+          "header_bbox_wgs84": {
+            "west": -7.080517,
+            "south": 40.080436,
+            "east": -1.766053,
+            "north": 43.240951
+          }
+        },
+        {
+          "snapshot_content_sha256": "6ef75ac0868dc62f142e2980cef5d69f0eb249b025abeaf59f88c6f68cb4e05c",
+          "source_timestamp": "2026-08-02T20:21:48Z",
+          "canonical_feature_count": 60907,
+          "canonical_feature_sha256": "b70068ec8c641d0d8224eb6de2b7ce6c51fe8cfc67f96dc84465d87bc6ff4f98",
+          "header_bbox_wgs84": {
+            "west": -10.360118,
+            "south": 41.767217,
+            "east": -6.727066,
+            "north": 44.308135
+          }
+        },
+        {
+          "snapshot_content_sha256": "c04d18bde616b8a7f73afed1ffea4431908f0977785fa7182174554c757f3017",
+          "source_timestamp": "2026-08-02T20:21:48Z",
+          "canonical_feature_count": 14344,
+          "canonical_feature_sha256": "51745bb1005d0fc228c0567f97bf910569a672492fbb5bed0dab5ece6380064e",
+          "header_bbox_wgs84": {
+            "west": -3.140202,
+            "south": 41.914031,
+            "east": -1.673012,
+            "north": 42.646208
+          }
+        },
+        {
+          "snapshot_content_sha256": "b651e776fc21f4a53c5c3adf9de1ec1edd91309c7bd3851d13f0b34c935247d3",
+          "source_timestamp": "2026-08-02T20:21:48Z",
+          "canonical_feature_count": 35585,
+          "canonical_feature_sha256": "e2790dbaf2ffe7b82c12bdf2a095967ebcdc65d68dce5c01775fc5216e82d8e6",
+          "header_bbox_wgs84": {
+            "west": -2.502308,
+            "south": 41.90611,
+            "east": -0.625534,
+            "north": 43.372115
+          }
+        }
+      ],
+      "selection_rules": {
+        "water": "route_km <= 5 AND physical_perimeter_mm >= 0.75; suppress way/23609119 in favour of containing relation/2588155",
+        "woodland": "route_km <= 5 AND physical_area_mm2 >= 2.2",
+        "coast": "open exact-endpoint component; physical_length_mm >= 0.75 AND route_km <= 30; omit remote fragments and all sub-floor islands",
+        "rivers": "named river entity; route_km <= 1 AND physical_length_mm >= 5 (length_km * plate mm/km)"
+      },
+      "expected": {
+        "water": 9,
+        "woodland": 10,
+        "coast": 1,
+        "rivers": 37
+      },
+      "water_source_objects": [
+        "relation/18080585",
+        "relation/1636984",
+        "way/23602921",
+        "way/24397890",
+        "way/31959622",
+        "relation/18149353",
+        "relation/2588155",
+        "relation/9296804",
+        "way/40205574"
+      ],
+      "landcover_source_objects": [
+        "relation/1363331",
+        "relation/9984580",
+        "relation/19377708",
+        "relation/1359507",
+        "way/46522231",
+        "relation/1367696",
+        "relation/2680093",
+        "relation/1362688",
+        "relation/10043261",
+        "relation/1362683"
+      ],
+      "coast_components": [
+        {
+          "component_hash": "747d428c951a",
+          "closed": false,
+          "source_object_ids": [
+            "way/4889457",
+            "way/4889459",
+            "way/4889465",
+            "way/4889471",
+            "way/4889475",
+            "way/4889476",
+            "way/4889478",
+            "way/4889480",
+            "way/4889486",
+            "way/4889492",
+            "way/4889495",
+            "way/4889499",
+            "way/4889504",
+            "way/4889509",
+            "way/4889514",
+            "way/4889516",
+            "way/4889521",
+            "way/4889527",
+            "way/4889528",
+            "way/4889532",
+            "way/4889534",
+            "way/4889538",
+            "way/4889541",
+            "way/4889547",
+            "way/4889558",
+            "way/4889565",
+            "way/4889567",
+            "way/4889568",
+            "way/4889570",
+            "way/4889573",
+            "way/4889575",
+            "way/4889580",
+            "way/4889583",
+            "way/4889585",
+            "way/4889587",
+            "way/4889590",
+            "way/4889592",
+            "way/4889595",
+            "way/4889598",
+            "way/4889603",
+            "way/4889609",
+            "way/4889619",
+            "way/4889620",
+            "way/4889625",
+            "way/4889626",
+            "way/4889627",
+            "way/4889629",
+            "way/4889632",
+            "way/4889637",
+            "way/4889643",
+            "way/4889660",
+            "way/4889662",
+            "way/4889665",
+            "way/4889673",
+            "way/4889674",
+            "way/4889676",
+            "way/4889678",
+            "way/4889682",
+            "way/4889688",
+            "way/4889701",
+            "way/4889703",
+            "way/4889715",
+            "way/4889725",
+            "way/4889730",
+            "way/4889738",
+            "way/4889740",
+            "way/4889743",
+            "way/4889748",
+            "way/4889749",
+            "way/4889754",
+            "way/4889756",
+            "way/4889757",
+            "way/4889759",
+            "way/4889762",
+            "way/4889764",
+            "way/4889769",
+            "way/4889770",
+            "way/4889773",
+            "way/4889781",
+            "way/4889783",
+            "way/4889785",
+            "way/4889789",
+            "way/4889792",
+            "way/4889804",
+            "way/4889806",
+            "way/4889813",
+            "way/4889820",
+            "way/4889822",
+            "way/4889824",
+            "way/4889831",
+            "way/4889836",
+            "way/4889837",
+            "way/4889852",
+            "way/4889854",
+            "way/4889855",
+            "way/4889861",
+            "way/4889865",
+            "way/4889872",
+            "way/4889880",
+            "way/4889881",
+            "way/4889887",
+            "way/4889888",
+            "way/4889889",
+            "way/4889893",
+            "way/4889894",
+            "way/4889897",
+            "way/4889901",
+            "way/4889902",
+            "way/4889907",
+            "way/4889913",
+            "way/4889914",
+            "way/7663388",
+            "way/7663392",
+            "way/11276459",
+            "way/18896545",
+            "way/29014981",
+            "way/45332513",
+            "way/51777044",
+            "way/51862759",
+            "way/51862769",
+            "way/61383154",
+            "way/75358853",
+            "way/75358865",
+            "way/75358871",
+            "way/75358878",
+            "way/75358935",
+            "way/75358940",
+            "way/75358961",
+            "way/75359001",
+            "way/75359029",
+            "way/75359036",
+            "way/75361043",
+            "way/75361047",
+            "way/75361058",
+            "way/75367095",
+            "way/75367102",
+            "way/75367104",
+            "way/75367113",
+            "way/75367130",
+            "way/75367132",
+            "way/75367135",
+            "way/75367155",
+            "way/75367158",
+            "way/75367161",
+            "way/75367171",
+            "way/75367176",
+            "way/75367185",
+            "way/75367190",
+            "way/75367193",
+            "way/83553612",
+            "way/83553616",
+            "way/83553618",
+            "way/83553624",
+            "way/83703310",
+            "way/83703314",
+            "way/83913865",
+            "way/83913866",
+            "way/85417875",
+            "way/85421781",
+            "way/85421785",
+            "way/85422999",
+            "way/85479466",
+            "way/85479469",
+            "way/85745874",
+            "way/85762658",
+            "way/85762666",
+            "way/85763516",
+            "way/86345857",
+            "way/86345878",
+            "way/106531495",
+            "way/106531497",
+            "way/106531500",
+            "way/106531502",
+            "way/106541011",
+            "way/107112284",
+            "way/116025456",
+            "way/116025460",
+            "way/116025461",
+            "way/116025462",
+            "way/116025463",
+            "way/137237099",
+            "way/137237102",
+            "way/138001104",
+            "way/138001106",
+            "way/138164865",
+            "way/138164873",
+            "way/138164875",
+            "way/138164877",
+            "way/138164878",
+            "way/138165161",
+            "way/138282782",
+            "way/138282786",
+            "way/138282789",
+            "way/138282793",
+            "way/139117129",
+            "way/139117153",
+            "way/139277162",
+            "way/139277167",
+            "way/139277193",
+            "way/139277197",
+            "way/139277205",
+            "way/139277215",
+            "way/139277245",
+            "way/139277259",
+            "way/139379894",
+            "way/139379902",
+            "way/139384517",
+            "way/139384520",
+            "way/139384522",
+            "way/139384524",
+            "way/139384534",
+            "way/139445372",
+            "way/139445373",
+            "way/139445374",
+            "way/139445385",
+            "way/139445388",
+            "way/139445392",
+            "way/139892852",
+            "way/139903251",
+            "way/139903264",
+            "way/139903272",
+            "way/139903285",
+            "way/142162226",
+            "way/142162235",
+            "way/152412068",
+            "way/152412071",
+            "way/152981929",
+            "way/152981932",
+            "way/152981933",
+            "way/152981948",
+            "way/152998023",
+            "way/152998026",
+            "way/158007988",
+            "way/160404445",
+            "way/160404447",
+            "way/183840888",
+            "way/183840889",
+            "way/193026168",
+            "way/193026169",
+            "way/193026171",
+            "way/193101352",
+            "way/199785624",
+            "way/199785640",
+            "way/199785658",
+            "way/199785684",
+            "way/199796706",
+            "way/199796711",
+            "way/199807766",
+            "way/199807769",
+            "way/209144669",
+            "way/209151578",
+            "way/229909247",
+            "way/233496185",
+            "way/235223469",
+            "way/238651068",
+            "way/238651075",
+            "way/238651077",
+            "way/246150229",
+            "way/246791633",
+            "way/246791635",
+            "way/296099981",
+            "way/296099994",
+            "way/296099999",
+            "way/296100001",
+            "way/296100562",
+            "way/306819235",
+            "way/318378753",
+            "way/512799610",
+            "way/512799611",
+            "way/512799612",
+            "way/512799613",
+            "way/512799614",
+            "way/512799615",
+            "way/512799622",
+            "way/512833386",
+            "way/512833387",
+            "way/513406190",
+            "way/514179893",
+            "way/514499620",
+            "way/514713955",
+            "way/515500174",
+            "way/515500179",
+            "way/515500183",
+            "way/515500184",
+            "way/515500186",
+            "way/515500188",
+            "way/515823489",
+            "way/517336483",
+            "way/517773377",
+            "way/565467054",
+            "way/642658199",
+            "way/642658205",
+            "way/645305084",
+            "way/645330500",
+            "way/645330529",
+            "way/645330577",
+            "way/645330580",
+            "way/645330585",
+            "way/645330594",
+            "way/645330598",
+            "way/645330600",
+            "way/645330613",
+            "way/645330627",
+            "way/645330630",
+            "way/645338646",
+            "way/645338651",
+            "way/645338655",
+            "way/645338696",
+            "way/645338745",
+            "way/645338773",
+            "way/645338787",
+            "way/645346492",
+            "way/645346500",
+            "way/645346507",
+            "way/645346512",
+            "way/645436388",
+            "way/645436389",
+            "way/645436390",
+            "way/645436391",
+            "way/645436392",
+            "way/645594563",
+            "way/645594564",
+            "way/645594566",
+            "way/645594581",
+            "way/645594582",
+            "way/645594585",
+            "way/645594589",
+            "way/645594590",
+            "way/645613013",
+            "way/646008970",
+            "way/646013644",
+            "way/646020938",
+            "way/646025110",
+            "way/646025115",
+            "way/646025121",
+            "way/646025124",
+            "way/646025127",
+            "way/646025130",
+            "way/652016468",
+            "way/652021514",
+            "way/652021515",
+            "way/652021518",
+            "way/652021519",
+            "way/652022637",
+            "way/652022639",
+            "way/652022640",
+            "way/652022641",
+            "way/652022642",
+            "way/652025484",
+            "way/652025485",
+            "way/652025486",
+            "way/652025487",
+            "way/652025488",
+            "way/652025489",
+            "way/652025490",
+            "way/652025491",
+            "way/652276093",
+            "way/652276110",
+            "way/652276112",
+            "way/652276118",
+            "way/652351627",
+            "way/652516908",
+            "way/653718136",
+            "way/653722999",
+            "way/653723000",
+            "way/653723007",
+            "way/655347839",
+            "way/655347842",
+            "way/655347849",
+            "way/655347851",
+            "way/655900924",
+            "way/655973121",
+            "way/656032674",
+            "way/672012908",
+            "way/720387632",
+            "way/720387633",
+            "way/720387636",
+            "way/720389301",
+            "way/720389315",
+            "way/720392606",
+            "way/720392608",
+            "way/720392615",
+            "way/720479355",
+            "way/720479356",
+            "way/720479358",
+            "way/720479372",
+            "way/720479382",
+            "way/720479383",
+            "way/720479384",
+            "way/720479386",
+            "way/727586409",
+            "way/812912374",
+            "way/827060257",
+            "way/839047916",
+            "way/925513326",
+            "way/925513328",
+            "way/925513330",
+            "way/925516080",
+            "way/925516081",
+            "way/925516083",
+            "way/925516084",
+            "way/925516085",
+            "way/925516089",
+            "way/925516091",
+            "way/925516093",
+            "way/934472364",
+            "way/934472372",
+            "way/934472373",
+            "way/934472374",
+            "way/934472375",
+            "way/934472377",
+            "way/934472378",
+            "way/934472379",
+            "way/934472392",
+            "way/934472393",
+            "way/934472394",
+            "way/934472397",
+            "way/934472403",
+            "way/934472404",
+            "way/936680177",
+            "way/936680178",
+            "way/936680179",
+            "way/936680180",
+            "way/936680181",
+            "way/936680182",
+            "way/936680183",
+            "way/936680184",
+            "way/936680185",
+            "way/936680187",
+            "way/936680189",
+            "way/936680190",
+            "way/936680193",
+            "way/936680196",
+            "way/936680197",
+            "way/936680198",
+            "way/936680203",
+            "way/936680204",
+            "way/937054257",
+            "way/937054258",
+            "way/937054259",
+            "way/937798090",
+            "way/937798091",
+            "way/938175227",
+            "way/938175228",
+            "way/938175229",
+            "way/938175230",
+            "way/938175234",
+            "way/938175235",
+            "way/938175236",
+            "way/938175246",
+            "way/938175247",
+            "way/938175268",
+            "way/938175269",
+            "way/938175270",
+            "way/938175271",
+            "way/938175272",
+            "way/938175273",
+            "way/938175280",
+            "way/938175281",
+            "way/939526122",
+            "way/939526123",
+            "way/939526124",
+            "way/939526125",
+            "way/939526130",
+            "way/939526131",
+            "way/939526133",
+            "way/939526134",
+            "way/939526135",
+            "way/939526136",
+            "way/939526140",
+            "way/939526142",
+            "way/939526146",
+            "way/939526147",
+            "way/939526148",
+            "way/940565511",
+            "way/940565512",
+            "way/940565513",
+            "way/940565517",
+            "way/940565518",
+            "way/940573913",
+            "way/940573914",
+            "way/940573915",
+            "way/940573916",
+            "way/940573917",
+            "way/940830819",
+            "way/940830820",
+            "way/940830821",
+            "way/940830822",
+            "way/940830839",
+            "way/940830840",
+            "way/940830845",
+            "way/940830846",
+            "way/940858367",
+            "way/940858368",
+            "way/940858369",
+            "way/940858370",
+            "way/940858371",
+            "way/940858372",
+            "way/958673594",
+            "way/1004167589",
+            "way/1004167591",
+            "way/1004167592",
+            "way/1005742322",
+            "way/1005742323",
+            "way/1155895727",
+            "way/1155895728",
+            "way/1319647618",
+            "way/1338905828",
+            "way/1339044686",
+            "way/1348291608",
+            "way/1349560148",
+            "way/1484394542",
+            "way/1537467972"
+          ]
+        }
+      ],
+      "river_entities": [
+        {
+          "name": "Río Miño",
+          "normalized_name": "río miño",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/23458421",
+            "way/24380373",
+            "way/24381064",
+            "way/27069284",
+            "way/70785031",
+            "way/139011892",
+            "way/147217295",
+            "way/164859815",
+            "way/164859819",
+            "way/181020570",
+            "way/184492703",
+            "way/184492704",
+            "way/184492705",
+            "way/184815167",
+            "way/185479144",
+            "way/188084411",
+            "way/481265390",
+            "way/481266720",
+            "way/481269117",
+            "way/517047109",
+            "way/517047110",
+            "way/519130943",
+            "way/647457547",
+            "way/647457548",
+            "way/647457550",
+            "way/647457552",
+            "way/647457555",
+            "way/647457557",
+            "way/647457558",
+            "way/647457559",
+            "way/647457560",
+            "way/647457561",
+            "way/647457562",
+            "way/647457563",
+            "way/647457564",
+            "way/647457565",
+            "way/647457568",
+            "way/647457570",
+            "way/647457571",
+            "way/647457572",
+            "way/647457573",
+            "way/647457574",
+            "way/647457575",
+            "way/647457576",
+            "way/647457577",
+            "way/647457578",
+            "way/647457579",
+            "way/704144621",
+            "way/939538457",
+            "way/940460076",
+            "way/940460078",
+            "way/1476551729",
+            "way/1488663093",
+            "way/1489095300",
+            "way/1489095301",
+            "way/1489517686"
+          ]
+        },
+        {
+          "name": "Río Sil",
+          "normalized_name": "río sil",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/23592982",
+            "way/24381065",
+            "way/53637397",
+            "way/70250172",
+            "way/70250175",
+            "way/70250219",
+            "way/70250224",
+            "way/81535896",
+            "way/82551797",
+            "way/88602587",
+            "way/88602588",
+            "way/90644833",
+            "way/91341975",
+            "way/94554443",
+            "way/164944209",
+            "way/383944086",
+            "way/383944087",
+            "way/383944088",
+            "way/383944089",
+            "way/412532071",
+            "way/435784500",
+            "way/548673511",
+            "way/871056632",
+            "way/871056633",
+            "way/891420808",
+            "way/891420809",
+            "way/1471511118",
+            "way/1471511119",
+            "way/1471511120",
+            "way/1471511121"
+          ]
+        },
+        {
+          "name": "Río Esla",
+          "normalized_name": "río esla",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/52967031",
+            "way/52967041",
+            "way/81603948",
+            "way/82234515",
+            "way/190734065",
+            "way/190734069",
+            "way/192125511",
+            "way/192125512",
+            "way/330920716",
+            "way/533534155",
+            "way/533534156",
+            "way/715115868",
+            "way/1198066176",
+            "way/1198066177",
+            "way/1198066178"
+          ]
+        },
+        {
+          "name": "Río Pisuerga",
+          "normalized_name": "río pisuerga",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/84996333",
+            "way/383646552",
+            "way/552094151",
+            "way/1376123682",
+            "way/1376123683"
+          ]
+        },
+        {
+          "name": "Río Carrión",
+          "normalized_name": "río carrión",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/43324261",
+            "way/43632843",
+            "way/84996181",
+            "way/84996312",
+            "way/84996426",
+            "way/85729574",
+            "way/120041354",
+            "way/120042970",
+            "way/448658946"
+          ]
+        },
+        {
+          "name": "Cea",
+          "normalized_name": "cea",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/43324318",
+            "way/44052635",
+            "way/44052785",
+            "way/44053035",
+            "way/44053547",
+            "way/44053583",
+            "way/44053759",
+            "way/44054173",
+            "way/44054266",
+            "way/44060205",
+            "way/72880064",
+            "way/914444894",
+            "way/914444895",
+            "way/914445092",
+            "way/914445093"
+          ]
+        },
+        {
+          "name": "Río Ebro",
+          "normalized_name": "río ebro",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/23608812",
+            "way/23609197",
+            "way/23609199",
+            "way/23609208",
+            "way/23609490",
+            "way/24306449",
+            "way/78411295",
+            "way/135171922",
+            "way/136460211",
+            "way/136460212",
+            "way/136460213",
+            "way/136460214",
+            "way/136460215",
+            "way/167600289"
+          ]
+        },
+        {
+          "name": "Río Arlanzón",
+          "normalized_name": "río arlanzón",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/25320904",
+            "way/94552650",
+            "way/113858472",
+            "way/113858816",
+            "way/131950578",
+            "way/131950579",
+            "way/133039796",
+            "way/151659956",
+            "way/188951890",
+            "way/835442920",
+            "way/1239166774",
+            "way/1239166775",
+            "way/1239171357",
+            "way/1239177985",
+            "way/1299613864",
+            "way/1299616501",
+            "way/1444674904",
+            "way/1444674905"
+          ]
+        },
+        {
+          "name": "Arga",
+          "normalized_name": "arga",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/23784563",
+            "way/24325869",
+            "way/24325870",
+            "way/24325871",
+            "way/24325872",
+            "way/24460925",
+            "way/253637393",
+            "way/291302686",
+            "way/291302687",
+            "way/291302688",
+            "way/291302689",
+            "way/296941487",
+            "way/297719151",
+            "way/297719152",
+            "way/340897026",
+            "way/359243404",
+            "way/359243405",
+            "way/359243406",
+            "way/1192978858",
+            "way/1192978860",
+            "way/1192978862",
+            "way/1215722003",
+            "way/1215722004"
+          ]
+        },
+        {
+          "name": "Ega",
+          "normalized_name": "ega",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/39781735",
+            "way/440214257",
+            "way/471476322",
+            "way/522159594",
+            "way/522159595",
+            "way/756633559",
+            "way/802287781",
+            "way/802287783"
+          ]
+        },
+        {
+          "name": "Río Órbigo",
+          "normalized_name": "río órbigo",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/13857390",
+            "way/43924204",
+            "way/81756338",
+            "way/81756340",
+            "way/81756354",
+            "way/81756357",
+            "way/81756358"
+          ]
+        },
+        {
+          "name": "Río Valderaduey",
+          "normalized_name": "río valderaduey",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/25362985",
+            "way/41157503",
+            "way/53039416"
+          ]
+        },
+        {
+          "name": "Río Porma",
+          "normalized_name": "río porma",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/43326255",
+            "way/43326262",
+            "way/43326264",
+            "way/43326277",
+            "way/43914275",
+            "way/82224045",
+            "way/82224083",
+            "way/533534157",
+            "way/533534158"
+          ]
+        },
+        {
+          "name": "Río Bernesga",
+          "normalized_name": "río bernesga",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/13850995",
+            "way/26308203",
+            "way/26308236",
+            "way/81109834",
+            "way/81109836",
+            "way/81109838",
+            "way/81109844",
+            "way/81109851",
+            "way/81109853",
+            "way/81109854",
+            "way/81109855",
+            "way/81109863",
+            "way/81109864",
+            "way/81109865",
+            "way/81109866",
+            "way/81992332",
+            "way/457421243"
+          ]
+        },
+        {
+          "name": "Río Oca",
+          "normalized_name": "río oca",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/50054828",
+            "way/119055659",
+            "way/305924532",
+            "way/306778514",
+            "way/477509402",
+            "way/477509403",
+            "way/520481012",
+            "way/520481015"
+          ]
+        },
+        {
+          "name": "Río Najerilla",
+          "normalized_name": "río najerilla",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/40779873",
+            "way/114442847",
+            "way/913483218",
+            "way/913483219",
+            "way/1446029712",
+            "way/1446029713"
+          ]
+        },
+        {
+          "name": "Río Tirón",
+          "normalized_name": "río tirón",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/114888878",
+            "way/619857048",
+            "way/1323907586",
+            "way/1323907587"
+          ]
+        },
+        {
+          "name": "Río Ucieza",
+          "normalized_name": "río ucieza",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/43324782",
+            "way/84999863",
+            "way/387898872",
+            "way/387898873",
+            "way/387901689",
+            "way/387901690",
+            "way/390261177",
+            "way/390261178",
+            "way/390331515",
+            "way/390331516",
+            "way/1061861547",
+            "way/1061861548",
+            "way/1364095091",
+            "way/1364095092",
+            "way/1365997258",
+            "way/1365997259"
+          ]
+        },
+        {
+          "name": "Río Cúa",
+          "normalized_name": "río cúa",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/81028930",
+            "way/85529313",
+            "way/263972724",
+            "way/1198059400",
+            "way/1198059401",
+            "way/1484173741",
+            "way/1484173742"
+          ]
+        },
+        {
+          "name": "Río Boeza",
+          "normalized_name": "río boeza",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/728828016"
+          ]
+        },
+        {
+          "name": "Río Odra",
+          "normalized_name": "río odra",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/158796275",
+            "way/957249302",
+            "way/957249303",
+            "way/957249304",
+            "way/957249305",
+            "way/957249306",
+            "way/957249307",
+            "way/957249308",
+            "way/957249309",
+            "way/962826741",
+            "way/962826742"
+          ]
+        },
+        {
+          "name": "Río Tuerto",
+          "normalized_name": "río tuerto",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/51044706",
+            "way/51044742",
+            "way/52612735",
+            "way/79433428",
+            "way/81585400",
+            "way/81585407",
+            "way/454954129",
+            "way/878868702",
+            "way/878868703"
+          ]
+        },
+        {
+          "name": "Río Sarria",
+          "normalized_name": "río sarria",
+          "wikidata": "Q9072107",
+          "source_object_ids": [
+            "way/42980583",
+            "way/85457536",
+            "way/141570654",
+            "way/1026859359",
+            "way/1026859360",
+            "way/1329939128",
+            "way/1329939129",
+            "way/1329939130"
+          ]
+        },
+        {
+          "name": "Río Urbel",
+          "normalized_name": "río urbel",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/43325243"
+          ]
+        },
+        {
+          "name": "Río Sequillo",
+          "normalized_name": "río sequillo",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/33912530",
+            "way/33912531",
+            "way/191109581"
+          ]
+        },
+        {
+          "name": "Río Oja",
+          "normalized_name": "río oja",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/78510253"
+          ]
+        },
+        {
+          "name": "Río Cueza",
+          "normalized_name": "río cueza",
+          "wikidata": "Q15919269",
+          "source_object_ids": [
+            "way/25353914",
+            "way/619856837",
+            "way/857502586",
+            "way/857502587",
+            "way/857502588",
+            "way/857502589"
+          ]
+        },
+        {
+          "name": "Río Sar",
+          "normalized_name": "río sar",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/77645113",
+            "way/83188633",
+            "way/83950982",
+            "way/85619591",
+            "way/86400932",
+            "way/238441261",
+            "way/300651764",
+            "way/300651765",
+            "way/432599160",
+            "way/432599161",
+            "way/683721931",
+            "way/683721933",
+            "way/683721935",
+            "way/683721939",
+            "way/683722609",
+            "way/683722612",
+            "way/683722613",
+            "way/683722614",
+            "way/683723933",
+            "way/683723934",
+            "way/779911209",
+            "way/779911210",
+            "way/779911211",
+            "way/779911212",
+            "way/779911213",
+            "way/779911214",
+            "way/779911215",
+            "way/1149892955",
+            "way/1149892961",
+            "way/1149892962",
+            "way/1149892963",
+            "way/1149892965",
+            "way/1149892966",
+            "way/1149892967",
+            "way/1149892971",
+            "way/1149892972",
+            "way/1149892979",
+            "way/1149892981",
+            "way/1149892983",
+            "way/1149892985",
+            "way/1196038629",
+            "way/1196038630",
+            "way/1340299395",
+            "way/1408326043",
+            "way/1426578659"
+          ]
+        },
+        {
+          "name": "Río Burbia",
+          "normalized_name": "río burbia",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/80964910",
+            "way/82566272",
+            "way/82566287",
+            "way/82566300"
+          ]
+        },
+        {
+          "name": "Linares",
+          "normalized_name": "linares",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/200579130",
+            "way/215384266",
+            "way/215410624",
+            "way/1246582014",
+            "way/1246582015",
+            "way/1423332885",
+            "way/1423332886"
+          ]
+        },
+        {
+          "name": "Río Vena",
+          "normalized_name": "río vena",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/35795956",
+            "way/41312316",
+            "way/47354650",
+            "way/50808279",
+            "way/118240712",
+            "way/148800817",
+            "way/148800823",
+            "way/148800830",
+            "way/148800831",
+            "way/162597379",
+            "way/180064140",
+            "way/1239171361",
+            "way/1239171363",
+            "way/1239177973",
+            "way/1239177975"
+          ]
+        },
+        {
+          "name": "Río Hormazuela",
+          "normalized_name": "río hormazuela",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/170523350"
+          ]
+        },
+        {
+          "name": "Río Iso",
+          "normalized_name": "río iso",
+          "wikidata": "Q5938139",
+          "source_object_ids": [
+            "way/67828467",
+            "way/250836561",
+            "way/379002083",
+            "way/379002086",
+            "way/1218983135",
+            "way/1218983138"
+          ]
+        },
+        {
+          "name": "Odrón",
+          "normalized_name": "odrón",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/163231344",
+            "way/215420541",
+            "way/215420542",
+            "way/215420543"
+          ]
+        },
+        {
+          "name": "Río Furelos",
+          "normalized_name": "río furelos",
+          "wikidata": "Q9071793",
+          "source_object_ids": [
+            "way/118919098",
+            "way/264470680",
+            "way/461740684",
+            "way/1287413236",
+            "way/1318046283",
+            "way/1464578292"
+          ]
+        },
+        {
+          "name": "Río Vallarna",
+          "normalized_name": "río vallarna",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/127682762",
+            "way/286953604",
+            "way/381109628",
+            "way/390485253",
+            "way/390485254"
+          ]
+        },
+        {
+          "name": "Río Valdeginate",
+          "normalized_name": "río valdeginate",
+          "wikidata": null,
+          "source_object_ids": [
+            "way/25353819",
+            "way/136415692"
+          ]
+        }
+      ],
+      "quarantined_source_objects": [
+        "way/23609119",
+        "way/24486525",
+        "way/548174019",
+        "way/702813933",
+        "way/702813938"
+      ],
+      "selected_source_object_count": 937,
+      "selected_source_object_manifest_sha256": "6f70f27cadbdc17ec4e3c6760049ad8228b2f96bd1e1e38ed0cfcc1603b4c460"
+    }
+  }
+}

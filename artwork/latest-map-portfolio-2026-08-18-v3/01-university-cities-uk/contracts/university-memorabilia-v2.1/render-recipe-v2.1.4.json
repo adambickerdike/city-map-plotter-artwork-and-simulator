@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "university-memorabilia-ranked-2026-v2.1.4",
+  "status": "review-only",
+  "description": "Machine-readable recipe for the reviewed York-derived 30 UK / 20 US university cohort, with v2.1.4 fail-closed per-subject source pinning.",
+  "renderer": {
+    "archive": "base/renderer-contract.tar",
+    "archive_sha256": "794e4a44716e3739d22200370203a171cad05a52f79b5f00949c461fa46998f7",
+    "base_tree_sha256": "648f15740f25916df854045581adbe20df067bbb55d30ecf8fe3a366d4db286d",
+    "derived_tree_sha256": "2197dace775a09bd73d70cc9233be3689f5439f0e10942000ebc191f42065e4c",
+    "derived_fingerprint_sha256": "0a2106ff042bcccb7e73ad5fe3d253d0a5c7c18f2ca2425a35ea33aa29f69366"
+  },
+  "dependencies": {
+    "ranked_catalog": "../../src/city_map_plotter/data/ranked-universities-2026-v1.json",
+    "ranked_catalog_sha256": "9a58174a4e13f0ac7a66f9a91d4789d63ca71cdcb7d899d534731deca4f1e5fe",
+    "style": "base/renderer-contract/university-memorabilia-v2.json",
+    "style_sha256": "d5bc3c092d6cc05bbbc9581b5463a043716cfd5a8b237f8df634a44d6b6f7910",
+    "format": "base/renderer-contract/city_map_plotter/data/format-v1.json",
+    "format_sha256": "87cb84c49795b6e95816d18a2516d78909235dfba9416dbd3727cddc1a2f53b2",
+    "display_font": "base/renderer-contract/city_map_plotter/data/hershey-serif-medium.json",
+    "display_font_sha256": "8c19d5b94c9e42e4ba3c70210424ad1528b99714654382e6cb2e6c987eeec0b0",
+    "source_manifest": "source-snapshots/source-manifest.json",
+    "source_manifest_sha256": "581d07bc7262664d4b1134ec42b30ddd9a086f9915e067068b4f0fe77e121362",
+    "source_cohort_sha256": "1a861b085466c23ce2c97ce03b3807459bf96cf3e0c3c0faccbf3079b97cd6d3"
+  },
+  "environment": {
+    "python": "3.13.9",
+    "numpy": "2.5.1",
+    "shapely": "2.1.2",
+    "geos": "3.13.1",
+    "inkscape_for_png": "1.4.4",
+    "requirements": "../../requirements/university-v2.1.3.txt"
+  },
+  "cohort": {
+    "subject_count": 50,
+    "collections": [
+      "uk-times-good-university-guide-2026-top-30",
+      "us-qs-world-university-rankings-2027-top-20"
+    ],
+    "title_mode": "city"
+  },
+  "export": {
+    "radius_km": 2.0,
+    "preset": "a5-balanced-poster",
+    "poster_layout": "university-memorabilia",
+    "families": [
+      "roads",
+      "water",
+      "railways",
+      "parks",
+      "buildings"
+    ],
+    "water_fill": "dots",
+    "landmark_buildings": true,
+    "detail_profile": "plotter-faithful",
+    "simplify_mm": 0.04,
+    "road_style": "centreline",
+    "extent_fit": "contain",
+    "pen_profile": "actual-pens",
+    "scale_bar": false,
+    "scale_detail": false,
+    "optimise": true,
+    "physical_audit": true,
+    "split_by_pen": true,
+    "frame": true,
+    "attribution_mode": "external",
+    "external_attribution_placement": "Accompanying product page, packaging, and series attribution file",
+    "png_dpi": 254
+  },
+  "fidelity_invariant": {
+    "generic_default": "faithful",
+    "reviewed_physical_profile": "plotter-faithful",
+    "shared_cartographic_selection": true,
+    "shared_default_simplify_mm": 0.04,
+    "shared_default_road_style": "centreline"
+  }
+}

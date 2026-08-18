@@ -1,0 +1,1053 @@
+{
+  "id": "hike-uk-osm-selection-v1",
+  "schema_version": 1,
+  "status": "frozen-audited-selection-gate",
+  "source_snapshot_sha256": "c2b36fec960ba45de8f40d80c57bdd54353d712588c8c8fb5bcc775909bc7ad1",
+  "subjects": {
+    "RTE-GB-HEB-WALK-01": {
+      "extent": [
+        -7.62,
+        56.84,
+        -6.1,
+        58.55
+      ],
+      "canonical_feature_count": 62779,
+      "canonical_features_sha256": "8e788c7ee3a3b3d17ea582b12338192ef34909701ac7f7ac23bacdbb31272c29",
+      "selection_rules": {
+        "water": "area>=2.5km2 anchors; route<=3km/area>=0.5km2 fill; cap14",
+        "rivers": "route<=3km/length>=2km OR route<=10km/length>=12km; cap12",
+        "coast": "open route<=5km and length>=0.75mm; closed route<=5km and area>=0.25mm2; rank route distance then area; cap16",
+        "landcover": "route<=2.5km/area>=0.5km2 OR named route<=6km/area>=0.3km2; parts>=0.32mm2; rank route distance then area; cap64",
+        "terrain": "OS Terrain 50 contours length>=2.8km and complete-route distance<=10km; axis-stratified caps 7/8/7/6/4"
+      },
+      "water_source_objects": [
+        "relation/378037",
+        "relation/3078552",
+        "relation/5376907",
+        "relation/5393243",
+        "relation/3107889",
+        "relation/13274472",
+        "relation/5374772",
+        "relation/5397333",
+        "relation/14235816",
+        "relation/5376908",
+        "relation/13274759",
+        "relation/7565710",
+        "relation/5392427",
+        "relation/3108649"
+      ],
+      "river_entities": [
+        {
+          "name": "Abhainn Ghrìoda",
+          "identity": null,
+          "source_objects": [
+            "way/97315063",
+            "way/1458387190"
+          ]
+        },
+        {
+          "name": "Abhainn Lacasaidh",
+          "identity": null,
+          "source_objects": [
+            "way/360912378",
+            "way/360912528",
+            "way/672689442",
+            "way/672689443"
+          ]
+        },
+        {
+          "name": "Abhainn Sgaladail",
+          "identity": null,
+          "source_objects": [
+            "way/245366886"
+          ]
+        },
+        {
+          "name": "Allt Ruadh",
+          "identity": null,
+          "source_objects": [
+            "way/1035481177"
+          ]
+        },
+        {
+          "name": "Abhainn Bhiogadail",
+          "identity": null,
+          "source_objects": [
+            "way/530108492"
+          ]
+        },
+        {
+          "name": "An Lìge Mòr",
+          "identity": null,
+          "source_objects": [
+            "way/1153356182",
+            "way/1499361099"
+          ]
+        },
+        {
+          "name": "Abhainn a' Ghlinn Mhòir",
+          "identity": null,
+          "source_objects": [
+            "way/97151632",
+            "way/314378732",
+            "way/314378733",
+            "way/314378735",
+            "way/624257084",
+            "way/921513360",
+            "way/921513361"
+          ]
+        },
+        {
+          "name": "Sruth a' Mhuilinn",
+          "identity": null,
+          "source_objects": [
+            "way/1152775837"
+          ]
+        },
+        {
+          "name": "Abhainn Lacasdail",
+          "identity": null,
+          "source_objects": [
+            "way/49905347",
+            "way/837396102",
+            "way/837396103"
+          ]
+        },
+        {
+          "name": "Abhainn Lacasdail",
+          "identity": null,
+          "source_objects": [
+            "way/97500767",
+            "way/674083422"
+          ]
+        },
+        {
+          "name": "Allt a' Bhaird",
+          "identity": null,
+          "source_objects": [
+            "way/1045343318"
+          ]
+        },
+        {
+          "name": "Skeaudale River",
+          "identity": null,
+          "source_objects": [
+            "way/286786401",
+            "way/286786402",
+            "way/286786403"
+          ]
+        }
+      ],
+      "coast_chains": [
+        {
+          "audit_chain_hash": "3e7465f558c5",
+          "closed": true,
+          "source_way_count": 205,
+          "subpath_count": 1,
+          "source_objects_sha256": "a91a30f4b07f391104796a0476c8a07928c8b86d335a57aa820331bb759bc102",
+          "source_geometry_sha256": "9a9ac3749e0371958a518807c4a12cdaa086da6019f10691df9c7b7ca34ce1a3",
+          "distance_to_route_m": 0.0
+        },
+        {
+          "audit_chain_hash": "4110c66edbd7",
+          "closed": true,
+          "source_way_count": 63,
+          "subpath_count": 1,
+          "source_objects_sha256": "a0f34f2ce56e12940e78f6284f4477cfb739a8dfd79deab87ae419aea254d3d0",
+          "source_geometry_sha256": "482ce9ec1f9cd3facbd4c7628d835eb2ed573954bbf4a4cee64fe3e6b86ab98e",
+          "distance_to_route_m": 0.0
+        },
+        {
+          "audit_chain_hash": "b73a52e39ea8",
+          "closed": true,
+          "source_way_count": 80,
+          "subpath_count": 1,
+          "source_objects_sha256": "4b7082ba783da8cb796ba9d69bbb8538876ea22a78c6189e9b36d04ae6e85d68",
+          "source_geometry_sha256": "7348d266db5789aff4ae918475a7516568601644f1abf751be12f59e5117a7d6",
+          "distance_to_route_m": 0.0
+        },
+        {
+          "audit_chain_hash": "8c23af1f8b95",
+          "closed": true,
+          "source_way_count": 26,
+          "subpath_count": 1,
+          "source_objects_sha256": "4df9f0849e5c3710b4b5e2a8dc3d18f80e6e253f319da370ca0a8f98dacb15e7",
+          "source_geometry_sha256": "2b89db52c47a4f278ed47ab26d809db30de1b4ed11e237a3c4ef67232b56a00f",
+          "distance_to_route_m": 0.0
+        },
+        {
+          "audit_chain_hash": "1acedc743d16",
+          "closed": true,
+          "source_way_count": 43,
+          "subpath_count": 1,
+          "source_objects_sha256": "4b0b77451b51d0a7d393caba3797e83e09e50bd2c17af5f708b9ff62c6f6ee8b",
+          "source_geometry_sha256": "433d63d41e0312de482b6a29178f9568d2838ed4e3b1818785b80a805b4f9d7a",
+          "distance_to_route_m": 0.0
+        },
+        {
+          "audit_chain_hash": "9e7ac1e89006",
+          "closed": true,
+          "source_way_count": 5,
+          "subpath_count": 1,
+          "source_objects_sha256": "3addc82df546b72d38ef889c568ad1a6b3c93f34b5f9d43e12159bc06ca8b09f",
+          "source_geometry_sha256": "b3f9ec7e9999c811b47a0dea76c236197f50459c8c4e851cbf71bdbaca859d9f",
+          "distance_to_route_m": 0.0
+        },
+        {
+          "audit_chain_hash": "708ad2d7a299",
+          "closed": true,
+          "source_way_count": 5,
+          "subpath_count": 1,
+          "source_objects_sha256": "f5f7706d570a14ba4f91175c683eac9f66123639068cc37edd94c58ed3b80f6f",
+          "source_geometry_sha256": "8b1fd06cb39fadab6519aa32d4243236ee21960f0710c8e1f4709393daabdd70",
+          "distance_to_route_m": 0.0
+        },
+        {
+          "audit_chain_hash": "0940ad3e316f",
+          "closed": true,
+          "source_way_count": 1,
+          "subpath_count": 1,
+          "source_objects_sha256": "ff91e9f327ffacd024d219c7eeda1d89598bc119b28048da5dac82600752a52a",
+          "source_geometry_sha256": "1120f0ce47cc58c5c2e9571c156757dff2da0e20112843ef61d5bc5a2ea4115e",
+          "distance_to_route_m": 644.5
+        },
+        {
+          "audit_chain_hash": "c2469a2fcd08",
+          "closed": true,
+          "source_way_count": 2,
+          "subpath_count": 1,
+          "source_objects_sha256": "2b2f3bf65ba760bd7000e229a046451344173922ce453332fde69fcf975c907f",
+          "source_geometry_sha256": "9894525daebc42b3d1f9a8e29fda7d1f5c0f6d71bafa9097ba258ff988720ef4",
+          "distance_to_route_m": 1287.7
+        },
+        {
+          "audit_chain_hash": "22ffc5eabf75",
+          "closed": true,
+          "source_way_count": 1,
+          "subpath_count": 1,
+          "source_objects_sha256": "7c5508fef8f65295229afc7ce0577a5ccb44ef19049ecf853d226e1c5398a983",
+          "source_geometry_sha256": "80840409c6a805a60633a5413ef4e632663ca29ca40426c44c45d639f1ec24b8",
+          "distance_to_route_m": 1707.4
+        },
+        {
+          "audit_chain_hash": "7c60f395db6f",
+          "closed": true,
+          "source_way_count": 1,
+          "subpath_count": 1,
+          "source_objects_sha256": "68872ea93e608c7b5549ee6bd287cb86493dae297206a1fb8146a612e406c522",
+          "source_geometry_sha256": "9a6865b5d5f3325c4c551eb12da48353a8747b6ea5911e6912cb975aa42b6bc3",
+          "distance_to_route_m": 1909.8
+        },
+        {
+          "audit_chain_hash": "284b00622b27",
+          "closed": true,
+          "source_way_count": 1,
+          "subpath_count": 1,
+          "source_objects_sha256": "484d90c750be581d8157099ad33f11a6846f76f0ec2859f70e24b7407c168fef",
+          "source_geometry_sha256": "909a3da8e91b7eb3aa3cf305e25a7006870d13492d4f61ae6b529dbedc2f2e34",
+          "distance_to_route_m": 1914.7
+        },
+        {
+          "audit_chain_hash": "3e7d56746fc6",
+          "closed": true,
+          "source_way_count": 2,
+          "subpath_count": 1,
+          "source_objects_sha256": "4de710df1c1fbf021aee8729f27cbdc85c91a731b33a6dbe2cf877db9d307483",
+          "source_geometry_sha256": "2fb6e7685a983ace8a19813c1f5f22f09e4efa76bef46afe0e08ab70bc3e0a7d",
+          "distance_to_route_m": 1949.6
+        },
+        {
+          "audit_chain_hash": "2004398ec916",
+          "closed": true,
+          "source_way_count": 3,
+          "subpath_count": 1,
+          "source_objects_sha256": "0ac59de3c9e1046175af1595dca4b5eed0cd03fef37aa412dd54317518ecdd9a",
+          "source_geometry_sha256": "e7971fb75b090c7a383806f9e7db16777c78c3d3121ce2a4c0d2f43ac3ec8944",
+          "distance_to_route_m": 3369.1
+        }
+      ],
+      "landcover_source_objects": [
+        "relation/16843386",
+        "relation/3869916"
+      ],
+      "terrain_gate": {
+        "source_snapshot_sha256": "d03e91d3adcf5927b2f2e2ef0d7b6ccf18a2e63728d6ebef83c6c9aa2a3c64a7",
+        "derivation_id": "os-terrain50-rte-gb-heb-walk-01-contours-v4",
+        "maximum_distance_to_route_m": 10000,
+        "selected_path_count": 23,
+        "selected_path_counts_by_level": {
+          "150": 7,
+          "300": 8,
+          "450": 7,
+          "600": 1
+        },
+        "selected_maximum_route_distance_m_by_level": {
+          "150": 4734.1,
+          "300": 4880.8,
+          "450": 5533.8,
+          "600": 2816.9
+        },
+        "geometry_manifest_sha256": "0acf10fc4c6b3bb746d49655d8ce967d535ae7185c5e3e6afd612faf0d34117e",
+        "removed_off_route_paths": [
+          {"elevation_m": 600, "distance_to_route_m": 50074.0, "bbox_wgs84": [-6.1923, 57.5037, -6.1773, 57.5141]},
+          {"elevation_m": 600, "distance_to_route_m": 60544.0, "bbox_wgs84": [-6.3307, 56.9509, -6.3045, 56.9689]},
+          {"elevation_m": 600, "distance_to_route_m": 63617.0, "bbox_wgs84": [-6.2659, 57.1854, -6.1794, 57.2599]},
+          {"elevation_m": 600, "distance_to_route_m": 69974.0, "bbox_wgs84": [-6.1346, 57.2898, -6.1093, 57.2985]},
+          {"elevation_m": 750, "distance_to_route_m": 64357.0, "bbox_wgs84": [-6.2528, 57.1871, -6.1866, 57.2544]}
+        ]
+      },
+      "expected": {
+        "water_objects": 14,
+        "water_source_holes": 494,
+        "water_render_holes": 4,
+        "coast_chains": 14,
+        "coast_open": 0,
+        "coast_closed": 14,
+        "coast_source_ways": 438,
+        "coast_subpaths": 14,
+        "river_entities": 12,
+        "river_source_ways": 28,
+        "landcover_selected": 2,
+        "landcover_rendered": 2,
+        "terrain_paths": 23,
+        "terrain_removed_off_route_paths": 5
+      }
+    },
+    "RTE-GB-GGW-01": {
+      "extent": [
+        -5.35,
+        56.72,
+        -4.1,
+        57.58
+      ],
+      "canonical_feature_count": 29712,
+      "canonical_features_sha256": "9c52342a470feaa9c2682f06a762ba6357a6bec9f9c8beccf64a6b6c6a19f36c",
+      "selection_rules": {
+        "water": "area>=15km2 and route<=10km OR named route<=8km/area>=0.75km2 OR route<=3km/area>=0.5km2; cap14",
+        "rivers": "route<=3km/length>=9km; cap12",
+        "coast": "open length>=0.75mm mandatory; closed area>=0.25mm2; cap8",
+        "landcover": "area>=8km2 OR route<=2.5km/area>=0.5km2 OR named route<=6km/area>=0.3km2; cap64; source-anchored fallback below2.2mm2"
+      },
+      "water_source_objects": [
+        "relation/4023212",
+        "way/4049648",
+        "relation/6925233",
+        "relation/3295949",
+        "way/26185854",
+        "way/32020555",
+        "relation/8520803",
+        "relation/14919612",
+        "way/4049678",
+        "relation/2304363",
+        "relation/3932308",
+        "way/4880819",
+        "relation/1753407"
+      ],
+      "river_entities": [
+        {
+          "name": "River Moriston",
+          "identity": "Q24639642",
+          "source_objects": [
+            "way/30175215",
+            "way/41224890",
+            "way/41224892",
+            "way/41225422"
+          ]
+        },
+        {
+          "name": "River Enrick",
+          "identity": null,
+          "source_objects": [
+            "way/38218270",
+            "way/423207088",
+            "way/423207089"
+          ]
+        },
+        {
+          "name": "River Garry",
+          "identity": "Q7337444",
+          "source_objects": [
+            "way/23609652",
+            "way/35043497",
+            "way/181352007",
+            "way/243811500",
+            "way/999905210",
+            "way/1367985197"
+          ]
+        },
+        {
+          "name": "River Lochy",
+          "identity": "Q24640759",
+          "source_objects": [
+            "way/4049661",
+            "way/4049667",
+            "way/1508161509"
+          ]
+        },
+        {
+          "name": "River Coiltie",
+          "identity": "Q24653418",
+          "source_objects": [
+            "way/38218273"
+          ]
+        },
+        {
+          "name": "River Loy",
+          "identity": "Q24640900",
+          "source_objects": [
+            "way/440293155",
+            "way/440293156",
+            "way/440293157",
+            "way/1302837185",
+            "way/1302837186"
+          ]
+        },
+        {
+          "name": "River Ness",
+          "identity": "Q1364584",
+          "source_objects": [
+            "way/4004125",
+            "way/1451125632",
+            "way/1451125633",
+            "way/1451125634",
+            "way/1451405285",
+            "way/1451405286",
+            "way/1451405287",
+            "way/1451405288",
+            "way/1451405289",
+            "way/1451405290"
+          ]
+        },
+        {
+          "name": "River Oich",
+          "identity": "Q2155503",
+          "source_objects": [
+            "way/4049616",
+            "way/1451800837",
+            "way/1451800838"
+          ]
+        },
+        {
+          "name": "River Tarff",
+          "identity": "Q7337860",
+          "source_objects": [
+            "way/130076692",
+            "way/140682755"
+          ]
+        },
+        {
+          "name": "River Spean",
+          "identity": "Q24637544",
+          "source_objects": [
+            "way/4049658",
+            "way/1271980022"
+          ]
+        },
+        {
+          "name": "River Gloy",
+          "identity": "Q112236179",
+          "source_objects": [
+            "way/429526632"
+          ]
+        },
+        {
+          "name": "River Farigaig",
+          "identity": null,
+          "source_objects": [
+            "way/112243405"
+          ]
+        }
+      ],
+      "coast_chains": [
+        {
+          "audit_chain_hash": "0eb13906c926",
+          "closed": false,
+          "source_way_count": 21,
+          "subpath_count": 1
+        },
+        {
+          "audit_chain_hash": "4bcf997a31ae",
+          "closed": false,
+          "source_way_count": 14,
+          "subpath_count": 1
+        },
+        {
+          "audit_chain_hash": "b3568e08932b",
+          "closed": false,
+          "source_way_count": 3,
+          "subpath_count": 1
+        }
+      ],
+      "landcover_source_objects": [
+        "relation/1407318",
+        "relation/3346849",
+        "way/1163398750",
+        "relation/13305034",
+        "way/33081835",
+        "relation/13182962",
+        "way/996157833",
+        "relation/12812120",
+        "way/340180156",
+        "relation/3334157",
+        "relation/3346825",
+        "way/507924670",
+        "relation/20250475",
+        "relation/12812489",
+        "way/233853594",
+        "relation/10061229",
+        "way/130662600",
+        "relation/3346988",
+        "way/996159433",
+        "way/217955367",
+        "way/340180158",
+        "relation/3346979",
+        "way/340182208",
+        "way/962896489",
+        "relation/12808907",
+        "way/999977677",
+        "way/115789135",
+        "way/233853400",
+        "relation/12808908",
+        "way/209177954",
+        "relation/3346899",
+        "way/1000838494",
+        "way/248541486",
+        "way/752668386",
+        "way/899945869",
+        "way/899934845",
+        "way/116262086",
+        "way/999977689",
+        "way/116260796",
+        "way/899961966",
+        "relation/3346878",
+        "relation/3345164",
+        "relation/3345123",
+        "way/899979170",
+        "way/1015679353",
+        "relation/3346986",
+        "way/852000311",
+        "way/1006494446",
+        "way/115788219",
+        "relation/12811703",
+        "way/899974396",
+        "way/996157830",
+        "way/145690601",
+        "relation/13182961",
+        "way/248333900",
+        "way/1014472966",
+        "way/236055744",
+        "way/962896488",
+        "way/727136609",
+        "relation/3986167",
+        "way/899961995",
+        "way/852002849",
+        "way/248332061",
+        "way/1173955457"
+      ],
+      "removed_off_route": {
+        "water": [
+          {
+            "source_object": "way/4742107",
+            "name": "Loch Ericht",
+            "distance_to_route_m": 33817.4
+          }
+        ]
+      },
+      "expected": {
+        "water_objects": 13,
+        "water_source_holes": 22,
+        "water_render_holes": 3,
+        "coast_chains": 3,
+        "coast_open": 3,
+        "coast_closed": 0,
+        "coast_source_ways": 38,
+        "coast_subpaths": 3,
+        "river_entities": 12,
+        "river_source_ways": 41,
+        "landcover_selected": 64,
+        "landcover_rendered": 63
+      }
+    },
+    "RTE-GB-JMW-WALK-01": {
+      "extent": [
+        -4.85,
+        55.88,
+        -2.42,
+        56.17
+      ],
+      "canonical_feature_count": 59543,
+      "canonical_features_sha256": "2db1081695225c4acfc0d0bcc9c96161cf7f2b55bdd7d0a8933739876606776b",
+      "selection_rules": {
+        "water": "area>=5km2 OR named route<=3km/area>=0.25km2 OR named route<=8km/area>=0.75km2; cap14",
+        "rivers": "route<=0.25km/length>=8km; cap12",
+        "coast": "open length>=0.75mm mandatory; closed area>=0.25mm2; cap8",
+        "landcover": "area>=8km2 and route<=10km OR route<=2.5km/area>=0.5km2 OR named route<=6km/area>=0.3km2; cap64; source-anchored fallback below2.2mm2"
+      },
+      "water_source_objects": [
+        "relation/11015",
+        "relation/1110399",
+        "way/5120975",
+        "way/4996161",
+        "relation/5334756",
+        "way/4996162",
+        "way/4996157",
+        "way/4996864",
+        "way/420118675"
+      ],
+      "river_entities": [
+        {
+          "name": "River Avon",
+          "identity": null,
+          "source_objects": [
+            "way/39654317",
+            "way/75040081",
+            "way/78238285",
+            "way/78238289",
+            "way/1503967136",
+            "way/1503967139",
+            "way/1503967143"
+          ]
+        },
+        {
+          "name": "River Tyne",
+          "identity": "Q366284",
+          "source_objects": [
+            "way/32856772",
+            "way/39389833",
+            "way/39389837",
+            "way/440065384",
+            "way/697124399",
+            "way/697124400",
+            "way/1511630637"
+          ]
+        },
+        {
+          "name": "River Kelvin",
+          "identity": null,
+          "source_objects": [
+            "way/4301346",
+            "way/4301450",
+            "way/23510973",
+            "way/38306984",
+            "way/38306985",
+            "way/207053841",
+            "way/1503967152",
+            "way/1503967162",
+            "way/1503967164",
+            "way/1503967167"
+          ]
+        },
+        {
+          "name": "River Almond",
+          "identity": null,
+          "source_objects": [
+            "way/4905779",
+            "way/32646584"
+          ]
+        },
+        {
+          "name": "Water of Leith",
+          "identity": "Q3566668",
+          "source_objects": [
+            "way/4627722",
+            "way/8098734",
+            "way/8098735",
+            "way/8098736",
+            "way/8098737",
+            "way/24390791",
+            "way/72728747",
+            "way/601100942",
+            "way/601100943"
+          ]
+        },
+        {
+          "name": "River Leven",
+          "identity": "Q2559923",
+          "source_objects": [
+            "way/10203579"
+          ]
+        },
+        {
+          "name": "Biel Water",
+          "identity": null,
+          "source_objects": [
+            "way/36820665",
+            "way/174730985"
+          ]
+        },
+        {
+          "name": "Bonny Water",
+          "identity": "Q124675965",
+          "source_objects": [
+            "way/22956399",
+            "way/126252792",
+            "way/1155980830",
+            "way/1155980831",
+            "way/1311861522"
+          ]
+        },
+        {
+          "name": "Finglen Burn",
+          "identity": null,
+          "source_objects": [
+            "way/23500372"
+          ]
+        },
+        {
+          "name": "Luggie Water",
+          "identity": "Q6699791",
+          "source_objects": [
+            "way/22879856",
+            "way/694691242",
+            "way/694691243",
+            "way/1021948303",
+            "way/1021948304"
+          ]
+        },
+        {
+          "name": "Blane Water",
+          "identity": null,
+          "source_objects": [
+            "way/377964418"
+          ]
+        },
+        {
+          "name": "Fruin Water",
+          "identity": "Q24643567",
+          "source_objects": [
+            "way/69635530",
+            "way/82189549",
+            "way/144629057",
+            "way/144629066"
+          ]
+        }
+      ],
+      "coast_chains": [
+        {
+          "audit_chain_hash": "897c04bdd5e0",
+          "closed": true,
+          "source_way_count": 1,
+          "subpath_count": 1
+        },
+        {
+          "audit_chain_hash": "d846c92a71c6",
+          "closed": false,
+          "source_way_count": 128,
+          "subpath_count": 2
+        },
+        {
+          "audit_chain_hash": "ade84ffc9df5",
+          "closed": false,
+          "source_way_count": 32,
+          "subpath_count": 3
+        },
+        {
+          "audit_chain_hash": "5209282906d0",
+          "closed": false,
+          "source_way_count": 6,
+          "subpath_count": 1
+        },
+        {
+          "audit_chain_hash": "dd1467da0b23",
+          "closed": false,
+          "source_way_count": 5,
+          "subpath_count": 1
+        }
+      ],
+      "landcover_source_objects": [
+        "relation/158762",
+        "way/23709612",
+        "way/23785368",
+        "way/23785369",
+        "way/23709610",
+        "way/142409107",
+        "relation/10259062",
+        "way/23709176",
+        "way/30684815",
+        "way/23785374",
+        "relation/2346735",
+        "way/372712595",
+        "relation/6845618",
+        "way/23710102",
+        "way/372707184",
+        "relation/6987228",
+        "relation/11106738",
+        "way/372707527",
+        "relation/7212311",
+        "way/111645648",
+        "relation/13306161",
+        "way/275509979",
+        "way/765215489",
+        "way/420361395",
+        "way/420361391",
+        "way/128060317",
+        "way/30684691",
+        "relation/4507928",
+        "way/1073602961",
+        "way/108533048",
+        "way/445297361",
+        "relation/18453869",
+        "way/372481780",
+        "way/252363101",
+        "way/749772241",
+        "relation/11223845",
+        "way/30684902",
+        "way/22879326",
+        "way/164939952",
+        "way/1153088427",
+        "way/1153088428",
+        "way/123747282",
+        "way/103539499",
+        "way/869899122",
+        "relation/8847149",
+        "way/742041681",
+        "way/22931677",
+        "way/197671676",
+        "way/31404934",
+        "relation/18281190",
+        "relation/20302876",
+        "way/137028099",
+        "relation/12501549",
+        "way/754358906",
+        "way/71079302",
+        "way/490600646",
+        "way/211256964",
+        "way/30684696",
+        "relation/7208144",
+        "way/469995060",
+        "relation/3078399",
+        "relation/11878793",
+        "way/211519279",
+        "way/873012879"
+      ],
+      "removed_off_route": {
+        "landcover": [
+          {
+            "source_object": "relation/16464443",
+            "distance_to_route_m": 10915.6
+          },
+          {
+            "source_object": "relation/7640961",
+            "name": "Blairadam Forest",
+            "distance_to_route_m": 13028.0
+          },
+          {
+            "source_object": "relation/17263940",
+            "distance_to_route_m": 13906.0
+          }
+        ],
+        "replacement_landcover": [
+          "relation/11878793",
+          "way/211519279",
+          "way/873012879"
+        ]
+      },
+      "expected": {
+        "water_objects": 9,
+        "water_source_holes": 48,
+        "water_render_holes": 11,
+        "coast_chains": 5,
+        "coast_open": 4,
+        "coast_closed": 1,
+        "coast_source_ways": 172,
+        "coast_subpaths": 8,
+        "river_entities": 12,
+        "river_source_ways": 54,
+        "landcover_selected": 64,
+        "landcover_rendered": 41
+      }
+    }
+  },
+  "whw_route_context_gate": {
+    "subject_id": "RTE-GB-WHW-01",
+    "maximum_distance_to_route_m": 10000,
+    "selection_rules": {
+      "landcover": "retain reviewed source-derived woodland/forest only when distance to the complete route is <=10km",
+      "water": "retain identity-curated inland water only when distance to the complete route is <=10km",
+      "coast": "retain exact-endpoint stitched coast components only when distance to the complete route is <=10km, then clip derived paths to the 10km route corridor",
+      "rivers": "retain the reviewed 12 identity-disambiguated route-context river entities"
+    },
+    "source_evidence": {
+      "snapshot_sha256": "c2b36fec960ba45de8f40d80c57bdd54353d712588c8c8fb5bcc775909bc7ad1",
+      "landcover_canonical_feature_count": 44050,
+      "landcover_canonical_extraction_sha256": "3ce47ca623de3900b3ac2c3e39428af81f9606945ad7c0836d6297ced855027f",
+      "hydrography_canonical_feature_count": 40453,
+      "hydrography_canonical_extraction_sha256": "fa32b27d6ca1eee443378cd6e3f53f5f331d705d992d14f3b43dba99b481abc9"
+    },
+    "landcover_source_objects": [
+      "way/23722255",
+      "way/33529684",
+      "way/272522573",
+      "way/23710045",
+      "way/115789135",
+      "way/117426828",
+      "relation/18116147",
+      "relation/2346735",
+      "way/1168792437",
+      "way/278794037",
+      "way/419038974",
+      "way/83643683",
+      "way/27645591",
+      "way/115789160",
+      "way/102969384",
+      "way/23722309",
+      "way/103009383",
+      "way/115789181",
+      "way/23289620",
+      "relation/16171993",
+      "way/278164670",
+      "way/164939952",
+      "way/209014024",
+      "way/4821989",
+      "relation/12505031",
+      "way/94129683",
+      "way/209014039",
+      "way/23722290",
+      "way/23722291",
+      "way/27866301",
+      "way/32229727",
+      "relation/18042110",
+      "way/164369455",
+      "relation/15800511",
+      "way/23785420",
+      "way/420361395",
+      "relation/18642115",
+      "way/115788219",
+      "way/376602247",
+      "way/115884817",
+      "way/1356059760",
+      "way/23785381",
+      "way/436451883",
+      "way/23710060",
+      "way/225697959",
+      "relation/12505024",
+      "way/115781330",
+      "relation/18281190",
+      "way/33529682",
+      "way/619751291",
+      "way/57383142",
+      "way/445297361",
+      "way/115884896",
+      "way/531624910",
+      "way/23709610",
+      "relation/16464443",
+      "relation/2452945",
+      "way/128060317",
+      "way/123747282",
+      "way/30684696",
+      "relation/17263940",
+      "way/340180156",
+      "way/765215489",
+      "relation/19599644",
+      "relation/10117226"
+    ],
+    "landcover_geometry_manifest_sha256": "b9752b51c54137756505275164e24d8ab48d512e50a012f10d08798d5a2b8f25",
+    "water_source_objects": [
+      "relation/11015",
+      "relation/16820132",
+      "relation/17747060",
+      "way/4917752",
+      "relation/896902",
+      "relation/2822559",
+      "way/4795076",
+      "relation/1463708",
+      "way/223515923",
+      "relation/898190"
+    ],
+    "water_geometry_manifest_sha256": "44f752e6172a84b6a2b6a7fc35d7962ae72fff0e3e505a627744d106921c4128",
+    "coast_chains": [
+      {
+        "chain_hash": "15b4486aae52",
+        "closed": false,
+        "source_way_count": 183,
+        "subpath_count": 2,
+        "source_objects_sha256": "9af3bd542cdf7b13a1ca4a6392b1fec270dd337c16b7473ae7d774a694c67165",
+        "geometry_sha256": "d3b6cbed56dc5fd22e9ef9f368d0d573b76c28f9f11b616386d5c0cb077673bf",
+        "distance_to_route_m": 48.5
+      },
+      {
+        "chain_hash": "c5462fa6f78e",
+        "closed": false,
+        "source_way_count": 96,
+        "subpath_count": 2,
+        "source_objects_sha256": "850bdf6146b3b0420ad6e266921b21ae4293fd75f36e6a114993c143918746b4",
+        "geometry_sha256": "fff8de897812a78ad2e71f10246113de578ea33410e09c09016369921de33172",
+        "distance_to_route_m": 3987.3
+      }
+    ],
+    "removed": {
+      "water": [
+        {"source_object": "way/4689374", "name": "Loch Trèig", "distance_to_route_m": 13469.3},
+        {"source_object": "relation/2598529", "name": "Loch Awe", "distance_to_route_m": 18627.5},
+        {"source_object": "relation/3303093", "name": "Loch Tay", "distance_to_route_m": 21934.0},
+        {"source_object": "relation/2916160", "name": "Loch Rannoch", "distance_to_route_m": 23204.5}
+      ],
+      "coast": [
+        {"chain_hash": "6b528c012bb7", "distance_to_route_m": 13871.7, "source_way_count": 55},
+        {"chain_hash": "bd95e8e8f097", "distance_to_route_m": 22946.0, "source_way_count": 1},
+        {"chain_hash": "f701cbd823cb", "distance_to_route_m": 27089.9, "source_way_count": 8},
+        {"chain_hash": "16538b54469b", "distance_to_route_m": 27608.3, "source_way_count": 9},
+        {"chain_hash": "c81f8ce9c980", "distance_to_route_m": 28453.1, "source_way_count": 6},
+        {"chain_hash": "366f084c6d06", "distance_to_route_m": 30962.3, "source_way_count": 14},
+        {"chain_hash": "897c04bdd5e0", "distance_to_route_m": 35011.3, "source_way_count": 1},
+        {"chain_hash": "8624dd8c8218", "distance_to_route_m": 39159.6, "source_way_count": 1},
+        {"chain_hash": "3c4415f36a51", "distance_to_route_m": 39690.1, "source_way_count": 6},
+        {"chain_hash": "3066c13ad4f6", "distance_to_route_m": 41829.8, "source_way_count": 25},
+        {"chain_hash": "24ebf06b8be4", "distance_to_route_m": 45719.5, "source_way_count": 2},
+        {"chain_hash": "336d472dd9c0", "distance_to_route_m": 52355.5, "source_way_count": 1},
+        {"chain_hash": "e6ffe3b470eb", "distance_to_route_m": 52510.5, "source_way_count": 1},
+        {"chain_hash": "3d132424eabc", "distance_to_route_m": 52589.3, "source_way_count": 5},
+        {"chain_hash": "412630b77277", "distance_to_route_m": 54738.3, "source_way_count": 1},
+        {"chain_hash": "37ab7e3823e9", "distance_to_route_m": 55430.6, "source_way_count": 1},
+        {"chain_hash": "c5392edf8db5", "distance_to_route_m": 55690.1, "source_way_count": 1},
+        {"chain_hash": "f17b7c987ce9", "distance_to_route_m": 56543.0, "source_way_count": 6},
+        {"chain_hash": "00bf04184a0a", "distance_to_route_m": 57803.0, "source_way_count": 19},
+        {"chain_hash": "fed351e119a3", "distance_to_route_m": 62307.3, "source_way_count": 4}
+      ],
+      "landcover": [
+        {"source_object": "relation/2713191", "distance_to_route_m": 10223.0},
+        {"source_object": "relation/2895657", "distance_to_route_m": 10467.9},
+        {"source_object": "way/23800645", "distance_to_route_m": 11584.8},
+        {"source_object": "relation/10041828", "distance_to_route_m": 12291.5},
+        {"source_object": "way/1255068292", "distance_to_route_m": 14904.2},
+        {"source_object": "way/252158937", "distance_to_route_m": 15647.0},
+        {"source_object": "way/32589807", "distance_to_route_m": 16909.2},
+        {"source_object": "way/23800650", "distance_to_route_m": 19552.1},
+        {"source_object": "relation/8103987", "distance_to_route_m": 23659.2},
+        {"source_object": "relation/3227804", "distance_to_route_m": 25648.7},
+        {"source_object": "way/426524678", "distance_to_route_m": 26454.0},
+        {"source_object": "relation/2755774", "distance_to_route_m": 29783.8},
+        {"source_object": "relation/2736265", "distance_to_route_m": 32349.5},
+        {"source_object": "way/205276934", "distance_to_route_m": 36061.0},
+        {"source_object": "way/429998305", "distance_to_route_m": 39097.3},
+        {"source_object": "relation/20275249", "distance_to_route_m": 40206.8},
+        {"source_object": "way/427064673", "distance_to_route_m": 40862.1},
+        {"source_object": "relation/16868023", "distance_to_route_m": 41722.2},
+        {"source_object": "relation/2681724", "distance_to_route_m": 42826.7},
+        {"source_object": "way/1254105223", "distance_to_route_m": 46442.1},
+        {"source_object": "way/424250796", "distance_to_route_m": 48700.1},
+        {"source_object": "way/228359526", "distance_to_route_m": 50658.5},
+        {"source_object": "relation/20238312", "distance_to_route_m": 50658.5},
+        {"source_object": "relation/8281814", "distance_to_route_m": 50674.5},
+        {"source_object": "way/210555733", "distance_to_route_m": 52487.7},
+        {"source_object": "way/48484596", "distance_to_route_m": 54238.7},
+        {"source_object": "relation/18205919", "distance_to_route_m": 55201.9}
+      ]
+    },
+    "expected": {
+      "landcover_objects": 65,
+      "water_objects": 10,
+      "water_source_holes": 260,
+      "water_render_holes": 17,
+      "coast_chains": 2,
+      "coast_source_ways": 279,
+      "coast_subpaths": 4,
+      "river_entities": 12,
+      "river_source_ways": 40,
+      "removed_landcover_objects": 27,
+      "removed_water_objects": 4,
+      "removed_coast_chains": 20,
+      "landcover_rendered": 61
+    }
+  }
+}

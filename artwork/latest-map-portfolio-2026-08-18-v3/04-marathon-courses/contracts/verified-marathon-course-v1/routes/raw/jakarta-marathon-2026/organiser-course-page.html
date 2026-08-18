@@ -1,0 +1,2466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Race -JAKIM 2026" />
+    <meta name="keywords" content="" />
+    <meta itemprop="name" content="Race - JAKIM  2026">
+    <meta itemprop="description" content="Race -JAKIM 2026">
+    <meta itemprop="image" content="https://jakim.id/assets/images/jakimnew.png">
+    <meta property="og:url" content="https://jakim.id/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Race - JAKIM  2026">
+    <meta property="og:description" content="Race -JAKIM 2026">
+    <meta property="og:image" content="https://jakim.id/assets/images/jakimnew.png">
+    <meta name="twitter:title" content="Race - JAKIM  2026">
+    <meta name="twitter:description" content="Race -JAKIM 2026">
+    <meta name="twitter:image" content="https://jakim.id/assets/images/jakimnew.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="shortcut icon" href="https://jakim.id/assets/images/120px.png" type="image/x-icon">
+    <title>Race - JAKIM  2026</title>
+    <link rel="stylesheet" href="https://jakim.id/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HYR82CCRKY"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-HYR82CCRKY');
+    </script>
+    <style>
+        @font-face {
+            font-family: "Poppins";
+            src: url('./assets/fonts/Poppins-Regular.TTF');
+            src: url('./assets/fonts/Poppins-Regular.TTF') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Poppins";
+            src: url('./assets/fonts/Poppins-Italic.TTF');
+            src: url('./assets/fonts/Poppins-Italic.TTF') format('truetype');
+            font-weight: normal;
+            font-style: italic;
+          }
+        @font-face {
+            font-family: "Poppins";
+            src: url('./assets/fonts/Poppins-Black.TTF');
+            src: url('./assets/fonts/Poppins-Black.TTF') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+          }
+        @font-face {
+            font-family: "Poppins";
+            src: url('./assets/fonts/Poppins-BoldItalic.TTF');
+            src: url('./assets/fonts/Poppins-BoldItalic.TTF') format('truetype');
+            font-weight: bold;
+            font-style: italic;
+          }
+        /* Styling Header */
+        body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #ffffff !important; /* Ganti background-image dengan warna putih */
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+}
+        .__footer{
+            background-color:#004fff;
+            padding:40px 0px 0px 0px;
+            width:100%;
+        }
+        a .icon {
+            width: 15px;
+            height: 15px;
+            background-color: #fff;
+            color: #004fff;
+            border-radius: 50%;
+            padding: 3px;
+        }
+        .dropdown-submenu {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 80%; /* Muncul di sebelah kanan */
+            margin-left: 40px; /* Beri jarak sedikit */
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 10002;
+            min-width: 150px;
+        }
+        .btn_reg:hover{
+            background-color:#d0001e !important;
+            box-shadow:2px 3px 4px rgba(0,0,0,0.3);
+        }
+        
+        .btn_regnew:hover{
+            background-color:#d5d5d5 !important;
+            box-shadow:2px 3px 4px rgba(0,0,0,0.3) !important;
+        }
+        .dropdown-menu a:hover + .dropdown-submenu {
+            display: block;
+        }
+        
+    
+    /* Submenu untuk posisi kanan */
+        .submenu-right {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 50%; /* Muncul di sebelah kanan */
+            margin-left: 45px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 10002;
+            min-width: 150px;
+        }
+        .content {
+            flex: 1; /* Konten utama mengambil sisa ruang */
+        }
+        .dropdown-item:hover .submenu-right {
+            display: block;
+        }
+        .dropdown-submenu:hover .submenu-right{
+            display:block;
+        }
+        .image-container {
+            position: relative; /* Harus ada agar anak tetap dalam konteks */
+            width: 100%; /* Sesuaikan dengan kebutuhan */
+            height: 100%;
+            padding-top: 45%; /* Rasio 16:9 (opsional, sesuai rasio gambar) */
+            overflow: hidden;
+        }
+        
+        .image-container img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            object-fit: cover; /* Sesuaikan gambar ke ukuran container */
+            transition: transform 0.5s ease-in-out; /* Atur durasi transisi */
+        }
+        
+        .image-container .default-image {
+            z-index: 1; /* Gambar default di atas */
+        }
+        
+        .image-container .hover-image {
+            z-index: 2;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+            cursor:pointer;
+        }
+        
+        .image-container:hover .hover-image {
+            opacity: 1;
+        }
+        .image-container1 {
+            position: relative; /* Harus ada agar anak tetap dalam konteks */
+            width: 100%; /* Sesuaikan dengan kebutuhan */
+            height: 100%;
+            padding-top: 10%; /* Rasio 16:9 (opsional, sesuai rasio gambar) */
+            overflow: hidden;
+        }
+        
+        .image-container1 img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            object-fit: cover; /* Sesuaikan gambar ke ukuran container */
+            transition: transform 0.5s ease-in-out; /* Atur durasi transisi */
+        }
+        
+        .image-container1 .default-image {
+            z-index: 1; /* Gambar default di atas */
+        }
+        
+        .image-container1 .hover-image {
+            z-index: 2;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+            cursor:pointer;
+        }
+        
+        .image-container1:hover .hover-image {
+            opacity: 1;
+        }
+        .dropdown-sub.active a.dropdown-item.submenu-toggle {
+            color: #fff !important;
+        }
+        /* Arrow untuk submenu kanan */
+        .submenu-right::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: -10px;
+            transform: translateY(-50%);
+            border-top: 6px solid transparent;
+            border-bottom: 6px solid transparent;
+            border-right: 6px solid white;
+        }
+        
+        /* Submenu untuk posisi kiri */
+        .submenu-left {
+            display: none;
+            position: absolute;
+            top: 0;
+            right: 90%; /* Muncul di sebelah kiri */
+            margin-right: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 10002;
+            min-width: 150px;
+        }
+        
+        .dropdown-item:hover .submenu-left {
+            display: block;
+        }
+        
+        /* Arrow untuk submenu kiri */
+        .submenu-left::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            border-top: 6px solid transparent;
+            border-bottom: 6px solid transparent;
+            border-left: 6px solid white;
+        }
+        .custom-box {
+            font-size: calc(0.625rem + 0.5vw);
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            border-radius: 12px;
+            height: 100%; /* Ensure height fills the parent container */
+            display: flex; /* Enable Flexbox */
+            align-items: center; /* Center content vertically */
+            justify-content: center; /* Center content horizontally */
+            padding: 48px 0;
+            box-shadow:2px 4px 6px rgba(0,0,0,0.3);
+        }
+        .countdown-box {
+            width: 130px; /* Lebar default untuk box */
+            background-color: transparent;
+            border: 2px solid white;
+            border-radius: 8px;
+            text-align: center;
+            overflow: hidden;
+        }
+        
+        .countdown-header {
+            background-color: white;
+            color: #0000ED;
+            font-size: 0.875rem; /* Ukuran teks header */
+            font-weight: bold;
+            padding: 5px;
+        }
+        
+        .countdown-body {
+            background-color: transparent;
+            color: white;
+            font-size: calc(1rem + 2.9vw); /* Responsif berdasarkan layar */
+            font-weight: bold;
+            padding: 5px;
+        }
+        .countdown-container {
+            gap: 1.5rem; /* Jarak default antar elemen */
+        }
+        .navbar {
+            box-shadow:1px 2px 6px rgba(0,0,0,0.3);
+        }
+    
+        .navbar a {
+          text-decoration: none;
+          color: #000000;
+          font-size: 16px;
+          font-weight: 600;
+          margin: 0 15px;
+          position: relative;
+        }
+    
+        .navbar a:hover {
+          color: #005BFD; /* Blue color on hover */
+        }
+        .text_1{
+            font-size: calc(0.625rem + 0.7vw); font-weight:400; color:black;
+        }
+        
+        /* ========== DROPDOWN HOVER YANG DINAMIS & USER FRIENDLY ========== */
+        .dropdown {
+          position: relative;
+        }
+        
+        /* Dropdown menu default tersembunyi dengan animasi */
+        .dropdown-menu {
+          display: block;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          margin-top: 0;
+          background-color: #fff;
+          border-radius: 0 0 16px 16px;
+          box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.05);
+          min-width: 200px;
+          padding: 8px 0;
+          z-index: 10001;
+          opacity: 0;
+          visibility: hidden;
+          transform: translateY(-8px);
+          transition: opacity 0.25s ease, visibility 0.25s ease, transform 0.25s ease;
+          border-top: 3px solid #FF0000; /* garis aksen merah menyatu navbar */
+        }
+        
+        /* Muncul saat hover pada .dropdown */
+        .dropdown:hover .dropdown-menu {
+          opacity: 1;
+          visibility: visible;
+          transform: translateY(0);
+        }
+        
+        /* Item dalam dropdown */
+        .dropdown-menu a {
+          display: block;
+          padding: 10px 24px;
+          color: #1a1a1a;
+          font-size: 14px;
+          font-weight: 500;
+          white-space: nowrap;
+          transition: all 0.2s ease;
+          margin: 0;
+          background: transparent;
+        }
+        
+        .dropdown-menu a:hover {
+          background-color: #FF0000;
+          color: white;
+          padding-left: 28px; /* efek geser sedikit ke kanan */
+        }
+        
+        /* Active item */
+        .dropdown-menu .active {
+          background-color: #FF0000;
+          color: white;
+        }
+        
+        /* Hilangkan panah bawaan bootstrap jika ada */
+        .dropdown-toggle::after {
+          display: inline-block;
+          margin-left: 6px;
+          vertical-align: middle;
+          content: "▾";
+          border: none;
+          font-size: 12px;
+          transition: transform 0.2s ease;
+        }
+        
+        /* Efek panah saat dropdown terbuka (tapi karena hover, kita tidak perlu rotate) */
+        .dropdown:hover .dropdown-toggle::after {
+          transform: rotate(180deg);
+        }
+        
+        /* Untuk menambah spacing pada nav-link yang memiliki dropdown */
+        .nav-link.dropdown-toggle {
+          cursor: pointer;
+        }
+        
+        /* ========== RESPONSIVE: di layar kecil, dropdown jadi klik (karena hover tidak nyaman) ========== */
+        @media (max-width: 991px) {
+          .dropdown-menu {
+            position: static;
+            transform: none;
+            opacity: 1;
+            visibility: visible;
+            box-shadow: none;
+            border-radius: 12px;
+            margin-top: 8px;
+            border-top: none;
+            background-color: #f8f9fa;
+            transition: none;
+          }
+          .dropdown .dropdown-menu {
+            display: none;
+          }
+          .dropdown.show .dropdown-menu {
+            display: block;
+          }
+          .dropdown-toggle::after {
+            float: right;
+            margin-top: 6px;
+          }
+        }
+        
+        /* ========== END DROPDOWN ========== */
+        
+        /* Bahasa icon */
+        .bahasa_.desktop_ img{
+            height:30px;
+        }
+        .bahasa_.mobile_ img{
+            height:25px;
+        }
+        .mobile_{
+            display:none;
+        }
+        .bahasa_.mobile_ img:hover{
+            filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.3));
+            cursor: pointer;
+        }
+        .bahasa_.desktop_ img:hover{
+            filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.3));
+            cursor: pointer;
+        }
+        
+        /* Style lainnya (tidak berubah) */
+        .navbar-brand img{
+              height:60px !important;
+          }
+        .nav-link{
+            margin:0px 8px !important;
+            color:#000 !important;
+        }
+        .nav-link:hover{
+            color:#FD0000 !important;
+        }
+        .nav-link.active{
+            color:#FD0000 !important;
+        }
+    
+        .nav-right {
+          display: flex;
+          gap: 15px;
+          width:auto;
+        }
+    
+        .nav-right a {
+          color: #FF0000;
+          font-size: 14px;
+        }
+        .nav-links{
+            display: flex; flex-wrap: wrap; gap: 5px;
+        }
+        
+        .faq-item {
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            background-color:#125efa;
+            color:#ffffff;
+            cursor:pointer;
+        }
+        .faq-item:hover{
+            background-color:#125efa;
+        
+        }
+        .question{
+            position:relative;
+            padding-right:25px;
+        }
+        .question .icon_down{
+            position:absolute;
+            top:0;
+            right:0;
+        }
+        .answer{
+            display:none;
+            padding:10px;
+        }
+        .card_galleri{
+            border-radius:10px;
+            border:none;
+            z-index:4;
+            position:relative;
+            overflow:hidden;
+            box-shadow:2px 3px 5px rgba(0,0,0,0.3);
+        }
+        .card_img{
+            position:relative;
+            border-radius:10px;
+            box-shadow:2px 3px 5px rgba(0,0,0,0.3);
+            z-index:2;
+            overflow:hidden;
+            width:100%;
+            background-color:white;
+        }
+        .card_img img{
+            display: block;
+            transition: transform 0.3s ease-in-out;
+            transform: scale(1);
+            height: 100%;
+            width: auto;
+            cursor:pointer;
+            margin-left:auto;;
+            margin-right: auto;
+        }
+        .card_galleri:hover .card_img img{
+            transform: scale(1.2);
+            transition: all 0.3s ease-in-out;
+        }
+        .card_img:after{
+            content: '';
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+            height: 30%;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: 2;
+            -webkit-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+            cursor:pointer;
+        }
+        .card_galleri:hover .card_img:after{
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2));
+            height: 100%;
+             -webkit-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+        }
+        .card_text{
+            width:80%;
+            position:absolute;
+            top:50%;
+            left:50%;
+            z-index: 3;
+            transform:translate(-50%, 200%);
+             -webkit-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            opacity:0;
+        }
+        .card_galleri:hover .card_text{
+            transform:translate(-50%, -50%);
+             -webkit-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+            opacity:1;
+        }
+        .card_text span{
+            color:white;
+            font-size:1.4rem;
+            text-align: center;
+            line-height:1.1rem;
+            margin-bottom:10px;
+        }
+        .btn_harga{
+            color: #000;
+            background-color:#fff;
+            border:1px solid #c2c2c2;
+            border-radius: 12px;
+            padding: 8px 15px;
+            margin-top:3px;
+            margin-bottom:3px;
+        }
+        .btn_harga:hover{
+            color: #fff;
+            background-color:red;
+            border:1px solid red;
+        }
+        .btn_harga.active{
+            color: #fff;
+            background-color:red;
+            border:1px solid red;
+        }
+        .btn_harganew{
+            color: #000;
+            background-color:#fff;
+            border:1px solid #c2c2c2;
+            border-radius: 12px;
+            padding: 8px 15px;
+            margin-top:3px;
+            margin-bottom:3px;
+        }
+        .btn_harganew:hover{
+            color: #fff;
+            background-color:blue;
+            border:1px solid blue;
+        }
+        .btn_harganew.active{
+            color: #fff;
+            background-color:blue;
+            border:1px solid blue;
+        }
+        .scrollable-buttons {
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 10px;
+            scrollbar-width: none;
+            justify-content: center;
+        }
+        
+        .scrollable-buttons::-webkit-scrollbar {
+            display: none;
+        }
+        .tab-panel {
+            display: none;
+        }
+        
+        .tab-panel.active {
+            display: block;
+        }
+        .image-wrapper {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        
+        .image-wrapper img {
+            display: block;
+            width: 100%;
+        }
+        
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+            opacity: 0.77;
+            transition: background 0.4s ease-in-out;
+        }
+        
+        .image-wrapper:hover .overlay {
+           background: #FF0000;
+           transition: background 0.4s ease-in-out;
+        }
+        
+        .overlay h5 {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .btn_absolute{
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+        }
+        @media (max-width: 767px) {
+            .btn_absolute{
+                bottom:10px !important;
+            }
+            .scrollable-buttons {
+                justify-content: flex-start;
+            }
+            .dropdown-menu {
+                position: static;
+            }
+            .submenu {
+                position: static;
+                display: block;
+                opacity: 1;
+                visibility: visible;
+                left: auto;
+            }
+            .right_col{
+                padding: 0px 0px 0px 4px !important;
+            }
+            .custom-box {
+                padding: 32px 0;
+                font-size: calc(0.625rem + 0.4vw);
+            }
+            .countdown-box {
+                width: 60px;
+            }
+            .countdown-container {
+                gap: 0.4rem;
+            }
+            .countdown-header {
+                font-size: 0.75rem;
+            }
+        
+            .countdown-body {
+                font-size: calc(1rem + 1vw);
+            }
+            .desktop_{
+                display:none;
+            }
+            .mobile_{
+                display:block;
+            }
+          .navbar {
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 15px;
+          }
+          .nav-links {
+            display: none;
+            width: 100%;
+          }
+        
+          .navbar-collapse {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+          }
+        
+          .dropdown-menu {
+            position: static;
+            transform: none;
+            margin-top: 0;
+          }
+        
+          .dropdown-menu a {
+            text-align: left;
+          }
+          .navbar-brand img{
+              height:45px !important;
+          }
+          .collapse{
+              margin-top:0px !important;
+          } 
+        }
+        
+        @media (max-width: 992px) {
+            .navbar-collapse {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+              }
+        }
+        .dropdown-sub{
+            position: relative;
+        }
+        .dropdown-sub.actice a{
+            color:#fff;
+        }
+        
+        .submenu{
+            position:absolute;
+            top:0;
+            left:100%;
+            min-width:220px;
+            background:#fff;
+            border-radius:10px;
+            box-shadow:0 8px 20px rgba(0,0,0,.15);
+            opacity:0;
+            visibility:hidden;
+            transform:translateX(10px);
+            transition:.25s;
+            z-index:10002;
+        }
+        
+        
+        .dropdown-sub:hover>.submenu{
+            opacity:1;
+            visibility:visible;
+            transform:translateX(0);
+        }
+        
+        .submenu .dropdown-item{
+            display:block;
+            padding:10px 20px;
+            white-space:nowrap;
+        }
+        
+        .submenu .dropdown-item:hover{
+            background:#FF0000;
+            color:#fff;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="navbar navbar-expand-lg navbar-light sticky-top bg-white">
+        <div class="container p-0">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="https://jakim.id/"><img alt="JAKIM 2026" src="https://jakim.id/assets/images/Logo Jakim Elite Lable-01.png"></a>
+            <div class="bahasa_ mobile_">
+                <img onclick="bahasa('indonesia');" src="https://jakim.id/assets/images/Indonesia.png" alt="bahasa indonesia"/>
+            </div>
+            <div class="collapse navbar-collapse justify-content-center" style="margin-top: 30px;" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link " href="https://jakim.id/raceexpo">EXPO</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="javascript:void(0)">
+                            RACE
+                        </a>
+                    
+                        <div class="dropdown-menu">
+                    
+                            <a href="https://jakim.id/prerace"
+                               class="dropdown-item ">
+                                Pre Race
+                            </a>
+                    
+                            <a href="https://jakim.id/race"
+                               class="dropdown-item active">
+                                Race
+                            </a>
+                    
+                            <!-- SUB MENU -->
+                            <div class="dropdown-sub ">
+                                <a href="javascript:void(0)" class="dropdown-item submenu-toggle">
+                                    After Race ▸
+                                </a>
+                    
+                                <div class="submenu ">
+                                    <a href="https://jakim.id/hadiah" class="dropdown-item ">
+                                        Hadiah
+                                    </a>
+                                    <a href="https://jakim.id/winners" class="dropdown-item ">
+                                        Winners
+                                    </a>
+                    
+                                    <a href="https://jakim.id/result_photo" class="dropdown-item ">
+                                        Result & photo
+                                    </a>
+                    
+                                    <a href="https://jakim.id/lapor_bib" class="dropdown-item ">
+                                        Lapor BIB
+                                    </a>
+                                </div>
+                            </div>
+                    
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle " href="javascript:void(0)">KERJA SAMA</a>
+                      <div class="dropdown-menu">
+                          <a href="https://jakim.id/akomodasi" class="dropdown-item ">Hotel Partner</a>
+                          <a href="https://jakim.id/media" class="dropdown-item ">Media Partner</a>
+                          <a href="https://jakim.id/community" class="dropdown-item ">Community Partner</a>
+                          <a href="https://jakim.id/volunteer_ecerti" class="dropdown-item ">Volunteer</a>
+                          <a href="https://jakim.id/cheering" class="dropdown-item ">Cheering Point</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="https://jakim.id/charity">DONASI</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle  " href="javascript:void(0)">GALERI</a>
+                      <div class="dropdown-menu">
+                          <a href="https://jakim.id/galeri_2023" class="dropdown-item  ">Galeri 2023</a>
+                          <a href="https://jakim.id/galeri" class="dropdown-item ">Galeri 2024</a>
+                          <a href="https://jakim.id/galeri_2025" class="dropdown-item ">Galeri 2025</a>
+                          <a href="https://jakim.id/galeri_2026" class="dropdown-item ">Galeri 2026</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="https://jakim.id/kontak">KONTAK</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bahasa_ desktop_ ">
+                <img onclick="bahasa();" src="https://jakim.id/assets/images/Indonesia.png" alt="bahasa Indonesia"/>
+            </div>
+        </div>
+    </div>
+    
+    <main class="content">
+
+    <!-- JavaScript untuk mobile: mengaktifkan dropdown via klik (karena hover tidak nyaman di touch) -->
+    <script>
+        (function() {
+            // Hanya aktifkan untuk layar <= 991px
+            function isMobile() {
+                return window.innerWidth <= 991;
+            }
+            
+            var dropdowns = document.querySelectorAll('.dropdown');
+            
+            function closeAllDropdowns() {
+                dropdowns.forEach(function(dd) {
+                    dd.classList.remove('show');
+                });
+            }
+            
+            function toggleDropdown(dd) {
+                if (dd.classList.contains('show')) {
+                    dd.classList.remove('show');
+                } else {
+                    closeAllDropdowns();
+                    dd.classList.add('show');
+                }
+            }
+            
+            // Event listener untuk klik pada dropdown-toggle (hanya di mobile)
+            function attachEvents() {
+                dropdowns.forEach(function(dd) {
+                    var toggle = dd.querySelector('.dropdown-toggle');
+                    if (!toggle) return;
+                    // Hapus event lama untuk mencegah duplikasi
+                    toggle.removeEventListener('click', mobileClickHandler);
+                    // Tambahkan event handler
+                    toggle.addEventListener('click', mobileClickHandler);
+                });
+            }
+            
+            function mobileClickHandler(e) {
+                if (!isMobile()) return;
+                e.preventDefault();
+                e.stopPropagation();
+                var dd = this.closest('.dropdown');
+                if (dd) toggleDropdown(dd);
+            }
+            
+            // Tutup dropdown saat klik di luar (mobile)
+            document.addEventListener('click', function(e) {
+                if (!isMobile()) return;
+                var isInside = false;
+                dropdowns.forEach(function(dd) {
+                    if (dd.contains(e.target)) isInside = true;
+                });
+                if (!isInside) closeAllDropdowns();
+            });
+            
+            // Inisialisasi
+            attachEvents();
+            window.addEventListener('resize', function() {
+                if (!isMobile()) closeAllDropdowns();
+            });
+        })();
+    </script><div class="page-content">
+    <div class="col-12 m-0 p-0" style="position:relative; height:100%; overflow:hidden;">
+        <img style="width: 100%; height: 100%; object-fit: cover; position:absolute; top:0; z-index:9; object-position: bottom;" src="https://jakim.id/assets/images/Bg page.png" alt="banner background kontak JAKIM 2026"> 
+        <div class="container pt-4 pb-5" style="position:relative; z-index:10;">
+            
+            <!-- Tombol navigasi tab -->
+            <div class="scrollable-buttons mb-4">
+                <button data-tab="1" class="btn btn_harga active">BSN 5K</button>
+                <button data-tab="2" class="btn btn_harga">EJ SPORT 10K</button>
+                <button data-tab="3" class="btn btn_harga">LE MINERALE HALF MARATHON</button>
+                <button data-tab="4" class="btn btn_harga">BTN MARATHON</button>
+                <button data-tab="5" class="btn btn_harga">E-RACEBOOK</button>
+            </div>
+
+            <!-- TAB 1: 5K -->
+            <div id="tab-1" class="tab-panel active">
+                <div class="row g-2 align-items-start justify-content-center">
+                    <!-- Kolom Map -->
+                    <div class="col-md-6 col-lg-5">
+                        <div class="map-container" style="border-radius: 1.25rem; overflow: hidden; box-shadow: 0 10px 24px rgba(0,0,0,0.08); position: relative; cursor: grab;">
+                            <div class="map-zoom-wrapper" style="width: 100%; height: auto; aspect-ratio: 3/4; overflow: hidden; position: relative;">
+                                <img src="assets/images/maps/5K - Jakim rev.webp" 
+                                     class="zoomable-map" 
+                                     style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.1s ease; transform-origin: center center;" 
+                                     alt="Map 5K"/>
+                            </div>
+                            <!-- Zoom Controls -->
+                            <div style="position: absolute; bottom: 15px; left: 15px; display: flex; flex-direction: column; gap: 5px; z-index: 20;">
+                                <button class="zoom-btn zoom-in" style="width: 36px; height: 36px; border-radius: 8px; border: none; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.2); cursor: pointer; font-size: 20px; font-weight: bold; color: #333; display: flex; align-items: center; justify-content: center; transition: all 0.2s;">+</button>
+                                <button class="zoom-btn zoom-out" style="width: 36px; height: 36px; border-radius: 8px; border: none; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.2); cursor: pointer; font-size: 20px; font-weight: bold; color: #333; display: flex; align-items: center; justify-content: center; transition: all 0.2s;">−</button>
+                                <button class="zoom-btn zoom-reset" style="width: 36px; height: 36px; border-radius: 8px; border: none; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.2); cursor: pointer; font-size: 14px; font-weight: bold; color: #333; display: flex; align-items: center; justify-content: center; transition: all 0.2s;">⟲</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Kolom Tabel Jadwal -->
+                    <div class="col-md-6 col-lg-5">
+                        <div style="background: #ffffff; border-radius: 1.25rem; box-shadow: 0 10px 24px rgba(0,0,0,0.05); overflow: hidden; height: 100%;">
+                            <h2 style="font-size: 1.5rem; font-weight: 700; color: #ffffff; margin: 0; padding: 1.2rem 1.5rem; background: linear-gradient(135deg, #3b82f6, #ef4444); letter-spacing: -0.3px; text-align: center;">
+                               Informasi
+                            </h2>
+                            <div style="padding: 1.2rem 1.5rem;">
+                                <table style="width: 100%; border-collapse: collapse; font-size: 1rem;">
+                                    <tr style="border-bottom: 1px solid #edf2f7;">
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; width: 40%; background: #f8fafd; font-size: 1.05rem;">Kategori</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">BSN 5K</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #edf2f7;">
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Hari / Tanggal</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">Sabtu, 13 Juni 2026</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #edf2f7;">
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Gun Start</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">05:45</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #edf2f7;">
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Gate Close</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">05:55</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Cut Off Time</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">1 Hours</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; margin: 30px 0;">
+        
+                            <!-- Tombol Download GPX -->
+                            <a href="assets/file/Rute 5K - BTN Jakim 2026.gpx" 
+                               download
+                               style="position: relative;
+                                      display: inline-flex;
+                                      align-items: center;
+                                      padding: 18px 32px;
+                                      background: #ffffff;
+                                      color: #ff0000;
+                                      font-size: 16px;
+                                      font-weight: 700;
+                                      border-radius: 20px;
+                                      text-decoration: none;
+                                      border: 2.5px solid #ff0000;
+                                      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+                                      transition: all 0.3s ease;"
+                               onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(255,0,0,0.3)'; this.style.background='#fff5f5';"
+                               onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 25px rgba(0,0,0,0.15)'; this.style.background='#ffffff';">
+                                <span style="text-align: left; line-height: 1.3;">
+                                    <span style="display: block; font-size: 17px; font-weight: 800;">Download GPX</span>
+                                </span>
+                            </a>
+                            
+                        </div>
+                        <br>
+                                <p style="color:blue; text-align:center;">notes: detail fasilitas rute akan diinfokan kemudian.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 2: 10K -->
+            <div id="tab-2" class="tab-panel">
+                <div class="row g-2 align-items-start justify-content-center">
+                    <div class="col-md-6 col-lg-5">
+                        <div class="map-container" style="border-radius: 1.25rem; overflow: hidden; box-shadow: 0 10px 24px rgba(0,0,0,0.08); position: relative; cursor: grab;">
+                            <div class="map-zoom-wrapper" style="width: 100%; height: auto; aspect-ratio: 3/4; overflow: hidden; position: relative;">
+                                <img src="assets/images/maps/10K - Jakim rev.webp" 
+                                     class="zoomable-map" 
+                                     style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.1s ease; transform-origin: center center;" 
+                                     alt="Map 10K"/>
+                            </div>
+                            <div style="position: absolute; bottom: 15px; left: 15px; display: flex; flex-direction: column; gap: 5px; z-index: 20;">
+                                <button class="zoom-btn zoom-in" style="width: 36px; height: 36px; border-radius: 8px; border: none; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.2); cursor: pointer; font-size: 20px; font-weight: bold; color: #333; display: flex; align-items: center; justify-content: center; transition: all 0.2s;">+</button>
+                                <button class="zoom-btn zoom-out" style="width: 36px; height: 36px; border-radius: 8px; border: none; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.2); cursor: pointer; font-size: 20px; font-weight: bold; color: #333; display: flex; align-items: center; justify-content: center; transition: all 0.2s;">−</button>
+                                <button class="zoom-btn zoom-reset" style="width: 36px; height: 36px; border-radius: 8px; border: none; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.2); cursor: pointer; font-size: 14px; font-weight: bold; color: #333; display: flex; align-items: center; justify-content: center; transition: all 0.2s;">⟲</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-5">
+                        <div style="background: #ffffff; border-radius: 1.25rem; box-shadow: 0 10px 24px rgba(0,0,0,0.05); overflow: hidden; height: 100%;">
+                            <h2 style="font-size: 1.5rem; font-weight: 700; color: #ffffff; margin: 0; padding: 1.2rem 1.5rem; background: linear-gradient(135deg, #2563eb, #dc2626); letter-spacing: -0.3px; text-align: center;">
+                                Informasi
+                            </h2>
+                            <div style="padding: 1.2rem 1.5rem;">
+                                <table style="width: 100%; border-collapse: collapse; font-size: 1rem;">
+                                    <tr style="border-bottom: 1px solid #edf2f7;">
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; width: 40%; background: #f8fafd; font-size: 1.05rem;">Kategori</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">EJ SPORT 10K</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #edf2f7;">
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Hari / Tanggal</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">Sabtu, 13 Juni 2026</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #edf2f7;">
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Gun Start</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">05:15</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #edf2f7;">
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Gate Close</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">05:40</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Cut Off Time</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">2 Hours</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; margin: 30px 0;">
+        
+                            <!-- Tombol Download GPX -->
+                            <a href="assets/file/Rute 10K - BTN Jakim 2026.gpx" 
+                               download
+                               style="position: relative;
+                                      display: inline-flex;
+                                      align-items: center;
+                                      padding: 18px 32px;
+                                      background: #ffffff;
+                                      color: #ff0000;
+                                      font-size: 16px;
+                                      font-weight: 700;
+                                      border-radius: 20px;
+                                      text-decoration: none;
+                                      border: 2.5px solid #ff0000;
+                                      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+                                      transition: all 0.3s ease;"
+                               onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(255,0,0,0.3)'; this.style.background='#fff5f5';"
+                               onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 25px rgba(0,0,0,0.15)'; this.style.background='#ffffff';">
+                                <span style="text-align: left; line-height: 1.3;">
+                                    <span style="display: block; font-size: 17px; font-weight: 800;">Download GPX</span>
+                                </span>
+                            </a>
+                            
+                        </div>
+                        <br>
+                                <p style="color:blue; text-align:center;">notes: detail fasilitas rute akan diinfokan kemudian.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 3: HALF MARATHON -->
+            <div id="tab-3" class="tab-panel">
+                <div class="row g-2 align-items-start justify-content-center">
+                    <div class="col-md-6 col-lg-5">
+                        <div class="map-container" style="border-radius: 1.25rem; overflow: hidden; box-shadow: 0 10px 24px rgba(0,0,0,0.08); position: relative; cursor: grab;">
+                            <div class="map-zoom-wrapper" style="width: 100%; height: auto; aspect-ratio: 3/4; overflow: hidden; position: relative;">
+                                <img src="assets/images/maps/Half Marathon - Jakim rev.webp" 
+                                     class="zoomable-map" 
+                                     style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.1s ease; transform-origin: center center;" 
+                                     alt="Map Half Marathon"/>
+                            </div>
+                            <div style="position: absolute; bottom: 15px; left: 15px; display: flex; flex-direction: column; gap: 5px; z-index: 20;">
+                                <button class="zoom-btn zoom-in" style="width: 36px; height: 36px; border-radius: 8px; border: none; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.2); cursor: pointer; font-size: 20px; font-weight: bold; color: #333; display: flex; align-items: center; justify-content: center; transition: all 0.2s;">+</button>
+                                <button class="zoom-btn zoom-out" style="width: 36px; height: 36px; border-radius: 8px; border: none; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.2); cursor: pointer; font-size: 20px; font-weight: bold; color: #333; display: flex; align-items: center; justify-content: center; transition: all 0.2s;">−</button>
+                                <button class="zoom-btn zoom-reset" style="width: 36px; height: 36px; border-radius: 8px; border: none; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.2); cursor: pointer; font-size: 14px; font-weight: bold; color: #333; display: flex; align-items: center; justify-content: center; transition: all 0.2s;">⟲</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-5">
+                        <div style="background: #ffffff; border-radius: 1.25rem; box-shadow: 0 10px 24px rgba(0,0,0,0.05); overflow: hidden; height: 100%;">
+                            <h2 style="font-size: 1.5rem; font-weight: 700; color: #ffffff; margin: 0; padding: 1.2rem 1.5rem; background: linear-gradient(135deg, #1e40af, #dc2626); letter-spacing: -0.3px; text-align: center;">
+                                Informasi
+                            </h2>
+                            <div style="padding: 1.2rem 1.5rem;">
+                                <table style="width: 100%; border-collapse: collapse; font-size: 1rem;">
+                                    <tr style="border-bottom: 1px solid #edf2f7;">
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; width: 40%; background: #f8fafd; font-size: 1.05rem;">Kategori</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">LE MINERALE HALF MARATHON</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #edf2f7;">
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Hari / Tanggal</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">Minggu, 14 Juni 2026</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #edf2f7;">
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Gun Start</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">04:50</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #edf2f7;">
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Gate Close</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">05:25</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Cut Off Point 1 KM 11,7</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">07:25</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Cut Off Point 2 KM 14,8</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">07:55</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Cut Off Time</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">3 Hours 30 Minutes</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; margin: 30px 0;">
+        
+                            <!-- Tombol Download GPX -->
+                            <a href="assets/file/Rute Half Marathon - BTN Jakim 2026.gpx" 
+                               download
+                               style="position: relative;
+                                      display: inline-flex;
+                                      align-items: center;
+                                      padding: 18px 32px;
+                                      background: #ffffff;
+                                      color: #ff0000;
+                                      font-size: 16px;
+                                      font-weight: 700;
+                                      border-radius: 20px;
+                                      text-decoration: none;
+                                      border: 2.5px solid #ff0000;
+                                      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+                                      transition: all 0.3s ease;"
+                               onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(255,0,0,0.3)'; this.style.background='#fff5f5';"
+                               onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 25px rgba(0,0,0,0.15)'; this.style.background='#ffffff';">
+                                <span style="text-align: left; line-height: 1.3;">
+                                    <span style="display: block; font-size: 17px; font-weight: 800;">Download GPX</span>
+                                </span>
+                            </a>
+                            
+                        </div>
+                         <br>
+                                <p style="color:blue; text-align:center;">notes: detail fasilitas rute akan diinfokan kemudian.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 4: MARATHON -->
+            <div id="tab-4" class="tab-panel">
+                <div class="row g-2 align-items-start justify-content-center">
+                    <div class="col-md-6 col-lg-5">
+                        <div class="map-container" style="border-radius: 1.25rem; overflow: hidden; box-shadow: 0 10px 24px rgba(0,0,0,0.08); position: relative; cursor: grab;">
+                            <div class="map-zoom-wrapper" style="width: 100%; height: auto; aspect-ratio: 3/4; overflow: hidden; position: relative;">
+                                <img src="assets/images/maps/Marathon - Jakim rev.webp" 
+                                     class="zoomable-map" 
+                                     style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.1s ease; transform-origin: center center;" 
+                                     alt="Map Marathon"/>
+                            </div>
+                            <div style="position: absolute; bottom: 15px; left: 15px; display: flex; flex-direction: column; gap: 5px; z-index: 20;">
+                                <button class="zoom-btn zoom-in" style="width: 36px; height: 36px; border-radius: 8px; border: none; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.2); cursor: pointer; font-size: 20px; font-weight: bold; color: #333; display: flex; align-items: center; justify-content: center; transition: all 0.2s;">+</button>
+                                <button class="zoom-btn zoom-out" style="width: 36px; height: 36px; border-radius: 8px; border: none; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.2); cursor: pointer; font-size: 20px; font-weight: bold; color: #333; display: flex; align-items: center; justify-content: center; transition: all 0.2s;">−</button>
+                                <button class="zoom-btn zoom-reset" style="width: 36px; height: 36px; border-radius: 8px; border: none; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.2); cursor: pointer; font-size: 14px; font-weight: bold; color: #333; display: flex; align-items: center; justify-content: center; transition: all 0.2s;">⟲</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-5">
+                        <div style="background: #ffffff; border-radius: 1.25rem; box-shadow: 0 10px 24px rgba(0,0,0,0.05); overflow: hidden; height: 100%;">
+                            <h2 style="font-size: 1.5rem; font-weight: 700; color: #ffffff; margin: 0; padding: 1.2rem 1.5rem; background: linear-gradient(135deg, #1e3a8a, #dc2626); letter-spacing: -0.3px; text-align: center;">
+                                Informasi
+                            </h2>
+                            <div style="padding: 1.2rem 1.5rem;">
+                                <table style="width: 100%; border-collapse: collapse; font-size: 1rem;">
+                                    <tr style="border-bottom: 1px solid #edf2f7;">
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; width: 40%; background: #f8fafd; font-size: 1.05rem;">Kategori</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">BTN MARATHON</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #edf2f7;">
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Hari / Tanggal</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">Minggu, 14 Juni 2026</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #edf2f7;">
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Gun Start</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">04:00</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #edf2f7;">
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Gate Close</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">04:20</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Cut Off Point 1 KM 6</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">05:20</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Cut Off Point 2 KM 12,5</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">06:30</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Cut Off Point 3 KM 19</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">07:30</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Cut Off Point 4 KM 24</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">08:20</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Cut Off Point 5 KM 32,5</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">09:50</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Cut Off Point 6 KM 37</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">10:30</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 1.2rem 1rem; font-weight: 700; color: #0f3b5e; background: #f8fafd; font-size: 1.05rem;">Cut Off Time</td>
+                                        <td style="padding: 1.2rem 1rem; color: #334155; font-size: 1.05rem;">7 Hours</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; margin: 30px 0;">
+                                
+                            <!-- Tombol Download GPX -->
+                            <a href="assets/file/Rute Marathon - BTN Jakim 2026.gpx" 
+                               download
+                               style="position: relative;
+                                      display: inline-flex;
+                                      align-items: center;
+                                      padding: 18px 32px;
+                                      background: #ffffff;
+                                      color: #ff0000;
+                                      font-size: 16px;
+                                      font-weight: 700;
+                                      border-radius: 20px;
+                                      text-decoration: none;
+                                      border: 2.5px solid #ff0000;
+                                      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+                                      transition: all 0.3s ease;"
+                               onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(255,0,0,0.3)'; this.style.background='#fff5f5';"
+                               onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 25px rgba(0,0,0,0.15)'; this.style.background='#ffffff';">
+                                <span style="text-align: left; line-height: 1.3;">
+                                    <span style="display: block; font-size: 17px; font-weight: 800;">Download GPX</span>
+                                </span>
+                            </a>
+                            
+                        </div>
+                        <br>
+                                <p style="color:blue; text-align:center;">notes: detail fasilitas rute akan diinfokan kemudian.</p>
+                    </div>
+                      
+                </div>
+            </div>
+
+            <!-- TAB 5: E-RACEBOOK -->
+            <div id="tab-5" class="tab-panel">
+                <!-- Anchor untuk scroll target -->
+                <div id="e-racebook"></div>
+                
+                <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-6">
+                        <div style="background: #ffffff; border-radius: 1.25rem; box-shadow: 0 10px 24px rgba(0,0,0,0.08); overflow: hidden; text-align: center; padding: 3rem 2rem;">
+                            <h2 style="font-size: 2rem; font-weight: 700; color: #0f3b5e; margin-bottom: 1rem;">
+                                E-Racebook
+                            </h2>
+                            <p style="font-size: 1.1rem; color: #64748b; margin-bottom: 2rem; line-height: 1.6;">
+                                Panduan lengkap event JAKIM 2026 dalam format digital. <br>
+                                Dapatkan informasi rute, jadwal, peraturan, dan tips penting.
+                            </p>
+                            
+                            <!-- Tombol Download E-Racebook -->
+                            <a href="https://jakim.id/assets/file/e-racebook/view.php" 
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               style="display: inline-flex;
+                                      align-items: center;
+                                      justify-content: center;
+                                      gap: 12px;
+                                      padding: 20px 40px;
+                                      background: linear-gradient(135deg, #3b82f6, #ef4444);
+                                      color: #ffffff;
+                                      font-size: 18px;
+                                      font-weight: 700;
+                                      border-radius: 20px;
+                                      text-decoration: none;
+                                      box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+                                      transition: all 0.3s ease;
+                                      border: none;
+                                      cursor: pointer;"
+                               onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(239, 68, 68, 0.4)';"
+                               onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 25px rgba(59, 130, 246, 0.3)';">
+                                <span>View E-Racebook</span>
+                            </a>
+                            <br>
+                            <br>
+                            <!-- Tombol Download E-Racebook -->
+                            <a href="/assets/file/e-racebook/e-racebook_BTN_JAKIM_2026v2.pdf" download
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               style="display: inline-flex;
+                                      align-items: center;
+                                      justify-content: center;
+                                      gap: 12px;
+                                      padding: 20px 40px;
+                                      background: linear-gradient(135deg, #3b82f6, #ef4444);
+                                      color: #ffffff;
+                                      font-size: 18px;
+                                      font-weight: 700;
+                                      border-radius: 20px;
+                                      text-decoration: none;
+                                      box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+                                      transition: all 0.3s ease;
+                                      border: none;
+                                      cursor: pointer;"
+                               onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 20px 40px rgba(239, 68, 68, 0.4)';"
+                               onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 25px rgba(59, 130, 246, 0.3)';">
+                                <span>Download E-Racebook</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .tab-panel {
+        display: none;
+    }
+    .tab-panel.active {
+        display: block;
+    }
+    .btn_harga {
+        padding: 10px 20px;
+        border: 2px solid #e2e8f0;
+        background: white;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: all 0.3s;
+        font-weight: 600;
+        white-space: normal;
+        text-align: center;
+        width: 100%;
+        font-size: 0.85rem;
+        line-height: 1.3;
+    }
+    .btn_harga.active {
+        background: linear-gradient(135deg, #3b82f6, #ef4444);
+        color: white;
+        border-color: transparent;
+    }
+    .btn_harga:hover:not(.active) {
+        border-color: #3b82f6;
+        color: #3b82f6;
+    }
+    .scrollable-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        padding: 10px 0;
+    }
+    .scrollable-buttons::-webkit-scrollbar {
+        display: none;
+    }
+    @media (min-width: 768px) {
+        .scrollable-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            overflow-x: visible;
+            gap: 10px;
+        }
+        .btn_harga {
+            width: auto;
+            white-space: nowrap;
+            font-size: 1rem;
+        }
+    }
+    .zoom-btn:hover {
+        background: #f0f0f0 !important;
+        transform: scale(1.1);
+    }
+    .map-container.dragging {
+        cursor: grabbing !important;
+    }
+</style>
+
+<script>
+    function toggleAnswer(element) {
+        var faqItem = element.closest('.faq-item');
+        var answer = faqItem.querySelector('.answer');
+        answer.style.display = (answer.style.display === 'block') ? 'none' : 'block';
+        var chevronDownIcon = element.querySelector('.icon_down');
+        chevronDownIcon.classList.toggle('__rotate');
+
+        var allAnswers = document.querySelectorAll('.answer');
+        allAnswers.forEach(function (otherAnswer) {
+            if (otherAnswer !== answer) {
+                otherAnswer.style.display = 'none';
+            }
+        });
+
+        var allChevrons = document.querySelectorAll('.icon_down');
+        allChevrons.forEach(function (otherChevron) {
+            if (otherChevron !== chevronDownIcon) {
+                otherChevron.classList.remove('__rotate');
+            }
+        });
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const buttons = document.querySelectorAll(".btn_harga");
+
+        buttons.forEach((button) => {
+            button.addEventListener("click", function (e) {
+                const targetTab = this.getAttribute("data-tab");
+                activateTab(targetTab);
+            });
+        });
+
+        handleHash();
+        initializeMapZoom();
+    });
+
+    function activateTab(targetTab) {
+        const buttons = document.querySelectorAll(".btn_harga");
+        const tabs = document.querySelectorAll(".tab-panel");
+
+        buttons.forEach((btn) => btn.classList.remove("active"));
+        tabs.forEach((tab) => tab.classList.remove("active"));
+
+        const activeButton = document.querySelector(`.btn_harga[data-tab="${targetTab}"]`);
+        if (activeButton) {
+            activeButton.classList.add("active");
+        }
+
+        const activeTab = document.querySelector(`#tab-${targetTab}`);
+        if (activeTab) {
+            activeTab.classList.add("active");
+        }
+    }
+
+    window.addEventListener("hashchange", function(e) {
+        if (window.location.hash === "#e-racebook") {
+            e.preventDefault();
+            handleHash();
+        }
+    });
+
+    function handleHash() {
+        var hash = window.location.hash;
+
+        if (hash === "#e-racebook") {
+            var buttons = document.querySelectorAll(".btn_harga");
+            var tabs = document.querySelectorAll(".tab-panel");
+
+            buttons.forEach(function(btn) {
+                btn.classList.remove("active");
+            });
+            tabs.forEach(function(tab) {
+                tab.classList.remove("active");
+            });
+
+            var btn5 = document.querySelector('.btn_harga[data-tab="5"]');
+            var tab5 = document.querySelector('#tab-5');
+
+            if (btn5) btn5.classList.add("active");
+            if (tab5) tab5.classList.add("active");
+        }
+    }
+
+    function initializeMapZoom() {
+        const mapContainers = document.querySelectorAll('.map-container');
+
+        mapContainers.forEach(container => {
+            const wrapper = container.querySelector('.map-zoom-wrapper');
+            const image = container.querySelector('.zoomable-map');
+            const zoomInBtn = container.querySelector('.zoom-in');
+            const zoomOutBtn = container.querySelector('.zoom-out');
+            const zoomResetBtn = container.querySelector('.zoom-reset');
+
+            if (!wrapper || !image) return;
+
+            let currentScale = 1;
+            const minScale = 1;
+            const maxScale = 3;
+            const zoomStep = 0.2;
+
+            let isDragging = false;
+            let startX, startY, translateX = 0, translateY = 0;
+
+            function updateTransform() {
+                image.style.transform = `scale(${currentScale}) translate(${translateX}px, ${translateY}px)`;
+            }
+
+            if (zoomInBtn) {
+                zoomInBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    if (currentScale < maxScale) {
+                        currentScale = Math.min(currentScale + zoomStep, maxScale);
+                        updateTransform();
+                    }
+                });
+            }
+
+            if (zoomOutBtn) {
+                zoomOutBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    if (currentScale > minScale) {
+                        currentScale = Math.max(currentScale - zoomStep, minScale);
+                        if (currentScale === minScale) {
+                            translateX = 0;
+                            translateY = 0;
+                        }
+                        updateTransform();
+                    }
+                });
+            }
+
+            if (zoomResetBtn) {
+                zoomResetBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    currentScale = minScale;
+                    translateX = 0;
+                    translateY = 0;
+                    updateTransform();
+                });
+            }
+
+            wrapper.addEventListener('wheel', (e) => {
+                e.preventDefault();
+                if (e.deltaY < 0 && currentScale < maxScale) {
+                    currentScale = Math.min(currentScale + zoomStep, maxScale);
+                } else if (e.deltaY > 0 && currentScale > minScale) {
+                    currentScale = Math.max(currentScale - zoomStep, minScale);
+                    if (currentScale === minScale) {
+                        translateX = 0;
+                        translateY = 0;
+                    }
+                }
+                updateTransform();
+            }, { passive: false });
+
+            wrapper.addEventListener('mousedown', (e) => {
+                if (currentScale > minScale) {
+                    isDragging = true;
+                    startX = e.clientX - translateX;
+                    startY = e.clientY - translateY;
+                    container.classList.add('dragging');
+                    e.preventDefault();
+                }
+            });
+
+            document.addEventListener('mousemove', (e) => {
+                if (isDragging) {
+                    translateX = e.clientX - startX;
+                    translateY = e.clientY - startY;
+                    updateTransform();
+                }
+            });
+
+            document.addEventListener('mouseup', () => {
+                isDragging = false;
+                container.classList.remove('dragging');
+            });
+
+            wrapper.addEventListener('touchstart', (e) => {
+                if (currentScale > minScale && e.touches.length === 1) {
+                    isDragging = true;
+                    startX = e.touches[0].clientX - translateX;
+                    startY = e.touches[0].clientY - translateY;
+                }
+            }, { passive: false });
+
+            wrapper.addEventListener('touchmove', (e) => {
+                if (isDragging && e.touches.length === 1) {
+                    e.preventDefault();
+                    translateX = e.touches[0].clientX - startX;
+                    translateY = e.touches[0].clientY - startY;
+                    updateTransform();
+                }
+            }, { passive: false });
+
+            wrapper.addEventListener('touchend', () => {
+                isDragging = false;
+            });
+
+            wrapper.addEventListener('dblclick', (e) => {
+                if (currentScale < maxScale) {
+                    currentScale = Math.min(currentScale + zoomStep * 2, maxScale);
+                } else {
+                    currentScale = minScale;
+                    translateX = 0;
+                    translateY = 0;
+                }
+                updateTransform();
+            });
+        });
+    }
+</script></main>
+<footer class="__footer">
+    <!-- Curved Wave SVG - Center Position -->
+    <div class="wave-container">
+        <svg class="wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200" preserveAspectRatio="none">
+            <path class="wave-path" d="M0,100 C240,180 480,20 720,100 C960,180 1200,20 1440,100 L1440,200 L0,200 Z"></path>
+        </svg>
+    </div>
+    
+    <div class="container py-4 position-relative">
+        <div class="row g-4 align-items-start justify-content-center">
+            <!-- Subscription Section -->
+            <div class="col-12 col-lg-5">
+                <div class="subscription-box">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="icon-circle me-3">
+                            <i class="fas fa-paper-plane"></i>
+                        </div>
+                        <h4 class="fw-bold mb-0 text-white">Berlangganan</h4>
+                    </div>
+                    <p class="mb-3 text-white opacity-90">Dapatkan info terkini BTN Jakarta International Marathon 2026</p>
+                    
+                    <form id="subscribeForm" class="subscribe-form">
+                        <div class="input-group">
+                            <span class="input-group-text bg-white border-0">
+                                <i class="fas fa-envelope text-muted"></i>
+                            </span>
+                            <input 
+                                type="email" 
+                                class="form-control border-0" 
+                                id="email_s" 
+                                name="email_s" 
+                                placeholder="Masukkan email Anda"
+                                required
+                            >
+                            <button 
+                                class="btn btn-subscribe" 
+                                type="submit" 
+                                id="send_email"
+                            >
+                                <span class="btn-text">Langganan</span>
+                                <span class="spinner-border spinner-border-sm d-none ms-1" role="status"></span>
+                            </button>
+                        </div>
+                        <div id="message" class="mt-2 text-white"></div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Contact & Social Media -->
+            <div class="col-12 col-lg-7">
+                <div class="row g-4">
+                    <!-- Contact -->
+                    <div class="col-md-6">
+                        <div class="info-card">
+                            <h5 class="fw-bold mb-3 text-white">
+                                <span class="hashtag">#</span>Hubungi Kami
+                            </h5>
+                            <div class="d-flex flex-column gap-2">
+                                <a href="https://api.whatsapp.com/send?phone=6285717562728" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="footer-link text-white">
+                                    <div class="link-icon">
+                                        <i class="fab fa-whatsapp"></i>
+                                    </div>
+                                    <span>+62 857-1756-2728</span>
+                                </a>
+                                <a href="/cdn-cgi/l/email-protection#036a6d656c436962686a6e2d6a67" class="footer-link text-white">
+                                    <div class="link-icon">
+                                        <i class="far fa-envelope"></i>
+                                    </div>
+                                    <span><span class="__cf_email__" data-cfemail="bed7d0d8d1fed4dfd5d7d390d7da">[email&#160;protected]</span></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Media -->
+                    <div class="col-md-6">
+                        <div class="info-card">
+                            <h5 class="fw-bold mb-3 text-white">
+                                <span class="hashtag">#</span>Ikuti Kami
+                            </h5>
+                            <div class="d-flex flex-column gap-2">
+                                <a href="https://www.instagram.com/btn_jakim/" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="footer-link text-white">
+                                    <div class="link-icon">
+                                        <i class="fab fa-instagram"></i>
+                                    </div>
+                                    <span>@btn_jakim</span>
+                                    <span class="badge bg-danger ms-2">Official</span>
+                                </a>
+                                <a href="https://www.instagram.com/btn/" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="footer-link text-white">
+                                    <div class="link-icon">
+                                        <i class="fab fa-instagram"></i>
+                                    </div>
+                                    <span>@btn</span>
+                                </a>
+                                <a href="https://www.instagram.com/im_roadrunner/" 
+                                   target="_blank" 
+                                   rel="noopener noreferrer"
+                                   class="footer-link text-white">
+                                    <div class="link-icon">
+                                        <i class="fab fa-instagram"></i>
+                                    </div>
+                                    <span>@im_roadrunner</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright Bar -->
+    <div class="copyright-bar py-3">
+        <div class="container text-center">
+            <p class="mb-0 text-white fw-medium">
+                &copy; <span id="currentYear"></span> IM Road Runner. All rights reserved.
+            </p>
+        </div>
+    </div>
+</footer>
+
+<!-- Styles -->
+<style>
+.__footer {
+    background: linear-gradient(180deg, 
+    rgba(37, 99, 235, 1) 0%,
+    rgba(59, 130, 246, 0.95) 30%,
+    rgba(220, 38, 38, 0.95) 70%,
+    rgba(239, 68, 68, 1) 100%
+);
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Subtle overlay untuk membuat background sedikit lebih terang */
+.__footer::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* Wave Container */
+.wave-container {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 200px;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.wave-svg {
+    width: 100%;
+    height: 100%;
+    opacity: 0.12;
+}
+
+.wave-path {
+    fill: none;
+    stroke: url(#waveGradient);
+    stroke-width: 1.5;
+    stroke-dasharray: 8 4;
+    animation: dashMove 20s linear infinite;
+}
+
+/* SVG Gradient Definition */
+@keyframes dashMove {
+    0% {
+        stroke-dashoffset: 0;
+    }
+    100% {
+        stroke-dashoffset: -24;
+    }
+}
+
+/* Subscription Box */
+.subscription-box {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 1.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.icon-circle {
+    width: 45px;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+}
+
+.subscribe-form .form-control,
+.subscribe-form .input-group-text {
+    font-size: 0.95rem;
+    padding: 0.65rem 1rem;
+}
+
+.subscribe-form .form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.3);
+}
+
+.btn-subscribe {
+    background: rgba(255, 255, 255, 0.9);
+    color: #1e3a8a;
+    font-size: 0.95rem;
+    padding: 0.65rem 1.5rem;
+    font-weight: 700;
+    border: none;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.btn-subscribe:hover {
+    background: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.btn-subscribe:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Info Cards */
+.info-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    padding: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.hashtag {
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-right: 4px;
+    opacity: 0.8;
+}
+
+/* Footer Links */
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+.footer-link:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.12);
+    padding-left: 1rem;
+    opacity: 1;
+}
+
+.link-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.badge {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.3em 0.6em;
+    opacity: 0.95;
+}
+
+/* Copyright Bar */
+.copyright-bar {
+    background: rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    position: relative;
+    z-index: 1;
+}
+
+.copyright-bar p {
+    opacity: 0.8;
+}
+
+#message {
+    font-size: 0.9rem;
+    min-height: 24px;
+    font-weight: 500;
+    opacity: 0.95;
+}
+
+.opacity-90 {
+    opacity: 0.9;
+}
+
+.opacity-75 {
+    opacity: 0.75;
+}
+
+/* DataTables Styling */
+.dataTables_wrapper .dataTables_filter {
+    margin-bottom: 15px;
+}
+
+.dataTables_wrapper .dataTables_filter label {
+    font-weight: 600;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    border: 2px solid #ced4da;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-left: 8px;
+    transition: border-color 0.3s ease;
+    width: 300px;
+}
+
+.dataTables_wrapper .dataTables_filter input:focus {
+    border-color: #17a2b8;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.25);
+}
+
+.btn-download {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.btn-download:hover {
+    background-color: #218838;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.btn-download i {
+    margin-right: 5px;
+}
+
+.text-muted-opsi {
+    color: #6c757d;
+    font-style: italic;
+    font-size: 13px;
+}
+
+#searchInfo {
+    border-left: 4px solid #17a2b8;
+}
+
+#noResultAlert {
+    border-left: 4px solid #ffc107;
+}
+
+.alert {
+    transition: all 0.3s ease;
+}
+
+/* Sembunyikan pagination dan info saat belum ada pencarian */
+.dataTables_paginate {
+    display: none !important;
+}
+
+.dataTables_info {
+    display: none !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .subscription-box {
+        padding: 1.5rem;
+    }
+    
+    h4 {
+        font-size: 1.3rem;
+    }
+    
+    h5 {
+        font-size: 1.15rem;
+    }
+    
+    .footer-link {
+        font-size: 0.95rem;
+    }
+    
+    .info-card {
+        padding: 1.25rem;
+    }
+    
+    .wave-container {
+        height: 150px;
+        top: 45%;
+    }
+
+    .dataTables_wrapper .dataTables_filter input {
+        width: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-link {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.6rem;
+    }
+    
+    .copyright-bar p {
+        font-size: 0.85rem;
+    }
+    
+    .wave-container {
+        height: 120px;
+        top: 40%;
+    }
+
+    .dataTables_wrapper .dataTables_filter input {
+        width: 150px;
+    }
+}
+</style>
+
+<!-- SVG Gradient Definition -->
+<svg width="0" height="0" style="position: absolute;">
+    <defs>
+        <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color: rgba(255, 255, 255, 0.5); stop-opacity: 1" />
+            <stop offset="50%" style="stop-color: rgba(255, 255, 255, 0.3); stop-opacity: 1" />
+            <stop offset="100%" style="stop-color: rgba(255, 255, 255, 0.5); stop-opacity: 1" />
+        </linearGradient>
+    </defs>
+</svg>
+
+<!-- ===================== -->
+<!-- SCRIPT LOADING ORDER  -->
+<!-- ===================== -->
+
+<!-- 1. LOAD JQUERY DULU (WAJIB) -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<!-- 2. LOAD DATATABLES -->
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+
+<!-- 3. LOAD SWEETALERT2 -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<!-- 4. LOAD AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- 5. ALL SCRIPTS -->
+<script>
+$(document).ready(function() {
+    // ===== Dynamic Year =====
+    $('#currentYear').text(new Date().getFullYear());
+    
+    // ===== Subscription Form =====
+    $('#subscribeForm').on('submit', function(e) {
+        e.preventDefault();
+        
+        const $form = $(this);
+        const $email = $('#email_s');
+        const $button = $('#send_email');
+        const $message = $('#message');
+        const $spinner = $button.find('.spinner-border');
+        const $btnText = $button.find('.btn-text');
+        
+        const email = $email.val().trim();
+        const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        
+        // Reset message
+        $message.removeClass('text-warning text-success').empty();
+        
+        // Validate
+        if (!email) {
+            $message.addClass('text-warning').html('<i class="fas fa-exclamation-circle me-1"></i>Masukkan alamat email');
+            $email.focus();
+            return;
+        }
+        
+        if (!emailRegex.test(email)) {
+            $message.addClass('text-warning').html('<i class="fas fa-exclamation-circle me-1"></i>Format email tidak valid');
+            $email.focus();
+            return;
+        }
+        
+        // Loading state
+        $button.prop('disabled', true);
+        $spinner.removeClass('d-none');
+        $btnText.text('Mengirim');
+        
+        // AJAX
+        $.ajax({
+            url: 'https://jakim.id/subscribe/save_email',
+            type: 'POST',
+            dataType: 'JSON',
+            data: { 
+                email: email, 
+                bahasa: 'id',
+                _t: Date.now() 
+            },
+            success: function(res) {
+                if (res.status === 'success') {
+                    $message.addClass('text-success').html('<i class="fas fa-check-circle me-1"></i>Email berhasil didaftarkan!');
+                    
+                    Swal.fire({
+                        icon: 'success',
+                        title: 'Berhasil!',
+                        text: res.message,
+                        showConfirmButton: false,
+                        timer: 2500,
+                        toast: true,
+                        position: 'top-end'
+                    });
+                    
+                    $form[0].reset();
+                    
+                } else {
+                    $message.addClass('text-warning').html('<i class="fas fa-exclamation-circle me-1"></i>' + res.message);
+                    
+                    Swal.fire({
+                        icon: 'warning',
+                        title: 'Perhatian',
+                        text: res.message,
+                        confirmButtonText: 'OK'
+                    });
+                }
+            },
+            error: function(jqXHR) {
+                let msg = 'Terjadi kesalahan. ';
+                
+                if (jqXHR.status === 0) {
+                    msg += 'Tidak ada koneksi internet.';
+                } else if (jqXHR.status === 404) {
+                    msg += 'Layanan tidak tersedia.';
+                } else if (jqXHR.status === 500) {
+                    msg += 'Kesalahan server.';
+                } else {
+                    msg += 'Silakan coba lagi.';
+                }
+                
+                $message.addClass('text-warning').html('<i class="fas fa-exclamation-triangle me-1"></i>' + msg);
+                
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error',
+                    text: msg,
+                    confirmButtonText: 'Tutup'
+                });
+            },
+            complete: function() {
+                $button.prop('disabled', false);
+                $spinner.addClass('d-none');
+                $btnText.text('Langganan');
+            }
+        });
+    });
+
+    // ===== DataTable Initialization =====
+    if ($('#certTable').length) {
+        var table = $('#certTable').DataTable({
+            "processing": true,
+            "serverSide": true,
+            "ajax": {
+                "url": "https://jakim.id/Volunteer_ecerti/get_data",
+                "type": "POST",
+                "data": function(d) {
+                    d.is_search = d.search.value && d.search.value.length > 0;
+                }
+            },
+            "columns": [
+                { 
+                    "data": "no", 
+                    "orderable": false, 
+                    "className": "text-center",
+                    "width": "5%"
+                },
+                { 
+                    "data": "name", 
+                    "className": "text-left",
+                    "width": "35%"
+                },
+                { 
+                    "data": "team", 
+                    "className": "text-center",
+                    "width": "30%"
+                },
+                { 
+                    "data": "id", 
+                    "orderable": false, 
+                    "className": "text-center",
+                    "width": "30%",
+                    "render": function(data, type, row, meta) {
+                        var searchValue = $('input[type="search"]').val();
+                        if (searchValue && searchValue.trim() !== '' && searchValue.trim().length >= 2) {
+                            return '<a href="https://jakim.id/Volunteer_ecerti/download/' + data + '" class="btn-download" target="_blank">' +
+                                   '<i class="fas fa-download"></i> Download Sertifikat</a>';
+                        } else {
+                            return '<span class="text-muted-opsi"><i class="fas fa-search"></i> Cari nama untuk download</span>';
+                        }
+                    }
+                }
+            ],
+            "language": {
+                "search": "Cari Nama Volunteer:",
+                "info": "Menampilkan _START_ - _END_ dari _TOTAL_ data",
+                "infoEmpty": "Silakan cari nama volunteer",
+                "emptyTable": "Tidak ada data untuk ditampilkan. Silakan cari nama volunteer.",
+                "zeroRecords": "Nama volunteer tidak ditemukan",
+                "infoFiltered": "(difilter dari _MAX_ total data)",
+                "lengthMenu": "Tampilkan _MENU_ data per halaman",
+                "loadingRecords": "Memuat data...",
+                "processing": "Memproses..."
+            },
+            "drawCallback": function(settings) {
+                var searchValue = $('input[type="search"]').val();
+                
+                if (searchValue && searchValue.trim() !== '' && searchValue.trim().length >= 2) {
+                    $('#searchInfo').fadeOut(300);
+                    $('#noResultAlert').hide();
+                    $('.dataTables_info').show();
+                    $('.dataTables_paginate').show();
+                    
+                    var info = $('.dataTables_info').text();
+                    if (info.includes('0 sampai 0')) {
+                        $('#noResultAlert').fadeIn(300);
+                    }
+                } else {
+                    $('#searchInfo').fadeIn(300);
+                    $('#noResultAlert').hide();
+                    $('.dataTables_info').hide();
+                    $('.dataTables_paginate').hide();
+                }
+            }
+        });
+
+        // Event listener untuk search box
+        $('input[type="search"]').on('keyup change', function() {
+            var searchValue = $(this).val();
+            
+            if (searchValue && searchValue.trim() !== '' && searchValue.trim().length >= 2) {
+                $('#searchInfo').fadeOut(300);
+                $('.dataTables_info').show();
+                $('.dataTables_paginate').show();
+                $('#noResultAlert').hide();
+                table.draw();
+            } else {
+                $('#searchInfo').fadeIn(300);
+                $('.dataTables_info').hide();
+                $('.dataTables_paginate').hide();
+                $('#noResultAlert').hide();
+                table.search('').draw();
+            }
+        });
+
+        // Clear search dengan tombol Escape
+        $(document).on('keydown', 'input[type="search"]', function(e) {
+            if (e.key === 'Escape') {
+                $(this).val('');
+                $(this).trigger('keyup');
+            }
+        });
+
+        // Inisialisasi awal - sembunyikan info tabel
+        $('.dataTables_info').hide();
+        $('.dataTables_paginate').hide();
+    }
+
+    // ===== Scroll Container Functionality =====
+    const scrollContainer = document.querySelector('.scrollable-buttons');
+    
+    if (scrollContainer) {
+        let isDragging = false;
+        let startX;
+        let scrollLeft;
+        
+        scrollContainer.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            startX = e.pageX - scrollContainer.offsetLeft;
+            scrollLeft = scrollContainer.scrollLeft;
+            scrollContainer.style.cursor = 'grabbing';
+        });
+        
+        scrollContainer.addEventListener('mouseleave', () => {
+            isDragging = false;
+            scrollContainer.style.cursor = 'grab';
+        });
+        
+        scrollContainer.addEventListener('mouseup', () => {
+            isDragging = false;
+            scrollContainer.style.cursor = 'grab';
+        });
+        
+        scrollContainer.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+            e.preventDefault();
+            const x = e.pageX - scrollContainer.offsetLeft;
+            const walk = (x - startX) * 1;
+            scrollContainer.scrollLeft = scrollLeft - walk;
+        });
+    }
+    
+    // ===== AOS (Animate on Scroll) Initialization =====
+    AOS.refresh();
+    AOS.init();
+    document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(function () { AOS.refresh(); }, 500);
+    });
+    
+    // ===== Mobile Logo Toggle =====
+    $('.navbar-toggler').click(function () {
+        $('.mobile-logo').toggleClass('hide');
+    });
+    
+    // ===== Language Switcher Function =====
+    window.bahasa = function() {
+        var currentUrl = window.location.href;
+        var newUrl;
+        var currentLanguage = getCurrentLanguage(currentUrl);
+        
+        if (currentLanguage === 'eng') {
+            newUrl = currentUrl.replace('/eng/', '/');
+        } else {
+            var urlParts = currentUrl.split('/');
+            var afterDomain = urlParts.slice(3).join('/');
+            newUrl = urlParts[0] + '//' + urlParts[2] + '/eng/' + afterDomain;
+        }
+        
+        window.location.href = newUrl;
+    }
+    
+    function getCurrentLanguage(url) {
+        if (url.includes('/eng/')) {
+            return 'eng';
+        } else {
+            return '';
+        }
+    }
+});
+</script>
+
+<!-- ===== LOAD SCRIPTS LAINNYA ===== -->
+<script src="https://jakim.id/assets/js/js1.js"></script>
+<script src="https://jakim.id/assets/js/bootstrap.bundle.min.js"></script>
+
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a2c30b9d5a2d3eca',t:'MTc4NjkxMDYzNw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

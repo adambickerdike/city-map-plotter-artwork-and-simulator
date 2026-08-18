@@ -1,0 +1,112 @@
+{
+  "layers": {
+    "water_areas": {
+      "label": "River banks",
+      "pen": "Blue 0.4",
+      "stroke": "#6eadd0",
+      "stroke_width_mm": 0.4,
+      "order": 10,
+      "strokes": 1,
+      "passes": 1
+    },
+    "rivers": {
+      "label": "Unbanked rivers and cuts",
+      "pen": "Blue 0.4",
+      "stroke": "#6eadd0",
+      "stroke_width_mm": 0.4,
+      "order": 15,
+      "strokes": 1,
+      "passes": 1
+    },
+    "waterways": {
+      "label": "Water stipple and narrow waterways",
+      "pen": "Blue 0.25",
+      "stroke": "#78b4d3",
+      "stroke_width_mm": 0.25,
+      "order": 20,
+      "strokes": 1,
+      "passes": 1
+    },
+    "green_space": {
+      "label": "Parks, meadows and towpath greens",
+      "pen": "Green 0.25",
+      "stroke": "#82b89a",
+      "stroke_width_mm": 0.25,
+      "order": 30,
+      "strokes": 1,
+      "passes": 1
+    },
+    "buildings": {
+      "label": "Boathouses and landmark buildings",
+      "pen": "Purple 0.25",
+      "stroke": "#98769f",
+      "stroke_width_mm": 0.25,
+      "order": 40,
+      "strokes": 1,
+      "passes": 1
+    },
+    "road_areas": {
+      "label": "Road surfaces",
+      "pen": "Grey 0.25",
+      "stroke": "#a2a9af",
+      "stroke_width_mm": 0.25,
+      "order": 55,
+      "strokes": 1,
+      "passes": 1
+    },
+    "roads_major": {
+      "label": "Major roads",
+      "pen": "Red 0.4",
+      "stroke": "#d98a4f",
+      "stroke_width_mm": 0.4,
+      "order": 60,
+      "strokes": 1,
+      "passes": 1
+    },
+    "roads_secondary": {
+      "label": "Secondary roads",
+      "pen": "Red 0.25",
+      "stroke": "#e0a878",
+      "stroke_width_mm": 0.25,
+      "order": 80,
+      "strokes": 1,
+      "passes": 1
+    },
+    "roads_local": {
+      "label": "Local streets",
+      "pen": "Grey 0.25",
+      "stroke": "#7f8992",
+      "stroke_width_mm": 0.25,
+      "order": 90,
+      "strokes": 1,
+      "passes": 1
+    },
+    "roads_other": {
+      "label": "Service roads",
+      "pen": "Grey 0.25",
+      "stroke": "#a2a9af",
+      "stroke_width_mm": 0.25,
+      "order": 100,
+      "strokes": 1,
+      "passes": 1
+    },
+    "paths": {
+      "label": "Towpaths and footpaths",
+      "pen": "Green 0.25",
+      "stroke": "#82b89a",
+      "stroke_width_mm": 0.25,
+      "order": 110,
+      "strokes": 1,
+      "passes": 1
+    },
+    "railways": {
+      "label": "Railways",
+      "pen": "Grey 0.25",
+      "stroke": "#67737d",
+      "stroke_width_mm": 0.25,
+      "order": 120,
+      "strokes": 1,
+      "passes": 1
+    }
+  }
+}
