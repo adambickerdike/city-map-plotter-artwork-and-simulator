@@ -1,6 +1,8 @@
 # Verification record
 
-Verified locally and from a clean GitHub clone on 18 August 2026.
+The original portfolio was verified locally and from a clean GitHub clone on
+18 August 2026. The standalone Seaton Sluice v8 extension was verified locally
+on 29 August 2026 before upload.
 
 ## Repository integrity
 
@@ -8,9 +10,10 @@ Verified locally and from a clean GitHub clone on 18 August 2026.
 catalog artifacts:          423
 portfolio PNG files:        445
 portfolio SVG files:        445
-repository PNG files:       447
-repository SVG files:       455
+repository PNG files:       448
+repository SVG files:       467
 portfolio checksum entries: 2463 PASS
+Seaton checksum entries:    32 PASS
 visible page-text audit:     PASS
 ```
 
@@ -22,7 +25,7 @@ python3 scripts/verify_repository.py --full
 
 ## Published-repository proof
 
-The private GitHub repository was cloned into an empty temporary directory with
+The GitHub repository was cloned into an empty temporary directory with
 LFS smudging initially disabled. All remote objects were then fetched and
 checked out before verification:
 
@@ -73,9 +76,30 @@ The compiled job was SHA-bound and verified. Physical execution correctly
 remained `BLOCKED` because the bundled pens are unmeasured and machine timing
 is nominal.
 
+## Seaton Sluice v8 import proof
+
+The standalone A3 package passed its own release verifier, all 32 release
+checksums, the repository import-manifest audit and controller inspection:
+
+```text
+master SVG SHA-256:      e6bf7558193133487625d2ce1b272189d5b4811d793e9912cbba86624f875e81
+PNG SHA-256:             6bd7e6d4cc9fd34e62ae1ca11881ce416a3036c6edd9612d12ab88d718d9f94b
+plot-job SHA-256:        36fd6fbbb6d4eb567d554e7a134ab822cba7fbaac7958d0ccc3de1c39ca79cf1
+master paths:            2,742
+vertices:                36,402
+pen loads:               11
+estimated time:          37:31
+uncalibrated interval:   31:53–43:09
+physical execution:      BLOCKED as designed
+```
+
 ## Launcher proof
 
 `scripts/run_augusta_studio.sh --no-browser --port 0` was invoked from
 `/home/adam`, outside the repository. The server selected a free loopback port,
 returned `{"ok": true}` from `/health`, served the studio root with HTTP 200,
 and shut down cleanly.
+
+`scripts/run_seaton_sluice_studio.sh --no-browser --port 0` independently
+selected a free loopback port, loaded the v8 master, returned `{"ok": true}`
+from `/health`, served the studio root with HTTP 200, and shut down cleanly.

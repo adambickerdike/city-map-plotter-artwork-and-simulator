@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "repository": "adambickerdike/city-map-plotter-artwork-and-simulator",
-  "release_status": "private-review-and-engineering-handoff",
+  "release_status": "public-review-and-engineering-handoff",
   "source_portfolio": "latest-map-portfolio-2026-08-18-v3",
   "portfolio": {
     "distinct_plate_count": 423,
@@ -12,10 +12,10 @@
     "checksum_entry_count": 2463
   },
   "repository_assets": {
-    "png_count": 447,
-    "png_bytes": 821708295,
-    "svg_count": 455,
-    "svg_bytes": 1380052612,
+    "png_count": 448,
+    "png_bytes": 824374751,
+    "svg_count": 467,
+    "svg_bytes": 1385911554,
     "git_lfs_patterns": [
       "*.png",
       "*.svg",
@@ -23,8 +23,20 @@
       "artwork/latest-map-portfolio-2026-08-18-v3/03-hiking-maps/contracts/hiking-data/hike-plates-release-v1.json",
       "artwork/latest-map-portfolio-2026-08-18-v3/06-f1-courses/code/src/city_map_plotter/data/f1-circuits-2026.json"
     ],
-    "git_lfs_tracked_path_count": 1328,
-    "git_lfs_approximate_bytes": 3193815853
+    "git_lfs_tracked_path_count": 1342,
+    "git_lfs_approximate_bytes": 3202773644
+  },
+  "standalone_releases": {
+    "seaton_sluice_v8": {
+      "package_path": "artwork/seaton-sluice-holywell-dene-2026-08-29-v8",
+      "import_manifest": "artwork/seaton-sluice-holywell-dene-2026-08-29-v8/SOFTWARE_IMPORT.json",
+      "master_svg_sha256": "e6bf7558193133487625d2ce1b272189d5b4811d793e9912cbba86624f875e81",
+      "preview_png_sha256": "6bd7e6d4cc9fd34e62ae1ca11881ce416a3036c6edd9612d12ab88d718d9f94b",
+      "plot_job_sha256": "36fd6fbbb6d4eb567d554e7a134ab822cba7fbaac7958d0ccc3de1c39ca79cf1",
+      "per_pen_svg_count": 11,
+      "release_checksum_count": 32,
+      "physical_execution_allowed": false
+    }
   },
   "simulator": {
     "shared_motion_engine": "tools/plotsim.py",

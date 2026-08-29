@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "package_id": "seaton-sluice-holywell-dene-2026-08-29-v8",
+  "status": "review-only",
+  "subject": "SEATON SLUICE",
+  "paper": {
+    "format": "A3",
+    "orientation": "landscape",
+    "width_mm": 420.0,
+    "height_mm": 297.0
+  },
+  "entrypoints": {
+    "preview_png": "artwork/seaton-sluice-holywell-dene-a3-landscape.png",
+    "master_svg": "artwork/seaton-sluice-holywell-dene-a3-landscape.svg",
+    "plot_manifest": "artwork/seaton-sluice-holywell-dene-a3-landscape.plot.json",
+    "portable_viewer": "simulation/seaton-sluice-holywell-dene-plotsim.html",
+    "plot_job": "simulation/seaton-sluice-holywell-dene.plotjob.json",
+    "source_contract": "SOURCE-CONTRACT.json",
+    "qa_report": "qa/QA-REPORT.json",
+    "release_checksums": "CHECKSUMS.sha256"
+  },
+  "per_pen_svgs": [
+    {
+      "load": 1,
+      "pen_id": "blue-0-4",
+      "path": "artwork/pen-svgs/seaton-sluice-holywell-dene-a3-landscape.pen-01-blue-0-4.svg"
+    },
+    {
+      "load": 2,
+      "pen_id": "blue-0-25",
+      "path": "artwork/pen-svgs/seaton-sluice-holywell-dene-a3-landscape.pen-02-blue-0-25.svg"
+    },
+    {
+      "load": 3,
+      "pen_id": "green-0-25",
+      "path": "artwork/pen-svgs/seaton-sluice-holywell-dene-a3-landscape.pen-03-green-0-25.svg"
+    },
+    {
+      "load": 4,
+      "pen_id": "purple-0-25",
+      "path": "artwork/pen-svgs/seaton-sluice-holywell-dene-a3-landscape.pen-04-purple-0-25.svg"
+    },
+    {
+      "load": 5,
+      "pen_id": "grey-0-25",
+      "path": "artwork/pen-svgs/seaton-sluice-holywell-dene-a3-landscape.pen-05-grey-0-25.svg"
+    },
+    {
+      "load": 6,
+      "pen_id": "red-0-4",
+      "path": "artwork/pen-svgs/seaton-sluice-holywell-dene-a3-landscape.pen-06-red-0-4.svg"
+    },
+    {
+      "load": 7,
+      "pen_id": "red-0-25",
+      "path": "artwork/pen-svgs/seaton-sluice-holywell-dene-a3-landscape.pen-07-red-0-25.svg"
+    },
+    {
+      "load": 8,
+      "pen_id": "black-0-6",
+      "path": "artwork/pen-svgs/seaton-sluice-holywell-dene-a3-landscape.pen-08-black-0-6.svg"
+    },
+    {
+      "load": 9,
+      "pen_id": "black-1",
+      "path": "artwork/pen-svgs/seaton-sluice-holywell-dene-a3-landscape.pen-09-black-1.svg"
+    },
+    {
+      "load": 10,
+      "pen_id": "black-0-4",
+      "path": "artwork/pen-svgs/seaton-sluice-holywell-dene-a3-landscape.pen-10-black-0-4.svg"
+    },
+    {
+      "load": 11,
+      "pen_id": "black-0-25",
+      "path": "artwork/pen-svgs/seaton-sluice-holywell-dene-a3-landscape.pen-11-black-0-25.svg"
+    }
+  ],
+  "motion_software": {
+    "interactive_studio": "../../tools/plotter_studio.py",
+    "controller": "../../tools/plotter_control.py",
+    "plot_job_engine": "../../tools/plotjob.py",
+    "simulation_engine": "../../tools/plotsim.py",
+    "machine_profile": "../../plotter-profiles/axidraw-class-simulation-v1.json",
+    "operator_documentation": "../../docs/plotter/PLOTTER_SOFTWARE.md"
+  },
+  "integrity": {
+    "master_svg_sha256": "e6bf7558193133487625d2ce1b272189d5b4811d793e9912cbba86624f875e81",
+    "preview_png_sha256": "6bd7e6d4cc9fd34e62ae1ca11881ce416a3036c6edd9612d12ab88d718d9f94b",
+    "plot_manifest_sha256": "c00dc179cac236b80a78e6c9139508f67c079cd674ccf6bdc62f004c204b50f8",
+    "plot_job_file_sha256": "22c4a348b414b696069ee7b0d2c3a6a5f5eb7a7cad551358068b41a63235f8b0",
+    "portable_viewer_sha256": "b3d26b3fcde451ac84a3a3929e6e234f2cb4f109b04dbaf30426d22203be15c3",
+    "machine_profile_file_sha256": "fef58255a709e53f454928edea84e2161635d6ff27be29b44f2fe4b87ab4a4ba"
+  },
+  "plot_job": {
+    "schema": "city-map-plotter/plot-job-v1",
+    "job_sha256": "36fd6fbbb6d4eb567d554e7a134ab822cba7fbaac7958d0ccc3de1c39ca79cf1",
+    "source_sha256": "e6bf7558193133487625d2ce1b272189d5b4811d793e9912cbba86624f875e81",
+    "order": "optimised",
+    "path_count": 2742,
+    "vertex_count": 36402,
+    "pen_load_count": 11,
+    "execution_allowed": false,
+    "blockers": [
+      "unmeasured-pens",
+      "uncalibrated-machine-timing"
+    ]
+  }
+}

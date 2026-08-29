@@ -2,7 +2,7 @@
 
 ## Review status
 
-This repository is a private review and engineering handoff. Inclusion does
+This repository is a public review and engineering handoff. Inclusion does
 not imply that an artwork is cleared for public sale, event branding,
 commercial merchandising, or production plotting.
 
@@ -34,4 +34,3 @@ profile and must pass every controller, calibration, page, work-offset,
 preflight and bounds gate documented in `docs/plotter/PLOTTER_SOFTWARE.md`.
 
 No broad copyright or hardware-safety licence is created by this handoff.
-

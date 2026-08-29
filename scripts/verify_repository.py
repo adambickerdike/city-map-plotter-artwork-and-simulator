@@ -14,6 +14,7 @@ from typing import Any, Sequence
 
 ROOT = Path(__file__).resolve().parents[1]
 PORTFOLIO = ROOT / "artwork/latest-map-portfolio-2026-08-18-v3"
+SEATON_RELEASE = ROOT / "artwork/seaton-sluice-holywell-dene-2026-08-29-v8"
 EXPECTED_DOMAINS = {
     "01-university-cities-uk": 30,
     "02-university-cities-us": 20,
@@ -40,6 +41,7 @@ REQUIRED_SIMULATOR_FILES = (
     "examples/augusta-national/augusta-national.svg",
     "examples/augusta-national/augusta-national.png",
     "examples/generated-viewers/augusta-national.html",
+    "scripts/run_seaton_sluice_studio.sh",
 )
 LFS_POINTER_PREFIX = b"version https://git-lfs.github.com/spec/v1"
 
@@ -127,6 +129,111 @@ def _verify_release_checksums() -> int:
     return checked
 
 
+def _verify_seaton_release() -> dict[str, Any]:
+    import_manifest = _load_json(SEATON_RELEASE / "SOFTWARE_IMPORT.json")
+    source_contract = _load_json(SEATON_RELEASE / "SOURCE-CONTRACT.json")
+    qa_report = _load_json(SEATON_RELEASE / "qa/QA-REPORT.json")
+    plot_job = _load_json(
+        SEATON_RELEASE / "simulation/seaton-sluice-holywell-dene.plotjob.json"
+    )
+    if import_manifest.get("package_id") != SEATON_RELEASE.name:
+        raise VerificationError("Seaton software import package ID does not match.")
+    if source_contract.get("contract_id") != SEATON_RELEASE.name:
+        raise VerificationError("Seaton source contract ID does not match.")
+    if qa_report.get("status") != "pass":
+        raise VerificationError("Seaton release QA report did not pass.")
+
+    entrypoints = import_manifest.get("entrypoints")
+    integrity = import_manifest.get("integrity")
+    if not isinstance(entrypoints, dict) or not isinstance(integrity, dict):
+        raise VerificationError("Seaton import manifest lacks entrypoints or integrity.")
+    digest_bindings = {
+        "master_svg": "master_svg_sha256",
+        "preview_png": "preview_png_sha256",
+        "plot_manifest": "plot_manifest_sha256",
+        "plot_job": "plot_job_file_sha256",
+        "portable_viewer": "portable_viewer_sha256",
+    }
+    for entrypoint, digest_key in digest_bindings.items():
+        relative = entrypoints.get(entrypoint)
+        expected = integrity.get(digest_key)
+        if not isinstance(relative, str) or not isinstance(expected, str):
+            raise VerificationError(f"Invalid Seaton import binding: {entrypoint}.")
+        path = SEATON_RELEASE / relative
+        _require_real_file(path)
+        if _sha256(path) != expected:
+            raise VerificationError(f"Seaton import digest mismatch: {path}.")
+
+    profile = ROOT / "plotter-profiles/axidraw-class-simulation-v1.json"
+    _require_real_file(profile)
+    if _sha256(profile) != integrity.get("machine_profile_file_sha256"):
+        raise VerificationError("Seaton import machine-profile digest mismatch.")
+
+    pen_records = import_manifest.get("per_pen_svgs")
+    if not isinstance(pen_records, list) or len(pen_records) != 11:
+        raise VerificationError("Seaton import must declare exactly 11 per-pen SVGs.")
+    if any(not isinstance(record, dict) for record in pen_records):
+        raise VerificationError("Seaton per-pen records must be objects.")
+    if [record.get("load") for record in pen_records] != list(range(1, 12)):
+        raise VerificationError("Seaton per-pen load order is not contiguous.")
+    for record in pen_records:
+        relative = record.get("path")
+        if not isinstance(relative, str):
+            raise VerificationError("Seaton per-pen record lacks a path.")
+        _require_real_file(SEATON_RELEASE / relative)
+
+    motion_software = import_manifest.get("motion_software")
+    if not isinstance(motion_software, dict):
+        raise VerificationError("Seaton import lacks motion-software bindings.")
+    for role, relative in motion_software.items():
+        if not isinstance(relative, str):
+            raise VerificationError(f"Invalid Seaton software binding: {role}.")
+        path = (SEATON_RELEASE / relative).resolve()
+        try:
+            path.relative_to(ROOT.resolve())
+        except ValueError as exc:
+            raise VerificationError(
+                f"Seaton software binding leaves the repository: {role}."
+            ) from exc
+        _require_real_file(path)
+
+    master_digest = integrity["master_svg_sha256"]
+    if plot_job.get("source", {}).get("sha256") != master_digest:
+        raise VerificationError("Seaton plot job is not bound to its master SVG.")
+    if plot_job.get("preflight", {}).get("path_count") != 2742:
+        raise VerificationError("Seaton plot-job path count changed.")
+    if plot_job.get("safety", {}).get("execution_allowed") is not False:
+        raise VerificationError("Seaton physical execution must remain blocked.")
+
+    checksum_path = SEATON_RELEASE / "CHECKSUMS.sha256"
+    _require_real_file(checksum_path)
+    checked = 0
+    for line_number, raw_line in enumerate(
+        checksum_path.read_text(encoding="utf-8").splitlines(), start=1
+    ):
+        if not raw_line:
+            continue
+        try:
+            expected, relative = raw_line.split("  ", maxsplit=1)
+        except ValueError as exc:
+            raise VerificationError(
+                f"Malformed Seaton checksum line {line_number}: {raw_line!r}"
+            ) from exc
+        path = SEATON_RELEASE / relative
+        _require_real_file(path)
+        if _sha256(path) != expected:
+            raise VerificationError(f"Seaton release checksum mismatch: {path}")
+        checked += 1
+    if checked != 32:
+        raise VerificationError(f"Expected 32 Seaton checksums, found {checked}.")
+    return {
+        "seaton_checksum_count": checked,
+        "seaton_per_pen_svg_count": len(pen_records),
+        "seaton_plot_path_count": plot_job["preflight"]["path_count"],
+        "seaton_physical_execution_allowed": False,
+    }
+
+
 def _verify_structure() -> dict[str, Any]:
     for relative in REQUIRED_SIMULATOR_FILES:
         _require_real_file(ROOT / relative)
@@ -149,9 +256,9 @@ def _verify_structure() -> dict[str, Any]:
         )
     repository_pngs = list(ROOT.rglob("*.png"))
     repository_svgs = list(ROOT.rglob("*.svg"))
-    if len(repository_pngs) != 447 or len(repository_svgs) != 455:
+    if len(repository_pngs) != 448 or len(repository_svgs) != 467:
         raise VerificationError(
-            "Expected 447 repository PNGs and 455 repository SVGs, found "
+            "Expected 448 repository PNGs and 467 repository SVGs, found "
             f"{len(repository_pngs)} and {len(repository_svgs)}."
         )
     for path in (*portfolio_pngs, *portfolio_svgs, *repository_pngs, *repository_svgs):
@@ -180,6 +287,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     try:
         catalog_count, expected_count = _verify_catalog(full=args.full)
         structure = _verify_structure()
+        seaton = _verify_seaton_release()
         checksum_count = _verify_release_checksums() if args.full else None
     except VerificationError as exc:
         print(f"verify_repository: {exc}", file=sys.stderr)
@@ -191,6 +299,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         "expected_artifact_count": expected_count,
         "release_checksum_count": checksum_count,
         **structure,
+        **seaton,
     }
     print(json.dumps(report, indent=2, sort_keys=True))
     return 0

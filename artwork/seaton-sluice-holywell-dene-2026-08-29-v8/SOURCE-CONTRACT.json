@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "contract_id": "seaton-sluice-holywell-dene-2026-08-29-v8",
+  "supersedes": "seaton-sluice-holywell-dene-2026-08-29-v7",
+  "status": "review-edition-pinned-json",
+  "subject": {
+    "title": "SEATON SLUICE",
+    "country": "United Kingdom",
+    "composition_center": {
+      "latitude": 55.0747,
+      "longitude": -1.497
+    },
+    "requested_extent_wgs84": {
+      "west": -1.5355,
+      "south": 55.0618,
+      "east": -1.4585,
+      "north": 55.0876
+    },
+    "render_extent_wgs84": {
+      "west": -1.5355079354827084,
+      "south": 55.0618,
+      "east": -1.4584920645172914,
+      "north": 55.0876
+    },
+    "claim_scope": "An A3 landscape city-only basemap composition titled Seaton Sluice, showing the village, harbour and coast, the complete sourced five-way Seaton Burn/Holywell Dene chain and the complete sourced Seaton Delaval Hall footprint. Holywell is western geographic context rather than the named subject. It is not a claimed walking route or course.",
+    "crop_policy": "Retain the approved full-width A3 composition and tighten the v5 geographic field by approximately 3.4 percent. Trim only the remaining outer margins while keeping every point of the five sourced Dene ways, Seaton Sluice and the complete Hall footprint inside."
+  },
+  "focus_evidence": {
+    "seaton_sluice": {
+      "source_ref": "node/467128695",
+      "latitude": 55.0840248,
+      "longitude": -1.4731802,
+      "inside_render_extent": true,
+      "geocoder_cache_path": "sources/service-cache/nominatim/f13a620ae8962f05bbde0d9fa0512d279d04ce8e63634716ddb7cc33d2c4ced6.json"
+    },
+    "holywell_village": {
+      "source_ref": "node/694802634",
+      "latitude": 55.0645201,
+      "longitude": -1.5073118,
+      "inside_render_extent": true,
+      "context_role": "western context required to contain the complete sourced Dene chain; not the titled subject",
+      "geocoder_cache_path": "sources/service-cache/nominatim/75dead3dc3387e9ac399935e83ca9f782ccaf65eabb0b5e4648067f147357b42.json"
+    },
+    "seaton_delaval_hall": {
+      "source_ref": "way/60578761",
+      "name": "Seaton Delaval Hall",
+      "historic": "castle",
+      "building": "yes",
+      "bounds_wgs84": {
+        "west": -1.4976018,
+        "south": 55.0820084,
+        "east": -1.4960562,
+        "north": 55.0828169
+      },
+      "fully_inside_render_extent": true,
+      "required_landmark_ref": true
+    }
+  },
+  "acquisition": {
+    "provider": "OpenStreetMap contributors",
+    "endpoint": "https://overpass-api.de/api/interpreter",
+    "license": "ODbL 1.0",
+    "attribution": "Map data © OpenStreetMap contributors — https://www.openstreetmap.org/copyright",
+    "timestamp_osm_base": "2026-08-29T13:22:21Z",
+    "families": [
+      "roads",
+      "water",
+      "railways",
+      "parks",
+      "buildings"
+    ],
+    "landmark_buildings_only": true,
+    "query_bbox_wgs84": {
+      "west": -1.5546072044499815,
+      "south": 55.0429,
+      "east": -1.4153927955500183,
+      "north": 55.1171
+    },
+    "query_path": "sources/OVERPASS_QUERY.ql",
+    "query_sha256": "e03c62d2af96dd8473fa17c5370f663a79f258682873f71063627006c369fa66",
+    "cache_identity_sha256": "7960c5d8e1e7697a4213d3e08ac9779b06df25904d83da82fcc23738e1e3d51b",
+    "cache_identity_policy": "sha256(endpoint + NUL + query-with-timeout-normalised-to-* + NUL)"
+  },
+  "snapshot": {
+    "path": "sources/seaton-sluice-holywell-dene-overpass-2026-08-29.json.gz",
+    "service_cache_path": "sources/service-cache/overpass/7960c5d8e1e7697a4213d3e08ac9779b06df25904d83da82fcc23738e1e3d51b.json.gz",
+    "service_cache_byte_identical": true,
+    "size_bytes": 647379,
+    "file_sha256": "fb4fb97c65e0531cdd2512af98ddc333f21fc9c88500c5b4d0d5a0116fa15452",
+    "canonical_json_sha256": "0bc85d62762c7cc633bbb18c3c56d372411843933f5557325b952ff45d61e7ef",
+    "element_count": 5351
+  },
+  "coverage_evidence": {
+    "named_seaton_burn_source_chain": [
+      "way/34726812",
+      "way/603738933",
+      "way/603738931",
+      "way/34726724",
+      "way/53678475"
+    ],
+    "corridor_policy": "Render the complete connected chain from its western source endpoint east to Seaton Sluice; every point of all five named source ways must remain inside the frame.",
+    "rendered_coastline_source_refs": [
+      "way/229536856",
+      "way/235593600"
+    ],
+    "highway_way_count_in_snapshot": 4304,
+    "unknown_highway_value_count": 0
+  },
+  "render_contract": {
+    "format_id": "a3-landscape",
+    "format_spec_path": "docs/format/format-v1.json",
+    "format_spec_sha256": "4b518e0b40850db99b067c60257f707b6a31150ef433668bed8208253c54d2c0",
+    "style_path": "styles/university-memorabilia-v2.json",
+    "style_sha256": "d5bc3c092d6cc05bbbc9581b5463a043716cfd5a8b237f8df634a44d6b6f7910",
+    "preset": "a3-balanced-poster",
+    "poster_layout": "city-map",
+    "detail_profile": "plotter-faithful",
+    "road_style": "centreline",
+    "water_fill": "dots",
+    "simplify_tolerance_mm": 0.04,
+    "extent_fit": "contain",
+    "pen_profile": "actual-pens",
+    "landmark_refs": [
+      "way/60578761"
+    ],
+    "attribution_mode": "external",
+    "city_map_field_mm": {
+      "x": 24.0,
+      "y": 55.286,
+      "width": 372.0,
+      "height": 217.714
+    },
+    "header_contract": {
+      "title_lines": 1,
+      "coordinate_layout": "inline",
+      "coordinate_copy": "55.0747 N   /   1.4970 W",
+      "coordinate_line_gap_mm": 0.0,
+      "coordinate_tracking_mm": 0.25,
+      "compass_nib_mm": 0.25,
+      "compass_style": "north-arrow-east-west-axis",
+      "compass_cardinal_axes": [
+        "north",
+        "east-west"
+      ],
+      "compass_geometry": {
+        "arrow_head_half_width_zone_fraction": 0.14,
+        "arrow_head_height_drawable_fraction": 0.24,
+        "east_west_half_width_zone_fraction": 0.22,
+        "east_west_crossing_drawable_fraction": 0.58
+      }
+    }
+  }
+}

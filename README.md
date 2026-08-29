@@ -1,6 +1,6 @@
 # City Map Plotter — artwork portfolio and physical simulator
 
-This private review repository contains the complete verified map portfolio
+This public review repository contains the complete verified map portfolio
 assembled on 18 August 2026 and the software used to simulate and compile
 physical pen-plotter motion.
 
@@ -31,9 +31,26 @@ for the visual gallery and its
 [`catalog.json`](artwork/latest-map-portfolio-2026-08-18-v3/catalog.json) for
 the machine-readable inventory.
 
-The repository has 447 PNG files and 455 SVG files in total. That includes the
-complete portfolio, all contact sheets, and the Augusta simulator example with
-its pen-separated SVG jobs.
+## Newest standalone city plate
+
+The approved Seaton Sluice v8 A3 landscape package is available separately
+from the immutable 423-map portfolio:
+
+- [`SOFTWARE_IMPORT.md`](artwork/seaton-sluice-holywell-dene-2026-08-29-v8/SOFTWARE_IMPORT.md) — clone, verify and import instructions;
+- [`SOFTWARE_IMPORT.json`](artwork/seaton-sluice-holywell-dene-2026-08-29-v8/SOFTWARE_IMPORT.json) — machine-readable PNG/SVG/job/tool entry points;
+- [`master SVG`](artwork/seaton-sluice-holywell-dene-2026-08-29-v8/artwork/seaton-sluice-holywell-dene-a3-landscape.svg) and [`PNG preview`](artwork/seaton-sluice-holywell-dene-2026-08-29-v8/artwork/seaton-sluice-holywell-dene-a3-landscape.png);
+- eleven ordered per-pen SVGs, the SHA-bound plot job, portable viewer, pinned
+  source bytes, QA report, rebuild scripts and 32-file checksum ledger.
+
+Run it from any directory after cloning:
+
+```bash
+/path/to/city-map-plotter-artwork-and-simulator/scripts/run_seaton_sluice_studio.sh
+```
+
+The repository now has 448 PNG files and 467 SVG files in total. That includes
+the complete portfolio, all contact sheets, the Augusta simulator example and
+the standalone Seaton master plus its eleven pen-separated SVG jobs.
 
 ## Clone the complete files
 
@@ -157,6 +174,10 @@ The source portfolio already records:
 - zero visible OpenStreetMap/OSM wording on artwork or contact-sheet pages;
 - external attribution and source/licence evidence retained in documentation,
   manifests, metadata and contracts.
+
+The standalone Seaton package additionally records 3,201 plate checks,
+238 focused renderer/physical/retrace tests and a passing 32-file checksum
+ledger. Its simulation profile remains deliberately non-executable.
 
 See [`ARTWORK_AND_DATA_NOTICE.md`](ARTWORK_AND_DATA_NOTICE.md) before changing
 repository visibility or redistributing the artwork.
