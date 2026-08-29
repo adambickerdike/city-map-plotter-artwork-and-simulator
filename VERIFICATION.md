@@ -2,7 +2,7 @@
 
 The original portfolio was verified locally and from a clean GitHub clone on
 18 August 2026. The standalone Seaton Sluice v8 extension was verified locally
-on 29 August 2026 before upload.
+and from a fresh GitHub clone on 29 August 2026.
 
 ## Repository integrity
 
@@ -37,6 +37,20 @@ LFS checkout:               PASS
 Git LFS fsck:               PASS
 clean working tree:         PASS
 full checksum audit:        PASS
+```
+
+The Seaton extension was then checked from a separate depth-one clone of remote
+commit `f5bf1aedfb424c128b163928807d1ff29f338888`. Git LFS downloaded the
+14 package payloads directly from GitHub; all 32 release checksums passed and
+the remote controller successfully inspected the SHA-bound plot job:
+
+```text
+Git tracked paths:          2,653
+Seaton LFS paths:           14
+Seaton checksum entries:    32 PASS
+remote plot-job inspection: PASS
+remote master bytes:        2,921,678
+remote PNG bytes:           2,666,456
 ```
 
 ## Code verification
