@@ -15,6 +15,7 @@ from typing import Any, Sequence
 ROOT = Path(__file__).resolve().parents[1]
 PORTFOLIO = ROOT / "artwork/latest-map-portfolio-2026-08-18-v3"
 SEATON_RELEASE = ROOT / "artwork/seaton-sluice-holywell-dene-2026-08-29-v8"
+COBRA_RELEASE = ROOT / "artwork/shelby-cobra-427-technical-blueprint-v1"
 EXPECTED_DOMAINS = {
     "01-university-cities-uk": 30,
     "02-university-cities-us": 20,
@@ -42,6 +43,7 @@ REQUIRED_SIMULATOR_FILES = (
     "examples/augusta-national/augusta-national.png",
     "examples/generated-viewers/augusta-national.html",
     "scripts/run_seaton_sluice_studio.sh",
+    "scripts/run_shelby_cobra_studio.sh",
 )
 LFS_POINTER_PREFIX = b"version https://git-lfs.github.com/spec/v1"
 
@@ -234,6 +236,136 @@ def _verify_seaton_release() -> dict[str, Any]:
     }
 
 
+def _verify_cobra_release() -> dict[str, Any]:
+    import_manifest = _load_json(COBRA_RELEASE / "SOFTWARE_IMPORT.json")
+    package_manifest = _load_json(COBRA_RELEASE / "PACKAGE.json")
+    plot_job = _load_json(
+        COBRA_RELEASE / "plot/shelby-cobra-427.optimised.plotjob.json"
+    )
+    if import_manifest.get("package_id") != COBRA_RELEASE.name:
+        raise VerificationError("Cobra software import package ID does not match.")
+    if package_manifest.get("package_id") != COBRA_RELEASE.name:
+        raise VerificationError("Cobra package manifest ID does not match.")
+    if import_manifest.get("status") != "review-only":
+        raise VerificationError("Cobra package must remain review-only.")
+
+    entrypoints = import_manifest.get("entrypoints")
+    integrity = import_manifest.get("integrity")
+    if not isinstance(entrypoints, dict) or not isinstance(integrity, dict):
+        raise VerificationError("Cobra import manifest lacks entrypoints or integrity.")
+    digest_bindings = {
+        "master_svg": "master_svg_sha256",
+        "preview_png": "preview_png_sha256",
+        "plot_manifest": "plot_manifest_sha256",
+        "plot_job": "plot_job_file_sha256",
+        "portable_viewer": "portable_viewer_sha256",
+        "fact_ledger": "fact_ledger_sha256",
+        "geometry_source": "geometry_source_sha256",
+        "source_record": "source_record_sha256",
+        "vector_provenance": "vector_provenance_sha256",
+    }
+    for entrypoint, digest_key in digest_bindings.items():
+        relative = entrypoints.get(entrypoint)
+        expected = integrity.get(digest_key)
+        if not isinstance(relative, str) or not isinstance(expected, str):
+            raise VerificationError(f"Invalid Cobra import binding: {entrypoint}.")
+        path = COBRA_RELEASE / relative
+        _require_real_file(path)
+        if _sha256(path) != expected:
+            raise VerificationError(f"Cobra import digest mismatch: {path}.")
+
+    profile = ROOT / "plotter-profiles/axidraw-class-simulation-v1.json"
+    _require_real_file(profile)
+    if _sha256(profile) != integrity.get("machine_profile_file_sha256"):
+        raise VerificationError("Cobra import machine-profile digest mismatch.")
+
+    motion_software = import_manifest.get("motion_software")
+    if not isinstance(motion_software, dict):
+        raise VerificationError("Cobra import lacks motion-software bindings.")
+    for role, relative in motion_software.items():
+        if not isinstance(relative, str):
+            raise VerificationError(f"Invalid Cobra software binding: {role}.")
+        path = (COBRA_RELEASE / relative).resolve()
+        try:
+            path.relative_to(ROOT.resolve())
+        except ValueError as exc:
+            raise VerificationError(
+                f"Cobra software binding leaves the repository: {role}."
+            ) from exc
+        _require_real_file(path)
+
+    pen_plan = import_manifest.get("pen_plan")
+    expected_pens = ["white-0-3", "white-0-4", "white-0-5"]
+    if not isinstance(pen_plan, list) or len(pen_plan) != 3:
+        raise VerificationError("Cobra import must declare exactly three pen loads.")
+    if any(not isinstance(record, dict) for record in pen_plan):
+        raise VerificationError("Cobra pen-plan records must be objects.")
+    if [record.get("load") for record in pen_plan] != [1, 2, 3]:
+        raise VerificationError("Cobra pen load order is not contiguous.")
+    if [record.get("pen_id") for record in pen_plan] != expected_pens:
+        raise VerificationError("Cobra physical pen order changed.")
+
+    master_digest = integrity["master_svg_sha256"]
+    if plot_job.get("source", {}).get("sha256") != master_digest:
+        raise VerificationError("Cobra plot job is not bound to its master SVG.")
+    if plot_job.get("preflight", {}).get("path_count") != 542:
+        raise VerificationError("Cobra plot-job path count changed.")
+    geometry = plot_job.get("geometry", {})
+    if geometry.get("stroke_count") != 542 or geometry.get("vertex_count") != 7924:
+        raise VerificationError("Cobra plot-job geometry counts changed.")
+    if len(plot_job.get("pen_groups", [])) != 3:
+        raise VerificationError("Cobra plot job must contain three pen groups.")
+    if plot_job.get("job_sha256") != import_manifest.get("plot_job", {}).get(
+        "job_sha256"
+    ):
+        raise VerificationError("Cobra internal plot-job digest changed.")
+    safety = plot_job.get("safety", {})
+    if safety.get("execution_allowed") is not False:
+        raise VerificationError("Cobra physical execution must remain blocked.")
+    blocker_codes = {
+        finding.get("code")
+        for finding in safety.get("findings", [])
+        if isinstance(finding, dict) and finding.get("severity") == "blocker"
+    }
+    if blocker_codes != {"unmeasured-pens", "uncalibrated-machine-timing"}:
+        raise VerificationError("Cobra physical safety blockers changed.")
+
+    master_path = COBRA_RELEASE / entrypoints["master_svg"]
+    master_text = master_path.read_text(encoding="utf-8")
+    disallowed_svg_fragments = ("stroke-dasharray", "<text", "<image")
+    if any(fragment in master_text for fragment in disallowed_svg_fragments):
+        raise VerificationError("Cobra master is not solid, path-only vector artwork.")
+
+    checksum_path = COBRA_RELEASE / "CHECKSUMS.sha256"
+    _require_real_file(checksum_path)
+    checked = 0
+    for line_number, raw_line in enumerate(
+        checksum_path.read_text(encoding="utf-8").splitlines(), start=1
+    ):
+        if not raw_line:
+            continue
+        try:
+            expected, relative = raw_line.split("  ", maxsplit=1)
+        except ValueError as exc:
+            raise VerificationError(
+                f"Malformed Cobra checksum line {line_number}: {raw_line!r}"
+            ) from exc
+        path = COBRA_RELEASE / relative
+        _require_real_file(path)
+        if _sha256(path) != expected:
+            raise VerificationError(f"Cobra release checksum mismatch: {path}")
+        checked += 1
+    if checked != 17:
+        raise VerificationError(f"Expected 17 Cobra checksums, found {checked}.")
+    return {
+        "cobra_checksum_count": checked,
+        "cobra_plot_path_count": plot_job["preflight"]["path_count"],
+        "cobra_plot_vertex_count": geometry["vertex_count"],
+        "cobra_pen_load_count": len(pen_plan),
+        "cobra_physical_execution_allowed": False,
+    }
+
+
 def _verify_structure() -> dict[str, Any]:
     for relative in REQUIRED_SIMULATOR_FILES:
         _require_real_file(ROOT / relative)
@@ -256,9 +388,9 @@ def _verify_structure() -> dict[str, Any]:
         )
     repository_pngs = list(ROOT.rglob("*.png"))
     repository_svgs = list(ROOT.rglob("*.svg"))
-    if len(repository_pngs) != 448 or len(repository_svgs) != 467:
+    if len(repository_pngs) != 449 or len(repository_svgs) != 469:
         raise VerificationError(
-            "Expected 448 repository PNGs and 467 repository SVGs, found "
+            "Expected 449 repository PNGs and 469 repository SVGs, found "
             f"{len(repository_pngs)} and {len(repository_svgs)}."
         )
     for path in (*portfolio_pngs, *portfolio_svgs, *repository_pngs, *repository_svgs):
@@ -288,6 +420,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         catalog_count, expected_count = _verify_catalog(full=args.full)
         structure = _verify_structure()
         seaton = _verify_seaton_release()
+        cobra = _verify_cobra_release()
         checksum_count = _verify_release_checksums() if args.full else None
     except VerificationError as exc:
         print(f"verify_repository: {exc}", file=sys.stderr)
@@ -300,6 +433,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         "release_checksum_count": checksum_count,
         **structure,
         **seaton,
+        **cobra,
     }
     print(json.dumps(report, indent=2, sort_keys=True))
     return 0

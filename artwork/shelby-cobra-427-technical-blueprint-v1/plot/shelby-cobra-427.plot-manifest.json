@@ -1,0 +1,845 @@
+{
+  "schema_version": 2,
+  "generator": "city-map-plotter 0.2.0",
+  "generated_at": "2026-08-30T00:00:00+00:00",
+  "artifact_kind": "native-svg-car-technical-blueprint",
+  "artifact_id": "car-026-shelby-cobra-427-shelby-cobra-source-faithful-v4",
+  "subject_id": "car-026-shelby-cobra-427-shelby-cobra-source-faithful-v4",
+  "variant_id": null,
+  "data_snapshot": "2026-08-30",
+  "domain": "native-svg-car-blueprints",
+  "subject_kind": "car",
+  "title": "SHELBY COBRA",
+  "subtitle": "427 ROADSTER / 1965 TEST CAR",
+  "details": [
+    "MODEL YEAR 1965 / TWO-SEAT ROADSTER",
+    "AC CARS / SHELBY AMERICAN",
+    "90.0 IN WHEELBASE / 4-SPEED MANUAL"
+  ],
+  "source": {
+    "provider": "separate geometry and factual sources; see sources",
+    "license": "CC0 1.0",
+    "attribution": "CREATOR / Igor Krizanovskij | LICENCE / CC0 1.0",
+    "timestamp": "2026-08-30"
+  },
+  "sources": [
+    {
+      "id": "car-026-shelby-cobra-427-shelby-cobra-source-faithful-v4-native-svg",
+      "kind": "published-native-svg-original",
+      "publisher": "Wikimedia Commons",
+      "title": "Shelby Cobra / 427-style roadster / CSX family depiction",
+      "url": "https://commons.wikimedia.org/wiki/File:Shelby_cobra_blueprint_i_01.svg",
+      "revision_url": null,
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Shelby_cobra_blueprint_i_01.svg",
+      "asset_path": "tools/engineering_source_plates/research_v4/cars/sources/shelby_cobra_blueprint_cc0.svg",
+      "asset_sha256": "e1ee0c5cd24901fd0350409518ff0099b5973128507998240db4a7c20cce43f2",
+      "author": "Igor Krizanovskij / Open Clip Art Library / Wikimedia Commons",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "method": "Exact retained original SVG; vector-only physical replay."
+    },
+    {
+      "accessed": "2026-08-30",
+      "id": "car-and-driver-1965-road-test",
+      "issue": "November 1965",
+      "kind": "period-instrumented-road-test",
+      "publisher": "Car and Driver",
+      "supports": [
+        "model-year",
+        "engine",
+        "power",
+        "torque",
+        "transmission",
+        "wheelbase",
+        "curb-weight",
+        "acceleration",
+        "top-speed"
+      ],
+      "title": "Tested: 1965 Shelby Cobra 427",
+      "url": "https://www.caranddriver.com/reviews/a15141361/1965-shelby-cobra-427-road-test/",
+      "method": "Fact reference only; this source does not authorize geometry."
+    },
+    {
+      "accessed": "2026-08-30",
+      "id": "ac-cars-history",
+      "kind": "manufacturer-history",
+      "publisher": "AC Cars",
+      "supports": [
+        "cobra-roadster-identity",
+        "ac-cars-and-shelby-collaboration",
+        "ac-built-chassis"
+      ],
+      "title": "History of AC Cars",
+      "url": "https://ac.cars/history/",
+      "method": "Fact reference only; this source does not authorize geometry."
+    },
+    {
+      "accessed": "2026-08-30",
+      "id": "fia-homologation-220",
+      "kind": "official-homologation-record",
+      "publisher": "Federation Internationale de l'Automobile",
+      "supports": [
+        "shelby-cobra-roadster-427-identity",
+        "7010-cc-v8-group-4-homologation",
+        "homologation-number-220",
+        "homologation-date-1966-01-02"
+      ],
+      "title": "Shelby Cobra Roadster 427 - Homologation 220, Group 4",
+      "url": "https://historicdb.fia.com/car/shelby-cobra-roadster-427",
+      "method": "Fact reference only; this source does not authorize geometry."
+    }
+  ],
+  "evidence": {
+    "scale_status": "source-arrangement-not-to-scale",
+    "evidence_status": "hash-pinned-native-svg-plus-source-bound-facts",
+    "notes": [
+      "side / front / rear / top plan; source arrangement retained",
+      "Commons title and the artwork visibly identify a Cobra-type roadster; the sheet does not provide manufacturer dimensions or a chassis-number-level variant claim.; Qualified as reusable Class-A source artwork with all four requested views. It is reference artwork, not dimensional engineering evidence, and branded merchandise still needs rights review.",
+      "Declared SVG dash presentation is normalized to a solid stroke along the existing native path.",
+      "No separate paths are bridged and no missing contours or views are inferred.",
+      "The plotted four-view geometry is the separately hash-pinned Cobra-type native SVG. The printed numerical values describe the November 1965 Car and Driver Shelby Cobra 427 test car; they do not make the source artwork a measured manufacturer drawing or identify a chassis number.",
+      "Factual and geometry sources are independent and separately bound.",
+      "Process, creator, source, licence, view, and pen labels are absent from visible plate copy.",
+      "Blueprint blue is the dark paper preview; every plotted motor path uses White ink.",
+      "Review output only; source licence, attribution, rights review, and physical pen proof remain binding."
+    ]
+  },
+  "rights": {
+    "status": "review-required",
+    "no_endorsement": true,
+    "logos_or_trade_dress_used": false,
+    "broadcast_frames_traced": false
+  },
+  "page": {
+    "paper": "A3",
+    "orientation": "landscape",
+    "width_mm": 420.0,
+    "height_mm": 297.0,
+    "margin_mm": 12.0,
+    "map_bounds_mm": {
+      "x": 24.0,
+      "y": 24.0,
+      "width": 267.42,
+      "height": 249.0
+    },
+    "zones_mm": {
+      "map_field": {
+        "x": 24.0,
+        "y": 24.0,
+        "width": 267.42,
+        "height": 249.0
+      },
+      "title": {
+        "x": 297.42,
+        "y": 24.0,
+        "width": 98.58,
+        "height": 25.286
+      },
+      "subtitle": {
+        "x": 297.42,
+        "y": 55.286,
+        "width": 98.58,
+        "height": 9.076
+      },
+      "detail": {
+        "x": 297.42,
+        "y": 70.362,
+        "width": 98.58,
+        "height": 31.152
+      },
+      "furniture": {
+        "x": 297.42,
+        "y": 107.514,
+        "width": 98.58,
+        "height": 10.891
+      },
+      "attribution": {
+        "x": 297.42,
+        "y": 264.964,
+        "width": 98.58,
+        "height": 8.036
+      },
+      "technical_field": {
+        "x": 30.0,
+        "y": 30.0,
+        "width": 255.42,
+        "height": 237.0
+      },
+      "technical_top": {
+        "x": 30.0,
+        "y": 30.0,
+        "width": 255.42,
+        "height": 115.5
+      },
+      "technical_bottom_left": {
+        "x": 30.0,
+        "y": 151.5,
+        "width": 124.71,
+        "height": 115.5
+      },
+      "technical_bottom_right": {
+        "x": 160.71,
+        "y": 151.5,
+        "width": 124.71,
+        "height": 115.5
+      },
+      "technical_left": {
+        "x": 30.0,
+        "y": 30.0,
+        "width": 124.71,
+        "height": 237.0
+      },
+      "technical_right_top": {
+        "x": 160.71,
+        "y": 30.0,
+        "width": 124.71,
+        "height": 115.5
+      },
+      "technical_right_bottom": {
+        "x": 160.71,
+        "y": 151.5,
+        "width": 124.71,
+        "height": 115.5
+      }
+    },
+    "format_id": "a3-landscape",
+    "title_line_layout": {
+      "maximum_lines": 2,
+      "nib_mm": 1.0,
+      "horizontal_ink_inset_mm": 0.5,
+      "min_ink_clearance_nib_multiple": 1.0,
+      "min_ink_clearance_mm": 1.0,
+      "min_path_bounds_gap_mm": 2.0
+    }
+  },
+  "rendering": {
+    "preset": "native-svg-car-technical-blueprint-v2",
+    "pen_profile": "white-blueprint-pens",
+    "pen_inventory": {
+      "schema_version": 1,
+      "id": "white-blueprint-pens",
+      "label": "Nominal White paint-pen blueprint set: 0.30/0.40/0.50 mm",
+      "pens": [
+        {
+          "ink": "White",
+          "nominal_nib_mm": 0.3,
+          "id": "white-0-3",
+          "calibration_state": "nominal-unmeasured",
+          "preview_color": "#f7f6ee"
+        },
+        {
+          "ink": "White",
+          "nominal_nib_mm": 0.4,
+          "id": "white-0-4",
+          "calibration_state": "nominal-unmeasured",
+          "preview_color": "#f7f6ee"
+        },
+        {
+          "ink": "White",
+          "nominal_nib_mm": 0.5,
+          "id": "white-0-5",
+          "calibration_state": "nominal-unmeasured",
+          "preview_color": "#f7f6ee"
+        }
+      ]
+    },
+    "allowed_nominal_nibs_mm": [
+      0.25,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      1.0
+    ],
+    "subject_policy": "native-svg-car-blueprint-a3",
+    "geometry_is_clipped": true,
+    "document_layer_order": "physical-pen-contiguous",
+    "empty_layers_omitted_from_svg": true,
+    "visible_attribution": false,
+    "scale_bar": false,
+    "north_mark": false,
+    "stock_tone": "dark",
+    "source_policy": "native-svg-originals-only-v5",
+    "source_lock_sha256": "88ded8a44da9d8f16ecb4c0dc4afc2c6a873cf545dcff6197a15625e345d9103",
+    "normalisation": {
+      "schema_version": 1,
+      "pipeline_version": 4,
+      "kind": "native-svg-vector-normalisation",
+      "subject_id": "car-026-shelby-cobra-427-shelby-cobra-source-faithful-v4",
+      "source_path": "tools/engineering_source_plates/research_v4/cars/sources/shelby_cobra_blueprint_cc0.svg",
+      "source_sha256": "e1ee0c5cd24901fd0350409518ff0099b5973128507998240db4a7c20cce43f2",
+      "source_class": "class-a-native-svg",
+      "source_native_svg_audit": {
+        "path": "/home/adam/Projects/city-map-plotter/tools/engineering_source_plates/research_v4/cars/sources/shelby_cobra_blueprint_cc0.svg",
+        "sha256": "e1ee0c5cd24901fd0350409518ff0099b5973128507998240db4a7c20cce43f2",
+        "passed": true,
+        "classification": "raster-free-svg-structure",
+        "geometry_element_count": 162,
+        "path_command_count": 890,
+        "element_counts": {
+          "Agent": 4,
+          "Bag": 1,
+          "License": 1,
+          "RDF": 1,
+          "Work": 1,
+          "contributor": 1,
+          "coverage": 1,
+          "creator": 1,
+          "date": 1,
+          "defs": 1,
+          "description": 1,
+          "format": 1,
+          "g": 8,
+          "identifier": 1,
+          "language": 1,
+          "li": 5,
+          "license": 1,
+          "metadata": 1,
+          "namedview": 1,
+          "path": 154,
+          "permits": 3,
+          "perspective": 1,
+          "publisher": 1,
+          "rect": 8,
+          "relation": 1,
+          "rights": 1,
+          "source": 1,
+          "subject": 1,
+          "svg": 1,
+          "title": 5,
+          "type": 1
+        },
+        "data_url_locations": [],
+        "external_references": [],
+        "trace_origin_markers": [],
+        "failures": []
+      },
+      "cleaning": {
+        "removed_element_counts": {
+          "configured-source-element": 1,
+          "presentation-opacity-flattened": 105,
+          "source-copy-or-metadata": 1
+        },
+        "cleaned_svg_sha256": "467a14105dcd9371f32147a9b63af08ee6891dab6129dd29ac97ef6761772205"
+      },
+      "vector_stages": [
+        "native-svg-original",
+        "source-copy-paper-mask-and-presentation-paint-normalisation",
+        "source-dash-style-normalised-to-solid",
+        "inkscape-vector-pdf",
+        "pdfimages-zero-raster-proof",
+        "pdftocairo-absolute-vector-svg",
+        "cairo-zero-image-proof-and-vector-use-materialisation",
+        "canonical-line-cubic-path-import"
+      ],
+      "raster_stages": [],
+      "raster_conversion_used": false,
+      "embedded_pdf_image_count": 0,
+      "embedded_cairo_svg_image_count": 0,
+      "vector_pdf_sha256": "c4de121a1252d13c3fefb93214f38632417ef20c48c149def93a5911dc1360e7",
+      "canonical_svg_sha256": "2a8ece448659fbb7690061d001759f91f3bb8880160f1ff11ce39d276c015214",
+      "move_only_commands_removed": 86,
+      "cairo_vector_sanitization": {
+        "source_use_element_count": 0,
+        "source_embedded_image_count": 0,
+        "expanded_vector_use_count": 0,
+        "discarded_non_vector_use_count": 0,
+        "discarded_presentation_image_count": 0,
+        "empty_subpath_count": 86,
+        "degenerate_segment_count": 0,
+        "canonical_path_element_count": 161
+      },
+      "canonical_source_path_count": 166,
+      "tool_versions": {
+        "inkscape": "Inkscape 1.4.4 (dcaf3e7d9e, 2026-05-05)",
+        "pdftocairo": "pdftocairo version 26.07.0",
+        "pdfimages": "pdfimages version 26.07.0"
+      },
+      "claim_scope": "Published native SVG visible vector geometry replayed without bitmap tracing, inferred contours, or hand-drawn object geometry.",
+      "blueprint_collection_id": "native-svg-car-white-blueprints-v1",
+      "format_id": "a3-landscape",
+      "format_spec_authority": "docs/format/format-v1.json",
+      "drawing_zone": "technical_field",
+      "source_line_style_policy": "declared-dashes-normalized-solid",
+      "physical_pen_id": "white-0-3",
+      "physical_nib_mm": 0.3,
+      "physical_three_nib_floor_mm": 0.8999999999999999,
+      "physical_gate_safety_mm": 0.01,
+      "minimum_emitted_path_length_mm": 0.9099999999999999,
+      "emitted_path_count": 166,
+      "omitted_sub_pen_path_count": 0,
+      "visible_content_kind": "source-bound-vehicle-technical-data",
+      "technical_facts_path": "tools/engineering_source_plates/car_technical_facts_v1.json",
+      "technical_facts_sha256": "827dc10cf255ae7337334d78af5682dd23b0c810b723845904e211222c78f425"
+    },
+    "release_state": "review-only-rights-and-physical-proof-required",
+    "visible_copy_kind": "vehicle-technical-data",
+    "technical_facts": {
+      "fact_set_id": "native-svg-car-technical-facts-v1",
+      "fact_set_path": "tools/engineering_source_plates/car_technical_facts_v1.json",
+      "fact_set_sha256": "827dc10cf255ae7337334d78af5682dd23b0c810b723845904e211222c78f425",
+      "research_as_of": "2026-08-30",
+      "claim_scope": "The plotted four-view geometry is the separately hash-pinned Cobra-type native SVG. The printed numerical values describe the November 1965 Car and Driver Shelby Cobra 427 test car; they do not make the source artwork a measured manufacturer drawing or identify a chassis number.",
+      "fact_cards": [
+        {
+          "fact_id": "engine",
+          "label": "ENGINE",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "427 CU IN / 6998 CC",
+            "PUSHROD V8"
+          ]
+        },
+        {
+          "fact_id": "power",
+          "label": "POWER",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "485 HP @ 6500 RPM"
+          ]
+        },
+        {
+          "fact_id": "torque",
+          "label": "TORQUE",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "480 LB-FT @ 3500 RPM"
+          ]
+        },
+        {
+          "fact_id": "curb-weight",
+          "label": "CURB WEIGHT",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "2529 LB / 1147 KG"
+          ]
+        },
+        {
+          "fact_id": "acceleration",
+          "label": "0-60 MPH",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "4.3 SECONDS"
+          ]
+        },
+        {
+          "fact_id": "top-speed",
+          "label": "TOP SPEED",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "165 MPH / 266 KM/H"
+          ]
+        }
+      ],
+      "supporting_specification": {
+        "brakes": "11.6 in vented front discs / 10.75 in vented rear discs",
+        "dimensions_in": {
+          "height": 49.0,
+          "length": 156.0,
+          "wheelbase": 90.0,
+          "width": 68.0
+        },
+        "quarter_mile": "12.2 seconds at 118 mph",
+        "test_vehicle": "1965 Shelby Cobra 427",
+        "transmission": "4-speed manual"
+      },
+      "derived_conversions": [
+        {
+          "display": "1147 KG",
+          "formula": "2529 lb x 0.45359237 kg/lb = 1147.13 kg; rounded to nearest kilogram",
+          "source_fact_id": "curb-weight"
+        },
+        {
+          "display": "266 KM/H",
+          "formula": "165 mph x 1.609344 km/mile = 265.54 km/h; rounded to nearest kilometre per hour",
+          "source_fact_id": "top-speed"
+        }
+      ],
+      "visible_process_copy_removed": true,
+      "visible_provenance_copy_removed": true
+    },
+    "line_style": "solid",
+    "physical_ink_count": 1,
+    "physical_inks": [
+      "White"
+    ],
+    "blueprint_pens": [
+      {
+        "pen_id": "white-0-3",
+        "role": "car geometry",
+        "nib_mm": 0.3
+      },
+      {
+        "pen_id": "white-0-4",
+        "role": "copy and rules",
+        "nib_mm": 0.4
+      },
+      {
+        "pen_id": "white-0-5",
+        "role": "title and border",
+        "nib_mm": 0.5
+      }
+    ],
+    "paper_substrate": "blue",
+    "paper_preview_color": "#0b3558",
+    "preview_background_is_not_plot_geometry": true,
+    "blueprint_title_line_layout": {
+      "title_nib_mm": 0.5,
+      "minimum_cap_height_mm": 8.0,
+      "minimum_path_bounds_gap_mm": 1.0,
+      "minimum_clear_paper_mm": 0.5
+    }
+  },
+  "layers": [
+    {
+      "id": "pen_white_0_3",
+      "logical_layers": [
+        "native_source_linework"
+      ],
+      "label": "Solid native SVG car linework",
+      "pen": "White 0.3",
+      "ink": "White",
+      "nib_mm": 0.3,
+      "nominal_nib_mm": 0.3,
+      "strokes": 1,
+      "passes": 1,
+      "plotted_width_mm": 0.3,
+      "requested_width_mm": 0.3,
+      "width_fit_error_mm": 0.0,
+      "offset_pitch_mm": 0.0,
+      "width_fit_mode": "single-nib",
+      "preview_color": "#f7f6ee",
+      "preview_stroke_width_mm": 0.3,
+      "path_count": 166,
+      "pen_down_distance_mm": 6744.1,
+      "emitted": true,
+      "svg_group_id": "layer-pen-white-0-3",
+      "svg_layer_label": "01 — Solid native SVG car linework — White 0.3",
+      "pen_profile": "white-blueprint-pens",
+      "pen_id": "white-0-3",
+      "calibration_state": "nominal-unmeasured",
+      "calibration_substrate": null,
+      "pen_step": 1
+    },
+    {
+      "id": "pen_white_0_4",
+      "logical_layers": [
+        "blueprint_copy"
+      ],
+      "label": "Blueprint copy and rules",
+      "pen": "White 0.4",
+      "ink": "White",
+      "nib_mm": 0.4,
+      "nominal_nib_mm": 0.4,
+      "strokes": 1,
+      "passes": 1,
+      "plotted_width_mm": 0.4,
+      "requested_width_mm": 0.4,
+      "width_fit_error_mm": 0.0,
+      "offset_pitch_mm": 0.0,
+      "width_fit_mode": "single-nib",
+      "preview_color": "#f7f6ee",
+      "preview_stroke_width_mm": 0.4,
+      "path_count": 355,
+      "pen_down_distance_mm": 4192.8,
+      "emitted": true,
+      "svg_group_id": "layer-pen-white-0-4",
+      "svg_layer_label": "02 — Blueprint copy and rules — White 0.4",
+      "pen_profile": "white-blueprint-pens",
+      "pen_id": "white-0-4",
+      "calibration_state": "nominal-unmeasured",
+      "calibration_substrate": null,
+      "pen_step": 2
+    },
+    {
+      "id": "pen_white_0_5",
+      "logical_layers": [
+        "blueprint_frame"
+      ],
+      "label": "Blueprint title and frame",
+      "pen": "White 0.5",
+      "ink": "White",
+      "nib_mm": 0.5,
+      "nominal_nib_mm": 0.5,
+      "strokes": 1,
+      "passes": 1,
+      "plotted_width_mm": 0.5,
+      "requested_width_mm": 0.5,
+      "width_fit_error_mm": 0.0,
+      "offset_pitch_mm": 0.0,
+      "width_fit_mode": "single-nib",
+      "preview_color": "#f7f6ee",
+      "preview_stroke_width_mm": 0.5,
+      "path_count": 21,
+      "pen_down_distance_mm": 3022.7,
+      "emitted": true,
+      "svg_group_id": "layer-pen-white-0-5",
+      "svg_layer_label": "03 — Blueprint title and frame — White 0.5",
+      "pen_profile": "white-blueprint-pens",
+      "pen_id": "white-0-5",
+      "calibration_state": "nominal-unmeasured",
+      "calibration_substrate": null,
+      "pen_step": 3
+    }
+  ],
+  "pen_sequence": [
+    {
+      "step": 1,
+      "pen": "White 0.3",
+      "pen_id": "white-0-3",
+      "pen_profile": "white-blueprint-pens",
+      "ink": "White",
+      "nib_mm": 0.3,
+      "nominal_nib_mm": 0.3,
+      "calibration_state": "nominal-unmeasured",
+      "calibration_substrate": null,
+      "preview_color": "#f7f6ee",
+      "layers": [
+        "native_source_linework"
+      ],
+      "path_count": 166,
+      "pen_down_distance_mm": 6744.1,
+      "pen_up_travel_mm": 5701.4,
+      "strokes": 1,
+      "passes": 1,
+      "plotted_width_mm": 0.3,
+      "minimum_plot_seconds": 192.7,
+      "estimated_plot_seconds_including_pen_up": 264.0,
+      "instruction": "Load White 0.3 (white-0-3) and plot SVG layer 01.",
+      "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+    },
+    {
+      "step": 2,
+      "pen": "White 0.4",
+      "pen_id": "white-0-4",
+      "pen_profile": "white-blueprint-pens",
+      "ink": "White",
+      "nib_mm": 0.4,
+      "nominal_nib_mm": 0.4,
+      "calibration_state": "nominal-unmeasured",
+      "calibration_substrate": null,
+      "preview_color": "#f7f6ee",
+      "layers": [
+        "blueprint_copy"
+      ],
+      "path_count": 355,
+      "pen_down_distance_mm": 4192.8,
+      "pen_up_travel_mm": 3120.7,
+      "strokes": 1,
+      "passes": 1,
+      "plotted_width_mm": 0.4,
+      "minimum_plot_seconds": 119.8,
+      "estimated_plot_seconds_including_pen_up": 158.8,
+      "instruction": "Load White 0.4 (white-0-4) and plot SVG layer 02.",
+      "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+    },
+    {
+      "step": 3,
+      "pen": "White 0.5",
+      "pen_id": "white-0-5",
+      "pen_profile": "white-blueprint-pens",
+      "ink": "White",
+      "nib_mm": 0.5,
+      "nominal_nib_mm": 0.5,
+      "calibration_state": "nominal-unmeasured",
+      "calibration_substrate": null,
+      "preview_color": "#f7f6ee",
+      "layers": [
+        "blueprint_frame"
+      ],
+      "path_count": 21,
+      "pen_down_distance_mm": 3022.7,
+      "pen_up_travel_mm": 927.7,
+      "strokes": 1,
+      "passes": 1,
+      "plotted_width_mm": 0.5,
+      "minimum_plot_seconds": 86.4,
+      "estimated_plot_seconds_including_pen_up": 98.0,
+      "instruction": "Load White 0.5 (white-0-5) and plot SVG layer 03.",
+      "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+    }
+  ],
+  "production_readiness": {
+    "production_ready": false,
+    "mode": "review-only",
+    "selected_pen_ids": [
+      "white-0-3",
+      "white-0-4",
+      "white-0-5"
+    ],
+    "uncalibrated_pen_ids": [
+      "white-0-3",
+      "white-0-4",
+      "white-0-5"
+    ],
+    "blocking_reasons": [
+      "nominal pen widths are not calibrated to one exact paper stock and speed",
+      "commercial rights/clearance review is incomplete"
+    ]
+  },
+  "plot_summary": {
+    "physical_pen_steps": 3,
+    "pen_changes": 2,
+    "pen_down_path_count": 542,
+    "pen_down_distance_mm": 13959.5,
+    "pen_up_travel_mm": 9749.9,
+    "travel_ratio": 0.698,
+    "estimated_plot_seconds_including_pen_up": 520.7,
+    "field_ink_mm2_upper_bound": 5211.7,
+    "field_ink_coverage_upper_bound": 0.078268,
+    "field_ink_budget": 0.28
+  },
+  "warnings": [
+    "REVIEW OUTPUT ONLY — the built-in pen inventory contains nominal, unmeasured widths; calibrate the exact pens, stock, and speed before plotting.",
+    "RIGHTS REVIEW REQUIRED — the plate is a product-development example, not a representation of league, team, athlete, agency, or trail endorsement."
+  ],
+  "catalog_record": {
+    "author": "Igor Krizanovskij / Open Clip Art Library / Wikimedia Commons",
+    "collection": "Cars",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Shelby_cobra_blueprint_i_01.svg",
+    "id": "car-026-shelby-cobra-427-shelby-cobra-source-faithful-v4",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "plate_license": "CC0 1.0",
+    "plate_license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "remove_source_ids": [
+      "rect2923"
+    ],
+    "repository_source_path": "tools/engineering_source_plates/research_v4/cars/sources/shelby_cobra_blueprint_cc0.svg",
+    "source_class": "class-a-native-svg",
+    "source_filename": "shelby_cobra_blueprint_cc0.svg",
+    "source_label": "Published downloadable source geometry",
+    "source_origin_note": "Commons title and the artwork visibly identify a Cobra-type roadster; the sheet does not provide manufacturer dimensions or a chassis-number-level variant claim.; Qualified as reusable Class-A source artwork with all four requested views. It is reference artwork, not dimensional engineering evidence, and branded merchandise still needs rights review.",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Shelby_cobra_blueprint_i_01.svg",
+    "source_sha256": "e1ee0c5cd24901fd0350409518ff0099b5973128507998240db4a7c20cce43f2",
+    "subtitle": "Source-faithful four-view line drawing / not to scale",
+    "title": "Shelby Cobra / 427-style roadster / CSX family depiction",
+    "view_note": "side / front / rear / top plan; source arrangement retained",
+    "kind": "native-svg-source-bound-technical-blueprint-review",
+    "source_lock_sha256": "88ded8a44da9d8f16ecb4c0dc4afc2c6a873cf545dcff6197a15625e345d9103",
+    "technical_facts": {
+      "fact_set_id": "native-svg-car-technical-facts-v1",
+      "fact_set_path": "tools/engineering_source_plates/car_technical_facts_v1.json",
+      "fact_set_sha256": "827dc10cf255ae7337334d78af5682dd23b0c810b723845904e211222c78f425",
+      "research_as_of": "2026-08-30",
+      "claim_scope": "The plotted four-view geometry is the separately hash-pinned Cobra-type native SVG. The printed numerical values describe the November 1965 Car and Driver Shelby Cobra 427 test car; they do not make the source artwork a measured manufacturer drawing or identify a chassis number.",
+      "fact_cards": [
+        {
+          "fact_id": "engine",
+          "label": "ENGINE",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "427 CU IN / 6998 CC",
+            "PUSHROD V8"
+          ]
+        },
+        {
+          "fact_id": "power",
+          "label": "POWER",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "485 HP @ 6500 RPM"
+          ]
+        },
+        {
+          "fact_id": "torque",
+          "label": "TORQUE",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "480 LB-FT @ 3500 RPM"
+          ]
+        },
+        {
+          "fact_id": "curb-weight",
+          "label": "CURB WEIGHT",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "2529 LB / 1147 KG"
+          ]
+        },
+        {
+          "fact_id": "acceleration",
+          "label": "0-60 MPH",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "4.3 SECONDS"
+          ]
+        },
+        {
+          "fact_id": "top-speed",
+          "label": "TOP SPEED",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "165 MPH / 266 KM/H"
+          ]
+        }
+      ],
+      "supporting_specification": {
+        "brakes": "11.6 in vented front discs / 10.75 in vented rear discs",
+        "dimensions_in": {
+          "height": 49.0,
+          "length": 156.0,
+          "wheelbase": 90.0,
+          "width": 68.0
+        },
+        "quarter_mile": "12.2 seconds at 118 mph",
+        "test_vehicle": "1965 Shelby Cobra 427",
+        "transmission": "4-speed manual"
+      },
+      "derived_conversions": [
+        {
+          "display": "1147 KG",
+          "formula": "2529 lb x 0.45359237 kg/lb = 1147.13 kg; rounded to nearest kilogram",
+          "source_fact_id": "curb-weight"
+        },
+        {
+          "display": "266 KM/H",
+          "formula": "165 mph x 1.609344 km/mile = 265.54 km/h; rounded to nearest kilometre per hour",
+          "source_fact_id": "top-speed"
+        }
+      ],
+      "visible_process_copy_removed": true,
+      "visible_provenance_copy_removed": true
+    }
+  },
+  "outputs": {
+    "svg": {
+      "path": "/home/adam/Projects/city-map-plotter/review-output/technical-objects/native-svg-car-white-blueprints-v1/cars/car-026-shelby-cobra-427-shelby-cobra-source-faithful-v4.svg",
+      "sha256": "464200f14c563045eb5e671b1ec11f5d86fd9f72ba9041d5fa892ff5abefc8f7"
+    },
+    "manifest": {
+      "path": "/home/adam/Projects/city-map-plotter/review-output/technical-objects/native-svg-car-white-blueprints-v1/cars/car-026-shelby-cobra-427-shelby-cobra-source-faithful-v4.plot.json"
+    },
+    "pen_files": [],
+    "png": {
+      "path": "/home/adam/Projects/city-map-plotter/review-output/technical-objects/native-svg-car-white-blueprints-v1/cars/car-026-shelby-cobra-427-shelby-cobra-source-faithful-v4.png",
+      "dpi": 160.0,
+      "sha256": "1d29b8aab69ecb1ec5ac67e7e5614dfbade391ca78f874c7623019c524ca22d9"
+    }
+  }
+}

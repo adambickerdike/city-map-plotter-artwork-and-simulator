@@ -1,0 +1,58 @@
+{
+  "artwork": {
+    "format": "a3-landscape",
+    "height_mm": 297.0,
+    "png": "artwork/shelby-cobra-427-technical-blueprint.png",
+    "png_sha256": "1d29b8aab69ecb1ec5ac67e7e5614dfbade391ca78f874c7623019c524ca22d9",
+    "plot_manifest": "artwork/shelby-cobra-427-technical-blueprint.plot.json",
+    "plot_manifest_sha256": "3ed4feb665c6e18f0be2be36173b91a29b98f239aede416443d65d1a94fe652b",
+    "svg": "artwork/shelby-cobra-427-technical-blueprint.svg",
+    "svg_sha256": "464200f14c563045eb5e671b1ec11f5d86fd9f72ba9041d5fa892ff5abefc8f7",
+    "width_mm": 420.0
+  },
+  "evidence": {
+    "fact_ledger": "evidence/technical-facts.json",
+    "fact_ledger_sha256": "827dc10cf255ae7337334d78af5682dd23b0c810b723845904e211222c78f425",
+    "geometry_source": "evidence/shelby-cobra-native-source.svg",
+    "geometry_source_sha256": "e1ee0c5cd24901fd0350409518ff0099b5973128507998240db4a7c20cce43f2",
+    "geometry_and_facts_are_independent": true
+  },
+  "generated_at": "2026-08-30T00:00:00+00:00",
+  "package_id": "shelby-cobra-427-technical-blueprint-v1",
+  "physical_plan": [
+    {
+      "ink": "White",
+      "layer": "layer-pen-white-0-3",
+      "nib_mm": 0.3,
+      "role": "car geometry"
+    },
+    {
+      "ink": "White",
+      "layer": "layer-pen-white-0-4",
+      "nib_mm": 0.4,
+      "role": "technical copy and rules"
+    },
+    {
+      "ink": "White",
+      "layer": "layer-pen-white-0-5",
+      "nib_mm": 0.5,
+      "role": "title and double border"
+    }
+  ],
+  "plot_job": {
+    "execution_allowed": false,
+    "file": "plot/shelby-cobra-427.optimised.plotjob.json",
+    "job_sha256": "6589d6d7b2c94e68cf5e3c1cd69f3af15e23fb9487c6fb49b9bcdc65397b9a86",
+    "order": "optimised",
+    "profile": "plot/axidraw-class-simulation-v1.json",
+    "reason": "Nominal simulation profile; exact machine, pen, work-coordinate, and timing calibration are still required."
+  },
+  "repository_integration": {
+    "portable_viewer": "simulation/shelby-cobra-427-plotsim.html",
+    "portable_viewer_sha256": "f52903c922139ef8da6751b53df4a210fe1afb71a44ff560f60b2039b98e7769",
+    "software_import": "SOFTWARE_IMPORT.json",
+    "studio_launcher": "../../scripts/run_shelby_cobra_studio.sh"
+  },
+  "schema_version": 1,
+  "visible_plate_copy": "vehicle technical data only"
+}

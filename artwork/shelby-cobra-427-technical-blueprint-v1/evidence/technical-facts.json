@@ -1,0 +1,170 @@
+{
+  "fact_set_id": "native-svg-car-technical-facts-v1",
+  "geometry_and_facts_are_independent": true,
+  "research_as_of": "2026-08-30",
+  "schema_version": 1,
+  "subjects": {
+    "car-026-shelby-cobra-427-shelby-cobra-source-faithful-v4": {
+      "claim_scope": "The plotted four-view geometry is the separately hash-pinned Cobra-type native SVG. The printed numerical values describe the November 1965 Car and Driver Shelby Cobra 427 test car; they do not make the source artwork a measured manufacturer drawing or identify a chassis number.",
+      "details": [
+        {
+          "source_ids": [
+            "car-and-driver-1965-road-test",
+            "ac-cars-history"
+          ],
+          "text": "MODEL YEAR 1965 / TWO-SEAT ROADSTER"
+        },
+        {
+          "source_ids": [
+            "ac-cars-history"
+          ],
+          "text": "AC CARS / SHELBY AMERICAN"
+        },
+        {
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "text": "90.0 IN WHEELBASE / 4-SPEED MANUAL"
+        }
+      ],
+      "derived_conversions": [
+        {
+          "display": "1147 KG",
+          "formula": "2529 lb x 0.45359237 kg/lb = 1147.13 kg; rounded to nearest kilogram",
+          "source_fact_id": "curb-weight"
+        },
+        {
+          "display": "266 KM/H",
+          "formula": "165 mph x 1.609344 km/mile = 265.54 km/h; rounded to nearest kilometre per hour",
+          "source_fact_id": "top-speed"
+        }
+      ],
+      "fact_cards": [
+        {
+          "fact_id": "engine",
+          "label": "ENGINE",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "427 CU IN / 6998 CC",
+            "PUSHROD V8"
+          ]
+        },
+        {
+          "fact_id": "power",
+          "label": "POWER",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "485 HP @ 6500 RPM"
+          ]
+        },
+        {
+          "fact_id": "torque",
+          "label": "TORQUE",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "480 LB-FT @ 3500 RPM"
+          ]
+        },
+        {
+          "fact_id": "curb-weight",
+          "label": "CURB WEIGHT",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "2529 LB / 1147 KG"
+          ]
+        },
+        {
+          "fact_id": "acceleration",
+          "label": "0-60 MPH",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "4.3 SECONDS"
+          ]
+        },
+        {
+          "fact_id": "top-speed",
+          "label": "TOP SPEED",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "165 MPH / 266 KM/H"
+          ]
+        }
+      ],
+      "fact_sources": [
+        {
+          "accessed": "2026-08-30",
+          "id": "car-and-driver-1965-road-test",
+          "issue": "November 1965",
+          "kind": "period-instrumented-road-test",
+          "publisher": "Car and Driver",
+          "supports": [
+            "model-year",
+            "engine",
+            "power",
+            "torque",
+            "transmission",
+            "wheelbase",
+            "curb-weight",
+            "acceleration",
+            "top-speed"
+          ],
+          "title": "Tested: 1965 Shelby Cobra 427",
+          "url": "https://www.caranddriver.com/reviews/a15141361/1965-shelby-cobra-427-road-test/"
+        },
+        {
+          "accessed": "2026-08-30",
+          "id": "ac-cars-history",
+          "kind": "manufacturer-history",
+          "publisher": "AC Cars",
+          "supports": [
+            "cobra-roadster-identity",
+            "ac-cars-and-shelby-collaboration",
+            "ac-built-chassis"
+          ],
+          "title": "History of AC Cars",
+          "url": "https://ac.cars/history/"
+        },
+        {
+          "accessed": "2026-08-30",
+          "id": "fia-homologation-220",
+          "kind": "official-homologation-record",
+          "publisher": "Federation Internationale de l'Automobile",
+          "supports": [
+            "shelby-cobra-roadster-427-identity",
+            "7010-cc-v8-group-4-homologation",
+            "homologation-number-220",
+            "homologation-date-1966-01-02"
+          ],
+          "title": "Shelby Cobra Roadster 427 - Homologation 220, Group 4",
+          "url": "https://historicdb.fia.com/car/shelby-cobra-roadster-427"
+        }
+      ],
+      "subtitle": "427 ROADSTER / 1965 TEST CAR",
+      "supporting_specification": {
+        "brakes": "11.6 in vented front discs / 10.75 in vented rear discs",
+        "dimensions_in": {
+          "height": 49.0,
+          "length": 156.0,
+          "wheelbase": 90.0,
+          "width": 68.0
+        },
+        "quarter_mile": "12.2 seconds at 118 mph",
+        "test_vehicle": "1965 Shelby Cobra 427",
+        "transmission": "4-speed manual"
+      },
+      "title": "SHELBY COBRA"
+    }
+  }
+}

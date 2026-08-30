@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "package_id": "shelby-cobra-427-technical-blueprint-v1",
+  "status": "review-only",
+  "subject": "SHELBY COBRA",
+  "paper": {
+    "format": "A3",
+    "orientation": "landscape",
+    "width_mm": 420.0,
+    "height_mm": 297.0
+  },
+  "entrypoints": {
+    "preview_png": "artwork/shelby-cobra-427-technical-blueprint.png",
+    "master_svg": "artwork/shelby-cobra-427-technical-blueprint.svg",
+    "plot_manifest": "artwork/shelby-cobra-427-technical-blueprint.plot.json",
+    "portable_viewer": "simulation/shelby-cobra-427-plotsim.html",
+    "plot_job": "plot/shelby-cobra-427.optimised.plotjob.json",
+    "fact_ledger": "evidence/technical-facts.json",
+    "geometry_source": "evidence/shelby-cobra-native-source.svg",
+    "source_record": "evidence/source-record.json",
+    "vector_provenance": "plot/shelby-cobra-427.vector-provenance.json",
+    "release_checksums": "CHECKSUMS.sha256"
+  },
+  "pen_plan": [
+    {
+      "load": 1,
+      "pen_id": "white-0-3",
+      "ink": "White",
+      "nib_mm": 0.3,
+      "svg_group": "layer-pen-white-0-3",
+      "role": "car geometry"
+    },
+    {
+      "load": 2,
+      "pen_id": "white-0-4",
+      "ink": "White",
+      "nib_mm": 0.4,
+      "svg_group": "layer-pen-white-0-4",
+      "role": "technical copy and rules"
+    },
+    {
+      "load": 3,
+      "pen_id": "white-0-5",
+      "ink": "White",
+      "nib_mm": 0.5,
+      "svg_group": "layer-pen-white-0-5",
+      "role": "title and double border"
+    }
+  ],
+  "motion_software": {
+    "interactive_studio": "../../tools/plotter_studio.py",
+    "studio_launcher": "../../scripts/run_shelby_cobra_studio.sh",
+    "controller": "../../tools/plotter_control.py",
+    "plot_job_engine": "../../tools/plotjob.py",
+    "simulation_engine": "../../tools/plotsim.py",
+    "viewer_builder": "../../tools/build_plotsim_viewer.py",
+    "machine_profile": "../../plotter-profiles/axidraw-class-simulation-v1.json",
+    "operator_documentation": "../../docs/plotter/PLOTTER_SOFTWARE.md"
+  },
+  "integrity": {
+    "master_svg_sha256": "464200f14c563045eb5e671b1ec11f5d86fd9f72ba9041d5fa892ff5abefc8f7",
+    "preview_png_sha256": "1d29b8aab69ecb1ec5ac67e7e5614dfbade391ca78f874c7623019c524ca22d9",
+    "plot_manifest_sha256": "3ed4feb665c6e18f0be2be36173b91a29b98f239aede416443d65d1a94fe652b",
+    "plot_job_file_sha256": "90276d5dc8df0a4a1a68c55e1588cd4c48a6aec88d53fc55524cb861931f0819",
+    "portable_viewer_sha256": "f52903c922139ef8da6751b53df4a210fe1afb71a44ff560f60b2039b98e7769",
+    "fact_ledger_sha256": "827dc10cf255ae7337334d78af5682dd23b0c810b723845904e211222c78f425",
+    "geometry_source_sha256": "e1ee0c5cd24901fd0350409518ff0099b5973128507998240db4a7c20cce43f2",
+    "source_record_sha256": "9923421a2dfcbc00947cc627fc2c3b539a4e509f2b1ee57528049213520f45ce",
+    "vector_provenance_sha256": "8965cacae86506f7fc2154ac11459d134b26b2c48e5ab3913b4be2319f7f1e18",
+    "machine_profile_file_sha256": "fef58255a709e53f454928edea84e2161635d6ff27be29b44f2fe4b87ab4a4ba"
+  },
+  "plot_job": {
+    "schema": "city-map-plotter/plot-job-v1",
+    "job_sha256": "6589d6d7b2c94e68cf5e3c1cd69f3af15e23fb9487c6fb49b9bcdc65397b9a86",
+    "source_sha256": "464200f14c563045eb5e671b1ec11f5d86fd9f72ba9041d5fa892ff5abefc8f7",
+    "order": "optimised",
+    "path_count": 542,
+    "vertex_count": 7924,
+    "pen_load_count": 3,
+    "nominal_seconds": 574.338489,
+    "execution_allowed": false,
+    "blockers": [
+      "unmeasured-pens",
+      "uncalibrated-machine-timing"
+    ]
+  }
+}

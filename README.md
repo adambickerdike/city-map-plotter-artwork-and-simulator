@@ -48,9 +48,29 @@ Run it from any directory after cloning:
 /path/to/city-map-plotter-artwork-and-simulator/scripts/run_seaton_sluice_studio.sh
 ```
 
-The repository now has 448 PNG files and 467 SVG files in total. That includes
-the complete portfolio, all contact sheets, the Augusta simulator example and
-the standalone Seaton master plus its eleven pen-separated SVG jobs.
+## Newest technical blueprint
+
+The Shelby Cobra 427 A3 landscape package is also integrated as first-class
+artwork and simulator input:
+
+- [`software import guide`](artwork/shelby-cobra-427-technical-blueprint-v1/SOFTWARE_IMPORT.md)
+  and [`machine-readable import manifest`](artwork/shelby-cobra-427-technical-blueprint-v1/SOFTWARE_IMPORT.json);
+- [`master SVG`](artwork/shelby-cobra-427-technical-blueprint-v1/artwork/shelby-cobra-427-technical-blueprint.svg)
+  and [`PNG preview`](artwork/shelby-cobra-427-technical-blueprint-v1/artwork/shelby-cobra-427-technical-blueprint.png);
+- [`portable motion viewer`](artwork/shelby-cobra-427-technical-blueprint-v1/simulation/shelby-cobra-427-plotsim.html),
+  SHA-bound plot job, timeline, native-SVG evidence, factual ledger, provenance,
+  pen plan and complete checksum ledger.
+
+Open the Cobra directly in the interactive studio from any directory:
+
+```bash
+/path/to/city-map-plotter-artwork-and-simulator/scripts/run_shelby_cobra_studio.sh
+```
+
+The repository now has 449 PNG files and 469 SVG files in total. That includes
+the complete portfolio, all contact sheets, the Augusta simulator example, the
+standalone Seaton master and pen-separated jobs, and the Cobra master plus its
+pinned native-SVG evidence.
 
 ## Clone the complete files
 
@@ -178,6 +198,11 @@ The source portfolio already records:
 The standalone Seaton package additionally records 3,201 plate checks,
 238 focused renderer/physical/retrace tests and a passing 32-file checksum
 ledger. Its simulation profile remains deliberately non-executable.
+
+The Cobra package records 542 solid vector strokes, 7,924 flattened motion
+vertices, three White pen loads, and a passing package checksum ledger. Its
+included 9:34 timing estimate is nominal and physical execution remains
+deliberately blocked pending exact machine, pen, stock, and timing calibration.
 
 See [`ARTWORK_AND_DATA_NOTICE.md`](ARTWORK_AND_DATA_NOTICE.md) before changing
 repository visibility or redistributing the artwork.
