@@ -1,0 +1,60 @@
+{
+  "artwork": {
+    "format": "a3-landscape",
+    "height_mm": 297.0,
+    "png": "artwork/porsche-911-2-0-targa-technical-blueprint.png",
+    "png_sha256": "70dddd0092a6fa28fc0d79286d3a6eb887a8d632054cb83c1a4cdbb4c4484a77",
+    "plot_manifest": "artwork/porsche-911-2-0-targa-technical-blueprint.plot.json",
+    "plot_manifest_sha256": "35c1c44b6a005563a8c756b9acf0df11291f148094710c2b09f2833c8e6bf11d",
+    "svg": "artwork/porsche-911-2-0-targa-technical-blueprint.svg",
+    "svg_sha256": "9de099879979be90b223a8fe8eb8717f36ec0a76ec4fc03090e054c9fc27491d",
+    "width_mm": 420.0
+  },
+  "evidence": {
+    "fact_ledger": "evidence/technical-facts.json",
+    "fact_ledger_sha256": "44938e86a9f594536e89df73bf71d8aeb20c253fa1499fed3b32ee1b8d04a8f1",
+    "geometry_and_facts_are_independent": true,
+    "geometry_source": "evidence/porsche-911-targa-native-source.svg",
+    "geometry_source_sha256": "d2e22e056553f62dfcd9f7f70cd417f7ac1b0e53ccc508b19c5c08cb370de099",
+    "source_record": "evidence/source-record.json"
+  },
+  "generated_at": "2026-08-30T00:00:00+00:00",
+  "package_id": "porsche-911-2-0-targa-technical-blueprint-v1",
+  "physical_plan": [
+    {
+      "ink": "White",
+      "layer": "layer-pen-white-0-3",
+      "nib_mm": 0.3,
+      "role": "car geometry"
+    },
+    {
+      "ink": "White",
+      "layer": "layer-pen-white-0-4",
+      "nib_mm": 0.4,
+      "role": "technical copy and rules"
+    },
+    {
+      "ink": "White",
+      "layer": "layer-pen-white-0-5",
+      "nib_mm": 0.5,
+      "role": "title and double border"
+    }
+  ],
+  "plot_job": {
+    "execution_allowed": false,
+    "file": "plot/porsche-911-2-0-targa.optimised.plotjob.json",
+    "file_sha256": "2068749f8bc2729d9708a7533ed6b2282af6acaa7399825e5b62ecc3a0a00a1b",
+    "job_sha256": "0a51230d5b80fe5a0ef6e701e1915b6e761517a2b6c85cad4ff0b9db097992ea",
+    "order": "optimised",
+    "profile": "plot/axidraw-class-simulation-v1.json",
+    "reason": "Nominal simulation profile; exact machine, pen, work-coordinate, and timing calibration are still required."
+  },
+  "repository_integration": {
+    "portable_viewer": "simulation/porsche-911-2-0-targa-plotsim.html",
+    "portable_viewer_sha256": "56f4822e1f02b825a4862735d0ed1fb799e3f791d472a51e0915ffd61448bd01",
+    "software_import": "SOFTWARE_IMPORT.json",
+    "studio_launcher": "../../scripts/run_porsche_911_targa_studio.sh"
+  },
+  "schema_version": 1,
+  "visible_plate_copy": "vehicle technical data only"
+}

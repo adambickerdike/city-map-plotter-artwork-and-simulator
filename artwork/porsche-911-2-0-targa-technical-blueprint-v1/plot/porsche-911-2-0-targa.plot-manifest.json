@@ -1,0 +1,815 @@
+{
+  "schema_version": 2,
+  "generator": "city-map-plotter 0.2.0",
+  "generated_at": "2026-08-30T00:00:00+00:00",
+  "artifact_kind": "native-svg-car-technical-blueprint",
+  "artifact_id": "car-native-035-porsche-911-targa",
+  "subject_id": "car-native-035-porsche-911-targa",
+  "variant_id": null,
+  "data_snapshot": "2026-08-30",
+  "domain": "native-svg-car-blueprints",
+  "subject_kind": "car",
+  "title": "PORSCHE 911 TARGA",
+  "subtitle": "911 2.0 TARGA / 1967",
+  "details": [
+    "MODEL YEAR 1967 / 911 2.0 TARGA",
+    "REMOVABLE ROOF / FIXED ROLL BAR",
+    "AIR-COOLED FLAT-SIX / REAR ENGINE"
+  ],
+  "source": {
+    "provider": "separate geometry and factual sources; see sources",
+    "license": "Public domain",
+    "attribution": "CREATOR / Marseille77 | LICENCE / PUBLIC DOMAIN",
+    "timestamp": "2026-08-30"
+  },
+  "sources": [
+    {
+      "id": "car-native-035-porsche-911-targa-native-svg",
+      "kind": "published-native-svg-original",
+      "publisher": "Wikimedia Commons",
+      "title": "Porsche 911 Targa / profile drawing",
+      "url": "https://commons.wikimedia.org/wiki/File:Porsche_911_targa_profile.svg",
+      "revision_url": "https://commons.wikimedia.org/wiki/File:Porsche_911_targa_profile.svg?oldid=1038292648",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Porsche_911_targa_profile.svg",
+      "asset_path": "tools/engineering_source_plates/research_v5/cars/sources/commons/Porsche 911 targa profile.svg",
+      "asset_sha256": "d2e22e056553f62dfcd9f7f70cd417f7ac1b0e53ccc508b19c5c08cb370de099",
+      "author": "Marseille77",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "method": "Exact retained original SVG; vector-only physical replay."
+    },
+    {
+      "accessed": "2026-08-30",
+      "id": "porsche-museum-911-2-0-targa",
+      "kind": "manufacturer-museum-data-sheet",
+      "publisher": "Porsche Museum / Dr. Ing. h.c. F. Porsche AG",
+      "supports": [
+        "model-year",
+        "engine",
+        "displacement",
+        "power",
+        "weight",
+        "acceleration-0-100-km-h",
+        "top-speed"
+      ],
+      "title": "Porsche 911 2.0 Targa",
+      "url": "https://newsroom.porsche.com/dam/jcr:a76c5e2e-815a-4aba-940b-9bfac8ca7120/Datenblatt%20Porsche%20911%202.0%20Targa.pdf",
+      "method": "Fact reference only; this source does not authorize geometry."
+    },
+    {
+      "accessed": "2026-08-30",
+      "id": "porsche-911-targa-history",
+      "kind": "manufacturer-history",
+      "publisher": "Dr. Ing. h.c. F. Porsche AG",
+      "supports": [
+        "targa-introduction",
+        "removable-roof",
+        "fixed-roll-bar",
+        "fold-down-rear-window"
+      ],
+      "title": "History of the Porsche Targa",
+      "url": "https://newsroom.porsche.com/en/2020/products/porsche-911-targa-generations-history-21010.html",
+      "method": "Fact reference only; this source does not authorize geometry."
+    }
+  ],
+  "evidence": {
+    "scale_status": "source-arrangement-not-to-scale",
+    "evidence_status": "hash-pinned-native-svg-plus-source-bound-facts",
+    "notes": [
+      "side profile only; exact production variant not claimed",
+      "Native SVG model-family profile; no manufacturer geometry or endorsement claim.",
+      "Declared SVG dash presentation is normalized to a solid stroke along the existing native path.",
+      "No separate paths are bridged and no missing contours or views are inferred.",
+      "The plotted side-profile geometry is the separately hash-pinned native SVG identified by its publisher as a 1967 Porsche 911 Targa. The printed numerical values reproduce Porsche Museum's 911 2.0 Targa data sheet; the source artwork remains an illustrative profile, not a measured manufacturer drawing.",
+      "Factual and geometry sources are independent and separately bound.",
+      "Process, creator, source, licence, view, and pen labels are absent from visible plate copy.",
+      "Blueprint blue is the dark paper preview; every plotted motor path uses White ink.",
+      "Review output only; source licence, attribution, rights review, and physical pen proof remain binding."
+    ]
+  },
+  "rights": {
+    "status": "review-required",
+    "no_endorsement": true,
+    "logos_or_trade_dress_used": false,
+    "broadcast_frames_traced": false
+  },
+  "page": {
+    "paper": "A3",
+    "orientation": "landscape",
+    "width_mm": 420.0,
+    "height_mm": 297.0,
+    "margin_mm": 12.0,
+    "map_bounds_mm": {
+      "x": 24.0,
+      "y": 24.0,
+      "width": 267.42,
+      "height": 249.0
+    },
+    "zones_mm": {
+      "map_field": {
+        "x": 24.0,
+        "y": 24.0,
+        "width": 267.42,
+        "height": 249.0
+      },
+      "title": {
+        "x": 297.42,
+        "y": 24.0,
+        "width": 98.58,
+        "height": 25.286
+      },
+      "subtitle": {
+        "x": 297.42,
+        "y": 55.286,
+        "width": 98.58,
+        "height": 9.076
+      },
+      "detail": {
+        "x": 297.42,
+        "y": 70.362,
+        "width": 98.58,
+        "height": 31.152
+      },
+      "furniture": {
+        "x": 297.42,
+        "y": 107.514,
+        "width": 98.58,
+        "height": 10.891
+      },
+      "attribution": {
+        "x": 297.42,
+        "y": 264.964,
+        "width": 98.58,
+        "height": 8.036
+      },
+      "technical_field": {
+        "x": 30.0,
+        "y": 30.0,
+        "width": 255.42,
+        "height": 237.0
+      },
+      "technical_top": {
+        "x": 30.0,
+        "y": 30.0,
+        "width": 255.42,
+        "height": 115.5
+      },
+      "technical_bottom_left": {
+        "x": 30.0,
+        "y": 151.5,
+        "width": 124.71,
+        "height": 115.5
+      },
+      "technical_bottom_right": {
+        "x": 160.71,
+        "y": 151.5,
+        "width": 124.71,
+        "height": 115.5
+      },
+      "technical_left": {
+        "x": 30.0,
+        "y": 30.0,
+        "width": 124.71,
+        "height": 237.0
+      },
+      "technical_right_top": {
+        "x": 160.71,
+        "y": 30.0,
+        "width": 124.71,
+        "height": 115.5
+      },
+      "technical_right_bottom": {
+        "x": 160.71,
+        "y": 151.5,
+        "width": 124.71,
+        "height": 115.5
+      }
+    },
+    "format_id": "a3-landscape",
+    "title_line_layout": {
+      "maximum_lines": 2,
+      "nib_mm": 1.0,
+      "horizontal_ink_inset_mm": 0.5,
+      "min_ink_clearance_nib_multiple": 1.0,
+      "min_ink_clearance_mm": 1.0,
+      "min_path_bounds_gap_mm": 2.0
+    }
+  },
+  "rendering": {
+    "preset": "native-svg-car-technical-blueprint-v2",
+    "pen_profile": "white-blueprint-pens",
+    "pen_inventory": {
+      "schema_version": 1,
+      "id": "white-blueprint-pens",
+      "label": "Nominal White paint-pen blueprint set: 0.30/0.40/0.50 mm",
+      "pens": [
+        {
+          "ink": "White",
+          "nominal_nib_mm": 0.3,
+          "id": "white-0-3",
+          "calibration_state": "nominal-unmeasured",
+          "preview_color": "#f7f6ee"
+        },
+        {
+          "ink": "White",
+          "nominal_nib_mm": 0.4,
+          "id": "white-0-4",
+          "calibration_state": "nominal-unmeasured",
+          "preview_color": "#f7f6ee"
+        },
+        {
+          "ink": "White",
+          "nominal_nib_mm": 0.5,
+          "id": "white-0-5",
+          "calibration_state": "nominal-unmeasured",
+          "preview_color": "#f7f6ee"
+        }
+      ]
+    },
+    "allowed_nominal_nibs_mm": [
+      0.25,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      1.0
+    ],
+    "subject_policy": "native-svg-car-blueprint-a3",
+    "geometry_is_clipped": true,
+    "document_layer_order": "physical-pen-contiguous",
+    "empty_layers_omitted_from_svg": true,
+    "visible_attribution": false,
+    "scale_bar": false,
+    "north_mark": false,
+    "stock_tone": "dark",
+    "source_policy": "native-svg-originals-only-v5",
+    "source_lock_sha256": "88ded8a44da9d8f16ecb4c0dc4afc2c6a873cf545dcff6197a15625e345d9103",
+    "normalisation": {
+      "schema_version": 1,
+      "pipeline_version": 4,
+      "kind": "native-svg-vector-normalisation",
+      "subject_id": "car-native-035-porsche-911-targa",
+      "source_path": "tools/engineering_source_plates/research_v5/cars/sources/commons/Porsche 911 targa profile.svg",
+      "source_sha256": "d2e22e056553f62dfcd9f7f70cd417f7ac1b0e53ccc508b19c5c08cb370de099",
+      "source_class": "class-a-native-svg",
+      "source_native_svg_audit": {
+        "path": "/home/adam/Projects/city-map-plotter/tools/engineering_source_plates/research_v5/cars/sources/commons/Porsche 911 targa profile.svg",
+        "sha256": "d2e22e056553f62dfcd9f7f70cd417f7ac1b0e53ccc508b19c5c08cb370de099",
+        "passed": true,
+        "classification": "raster-free-svg-structure",
+        "geometry_element_count": 82,
+        "path_command_count": 278,
+        "element_counts": {
+          "RDF": 1,
+          "Work": 1,
+          "defs": 1,
+          "format": 1,
+          "g": 5,
+          "linearGradient": 30,
+          "metadata": 1,
+          "namedview": 1,
+          "path": 82,
+          "perspective": 61,
+          "radialGradient": 11,
+          "stop": 26,
+          "svg": 1,
+          "title": 1,
+          "type": 1
+        },
+        "data_url_locations": [],
+        "external_references": [],
+        "trace_origin_markers": [],
+        "failures": []
+      },
+      "cleaning": {
+        "removed_element_counts": {
+          "paint-server-reference-flattened": 27,
+          "presentation-opacity-flattened": 2,
+          "presentation-paint-server": 41,
+          "source-copy-or-metadata": 1
+        },
+        "cleaned_svg_sha256": "7248ef1a1bbbe3ee38135b0bf23bfde94e96e5358e5c235fb0ef0e5f8a0448db"
+      },
+      "vector_stages": [
+        "native-svg-original",
+        "source-copy-paper-mask-and-presentation-paint-normalisation",
+        "source-dash-style-normalised-to-solid",
+        "inkscape-vector-pdf",
+        "pdfimages-zero-raster-proof",
+        "pdftocairo-absolute-vector-svg",
+        "cairo-zero-image-proof-and-vector-use-materialisation",
+        "canonical-line-cubic-path-import"
+      ],
+      "raster_stages": [],
+      "raster_conversion_used": false,
+      "embedded_pdf_image_count": 0,
+      "embedded_cairo_svg_image_count": 0,
+      "vector_pdf_sha256": "e7678120598fb3213cea82c2f66c3540012ecdc0506ccdbeb8e1b49c5d933b81",
+      "canonical_svg_sha256": "9cf1e36281ba84db7f37bd962d98c921e84a15bb5e7f43c3071cff257062ebb3",
+      "move_only_commands_removed": 49,
+      "cairo_vector_sanitization": {
+        "source_use_element_count": 0,
+        "source_embedded_image_count": 0,
+        "expanded_vector_use_count": 0,
+        "discarded_non_vector_use_count": 0,
+        "discarded_presentation_image_count": 0,
+        "empty_subpath_count": 49,
+        "degenerate_segment_count": 0,
+        "canonical_path_element_count": 85
+      },
+      "canonical_source_path_count": 85,
+      "tool_versions": {
+        "inkscape": "Inkscape 1.4.4 (dcaf3e7d9e, 2026-05-05)",
+        "pdftocairo": "pdftocairo version 26.07.0",
+        "pdfimages": "pdfimages version 26.07.0"
+      },
+      "claim_scope": "Published native SVG visible vector geometry replayed without bitmap tracing, inferred contours, or hand-drawn object geometry.",
+      "blueprint_collection_id": "native-svg-car-white-blueprints-v1",
+      "format_id": "a3-landscape",
+      "format_spec_authority": "docs/format/format-v1.json",
+      "drawing_zone": "technical_field",
+      "source_line_style_policy": "declared-dashes-normalized-solid",
+      "physical_pen_id": "white-0-3",
+      "physical_nib_mm": 0.3,
+      "physical_three_nib_floor_mm": 0.8999999999999999,
+      "physical_gate_safety_mm": 0.01,
+      "minimum_emitted_path_length_mm": 0.9099999999999999,
+      "emitted_path_count": 85,
+      "omitted_sub_pen_path_count": 0,
+      "visible_content_kind": "source-bound-vehicle-technical-data",
+      "technical_facts_path": "tools/engineering_source_plates/car_technical_facts_v1.json",
+      "technical_facts_sha256": "44938e86a9f594536e89df73bf71d8aeb20c253fa1499fed3b32ee1b8d04a8f1"
+    },
+    "release_state": "review-only-rights-and-physical-proof-required",
+    "visible_copy_kind": "vehicle-technical-data",
+    "technical_facts": {
+      "fact_set_id": "native-svg-car-technical-facts-v1",
+      "fact_set_path": "tools/engineering_source_plates/car_technical_facts_v1.json",
+      "fact_set_sha256": "44938e86a9f594536e89df73bf71d8aeb20c253fa1499fed3b32ee1b8d04a8f1",
+      "research_as_of": "2026-08-30",
+      "claim_scope": "The plotted side-profile geometry is the separately hash-pinned native SVG identified by its publisher as a 1967 Porsche 911 Targa. The printed numerical values reproduce Porsche Museum's 911 2.0 Targa data sheet; the source artwork remains an illustrative profile, not a measured manufacturer drawing.",
+      "fact_cards": [
+        {
+          "fact_id": "engine",
+          "label": "ENGINE",
+          "source_ids": [
+            "porsche-museum-911-2-0-targa"
+          ],
+          "value_lines": [
+            "6-CYL BOXER",
+            "AIR-COOLED / REAR"
+          ]
+        },
+        {
+          "fact_id": "displacement",
+          "label": "DISPLACEMENT",
+          "source_ids": [
+            "porsche-museum-911-2-0-targa"
+          ],
+          "value_lines": [
+            "1991 CC / 2.0 L"
+          ]
+        },
+        {
+          "fact_id": "power",
+          "label": "POWER",
+          "source_ids": [
+            "porsche-museum-911-2-0-targa"
+          ],
+          "value_lines": [
+            "96 KW / 130 PS",
+            "129 HP"
+          ]
+        },
+        {
+          "fact_id": "weight",
+          "label": "WEIGHT",
+          "source_ids": [
+            "porsche-museum-911-2-0-targa"
+          ],
+          "value_lines": [
+            "1080 KG / 2381 LB"
+          ]
+        },
+        {
+          "fact_id": "acceleration",
+          "label": "0-100 KM/H",
+          "source_ids": [
+            "porsche-museum-911-2-0-targa"
+          ],
+          "value_lines": [
+            "9.1 SECONDS"
+          ]
+        },
+        {
+          "fact_id": "top-speed",
+          "label": "TOP SPEED",
+          "source_ids": [
+            "porsche-museum-911-2-0-targa"
+          ],
+          "value_lines": [
+            "210 KM/H / 130 MPH"
+          ]
+        }
+      ],
+      "supporting_specification": {
+        "body": "Soft-window Targa with removable roof panel and fixed roll bar",
+        "engine_layout": "rear-mounted air-cooled six-cylinder boxer",
+        "test_vehicle": "1967 Porsche 911 2.0 Targa"
+      },
+      "derived_conversions": [
+        {
+          "display": "129 HP",
+          "formula": "96 kW x 1.34102209 hp/kW = 128.74 hp; rounded to nearest horsepower",
+          "source_fact_id": "power"
+        },
+        {
+          "display": "2381 LB",
+          "formula": "1080 kg x 2.20462262 lb/kg = 2380.99 lb; rounded to nearest pound",
+          "source_fact_id": "weight"
+        },
+        {
+          "display": "130 MPH",
+          "formula": "210 km/h / 1.609344 km/mile = 130.49 mph; rounded to nearest mile per hour",
+          "source_fact_id": "top-speed"
+        }
+      ],
+      "visible_process_copy_removed": true,
+      "visible_provenance_copy_removed": true
+    },
+    "line_style": "solid",
+    "physical_ink_count": 1,
+    "physical_inks": [
+      "White"
+    ],
+    "blueprint_pens": [
+      {
+        "pen_id": "white-0-3",
+        "role": "car geometry",
+        "nib_mm": 0.3
+      },
+      {
+        "pen_id": "white-0-4",
+        "role": "copy and rules",
+        "nib_mm": 0.4
+      },
+      {
+        "pen_id": "white-0-5",
+        "role": "title and border",
+        "nib_mm": 0.5
+      }
+    ],
+    "paper_substrate": "blue",
+    "paper_preview_color": "#0b3558",
+    "preview_background_is_not_plot_geometry": true,
+    "blueprint_title_line_layout": {
+      "title_nib_mm": 0.5,
+      "minimum_cap_height_mm": 8.0,
+      "minimum_path_bounds_gap_mm": 1.0,
+      "minimum_clear_paper_mm": 0.5
+    }
+  },
+  "layers": [
+    {
+      "id": "pen_white_0_3",
+      "logical_layers": [
+        "native_source_linework"
+      ],
+      "label": "Solid native SVG car linework",
+      "pen": "White 0.3",
+      "ink": "White",
+      "nib_mm": 0.3,
+      "nominal_nib_mm": 0.3,
+      "strokes": 1,
+      "passes": 1,
+      "plotted_width_mm": 0.3,
+      "requested_width_mm": 0.3,
+      "width_fit_error_mm": 0.0,
+      "offset_pitch_mm": 0.0,
+      "width_fit_mode": "single-nib",
+      "preview_color": "#f7f6ee",
+      "preview_stroke_width_mm": 0.3,
+      "path_count": 85,
+      "pen_down_distance_mm": 4010.6,
+      "emitted": true,
+      "svg_group_id": "layer-pen-white-0-3",
+      "svg_layer_label": "01 — Solid native SVG car linework — White 0.3",
+      "pen_profile": "white-blueprint-pens",
+      "pen_id": "white-0-3",
+      "calibration_state": "nominal-unmeasured",
+      "calibration_substrate": null,
+      "pen_step": 1
+    },
+    {
+      "id": "pen_white_0_4",
+      "logical_layers": [
+        "blueprint_copy"
+      ],
+      "label": "Blueprint copy and rules",
+      "pen": "White 0.4",
+      "ink": "White",
+      "nib_mm": 0.4,
+      "nominal_nib_mm": 0.4,
+      "strokes": 1,
+      "passes": 1,
+      "plotted_width_mm": 0.4,
+      "requested_width_mm": 0.4,
+      "width_fit_error_mm": 0.0,
+      "offset_pitch_mm": 0.0,
+      "width_fit_mode": "single-nib",
+      "preview_color": "#f7f6ee",
+      "preview_stroke_width_mm": 0.4,
+      "path_count": 366,
+      "pen_down_distance_mm": 4042.8,
+      "emitted": true,
+      "svg_group_id": "layer-pen-white-0-4",
+      "svg_layer_label": "02 — Blueprint copy and rules — White 0.4",
+      "pen_profile": "white-blueprint-pens",
+      "pen_id": "white-0-4",
+      "calibration_state": "nominal-unmeasured",
+      "calibration_substrate": null,
+      "pen_step": 2
+    },
+    {
+      "id": "pen_white_0_5",
+      "logical_layers": [
+        "blueprint_frame"
+      ],
+      "label": "Blueprint title and frame",
+      "pen": "White 0.5",
+      "ink": "White",
+      "nib_mm": 0.5,
+      "nominal_nib_mm": 0.5,
+      "strokes": 1,
+      "passes": 1,
+      "plotted_width_mm": 0.5,
+      "requested_width_mm": 0.5,
+      "width_fit_error_mm": 0.0,
+      "offset_pitch_mm": 0.0,
+      "width_fit_mode": "single-nib",
+      "preview_color": "#f7f6ee",
+      "preview_stroke_width_mm": 0.5,
+      "path_count": 27,
+      "pen_down_distance_mm": 3132.6,
+      "emitted": true,
+      "svg_group_id": "layer-pen-white-0-5",
+      "svg_layer_label": "03 — Blueprint title and frame — White 0.5",
+      "pen_profile": "white-blueprint-pens",
+      "pen_id": "white-0-5",
+      "calibration_state": "nominal-unmeasured",
+      "calibration_substrate": null,
+      "pen_step": 3
+    }
+  ],
+  "pen_sequence": [
+    {
+      "step": 1,
+      "pen": "White 0.3",
+      "pen_id": "white-0-3",
+      "pen_profile": "white-blueprint-pens",
+      "ink": "White",
+      "nib_mm": 0.3,
+      "nominal_nib_mm": 0.3,
+      "calibration_state": "nominal-unmeasured",
+      "calibration_substrate": null,
+      "preview_color": "#f7f6ee",
+      "layers": [
+        "native_source_linework"
+      ],
+      "path_count": 85,
+      "pen_down_distance_mm": 4010.6,
+      "pen_up_travel_mm": 3256.4,
+      "strokes": 1,
+      "passes": 1,
+      "plotted_width_mm": 0.3,
+      "minimum_plot_seconds": 114.6,
+      "estimated_plot_seconds_including_pen_up": 155.3,
+      "instruction": "Load White 0.3 (white-0-3) and plot SVG layer 01.",
+      "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+    },
+    {
+      "step": 2,
+      "pen": "White 0.4",
+      "pen_id": "white-0-4",
+      "pen_profile": "white-blueprint-pens",
+      "ink": "White",
+      "nib_mm": 0.4,
+      "nominal_nib_mm": 0.4,
+      "calibration_state": "nominal-unmeasured",
+      "calibration_substrate": null,
+      "preview_color": "#f7f6ee",
+      "layers": [
+        "blueprint_copy"
+      ],
+      "path_count": 366,
+      "pen_down_distance_mm": 4042.8,
+      "pen_up_travel_mm": 2997.7,
+      "strokes": 1,
+      "passes": 1,
+      "plotted_width_mm": 0.4,
+      "minimum_plot_seconds": 115.5,
+      "estimated_plot_seconds_including_pen_up": 153.0,
+      "instruction": "Load White 0.4 (white-0-4) and plot SVG layer 02.",
+      "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+    },
+    {
+      "step": 3,
+      "pen": "White 0.5",
+      "pen_id": "white-0-5",
+      "pen_profile": "white-blueprint-pens",
+      "ink": "White",
+      "nib_mm": 0.5,
+      "nominal_nib_mm": 0.5,
+      "calibration_state": "nominal-unmeasured",
+      "calibration_substrate": null,
+      "preview_color": "#f7f6ee",
+      "layers": [
+        "blueprint_frame"
+      ],
+      "path_count": 27,
+      "pen_down_distance_mm": 3132.6,
+      "pen_up_travel_mm": 1006.7,
+      "strokes": 1,
+      "passes": 1,
+      "plotted_width_mm": 0.5,
+      "minimum_plot_seconds": 89.5,
+      "estimated_plot_seconds_including_pen_up": 102.1,
+      "instruction": "Load White 0.5 (white-0-5) and plot SVG layer 03.",
+      "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+    }
+  ],
+  "production_readiness": {
+    "production_ready": false,
+    "mode": "review-only",
+    "selected_pen_ids": [
+      "white-0-3",
+      "white-0-4",
+      "white-0-5"
+    ],
+    "uncalibrated_pen_ids": [
+      "white-0-3",
+      "white-0-4",
+      "white-0-5"
+    ],
+    "blocking_reasons": [
+      "nominal pen widths are not calibrated to one exact paper stock and speed",
+      "commercial rights/clearance review is incomplete"
+    ]
+  },
+  "plot_summary": {
+    "physical_pen_steps": 3,
+    "pen_changes": 2,
+    "pen_down_path_count": 478,
+    "pen_down_distance_mm": 11186.0,
+    "pen_up_travel_mm": 7260.8,
+    "travel_ratio": 0.649,
+    "estimated_plot_seconds_including_pen_up": 410.4,
+    "field_ink_mm2_upper_bound": 4386.6,
+    "field_ink_coverage_upper_bound": 0.065877,
+    "field_ink_budget": 0.28
+  },
+  "warnings": [
+    "REVIEW OUTPUT ONLY — the built-in pen inventory contains nominal, unmeasured widths; calibrate the exact pens, stock, and speed before plotting.",
+    "RIGHTS REVIEW REQUIRED — the plate is a product-development example, not a representation of league, team, athlete, agency, or trail endorsement."
+  ],
+  "catalog_record": {
+    "author": "Marseille77",
+    "catalogue_status": "conditional",
+    "collection": "Cars",
+    "download_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Porsche_911_targa_profile.svg",
+    "id": "car-native-035-porsche-911-targa",
+    "license": "Public domain",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "plate_license": "Public domain",
+    "plate_license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "raster_origin_rejected": true,
+    "repository_source_path": "tools/engineering_source_plates/research_v5/cars/sources/commons/Porsche 911 targa profile.svg",
+    "source_acquired_at": "2026-08-15",
+    "source_bytes": 66748,
+    "source_class": "class-a-native-svg",
+    "source_filename": "Porsche 911 targa profile.svg",
+    "source_label": "Published downloadable native SVG source geometry",
+    "source_origin_note": "Native SVG model-family profile; no manufacturer geometry or endorsement claim.",
+    "source_page_revision_id": 1038292648,
+    "source_page_revision_url": "https://commons.wikimedia.org/wiki/File:Porsche_911_targa_profile.svg?oldid=1038292648",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Porsche_911_targa_profile.svg",
+    "source_sha1": "ed15d28a6fe194236bb38559d140186cf273f6fd",
+    "source_sha256": "d2e22e056553f62dfcd9f7f70cd417f7ac1b0e53ccc508b19c5c08cb370de099",
+    "subtitle": "Published native profile source replay / not to scale",
+    "title": "Porsche 911 Targa / profile drawing",
+    "view_note": "side profile only; exact production variant not claimed",
+    "kind": "native-svg-source-bound-technical-blueprint-review",
+    "source_lock_sha256": "88ded8a44da9d8f16ecb4c0dc4afc2c6a873cf545dcff6197a15625e345d9103",
+    "technical_facts": {
+      "fact_set_id": "native-svg-car-technical-facts-v1",
+      "fact_set_path": "tools/engineering_source_plates/car_technical_facts_v1.json",
+      "fact_set_sha256": "44938e86a9f594536e89df73bf71d8aeb20c253fa1499fed3b32ee1b8d04a8f1",
+      "research_as_of": "2026-08-30",
+      "claim_scope": "The plotted side-profile geometry is the separately hash-pinned native SVG identified by its publisher as a 1967 Porsche 911 Targa. The printed numerical values reproduce Porsche Museum's 911 2.0 Targa data sheet; the source artwork remains an illustrative profile, not a measured manufacturer drawing.",
+      "fact_cards": [
+        {
+          "fact_id": "engine",
+          "label": "ENGINE",
+          "source_ids": [
+            "porsche-museum-911-2-0-targa"
+          ],
+          "value_lines": [
+            "6-CYL BOXER",
+            "AIR-COOLED / REAR"
+          ]
+        },
+        {
+          "fact_id": "displacement",
+          "label": "DISPLACEMENT",
+          "source_ids": [
+            "porsche-museum-911-2-0-targa"
+          ],
+          "value_lines": [
+            "1991 CC / 2.0 L"
+          ]
+        },
+        {
+          "fact_id": "power",
+          "label": "POWER",
+          "source_ids": [
+            "porsche-museum-911-2-0-targa"
+          ],
+          "value_lines": [
+            "96 KW / 130 PS",
+            "129 HP"
+          ]
+        },
+        {
+          "fact_id": "weight",
+          "label": "WEIGHT",
+          "source_ids": [
+            "porsche-museum-911-2-0-targa"
+          ],
+          "value_lines": [
+            "1080 KG / 2381 LB"
+          ]
+        },
+        {
+          "fact_id": "acceleration",
+          "label": "0-100 KM/H",
+          "source_ids": [
+            "porsche-museum-911-2-0-targa"
+          ],
+          "value_lines": [
+            "9.1 SECONDS"
+          ]
+        },
+        {
+          "fact_id": "top-speed",
+          "label": "TOP SPEED",
+          "source_ids": [
+            "porsche-museum-911-2-0-targa"
+          ],
+          "value_lines": [
+            "210 KM/H / 130 MPH"
+          ]
+        }
+      ],
+      "supporting_specification": {
+        "body": "Soft-window Targa with removable roof panel and fixed roll bar",
+        "engine_layout": "rear-mounted air-cooled six-cylinder boxer",
+        "test_vehicle": "1967 Porsche 911 2.0 Targa"
+      },
+      "derived_conversions": [
+        {
+          "display": "129 HP",
+          "formula": "96 kW x 1.34102209 hp/kW = 128.74 hp; rounded to nearest horsepower",
+          "source_fact_id": "power"
+        },
+        {
+          "display": "2381 LB",
+          "formula": "1080 kg x 2.20462262 lb/kg = 2380.99 lb; rounded to nearest pound",
+          "source_fact_id": "weight"
+        },
+        {
+          "display": "130 MPH",
+          "formula": "210 km/h / 1.609344 km/mile = 130.49 mph; rounded to nearest mile per hour",
+          "source_fact_id": "top-speed"
+        }
+      ],
+      "visible_process_copy_removed": true,
+      "visible_provenance_copy_removed": true
+    }
+  },
+  "outputs": {
+    "svg": {
+      "path": "/home/adam/Projects/city-map-plotter/review-output/technical-objects/porsche-911-targa-technical-blueprint-v1/cars/car-native-035-porsche-911-targa.svg",
+      "sha256": "9de099879979be90b223a8fe8eb8717f36ec0a76ec4fc03090e054c9fc27491d"
+    },
+    "manifest": {
+      "path": "/home/adam/Projects/city-map-plotter/review-output/technical-objects/porsche-911-targa-technical-blueprint-v1/cars/car-native-035-porsche-911-targa.plot.json"
+    },
+    "pen_files": [],
+    "png": {
+      "path": "/home/adam/Projects/city-map-plotter/review-output/technical-objects/porsche-911-targa-technical-blueprint-v1/cars/car-native-035-porsche-911-targa.png",
+      "dpi": 160.0,
+      "sha256": "70dddd0092a6fa28fc0d79286d3a6eb887a8d632054cb83c1a4cdbb4c4484a77"
+    }
+  }
+}

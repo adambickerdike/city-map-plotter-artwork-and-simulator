@@ -48,7 +48,7 @@ Run it from any directory after cloning:
 /path/to/city-map-plotter-artwork-and-simulator/scripts/run_seaton_sluice_studio.sh
 ```
 
-## Newest technical blueprint
+## Technical blueprints
 
 The Shelby Cobra 427 A3 landscape package is also integrated as first-class
 artwork and simulator input:
@@ -67,10 +67,28 @@ Open the Cobra directly in the interactive studio from any directory:
 /path/to/city-map-plotter-artwork-and-simulator/scripts/run_shelby_cobra_studio.sh
 ```
 
-The repository now has 449 PNG files and 469 SVG files in total. That includes
+The matching Porsche 911 2.0 Targa (1967) plate uses the same A3, White-pen,
+technical-data composition. Its vehicle geometry is a pinned native SVG and
+every emitted stroke is solid:
+
+- [`software import guide`](artwork/porsche-911-2-0-targa-technical-blueprint-v1/SOFTWARE_IMPORT.md)
+  and [`machine-readable import manifest`](artwork/porsche-911-2-0-targa-technical-blueprint-v1/SOFTWARE_IMPORT.json);
+- [`master SVG`](artwork/porsche-911-2-0-targa-technical-blueprint-v1/artwork/porsche-911-2-0-targa-technical-blueprint.svg)
+  and [`PNG preview`](artwork/porsche-911-2-0-targa-technical-blueprint-v1/artwork/porsche-911-2-0-targa-technical-blueprint.png);
+- [`portable motion viewer`](artwork/porsche-911-2-0-targa-technical-blueprint-v1/simulation/porsche-911-2-0-targa-plotsim.html),
+  SHA-bound plot job, timeline, original native SVG, Porsche Museum factual
+  ledger, normalization evidence, pen plan and checksum ledger.
+
+Open the Porsche directly in the interactive studio from any directory:
+
+```bash
+/path/to/city-map-plotter-artwork-and-simulator/scripts/run_porsche_911_targa_studio.sh
+```
+
+The repository now has 450 PNG files and 471 SVG files in total. That includes
 the complete portfolio, all contact sheets, the Augusta simulator example, the
-standalone Seaton master and pen-separated jobs, and the Cobra master plus its
-pinned native-SVG evidence.
+standalone Seaton master and pen-separated jobs, and both technical-blueprint
+masters with their pinned native-SVG evidence.
 
 ## Clone the complete files
 
@@ -203,6 +221,11 @@ The Cobra package records 542 solid vector strokes, 7,924 flattened motion
 vertices, three White pen loads, and a passing package checksum ledger. Its
 included 9:34 timing estimate is nominal and physical execution remains
 deliberately blocked pending exact machine, pen, stock, and timing calibration.
+
+The Porsche package records 478 solid vector strokes, 4,251 flattened motion
+vertices, three White pen loads, and a passing package checksum ledger. Its
+8:15 estimate is likewise nominal and its physical execution remains blocked
+until the exact machine, pens, stock, and timing have been calibrated.
 
 See [`ARTWORK_AND_DATA_NOTICE.md`](ARTWORK_AND_DATA_NOTICE.md) before changing
 repository visibility or redistributing the artwork.

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "package_id": "porsche-911-2-0-targa-technical-blueprint-v1",
+  "status": "review-only",
+  "subject": "PORSCHE 911 TARGA",
+  "paper": {
+    "format": "A3",
+    "orientation": "landscape",
+    "width_mm": 420.0,
+    "height_mm": 297.0
+  },
+  "entrypoints": {
+    "preview_png": "artwork/porsche-911-2-0-targa-technical-blueprint.png",
+    "master_svg": "artwork/porsche-911-2-0-targa-technical-blueprint.svg",
+    "plot_manifest": "artwork/porsche-911-2-0-targa-technical-blueprint.plot.json",
+    "portable_viewer": "simulation/porsche-911-2-0-targa-plotsim.html",
+    "plot_job": "plot/porsche-911-2-0-targa.optimised.plotjob.json",
+    "fact_ledger": "evidence/technical-facts.json",
+    "geometry_source": "evidence/porsche-911-targa-native-source.svg",
+    "source_record": "evidence/source-record.json",
+    "vector_provenance": "plot/porsche-911-2-0-targa.vector-provenance.json",
+    "release_checksums": "CHECKSUMS.sha256"
+  },
+  "pen_plan": [
+    {
+      "load": 1,
+      "pen_id": "white-0-3",
+      "ink": "White",
+      "nib_mm": 0.3,
+      "svg_group": "layer-pen-white-0-3",
+      "role": "car geometry"
+    },
+    {
+      "load": 2,
+      "pen_id": "white-0-4",
+      "ink": "White",
+      "nib_mm": 0.4,
+      "svg_group": "layer-pen-white-0-4",
+      "role": "technical copy and rules"
+    },
+    {
+      "load": 3,
+      "pen_id": "white-0-5",
+      "ink": "White",
+      "nib_mm": 0.5,
+      "svg_group": "layer-pen-white-0-5",
+      "role": "title and double border"
+    }
+  ],
+  "motion_software": {
+    "interactive_studio": "../../tools/plotter_studio.py",
+    "studio_launcher": "../../scripts/run_porsche_911_targa_studio.sh",
+    "controller": "../../tools/plotter_control.py",
+    "plot_job_engine": "../../tools/plotjob.py",
+    "simulation_engine": "../../tools/plotsim.py",
+    "viewer_builder": "../../tools/build_plotsim_viewer.py",
+    "machine_profile": "../../plotter-profiles/axidraw-class-simulation-v1.json",
+    "operator_documentation": "../../docs/plotter/PLOTTER_SOFTWARE.md"
+  },
+  "integrity": {
+    "master_svg_sha256": "9de099879979be90b223a8fe8eb8717f36ec0a76ec4fc03090e054c9fc27491d",
+    "preview_png_sha256": "70dddd0092a6fa28fc0d79286d3a6eb887a8d632054cb83c1a4cdbb4c4484a77",
+    "plot_manifest_sha256": "35c1c44b6a005563a8c756b9acf0df11291f148094710c2b09f2833c8e6bf11d",
+    "plot_job_file_sha256": "2068749f8bc2729d9708a7533ed6b2282af6acaa7399825e5b62ecc3a0a00a1b",
+    "portable_viewer_sha256": "56f4822e1f02b825a4862735d0ed1fb799e3f791d472a51e0915ffd61448bd01",
+    "fact_ledger_sha256": "44938e86a9f594536e89df73bf71d8aeb20c253fa1499fed3b32ee1b8d04a8f1",
+    "geometry_source_sha256": "d2e22e056553f62dfcd9f7f70cd417f7ac1b0e53ccc508b19c5c08cb370de099",
+    "source_record_sha256": "9d42af3839510ee3ddf9432ef834b4397d97d0134fe0eabc17474421acaa6b6b",
+    "vector_provenance_sha256": "52c5b960365c2c5836143f0e4e8a7ee89fe57ba38b0b82f29c1e97cbe183eee5",
+    "machine_profile_file_sha256": "fef58255a709e53f454928edea84e2161635d6ff27be29b44f2fe4b87ab4a4ba"
+  },
+  "plot_job": {
+    "schema": "city-map-plotter/plot-job-v1",
+    "job_sha256": "0a51230d5b80fe5a0ef6e701e1915b6e761517a2b6c85cad4ff0b9db097992ea",
+    "source_sha256": "9de099879979be90b223a8fe8eb8717f36ec0a76ec4fc03090e054c9fc27491d",
+    "order": "optimised",
+    "path_count": 478,
+    "vertex_count": 4251,
+    "pen_load_count": 3,
+    "nominal_seconds": 495.099267,
+    "execution_allowed": false,
+    "blockers": [
+      "unmeasured-pens",
+      "uncalibrated-machine-timing"
+    ]
+  }
+}

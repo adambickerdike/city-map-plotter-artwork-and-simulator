@@ -1,0 +1,315 @@
+{
+  "fact_set_id": "native-svg-car-technical-facts-v1",
+  "geometry_and_facts_are_independent": true,
+  "research_as_of": "2026-08-30",
+  "schema_version": 1,
+  "subjects": {
+    "car-026-shelby-cobra-427-shelby-cobra-source-faithful-v4": {
+      "claim_scope": "The plotted four-view geometry is the separately hash-pinned Cobra-type native SVG. The printed numerical values describe the November 1965 Car and Driver Shelby Cobra 427 test car; they do not make the source artwork a measured manufacturer drawing or identify a chassis number.",
+      "details": [
+        {
+          "source_ids": [
+            "car-and-driver-1965-road-test",
+            "ac-cars-history"
+          ],
+          "text": "MODEL YEAR 1965 / TWO-SEAT ROADSTER"
+        },
+        {
+          "source_ids": [
+            "ac-cars-history"
+          ],
+          "text": "AC CARS / SHELBY AMERICAN"
+        },
+        {
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "text": "90.0 IN WHEELBASE / 4-SPEED MANUAL"
+        }
+      ],
+      "derived_conversions": [
+        {
+          "display": "1147 KG",
+          "formula": "2529 lb x 0.45359237 kg/lb = 1147.13 kg; rounded to nearest kilogram",
+          "source_fact_id": "curb-weight"
+        },
+        {
+          "display": "266 KM/H",
+          "formula": "165 mph x 1.609344 km/mile = 265.54 km/h; rounded to nearest kilometre per hour",
+          "source_fact_id": "top-speed"
+        }
+      ],
+      "fact_cards": [
+        {
+          "fact_id": "engine",
+          "label": "ENGINE",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "427 CU IN / 6998 CC",
+            "PUSHROD V8"
+          ]
+        },
+        {
+          "fact_id": "power",
+          "label": "POWER",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "485 HP @ 6500 RPM"
+          ]
+        },
+        {
+          "fact_id": "torque",
+          "label": "TORQUE",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "480 LB-FT @ 3500 RPM"
+          ]
+        },
+        {
+          "fact_id": "curb-weight",
+          "label": "CURB WEIGHT",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "2529 LB / 1147 KG"
+          ]
+        },
+        {
+          "fact_id": "acceleration",
+          "label": "0-60 MPH",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "4.3 SECONDS"
+          ]
+        },
+        {
+          "fact_id": "top-speed",
+          "label": "TOP SPEED",
+          "source_ids": [
+            "car-and-driver-1965-road-test"
+          ],
+          "value_lines": [
+            "165 MPH / 266 KM/H"
+          ]
+        }
+      ],
+      "fact_sources": [
+        {
+          "accessed": "2026-08-30",
+          "id": "car-and-driver-1965-road-test",
+          "issue": "November 1965",
+          "kind": "period-instrumented-road-test",
+          "publisher": "Car and Driver",
+          "supports": [
+            "model-year",
+            "engine",
+            "power",
+            "torque",
+            "transmission",
+            "wheelbase",
+            "curb-weight",
+            "acceleration",
+            "top-speed"
+          ],
+          "title": "Tested: 1965 Shelby Cobra 427",
+          "url": "https://www.caranddriver.com/reviews/a15141361/1965-shelby-cobra-427-road-test/"
+        },
+        {
+          "accessed": "2026-08-30",
+          "id": "ac-cars-history",
+          "kind": "manufacturer-history",
+          "publisher": "AC Cars",
+          "supports": [
+            "cobra-roadster-identity",
+            "ac-cars-and-shelby-collaboration",
+            "ac-built-chassis"
+          ],
+          "title": "History of AC Cars",
+          "url": "https://ac.cars/history/"
+        },
+        {
+          "accessed": "2026-08-30",
+          "id": "fia-homologation-220",
+          "kind": "official-homologation-record",
+          "publisher": "Federation Internationale de l'Automobile",
+          "supports": [
+            "shelby-cobra-roadster-427-identity",
+            "7010-cc-v8-group-4-homologation",
+            "homologation-number-220",
+            "homologation-date-1966-01-02"
+          ],
+          "title": "Shelby Cobra Roadster 427 - Homologation 220, Group 4",
+          "url": "https://historicdb.fia.com/car/shelby-cobra-roadster-427"
+        }
+      ],
+      "subtitle": "427 ROADSTER / 1965 TEST CAR",
+      "supporting_specification": {
+        "brakes": "11.6 in vented front discs / 10.75 in vented rear discs",
+        "dimensions_in": {
+          "height": 49.0,
+          "length": 156.0,
+          "wheelbase": 90.0,
+          "width": 68.0
+        },
+        "quarter_mile": "12.2 seconds at 118 mph",
+        "test_vehicle": "1965 Shelby Cobra 427",
+        "transmission": "4-speed manual"
+      },
+      "title": "SHELBY COBRA"
+    },
+    "car-native-035-porsche-911-targa": {
+      "claim_scope": "The plotted side-profile geometry is the separately hash-pinned native SVG identified by its publisher as a 1967 Porsche 911 Targa. The printed numerical values reproduce Porsche Museum's 911 2.0 Targa data sheet; the source artwork remains an illustrative profile, not a measured manufacturer drawing.",
+      "details": [
+        {
+          "source_ids": [
+            "porsche-museum-911-2-0-targa"
+          ],
+          "text": "MODEL YEAR 1967 / 911 2.0 TARGA"
+        },
+        {
+          "source_ids": [
+            "porsche-911-targa-history"
+          ],
+          "text": "REMOVABLE ROOF / FIXED ROLL BAR"
+        },
+        {
+          "source_ids": [
+            "porsche-museum-911-2-0-targa",
+            "porsche-911-targa-history"
+          ],
+          "text": "AIR-COOLED FLAT-SIX / REAR ENGINE"
+        }
+      ],
+      "derived_conversions": [
+        {
+          "display": "129 HP",
+          "formula": "96 kW x 1.34102209 hp/kW = 128.74 hp; rounded to nearest horsepower",
+          "source_fact_id": "power"
+        },
+        {
+          "display": "2381 LB",
+          "formula": "1080 kg x 2.20462262 lb/kg = 2380.99 lb; rounded to nearest pound",
+          "source_fact_id": "weight"
+        },
+        {
+          "display": "130 MPH",
+          "formula": "210 km/h / 1.609344 km/mile = 130.49 mph; rounded to nearest mile per hour",
+          "source_fact_id": "top-speed"
+        }
+      ],
+      "fact_cards": [
+        {
+          "fact_id": "engine",
+          "label": "ENGINE",
+          "source_ids": [
+            "porsche-museum-911-2-0-targa"
+          ],
+          "value_lines": [
+            "6-CYL BOXER",
+            "AIR-COOLED / REAR"
+          ]
+        },
+        {
+          "fact_id": "displacement",
+          "label": "DISPLACEMENT",
+          "source_ids": [
+            "porsche-museum-911-2-0-targa"
+          ],
+          "value_lines": [
+            "1991 CC / 2.0 L"
+          ]
+        },
+        {
+          "fact_id": "power",
+          "label": "POWER",
+          "source_ids": [
+            "porsche-museum-911-2-0-targa"
+          ],
+          "value_lines": [
+            "96 KW / 130 PS",
+            "129 HP"
+          ]
+        },
+        {
+          "fact_id": "weight",
+          "label": "WEIGHT",
+          "source_ids": [
+            "porsche-museum-911-2-0-targa"
+          ],
+          "value_lines": [
+            "1080 KG / 2381 LB"
+          ]
+        },
+        {
+          "fact_id": "acceleration",
+          "label": "0-100 KM/H",
+          "source_ids": [
+            "porsche-museum-911-2-0-targa"
+          ],
+          "value_lines": [
+            "9.1 SECONDS"
+          ]
+        },
+        {
+          "fact_id": "top-speed",
+          "label": "TOP SPEED",
+          "source_ids": [
+            "porsche-museum-911-2-0-targa"
+          ],
+          "value_lines": [
+            "210 KM/H / 130 MPH"
+          ]
+        }
+      ],
+      "fact_sources": [
+        {
+          "accessed": "2026-08-30",
+          "id": "porsche-museum-911-2-0-targa",
+          "kind": "manufacturer-museum-data-sheet",
+          "publisher": "Porsche Museum / Dr. Ing. h.c. F. Porsche AG",
+          "supports": [
+            "model-year",
+            "engine",
+            "displacement",
+            "power",
+            "weight",
+            "acceleration-0-100-km-h",
+            "top-speed"
+          ],
+          "title": "Porsche 911 2.0 Targa",
+          "url": "https://newsroom.porsche.com/dam/jcr:a76c5e2e-815a-4aba-940b-9bfac8ca7120/Datenblatt%20Porsche%20911%202.0%20Targa.pdf"
+        },
+        {
+          "accessed": "2026-08-30",
+          "id": "porsche-911-targa-history",
+          "kind": "manufacturer-history",
+          "publisher": "Dr. Ing. h.c. F. Porsche AG",
+          "supports": [
+            "targa-introduction",
+            "removable-roof",
+            "fixed-roll-bar",
+            "fold-down-rear-window"
+          ],
+          "title": "History of the Porsche Targa",
+          "url": "https://newsroom.porsche.com/en/2020/products/porsche-911-targa-generations-history-21010.html"
+        }
+      ],
+      "subtitle": "911 2.0 TARGA / 1967",
+      "supporting_specification": {
+        "body": "Soft-window Targa with removable roof panel and fixed roll bar",
+        "engine_layout": "rear-mounted air-cooled six-cylinder boxer",
+        "test_vehicle": "1967 Porsche 911 2.0 Targa"
+      },
+      "title": "PORSCHE 911 TARGA"
+    }
+  }
+}
