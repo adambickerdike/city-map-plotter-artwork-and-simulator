@@ -31,7 +31,24 @@ for the visual gallery and its
 [`catalog.json`](artwork/latest-map-portfolio-2026-08-18-v3/catalog.json) for
 the machine-readable inventory.
 
-## Newest standalone city plate
+## Standalone city plates
+
+The newest standalone release is the final personalised University of Cumbria
+/ Carlisle v4 A3 portrait plate:
+
+- [`software import guide`](artwork/carlisle-university-fusehill-personalised-2026-08-31-v4/SOFTWARE_IMPORT.md)
+  and [`machine-readable import manifest`](artwork/carlisle-university-fusehill-personalised-2026-08-31-v4/SOFTWARE_IMPORT.json);
+- [`master SVG`](artwork/carlisle-university-fusehill-personalised-2026-08-31-v4/artwork/carlisle-university-fusehill-personalised-a3-portrait.svg)
+  and [`PNG preview`](artwork/carlisle-university-fusehill-personalised-2026-08-31-v4/artwork/carlisle-university-fusehill-personalised-a3-portrait.png);
+- eleven ordered per-pen SVGs, a SHA-bound plot job, portable viewer, nominal
+  simulation profile, exact pinned map source, Carlisle station and university
+  feature evidence, QA report, rebuild recipe, LLM handoff and checksum ledger.
+
+Open Carlisle directly in the interactive studio from any directory:
+
+```bash
+/path/to/city-map-plotter-artwork-and-simulator/scripts/run_carlisle_university_studio.sh
+```
 
 The approved Seaton Sluice v8 A3 landscape package is available separately
 from the immutable 423-map portfolio:
@@ -85,10 +102,10 @@ Open the Porsche directly in the interactive studio from any directory:
 /path/to/city-map-plotter-artwork-and-simulator/scripts/run_porsche_911_targa_studio.sh
 ```
 
-The repository now has 450 PNG files and 471 SVG files in total. That includes
+The repository now has 451 PNG files and 483 SVG files in total. That includes
 the complete portfolio, all contact sheets, the Augusta simulator example, the
-standalone Seaton master and pen-separated jobs, and both technical-blueprint
-masters with their pinned native-SVG evidence.
+standalone Carlisle and Seaton masters and pen-separated jobs, and both
+technical-blueprint masters with their pinned native-SVG evidence.
 
 ## Clone the complete files
 
@@ -216,6 +233,13 @@ The source portfolio already records:
 The standalone Seaton package additionally records 3,201 plate checks,
 238 focused renderer/physical/retrace tests and a passing 32-file checksum
 ledger. Its simulation profile remains deliberately non-executable.
+
+The Carlisle package records 2,828 strokes, 45,130 flattened motion vertices,
+eleven ordered pen loads, one required sourced Carlisle railway-station path,
+all seventeen required university buildings, and a passing 32-file checksum
+ledger. Its 41:58 estimate is nominal; physical execution remains deliberately
+blocked pending exact pen, paper and machine calibration plus human review of
+1,302 proximity candidates.
 
 The Cobra package records 542 solid vector strokes, 7,924 flattened motion
 vertices, three White pen loads, and a passing package checksum ledger. Its

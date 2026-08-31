@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "package_id": "carlisle-university-fusehill-personalised-2026-08-31-v4",
+  "status": "review-only",
+  "subject": "UNIVERSITY OF CUMBRIA — CARLISLE",
+  "paper": {
+    "format": "A3",
+    "orientation": "portrait",
+    "width_mm": 297.0,
+    "height_mm": 420.0
+  },
+  "entrypoints": {
+    "preview_png": "artwork/carlisle-university-fusehill-personalised-a3-portrait.png",
+    "master_svg": "artwork/carlisle-university-fusehill-personalised-a3-portrait.svg",
+    "plot_manifest": "artwork/carlisle-university-fusehill-personalised-a3-portrait.plot.json",
+    "portable_viewer": "simulation/carlisle-university-fusehill-personalised-plotsim.html",
+    "plot_job": "simulation/carlisle-university-fusehill-personalised.plotjob.json",
+    "machine_profile": "simulation/axidraw-class-simulation-v1.json",
+    "source_snapshot": "sources/carlisle-city-overpass-2026-08-30.json.gz",
+    "source_query": "sources/OVERPASS_QUERY.ql",
+    "source_contract": "SOURCE-CONTRACT.json",
+    "qa_report": "qa/QA-REPORT.json",
+    "llm_handoff": "LLM_HANDOFF.md",
+    "plotter_handoff": "PLOTTER_HANDOFF.md",
+    "release_checksums": "CHECKSUMS.sha256"
+  },
+  "per_pen_svgs": [
+    {
+      "load": 1,
+      "pen_id": "blue-0-4",
+      "path": "artwork/pen-svgs/carlisle-university-fusehill-personalised-a3-portrait.pen-01-blue-0-4.svg"
+    },
+    {
+      "load": 2,
+      "pen_id": "blue-0-25",
+      "path": "artwork/pen-svgs/carlisle-university-fusehill-personalised-a3-portrait.pen-02-blue-0-25.svg"
+    },
+    {
+      "load": 3,
+      "pen_id": "green-0-25",
+      "path": "artwork/pen-svgs/carlisle-university-fusehill-personalised-a3-portrait.pen-03-green-0-25.svg"
+    },
+    {
+      "load": 4,
+      "pen_id": "purple-0-25",
+      "path": "artwork/pen-svgs/carlisle-university-fusehill-personalised-a3-portrait.pen-04-purple-0-25.svg"
+    },
+    {
+      "load": 5,
+      "pen_id": "grey-0-25",
+      "path": "artwork/pen-svgs/carlisle-university-fusehill-personalised-a3-portrait.pen-05-grey-0-25.svg"
+    },
+    {
+      "load": 6,
+      "pen_id": "red-0-4",
+      "path": "artwork/pen-svgs/carlisle-university-fusehill-personalised-a3-portrait.pen-06-red-0-4.svg"
+    },
+    {
+      "load": 7,
+      "pen_id": "red-0-25",
+      "path": "artwork/pen-svgs/carlisle-university-fusehill-personalised-a3-portrait.pen-07-red-0-25.svg"
+    },
+    {
+      "load": 8,
+      "pen_id": "black-0-6",
+      "path": "artwork/pen-svgs/carlisle-university-fusehill-personalised-a3-portrait.pen-08-black-0-6.svg"
+    },
+    {
+      "load": 9,
+      "pen_id": "black-1",
+      "path": "artwork/pen-svgs/carlisle-university-fusehill-personalised-a3-portrait.pen-09-black-1.svg"
+    },
+    {
+      "load": 10,
+      "pen_id": "black-0-4",
+      "path": "artwork/pen-svgs/carlisle-university-fusehill-personalised-a3-portrait.pen-10-black-0-4.svg"
+    },
+    {
+      "load": 11,
+      "pen_id": "black-0-25",
+      "path": "artwork/pen-svgs/carlisle-university-fusehill-personalised-a3-portrait.pen-11-black-0-25.svg"
+    }
+  ],
+  "motion_software": {
+    "interactive_studio": "../../tools/plotter_studio.py",
+    "controller": "../../tools/plotter_control.py",
+    "plot_job_engine": "../../tools/plotjob.py",
+    "simulation_engine": "../../tools/plotsim.py",
+    "machine_profile": "../../plotter-profiles/axidraw-class-simulation-v1.json",
+    "operator_documentation": "../../docs/plotter/PLOTTER_SOFTWARE.md"
+  },
+  "integrity": {
+    "master_svg_sha256": "131c4daf7cf6cad25a8f15d6177c13de3cc34b477cdd392262a61da16ad3fa2d",
+    "preview_png_sha256": "ec1f48e34bd8819368fb2bfb3081794f3196e56ca9a8b3d2472f59d380a9f67a",
+    "plot_manifest_sha256": "a9a685be4a92709caffc5c3f132c2dc53191a4a499586fe844c36ad4286221ff",
+    "plot_job_file_sha256": "37a0569de0de505591a0dee20f9dfc4cbddb3b7d5090e9c51061c3bc5a903767",
+    "portable_viewer_sha256": "aad76d0e1dde370c4a1b50594109210f7310b00594454f6ac9f5df7b7d39986d",
+    "machine_profile_file_sha256": "fef58255a709e53f454928edea84e2161635d6ff27be29b44f2fe4b87ab4a4ba",
+    "source_snapshot_sha256": "ea43b048925265b1a541502f1bf9cb7ee060df235f828a9b547d442e0173b47a",
+    "source_query_sha256": "5a082835e885f67fe452bf837dfd68ce4857acc0f5cbe5d51d3c6f1ed18d0c36",
+    "source_contract_sha256": "4e5f40b96228120b39a50098b01fcde76b040885d41cadc21ac6996a9a45619d",
+    "qa_report_sha256": "fcd50cafdefb283a9df9eff02a938ad3c452c36d6a555e261a6938d590ff2883"
+  },
+  "plot_job": {
+    "schema": "city-map-plotter/plot-job-v1",
+    "job_sha256": "fb6aaf74d6fb87708b2bda7922068d80fda07ec19808130c46021c8e8bf127c0",
+    "source_sha256": "131c4daf7cf6cad25a8f15d6177c13de3cc34b477cdd392262a61da16ad3fa2d",
+    "order": "optimised",
+    "path_count": 2828,
+    "vertex_count": 45130,
+    "pen_load_count": 11,
+    "nominal_seconds": 2517.81653,
+    "execution_allowed": false,
+    "blockers": [
+      "unmeasured-pens",
+      "uncalibrated-machine-timing"
+    ]
+  }
+}

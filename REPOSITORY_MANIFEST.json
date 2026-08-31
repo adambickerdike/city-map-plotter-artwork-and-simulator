@@ -12,10 +12,10 @@
     "checksum_entry_count": 2463
   },
   "repository_assets": {
-    "png_count": 448,
-    "png_bytes": 824374751,
-    "svg_count": 467,
-    "svg_bytes": 1385911554,
+    "png_count": 451,
+    "png_bytes": 829174385,
+    "svg_count": 483,
+    "svg_bytes": 1392646769,
     "git_lfs_patterns": [
       "*.png",
       "*.svg",
@@ -23,8 +23,8 @@
       "artwork/latest-map-portfolio-2026-08-18-v3/03-hiking-maps/contracts/hiking-data/hike-plates-release-v1.json",
       "artwork/latest-map-portfolio-2026-08-18-v3/06-f1-courses/code/src/city_map_plotter/data/f1-circuits-2026.json"
     ],
-    "git_lfs_tracked_path_count": 1342,
-    "git_lfs_approximate_bytes": 3202773644
+    "git_lfs_tracked_path_count": 1364,
+    "git_lfs_approximate_bytes": 3214831946
   },
   "standalone_releases": {
     "seaton_sluice_v8": {
@@ -35,6 +35,36 @@
       "plot_job_sha256": "36fd6fbbb6d4eb567d554e7a134ab822cba7fbaac7958d0ccc3de1c39ca79cf1",
       "per_pen_svg_count": 11,
       "release_checksum_count": 32,
+      "physical_execution_allowed": false
+    },
+    "carlisle_university_v4": {
+      "package_path": "artwork/carlisle-university-fusehill-personalised-2026-08-31-v4",
+      "import_manifest": "artwork/carlisle-university-fusehill-personalised-2026-08-31-v4/SOFTWARE_IMPORT.json",
+      "master_svg_sha256": "131c4daf7cf6cad25a8f15d6177c13de3cc34b477cdd392262a61da16ad3fa2d",
+      "preview_png_sha256": "ec1f48e34bd8819368fb2bfb3081794f3196e56ca9a8b3d2472f59d380a9f67a",
+      "plot_job_sha256": "fb6aaf74d6fb87708b2bda7922068d80fda07ec19808130c46021c8e8bf127c0",
+      "per_pen_svg_count": 11,
+      "release_checksum_count": 32,
+      "physical_execution_allowed": false
+    },
+    "shelby_cobra_v1": {
+      "package_path": "artwork/shelby-cobra-427-technical-blueprint-v1",
+      "import_manifest": "artwork/shelby-cobra-427-technical-blueprint-v1/SOFTWARE_IMPORT.json",
+      "master_svg_sha256": "464200f14c563045eb5e671b1ec11f5d86fd9f72ba9041d5fa892ff5abefc8f7",
+      "preview_png_sha256": "1d29b8aab69ecb1ec5ac67e7e5614dfbade391ca78f874c7623019c524ca22d9",
+      "plot_job_sha256": "6589d6d7b2c94e68cf5e3c1cd69f3af15e23fb9487c6fb49b9bcdc65397b9a86",
+      "pen_load_count": 3,
+      "release_checksum_count": 17,
+      "physical_execution_allowed": false
+    },
+    "porsche_911_targa_v1": {
+      "package_path": "artwork/porsche-911-2-0-targa-technical-blueprint-v1",
+      "import_manifest": "artwork/porsche-911-2-0-targa-technical-blueprint-v1/SOFTWARE_IMPORT.json",
+      "master_svg_sha256": "9de099879979be90b223a8fe8eb8717f36ec0a76ec4fc03090e054c9fc27491d",
+      "preview_png_sha256": "70dddd0092a6fa28fc0d79286d3a6eb887a8d632054cb83c1a4cdbb4c4484a77",
+      "plot_job_sha256": "0a51230d5b80fe5a0ef6e701e1915b6e761517a2b6c85cad4ff0b9db097992ea",
+      "pen_load_count": 3,
+      "release_checksum_count": 17,
       "physical_execution_allowed": false
     }
   },

@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "contract_id": "carlisle-university-fusehill-personalised-2026-08-31-v4",
+  "status": "review-edition-personalised-pinned-json",
+  "subject": {
+    "institution_title": "UNIVERSITY OF CUMBRIA",
+    "map_subject": "Carlisle — Fusehill Street focus",
+    "country": "United Kingdom",
+    "requested_bbox_wgs84": {
+      "west": -2.946,
+      "south": 54.8815,
+      "east": -2.9065,
+      "north": 54.9065
+    },
+    "render_extent_wgs84": {
+      "west": -2.9472684154672546,
+      "south": 54.8815,
+      "east": -2.9052315845327454,
+      "north": 54.90650000000001
+    },
+    "composition_center": {
+      "latitude": 54.894,
+      "longitude": -2.92625,
+      "selection_policy": "A deliberate tight crop with Fusehill Street near the visual centre, Carlisle Castle at the western side, Rickerby Park across the north, Melbourne Park at the east/south-east, Carlisle railway station retained beside the main rail corridor, and active railway corridors defining the west and south. The A3 contain fit adds only the longitude needed for the binding map-field aspect."
+    },
+    "claim_scope": "An A3 portrait personalised University of Cumbria memorabilia plate focused on Fusehill Street and the surrounding central/east Carlisle geography. It includes the sourced Carlisle railway-station footprint and sourced university footprints that remain physically printable at this scale; it is not a cadastral campus plan.",
+    "personalisation_semantics": {
+      "person_name": "Stuart R. Nelis",
+      "degree": "BSc Applied Psychology",
+      "honours": "",
+      "years": "2024",
+      "presentation": "Literal values only in the bundled Hershey Serif display face on a 0.40 mm pen. No field labels and no writing rules are drawn. The larger name occupies the upper footer row; larger degree and year copy share the lower row, with the year right-aligned. Every footer ink envelope remains between the map field's left and right borders."
+    }
+  },
+  "institution_identity_evidence": {
+    "official_name": "University of Cumbria",
+    "accessed_at": "2026-08-30",
+    "official_sources": [
+      "https://www.cumbria.ac.uk/",
+      "https://www.cumbria.ac.uk/student-life/locations/",
+      "https://www.cumbria.ac.uk/student-life/locations/carlisle/campus/"
+    ],
+    "scope": "The university's own pages establish the printed institution name and identify Fusehill Street as its Carlisle campus. OpenStreetMap supplies all plotted geometry."
+  },
+  "acquisition": {
+    "provider": "OpenStreetMap contributors",
+    "endpoint": "https://overpass-api.de/api/interpreter",
+    "license": "ODbL 1.0",
+    "attribution": "Map data © OpenStreetMap contributors — https://www.openstreetmap.org/copyright",
+    "timestamp_osm_base": "2026-08-30T21:32:35Z",
+    "families": [
+      "roads",
+      "water",
+      "railways",
+      "parks",
+      "buildings"
+    ],
+    "landmark_buildings_only": true,
+    "query_bbox_wgs84": {
+      "west": -2.9660511,
+      "south": 54.8727838,
+      "east": -2.8997489,
+      "north": 54.9122162
+    },
+    "query_path": "sources/OVERPASS_QUERY.ql",
+    "query_sha256": "5a082835e885f67fe452bf837dfd68ce4857acc0f5cbe5d51d3c6f1ed18d0c36",
+    "live_cache_identity_sha256": "dbcf5ec78634b7319e53021fd86282c5c0bfe432a394da2cae720fd4f3e4c663"
+  },
+  "snapshot": {
+    "path": "sources/carlisle-city-overpass-2026-08-30.json.gz",
+    "size_bytes": 731999,
+    "file_sha256": "ea43b048925265b1a541502f1bf9cb7ee060df235f828a9b547d442e0173b47a",
+    "canonical_json_sha256": "71b2cfde629fb1dcea40f920e0a43e294f98374e747d69104ddea775e77fdbe6",
+    "element_count": 5229
+  },
+  "coverage_evidence": {
+    "source_highway_way_count": 3967,
+    "classified_highway_way_count": 3967,
+    "unknown_highway_value_count": 0,
+    "selected_drawable_object_count": 5181,
+    "required_landmark_refs": [
+      "way/159842515",
+      "way/159842517",
+      "way/159842520",
+      "way/159842521",
+      "way/159842523",
+      "way/552354002",
+      "way/552356816",
+      "way/566812584",
+      "way/1105844149",
+      "way/1105844150",
+      "way/1337966863",
+      "way/1337966864",
+      "way/1337966865",
+      "way/1337966866",
+      "way/1337966867",
+      "way/1337966868",
+      "way/1337966869",
+      "way/1337966870"
+    ],
+    "required_rendered_features": [
+      {"source_ref": "relation/5752190", "name": "Rickerby Park", "role": "northern green-space anchor", "extent_policy": "contained"},
+      {"source_ref": "way/333814042", "name": "Melbourne Park", "role": "eastern and south-eastern green-space anchor", "extent_policy": "contained"},
+      {"source_ref": "way/205001517", "name": "Carlisle Castle", "role": "western heritage anchor", "extent_policy": "contained"},
+      {"source_ref": "way/4789792", "name": "River Eden", "role": "northern river context", "extent_policy": "intersects"},
+      {"source_ref": "way/262069383", "name": "West Coast Main Line", "role": "western railway structure", "extent_policy": "contained"},
+      {"source_ref": "way/365270356", "name": "Newcastle and Carlisle Railway", "role": "southern railway structure", "extent_policy": "contained"},
+      {"source_ref": "way/566812584", "name": null, "role": "Carlisle railway-station building", "extent_policy": "contained"},
+      {"source_ref": "way/159842515", "name": "Skiddaw (SK)", "role": "Fusehill university building", "extent_policy": "contained"},
+      {"source_ref": "way/159842517", "name": "Learning Gateway", "role": "Fusehill university building", "extent_policy": "contained"},
+      {"source_ref": "way/159842520", "name": "Bowscale (BS)", "role": "Fusehill university building", "extent_policy": "contained"},
+      {"source_ref": "way/159842521", "name": "Blencathra (B)", "role": "Fusehill university building", "extent_policy": "contained"},
+      {"source_ref": "way/159842523", "name": "Londsale (LN)", "role": "Fusehill university building", "extent_policy": "contained"},
+      {"source_ref": "way/552354002", "name": "Chapel", "role": "Fusehill university building", "extent_policy": "contained"},
+      {"source_ref": "way/552356816", "name": "STEM Labs", "role": "Fusehill university building", "extent_policy": "contained"},
+      {"source_ref": "way/1105844149", "name": "Estates", "role": "Fusehill university building", "extent_policy": "contained"},
+      {"source_ref": "way/1105844150", "name": null, "role": "larger unnamed Fusehill university building", "extent_policy": "contained"},
+      {"source_ref": "way/1337966863", "name": "Calva Lecture Theatre", "role": "Fusehill university building", "extent_policy": "contained"},
+      {"source_ref": "way/1337966864", "name": "F Wing", "role": "Fusehill university building", "extent_policy": "contained"},
+      {"source_ref": "way/1337966865", "name": "D Wing", "role": "Fusehill university building", "extent_policy": "contained"},
+      {"source_ref": "way/1337966866", "name": "E Wing", "role": "Fusehill university building", "extent_policy": "contained"},
+      {"source_ref": "way/1337966867", "name": "Calva Main Entrance", "role": "Fusehill university building", "extent_policy": "contained"},
+      {"source_ref": "way/1337966868", "name": "B Wing", "role": "Fusehill university building", "extent_policy": "contained"},
+      {"source_ref": "way/1337966869", "name": "C WIng", "role": "Fusehill university building", "extent_policy": "contained"},
+      {"source_ref": "way/1337966870", "name": "A Wing", "role": "Fusehill university building", "extent_policy": "contained"}
+    ],
+    "physically_omitted_university_features": [
+      {
+        "source_ref": "way/1108502395",
+        "name": null,
+        "reason": "physically_unprintable",
+        "projected_area_mm2": 0.496012,
+        "minimum_area_mm2": 0.5625,
+        "policy": "The unnamed outbuilding is not forced through the must-have gate because its projected area is below the A3 physical minimum."
+      }
+    ],
+    "expected_landmark_selection": {
+      "selected_object_count": 32,
+      "required_group_count": 18,
+      "station_svg_path_count": 1
+    },
+    "station_priority_effect": {
+      "mandatory_source_ref": "way/566812584",
+      "mandatory_role": "Carlisle railway-station building",
+      "displaced_automatic_source_ref": "way/222903738",
+      "displaced_automatic_name": "Carlisle Civic Centre",
+      "reason": "The binding A3 landmark cap remains 32 objects. Reserving the user-required station footprint replaces the lowest surviving automatic civic candidate instead of silently raising the plate's ink/object budget."
+    }
+  },
+  "render_contract": {
+    "format_id": "a3-portrait",
+    "generated_at": "2026-08-31T00:00:00+00:00",
+    "format_spec_path": "docs/format/format-v1.json",
+    "format_spec_sha256": "63a3e49c8f9aab96ce2fd739cf747d9005af051914086c1f5b6cae73342ae475",
+    "style_path": "styles/university-memorabilia-v2.json",
+    "style_sha256": "d5bc3c092d6cc05bbbc9581b5463a043716cfd5a8b237f8df634a44d6b6f7910",
+    "preset": "a3-balanced-poster",
+    "orientation": "portrait",
+    "poster_layout": "university-memorabilia",
+    "memorabilia_variant": "clean-personalised",
+    "detail_profile": "plotter-faithful",
+    "road_style": "centreline",
+    "water_fill": "dots",
+    "simplify_tolerance_mm": 0.04,
+    "extent_fit": "contain",
+    "pen_profile": "actual-pens",
+    "attribution_mode": "external",
+    "map_field_mm": {"x": 24.0, "y": 70.362, "width": 249.0, "height": 257.558},
+    "header_contract": {
+      "title_position": "top-left",
+      "title_lines": 1,
+      "coordinates_position": "directly-below-title",
+      "coordinates": "54.8940 N   /   2.9263 W",
+      "coordinate_layout": "inline",
+      "coordinate_alignment": "left",
+      "coordinate_alignment_reference": "title-ink-left",
+      "coordinate_and_title_ink_left_mm": 25.635,
+      "coordinate_tracking_mm": 0.25,
+      "compass_position": "original-far-right-memorabilia-compass-zone",
+      "compass_nib_mm": 0.4,
+      "compass_style": "diamond-cardinal",
+      "compass_path_bounds_mm": {"x": 258.47, "y": 34.115, "width": 8.83, "height": 27.595}
+    },
+    "personalisation_zones": [
+      "memorabilia_person_name",
+      "memorabilia_degree",
+      "memorabilia_honours",
+      "memorabilia_years"
+    ],
+    "personalisation_contract": {
+      "show_labels": false,
+      "show_write_lines": false,
+      "person_name": "Stuart R. Nelis",
+      "degree": "BSc Applied Psychology",
+      "honours": "",
+      "years": "2024",
+      "year_alignment": "right",
+      "font_id": "hershey-serif-medium-ascii-v1",
+      "nib_mm": 0.4,
+      "name_cap_height_mm": 8.024,
+      "secondary_cap_height_mm": 7.08,
+      "horizontal_bounds_zone": "map_field"
+    },
+    "expected_approximate_scale_denominator": 10796,
+    "expected_plot_path_count": 2828,
+    "expected_unresolved_physical_conflict_count": 1302
+  },
+  "renderer_contract": {
+    "git_head_at_build": "eff27f36d3ab174b4ffaca398fca220ea5505013",
+    "working_tree_note": "The repository contained pre-existing uncommitted work. Exact renderer-file hashes below, rather than git HEAD alone, bind this edition.",
+    "files_sha256": {
+      "src/city_map_plotter/cartography.py": "1d52b8db733620712e14ec26e3010f9c4793e1bbd217a6169f3fe705e6f2e2a2",
+      "src/city_map_plotter/cli.py": "ae9d958cf7588fc2693d3fafcf2c2df2c3840b012ce590cdeb31a114cade4304",
+      "src/city_map_plotter/completeness.py": "c5bb11df3faf3aeb6528929dad2f3b8671ddfdc60e95ff93e5764e57419b3cd7",
+      "src/city_map_plotter/furniture.py": "278afe5c9acfb23019fa0c4a3c8d98a336728a9560ece81a4ebc769b5e1fd86a",
+      "src/city_map_plotter/geometry.py": "8da916a163da878528271418477bcb5008f9f1bb76f4a12f336d84ef9df67777",
+      "src/city_map_plotter/pens.py": "94afe575822a1658aa568532796ea94fe93a1d8167b6c4cf4ca9865fd49be0d6",
+      "src/city_map_plotter/stroke_font.py": "d6a83ce73261f9b9cab9e8276097e9c9b05d537ad36592bd5a501a5f16efd18f",
+      "src/city_map_plotter/styles.py": "c1720c914f3fb0161fea01c88f35aeffb467db54e46e63096bf1d03925badcf7",
+      "src/city_map_plotter/svg.py": "de1741fa2938586397ec47a30e58aa1a9d258d91bd42e8c926e5025aa8440269",
+      "tools/build_plotsim_viewer.py": "d3c309f08b7bc9993a7f1abe8ab273e534609036c981ee1cba242c61a9113395",
+      "tools/plotter_control.py": "75a8fa49a43d8d5e026d80f10f251434f61dfcb8fe20d186caf310d50d14881e",
+      "tools/plotsim.py": "30c17adf4e48955a8e404d0459315f44833b9645a6379ce8fb382f5d32473be3",
+      "tools/validate_format.py": "2a02cfd3b653911b5cac1192cd04faecc67e2ac8fb37979a9e353879534ac21a"
+    }
+  }
+}

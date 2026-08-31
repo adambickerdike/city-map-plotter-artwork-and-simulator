@@ -1,0 +1,52 @@
+{
+  "artwork": {
+    "pen_file_count": 11,
+    "plot_stroke_count": 2828,
+    "png_pixels": [
+      2970,
+      4200
+    ],
+    "png_sha256": "ec1f48e34bd8819368fb2bfb3081794f3196e56ca9a8b3d2472f59d380a9f67a",
+    "svg_sha256": "131c4daf7cf6cad25a8f15d6177c13de3cc34b477cdd392262a61da16ad3fa2d"
+  },
+  "release": "carlisle-university-fusehill-personalised-2026-08-31-v4",
+  "render_audit": {
+    "format_validator": "[PASS] /home/adam/Projects/city-map-plotter/review-output/carlisle-university-fusehill-personalised-2026-08-31-v4/artwork/carlisle-university-fusehill-personalised-a3-portrait.svg  [a3-portrait]  (3108 checks)",
+    "highway_unresolved_in_frame_count": 0,
+    "physical_execution_allowed": false,
+    "physical_minimum_evidence_invalid_count": 0,
+    "raw_geometry_failure_count": 0,
+    "unaccepted_physical_conflict_count": 1302
+  },
+  "schema_version": 1,
+  "simulation": {
+    "high_seconds": 2895.48901,
+    "low_seconds": 2140.144051,
+    "nominal_seconds": 2517.81653,
+    "pen_down_mm": 40928.586445,
+    "pen_loads": 11,
+    "pen_up_mm": 16109.724814
+  },
+  "source": {
+    "canonical_json_sha256": "71b2cfde629fb1dcea40f920e0a43e294f98374e747d69104ddea775e77fdbe6",
+    "element_count": 5229,
+    "query_sha256": "5a082835e885f67fe452bf837dfd68ce4857acc0f5cbe5d51d3c6f1ed18d0c36",
+    "snapshot_sha256": "ea43b048925265b1a541502f1bf9cb7ee060df235f828a9b547d442e0173b47a",
+    "timestamp_osm_base": "2026-08-30T21:32:35Z"
+  },
+  "status": "pass",
+  "subject": {
+    "approximate_scale_denominator": 10796,
+    "center": [
+      54.894,
+      -2.92625
+    ],
+    "institution": "University of Cumbria",
+    "map_subject": "Carlisle \u2014 Fusehill Street focus",
+    "physically_omitted_university_building_count": 1,
+    "required_landmark_count": 18,
+    "required_rendered_feature_count": 24,
+    "required_station_building_count": 1,
+    "required_university_building_count": 17
+  }
+}

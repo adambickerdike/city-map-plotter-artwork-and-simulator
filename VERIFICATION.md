@@ -2,7 +2,8 @@
 
 The original portfolio was verified locally and from a clean GitHub clone on
 18 August 2026. The standalone Seaton Sluice v8 extension was verified locally
-and from a fresh GitHub clone on 29 August 2026.
+and from a fresh GitHub clone on 29 August 2026. The personalised Carlisle v4
+package was verified locally on 31 August 2026 before publication.
 
 ## Repository integrity
 
@@ -10,10 +11,11 @@ and from a fresh GitHub clone on 29 August 2026.
 catalog artifacts:          423
 portfolio PNG files:        445
 portfolio SVG files:        445
-repository PNG files:       448
-repository SVG files:       467
+repository PNG files:       451
+repository SVG files:       483
 portfolio checksum entries: 2463 PASS
 Seaton checksum entries:    32 PASS
+Carlisle checksum entries:  32 PASS
 visible page-text audit:     PASS
 ```
 
@@ -107,6 +109,29 @@ uncalibrated interval:   31:53–43:09
 physical execution:      BLOCKED as designed
 ```
 
+## Carlisle v4 import proof
+
+The final personalised A3 portrait package passed all release checksums, the
+repository import-manifest audit, 3,108 plate-format checks and controller
+inspection:
+
+```text
+master SVG SHA-256:      131c4daf7cf6cad25a8f15d6177c13de3cc34b477cdd392262a61da16ad3fa2d
+PNG SHA-256:             ec1f48e34bd8819368fb2bfb3081794f3196e56ca9a8b3d2472f59d380a9f67a
+plot-job SHA-256:        fb6aaf74d6fb87708b2bda7922068d80fda07ec19808130c46021c8e8bf127c0
+master paths:            2,828
+vertices:                45,130
+pen loads:               11
+Carlisle station paths:  1 in Purple 0.25 mm load 04
+estimated time:          41:58
+uncalibrated interval:   35:40–48:15
+physical execution:      BLOCKED as designed
+```
+
+The source contract requires Carlisle railway-station building
+`way/566812584` and all seventeen accepted Fusehill university buildings. The
+station path is present in the master and the registration-matched pen-04 SVG.
+
 ## Launcher proof
 
 `scripts/run_augusta_studio.sh --no-browser --port 0` was invoked from
@@ -117,3 +142,8 @@ and shut down cleanly.
 `scripts/run_seaton_sluice_studio.sh --no-browser --port 0` independently
 selected a free loopback port, loaded the v8 master, returned `{"ok": true}`
 from `/health`, served the studio root with HTTP 200, and shut down cleanly.
+
+`scripts/run_carlisle_university_studio.sh --no-browser --port 0` independently
+selected a free loopback port, loaded the final Carlisle master, returned
+`{"ok": true}` from `/health`, served the studio root with HTTP 200, and shut
+down cleanly.

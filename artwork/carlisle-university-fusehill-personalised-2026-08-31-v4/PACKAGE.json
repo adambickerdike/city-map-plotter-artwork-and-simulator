@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "package_id": "carlisle-university-fusehill-personalised-2026-08-31-v4",
+  "generated_at": "2026-08-31T00:00:00+00:00",
+  "subject": {
+    "institution": "University of Cumbria",
+    "city": "Carlisle",
+    "focus": "Fusehill Street and central/east Carlisle",
+    "personalisation": [
+      "Stuart R. Nelis",
+      "BSc Applied Psychology",
+      "2024"
+    ]
+  },
+  "artwork": {
+    "format": "a3-portrait",
+    "width_mm": 297.0,
+    "height_mm": 420.0,
+    "svg": "artwork/carlisle-university-fusehill-personalised-a3-portrait.svg",
+    "svg_sha256": "131c4daf7cf6cad25a8f15d6177c13de3cc34b477cdd392262a61da16ad3fa2d",
+    "png": "artwork/carlisle-university-fusehill-personalised-a3-portrait.png",
+    "png_sha256": "ec1f48e34bd8819368fb2bfb3081794f3196e56ca9a8b3d2472f59d380a9f67a",
+    "plot_manifest": "artwork/carlisle-university-fusehill-personalised-a3-portrait.plot.json",
+    "plot_manifest_sha256": "a9a685be4a92709caffc5c3f132c2dc53191a4a499586fe844c36ad4286221ff",
+    "per_pen_svg_count": 11
+  },
+  "source": {
+    "snapshot": "sources/carlisle-city-overpass-2026-08-30.json.gz",
+    "snapshot_sha256": "ea43b048925265b1a541502f1bf9cb7ee060df235f828a9b547d442e0173b47a",
+    "query": "sources/OVERPASS_QUERY.ql",
+    "query_sha256": "5a082835e885f67fe452bf837dfd68ce4857acc0f5cbe5d51d3c6f1ed18d0c36",
+    "source_contract": "SOURCE-CONTRACT.json",
+    "provider": "OpenStreetMap contributors",
+    "license": "ODbL 1.0",
+    "station_source_ref": "way/566812584"
+  },
+  "physical_plan": [
+    {"load": 1, "pen_id": "blue-0-4", "nib_mm": 0.4, "role": "water areas"},
+    {"load": 2, "pen_id": "blue-0-25", "nib_mm": 0.25, "role": "waterways"},
+    {"load": 3, "pen_id": "green-0-25", "nib_mm": 0.25, "role": "green space"},
+    {"load": 4, "pen_id": "purple-0-25", "nib_mm": 0.25, "role": "landmark buildings and Carlisle railway station"},
+    {"load": 5, "pen_id": "grey-0-25", "nib_mm": 0.25, "role": "local roads, paths and railways"},
+    {"load": 6, "pen_id": "red-0-4", "nib_mm": 0.4, "role": "major roads"},
+    {"load": 7, "pen_id": "red-0-25", "nib_mm": 0.25, "role": "secondary roads"},
+    {"load": 8, "pen_id": "black-0-6", "nib_mm": 0.6, "role": "map frame"},
+    {"load": 9, "pen_id": "black-1", "nib_mm": 1.0, "role": "safe border"},
+    {"load": 10, "pen_id": "black-0-4", "nib_mm": 0.4, "role": "title, compass and personalised footer"},
+    {"load": 11, "pen_id": "black-0-25", "nib_mm": 0.25, "role": "coordinates"}
+  ],
+  "plot_job": {
+    "file": "simulation/carlisle-university-fusehill-personalised.plotjob.json",
+    "file_sha256": "37a0569de0de505591a0dee20f9dfc4cbddb3b7d5090e9c51061c3bc5a903767",
+    "job_sha256": "fb6aaf74d6fb87708b2bda7922068d80fda07ec19808130c46021c8e8bf127c0",
+    "order": "optimised",
+    "profile": "simulation/axidraw-class-simulation-v1.json",
+    "execution_allowed": false,
+    "reason": "Nominal simulation profile; exact machine, pens, paper, work coordinates, timing calibration and human proximity review are still required."
+  },
+  "repository_integration": {
+    "portable_viewer": "simulation/carlisle-university-fusehill-personalised-plotsim.html",
+    "portable_viewer_sha256": "aad76d0e1dde370c4a1b50594109210f7310b00594454f6ac9f5df7b7d39986d",
+    "software_import": "SOFTWARE_IMPORT.json",
+    "studio_launcher": "../../scripts/run_carlisle_university_studio.sh"
+  }
+}

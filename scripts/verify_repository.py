@@ -15,6 +15,9 @@ from typing import Any, Sequence
 ROOT = Path(__file__).resolve().parents[1]
 PORTFOLIO = ROOT / "artwork/latest-map-portfolio-2026-08-18-v3"
 SEATON_RELEASE = ROOT / "artwork/seaton-sluice-holywell-dene-2026-08-29-v8"
+CARLISLE_RELEASE = (
+    ROOT / "artwork/carlisle-university-fusehill-personalised-2026-08-31-v4"
+)
 COBRA_RELEASE = ROOT / "artwork/shelby-cobra-427-technical-blueprint-v1"
 PORSCHE_RELEASE = ROOT / "artwork/porsche-911-2-0-targa-technical-blueprint-v1"
 EXPECTED_DOMAINS = {
@@ -44,6 +47,7 @@ REQUIRED_SIMULATOR_FILES = (
     "examples/augusta-national/augusta-national.png",
     "examples/generated-viewers/augusta-national.html",
     "scripts/run_seaton_sluice_studio.sh",
+    "scripts/run_carlisle_university_studio.sh",
     "scripts/run_shelby_cobra_studio.sh",
     "scripts/run_porsche_911_targa_studio.sh",
 )
@@ -150,7 +154,9 @@ def _verify_seaton_release() -> dict[str, Any]:
     entrypoints = import_manifest.get("entrypoints")
     integrity = import_manifest.get("integrity")
     if not isinstance(entrypoints, dict) or not isinstance(integrity, dict):
-        raise VerificationError("Seaton import manifest lacks entrypoints or integrity.")
+        raise VerificationError(
+            "Seaton import manifest lacks entrypoints or integrity."
+        )
     digest_bindings = {
         "master_svg": "master_svg_sha256",
         "preview_png": "preview_png_sha256",
@@ -235,6 +241,173 @@ def _verify_seaton_release() -> dict[str, Any]:
         "seaton_per_pen_svg_count": len(pen_records),
         "seaton_plot_path_count": plot_job["preflight"]["path_count"],
         "seaton_physical_execution_allowed": False,
+    }
+
+
+def _verify_carlisle_release() -> dict[str, Any]:
+    import_manifest = _load_json(CARLISLE_RELEASE / "SOFTWARE_IMPORT.json")
+    package_manifest = _load_json(CARLISLE_RELEASE / "PACKAGE.json")
+    source_contract = _load_json(CARLISLE_RELEASE / "SOURCE-CONTRACT.json")
+    qa_report = _load_json(CARLISLE_RELEASE / "qa/QA-REPORT.json")
+    plot_job = _load_json(
+        CARLISLE_RELEASE
+        / "simulation/carlisle-university-fusehill-personalised.plotjob.json"
+    )
+    if import_manifest.get("package_id") != CARLISLE_RELEASE.name:
+        raise VerificationError("Carlisle software import package ID does not match.")
+    if package_manifest.get("package_id") != CARLISLE_RELEASE.name:
+        raise VerificationError("Carlisle package manifest ID does not match.")
+    if source_contract.get("contract_id") != CARLISLE_RELEASE.name:
+        raise VerificationError("Carlisle source contract ID does not match.")
+    if import_manifest.get("status") != "review-only":
+        raise VerificationError("Carlisle package must remain review-only.")
+    if qa_report.get("status") != "pass":
+        raise VerificationError("Carlisle release QA report did not pass.")
+
+    entrypoints = import_manifest.get("entrypoints")
+    integrity = import_manifest.get("integrity")
+    if not isinstance(entrypoints, dict) or not isinstance(integrity, dict):
+        raise VerificationError(
+            "Carlisle import manifest lacks entrypoints or integrity."
+        )
+    digest_bindings = {
+        "master_svg": "master_svg_sha256",
+        "preview_png": "preview_png_sha256",
+        "plot_manifest": "plot_manifest_sha256",
+        "plot_job": "plot_job_file_sha256",
+        "portable_viewer": "portable_viewer_sha256",
+        "machine_profile": "machine_profile_file_sha256",
+        "source_snapshot": "source_snapshot_sha256",
+        "source_query": "source_query_sha256",
+        "source_contract": "source_contract_sha256",
+        "qa_report": "qa_report_sha256",
+    }
+    for entrypoint, digest_key in digest_bindings.items():
+        relative = entrypoints.get(entrypoint)
+        expected = integrity.get(digest_key)
+        if not isinstance(relative, str) or not isinstance(expected, str):
+            raise VerificationError(f"Invalid Carlisle import binding: {entrypoint}.")
+        path = CARLISLE_RELEASE / relative
+        _require_real_file(path)
+        if _sha256(path) != expected:
+            raise VerificationError(f"Carlisle import digest mismatch: {path}.")
+
+    profile = ROOT / "plotter-profiles/axidraw-class-simulation-v1.json"
+    _require_real_file(profile)
+    if _sha256(profile) != integrity.get("machine_profile_file_sha256"):
+        raise VerificationError("Carlisle shared machine-profile digest mismatch.")
+
+    pen_records = import_manifest.get("per_pen_svgs")
+    expected_pens = [
+        "blue-0-4",
+        "blue-0-25",
+        "green-0-25",
+        "purple-0-25",
+        "grey-0-25",
+        "red-0-4",
+        "red-0-25",
+        "black-0-6",
+        "black-1",
+        "black-0-4",
+        "black-0-25",
+    ]
+    if not isinstance(pen_records, list) or len(pen_records) != 11:
+        raise VerificationError("Carlisle import must declare exactly 11 per-pen SVGs.")
+    if any(not isinstance(record, dict) for record in pen_records):
+        raise VerificationError("Carlisle per-pen records must be objects.")
+    if [record.get("load") for record in pen_records] != list(range(1, 12)):
+        raise VerificationError("Carlisle per-pen load order is not contiguous.")
+    if [record.get("pen_id") for record in pen_records] != expected_pens:
+        raise VerificationError("Carlisle physical pen order changed.")
+    for record in pen_records:
+        relative = record.get("path")
+        if not isinstance(relative, str):
+            raise VerificationError("Carlisle per-pen record lacks a path.")
+        _require_real_file(CARLISLE_RELEASE / relative)
+
+    motion_software = import_manifest.get("motion_software")
+    if not isinstance(motion_software, dict):
+        raise VerificationError("Carlisle import lacks motion-software bindings.")
+    for role, relative in motion_software.items():
+        if not isinstance(relative, str):
+            raise VerificationError(f"Invalid Carlisle software binding: {role}.")
+        path = (CARLISLE_RELEASE / relative).resolve()
+        try:
+            path.relative_to(ROOT.resolve())
+        except ValueError as exc:
+            raise VerificationError(
+                f"Carlisle software binding leaves the repository: {role}."
+            ) from exc
+        _require_real_file(path)
+
+    master_digest = integrity["master_svg_sha256"]
+    if plot_job.get("source", {}).get("sha256") != master_digest:
+        raise VerificationError("Carlisle plot job is not bound to its master SVG.")
+    if plot_job.get("preflight", {}).get("path_count") != 2828:
+        raise VerificationError("Carlisle plot-job path count changed.")
+    geometry = plot_job.get("geometry", {})
+    if geometry.get("stroke_count") != 2828 or geometry.get("vertex_count") != 45130:
+        raise VerificationError("Carlisle plot-job geometry counts changed.")
+    if len(plot_job.get("pen_groups", [])) != 11:
+        raise VerificationError("Carlisle plot job must contain eleven pen groups.")
+    if plot_job.get("job_sha256") != import_manifest.get("plot_job", {}).get(
+        "job_sha256"
+    ):
+        raise VerificationError("Carlisle internal plot-job digest changed.")
+    safety = plot_job.get("safety", {})
+    if safety.get("execution_allowed") is not False:
+        raise VerificationError("Carlisle physical execution must remain blocked.")
+    blocker_codes = {
+        finding.get("code")
+        for finding in safety.get("findings", [])
+        if isinstance(finding, dict) and finding.get("severity") == "blocker"
+    }
+    if blocker_codes != {"unmeasured-pens", "uncalibrated-machine-timing"}:
+        raise VerificationError("Carlisle physical safety blockers changed.")
+
+    station_pen = CARLISLE_RELEASE / pen_records[3]["path"]
+    if 'data-osm-id="566812584"' not in station_pen.read_text(encoding="utf-8"):
+        raise VerificationError("Carlisle station is missing from pen load 04.")
+    coverage = source_contract.get("coverage_evidence", {})
+    if "way/566812584" not in coverage.get("required_landmark_refs", []):
+        raise VerificationError(
+            "Carlisle source contract no longer requires the station."
+        )
+    subject_qa = qa_report.get("subject", {})
+    if (
+        subject_qa.get("required_station_building_count") != 1
+        or subject_qa.get("required_university_building_count") != 17
+    ):
+        raise VerificationError("Carlisle station or university-building QA changed.")
+
+    checksum_path = CARLISLE_RELEASE / "CHECKSUMS.sha256"
+    _require_real_file(checksum_path)
+    checked = 0
+    for line_number, raw_line in enumerate(
+        checksum_path.read_text(encoding="utf-8").splitlines(), start=1
+    ):
+        if not raw_line:
+            continue
+        try:
+            expected, relative = raw_line.split("  ", maxsplit=1)
+        except ValueError as exc:
+            raise VerificationError(
+                f"Malformed Carlisle checksum line {line_number}: {raw_line!r}"
+            ) from exc
+        path = CARLISLE_RELEASE / relative
+        _require_real_file(path)
+        if _sha256(path) != expected:
+            raise VerificationError(f"Carlisle release checksum mismatch: {path}")
+        checked += 1
+    if checked != 32:
+        raise VerificationError(f"Expected 32 Carlisle checksums, found {checked}.")
+    return {
+        "carlisle_checksum_count": checked,
+        "carlisle_plot_path_count": plot_job["preflight"]["path_count"],
+        "carlisle_plot_vertex_count": geometry["vertex_count"],
+        "carlisle_per_pen_svg_count": len(pen_records),
+        "carlisle_station_path_count": 1,
+        "carlisle_physical_execution_allowed": False,
     }
 
 
@@ -468,8 +641,7 @@ def _verify_porsche_release() -> dict[str, Any]:
     if (
         source_record.get("native_svg_original") is not True
         or source_record.get("raster_conversion_used") is not False
-        or source_record.get("source_sha256")
-        != integrity.get("geometry_source_sha256")
+        or source_record.get("source_sha256") != integrity.get("geometry_source_sha256")
     ):
         raise VerificationError("Porsche native-SVG source record changed.")
     fact_ledger = _load_json(PORSCHE_RELEASE / entrypoints["fact_ledger"])
@@ -491,9 +663,16 @@ def _verify_porsche_release() -> dict[str, Any]:
 
     master_path = PORSCHE_RELEASE / entrypoints["master_svg"]
     master_text = master_path.read_text(encoding="utf-8")
-    disallowed_svg_fragments = ("stroke-dasharray", "stroke-dashoffset", "<text", "<image")
+    disallowed_svg_fragments = (
+        "stroke-dasharray",
+        "stroke-dashoffset",
+        "<text",
+        "<image",
+    )
     if any(fragment in master_text for fragment in disallowed_svg_fragments):
-        raise VerificationError("Porsche master is not solid, path-only vector artwork.")
+        raise VerificationError(
+            "Porsche master is not solid, path-only vector artwork."
+        )
     forbidden_visible_copy = (
         'data-copy="SOURCE',
         'data-copy="CREATOR',
@@ -560,9 +739,9 @@ def _verify_structure() -> dict[str, Any]:
         )
     repository_pngs = list(ROOT.rglob("*.png"))
     repository_svgs = list(ROOT.rglob("*.svg"))
-    if len(repository_pngs) != 450 or len(repository_svgs) != 471:
+    if len(repository_pngs) != 451 or len(repository_svgs) != 483:
         raise VerificationError(
-            "Expected 450 repository PNGs and 471 repository SVGs, found "
+            "Expected 451 repository PNGs and 483 repository SVGs, found "
             f"{len(repository_pngs)} and {len(repository_svgs)}."
         )
     for path in (*portfolio_pngs, *portfolio_svgs, *repository_pngs, *repository_svgs):
@@ -592,6 +771,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         catalog_count, expected_count = _verify_catalog(full=args.full)
         structure = _verify_structure()
         seaton = _verify_seaton_release()
+        carlisle = _verify_carlisle_release()
         cobra = _verify_cobra_release()
         porsche = _verify_porsche_release()
         checksum_count = _verify_release_checksums() if args.full else None
@@ -606,6 +786,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         "release_checksum_count": checksum_count,
         **structure,
         **seaton,
+        **carlisle,
         **cobra,
         **porsche,
     }
