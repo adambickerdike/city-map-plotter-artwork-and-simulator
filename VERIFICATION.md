@@ -3,7 +3,7 @@
 The original portfolio was verified locally and from a clean GitHub clone on
 18 August 2026. The standalone Seaton Sluice v8 extension was verified locally
 and from a fresh GitHub clone on 29 August 2026. The personalised Carlisle v4
-package was verified locally on 31 August 2026 before publication.
+package was verified locally and from a fresh public clone on 31 August 2026.
 
 ## Repository integrity
 
@@ -53,6 +53,23 @@ Seaton checksum entries:    32 PASS
 remote plot-job inspection: PASS
 remote master bytes:        2,921,678
 remote PNG bytes:           2,666,456
+```
+
+The Carlisle extension was checked from a separate depth-one clone of public
+remote commit `37f7e9f4bf2f174141f1287561c00443343121ee`. LFS smudging was
+disabled for the clone, then all and only the 14 Carlisle artwork objects were
+downloaded directly from GitHub before the package ledger and controller were
+run:
+
+```text
+Git tracked paths:          2,725
+Carlisle LFS paths:         14
+Carlisle LFS pointer files: 0
+Carlisle checksum entries:  32 PASS
+remote plot-job inspection: PASS
+remote master bytes:        3,069,108
+remote PNG bytes:           3,939,461
+remote packaged LFS bytes:  10,559,397
 ```
 
 ## Code verification
