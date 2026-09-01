@@ -17,6 +17,12 @@ root `ATTRIBUTION.md` records the required OpenStreetMap contributor and ODbL
 credit. Embedded SVG metadata, plot manifests, source contracts, organiser
 sources, hashes and licence records remain part of the evidence package.
 
+No shipped production SVG draws map-provider or map-data-licence wording on
+the page, and promoted viewers and galleries do not display it either.
+`python3 scripts/verify_repository.py` enforces that rule across the complete
+repository. The same credit must still accompany a public product in its
+listing, packaging or other external attribution surface.
+
 Do not remove or weaken that evidence when publishing or deriving an artwork.
 
 ## Event and venue names

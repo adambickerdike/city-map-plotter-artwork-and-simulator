@@ -51,7 +51,9 @@ Schemas live in `docs/plotter/`.
 stroke-compilation modules needed by the focused truthfulness suite.
 `test_plotter_system.py` exercises the shared motion/job/controller boundary;
 `test_paper_and_pens.py` checks that paper formats, resolved nibs and simulator
-reports describe the same physical plan. Together they collect 64 tests.
+reports describe the same physical plan; `test_repository_verification.py`
+guards the distinction between non-plotted provenance and forbidden visible
+provider/licence copy. Together they collect 68 tests.
 
 ## `examples/`
 

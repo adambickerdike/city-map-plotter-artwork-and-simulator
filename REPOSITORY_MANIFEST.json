@@ -13,9 +13,9 @@
   },
   "repository_assets": {
     "png_count": 451,
-    "png_bytes": 829174385,
+    "png_bytes": 829158683,
     "svg_count": 483,
-    "svg_bytes": 1392646769,
+    "svg_bytes": 1392621757,
     "git_lfs_patterns": [
       "*.png",
       "*.svg",
@@ -24,7 +24,10 @@
       "artwork/latest-map-portfolio-2026-08-18-v3/06-f1-courses/code/src/city_map_plotter/data/f1-circuits-2026.json"
     ],
     "git_lfs_tracked_path_count": 1364,
-    "git_lfs_approximate_bytes": 3214831946
+    "git_lfs_approximate_bytes": 3214792160,
+    "production_visible_provider_copy_audit": "passed",
+    "production_visible_provider_copy_svg_count": 483,
+    "production_visible_provider_copy_html_count": 18
   },
   "standalone_releases": {
     "seaton_sluice_v8": {
@@ -77,8 +80,22 @@
     "documentation": "docs/plotter/PLOTTER_SOFTWARE.md",
     "focused_test_suites": [
       "tests/test_plotter_system.py",
-      "tests/test_paper_and_pens.py"
+      "tests/test_paper_and_pens.py",
+      "tests/test_repository_verification.py"
     ],
-    "focused_test_count": 64
+    "focused_test_count": 68,
+    "promoted_augusta_example": {
+      "master_svg_sha256": "550918988b11e7d6149fab813015acb3e71ca8d84dda97297234dab106121adb",
+      "preview_png_sha256": "8dc9f4f8d9a69886f04f940891ad7b68f3cb8478153eee4b945cbdda57cda2a5",
+      "plot_manifest_sha256": "8142eb5e0ad353045aef56113a238cf6b15951ad4919cb0f7e47a4ad470071dc",
+      "plot_job_file_sha256": "99395bcccc6f0d76f2ed83e3e75ce8021727373a4c9ac3c565bc7767477ed8ba",
+      "plot_job_sha256": "1ceb34dbb8edc8ba329abab3c237bb35b6698e78e8851814a7b81d0872132dd4",
+      "portable_viewer_sha256": "1194f0fff0650ce5dbac2f879334a6f5e8fb079e05683b873fd435960393b0cd",
+      "stroke_count": 1255,
+      "vertex_count": 9588,
+      "pen_load_count": 9,
+      "removed_visible_provider_path_count": 46,
+      "physical_execution_allowed": false
+    }
   }
 }

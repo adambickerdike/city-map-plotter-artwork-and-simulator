@@ -4,6 +4,8 @@ The original portfolio was verified locally and from a clean GitHub clone on
 18 August 2026. The standalone Seaton Sluice v8 extension was verified locally
 and from a fresh GitHub clone on 29 August 2026. The personalised Carlisle v4
 package was verified locally and from a fresh public clone on 31 August 2026.
+The repository-wide production visible-copy gate and cleaned Augusta simulator
+bundle were verified locally on 1 September 2026.
 
 ## Repository integrity
 
@@ -17,6 +19,7 @@ portfolio checksum entries: 2463 PASS
 Seaton checksum entries:    32 PASS
 Carlisle checksum entries:  32 PASS
 visible page-text audit:     PASS
+production provider-copy:   483 SVG + 18 HTML PASS
 ```
 
 Command:
@@ -75,16 +78,17 @@ remote packaged LFS bytes:  10,559,397
 ## Code verification
 
 ```text
-focused tests:                64 PASS
+focused tests:                68 PASS
 Ruff lint:                    PASS
 Ruff formatting:              PASS
 mypy:                         PASS
 generated viewer JavaScript:  PASS
 ```
 
-The 64 tests are the 29 shared motion/job/controller tests in
+The 68 tests are the 29 shared motion/job/controller tests in
 `test_plotter_system.py` plus the 35 physical paper/nib/simulator truthfulness
-tests in `test_paper_and_pens.py`.
+tests in `test_paper_and_pens.py` and four production visible-copy gate tests
+in `test_repository_verification.py`.
 
 Ruff lint and formatting cover the simulator/controller tools, repository
 verification script and focused tests. The copied renderer modules are retained
@@ -96,18 +100,29 @@ Strict preflight, simulation, portable-viewer generation, plot-job compilation
 and plot-job inspection all passed for the bundled Augusta master:
 
 ```text
-strokes:               1,301
-vertices:              9,846
-pen-down distance:     19.66 m
-pen-up distance:       11.65 m
+strokes:               1,255
+vertices:              9,588
+pen-down distance:     19.35 m
+pen-up distance:       11.48 m
 pen loads:             9
-optimised estimate:    21:37
-uncalibrated interval: 18:22–24:51
+optimised estimate:    21:04
+uncalibrated interval: 17:55–24:14
 ```
 
-The compiled job was SHA-bound and verified. Physical execution correctly
-remained `BLOCKED` because the bundled pens are unmeasured and machine timing
-is nominal.
+The production-copy cleanup removed all 46 plotted provider/licence strokes
+from the master and black 0.40 mm pen file, then regenerated the PNG, portable
+viewer, per-pen hash bindings, document metrics and optimized plot job. The
+compiled job is now SHA-bound to the exact bundled master. Physical execution
+correctly remained `BLOCKED` because the bundled pens are unmeasured and
+machine timing is nominal.
+
+## Production visible-copy proof
+
+The repository verifier scans every drawable SVG `path`, `text` and `tspan`
+copy value plus every promoted viewer, gallery and portfolio page. All 483
+shipped SVGs and 18 public HTML pages passed with zero visible map-provider or
+map-data-licence references. Non-plotted provenance, source contracts and
+licence records remain intact and are deliberately outside this visual gate.
 
 ## Seaton Sluice v8 import proof
 

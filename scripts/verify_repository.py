@@ -6,8 +6,10 @@ from __future__ import annotations
 import argparse
 from collections import Counter
 import hashlib
+import html
 import json
 from pathlib import Path
+import re
 import sys
 from typing import Any, Sequence
 
@@ -43,6 +45,7 @@ REQUIRED_SIMULATOR_FILES = (
     "plotter-profiles/grbl-servo-template-v1.json",
     "tests/test_plotter_system.py",
     "tests/test_paper_and_pens.py",
+    "tests/test_repository_verification.py",
     "examples/augusta-national/augusta-national.svg",
     "examples/augusta-national/augusta-national.png",
     "examples/generated-viewers/augusta-national.html",
@@ -52,6 +55,13 @@ REQUIRED_SIMULATOR_FILES = (
     "scripts/run_porsche_911_targa_studio.sh",
 )
 LFS_POINTER_PREFIX = b"version https://git-lfs.github.com/spec/v1"
+DRAWN_SVG_TAG = re.compile(r"<(?:path|text|tspan)\b[^>]*>", re.IGNORECASE)
+DATA_COPY_ATTRIBUTE = re.compile(r'\bdata-copy="([^"]*)"', re.IGNORECASE)
+VISIBLE_MAP_PROVIDER_REFERENCE = re.compile(
+    r"(?:open\s*street\s*map|\bopenstreetmap\b|\bosm\b|\bodbl(?:[-\s]?1\.0)?\b|"
+    r"open\s+map\s+data)",
+    re.IGNORECASE,
+)
 
 
 class VerificationError(RuntimeError):
@@ -84,6 +94,79 @@ def _require_real_file(path: Path) -> None:
             raise VerificationError(
                 f"{path} is an unresolved Git LFS pointer; run `git lfs pull`."
             )
+
+
+def _visible_map_provider_copy(path: Path) -> set[str]:
+    """Return provider/licence copy attached to drawable SVG elements.
+
+    Source contracts, SVG metadata and ``data-osm-*`` geometry lineage remain
+    intentionally inspectable.  This gate covers only copy that a plotter or
+    renderer can place on the finished sheet.
+    """
+
+    copies: set[str] = set()
+    with path.open("r", encoding="utf-8") as handle:
+        for line in handle:
+            for tag in DRAWN_SVG_TAG.findall(line):
+                copy_match = DATA_COPY_ATTRIBUTE.search(tag)
+                if copy_match is None:
+                    continue
+                copy = html.unescape(copy_match.group(1))
+                if VISIBLE_MAP_PROVIDER_REFERENCE.search(copy):
+                    copies.add(copy)
+            # Generated plotter lettering carries ``data-copy``.  Retain this
+            # fallback for a literal SVG text element introduced by hand.
+            if (
+                "<text" in line or "<tspan" in line
+            ) and VISIBLE_MAP_PROVIDER_REFERENCE.search(html.unescape(line)):
+                copies.add("literal SVG text provider/licence reference")
+    return copies
+
+
+def _html_map_provider_copy(path: Path) -> set[str]:
+    """Return forbidden provider/licence references anywhere in a public page."""
+
+    text = html.unescape(path.read_text(encoding="utf-8"))
+    return {match.group(0) for match in VISIBLE_MAP_PROVIDER_REFERENCE.finditer(text)}
+
+
+def _production_html_pages() -> list[Path]:
+    pages = set((ROOT / "examples/generated-viewers").glob("*.html"))
+    pages.add(PORTFOLIO / "index.html")
+    pages.update((ROOT / "artwork").rglob("simulation/*.html"))
+    pages.update(PORTFOLIO.rglob("gallery.html"))
+    return sorted(pages)
+
+
+def _verify_visible_map_provider_copy() -> dict[str, Any]:
+    failures: list[str] = []
+    inspected = 0
+    for path in sorted(ROOT.rglob("*.svg")):
+        _require_real_file(path)
+        inspected += 1
+        copies = _visible_map_provider_copy(path)
+        if copies:
+            failures.append(
+                f"{path.relative_to(ROOT).as_posix()}: {', '.join(sorted(copies))}"
+            )
+    html_pages = _production_html_pages()
+    for path in html_pages:
+        _require_real_file(path)
+        copies = _html_map_provider_copy(path)
+        if copies:
+            failures.append(
+                f"{path.relative_to(ROOT).as_posix()}: {', '.join(sorted(copies))}"
+            )
+    if failures:
+        raise VerificationError(
+            "Visible map-provider/licence copy remains on production artwork: "
+            + "; ".join(failures)
+        )
+    return {
+        "production_visible_provider_copy_audit": "passed",
+        "production_visible_provider_copy_svg_count": inspected,
+        "production_visible_provider_copy_html_count": len(html_pages),
+    }
 
 
 def _verify_catalog(*, full: bool) -> tuple[int, int]:
@@ -717,6 +800,144 @@ def _verify_porsche_release() -> dict[str, Any]:
     }
 
 
+def _verify_augusta_release() -> dict[str, Any]:
+    release = ROOT / "examples/augusta-national"
+    master_path = release / "augusta-national.svg"
+    png_path = release / "augusta-national.png"
+    manifest_path = release / "augusta-national.plot.json"
+    plot_job_path = ROOT / "examples/generated-viewers/augusta-national.plotjob.json"
+    viewer_path = ROOT / "examples/generated-viewers/augusta-national.html"
+    for path in (master_path, png_path, manifest_path, plot_job_path, viewer_path):
+        _require_real_file(path)
+
+    manifest = _load_json(manifest_path)
+    plot_job = _load_json(plot_job_path)
+    master_digest = _sha256(master_path)
+    rendering = manifest.get("rendering", {})
+    if (
+        rendering.get("visible_attribution") is not False
+        or rendering.get("on_page_openstreetmap_reference") is not False
+        or rendering.get("openstreetmap_attribution_mode") != "external"
+        or rendering.get("external_openstreetmap_attribution_placement")
+        != "Repository ARTWORK_AND_DATA_NOTICE.md and product listing or packaging"
+    ):
+        raise VerificationError("Augusta visible/external attribution state changed.")
+
+    transform = manifest.get("presentation_transform", {})
+    if (
+        transform.get("removed_visible_path_count") != 46
+        or transform.get("pen_files_regenerated") is not True
+        or transform.get("machine_metrics_regenerated") is not True
+        or transform.get("source_provenance_retained") is not True
+        or transform.get("source_licence_metadata_retained") is not True
+    ):
+        raise VerificationError("Augusta production presentation transform changed.")
+
+    outputs = manifest.get("outputs", {})
+    output_bindings = (
+        (outputs.get("svg"), master_path),
+        (outputs.get("png"), png_path),
+    )
+    for record, path in output_bindings:
+        if not isinstance(record, dict) or record.get("sha256") != _sha256(path):
+            raise VerificationError(f"Augusta output digest mismatch: {path}.")
+    pen_files = outputs.get("pen_files")
+    if not isinstance(pen_files, list) or len(pen_files) != 9:
+        raise VerificationError("Augusta must contain exactly nine per-pen SVGs.")
+    if [record.get("step") for record in pen_files] != list(range(1, 10)):
+        raise VerificationError("Augusta per-pen load order changed.")
+    for record in pen_files:
+        relative = record.get("path")
+        expected = record.get("sha256")
+        if not isinstance(relative, str) or not isinstance(expected, str):
+            raise VerificationError("Invalid Augusta per-pen output binding.")
+        path = release / relative
+        _require_real_file(path)
+        if _sha256(path) != expected:
+            raise VerificationError(f"Augusta per-pen digest mismatch: {path}.")
+
+    master_text = master_path.read_text(encoding="utf-8")
+    black_pen_path = release / "augusta-national.pen-07-black-0-4.svg"
+    black_pen_text = black_pen_path.read_text(encoding="utf-8")
+    if len(re.findall(r"<path\b", master_text)) != 1255:
+        raise VerificationError("Augusta cleaned master path count changed.")
+    if len(re.findall(r"<path\b", black_pen_text)) != 295:
+        raise VerificationError("Augusta cleaned black-0.4 path count changed.")
+    if 'data-logical-layer="plate_attribution"' in master_text or (
+        'data-logical-layer="plate_attribution"' in black_pen_text
+    ):
+        raise VerificationError("Augusta plotted attribution geometry reappeared.")
+
+    summary = manifest.get("plot_summary", {})
+    if (
+        summary.get("pen_down_path_count") != 1255
+        or summary.get("pen_down_distance_mm") != 19349.4
+        or summary.get("pen_up_travel_mm") != 14447.0
+    ):
+        raise VerificationError("Augusta cleaned manifest motion metrics changed.")
+
+    if plot_job.get("source", {}).get("sha256") != master_digest:
+        raise VerificationError(
+            "Augusta plot job is not bound to its cleaned master SVG."
+        )
+    if plot_job.get("preflight", {}).get("path_count") != 1255:
+        raise VerificationError("Augusta plot-job path count changed.")
+    geometry = plot_job.get("geometry", {})
+    if geometry.get("stroke_count") != 1255 or geometry.get("vertex_count") != 9588:
+        raise VerificationError("Augusta plot-job geometry counts changed.")
+    if len(plot_job.get("pen_groups", [])) != 9:
+        raise VerificationError("Augusta plot job must contain nine pen groups.")
+    safety = plot_job.get("safety", {})
+    if safety.get("execution_allowed") is not False:
+        raise VerificationError("Augusta physical execution must remain blocked.")
+    blocker_codes = {
+        finding.get("code")
+        for finding in safety.get("findings", [])
+        if isinstance(finding, dict) and finding.get("severity") == "blocker"
+    }
+    if blocker_codes != {"unmeasured-pens", "uncalibrated-machine-timing"}:
+        raise VerificationError("Augusta physical safety blockers changed.")
+
+    if transform.get("optimised_plot_job_sha256") != _sha256(plot_job_path):
+        raise VerificationError("Augusta transformed plot-job digest changed.")
+    if transform.get("portable_viewer_sha256") != _sha256(viewer_path):
+        raise VerificationError("Augusta transformed viewer digest changed.")
+    if master_digest not in viewer_path.read_text(encoding="utf-8"):
+        raise VerificationError(
+            "Augusta viewer is not bound to its cleaned master SVG."
+        )
+
+    repository_manifest = _load_json(ROOT / "REPOSITORY_MANIFEST.json")
+    promoted = repository_manifest.get("simulator", {}).get(
+        "promoted_augusta_example", {}
+    )
+    promoted_bindings = {
+        "master_svg_sha256": master_digest,
+        "preview_png_sha256": _sha256(png_path),
+        "plot_manifest_sha256": _sha256(manifest_path),
+        "plot_job_file_sha256": _sha256(plot_job_path),
+        "portable_viewer_sha256": _sha256(viewer_path),
+    }
+    if any(promoted.get(key) != value for key, value in promoted_bindings.items()):
+        raise VerificationError("Repository manifest Augusta digest bindings changed.")
+    if (
+        promoted.get("plot_job_sha256") != plot_job.get("job_sha256")
+        or promoted.get("stroke_count") != 1255
+        or promoted.get("vertex_count") != 9588
+        or promoted.get("removed_visible_provider_path_count") != 46
+    ):
+        raise VerificationError("Repository manifest Augusta evidence changed.")
+
+    return {
+        "augusta_plot_path_count": 1255,
+        "augusta_plot_vertex_count": 9588,
+        "augusta_pen_load_count": 9,
+        "augusta_removed_visible_provider_path_count": 46,
+        "augusta_plotjob_source_bound": True,
+        "augusta_physical_execution_allowed": False,
+    }
+
+
 def _verify_structure() -> dict[str, Any]:
     for relative in REQUIRED_SIMULATOR_FILES:
         _require_real_file(ROOT / relative)
@@ -746,6 +967,22 @@ def _verify_structure() -> dict[str, Any]:
         )
     for path in (*portfolio_pngs, *portfolio_svgs, *repository_pngs, *repository_svgs):
         _require_real_file(path)
+    repository_manifest = _load_json(ROOT / "REPOSITORY_MANIFEST.json")
+    repository_assets = repository_manifest.get("repository_assets", {})
+    expected_asset_inventory = {
+        "png_count": len(repository_pngs),
+        "png_bytes": sum(path.stat().st_size for path in repository_pngs),
+        "svg_count": len(repository_svgs),
+        "svg_bytes": sum(path.stat().st_size for path in repository_svgs),
+        "production_visible_provider_copy_audit": "passed",
+        "production_visible_provider_copy_svg_count": len(repository_svgs),
+        "production_visible_provider_copy_html_count": len(_production_html_pages()),
+    }
+    if any(
+        repository_assets.get(key) != value
+        for key, value in expected_asset_inventory.items()
+    ):
+        raise VerificationError("Repository asset inventory is stale.")
     return {
         "portfolio_png_count": len(portfolio_pngs),
         "portfolio_svg_count": len(portfolio_svgs),
@@ -774,6 +1011,8 @@ def main(argv: Sequence[str] | None = None) -> int:
         carlisle = _verify_carlisle_release()
         cobra = _verify_cobra_release()
         porsche = _verify_porsche_release()
+        augusta = _verify_augusta_release()
+        visible_provider_copy = _verify_visible_map_provider_copy()
         checksum_count = _verify_release_checksums() if args.full else None
     except VerificationError as exc:
         print(f"verify_repository: {exc}", file=sys.stderr)
@@ -789,6 +1028,8 @@ def main(argv: Sequence[str] | None = None) -> int:
         **carlisle,
         **cobra,
         **porsche,
+        **augusta,
+        **visible_provider_copy,
     }
     print(json.dumps(report, indent=2, sort_keys=True))
     return 0

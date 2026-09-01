@@ -107,6 +107,12 @@ the complete portfolio, all contact sheets, the Augusta simulator example, the
 standalone Carlisle and Seaton masters and pen-separated jobs, and both
 technical-blueprint masters with their pinned native-SVG evidence.
 
+All 483 SVGs and 18 promoted HTML pages pass the production visible-copy gate:
+no map-provider or map-data-licence wording is drawn on the sheets or shown in
+their public viewers and galleries. Required source and licence evidence
+remains external to the artwork in metadata, contracts and
+[`ARTWORK_AND_DATA_NOTICE.md`](ARTWORK_AND_DATA_NOTICE.md).
+
 ## Clone the complete files
 
 PNG, SVG and plot-manifest assets are stored with Git LFS. The 122 MiB F1
@@ -215,6 +221,7 @@ those gates to make a job run.
 python3 scripts/verify_repository.py --full
 .venv/bin/pytest -q tests/test_plotter_system.py
 .venv/bin/pytest -q tests/test_paper_and_pens.py
+.venv/bin/pytest -q tests/test_repository_verification.py
 .venv/bin/ruff check tools tests scripts
 .venv/bin/mypy tools/plotsim.py tools/plotjob.py \
   tools/build_plotsim_viewer.py tools/plotter_studio.py
@@ -222,7 +229,7 @@ python3 scripts/verify_repository.py --full
 
 The source portfolio already records:
 
-- 64 focused simulator, controller and physical-pen truthfulness tests;
+- 68 focused simulator, controller, physical-pen and production-copy tests;
 - 423 format-valid master SVGs;
 - 22 PNG and 22 SVG contact sheets;
 - complete SHA-256 inventory coverage;
