@@ -1,0 +1,510 @@
+{
+  "id": "old-course-st-andrews",
+  "domain": "07-golf-courses",
+  "title": "THE OLD COURSE",
+  "artifact_version": 1,
+  "format_id": "a3-portrait",
+  "source": {
+    "svg_sha256": "f13d2fc7a69a898d2147973f7e53f04984742cf47d5e0cd334d5c147bf33bab3",
+    "manifest_sha256": "f501133eb2ae7684d2e57223f054329df8c8caccf65eb98d816a7555e4710519",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/07-golf-courses/artwork/old-course-st-andrews.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 10,
+      "pen_changes": 9,
+      "pen_down_path_count": 727,
+      "pen_down_distance_mm": 11748.8,
+      "pen_up_travel_mm": 9827.2,
+      "travel_ratio": 0.836,
+      "estimated_plot_seconds_including_pen_up": 458.5,
+      "field_ink_mm2_upper_bound": 2584.8,
+      "field_ink_coverage_upper_bound": 0.040305,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "course_paths",
+          "bunkers",
+          "field_frame"
+        ],
+        "path_count": 158,
+        "pen_down_distance_mm": 1806.8,
+        "pen_up_travel_mm": 1561.4,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 51.6,
+        "estimated_plot_seconds_including_pen_up": 71.1,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "playing_envelope"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 725.2,
+        "pen_up_travel_mm": 15.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 20.7,
+        "estimated_plot_seconds_including_pen_up": 20.9,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "fairways"
+        ],
+        "path_count": 149,
+        "pen_down_distance_mm": 1749.9,
+        "pen_up_travel_mm": 695.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 50.0,
+        "estimated_plot_seconds_including_pen_up": 58.7,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.4",
+        "pen_id": "green-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "greens_and_tees"
+        ],
+        "path_count": 54,
+        "pen_down_distance_mm": 615.3,
+        "pen_up_travel_mm": 953.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 17.6,
+        "estimated_plot_seconds_including_pen_up": 29.5,
+        "instruction": "Load Green 0.4 (green-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water_stipple"
+        ],
+        "path_count": 19,
+        "pen_down_distance_mm": 21.2,
+        "pen_up_travel_mm": 661.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 0.6,
+        "estimated_plot_seconds_including_pen_up": 8.9,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Blue 0.4",
+        "pen_id": "blue-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water"
+        ],
+        "path_count": 7,
+        "pen_down_distance_mm": 91.6,
+        "pen_up_travel_mm": 585.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 2.6,
+        "estimated_plot_seconds_including_pen_up": 9.9,
+        "instruction": "Load Blue 0.4 (blue-0-4) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Red 0.25",
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hole_markers"
+        ],
+        "path_count": 36,
+        "pen_down_distance_mm": 565.4,
+        "pen_up_travel_mm": 858.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 16.2,
+        "estimated_plot_seconds_including_pen_up": 26.9,
+        "instruction": "Load Red 0.25 (red-0-25) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "hole_numbers",
+          "map_reference",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 310,
+        "pen_down_distance_mm": 2221.7,
+        "pen_up_travel_mm": 3449.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 63.5,
+        "estimated_plot_seconds_including_pen_up": 106.6,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 9,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 20,
+        "pen_down_distance_mm": 3091.5,
+        "pen_up_travel_mm": 714.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 88.3,
+        "estimated_plot_seconds_including_pen_up": 97.3,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 09.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 10,
+        "pen": "Gold 1",
+        "pen_id": "gold-1",
+        "pen_profile": "actual-pens",
+        "ink": "Gold",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#b88900",
+        "layers": [
+          "holes"
+        ],
+        "path_count": 19,
+        "pen_down_distance_mm": 860.2,
+        "pen_up_travel_mm": 331.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 24.6,
+        "estimated_plot_seconds_including_pen_up": 28.7,
+        "instruction": "Load Gold 1 (gold-1) and plot SVG layer 10.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/old-course-st-andrews.svg",
+        "sha256": "f13d2fc7a69a898d2147973f7e53f04984742cf47d5e0cd334d5c147bf33bab3"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/old-course-st-andrews.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/old-course-st-andrews.pen-01-grey-0-25.svg",
+          "sha256": "1c1743ed144132a549262cabe94236ec6ab246ca7f0dee01872090dc703ed872"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/old-course-st-andrews.pen-02-grey-0-4.svg",
+          "sha256": "235907ace42cefac0e03e036f54ae65ddeddd811edf1a8e3a113ec4cb8d7f45e"
+        },
+        {
+          "step": 3,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/old-course-st-andrews.pen-03-green-0-25.svg",
+          "sha256": "a08d83ed19d54bd8a832fd10f55961a6fe88b02152885dd7cf994ded6e52349e"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.4",
+          "pen_id": "green-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/old-course-st-andrews.pen-04-green-0-4.svg",
+          "sha256": "36295df413eae850e4d844b53c5e756a281a2c850bde41d0b4934e1b9492b8af"
+        },
+        {
+          "step": 5,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/old-course-st-andrews.pen-05-blue-0-25.svg",
+          "sha256": "51be2fc16c728f2fb5704197d42bef12fdb57789c94fd8861f763420b56b4e02"
+        },
+        {
+          "step": 6,
+          "pen": "Blue 0.4",
+          "pen_id": "blue-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/old-course-st-andrews.pen-06-blue-0-4.svg",
+          "sha256": "8e652cf8ec3f8299ff2fd035dd6b7801f3215728a475c37e7e6b5a5a5b7ce23e"
+        },
+        {
+          "step": 7,
+          "pen": "Red 0.25",
+          "pen_id": "red-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/old-course-st-andrews.pen-07-red-0-25.svg",
+          "sha256": "0b4827702e43a9ad08a926139f9e93a13333d43f00f7eb4afbf7c515d10299e3"
+        },
+        {
+          "step": 8,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/old-course-st-andrews.pen-08-black-0-4.svg",
+          "sha256": "5659faa49c2daf18bc12ed5cea64c8a980f921308c530423a1609ce3c980722a"
+        },
+        {
+          "step": 9,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/old-course-st-andrews.pen-09-black-1.svg",
+          "sha256": "097ae1f4a14c459e696d88989286bba4cee263c31779ddda294edd85470697bf"
+        },
+        {
+          "step": 10,
+          "pen": "Gold 1",
+          "pen_id": "gold-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/old-course-st-andrews.pen-10-gold-1.svg",
+          "sha256": "bb960fead21ec33c926b301eb2b180249c779b36f8fd5acd24966b543284307a"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/old-course-st-andrews.png",
+        "dpi": 180.0,
+        "sha256": "1f992e09f5f1c8cadb8f18ae5c8a36e41745a42bd344feda0d2e55879f33efaa"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "83b19efa9c77c16a29efba2736d279a338a4407394109bfd9b05a0d69af527eb",
+        "png": "eaa8220df29860415637bfa696445ba5b822ca6e1fedcabaffe3f50ed8ac5b9b",
+        "manifest": "19b98765f1fae17e14e81b04d3f3093877149e362f87f1832bcb15fe0eb82ae5"
+      },
+      "removed_visible_path_count": 46,
+      "removed_visible_copy_values": [
+        "© OpenStreetMap contributors / ODbL-1.0"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "07-golf-courses/old-course-st-andrews/old-course-st-andrews.svg",
+    "sha256": "58437075445983e6f36e48a5f849ad2eb60ade7273ba8b119da7457b53e0ae48",
+    "bytes": 254266
+  },
+  "png": {
+    "path": "07-golf-courses/old-course-st-andrews/old-course-st-andrews.png",
+    "sha256": "35b340c08a4aceaaa31c575da0f544c04bbe7fa98b0ea86cc7c5f51e04ddbb69",
+    "bytes": 802775
+  },
+  "thumbnail": {
+    "path": "07-golf-courses/old-course-st-andrews/thumbnail.png",
+    "sha256": "057612e8f119eaae25bbe07f6916e1b4a4682316cde1244826ada45d117c9dfe",
+    "bytes": 72184
+  },
+  "manifest": {
+    "path": "07-golf-courses/old-course-st-andrews/old-course-st-andrews.plot.json",
+    "sha256": "3fa329056d2c5c46193401be1a1ef63bc7d48b74839d91babe23de6138173a4f",
+    "bytes": 590007
+  },
+  "job": {
+    "path": "07-golf-courses/old-course-st-andrews/old-course-st-andrews.plotjob.json",
+    "sha256": "e28d38c1ddb5aaa7e15f5a2307c4347a54f3821a8dc369866faaf19d66e02299",
+    "bytes": 507498
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "07-golf-courses/old-course-st-andrews/pens/old-course-st-andrews.pen-01-grey-0-25.svg",
+      "sha256": "7eea6f334af5f1905352eec960cabe677a16a31e21bd58112fdd15507d14596b",
+      "bytes": 67977
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "07-golf-courses/old-course-st-andrews/pens/old-course-st-andrews.pen-02-grey-0-4.svg",
+      "sha256": "9d34fd69f640722029b3cdf371d0df3687cd4775e75081d1b070b670185ffd0f",
+      "bytes": 6789
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "07-golf-courses/old-course-st-andrews/pens/old-course-st-andrews.pen-03-green-0-25.svg",
+      "sha256": "c56f44c283427be5371a007d72eb5e001e5c22d6259d21b9e0675ca4888cc5d1",
+      "bytes": 75894
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-4",
+      "path": "07-golf-courses/old-course-st-andrews/pens/old-course-st-andrews.pen-04-green-0-4.svg",
+      "sha256": "b44ca3c8e50cca944e0f1cbb67b3de9575a61ce2437d4a33500a21685e4009ae",
+      "bytes": 28415
+    },
+    {
+      "step": 5,
+      "pen_id": "blue-0-25",
+      "path": "07-golf-courses/old-course-st-andrews/pens/old-course-st-andrews.pen-05-blue-0-25.svg",
+      "sha256": "af4a6695cd95bd33f2f3a69a406de4f33fc52543bf766a491c2d01bedebf63c5",
+      "bytes": 15950
+    },
+    {
+      "step": 6,
+      "pen_id": "blue-0-4",
+      "path": "07-golf-courses/old-course-st-andrews/pens/old-course-st-andrews.pen-06-blue-0-4.svg",
+      "sha256": "b5ecd4be7e2466bcb2963c6e811f460d1968f9350ba284848ab9d8619690a54e",
+      "bytes": 6372
+    },
+    {
+      "step": 7,
+      "pen_id": "red-0-25",
+      "path": "07-golf-courses/old-course-st-andrews/pens/old-course-st-andrews.pen-07-red-0-25.svg",
+      "sha256": "9fe20429fb322ca9593067338908c26da0e0b170a978b8295a3c0053ee86ae91",
+      "bytes": 22858
+    },
+    {
+      "step": 8,
+      "pen_id": "black-0-4",
+      "path": "07-golf-courses/old-course-st-andrews/pens/old-course-st-andrews.pen-08-black-0-4.svg",
+      "sha256": "510e0e4f74b488e4a0e5b07230a5d714a2dda999ea86da472b2700f5e87f5c33",
+      "bytes": 34743
+    },
+    {
+      "step": 9,
+      "pen_id": "black-1",
+      "path": "07-golf-courses/old-course-st-andrews/pens/old-course-st-andrews.pen-09-black-1.svg",
+      "sha256": "a028a21bb5e22de5b8b37c43dbd394938085307f92f2c28e8c770b4d82accccf",
+      "bytes": 5945
+    },
+    {
+      "step": 10,
+      "pen_id": "gold-1",
+      "path": "07-golf-courses/old-course-st-andrews/pens/old-course-st-andrews.pen-10-gold-1.svg",
+      "sha256": "bb960fead21ec33c926b301eb2b180249c779b36f8fd5acd24966b543284307a",
+      "bytes": 9978
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 312,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "18 HOLES",
+    "HOME OF GOLF",
+    "ST ANDREWS, FIFE / SCOTLAND",
+    "THE OLD COURSE",
+    "THE OPEN"
+  ],
+  "stroke_count": 587,
+  "pen_count": 10,
+  "physical_execution_allowed": false
+}

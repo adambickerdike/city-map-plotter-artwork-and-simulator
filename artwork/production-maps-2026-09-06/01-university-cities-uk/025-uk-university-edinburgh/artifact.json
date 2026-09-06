@@ -1,0 +1,841 @@
+{
+  "id": "025-uk-university-edinburgh",
+  "domain": "01-university-cities-uk",
+  "title": "EDINBURGH",
+  "artifact_version": 4,
+  "format_id": "a5-portrait",
+  "source": {
+    "svg_sha256": "0999851d7b3d0958876f434d263dfb7de273c1353ab81dfbfd6e1f0a87be0a2a",
+    "manifest_sha256": "07c7ba0f870bbf9ef5dcf96bf01b231abf4f8aea468541c3f00070dd7f920905",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/01-university-cities-uk/artwork/025-uk-university-edinburgh.svg",
+    "original_plot_summary": {
+      "inventory_pen_slots": 10,
+      "physical_pen_steps": 10,
+      "pen_changes": 9,
+      "pen_down_path_count": 4846,
+      "pen_down_distance_mm": 27840.7,
+      "pen_up_travel_mm": 14051.2,
+      "estimated_plot_seconds_including_pen_up": 3231.3,
+      "lower_bound_seconds_excluding_all_pen_up_travel": 3029.5,
+      "lower_bound_timing_scope": "all emitted paths; includes nominal drawing and one lift cycle per path, but excludes all pen-up travel and manual pen-change time",
+      "lower_bound_timing_assumptions": {
+        "draw_speed_mm_s": 40.0,
+        "lift_seconds_per_path": 0.4,
+        "safety_factor": 1.15
+      },
+      "map_path_optimisation": {
+        "enabled": true,
+        "algorithm": "exact-nearest-endpoint-with-uniform-grid-and-global-fallback",
+        "fallback_applied": false,
+        "bucket_count": 10,
+        "reversed_stroke_count": 1884,
+        "empty_stroke_count": 0,
+        "before": {
+          "pen_down_distance_mm": 25208.7,
+          "pen_up_travel_mm": 50637.8,
+          "stroke_count": 4729,
+          "lift_count": 4729,
+          "estimated_plot_seconds": 3482.4,
+          "estimated_plot_minutes": 58.04
+        },
+        "after": {
+          "pen_down_distance_mm": 25208.7,
+          "pen_up_travel_mm": 12023.2,
+          "stroke_count": 4729,
+          "lift_count": 4729,
+          "estimated_plot_seconds": 3038.4,
+          "estimated_plot_minutes": 50.64
+        },
+        "pen_up_saved_mm": 38614.6,
+        "timing_assumptions": {
+          "draw_speed_mm_s": 40.0,
+          "travel_speed_mm_s": 100.0,
+          "lift_seconds": 0.4,
+          "safety_factor": 1.15
+        },
+        "scope": "map paths only; furniture is listed separately by layer"
+      }
+    },
+    "original_pen_sequence": [
+      {
+        "pen": "Blue 0.4",
+        "pen_id": "blue-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#6eadd0",
+        "layers": [
+          "water_areas"
+        ],
+        "layer_settings": [
+          {
+            "id": "water_areas",
+            "strokes": 1,
+            "passes": 1,
+            "requested_width_mm": 0.4,
+            "plotted_width_mm": 0.4,
+            "width_fit_error_mm": 0.0,
+            "offset_pitch_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          }
+        ],
+        "path_count": 47,
+        "pen_down_distance_mm": 343.8,
+        "step": 1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "settings_vary_by_layer": false,
+        "minimum_plot_seconds": 31.5,
+        "timing_scope": "all emitted paths in these layers; excludes pen-up travel and manual pen-change time",
+        "instruction": "Load Blue 0.4 (blue-0-4) and plot layers: water_areas.",
+        "configured_layers": [
+          "water_areas",
+          "rivers"
+        ],
+        "omitted_layers": [
+          "rivers"
+        ],
+        "empty": false,
+        "slot_status": "active",
+        "pen_up_travel_mm": 382.1,
+        "pen_up_schedule_scope": "exact emitted path order; includes home-to-first travel and excludes return-home and manual pen-change motion",
+        "estimated_plot_seconds_including_pen_up": 37.0
+      },
+      {
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#78b4d3",
+        "layers": [
+          "waterways"
+        ],
+        "layer_settings": [
+          {
+            "id": "waterways",
+            "strokes": 1,
+            "passes": 1,
+            "requested_width_mm": 0.25,
+            "plotted_width_mm": 0.25,
+            "width_fit_error_mm": 0.0,
+            "offset_pitch_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          }
+        ],
+        "path_count": 28,
+        "pen_down_distance_mm": 151.1,
+        "step": 2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "settings_vary_by_layer": false,
+        "minimum_plot_seconds": 17.2,
+        "timing_scope": "all emitted paths in these layers; excludes pen-up travel and manual pen-change time",
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot layers: waterways.",
+        "configured_layers": [
+          "waterways"
+        ],
+        "omitted_layers": [],
+        "empty": false,
+        "slot_status": "active",
+        "pen_up_travel_mm": 563.8,
+        "pen_up_schedule_scope": "exact emitted path order; includes home-to-first travel and excludes return-home and manual pen-change motion",
+        "estimated_plot_seconds_including_pen_up": 25.3
+      },
+      {
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#82b89a",
+        "layers": [
+          "green_space"
+        ],
+        "layer_settings": [
+          {
+            "id": "green_space",
+            "strokes": 1,
+            "passes": 1,
+            "requested_width_mm": 0.25,
+            "plotted_width_mm": 0.25,
+            "width_fit_error_mm": 0.0,
+            "offset_pitch_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          }
+        ],
+        "path_count": 753,
+        "pen_down_distance_mm": 6770.8,
+        "step": 3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "settings_vary_by_layer": false,
+        "minimum_plot_seconds": 541.0,
+        "timing_scope": "all emitted paths in these layers; excludes pen-up travel and manual pen-change time",
+        "instruction": "Load Green 0.25 (green-0-25) and plot layers: green_space.",
+        "configured_layers": [
+          "green_space"
+        ],
+        "omitted_layers": [],
+        "empty": false,
+        "slot_status": "active",
+        "pen_up_travel_mm": 2831.3,
+        "pen_up_schedule_scope": "exact emitted path order; includes home-to-first travel and excludes return-home and manual pen-change motion",
+        "estimated_plot_seconds_including_pen_up": 581.7
+      },
+      {
+        "pen": "Purple 0.25",
+        "pen_id": "purple-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Purple",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#98769f",
+        "layers": [
+          "buildings"
+        ],
+        "layer_settings": [
+          {
+            "id": "buildings",
+            "strokes": 1,
+            "passes": 1,
+            "requested_width_mm": 0.25,
+            "plotted_width_mm": 0.25,
+            "width_fit_error_mm": 0.0,
+            "offset_pitch_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          }
+        ],
+        "path_count": 13,
+        "pen_down_distance_mm": 208.8,
+        "step": 4,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "settings_vary_by_layer": false,
+        "minimum_plot_seconds": 12.0,
+        "timing_scope": "all emitted paths in these layers; excludes pen-up travel and manual pen-change time",
+        "instruction": "Load Purple 0.25 (purple-0-25) and plot layers: buildings.",
+        "configured_layers": [
+          "buildings"
+        ],
+        "omitted_layers": [],
+        "empty": false,
+        "slot_status": "active",
+        "pen_up_travel_mm": 284.8,
+        "pen_up_schedule_scope": "exact emitted path order; includes home-to-first travel and excludes return-home and manual pen-change motion",
+        "estimated_plot_seconds_including_pen_up": 16.1
+      },
+      {
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#a4abb1",
+        "layers": [
+          "road_areas",
+          "roads_local",
+          "paths",
+          "railways"
+        ],
+        "layer_settings": [
+          {
+            "id": "road_areas",
+            "strokes": 1,
+            "passes": 1,
+            "requested_width_mm": 0.25,
+            "plotted_width_mm": 0.25,
+            "width_fit_error_mm": 0.0,
+            "offset_pitch_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          },
+          {
+            "id": "roads_local",
+            "strokes": 1,
+            "passes": 1,
+            "requested_width_mm": 0.25,
+            "plotted_width_mm": 0.25,
+            "width_fit_error_mm": 0.0,
+            "offset_pitch_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          },
+          {
+            "id": "paths",
+            "strokes": 1,
+            "passes": 1,
+            "requested_width_mm": 0.25,
+            "plotted_width_mm": 0.25,
+            "width_fit_error_mm": 0.0,
+            "offset_pitch_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          },
+          {
+            "id": "railways",
+            "strokes": 1,
+            "passes": 1,
+            "requested_width_mm": 0.25,
+            "plotted_width_mm": 0.25,
+            "width_fit_error_mm": 0.0,
+            "offset_pitch_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          }
+        ],
+        "path_count": 3730,
+        "pen_down_distance_mm": 15746.2,
+        "step": 5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "settings_vary_by_layer": false,
+        "minimum_plot_seconds": 2168.5,
+        "timing_scope": "all emitted paths in these layers; excludes pen-up travel and manual pen-change time",
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot layers: road_areas, roads_local, paths, railways.",
+        "configured_layers": [
+          "road_areas",
+          "roads_local",
+          "roads_other",
+          "paths",
+          "railways"
+        ],
+        "omitted_layers": [
+          "roads_other"
+        ],
+        "empty": false,
+        "slot_status": "active",
+        "pen_up_travel_mm": 7446.7,
+        "pen_up_schedule_scope": "exact emitted path order; includes home-to-first travel and excludes return-home and manual pen-change motion",
+        "estimated_plot_seconds_including_pen_up": 2275.5
+      },
+      {
+        "pen": "Red 0.4",
+        "pen_id": "red-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#cf807a",
+        "layers": [
+          "roads_major"
+        ],
+        "layer_settings": [
+          {
+            "id": "roads_major",
+            "strokes": 1,
+            "passes": 1,
+            "requested_width_mm": 0.4,
+            "plotted_width_mm": 0.4,
+            "width_fit_error_mm": 0.0,
+            "offset_pitch_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          }
+        ],
+        "path_count": 37,
+        "pen_down_distance_mm": 598.4,
+        "step": 6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "settings_vary_by_layer": false,
+        "minimum_plot_seconds": 34.2,
+        "timing_scope": "all emitted paths in these layers; excludes pen-up travel and manual pen-change time",
+        "instruction": "Load Red 0.4 (red-0-4) and plot layers: roads_major.",
+        "configured_layers": [
+          "roads_major"
+        ],
+        "omitted_layers": [],
+        "empty": false,
+        "slot_status": "active",
+        "pen_up_travel_mm": 578.1,
+        "pen_up_schedule_scope": "exact emitted path order; includes home-to-first travel and excludes return-home and manual pen-change motion",
+        "estimated_plot_seconds_including_pen_up": 42.5
+      },
+      {
+        "pen": "Red 0.25",
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#d99a94",
+        "layers": [
+          "roads_secondary"
+        ],
+        "layer_settings": [
+          {
+            "id": "roads_secondary",
+            "strokes": 1,
+            "passes": 1,
+            "requested_width_mm": 0.25,
+            "plotted_width_mm": 0.25,
+            "width_fit_error_mm": 0.0,
+            "offset_pitch_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          }
+        ],
+        "path_count": 121,
+        "pen_down_distance_mm": 1389.4,
+        "step": 7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "settings_vary_by_layer": false,
+        "minimum_plot_seconds": 95.6,
+        "timing_scope": "all emitted paths in these layers; excludes pen-up travel and manual pen-change time",
+        "instruction": "Load Red 0.25 (red-0-25) and plot layers: roads_secondary.",
+        "configured_layers": [
+          "roads_secondary"
+        ],
+        "omitted_layers": [],
+        "empty": false,
+        "slot_status": "active",
+        "pen_up_travel_mm": 940.6,
+        "pen_up_schedule_scope": "exact emitted path order; includes home-to-first travel and excludes return-home and manual pen-change motion",
+        "estimated_plot_seconds_including_pen_up": 109.1
+      },
+      {
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#17212b",
+        "layers": [
+          "frame",
+          "poster_title",
+          "poster_compass"
+        ],
+        "layer_settings": [
+          {
+            "id": "frame",
+            "strokes": 1,
+            "passes": 1,
+            "requested_width_mm": 0.4,
+            "plotted_width_mm": 0.4,
+            "width_fit_error_mm": 0.0,
+            "offset_pitch_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          },
+          {
+            "id": "poster_title",
+            "strokes": 1,
+            "passes": 1,
+            "requested_width_mm": 0.4,
+            "plotted_width_mm": 0.4,
+            "width_fit_error_mm": 0.0,
+            "offset_pitch_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          },
+          {
+            "id": "poster_compass",
+            "strokes": 1,
+            "passes": 1,
+            "requested_width_mm": 0.4,
+            "plotted_width_mm": 0.4,
+            "width_fit_error_mm": 0.0,
+            "offset_pitch_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          }
+        ],
+        "path_count": 57,
+        "pen_down_distance_mm": 873.0,
+        "step": 8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "settings_vary_by_layer": false,
+        "minimum_plot_seconds": 51.3,
+        "timing_scope": "all emitted paths in these layers; excludes pen-up travel and manual pen-change time",
+        "instruction": "Load Black 0.4 (black-0-4) and plot layers: frame, poster_title, poster_compass.",
+        "configured_layers": [
+          "frame",
+          "poster_title",
+          "poster_compass"
+        ],
+        "omitted_layers": [],
+        "empty": false,
+        "slot_status": "active",
+        "pen_up_travel_mm": 425.8,
+        "pen_up_schedule_scope": "exact emitted path order; includes home-to-first travel and excludes return-home and manual pen-change motion",
+        "estimated_plot_seconds_including_pen_up": 57.4
+      },
+      {
+        "pen": "Black 0.6",
+        "pen_id": "black-0-6",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.6,
+        "nominal_nib_mm": 0.6,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#17212b",
+        "layers": [
+          "poster_border"
+        ],
+        "layer_settings": [
+          {
+            "id": "poster_border",
+            "strokes": 1,
+            "passes": 1,
+            "requested_width_mm": 0.6,
+            "plotted_width_mm": 0.6,
+            "width_fit_error_mm": 0.0,
+            "offset_pitch_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          }
+        ],
+        "path_count": 2,
+        "pen_down_distance_mm": 1324.0,
+        "step": 9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.6,
+        "settings_vary_by_layer": false,
+        "minimum_plot_seconds": 39.0,
+        "timing_scope": "all emitted paths in these layers; excludes pen-up travel and manual pen-change time",
+        "instruction": "Load Black 0.6 (black-0-6) and plot layers: poster_border.",
+        "configured_layers": [
+          "poster_border"
+        ],
+        "omitted_layers": [],
+        "empty": false,
+        "slot_status": "active",
+        "pen_up_travel_mm": 10.6,
+        "pen_up_schedule_scope": "exact emitted path order; includes home-to-first travel and excludes return-home and manual pen-change motion",
+        "estimated_plot_seconds_including_pen_up": 39.1
+      },
+      {
+        "pen": "Black 0.25",
+        "pen_id": "black-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#58636d",
+        "layers": [
+          "poster_coordinates",
+          "poster_personalisation"
+        ],
+        "layer_settings": [
+          {
+            "id": "poster_coordinates",
+            "strokes": 1,
+            "passes": 1,
+            "requested_width_mm": 0.25,
+            "plotted_width_mm": 0.25,
+            "width_fit_error_mm": 0.0,
+            "offset_pitch_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          },
+          {
+            "id": "poster_personalisation",
+            "strokes": 1,
+            "passes": 1,
+            "requested_width_mm": 0.25,
+            "plotted_width_mm": 0.25,
+            "width_fit_error_mm": 0.0,
+            "offset_pitch_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          }
+        ],
+        "path_count": 58,
+        "pen_down_distance_mm": 435.2,
+        "step": 10,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "settings_vary_by_layer": false,
+        "minimum_plot_seconds": 39.2,
+        "timing_scope": "all emitted paths in these layers; excludes pen-up travel and manual pen-change time",
+        "instruction": "Load Black 0.25 (black-0-25) and plot layers: poster_coordinates, poster_personalisation.",
+        "configured_layers": [
+          "poster_coordinates",
+          "poster_personalisation"
+        ],
+        "omitted_layers": [],
+        "empty": false,
+        "slot_status": "active",
+        "pen_up_travel_mm": 587.4,
+        "pen_up_schedule_scope": "exact emitted path order; includes home-to-first travel and excludes return-home and manual pen-change motion",
+        "estimated_plot_seconds_including_pen_up": 47.6
+      }
+    ],
+    "original_outputs": null
+  },
+  "svg": {
+    "path": "01-university-cities-uk/025-uk-university-edinburgh/025-uk-university-edinburgh.svg",
+    "sha256": "4f56d7794f3f78699eed270ae44c8334cb2a55d8c1bedce219d1bf6241932840",
+    "bytes": 5649787
+  },
+  "png": {
+    "path": "01-university-cities-uk/025-uk-university-edinburgh/025-uk-university-edinburgh.png",
+    "sha256": "db5284feb18b1b07e3b6a1635fe570c8ce3625dad6e4a4fb9a3544c78c76c815",
+    "bytes": 1934438
+  },
+  "thumbnail": {
+    "path": "01-university-cities-uk/025-uk-university-edinburgh/thumbnail.png",
+    "sha256": "466413363084002ac8aa66940cbb1597d8a97ef3f6d419a8b3911a227372a7cb",
+    "bytes": 373591
+  },
+  "manifest": {
+    "path": "01-university-cities-uk/025-uk-university-edinburgh/025-uk-university-edinburgh.plot.json",
+    "sha256": "9784c828c251772fdb03855596ea328ca548c5aa4b08f6ea3a24d1631068ce3f",
+    "bytes": 7184281
+  },
+  "job": {
+    "path": "01-university-cities-uk/025-uk-university-edinburgh/025-uk-university-edinburgh.plotjob.json",
+    "sha256": "3681bad97c644bb1cf63e515ddc7c0d7060192b3295f974a7b7a59dfcf9c388b",
+    "bytes": 7045954
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "blue-0-4",
+      "path": "01-university-cities-uk/025-uk-university-edinburgh/pens/025-uk-university-edinburgh.pen-01-blue-0-4.svg",
+      "sha256": "1d877920e9130e60b8bca761b45f795b88fbde13382c5265e176ad69b91efa22",
+      "bytes": 46957
+    },
+    {
+      "step": 2,
+      "pen_id": "blue-0-25",
+      "path": "01-university-cities-uk/025-uk-university-edinburgh/pens/025-uk-university-edinburgh.pen-02-blue-0-25.svg",
+      "sha256": "b5beb81fcb7f2a2009d901e4dee6504781b5bad17890e2526dcaefdfa471b841",
+      "bytes": 27325
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "01-university-cities-uk/025-uk-university-edinburgh/pens/025-uk-university-edinburgh.pen-03-green-0-25.svg",
+      "sha256": "7f39755c5772d1e975b64feb4529daf4e605af43f65df93ab41cc8ea0d258208",
+      "bytes": 717457
+    },
+    {
+      "step": 4,
+      "pen_id": "purple-0-25",
+      "path": "01-university-cities-uk/025-uk-university-edinburgh/pens/025-uk-university-edinburgh.pen-04-purple-0-25.svg",
+      "sha256": "decf505c981cdec98c4c5cdb36ae809be0807fc476ed27aae1f1092afbc88418",
+      "bytes": 20108
+    },
+    {
+      "step": 5,
+      "pen_id": "grey-0-25",
+      "path": "01-university-cities-uk/025-uk-university-edinburgh/pens/025-uk-university-edinburgh.pen-05-grey-0-25.svg",
+      "sha256": "5f7bafd33e21beb677d5ca4ebe29890756e8c6672dfc9c5f56cfcbd9d67c0596",
+      "bytes": 4580541
+    },
+    {
+      "step": 6,
+      "pen_id": "red-0-4",
+      "path": "01-university-cities-uk/025-uk-university-edinburgh/pens/025-uk-university-edinburgh.pen-06-red-0-4.svg",
+      "sha256": "46cc63799bb2362295d34b881b8180d257db2b07874ac43d9916a94e03c7f0f0",
+      "bytes": 65751
+    },
+    {
+      "step": 7,
+      "pen_id": "red-0-25",
+      "path": "01-university-cities-uk/025-uk-university-edinburgh/pens/025-uk-university-edinburgh.pen-07-red-0-25.svg",
+      "sha256": "00e756319e82a3964524b6e82deb68b0e7c28860e6acbe167b19cfa71275dcf1",
+      "bytes": 180658
+    },
+    {
+      "step": 8,
+      "pen_id": "black-0-4",
+      "path": "01-university-cities-uk/025-uk-university-edinburgh/pens/025-uk-university-edinburgh.pen-08-black-0-4.svg",
+      "sha256": "86f24ae6c786c9dc722d92d35e418b909a2a204074a43c76793e90854b7b07e5",
+      "bytes": 9597
+    },
+    {
+      "step": 9,
+      "pen_id": "black-0-6",
+      "path": "01-university-cities-uk/025-uk-university-edinburgh/pens/025-uk-university-edinburgh.pen-09-black-0-6.svg",
+      "sha256": "8d5437c9c4737f1d495d7e75ea75516d0dfd1664bb2124ddc0af93d0e0c3f7a4",
+      "bytes": 2173
+    },
+    {
+      "step": 10,
+      "pen_id": "black-0-25",
+      "path": "01-university-cities-uk/025-uk-university-edinburgh/pens/025-uk-university-edinburgh.pen-10-black-0-25.svg",
+      "sha256": "daf91ef82c68d9a7a958db82495a48d84e62814859684a6f54db5bb962b76d87",
+      "bytes": 12099
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 5237,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [
+      "map field ink coverage 41.6% (6,646 mm² of a 4,476 mm² reference budget at 28%) — advisory only, not a defect"
+    ],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true,
+    "city_header": {
+      "status": "passed",
+      "policy_id": "city-header-left-stack-v1",
+      "bounds_mm": {
+        "title": [
+          13.332,
+          14.8,
+          75.941,
+          21.8
+        ],
+        "coordinates": [
+          13.332,
+          28.86,
+          39.346,
+          30.862
+        ],
+        "compass": [
+          128.8,
+          16.044,
+          133.2,
+          29.544
+        ]
+      },
+      "compass_vertical_error_mm": 0.0005,
+      "non_header_geometry_unchanged": true,
+      "non_header_geometry_sha256": "4a8f2ceec3d416ad859829bee9061fbf313b2737cbb62ca0071c8a5bde738e34",
+      "original_visible_copy": {
+        "layer-poster_title": "EDINBURGH",
+        "layer-poster_compass": "N",
+        "layer-poster_coordinates": "55.9474 N / 3.1872 W"
+      },
+      "original_header_zones_mm": {},
+      "map_geometry_sha256": "4a8f2ceec3d416ad859829bee9061fbf313b2737cbb62ca0071c8a5bde738e34"
+    }
+  },
+  "visible_copy": [
+    "55.9474 N / 3.1872 W",
+    "EDINBURGH",
+    "N"
+  ],
+  "stroke_count": 4846,
+  "pen_count": 10,
+  "physical_execution_allowed": false
+}

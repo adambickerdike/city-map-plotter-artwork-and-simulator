@@ -22,6 +22,7 @@ CARLISLE_RELEASE = (
 )
 COBRA_RELEASE = ROOT / "artwork/shelby-cobra-427-technical-blueprint-v1"
 PORSCHE_RELEASE = ROOT / "artwork/porsche-911-2-0-targa-technical-blueprint-v1"
+PRODUCTION_RELEASE = ROOT / "artwork/production-maps-2026-09-06"
 EXPECTED_DOMAINS = {
     "01-university-cities-uk": 30,
     "02-university-cities-us": 20,
@@ -133,6 +134,7 @@ def _html_map_provider_copy(path: Path) -> set[str]:
 def _production_html_pages() -> list[Path]:
     pages = set((ROOT / "examples/generated-viewers").glob("*.html"))
     pages.add(PORTFOLIO / "index.html")
+    pages.add(PRODUCTION_RELEASE / "index.html")
     pages.update((ROOT / "artwork").rglob("simulation/*.html"))
     pages.update(PORTFOLIO.rglob("gallery.html"))
     return sorted(pages)
@@ -960,10 +962,12 @@ def _verify_structure() -> dict[str, Any]:
         )
     repository_pngs = list(ROOT.rglob("*.png"))
     repository_svgs = list(ROOT.rglob("*.svg"))
-    if len(repository_pngs) != 451 or len(repository_svgs) != 483:
+    original_pngs = [p for p in repository_pngs if not p.is_relative_to(PRODUCTION_RELEASE)]
+    original_svgs = [p for p in repository_svgs if not p.is_relative_to(PRODUCTION_RELEASE)]
+    if len(original_pngs) != 451 or len(original_svgs) != 483:
         raise VerificationError(
-            "Expected 451 repository PNGs and 483 repository SVGs, found "
-            f"{len(repository_pngs)} and {len(repository_svgs)}."
+            "Expected 451 original-edition PNGs and 483 original-edition SVGs, found "
+            f"{len(original_pngs)} and {len(original_svgs)}."
         )
     for path in (*portfolio_pngs, *portfolio_svgs, *repository_pngs, *repository_svgs):
         _require_real_file(path)
@@ -1014,6 +1018,11 @@ def main(argv: Sequence[str] | None = None) -> int:
         augusta = _verify_augusta_release()
         visible_provider_copy = _verify_visible_map_provider_copy()
         checksum_count = _verify_release_checksums() if args.full else None
+        from verify_production_maps import verify
+        try:
+            production = verify(PRODUCTION_RELEASE, full=args.full)
+        except (OSError, ValueError, KeyError, StopIteration) as exc:
+            raise VerificationError(f"Production collection: {exc}") from exc
     except VerificationError as exc:
         print(f"verify_repository: {exc}", file=sys.stderr)
         return 2
@@ -1023,6 +1032,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         "catalog_artifact_count": catalog_count,
         "expected_artifact_count": expected_count,
         "release_checksum_count": checksum_count,
+        "production_collection": production,
         **structure,
         **seaton,
         **carlisle,

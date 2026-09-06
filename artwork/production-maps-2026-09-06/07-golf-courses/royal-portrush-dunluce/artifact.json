@@ -1,0 +1,432 @@
+{
+  "id": "royal-portrush-dunluce",
+  "domain": "07-golf-courses",
+  "title": "DUNLUCE LINKS",
+  "artifact_version": 1,
+  "format_id": "a3-portrait",
+  "source": {
+    "svg_sha256": "5a2fdbdefb73c647e06557ed3af3a99c29014b970c83f60c1793a565a5c193ea",
+    "manifest_sha256": "e48ba79b8f700c8ee08e11567d09b1f7daef9f8b00655ff845387c21670f2885",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/07-golf-courses/artwork/royal-portrush-dunluce.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 8,
+      "pen_changes": 7,
+      "pen_down_path_count": 679,
+      "pen_down_distance_mm": 12961.9,
+      "pen_up_travel_mm": 9988.1,
+      "travel_ratio": 0.771,
+      "estimated_plot_seconds_including_pen_up": 495.2,
+      "field_ink_mm2_upper_bound": 3205.1,
+      "field_ink_coverage_upper_bound": 0.049976,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "course_paths",
+          "bunkers",
+          "field_frame"
+        ],
+        "path_count": 64,
+        "pen_down_distance_mm": 1301.2,
+        "pen_up_travel_mm": 1562.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 37.2,
+        "estimated_plot_seconds_including_pen_up": 56.7,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "playing_envelope"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 793.8,
+        "pen_up_travel_mm": 30.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 22.7,
+        "estimated_plot_seconds_including_pen_up": 23.1,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "fairways"
+        ],
+        "path_count": 150,
+        "pen_down_distance_mm": 2501.4,
+        "pen_up_travel_mm": 1241.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 71.5,
+        "estimated_plot_seconds_including_pen_up": 87.0,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.4",
+        "pen_id": "green-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "greens_and_tees"
+        ],
+        "path_count": 85,
+        "pen_down_distance_mm": 975.4,
+        "pen_up_travel_mm": 1256.4,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 27.9,
+        "estimated_plot_seconds_including_pen_up": 43.6,
+        "instruction": "Load Green 0.4 (green-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Red 0.25",
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hole_markers"
+        ],
+        "path_count": 36,
+        "pen_down_distance_mm": 434.9,
+        "pen_up_travel_mm": 895.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 12.4,
+        "estimated_plot_seconds_including_pen_up": 23.6,
+        "instruction": "Load Red 0.25 (red-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "hole_numbers",
+          "course_buildings",
+          "map_reference",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 353,
+        "pen_down_distance_mm": 2565.5,
+        "pen_up_travel_mm": 3921.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 73.3,
+        "estimated_plot_seconds_including_pen_up": 122.3,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 3076.9,
+        "pen_up_travel_mm": 659.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 87.9,
+        "estimated_plot_seconds_including_pen_up": 96.2,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Gold 1",
+        "pen_id": "gold-1",
+        "pen_profile": "actual-pens",
+        "ink": "Gold",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#b88900",
+        "layers": [
+          "holes"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 1312.8,
+        "pen_up_travel_mm": 421.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 37.5,
+        "estimated_plot_seconds_including_pen_up": 42.8,
+        "instruction": "Load Gold 1 (gold-1) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-portrush-dunluce.svg",
+        "sha256": "5a2fdbdefb73c647e06557ed3af3a99c29014b970c83f60c1793a565a5c193ea"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-portrush-dunluce.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-portrush-dunluce.pen-01-grey-0-25.svg",
+          "sha256": "7008b315789dd34416ab2e6189a35eded1831f0afc93f9e63f2ee9ae3d4e89f8"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-portrush-dunluce.pen-02-grey-0-4.svg",
+          "sha256": "002b6b1eda30e3a0195925e9b8152d579dbaeb1a685214694c02ff447f2364f1"
+        },
+        {
+          "step": 3,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-portrush-dunluce.pen-03-green-0-25.svg",
+          "sha256": "b66a4903f0b1ad278b7f0a8653ecab8e997ac373c059098eec1737412008ac67"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.4",
+          "pen_id": "green-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-portrush-dunluce.pen-04-green-0-4.svg",
+          "sha256": "fb6b4d644ee157727c0af6a79efdbc12b78b1daffdafbb7688012e157f5b453e"
+        },
+        {
+          "step": 5,
+          "pen": "Red 0.25",
+          "pen_id": "red-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-portrush-dunluce.pen-05-red-0-25.svg",
+          "sha256": "d116d068acb05e90ffd542b4bde450857289d8362dc5b0b316bb7883bf5b4d60"
+        },
+        {
+          "step": 6,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-portrush-dunluce.pen-06-black-0-4.svg",
+          "sha256": "badd71394f7ddbe28280482630f6cc59e355bfcbc9b4e0f4cc770a7105ee9d51"
+        },
+        {
+          "step": 7,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-portrush-dunluce.pen-07-black-1.svg",
+          "sha256": "13a8bd1c099f05f57b5e121148afa7f42ad9c356ade899b0e335f913fee532c9"
+        },
+        {
+          "step": 8,
+          "pen": "Gold 1",
+          "pen_id": "gold-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-portrush-dunluce.pen-08-gold-1.svg",
+          "sha256": "3ac599b81227c2d4750b5727fc39d9720bcf92e753487848ef71dbbb7aa501ea"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-portrush-dunluce.png",
+        "dpi": 180.0,
+        "sha256": "2eda5f7075888a61a1d84eeab53cc57b52d008dbc91c22b02e812781cdcbd5f4"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "778509fd1b4d74a246a7bdbcb47e7330bdf04df71a2a70bd940ce077fd30a2cb",
+        "png": "13f514b521421924915d9226f9f2accc14cb92883184369c95836e8f3c31552e",
+        "manifest": "6e6db5dd8d0ec78535625e6b6f3279db3b90f471b5a043008c87b863c97825a0"
+      },
+      "removed_visible_path_count": 46,
+      "removed_visible_copy_values": [
+        "© OpenStreetMap contributors / ODbL-1.0"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "07-golf-courses/royal-portrush-dunluce/royal-portrush-dunluce.svg",
+    "sha256": "24ef8bea21ce4dc1586c52d2498186d50b8df6994c1c5d859b2e86b01b96684f",
+    "bytes": 224003
+  },
+  "png": {
+    "path": "07-golf-courses/royal-portrush-dunluce/royal-portrush-dunluce.png",
+    "sha256": "06eff3346523d595bd3bf956adf6084bc5bfb2c3a57c5220971b4e007f9471ca",
+    "bytes": 966875
+  },
+  "thumbnail": {
+    "path": "07-golf-courses/royal-portrush-dunluce/thumbnail.png",
+    "sha256": "b9a591f6d29a32dd8933fdb0aebce4463a59fe20fb06df6bf5c3bc7ab23e7e97",
+    "bytes": 92112
+  },
+  "manifest": {
+    "path": "07-golf-courses/royal-portrush-dunluce/royal-portrush-dunluce.plot.json",
+    "sha256": "7d564b6fcb5cced427e40ba2c71121bee71d638419fd0de066715899f5d80609",
+    "bytes": 465711
+  },
+  "job": {
+    "path": "07-golf-courses/royal-portrush-dunluce/royal-portrush-dunluce.plotjob.json",
+    "sha256": "17891f3579233153161dca89212de4ba014ce39ba716cc9ea8f9d51e6c2583e8",
+    "bytes": 469280
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "07-golf-courses/royal-portrush-dunluce/pens/royal-portrush-dunluce.pen-01-grey-0-25.svg",
+      "sha256": "bdf9a9e6b70c04d60ff0a50d78b756308d23090030169c0301c2aee9385c9305",
+      "bytes": 30224
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "07-golf-courses/royal-portrush-dunluce/pens/royal-portrush-dunluce.pen-02-grey-0-4.svg",
+      "sha256": "af6e4193f12e53f18dad6dce7c9c375683b7bc3e3cf1aea42b6cbc892a94c14c",
+      "bytes": 7074
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "07-golf-courses/royal-portrush-dunluce/pens/royal-portrush-dunluce.pen-03-green-0-25.svg",
+      "sha256": "6d03b7fc3fe21687556b304a647d94b5d04c45f007cee735169d4d6d1e2590e8",
+      "bytes": 76988
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-4",
+      "path": "07-golf-courses/royal-portrush-dunluce/pens/royal-portrush-dunluce.pen-04-green-0-4.svg",
+      "sha256": "d7d4070f155be74a87c010e747ba9893c84aa8cc2f0cf189cb6a85ad8cf8a4b5",
+      "bytes": 45804
+    },
+    {
+      "step": 5,
+      "pen_id": "red-0-25",
+      "path": "07-golf-courses/royal-portrush-dunluce/pens/royal-portrush-dunluce.pen-05-red-0-25.svg",
+      "sha256": "1da65785074bcb8f5e0345cc42442c99ecf547bf85afe1baf99aa4502418a19a",
+      "bytes": 23081
+    },
+    {
+      "step": 6,
+      "pen_id": "black-0-4",
+      "path": "07-golf-courses/royal-portrush-dunluce/pens/royal-portrush-dunluce.pen-06-black-0-4.svg",
+      "sha256": "89172f84d6c1256a93cfecf950ae28a07dbd22ec82176509d90953cbffab7b60",
+      "bytes": 41560
+    },
+    {
+      "step": 7,
+      "pen_id": "black-1",
+      "path": "07-golf-courses/royal-portrush-dunluce/pens/royal-portrush-dunluce.pen-07-black-1.svg",
+      "sha256": "556358eda577de56375ea49b5646fdbc4ecf38940036ce01d83b413fda89bf7f",
+      "bytes": 5605
+    },
+    {
+      "step": 8,
+      "pen_id": "gold-1",
+      "path": "07-golf-courses/royal-portrush-dunluce/pens/royal-portrush-dunluce.pen-08-gold-1.svg",
+      "sha256": "3ac599b81227c2d4750b5727fc39d9720bcf92e753487848ef71dbbb7aa501ea",
+      "bytes": 9893
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 264,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "18 HOLES",
+    "DUNLUCE LINKS",
+    "ROYAL PORTRUSH, COUNTY ANTRIM / NORTHERN IRELAND",
+    "THE OPEN VENUE"
+  ],
+  "stroke_count": 540,
+  "pen_count": 8,
+  "physical_execution_allowed": false
+}

@@ -1,0 +1,511 @@
+{
+  "id": "national-golf-links",
+  "domain": "07-golf-courses",
+  "title": "NATIONAL GOLF LINKS",
+  "artifact_version": 1,
+  "format_id": "a3-portrait",
+  "source": {
+    "svg_sha256": "13794b41fb7ed9e3ceedb469c385aeb7122ebaf431a3be6f08b0b69d954ee6a8",
+    "manifest_sha256": "0c44d9e8a655ac3a769e5a54ecc6d838218bfbb5e25ae92c9cfa4a34ff69d6d6",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/07-golf-courses/artwork/national-golf-links.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 10,
+      "pen_changes": 9,
+      "pen_down_path_count": 1082,
+      "pen_down_distance_mm": 14759.2,
+      "pen_up_travel_mm": 12429.2,
+      "travel_ratio": 0.842,
+      "estimated_plot_seconds_including_pen_up": 577.1,
+      "field_ink_mm2_upper_bound": 3297.3,
+      "field_ink_coverage_upper_bound": 0.051414,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "course_paths",
+          "bunkers",
+          "field_frame"
+        ],
+        "path_count": 403,
+        "pen_down_distance_mm": 3673.1,
+        "pen_up_travel_mm": 2788.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 104.9,
+        "estimated_plot_seconds_including_pen_up": 139.8,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "playing_envelope"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 781.3,
+        "pen_up_travel_mm": 166.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 22.3,
+        "estimated_plot_seconds_including_pen_up": 24.4,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "fairways"
+        ],
+        "path_count": 153,
+        "pen_down_distance_mm": 2073.6,
+        "pen_up_travel_mm": 1101.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 59.2,
+        "estimated_plot_seconds_including_pen_up": 73.0,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.4",
+        "pen_id": "green-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "greens_and_tees"
+        ],
+        "path_count": 67,
+        "pen_down_distance_mm": 570.3,
+        "pen_up_travel_mm": 1064.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 16.3,
+        "estimated_plot_seconds_including_pen_up": 29.6,
+        "instruction": "Load Green 0.4 (green-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water_stipple"
+        ],
+        "path_count": 72,
+        "pen_down_distance_mm": 80.5,
+        "pen_up_travel_mm": 819.4,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 2.3,
+        "estimated_plot_seconds_including_pen_up": 12.5,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Blue 0.4",
+        "pen_id": "blue-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water"
+        ],
+        "path_count": 10,
+        "pen_down_distance_mm": 345.0,
+        "pen_up_travel_mm": 646.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 9.9,
+        "estimated_plot_seconds_including_pen_up": 17.9,
+        "instruction": "Load Blue 0.4 (blue-0-4) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Red 0.25",
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hole_markers"
+        ],
+        "path_count": 36,
+        "pen_down_distance_mm": 577.9,
+        "pen_up_travel_mm": 903.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 16.5,
+        "estimated_plot_seconds_including_pen_up": 27.8,
+        "instruction": "Load Red 0.25 (red-0-25) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "hole_numbers",
+          "course_buildings",
+          "map_reference",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 340,
+        "pen_down_distance_mm": 2523.1,
+        "pen_up_travel_mm": 3920.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 72.1,
+        "estimated_plot_seconds_including_pen_up": 121.1,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 9,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 28,
+        "pen_down_distance_mm": 3249.0,
+        "pen_up_travel_mm": 726.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 92.8,
+        "estimated_plot_seconds_including_pen_up": 101.9,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 09.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 10,
+        "pen": "Gold 1",
+        "pen_id": "gold-1",
+        "pen_profile": "actual-pens",
+        "ink": "Gold",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#b88900",
+        "layers": [
+          "holes"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 885.4,
+        "pen_up_travel_mm": 292.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 25.3,
+        "estimated_plot_seconds_including_pen_up": 28.9,
+        "instruction": "Load Gold 1 (gold-1) and plot SVG layer 10.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/national-golf-links.svg",
+        "sha256": "13794b41fb7ed9e3ceedb469c385aeb7122ebaf431a3be6f08b0b69d954ee6a8"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/national-golf-links.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/national-golf-links.pen-01-grey-0-25.svg",
+          "sha256": "243a3a8023482c92274282c9ba6db6cfd9d40659edc1cc99a98655a222405aad"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/national-golf-links.pen-02-grey-0-4.svg",
+          "sha256": "610385ce164f627844acd79bbb51d2fa6e61b944e06000dc08a79c035010dec4"
+        },
+        {
+          "step": 3,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/national-golf-links.pen-03-green-0-25.svg",
+          "sha256": "dc03e5ccb360759a0373b67134ce30aa679069bf942b6377d07fc356d5778a5c"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.4",
+          "pen_id": "green-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/national-golf-links.pen-04-green-0-4.svg",
+          "sha256": "230372eb8d67ec949458c5a20d039114eb5466fd29ffce4054aebf60382df37e"
+        },
+        {
+          "step": 5,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/national-golf-links.pen-05-blue-0-25.svg",
+          "sha256": "6d5906cd12e03142e987459ea61610c6d57f9195903da3241db20141d0391b22"
+        },
+        {
+          "step": 6,
+          "pen": "Blue 0.4",
+          "pen_id": "blue-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/national-golf-links.pen-06-blue-0-4.svg",
+          "sha256": "2efe3d4848a70315f138515c5c05642238d2213cf294aac1e1ad267044dd5f7c"
+        },
+        {
+          "step": 7,
+          "pen": "Red 0.25",
+          "pen_id": "red-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/national-golf-links.pen-07-red-0-25.svg",
+          "sha256": "b8fd11f56029efddf590d39ebfd7ecce4464351620f1323f9ac95d885ed25f8f"
+        },
+        {
+          "step": 8,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/national-golf-links.pen-08-black-0-4.svg",
+          "sha256": "3ccb335e4e199a25fc3109b1f638d80206e93ba57551b0f285a70e600310f4a0"
+        },
+        {
+          "step": 9,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/national-golf-links.pen-09-black-1.svg",
+          "sha256": "23648a5c22f8208b0cc79a2a8b16bb0994fce9baa4dbd277218565bd2bf3b473"
+        },
+        {
+          "step": 10,
+          "pen": "Gold 1",
+          "pen_id": "gold-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/national-golf-links.pen-10-gold-1.svg",
+          "sha256": "b8ffaf495f215e300c7766ded2bda41ff1735abd1f4502042dc5de36372df051"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/national-golf-links.png",
+        "dpi": 180.0,
+        "sha256": "6f6731cb7ea1502d5f8cd340d8904feb3f7ff3dbd0bbff56a4b95c19de7a86d0"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "2eb0ccaf426d3d82d44b4603a87536e23c2a818071f2a365363c093249ca63a4",
+        "png": "f7dee13f7544dca18302f5d0f1daf1e07b6e79ba2014e427651da31d0c92a16d",
+        "manifest": "3ec55cce8a6ec2def44daf40117ac18951b36ed36fa6b1774162be8f5507f423"
+      },
+      "removed_visible_path_count": 46,
+      "removed_visible_copy_values": [
+        "© OpenStreetMap contributors / ODbL-1.0"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "07-golf-courses/national-golf-links/national-golf-links.svg",
+    "sha256": "700eaab05566270f0111b5228d01818987990ba986ce5172c87ad4db0b6e08fb",
+    "bytes": 434623
+  },
+  "png": {
+    "path": "07-golf-courses/national-golf-links/national-golf-links.png",
+    "sha256": "01cb02362394d32055ff35a6fa78b1625f48cf9eba66095fd92ef1022c2e73a5",
+    "bytes": 1157881
+  },
+  "thumbnail": {
+    "path": "07-golf-courses/national-golf-links/thumbnail.png",
+    "sha256": "cf34dc9e45840ec6f5f7330287639ee6d78c6cd01f444425d4811086277a1085",
+    "bytes": 98622
+  },
+  "manifest": {
+    "path": "07-golf-courses/national-golf-links/national-golf-links.plot.json",
+    "sha256": "ff9d9b83c25af45dddb8e2410d8c452a3cbe9d1be6a79f6bbd8778aa74188d5f",
+    "bytes": 1301697
+  },
+  "job": {
+    "path": "07-golf-courses/national-golf-links/national-golf-links.plotjob.json",
+    "sha256": "d01ccfcbd7c90c53509436a14c29bf8ee118efefd8ac176bfaa4d93328bed350",
+    "bytes": 933468
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "07-golf-courses/national-golf-links/pens/national-golf-links.pen-01-grey-0-25.svg",
+      "sha256": "1a6a523b2684b7d0b64d7baee38f61b369d7747b526eb9f647f564fd4265fc30",
+      "bytes": 188556
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "07-golf-courses/national-golf-links/pens/national-golf-links.pen-02-grey-0-4.svg",
+      "sha256": "36128b49c7b8a118bb11f17872173ed6258c4b2f9ed515a29fb6655e0de610a1",
+      "bytes": 10188
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "07-golf-courses/national-golf-links/pens/national-golf-links.pen-03-green-0-25.svg",
+      "sha256": "b90e2ae26a35a39aed0934d0a42bfcb342243e11a4e88c8afadef32ceb77ceb2",
+      "bytes": 85059
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-4",
+      "path": "07-golf-courses/national-golf-links/pens/national-golf-links.pen-04-green-0-4.svg",
+      "sha256": "93415d2f38fc6473d6cfb4c76f003f7ed5e30a5f0e4e09cffaf93a649a5d880e",
+      "bytes": 32362
+    },
+    {
+      "step": 5,
+      "pen_id": "blue-0-25",
+      "path": "07-golf-courses/national-golf-links/pens/national-golf-links.pen-05-blue-0-25.svg",
+      "sha256": "f59115d50b3502f7e7da3fbdf18310b81ca8345e69a7d975e90d879a59bc2405",
+      "bytes": 46498
+    },
+    {
+      "step": 6,
+      "pen_id": "blue-0-4",
+      "path": "07-golf-courses/national-golf-links/pens/national-golf-links.pen-06-blue-0-4.svg",
+      "sha256": "14ead8e1cf121d8dfcf031b2508188e16dcd5664bedddcf7ae0a6aaf5cf281f7",
+      "bytes": 10955
+    },
+    {
+      "step": 7,
+      "pen_id": "red-0-25",
+      "path": "07-golf-courses/national-golf-links/pens/national-golf-links.pen-07-red-0-25.svg",
+      "sha256": "368061db66b5203874c49b0b21ea2f59a954529141757f4340268db24ef3ee92",
+      "bytes": 23029
+    },
+    {
+      "step": 8,
+      "pen_id": "black-0-4",
+      "path": "07-golf-courses/national-golf-links/pens/national-golf-links.pen-08-black-0-4.svg",
+      "sha256": "272a41cb429d321d855d5b854d70e22f64a0224c169eb2a4d68fe6a97f92cbc8",
+      "bytes": 42230
+    },
+    {
+      "step": 9,
+      "pen_id": "black-1",
+      "path": "07-golf-courses/national-golf-links/pens/national-golf-links.pen-09-black-1.svg",
+      "sha256": "ae0f816d85000fea1bea0761bcd8b22578c06e75337e373f488f43bc3a0b56c8",
+      "bytes": 6794
+    },
+    {
+      "step": 10,
+      "pen_id": "gold-1",
+      "path": "07-golf-courses/national-golf-links/pens/national-golf-links.pen-10-gold-1.svg",
+      "sha256": "b8ffaf495f215e300c7766ded2bda41ff1735abd1f4502042dc5de36372df051",
+      "bytes": 9904
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 312,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "18 HOLES",
+    "C. B. MACDONALD",
+    "INAUGURAL WALKER CUP",
+    "NATIONAL GOLF LINKS",
+    "SOUTHAMPTON, NEW YORK / UNITED STATES"
+  ],
+  "stroke_count": 945,
+  "pen_count": 10,
+  "physical_execution_allowed": false
+}

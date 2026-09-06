@@ -1,0 +1,510 @@
+{
+  "id": "winged-foot-west",
+  "domain": "07-golf-courses",
+  "title": "WINGED FOOT WEST",
+  "artifact_version": 1,
+  "format_id": "a3-portrait",
+  "source": {
+    "svg_sha256": "5685e13f8f4ffaa9de38f93b2821abe257d449b25c502603969dc193fc226dd8",
+    "manifest_sha256": "fc7b958a540383ce26920092dbe690495b5fc2a6e0b2089759d475ed5f0f4812",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/07-golf-courses/artwork/winged-foot-west.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 10,
+      "pen_changes": 9,
+      "pen_down_path_count": 843,
+      "pen_down_distance_mm": 15644.6,
+      "pen_up_travel_mm": 12046.3,
+      "travel_ratio": 0.77,
+      "estimated_plot_seconds_including_pen_up": 597.6,
+      "field_ink_mm2_upper_bound": 4029.3,
+      "field_ink_coverage_upper_bound": 0.062829,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "course_paths",
+          "bunkers",
+          "field_frame"
+        ],
+        "path_count": 156,
+        "pen_down_distance_mm": 2747.8,
+        "pen_up_travel_mm": 2458.4,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 78.5,
+        "estimated_plot_seconds_including_pen_up": 109.2,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "playing_envelope"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 846.0,
+        "pen_up_travel_mm": 151.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 24.2,
+        "estimated_plot_seconds_including_pen_up": 26.1,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "fairways"
+        ],
+        "path_count": 168,
+        "pen_down_distance_mm": 2996.2,
+        "pen_up_travel_mm": 1461.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 85.6,
+        "estimated_plot_seconds_including_pen_up": 103.9,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.4",
+        "pen_id": "green-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "greens_and_tees"
+        ],
+        "path_count": 119,
+        "pen_down_distance_mm": 1517.0,
+        "pen_up_travel_mm": 1813.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 43.3,
+        "estimated_plot_seconds_including_pen_up": 66.0,
+        "instruction": "Load Green 0.4 (green-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water_stipple"
+        ],
+        "path_count": 30,
+        "pen_down_distance_mm": 33.5,
+        "pen_up_travel_mm": 204.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 1.0,
+        "estimated_plot_seconds_including_pen_up": 3.5,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Blue 0.4",
+        "pen_id": "blue-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 24.2,
+        "pen_up_travel_mm": 24.4,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 0.7,
+        "estimated_plot_seconds_including_pen_up": 1.0,
+        "instruction": "Load Blue 0.4 (blue-0-4) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Red 0.25",
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hole_markers"
+        ],
+        "path_count": 36,
+        "pen_down_distance_mm": 487.9,
+        "pen_up_travel_mm": 1059.4,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 13.9,
+        "estimated_plot_seconds_including_pen_up": 27.2,
+        "instruction": "Load Red 0.25 (red-0-25) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "hole_numbers",
+          "map_reference",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 337,
+        "pen_down_distance_mm": 2430.5,
+        "pen_up_travel_mm": 3727.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 69.4,
+        "estimated_plot_seconds_including_pen_up": 116.0,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 9,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 23,
+        "pen_down_distance_mm": 3173.4,
+        "pen_up_travel_mm": 681.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 90.7,
+        "estimated_plot_seconds_including_pen_up": 99.2,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 09.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 10,
+        "pen": "Gold 1",
+        "pen_id": "gold-1",
+        "pen_profile": "actual-pens",
+        "ink": "Gold",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#b88900",
+        "layers": [
+          "holes"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 1388.0,
+        "pen_up_travel_mm": 463.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 39.7,
+        "estimated_plot_seconds_including_pen_up": 45.5,
+        "instruction": "Load Gold 1 (gold-1) and plot SVG layer 10.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/winged-foot-west.svg",
+        "sha256": "5685e13f8f4ffaa9de38f93b2821abe257d449b25c502603969dc193fc226dd8"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/winged-foot-west.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/winged-foot-west.pen-01-grey-0-25.svg",
+          "sha256": "c2af84f81a88dac76d573bc2c68028467809563aafbc35584adb18cccf84339e"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/winged-foot-west.pen-02-grey-0-4.svg",
+          "sha256": "18c0364b6e23f285f6a8dd9e5b69a815aad3fb861d24ff1c15f79d4cda67d331"
+        },
+        {
+          "step": 3,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/winged-foot-west.pen-03-green-0-25.svg",
+          "sha256": "8e486ea8cae2cf348c7279da679116896d22190c7fcc6139b83a4a8d157b7d8a"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.4",
+          "pen_id": "green-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/winged-foot-west.pen-04-green-0-4.svg",
+          "sha256": "161e336c1b23ffbbfb5124190a73b41fd9c130a41fe5d74bad5ba8225d3813d0"
+        },
+        {
+          "step": 5,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/winged-foot-west.pen-05-blue-0-25.svg",
+          "sha256": "545599a64a4a720cfedd6b244bf527a471d96726f873444b5395f41f6980eebf"
+        },
+        {
+          "step": 6,
+          "pen": "Blue 0.4",
+          "pen_id": "blue-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/winged-foot-west.pen-06-blue-0-4.svg",
+          "sha256": "515786c04af213a37f6d96afa9bfa477ff5a365b8164b1b3a19f411176c806cc"
+        },
+        {
+          "step": 7,
+          "pen": "Red 0.25",
+          "pen_id": "red-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/winged-foot-west.pen-07-red-0-25.svg",
+          "sha256": "093ad2b53c88b32a59566e064ba762fb5d0687cf0576b45acad7e20b2f163048"
+        },
+        {
+          "step": 8,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/winged-foot-west.pen-08-black-0-4.svg",
+          "sha256": "e60f97fba2888c25dd53ec3c014afe63df7e56a3e8645826f0515ea4a19f2920"
+        },
+        {
+          "step": 9,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/winged-foot-west.pen-09-black-1.svg",
+          "sha256": "a6c2d257aaabc4a4e4566152e8e144b76da7d8dcfb6041a03fdc7707ca2163ed"
+        },
+        {
+          "step": 10,
+          "pen": "Gold 1",
+          "pen_id": "gold-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/winged-foot-west.pen-10-gold-1.svg",
+          "sha256": "9ac294e3fcee05bee54aee182f79aa390252b742ada066fc4422037681b7f81f"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/winged-foot-west.png",
+        "dpi": 180.0,
+        "sha256": "3ea37dda84f63db247b630eb6fcca33ea952dac30ab4c9b375776818139c0230"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "3af1005f8ead660dfb447a67622b348c9c0c30b74792b4a478d6a147893ee285",
+        "png": "a5568943128815863accd727145eabe681e2916cfd3c5bf405faffc8c9407b14",
+        "manifest": "97349501b91c51d42fb9aa0c2d616fe45ffb4b4cc465795eb300c2adf7e837ec"
+      },
+      "removed_visible_path_count": 46,
+      "removed_visible_copy_values": [
+        "© OpenStreetMap contributors / ODbL-1.0"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "07-golf-courses/winged-foot-west/winged-foot-west.svg",
+    "sha256": "26c9abedb2fd6880b1858a2d1c17decb4ae9676dc33ee160c3be0e29415bcb30",
+    "bytes": 306808
+  },
+  "png": {
+    "path": "07-golf-courses/winged-foot-west/winged-foot-west.png",
+    "sha256": "5ca72f14d076e5adaa5899871ffdcd14731ae16c941bc3af18737d20f90866ed",
+    "bytes": 1312045
+  },
+  "thumbnail": {
+    "path": "07-golf-courses/winged-foot-west/thumbnail.png",
+    "sha256": "b00980e21e64673f619721c842fe70850eac7e7596e750218315b16c411605c7",
+    "bytes": 115574
+  },
+  "manifest": {
+    "path": "07-golf-courses/winged-foot-west/winged-foot-west.plot.json",
+    "sha256": "56d9e8c14d4a300ce10ce8ce11db8204302daa0a542f938074de839ead49a391",
+    "bytes": 790447
+  },
+  "job": {
+    "path": "07-golf-courses/winged-foot-west/winged-foot-west.plotjob.json",
+    "sha256": "ff0394828fdc28dee2bee6c3d1a1a9fc300921e2e35001638a46e1b26b3d101d",
+    "bytes": 608719
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "07-golf-courses/winged-foot-west/pens/winged-foot-west.pen-01-grey-0-25.svg",
+      "sha256": "5621a59afb6ef0eaf7229e158905e2ee70119de31f600c5d96499e731c67de8c",
+      "bytes": 81979
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "07-golf-courses/winged-foot-west/pens/winged-foot-west.pen-02-grey-0-4.svg",
+      "sha256": "1ebde453544fb9ac93c8a58a7b071d1d512b3d215d02298d9e1467e54bac85c2",
+      "bytes": 8093
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "07-golf-courses/winged-foot-west/pens/winged-foot-west.pen-03-green-0-25.svg",
+      "sha256": "f703153151efed8ace0b7811269026216b587944ffa021123afe5909c14695ea",
+      "bytes": 79288
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-4",
+      "path": "07-golf-courses/winged-foot-west/pens/winged-foot-west.pen-04-green-0-4.svg",
+      "sha256": "0d8131aad4bd72557573362699388e7885cd3807141bd9480ab72c05a787f826",
+      "bytes": 52247
+    },
+    {
+      "step": 5,
+      "pen_id": "blue-0-25",
+      "path": "07-golf-courses/winged-foot-west/pens/winged-foot-west.pen-05-blue-0-25.svg",
+      "sha256": "f956191663fc41e03e5ae899b34b7f4cc5e37de3df3926b023531924333c15e5",
+      "bytes": 23125
+    },
+    {
+      "step": 6,
+      "pen_id": "blue-0-4",
+      "path": "07-golf-courses/winged-foot-west/pens/winged-foot-west.pen-06-blue-0-4.svg",
+      "sha256": "b530b9dc19aa1dcc3a05e4c94bd55ecaa5c44959959ebf8d45b5516e018b950d",
+      "bytes": 3669
+    },
+    {
+      "step": 7,
+      "pen_id": "red-0-25",
+      "path": "07-golf-courses/winged-foot-west/pens/winged-foot-west.pen-07-red-0-25.svg",
+      "sha256": "c6707a2ca1f09ca8be9098c6378ec630fc24b6fc955af2a7562cb118cef5e83f",
+      "bytes": 22890
+    },
+    {
+      "step": 8,
+      "pen_id": "black-0-4",
+      "path": "07-golf-courses/winged-foot-west/pens/winged-foot-west.pen-08-black-0-4.svg",
+      "sha256": "2b17bae9a2fefe252e4db3cc5f968ced0deddf238819abe8164f9b575beaef2c",
+      "bytes": 39664
+    },
+    {
+      "step": 9,
+      "pen_id": "black-1",
+      "path": "07-golf-courses/winged-foot-west/pens/winged-foot-west.pen-09-black-1.svg",
+      "sha256": "16856327e85ed5e4a18fca3b613399656f734dbd5b4197c96383abe80b1faff3",
+      "bytes": 6193
+    },
+    {
+      "step": 10,
+      "pen_id": "gold-1",
+      "path": "07-golf-courses/winged-foot-west/pens/winged-foot-west.pen-10-gold-1.svg",
+      "sha256": "9ac294e3fcee05bee54aee182f79aa390252b742ada066fc4422037681b7f81f",
+      "bytes": 9811
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 312,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "18 HOLES",
+    "A. W. TILLINGHAST",
+    "MAMARONECK, NEW YORK / UNITED STATES",
+    "U.S. OPEN VENUE",
+    "WINGED FOOT WEST"
+  ],
+  "stroke_count": 705,
+  "pen_count": 10,
+  "physical_execution_allowed": false
+}

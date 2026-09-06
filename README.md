@@ -1,5 +1,28 @@
 # City Map Plotter — artwork portfolio and physical simulator
 
+The current digital map release is
+[the 457-map customer collection](artwork/production-maps-2026-09-06/index.html).
+It brings together all approved city, university, hiking, marathon, rowing,
+Formula 1 and golf maps, including new Newcastle city and university A3 plates.
+Every master has a matching 254 DPI PNG, ordered per-pen SVGs and a plot job
+compiled from the final artwork. Source credits and production notes accompany
+the files rather than appearing on the sheets.
+
+All 84 city-style editions now place the name at the top left, coordinates
+underneath, and the compass centred beside them on the right. This includes
+both Newcastle plates, UK and US university maps, UK cities and Seaton.
+
+For the website, start with the [14 illustrated map examples](website-examples/README.md).
+Their [WebP images](website-examples/images/) are small downloads, and the
+[example manifest](website-examples/manifest.json) supplies titles, dimensions,
+direct image URLs and matching plotting files.
+
+Read the [software import guide](artwork/production-maps-2026-09-06/SOFTWARE_IMPORT.md)
+and run `python scripts/verify_production_maps.py --full` after cloning with
+Git LFS. Digital export verification is separate from the physical calibration
+and proof requirements recorded in each manifest. The older editions below
+remain available as the original reference releases.
+
 This public review repository contains the complete verified map portfolio
 assembled on 18 August 2026 and the software used to simulate and compile
 physical pen-plotter motion.
@@ -102,12 +125,12 @@ Open the Porsche directly in the interactive studio from any directory:
 /path/to/city-map-plotter-artwork-and-simulator/scripts/run_porsche_911_targa_studio.sh
 ```
 
-The repository now has 451 PNG files and 483 SVG files in total. That includes
+The original editions contain 451 PNG files and 483 SVG files. That includes
 the complete portfolio, all contact sheets, the Augusta simulator example, the
 standalone Carlisle and Seaton masters and pen-separated jobs, and both
 technical-blueprint masters with their pinned native-SVG evidence.
 
-All 483 SVGs and 18 promoted HTML pages pass the production visible-copy gate:
+Those 483 SVGs and 18 original HTML pages pass the visible-copy gate:
 no map-provider or map-data-licence wording is drawn on the sheets or shown in
 their public viewers and galleries. Required source and licence evidence
 remains external to the artwork in metadata, contracts and

@@ -1,0 +1,511 @@
+{
+  "id": "shinnecock-hills",
+  "domain": "07-golf-courses",
+  "title": "SHINNECOCK HILLS",
+  "artifact_version": 1,
+  "format_id": "a3-portrait",
+  "source": {
+    "svg_sha256": "76d4478099c65695286de63db7f395ff79e5708cf13f3cf08972178e40fcc69b",
+    "manifest_sha256": "f8d3e22b17aa1dec7012371b632289e3227db36be617305e665159d257897080",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/07-golf-courses/artwork/shinnecock-hills.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 10,
+      "pen_changes": 9,
+      "pen_down_path_count": 946,
+      "pen_down_distance_mm": 17425.2,
+      "pen_up_travel_mm": 11486.1,
+      "travel_ratio": 0.659,
+      "estimated_plot_seconds_including_pen_up": 641.4,
+      "field_ink_mm2_upper_bound": 4463.3,
+      "field_ink_coverage_upper_bound": 0.069596,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "course_paths",
+          "bunkers",
+          "field_frame"
+        ],
+        "path_count": 338,
+        "pen_down_distance_mm": 4290.3,
+        "pen_up_travel_mm": 3032.4,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 122.6,
+        "estimated_plot_seconds_including_pen_up": 160.5,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "playing_envelope"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 850.9,
+        "pen_up_travel_mm": 90.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 24.3,
+        "estimated_plot_seconds_including_pen_up": 25.4,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "fairways"
+        ],
+        "path_count": 162,
+        "pen_down_distance_mm": 3784.6,
+        "pen_up_travel_mm": 1169.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 108.1,
+        "estimated_plot_seconds_including_pen_up": 122.7,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.4",
+        "pen_id": "green-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "greens_and_tees"
+        ],
+        "path_count": 65,
+        "pen_down_distance_mm": 780.8,
+        "pen_up_travel_mm": 1314.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 22.3,
+        "estimated_plot_seconds_including_pen_up": 38.7,
+        "instruction": "Load Green 0.4 (green-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water_stipple"
+        ],
+        "path_count": 8,
+        "pen_down_distance_mm": 8.9,
+        "pen_up_travel_mm": 98.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 0.3,
+        "estimated_plot_seconds_including_pen_up": 1.5,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Blue 0.4",
+        "pen_id": "blue-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water"
+        ],
+        "path_count": 2,
+        "pen_down_distance_mm": 51.9,
+        "pen_up_travel_mm": 28.4,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 1.5,
+        "estimated_plot_seconds_including_pen_up": 1.8,
+        "instruction": "Load Blue 0.4 (blue-0-4) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Red 0.25",
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hole_markers"
+        ],
+        "path_count": 36,
+        "pen_down_distance_mm": 476.9,
+        "pen_up_travel_mm": 885.4,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 13.6,
+        "estimated_plot_seconds_including_pen_up": 24.7,
+        "instruction": "Load Red 0.25 (red-0-25) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "hole_numbers",
+          "course_buildings",
+          "map_reference",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 335,
+        "pen_down_distance_mm": 2479.3,
+        "pen_up_travel_mm": 3677.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 70.8,
+        "estimated_plot_seconds_including_pen_up": 116.8,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 9,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 27,
+        "pen_down_distance_mm": 3179.7,
+        "pen_up_travel_mm": 764.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 90.8,
+        "estimated_plot_seconds_including_pen_up": 100.4,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 09.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 10,
+        "pen": "Gold 1",
+        "pen_id": "gold-1",
+        "pen_profile": "actual-pens",
+        "ink": "Gold",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#b88900",
+        "layers": [
+          "holes"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 1521.9,
+        "pen_up_travel_mm": 425.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 43.5,
+        "estimated_plot_seconds_including_pen_up": 48.8,
+        "instruction": "Load Gold 1 (gold-1) and plot SVG layer 10.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/shinnecock-hills.svg",
+        "sha256": "76d4478099c65695286de63db7f395ff79e5708cf13f3cf08972178e40fcc69b"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/shinnecock-hills.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/shinnecock-hills.pen-01-grey-0-25.svg",
+          "sha256": "8d1fd971d169ea8b5f93e3aa0461f85ff225a7d2a28615089d0bb0261818d3ac"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/shinnecock-hills.pen-02-grey-0-4.svg",
+          "sha256": "e3e25f7c7d599622d89e4f5e6ac78fe6c1bf037ac6553fa69e9ba16041f4056d"
+        },
+        {
+          "step": 3,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/shinnecock-hills.pen-03-green-0-25.svg",
+          "sha256": "a71ea6c65ebc593d0c880af50a5343030e931a5e0a2dfe432fa0930a9430a1c4"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.4",
+          "pen_id": "green-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/shinnecock-hills.pen-04-green-0-4.svg",
+          "sha256": "1aab4eb1cd6b380755568c2d7ed324ee34312d0f6b978f7031bf153af9fd7075"
+        },
+        {
+          "step": 5,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/shinnecock-hills.pen-05-blue-0-25.svg",
+          "sha256": "5b1c56cbae290d175a94eaa0e268540193cb831091cd291f8ec2b4bbbe3afaef"
+        },
+        {
+          "step": 6,
+          "pen": "Blue 0.4",
+          "pen_id": "blue-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/shinnecock-hills.pen-06-blue-0-4.svg",
+          "sha256": "90d7a3da1a20b517c4085a848e172c6b8eb3491c9aa34513516afae6ba231f0f"
+        },
+        {
+          "step": 7,
+          "pen": "Red 0.25",
+          "pen_id": "red-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/shinnecock-hills.pen-07-red-0-25.svg",
+          "sha256": "dd2d46b862a83b278d7d312a355c7622da9e6adbdcc55ece9e396e1495104ffd"
+        },
+        {
+          "step": 8,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/shinnecock-hills.pen-08-black-0-4.svg",
+          "sha256": "ded4bedef9817cbb356d025dfed5fa776768b132c428e1d44c5d731b605183c7"
+        },
+        {
+          "step": 9,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/shinnecock-hills.pen-09-black-1.svg",
+          "sha256": "3f9492f686d9aa2d9f567c9f17a5d1d8976b3468a696714be80031f0a1483528"
+        },
+        {
+          "step": 10,
+          "pen": "Gold 1",
+          "pen_id": "gold-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/shinnecock-hills.pen-10-gold-1.svg",
+          "sha256": "361309637209d9cbc6c246b02b3933fe027b5fb21fa62be8be71a2bd73359a26"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/shinnecock-hills.png",
+        "dpi": 180.0,
+        "sha256": "6a4009ee21ac53a275e2c31759c806d4fc6764ec3a46b7ff70e043183072a423"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "9cc535bfb2b91a97594f026d4193dcac479be039ade917bd1dd2797850bbc5a1",
+        "png": "b24a23d753227a40de9660b5a8933d91b9ada1439ed6501fda5f2a609a0adf2c",
+        "manifest": "01b1271a7b3007131f0b4690924a93c544862c36d813c18f17d96689be3fc665"
+      },
+      "removed_visible_path_count": 46,
+      "removed_visible_copy_values": [
+        "© OpenStreetMap contributors / ODbL-1.0"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "07-golf-courses/shinnecock-hills/shinnecock-hills.svg",
+    "sha256": "112e140a6cf72a807663a4516247942cea3eafacec63b2938f7f00495086226f",
+    "bytes": 350927
+  },
+  "png": {
+    "path": "07-golf-courses/shinnecock-hills/shinnecock-hills.png",
+    "sha256": "a22b08e7620131921d5c3c8d1da88be186cd7375de0dbf45bd054f2eacd7fb82",
+    "bytes": 1484983
+  },
+  "thumbnail": {
+    "path": "07-golf-courses/shinnecock-hills/thumbnail.png",
+    "sha256": "736cd42accec42a40bbc549d309cfd64ce7e2bcf667fd1c2a3ecf319829be098",
+    "bytes": 130689
+  },
+  "manifest": {
+    "path": "07-golf-courses/shinnecock-hills/shinnecock-hills.plot.json",
+    "sha256": "e3d9d92395f27ddbf4c7f1a65c56e9c4c15b74bdfac20c8ee3f0c368fa5b53be",
+    "bytes": 831233
+  },
+  "job": {
+    "path": "07-golf-courses/shinnecock-hills/shinnecock-hills.plotjob.json",
+    "sha256": "07dd5a50af578b7d2de31acbb2276aa071345a58deb934e8d4d9dc6c04faa04c",
+    "bytes": 713118
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "07-golf-courses/shinnecock-hills/pens/shinnecock-hills.pen-01-grey-0-25.svg",
+      "sha256": "3aae4193967ea0a7ac52b52fa587612d4f7129fd29e86a96edd7c1198c0d60e4",
+      "bytes": 150420
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "07-golf-courses/shinnecock-hills/pens/shinnecock-hills.pen-02-grey-0-4.svg",
+      "sha256": "5375df75fa063c3c6f4fb9e03c403507b543359af422dfcb5874b02eb2da498a",
+      "bytes": 8412
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "07-golf-courses/shinnecock-hills/pens/shinnecock-hills.pen-03-green-0-25.svg",
+      "sha256": "d74c97ee3663f2214bd112f832c87ba1df1d5107823e61cf7c90d0ef50516bef",
+      "bytes": 89331
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-4",
+      "path": "07-golf-courses/shinnecock-hills/pens/shinnecock-hills.pen-04-green-0-4.svg",
+      "sha256": "e456e57219af3efbb9c91104e8c104b7d1049bfb2ec4bf98ce657d4bfc5041d0",
+      "bytes": 31318
+    },
+    {
+      "step": 5,
+      "pen_id": "blue-0-25",
+      "path": "07-golf-courses/shinnecock-hills/pens/shinnecock-hills.pen-05-blue-0-25.svg",
+      "sha256": "8ee8cfff2d4fd1df1f73e232df1ff246cf4ee50a814d5e5b6f1de02523ba1672",
+      "bytes": 7990
+    },
+    {
+      "step": 6,
+      "pen_id": "blue-0-4",
+      "path": "07-golf-courses/shinnecock-hills/pens/shinnecock-hills.pen-06-blue-0-4.svg",
+      "sha256": "e03e6f94cdad984272745aec9a7ece5ec120ba47733fb76dc184ad7ed73d5f8a",
+      "bytes": 4334
+    },
+    {
+      "step": 7,
+      "pen_id": "red-0-25",
+      "path": "07-golf-courses/shinnecock-hills/pens/shinnecock-hills.pen-07-red-0-25.svg",
+      "sha256": "dbf46e4e953195bf7587f256651ec7bd77bd21c4bed63cd0494b4c3f7920f7a1",
+      "bytes": 22880
+    },
+    {
+      "step": 8,
+      "pen_id": "black-0-4",
+      "path": "07-golf-courses/shinnecock-hills/pens/shinnecock-hills.pen-08-black-0-4.svg",
+      "sha256": "667fb6c4b6109afc9d3f8eaa6bff9f99c1d718a354420a5f15ecb115dcfe3d4a",
+      "bytes": 40010
+    },
+    {
+      "step": 9,
+      "pen_id": "black-1",
+      "path": "07-golf-courses/shinnecock-hills/pens/shinnecock-hills.pen-09-black-1.svg",
+      "sha256": "c092c58a6553d77e0a81fe261b9f39dd44a2dfdfe861bfacb465107d1b0734fd",
+      "bytes": 6621
+    },
+    {
+      "step": 10,
+      "pen_id": "gold-1",
+      "path": "07-golf-courses/shinnecock-hills/pens/shinnecock-hills.pen-10-gold-1.svg",
+      "sha256": "361309637209d9cbc6c246b02b3933fe027b5fb21fa62be8be71a2bd73359a26",
+      "bytes": 9906
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 312,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "18 HOLES",
+    "LONG ISLAND LINKS",
+    "SHINNECOCK HILLS",
+    "SOUTHAMPTON, NEW YORK / UNITED STATES",
+    "U.S. OPEN VENUE"
+  ],
+  "stroke_count": 808,
+  "pen_count": 10,
+  "physical_execution_allowed": false
+}

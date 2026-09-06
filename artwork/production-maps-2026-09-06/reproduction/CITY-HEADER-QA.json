@@ -1,0 +1,3941 @@
+{
+  "status": "passed",
+  "policy_id": "city-header-left-stack-v1",
+  "updated_maps": 84,
+  "layout": "City name at top left; coordinates on the same left ink edge underneath; compass vertically centred beside both at the right.",
+  "visual_review": "All 84 serialized header previews reviewed together; Newcastle full-page preview reviewed.",
+  "geometry_preserved": true,
+  "canonical_tests_passed": 96,
+  "artwork_tests_passed": 72,
+  "unrelated_existing_check": {
+    "test": "ExampleConformanceRatchetTest.test_regenerated_output_is_fully_conformant",
+    "artifact": "output/abstract-art-v1/collection-contact-sheet.svg",
+    "reason": "10076 mm abstract-art contact sheet is outside the six map sheet formats.",
+    "previous_spec_failures": 1,
+    "current_spec_failures": 1
+  },
+  "artifacts": [
+    {
+      "id": "001-uk-university-lse",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "8774468c66d7af5ad823db2a2a318c13c2bbe75d5ea01f0d2f1549c8c241605b",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            55.29,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            38.437,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "e42d755776b0a5eca376b7c1eb97b12157104ecc70496be30c9f171bdf008ca9",
+        "original_visible_copy": {
+          "layer-poster_title": "LONDON",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "51.5139 N / 0.1167 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "e42d755776b0a5eca376b7c1eb97b12157104ecc70496be30c9f171bdf008ca9"
+      }
+    },
+    {
+      "id": "002-uk-university-st-andrews",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "3c60e5baa19ff1828b41f2cea0201d5a164396e3298a0be0a9c59d705f843356",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            79.272,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            39.98,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "04ba66e653a44b11fe516e7a999ff0509226e3afc52c54f62f8d8498d43dcd29",
+        "original_visible_copy": {
+          "layer-poster_title": "ST ANDREWS",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "56.3399 N / 2.8118 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "04ba66e653a44b11fe516e7a999ff0509226e3afc52c54f62f8d8498d43dcd29"
+      }
+    },
+    {
+      "id": "003-uk-university-durham",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "19e020cab7c705093925f4e51786faf6a46fac33b8646186ae0de42bb741acef",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            57.637,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            40.326,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "2512430dbd0d6da46e726b46c44405a4f1fba3b327200e9aff08fc5deff79128",
+        "original_visible_copy": {
+          "layer-poster_title": "DURHAM",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "54.7750 N / 1.5750 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "2512430dbd0d6da46e726b46c44405a4f1fba3b327200e9aff08fc5deff79128"
+      }
+    },
+    {
+      "id": "004-uk-university-cambridge",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "89e56f3196e6f371a34bb4b01083659343005802456a79efc8a11d608891ec68",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            73.953,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            40.477,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "2fcf5d01d06b3754aa47a453a426250536c4cc35c3af3869a3c722ceff25fc9d",
+        "original_visible_copy": {
+          "layer-poster_title": "CAMBRIDGE",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "52.2054 N / 0.1132 E"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "2fcf5d01d06b3754aa47a453a426250536c4cc35c3af3869a3c722ceff25fc9d"
+      }
+    },
+    {
+      "id": "005-uk-university-oxford",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "86fd19bc400cb14ba775fe4a5ddf8fa52a4d522728cc85caf21dbe80a8b67b25",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            54.307,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            40.214,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "9b3d09a92861e65730c9c5ae2c0fdeb6f66c7d53f10fe5fe78912ac83291ca13",
+        "original_visible_copy": {
+          "layer-poster_title": "OXFORD",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "51.7550 N / 1.2550 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "9b3d09a92861e65730c9c5ae2c0fdeb6f66c7d53f10fe5fe78912ac83291ca13"
+      }
+    },
+    {
+      "id": "006-uk-university-imperial",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "9a6ce748f9fbd485edb24432875e0fceb22087307f131744b8c2bc93cdaebc8f",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            55.29,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            38.754,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "f04de7b10362b69fe731abd113c7636479cb1d3c9056f25c537341a34b9a98a8",
+        "original_visible_copy": {
+          "layer-poster_title": "LONDON",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "51.4983 N / 0.1769 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "f04de7b10362b69fe731abd113c7636479cb1d3c9056f25c537341a34b9a98a8"
+      }
+    },
+    {
+      "id": "007-uk-university-bath",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "59364e3699bf5eb63f95890f68e35348e0cde767cb4c59c4b36f902547b7d517",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            40.307,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            39.609,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "d7e71758d4fa014ebb7efe5d063d442a90724ddcb0f6c799f752211cc49d8d1c",
+        "original_visible_copy": {
+          "layer-poster_title": "BATH",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "51.3767 N / 2.3234 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "d7e71758d4fa014ebb7efe5d063d442a90724ddcb0f6c799f752211cc49d8d1c"
+      }
+    },
+    {
+      "id": "008-uk-university-warwick",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "5099e52afe85cbdf6b5ab9a33140d0bc9a141b7c616623f05002e467537f451f",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            68.624,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            39.405,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "6910fb05f4277af33791cb1878f7230a0e35652f8c6f11801c66497c773297ec",
+        "original_visible_copy": {
+          "layer-poster_title": "COVENTRY",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "52.3801 N / 1.5619 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "6910fb05f4277af33791cb1878f7230a0e35652f8c6f11801c66497c773297ec"
+      }
+    },
+    {
+      "id": "009-uk-university-ucl",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "0d2d40234e0d0266b98ff2c034613285cb3fe39afb6bd59aa232d3e8fca81866",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            55.29,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            38.812,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "76943ce9065ac1297a2d81801a0c074eb0078197230c3fc3b9a5778224b141f9",
+        "original_visible_copy": {
+          "layer-poster_title": "LONDON",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "51.5247 N / 0.1336 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "76943ce9065ac1297a2d81801a0c074eb0078197230c3fc3b9a5778224b141f9"
+      }
+    },
+    {
+      "id": "010-uk-university-bristol",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "f58fcaaa5f92837762e8c8fcd21791f4f2fc2ef35210e1e317b684deaa2d12ed",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            56.95,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            39.88,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "8147f251c362194e57d6ed20ba27eb68c9bdbc6d86efe17d9f760be708983b9d",
+        "original_visible_copy": {
+          "layer-poster_title": "BRISTOL",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "51.4564 N / 2.6044 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "8147f251c362194e57d6ed20ba27eb68c9bdbc6d86efe17d9f760be708983b9d"
+      }
+    },
+    {
+      "id": "011-uk-university-strathclyde",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "674f5a0c4ee818fb10da550b80f62a4b46f148f36ae7535128f1aff1d5635832",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            62.29,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            39.788,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "fffe6f9a1e922093bd18cd3b28917b435995530c022022571c0c3ca0b9234e64",
+        "original_visible_copy": {
+          "layer-poster_title": "GLASGOW",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "55.8619 N / 4.2420 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "fffe6f9a1e922093bd18cd3b28917b435995530c022022571c0c3ca0b9234e64"
+      }
+    },
+    {
+      "id": "012-uk-university-loughborough",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "7b0d01bea60caaa5f277121813a0dac8fde93972d01dfb6fe1c4e816797e24c6",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            101.921,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            39.5,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "fc703113ed86f6bd57b085218e43192c01305c1eb2135c633d9a546836c0c0da",
+        "original_visible_copy": {
+          "layer-poster_title": "LOUGHBOROUGH",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "52.7638 N / 1.2373 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "fc703113ed86f6bd57b085218e43192c01305c1eb2135c633d9a546836c0c0da"
+      }
+    },
+    {
+      "id": "013-uk-university-sheffield",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "e21740c681b04473e3904111e555296b3bd4b77771a9db682782c431bdb36e34",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            70.633,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            40.593,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "5f54ca0a3078c1aae6b4d54fdd84e69173f1f740c9f52765963cb8a916c47a84",
+        "original_visible_copy": {
+          "layer-poster_title": "SHEFFIELD",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "53.3807 N / 1.4888 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "5f54ca0a3078c1aae6b4d54fdd84e69173f1f740c9f52765963cb8a916c47a84"
+      }
+    },
+    {
+      "id": "014-uk-university-exeter",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "746f09c01064936b584ce5045866dcda0855ea8878f376f595dc6443bdbc1719",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            53.313,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            40.418,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "e4a18b43bd15332c61ad8d98b8ca297a8bcc9dafda15459e3f224336e9376255",
+        "original_visible_copy": {
+          "layer-poster_title": "EXETER",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "50.7361 N / 3.5350 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "e4a18b43bd15332c61ad8d98b8ca297a8bcc9dafda15459e3f224336e9376255"
+      }
+    },
+    {
+      "id": "015-uk-university-lancaster",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "d997d41b202741fe76753b6c78d3470759aceb0851e154915697330c6197faad",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            73.287,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            40.072,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "4c97219632415d053c91f9caf66373fa145929c24f6ecee95f9fc7ad58d332fe",
+        "original_visible_copy": {
+          "layer-poster_title": "LANCASTER",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "54.0098 N / 2.7876 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "4c97219632415d053c91f9caf66373fa145929c24f6ecee95f9fc7ad58d332fe"
+      }
+    },
+    {
+      "id": "016-uk-university-birmingham",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "96ea853d9833dbe0aeba6d01d1680ce73742d8a3161239f4ecdcb9d0d9fa4402",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            80.604,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            39.629,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "555180f2a342d1468b58ea21b63113eaab7427a2c6968e5a892a813c5057f7ac",
+        "original_visible_copy": {
+          "layer-poster_title": "BIRMINGHAM",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "52.4506 N / 1.9306 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "555180f2a342d1468b58ea21b63113eaab7427a2c6968e5a892a813c5057f7ac"
+      }
+    },
+    {
+      "id": "017-uk-university-southampton",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "0f1852b89ae8c51c291ea36a653eafffe39813ad43fc588d85e9cc39c2c05700",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            91.929,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            40.814,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "b05a3668912684d20b11415a71c401f01fd9a95317b2294398451d3b4ee6d3de",
+        "original_visible_copy": {
+          "layer-poster_title": "SOUTHAMPTON",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "50.9346 N / 1.3960 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "b05a3668912684d20b11415a71c401f01fd9a95317b2294398451d3b4ee6d3de"
+      }
+    },
+    {
+      "id": "018-uk-university-liverpool",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "4f8a152da850b72af22f3fdc1be47019cb2961d5e81183add657cb4672e34c2d",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            70.95,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            40.459,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "12e32140939a3f18009b05edc8cc3184950042873d0b99ce60f2e38fc124e21b",
+        "original_visible_copy": {
+          "layer-poster_title": "LIVERPOOL",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "53.4060 N / 2.9670 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "12e32140939a3f18009b05edc8cc3184950042873d0b99ce60f2e38fc124e21b"
+      }
+    },
+    {
+      "id": "019-uk-university-kings",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "95eb9478ef7e9ef26c255873630dc58f78a30b2d30b0a79b8cafcdb056dd351f",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            55.29,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            37.561,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "c747cb80fff585a36529b7c874f18f16f544d5090e86ca1883f961ff0c76d055",
+        "original_visible_copy": {
+          "layer-poster_title": "LONDON",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "51.5119 N / 0.1161 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "c747cb80fff585a36529b7c874f18f16f544d5090e86ca1883f961ff0c76d055"
+      }
+    },
+    {
+      "id": "020-uk-university-york",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "39cc9522d9891fcb7c051dcfdf53d7fbcd2611fb7cb9cc6055e091ebc42c3adb",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            12.999,
+            14.8,
+            41.311,
+            21.8
+          ],
+          "coordinates": [
+            12.999,
+            28.86,
+            40.181,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "5b2f6ee9140fab3a5ffc8057fb3ef618ef1049f202b517afe260b2bca0cb7d6c",
+        "original_visible_copy": {
+          "layer-poster_title": "YORK",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "53.9466 N / 1.0525 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "5b2f6ee9140fab3a5ffc8057fb3ef618ef1049f202b517afe260b2bca0cb7d6c"
+      }
+    },
+    {
+      "id": "021-uk-university-queens-belfast",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "043490a673c271720aefb76d9904870e973a2dd51bc6f3260e44171197ec392c",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            58.631,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            39.959,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "9ec4606857ed13646fabfd06be95495146ed3b2fe867cd35409ced67e84204b9",
+        "original_visible_copy": {
+          "layer-poster_title": "BELFAST",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "54.5842 N / 5.9347 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "9ec4606857ed13646fabfd06be95495146ed3b2fe867cd35409ced67e84204b9"
+      }
+    },
+    {
+      "id": "022-uk-university-glasgow",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "f2734dededdd79937a4c135e4a663483826951b7692e20106725a42c39216987",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            62.29,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            40.331,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "3b935a64c884dc132c63a01d2582fb7ff33a5bc609787a14e4cb00e5d8633ea9",
+        "original_visible_copy": {
+          "layer-poster_title": "GLASGOW",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "55.8722 N / 4.2881 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "3b935a64c884dc132c63a01d2582fb7ff33a5bc609787a14e4cb00e5d8633ea9"
+      }
+    },
+    {
+      "id": "023-uk-university-aberdeen",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "b0d10ccb23a34b514c2bbb0d6038e935fa3a0fdf878b4164f45b8356fba952d2",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            12.999,
+            14.8,
+            69.301,
+            21.8
+          ],
+          "coordinates": [
+            12.999,
+            28.86,
+            38.341,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "71b8483aadf79ec34a63936600ac4a3a30fb3c16e48b93e5c2d68e48f9bb36d5",
+        "original_visible_copy": {
+          "layer-poster_title": "ABERDEEN",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "57.1646 N / 2.1018 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "71b8483aadf79ec34a63936600ac4a3a30fb3c16e48b93e5c2d68e48f9bb36d5"
+      }
+    },
+    {
+      "id": "024-uk-university-dundee",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "8b8d5b46d619dafe3ef57a9d5a7e508777dcace081ba2fb8ef9d2b89eaf9c268",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            55.967,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            40.251,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "ec96b1949ca51ddb0b8f8da121e8f7347666c5428cae7b38130614123f9b2bab",
+        "original_visible_copy": {
+          "layer-poster_title": "DUNDEE",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "56.4580 N / 2.9821 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "ec96b1949ca51ddb0b8f8da121e8f7347666c5428cae7b38130614123f9b2bab"
+      }
+    },
+    {
+      "id": "025-uk-university-edinburgh",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "4f56d7794f3f78699eed270ae44c8334cb2a55d8c1bedce219d1bf6241932840",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            75.941,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            39.346,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "4a8f2ceec3d416ad859829bee9061fbf313b2737cbb62ca0071c8a5bde738e34",
+        "original_visible_copy": {
+          "layer-poster_title": "EDINBURGH",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "55.9474 N / 3.1872 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "4a8f2ceec3d416ad859829bee9061fbf313b2737cbb62ca0071c8a5bde738e34"
+      }
+    },
+    {
+      "id": "026-uk-university-leeds",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "46b9a1fd07f3c9410c32c2b347c3690306960732bdfd85d72e8ed868bad8741b",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            45.647,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            39.308,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "872f388081d851a4106cae5cf09605b360f7cd256402a26d299459184aeb8467",
+        "original_visible_copy": {
+          "layer-poster_title": "LEEDS",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "53.8072 N / 1.5517 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "872f388081d851a4106cae5cf09605b360f7cd256402a26d299459184aeb8467"
+      }
+    },
+    {
+      "id": "027-uk-university-manchester",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "9b55593903ebac524c031dab9e742866c224de2bd9e04c34c0246d5077de4820",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            83.956,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            39.579,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "2162c02d47d42ee317b2311385b9f8b25b87b42dfc6992c9f7e02ec6f86e15ef",
+        "original_visible_copy": {
+          "layer-poster_title": "MANCHESTER",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "53.4661 N / 2.2319 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "2162c02d47d42ee317b2311385b9f8b25b87b42dfc6992c9f7e02ec6f86e15ef"
+      }
+    },
+    {
+      "id": "028-uk-university-cardiff",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "ab4fa20f10e0b32dab389e1cfe651d40ae6ed3c7b05a4858805f7585d74432be",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            57.299,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            39.092,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "6a79b7978810eab4892a451cfb34298b45990ae055250a40ffdab77ee47c954d",
+        "original_visible_copy": {
+          "layer-poster_title": "CARDIFF",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "51.4874 N / 3.1782 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "6a79b7978810eab4892a451cfb34298b45990ae055250a40ffdab77ee47c954d"
+      }
+    },
+    {
+      "id": "029-uk-university-leicester",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "c566c7b4fc1ee943ecdad4012b2e2300b5ad61f4ab793fb6cedff151506ce22e",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            69.967,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            39.146,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "597b13f7d7fc01da8cbb91e5c766db4b3a1faccc3ace123a8002b5b9d2cfbf76",
+        "original_visible_copy": {
+          "layer-poster_title": "LEICESTER",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "52.6087 N / 1.1148 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "597b13f7d7fc01da8cbb91e5c766db4b3a1faccc3ace123a8002b5b9d2cfbf76"
+      }
+    },
+    {
+      "id": "030-uk-university-nottingham",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "f9799c0da39b2633358209bf61226efa17cc5e988cc4df7333714c57e82d7b4e",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            81.588,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            39.479,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "3a9ec5bb8dd5a068786773efde7bdceeef0084ea66040acec86d2e7455c92ac6",
+        "original_visible_copy": {
+          "layer-poster_title": "NOTTINGHAM",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "52.9389 N / 1.1969 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "3a9ec5bb8dd5a068786773efde7bdceeef0084ea66040acec86d2e7455c92ac6"
+      }
+    },
+    {
+      "id": "carlisle-university-fusehill-personalised-a3-portrait",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "efa1889dd0fb0d38cf3e962d4b075456b07d0967f935c656b616d4f0a3c0c78d",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            26.205,
+            30.85,
+            246.732,
+            42.436
+          ],
+          "coordinates": [
+            26.205,
+            57.815,
+            94.77,
+            61.833
+          ],
+          "compass": [
+            258.551,
+            32.506,
+            267.381,
+            60.101
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "e7d40720c58e2bf43b1cf647c0efb4074205309b10d2b1ba5c62fdc316ca72e0",
+        "original_visible_copy": {
+          "layer-poster_title": "UNIVERSITY OF CUMBRIA",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "54.8940 N   /   2.9263 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 24.081,
+            "y": 24.081,
+            "width": 156.527,
+            "height": 25.285
+          },
+          "city_coordinates": {
+            "x": 188.635,
+            "y": 24.081,
+            "width": 84.284,
+            "height": 6.02
+          },
+          "city_compass": {
+            "x": 252.851,
+            "y": 34.115,
+            "width": 20.068,
+            "height": 28.095
+          }
+        },
+        "map_geometry_sha256": "e7d40720c58e2bf43b1cf647c0efb4074205309b10d2b1ba5c62fdc316ca72e0"
+      }
+    },
+    {
+      "id": "newcastle-university-a3-portrait",
+      "domain": "01-university-cities-uk",
+      "svg_sha256": "0518df110cd0789f37f46c465ba39edd2344df2229001e4bc039380052588635",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            26.674,
+            29.619,
+            148.331,
+            43.667
+          ],
+          "coordinates": [
+            26.674,
+            57.815,
+            93.564,
+            61.833
+          ],
+          "compass": [
+            258.551,
+            31.891,
+            267.381,
+            59.486
+          ]
+        },
+        "compass_vertical_error_mm": 0.0,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "9a26d0915b5085ef5ed35651afe769c2d3f6b70d2966cc15acaa8f40aba7d9f3",
+        "original_visible_copy": {
+          "layer-poster_title": "NEWCASTLE",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "54.9805 N   /   1.6152 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 24.081,
+            "y": 24.081,
+            "width": 156.527,
+            "height": 25.285
+          },
+          "city_coordinates": {
+            "x": 188.635,
+            "y": 24.081,
+            "width": 84.284,
+            "height": 6.02
+          },
+          "city_compass": {
+            "x": 252.851,
+            "y": 34.115,
+            "width": 20.068,
+            "height": 28.095
+          }
+        },
+        "map_geometry_sha256": "9a26d0915b5085ef5ed35651afe769c2d3f6b70d2966cc15acaa8f40aba7d9f3"
+      }
+    },
+    {
+      "id": "001-us-university-mit",
+      "domain": "02-university-cities-us",
+      "svg_sha256": "4eed2db73c1adf418eaafa3ab635ff7b62839d88ca3dc1f6256af9848d3bb56b",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            73.953,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            41.778,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "03332e3f14670da0b084afe9865ca0a0432d27188b9ef7b65fcc42ce06bd25f3",
+        "original_visible_copy": {
+          "layer-poster_title": "CAMBRIDGE",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "42.3583 N / 71.0966 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "03332e3f14670da0b084afe9865ca0a0432d27188b9ef7b65fcc42ce06bd25f3"
+      }
+    },
+    {
+      "id": "002-us-university-stanford",
+      "domain": "02-university-cities-us",
+      "svg_sha256": "07ce7283013a0b423afba943c17f9282206054246f6adc50711b351db34f22bd",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            67.619,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            42.208,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "71867195b44122dd0c07fb88e8972e12d1861f22a48c9a4528f324fb6cfc5e70",
+        "original_visible_copy": {
+          "layer-poster_title": "STANFORD",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "37.4313 N / 122.1694 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "71867195b44122dd0c07fb88e8972e12d1861f22a48c9a4528f324fb6cfc5e70"
+      }
+    },
+    {
+      "id": "003-us-university-harvard",
+      "domain": "02-university-cities-us",
+      "svg_sha256": "59291a6f30bf229b4d13f80c17f1ea5e71c2fdfe427d4e7e37eeeac45b070ff3",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            73.953,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            41.699,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "b8b93b761f74df29bc56ba3e2e986b4a3e79dbfcff38f1f3c7e107578011666e",
+        "original_visible_copy": {
+          "layer-poster_title": "CAMBRIDGE",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "42.3657 N / 71.1222 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "b8b93b761f74df29bc56ba3e2e986b4a3e79dbfcff38f1f3c7e107578011666e"
+      }
+    },
+    {
+      "id": "004-us-university-caltech",
+      "domain": "02-university-cities-us",
+      "svg_sha256": "c367bc38448dbe62c1e6859539111b3803d0fb9f373f4930843793705416da30",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            68.296,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            42.09,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "2e38a3c216dd42dac0847a2191fd80348c5a7ed2c73b484530f4f179ba7dc21e",
+        "original_visible_copy": {
+          "layer-poster_title": "PASADENA",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "34.1370 N / 118.1253 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "2e38a3c216dd42dac0847a2191fd80348c5a7ed2c73b484530f4f179ba7dc21e"
+      }
+    },
+    {
+      "id": "005-us-university-pennsylvania",
+      "domain": "02-university-cities-us",
+      "svg_sha256": "ade06732f3ee31c973787bc59626b2a557d23e4ffb630a0e57435db6f562e5a4",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            89.941,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            41.848,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "a4052a3abc0a736b5b22965ad71a182350806186dc3db53e3eebb2265a81bca2",
+        "original_visible_copy": {
+          "layer-poster_title": "PHILADELPHIA",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "39.9522 N / 75.1956 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "a4052a3abc0a736b5b22965ad71a182350806186dc3db53e3eebb2265a81bca2"
+      }
+    },
+    {
+      "id": "006-us-university-cornell",
+      "domain": "02-university-cities-us",
+      "svg_sha256": "013f36a8ae0249eea9b00964d3e9d023b32a97b64642db822062a66e7b46cd77",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            50.637,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            40.739,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "3e406173611dd2044fad06049f819b2dbcd291f96477a2fdfefccd81848b5b1a",
+        "original_visible_copy": {
+          "layer-poster_title": "ITHACA",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "42.4529 N / 76.4801 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "3e406173611dd2044fad06049f819b2dbcd291f96477a2fdfefccd81848b5b1a"
+      }
+    },
+    {
+      "id": "007-us-university-yale",
+      "domain": "02-university-cities-us",
+      "svg_sha256": "405861e5826aece6ed389369bee083f3159436bc47b15e3f320c45d5bac4db54",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            74.619,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            40.105,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "e236fd664d0320a0fcafdc6ccc56ec076b4097334af27c07df68b703b3e0f743",
+        "original_visible_copy": {
+          "layer-poster_title": "NEW HAVEN",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "41.3105 N / 72.9271 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "e236fd664d0320a0fcafdc6ccc56ec076b4097334af27c07df68b703b3e0f743"
+      }
+    },
+    {
+      "id": "008-us-university-johns-hopkins",
+      "domain": "02-university-cities-us",
+      "svg_sha256": "ea0352a0c03359c09f6412754dd6f07a550958c1a5567bac355d2e5b7097d15a",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            71.616,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            41.681,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "c15ddc2f6e52c6e614b2ba27100c1853a1c095503b3b36531457ff3c36ddeb8d",
+        "original_visible_copy": {
+          "layer-poster_title": "BALTIMORE",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "39.3302 N / 76.6219 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "c15ddc2f6e52c6e614b2ba27100c1853a1c095503b3b36531457ff3c36ddeb8d"
+      }
+    },
+    {
+      "id": "009-us-university-uc-berkeley",
+      "domain": "02-university-cities-us",
+      "svg_sha256": "6ec44c5bdab5a13b8a18db338cba48194fb42b574e7ec1cd551242dbe6c66478",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            68.307,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            42.666,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "cb4bd2f8e98a997aea51c7494064015e1bb723c2b17167233596d4184117f61a",
+        "original_visible_copy": {
+          "layer-poster_title": "BERKELEY",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "37.8721 N / 122.2578 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "cb4bd2f8e98a997aea51c7494064015e1bb723c2b17167233596d4184117f61a"
+      }
+    },
+    {
+      "id": "010-us-university-chicago",
+      "domain": "02-university-cities-us",
+      "svg_sha256": "4ff2fc7655cc5343f4877b4aeb0535f48c6dd8e9b8acc960556a303f5cc92b1c",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            58.97,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            41.077,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "9902b52f6d5a9c183f03203005c1d9880de89720f003ec53ff069fe39319b071",
+        "original_visible_copy": {
+          "layer-poster_title": "CHICAGO",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "41.7913 N / 87.6008 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "9902b52f6d5a9c183f03203005c1d9880de89720f003ec53ff069fe39319b071"
+      }
+    },
+    {
+      "id": "011-us-university-princeton",
+      "domain": "02-university-cities-us",
+      "svg_sha256": "909ece0c8f43870a0090fb41b9885ae0c741049a988819d2e22a27b167903e40",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            73.276,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            41.669,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "b8788c8409ee030aabb86d8b28a2101dd19b921c7bd5eb317286a8931896e27d",
+        "original_visible_copy": {
+          "layer-poster_title": "PRINCETON",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "40.3387 N / 74.6584 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "b8788c8409ee030aabb86d8b28a2101dd19b921c7bd5eb317286a8931896e27d"
+      }
+    },
+    {
+      "id": "012-us-university-columbia",
+      "domain": "02-university-cities-us",
+      "svg_sha256": "fce8fd9cdc9a7b5412a897b24f26176e5f908a3d1aa6f2cee3e05433d7effb22",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            95.937,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            42.386,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "2e1b5085ae669a75a717c7dbe369c1c284e2724c4976fa34dbac0fcb01533d47",
+        "original_visible_copy": {
+          "layer-poster_title": "NEW YORK CITY",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "40.8078 N / 73.9625 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "2e1b5085ae669a75a717c7dbe369c1c284e2724c4976fa34dbac0fcb01533d47"
+      }
+    },
+    {
+      "id": "013-us-university-northwestern",
+      "domain": "02-university-cities-us",
+      "svg_sha256": "c06a1ebe566d492a4c2f5925f141059deb0377819ac0a89a83d84dbb4d0defce",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            67.947,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            41.669,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "fb6f867ee6345080f828b5487bbbade2084ddbc5dfc1f24a5fe7c03d25caca46",
+        "original_visible_copy": {
+          "layer-poster_title": "EVANSTON",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "42.0557 N / 87.6753 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "fb6f867ee6345080f828b5487bbbade2084ddbc5dfc1f24a5fe7c03d25caca46"
+      }
+    },
+    {
+      "id": "014-us-university-ucla",
+      "domain": "02-university-cities-us",
+      "svg_sha256": "5f1a1f64d40eb65e2982f59871b3cf77a2494bf1ef9f774411460a1a7935a4e3",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            84.273,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            42.612,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "301a6eff548b22d82b6e488ed38b757758a2a5b2dd8961f0b29e96eef1cf4fe6",
+        "original_visible_copy": {
+          "layer-poster_title": "LOS ANGELES",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "34.0709 N / 118.4469 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "301a6eff548b22d82b6e488ed38b757758a2a5b2dd8961f0b29e96eef1cf4fe6"
+      }
+    },
+    {
+      "id": "015-us-university-michigan-ann-arbor",
+      "domain": "02-university-cities-us",
+      "svg_sha256": "fee9651c0b4c3163b350864b4959c19db0170f54dd3b231a0b1609f91a495c17",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            12.999,
+            14.8,
+            73.943,
+            21.8
+          ],
+          "coordinates": [
+            12.999,
+            28.86,
+            41.165,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "ee5a1341f2b5777baec26c322189e9a22ae63a73a4c5e8d869a211bf839da518",
+        "original_visible_copy": {
+          "layer-poster_title": "ANN ARBOR",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "42.2790 N / 83.7353 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "ee5a1341f2b5777baec26c322189e9a22ae63a73a4c5e8d869a211bf839da518"
+      }
+    },
+    {
+      "id": "016-us-university-carnegie-mellon",
+      "domain": "02-university-cities-us",
+      "svg_sha256": "71cfd2e553800d3dad2859f92826a4fb2853821dde911bc0801c895290be717e",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            80.594,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            41.79,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "2dd5a899b1537978d404c9ebacfa76169ebda18f3583cb5a22041c168fbbb730",
+        "original_visible_copy": {
+          "layer-poster_title": "PITTSBURGH",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "40.4439 N / 79.9428 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "2dd5a899b1537978d404c9ebacfa76169ebda18f3583cb5a22041c168fbbb730"
+      }
+    },
+    {
+      "id": "017-us-university-nyu",
+      "domain": "02-university-cities-us",
+      "svg_sha256": "7ca2d21ab360119c52015564ab95f289a6d5eb308e8376ce83e332b88bb2f084",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            95.937,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            42.457,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "6b4f348be0b40e4dabcef6f1e364911e5273427cefa617b064685fdb8d1eef74",
+        "original_visible_copy": {
+          "layer-poster_title": "NEW YORK CITY",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "40.7292 N / 73.9950 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "6b4f348be0b40e4dabcef6f1e364911e5273427cefa617b064685fdb8d1eef74"
+      }
+    },
+    {
+      "id": "018-us-university-brown",
+      "domain": "02-university-cities-us",
+      "svg_sha256": "7a3aab9ae24910ad3a9db0a3a6fdd72466207b67bef7072655e53a408a936e51",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            79.949,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            40.38,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "a36d663f5eb823866af6b14ad94062185e70869c8a4fe8cfe4866d188b69ff35",
+        "original_visible_copy": {
+          "layer-poster_title": "PROVIDENCE",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "41.8186 N / 71.4088 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "a36d663f5eb823866af6b14ad94062185e70869c8a4fe8cfe4866d188b69ff35"
+      }
+    },
+    {
+      "id": "019-us-university-duke",
+      "domain": "02-university-cities-us",
+      "svg_sha256": "2aaab40a7195fc5c02abd7c5fc4779956639f9cc5f4a693be8a7efb75f97cb87",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            57.637,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            42.345,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "3fed7e0578e079568728335669ae51b776314e4b5aacd158de733d9b5f619939",
+        "original_visible_copy": {
+          "layer-poster_title": "DURHAM",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "36.0002 N / 78.9442 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "3fed7e0578e079568728335669ae51b776314e4b5aacd158de733d9b5f619939"
+      }
+    },
+    {
+      "id": "020-us-university-ut-austin",
+      "domain": "02-university-cities-us",
+      "svg_sha256": "2cc9c2bef1a17aca67e4d2c24e6dbabd62588df9fa514e063daea1cf03216437",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            12.999,
+            14.8,
+            50.955,
+            21.8
+          ],
+          "coordinates": [
+            12.999,
+            28.86,
+            40.815,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "668416ea133f319cd1499c642ea158f1a123634895ef9a290ede5b3daac320b5",
+        "original_visible_copy": {
+          "layer-poster_title": "AUSTIN",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "30.2851 N / 97.7339 W"
+        },
+        "original_header_zones_mm": {},
+        "map_geometry_sha256": "668416ea133f319cd1499c642ea158f1a123634895ef9a290ede5b3daac320b5"
+      }
+    },
+    {
+      "id": "seaton-sluice-holywell-dene-a3-landscape",
+      "domain": "03-hiking-maps",
+      "svg_sha256": "6c3b26604fdacaf0b473b9854a2bbe4c02cbc483c5f1bd57d65c8ab04bf1b7a7",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            27.353,
+            24.61,
+            191.77,
+            38.658
+          ],
+          "coordinates": [
+            27.353,
+            45.268,
+            92.318,
+            49.286
+          ],
+          "compass": [
+            364.14,
+            27.517,
+            383.611,
+            46.303
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "ae881dfe200656a42e93f84eeb1a06b6c200740915ea0614e283164b79f58e77",
+        "original_visible_copy": {
+          "layer-poster_title": "SEATON SLUICE",
+          "layer-poster_coordinates": "55.0747 N   /   1.4970 W",
+          "layer-poster_compass": "N"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 24.0,
+            "y": 24.0,
+            "width": 215.76,
+            "height": 25.286
+          },
+          "city_coordinates": {
+            "x": 245.76,
+            "y": 34.634,
+            "width": 99.99,
+            "height": 4.018
+          },
+          "city_compass": {
+            "x": 351.75,
+            "y": 24.0,
+            "width": 44.251,
+            "height": 25.286
+          }
+        },
+        "map_geometry_sha256": "ae881dfe200656a42e93f84eeb1a06b6c200740915ea0614e283164b79f58e77"
+      }
+    },
+    {
+      "id": "001-uk-university-lse",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "bffa73055506ba9998a40b65a96545dba89ea97ee87348b5e07b32b5882ee651",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            55.29,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            38.437,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "ac5863d45c835ffbb2d28c2526d5950cde75aeec89821fca84a77ee03d34cb67",
+        "original_visible_copy": {
+          "layer-poster_title": "LONDON",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "51.5139 N / 0.1167 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "ac5863d45c835ffbb2d28c2526d5950cde75aeec89821fca84a77ee03d34cb67"
+      }
+    },
+    {
+      "id": "002-uk-university-st-andrews",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "18b180f4fd61ccdd56c114130c3e42b8a48a5e2911b963ca97d3289bd6d0dc13",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            79.272,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            39.98,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "b8c42e96d292568ec4813cdc3341346d8fb7d6887ed5cf73a8a66db6a6c13251",
+        "original_visible_copy": {
+          "layer-poster_title": "ST ANDREWS",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "56.3399 N / 2.8118 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "b8c42e96d292568ec4813cdc3341346d8fb7d6887ed5cf73a8a66db6a6c13251"
+      }
+    },
+    {
+      "id": "003-uk-university-durham",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "0dcb3f368a0fb84ac18646be9b64394d894d0c531f7b0c917a3c6f4858277802",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            57.637,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            40.326,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "e453ddc3c82269a620eb0ae3ed8cc36c36433c515efbc7174e04507bd853d461",
+        "original_visible_copy": {
+          "layer-poster_title": "DURHAM",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "54.7750 N / 1.5750 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "e453ddc3c82269a620eb0ae3ed8cc36c36433c515efbc7174e04507bd853d461"
+      }
+    },
+    {
+      "id": "004-uk-university-cambridge",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "8d504d55ca9af4cb9e86be81f824159701f2f651950e70964256f2aaabcca3ac",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            73.953,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            40.477,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "3e5a378fd433744d291e4cb0254898f916924ebf8b72252438f464af8d7bdc7c",
+        "original_visible_copy": {
+          "layer-poster_title": "CAMBRIDGE",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "52.2054 N / 0.1132 E"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "3e5a378fd433744d291e4cb0254898f916924ebf8b72252438f464af8d7bdc7c"
+      }
+    },
+    {
+      "id": "005-uk-university-oxford",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "ad075508136f1679cbaaa18d9cbe77e0ca36d08448396133d19664e9a6b001d1",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            54.307,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            40.214,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "6ba86ffb72cce7702672018269315f45b3afe71d87e6957a7958b482c6259d89",
+        "original_visible_copy": {
+          "layer-poster_title": "OXFORD",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "51.7550 N / 1.2550 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "6ba86ffb72cce7702672018269315f45b3afe71d87e6957a7958b482c6259d89"
+      }
+    },
+    {
+      "id": "006-uk-university-imperial",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "5110246436b9618161a95a36c4c4b032386c145f6c5c34fe9a54ffb983707758",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            55.29,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            38.754,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "def929b1c48b33abcafed78745526674c0b2e1a9d843b5b185e6c431fd9db255",
+        "original_visible_copy": {
+          "layer-poster_title": "LONDON",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "51.4983 N / 0.1769 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "def929b1c48b33abcafed78745526674c0b2e1a9d843b5b185e6c431fd9db255"
+      }
+    },
+    {
+      "id": "007-uk-university-bath",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "e67cd7fd41e78b55a394f02e7d9a8aca9005a6e65e257f79edcc9d5de5a1e3dd",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            40.307,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            39.609,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "3a2e060b73efacd555e54df5d083b286ae0eab9acd9407ab47d851461a04aad2",
+        "original_visible_copy": {
+          "layer-poster_title": "BATH",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "51.3767 N / 2.3234 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "3a2e060b73efacd555e54df5d083b286ae0eab9acd9407ab47d851461a04aad2"
+      }
+    },
+    {
+      "id": "008-uk-university-warwick",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "16f9ab62827d777a86ab87bf8ac85604a3d17b340e7dfce0c1794700ebc8277d",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            68.624,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            39.405,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "335f9bb7d7044631f7c94b3465de16593da6ff2c4ae7fa89b2b23073f4143a0b",
+        "original_visible_copy": {
+          "layer-poster_title": "COVENTRY",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "52.3801 N / 1.5619 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "335f9bb7d7044631f7c94b3465de16593da6ff2c4ae7fa89b2b23073f4143a0b"
+      }
+    },
+    {
+      "id": "009-uk-university-ucl",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "63afd5032d4ea4f616c81d75ea8b6ebb2df5bd6de4d2738bc1d9bc43774032c3",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            55.29,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            38.812,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "e0fcc844de117e7d9b7c95794ce06dc6190a10eb0188f88a28928d4be3ae54cb",
+        "original_visible_copy": {
+          "layer-poster_title": "LONDON",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "51.5247 N / 0.1336 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "e0fcc844de117e7d9b7c95794ce06dc6190a10eb0188f88a28928d4be3ae54cb"
+      }
+    },
+    {
+      "id": "010-uk-university-bristol",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "fbdc17d2a6ffc24b25974b5166e49fa0258ae06ae464b81293b1481d37c2875e",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            56.95,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            39.88,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "f940d28442c38255d573f69925fcff602a6abe376a5fdae52d1a6f954b3caffe",
+        "original_visible_copy": {
+          "layer-poster_title": "BRISTOL",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "51.4564 N / 2.6044 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "f940d28442c38255d573f69925fcff602a6abe376a5fdae52d1a6f954b3caffe"
+      }
+    },
+    {
+      "id": "011-uk-university-strathclyde",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "ddaf86f7bc2da8d7f7fe66a24e5f11850d756cdf62d531c6b0179d5b9444e5a6",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            62.29,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            39.788,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "7480a43f4ba7e8e0a17a2a641dbe3583fc6f3d046badfcfa661af16a00a3406c",
+        "original_visible_copy": {
+          "layer-poster_title": "GLASGOW",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "55.8619 N / 4.2420 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "7480a43f4ba7e8e0a17a2a641dbe3583fc6f3d046badfcfa661af16a00a3406c"
+      }
+    },
+    {
+      "id": "012-uk-university-loughborough",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "ffae405e1a0d1747b47711f8ce372f8ca9459f1ad40f4f5f040385c7044df1f5",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            101.921,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            39.5,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "18226b29a20f7eb12c84b9962580eb4e4a5e4cb706b3d3f58a1f3bb7c5f8474e",
+        "original_visible_copy": {
+          "layer-poster_title": "LOUGHBOROUGH",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "52.7638 N / 1.2373 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "18226b29a20f7eb12c84b9962580eb4e4a5e4cb706b3d3f58a1f3bb7c5f8474e"
+      }
+    },
+    {
+      "id": "013-uk-university-sheffield",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "b96793e5380f39c414591acb47478e95546cd4c5c8515a4544364e5b25b4d483",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            70.633,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            40.593,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "0b158916211133d34744cfe36c0342cece30b2a73b637a9ebaf9f5be8f417c27",
+        "original_visible_copy": {
+          "layer-poster_title": "SHEFFIELD",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "53.3807 N / 1.4888 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "0b158916211133d34744cfe36c0342cece30b2a73b637a9ebaf9f5be8f417c27"
+      }
+    },
+    {
+      "id": "014-uk-university-exeter",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "d1226c9fd1c20c151635aa17e6687fd00dd33ef571d77544a8acf4a22e421532",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            53.313,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            40.418,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "0465e0862ca9c461b69f9c78e257d8f6065f62c2e8987b126dcd61d9006dd779",
+        "original_visible_copy": {
+          "layer-poster_title": "EXETER",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "50.7361 N / 3.5350 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "0465e0862ca9c461b69f9c78e257d8f6065f62c2e8987b126dcd61d9006dd779"
+      }
+    },
+    {
+      "id": "015-uk-university-lancaster",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "607b5f64e5f05fd491c7a710afe575ae5b8d49b9c91492ca545788b986099117",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            73.287,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            40.072,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "4fcf8910410bf2bb7f8339f0d795f7ef344c5fdb00f0a20345b1670dc9b39977",
+        "original_visible_copy": {
+          "layer-poster_title": "LANCASTER",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "54.0098 N / 2.7876 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "4fcf8910410bf2bb7f8339f0d795f7ef344c5fdb00f0a20345b1670dc9b39977"
+      }
+    },
+    {
+      "id": "016-uk-university-birmingham",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "2f87732ac566b6fdcfd2af2a88fc5dad87f8b1e9f92d15c84882fd24c4a67dab",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            80.604,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            39.629,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "984c7100629ced3f5341c809b3b77dee4b9cbe813c3a11bea1653b4822fc1988",
+        "original_visible_copy": {
+          "layer-poster_title": "BIRMINGHAM",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "52.4506 N / 1.9306 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "984c7100629ced3f5341c809b3b77dee4b9cbe813c3a11bea1653b4822fc1988"
+      }
+    },
+    {
+      "id": "017-uk-university-southampton",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "e30cf0404ef74175d12e006bad042a5378c9a1521df2d68d6f92cc381f12767c",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            91.929,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            40.814,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "2a079bfc9d328dfb4a57f4754fe12dab49204998ce37b3aaf4309a74fd19a4fb",
+        "original_visible_copy": {
+          "layer-poster_title": "SOUTHAMPTON",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "50.9346 N / 1.3960 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "2a079bfc9d328dfb4a57f4754fe12dab49204998ce37b3aaf4309a74fd19a4fb"
+      }
+    },
+    {
+      "id": "018-uk-university-liverpool",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "a6269fd672bcd324ea658b7fee16f70fbab97ce525a7139d113e7c9ebceaf1c6",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            70.95,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            40.459,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "3707186a21a6c0890e54d17e606b3130f2ac53f0cec4a38771f2812455995ff7",
+        "original_visible_copy": {
+          "layer-poster_title": "LIVERPOOL",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "53.4060 N / 2.9670 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "3707186a21a6c0890e54d17e606b3130f2ac53f0cec4a38771f2812455995ff7"
+      }
+    },
+    {
+      "id": "019-uk-university-kings",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "e70a05836cb67cf6c8f23d00bd338e657e2bae5376c285fa0126da8d33a4dd00",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            55.29,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            37.561,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "d42d346720db9f9c595f155a188730a2156950299f7528f566158af195c9ad8e",
+        "original_visible_copy": {
+          "layer-poster_title": "LONDON",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "51.5119 N / 0.1161 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "d42d346720db9f9c595f155a188730a2156950299f7528f566158af195c9ad8e"
+      }
+    },
+    {
+      "id": "020-uk-university-york",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "bd6eb3a52fd9626a6b7517360ea4f8abe4a7b68fab5f107d0454622b5952492b",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            12.999,
+            14.8,
+            41.311,
+            21.8
+          ],
+          "coordinates": [
+            12.999,
+            28.86,
+            40.181,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "36891f5e5fb667e94b6068ec67d6b5ffca88c6385ff88e3a371aae780ac15013",
+        "original_visible_copy": {
+          "layer-poster_title": "YORK",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "53.9466 N / 1.0525 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "36891f5e5fb667e94b6068ec67d6b5ffca88c6385ff88e3a371aae780ac15013"
+      }
+    },
+    {
+      "id": "021-uk-university-queens-belfast",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "535646bf0e8713db38be20cb715f4c6c2902aee9c41b6b928a30aa83e6e6a530",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            58.631,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            39.959,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "79467e2518f956200007681c6851bec1b4aee0581273d03d2ea7ce46f1eb5669",
+        "original_visible_copy": {
+          "layer-poster_title": "BELFAST",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "54.5842 N / 5.9347 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "79467e2518f956200007681c6851bec1b4aee0581273d03d2ea7ce46f1eb5669"
+      }
+    },
+    {
+      "id": "022-uk-university-glasgow",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "11be7c910f791b3a01e35120a0111c318d1e0fdb5032b65e19a093d72f9da6fd",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            62.29,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            40.331,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "2ea5c5a88d4487c77e3fce4d6a909fd764cfceebad42592f2ddd18d7e88ca8af",
+        "original_visible_copy": {
+          "layer-poster_title": "GLASGOW",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "55.8722 N / 4.2881 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "2ea5c5a88d4487c77e3fce4d6a909fd764cfceebad42592f2ddd18d7e88ca8af"
+      }
+    },
+    {
+      "id": "023-uk-university-aberdeen",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "aec37917baa38f3341646abbf8c6e8efe32a5f4b82469af95512586fbfa3c90b",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            12.999,
+            14.8,
+            69.301,
+            21.8
+          ],
+          "coordinates": [
+            12.999,
+            28.86,
+            38.341,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "642914e9bd0747f1a69c6748cc38bdd3041aa83e25bb495aac9f3e16bda23cee",
+        "original_visible_copy": {
+          "layer-poster_title": "ABERDEEN",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "57.1646 N / 2.1018 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "642914e9bd0747f1a69c6748cc38bdd3041aa83e25bb495aac9f3e16bda23cee"
+      }
+    },
+    {
+      "id": "024-uk-university-dundee",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "3c2d3f17a8dc2d8e3f2a5b627e60902549a4e22f03a3a476543e3fcb47d52dd4",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            55.967,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            40.251,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "05a407177eee1d937c00f1769f60352f8ed038c6ea2fab868c62061c065babcd",
+        "original_visible_copy": {
+          "layer-poster_title": "DUNDEE",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "56.4580 N / 2.9821 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "05a407177eee1d937c00f1769f60352f8ed038c6ea2fab868c62061c065babcd"
+      }
+    },
+    {
+      "id": "025-uk-university-edinburgh",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "69a78f07a0e2a864a078e513d52f6002225d030782efeae916101cd600b0692e",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            75.941,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            39.346,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "b32450079900308b531217d13c514ef7cdb43dc379e2859262d8ba2c0b94f110",
+        "original_visible_copy": {
+          "layer-poster_title": "EDINBURGH",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "55.9474 N / 3.1872 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "b32450079900308b531217d13c514ef7cdb43dc379e2859262d8ba2c0b94f110"
+      }
+    },
+    {
+      "id": "026-uk-university-leeds",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "2f83e7e65d90d34152a45194eb54b5ee6afd1a01a9aeb8a8d5c1796fc365edda",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            45.647,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            39.308,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "33d75e43d805f48989b36bb711044bb044254ef95cc2e6ebfbf6b0c06658cc8e",
+        "original_visible_copy": {
+          "layer-poster_title": "LEEDS",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "53.8072 N / 1.5517 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "33d75e43d805f48989b36bb711044bb044254ef95cc2e6ebfbf6b0c06658cc8e"
+      }
+    },
+    {
+      "id": "027-uk-university-manchester",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "4c17d76e51206eadad249782e9a680b1a9f14d299d289b3fc5c0e07b63df6376",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            83.956,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            39.579,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "eeae040c29964204139f6afd2477221dabc0618375ccf1e084dd89cb43c24bcb",
+        "original_visible_copy": {
+          "layer-poster_title": "MANCHESTER",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "53.4661 N / 2.2319 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "eeae040c29964204139f6afd2477221dabc0618375ccf1e084dd89cb43c24bcb"
+      }
+    },
+    {
+      "id": "028-uk-university-cardiff",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "e94b18c60683cdbc94561151c5e923c07c05deafce72c8767424118e446f8288",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.671,
+            14.8,
+            57.299,
+            21.8
+          ],
+          "coordinates": [
+            13.671,
+            28.86,
+            39.092,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "8152c820265024069b6ccf53ad95d67638bf4972721d98fe666e031d3c1452af",
+        "original_visible_copy": {
+          "layer-poster_title": "CARDIFF",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "51.4874 N / 3.1782 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "8152c820265024069b6ccf53ad95d67638bf4972721d98fe666e031d3c1452af"
+      }
+    },
+    {
+      "id": "029-uk-university-leicester",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "bcd3e9e6aa42a397b0dcafe7ee2d55dd9fad789ee2e5eb4f17b79825f7ddb052",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            69.967,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            39.146,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "fef6043fbed5f9db846f981d4b1a57ea089936bd7a53a4b8748beb5d2cdca5b4",
+        "original_visible_copy": {
+          "layer-poster_title": "LEICESTER",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "52.6087 N / 1.1148 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "fef6043fbed5f9db846f981d4b1a57ea089936bd7a53a4b8748beb5d2cdca5b4"
+      }
+    },
+    {
+      "id": "030-uk-university-nottingham",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "7c93b4e1a8edb47a9d61ca0e921717f82b45023180eec640113285ba2b898ee3",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            13.332,
+            14.8,
+            81.588,
+            21.8
+          ],
+          "coordinates": [
+            13.332,
+            28.86,
+            39.479,
+            30.862
+          ],
+          "compass": [
+            128.8,
+            16.044,
+            133.2,
+            29.544
+          ]
+        },
+        "compass_vertical_error_mm": 0.0005,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "167b27cab5f255559e28c9d7ac51d218df0553cb80bd45e7dcb4d8cd3dc17d93",
+        "original_visible_copy": {
+          "layer-poster_title": "NOTTINGHAM",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "52.9389 N / 1.1969 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 12.0,
+            "y": 12.0,
+            "width": 78.0,
+            "height": 12.6
+          },
+          "city_coordinates": {
+            "x": 94.0,
+            "y": 12.0,
+            "width": 42.0,
+            "height": 3.0
+          },
+          "city_compass": {
+            "x": 126.0,
+            "y": 17.0,
+            "width": 10.0,
+            "height": 14.0
+          }
+        },
+        "map_geometry_sha256": "167b27cab5f255559e28c9d7ac51d218df0553cb80bd45e7dcb4d8cd3dc17d93"
+      }
+    },
+    {
+      "id": "newcastle-city-a3-portrait",
+      "domain": "08-city-maps-uk",
+      "svg_sha256": "f7dffe297a1b76d22ba394f8c345ea5659ea8ed91980d6efba73d71fc44cb9bb",
+      "header": {
+        "status": "passed",
+        "policy_id": "city-header-left-stack-v1",
+        "bounds_mm": {
+          "title": [
+            26.674,
+            29.619,
+            148.331,
+            43.667
+          ],
+          "coordinates": [
+            26.674,
+            57.815,
+            78.104,
+            61.833
+          ],
+          "compass": [
+            258.551,
+            31.891,
+            267.381,
+            59.486
+          ]
+        },
+        "compass_vertical_error_mm": 0.0,
+        "non_header_geometry_unchanged": true,
+        "non_header_geometry_sha256": "dd07747ce8e4d466a42dda48ef005c43bf9dd4a40e2bd35dc48d17ae31613b3d",
+        "original_visible_copy": {
+          "layer-poster_title": "NEWCASTLE",
+          "layer-poster_compass": "N",
+          "layer-poster_coordinates": "54.9790 N / 1.6110 W"
+        },
+        "original_header_zones_mm": {
+          "city_title": {
+            "x": 24.081,
+            "y": 24.081,
+            "width": 156.527,
+            "height": 25.285
+          },
+          "city_coordinates": {
+            "x": 188.635,
+            "y": 24.081,
+            "width": 84.284,
+            "height": 6.02
+          },
+          "city_compass": {
+            "x": 252.851,
+            "y": 34.115,
+            "width": 20.068,
+            "height": 28.095
+          }
+        },
+        "map_geometry_sha256": "dd07747ce8e4d466a42dda48ef005c43bf9dd4a40e2bd35dc48d17ae31613b3d"
+      }
+    }
+  ]
+}

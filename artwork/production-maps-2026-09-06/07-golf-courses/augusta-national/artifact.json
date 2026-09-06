@@ -1,0 +1,511 @@
+{
+  "id": "augusta-national",
+  "domain": "07-golf-courses",
+  "title": "AUGUSTA NATIONAL",
+  "artifact_version": 1,
+  "format_id": "a3-portrait",
+  "source": {
+    "svg_sha256": "81eeaebea07f43acd08ce05de1ffcdf0b0cfe1a9ddb4aa8dd09044b43162a2a9",
+    "manifest_sha256": "d8316bd35580b4dd40c10c3dbba28c738b4c1431b3a87b13a90de7c8507387b0",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/07-golf-courses/artwork/augusta-national.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 10,
+      "pen_changes": 9,
+      "pen_down_path_count": 878,
+      "pen_down_distance_mm": 16674.3,
+      "pen_up_travel_mm": 12566.2,
+      "travel_ratio": 0.754,
+      "estimated_plot_seconds_including_pen_up": 633.5,
+      "field_ink_mm2_upper_bound": 4312.7,
+      "field_ink_coverage_upper_bound": 0.067247,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "course_paths",
+          "bunkers",
+          "field_frame"
+        ],
+        "path_count": 118,
+        "pen_down_distance_mm": 2258.2,
+        "pen_up_travel_mm": 2208.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 64.5,
+        "estimated_plot_seconds_including_pen_up": 92.1,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "playing_envelope"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 792.6,
+        "pen_up_travel_mm": 213.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 22.6,
+        "estimated_plot_seconds_including_pen_up": 25.3,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "fairways"
+        ],
+        "path_count": 202,
+        "pen_down_distance_mm": 4063.5,
+        "pen_up_travel_mm": 1379.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 116.1,
+        "estimated_plot_seconds_including_pen_up": 133.3,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.4",
+        "pen_id": "green-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "greens_and_tees"
+        ],
+        "path_count": 52,
+        "pen_down_distance_mm": 739.7,
+        "pen_up_travel_mm": 1210.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 21.1,
+        "estimated_plot_seconds_including_pen_up": 36.3,
+        "instruction": "Load Green 0.4 (green-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water_stipple"
+        ],
+        "path_count": 116,
+        "pen_down_distance_mm": 129.7,
+        "pen_up_travel_mm": 803.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 3.7,
+        "estimated_plot_seconds_including_pen_up": 13.7,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Blue 0.4",
+        "pen_id": "blue-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water"
+        ],
+        "path_count": 9,
+        "pen_down_distance_mm": 580.0,
+        "pen_up_travel_mm": 558.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 16.6,
+        "estimated_plot_seconds_including_pen_up": 23.6,
+        "instruction": "Load Blue 0.4 (blue-0-4) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Red 0.25",
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hole_markers"
+        ],
+        "path_count": 36,
+        "pen_down_distance_mm": 747.9,
+        "pen_up_travel_mm": 879.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 21.4,
+        "estimated_plot_seconds_including_pen_up": 32.4,
+        "instruction": "Load Red 0.25 (red-0-25) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "hole_numbers",
+          "course_buildings",
+          "map_reference",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 347,
+        "pen_down_distance_mm": 2747.5,
+        "pen_up_travel_mm": 4093.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 78.5,
+        "estimated_plot_seconds_including_pen_up": 129.7,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 9,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 25,
+        "pen_down_distance_mm": 3195.4,
+        "pen_up_travel_mm": 711.4,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 91.3,
+        "estimated_plot_seconds_including_pen_up": 100.2,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 09.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 10,
+        "pen": "Gold 1",
+        "pen_id": "gold-1",
+        "pen_profile": "actual-pens",
+        "ink": "Gold",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#b88900",
+        "layers": [
+          "holes"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 1419.8,
+        "pen_up_travel_mm": 508.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 40.6,
+        "estimated_plot_seconds_including_pen_up": 46.9,
+        "instruction": "Load Gold 1 (gold-1) and plot SVG layer 10.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/augusta-national.svg",
+        "sha256": "81eeaebea07f43acd08ce05de1ffcdf0b0cfe1a9ddb4aa8dd09044b43162a2a9"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/augusta-national.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/augusta-national.pen-01-grey-0-25.svg",
+          "sha256": "3dddc9084724b6d270750bc5b7553116bc0f63615396e936e374725b01a219d2"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/augusta-national.pen-02-grey-0-4.svg",
+          "sha256": "d5c168d69116f4e6f732b1defe7aa325ab59edf59965d78142e6d2d5d177d293"
+        },
+        {
+          "step": 3,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/augusta-national.pen-03-green-0-25.svg",
+          "sha256": "4b294edf15b4c7e4007091f4a1863bca2d77870c4644b6aabc14b7fd8a2af812"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.4",
+          "pen_id": "green-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/augusta-national.pen-04-green-0-4.svg",
+          "sha256": "2b095c05937b97b85674500d56f455cfe50ce5b77b483c637783155c4710ce18"
+        },
+        {
+          "step": 5,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/augusta-national.pen-05-blue-0-25.svg",
+          "sha256": "5c1fb4678b158ff989bb0c757bcf92b4c5863fffc4d681327aace2b151adc78a"
+        },
+        {
+          "step": 6,
+          "pen": "Blue 0.4",
+          "pen_id": "blue-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/augusta-national.pen-06-blue-0-4.svg",
+          "sha256": "66f1a5393b3c347780ca90ddab76d70e4682cc3a5a1f651326960cb2fb093053"
+        },
+        {
+          "step": 7,
+          "pen": "Red 0.25",
+          "pen_id": "red-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/augusta-national.pen-07-red-0-25.svg",
+          "sha256": "3f9b4008a12e63bdc3a6e1d7eba76ba912db1172636473e01852612902c610eb"
+        },
+        {
+          "step": 8,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/augusta-national.pen-08-black-0-4.svg",
+          "sha256": "b8f6bc6f335876cc50ab247377a62ff59e51918ace8bd6c39ff31d02b7e92766"
+        },
+        {
+          "step": 9,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/augusta-national.pen-09-black-1.svg",
+          "sha256": "6a0d2fb595e83183f62594bebe11bbbe5bb3ba60d523a5794e1b4bc14660ff80"
+        },
+        {
+          "step": 10,
+          "pen": "Gold 1",
+          "pen_id": "gold-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/augusta-national.pen-10-gold-1.svg",
+          "sha256": "ad6e6051e62ebf3432ddae14508c05ff35b452e205d9fcd896df735b85d56d42"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/augusta-national.png",
+        "dpi": 180.0,
+        "sha256": "8f66c217c8bc2f3be10b93280051e43bcbb58268cd00f9d759afb9fc46daff3d"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "7b4286e6c44831d16dc129723e02cec258a36b936f6666ee61ca97e8840170cf",
+        "png": "46884b2e5fff59b20e5768f91b9830ae2ca847c382406159058f38d597d769a9",
+        "manifest": "8fc0d8439a417c797b0730f3f0c7ac265467596b70274d244688725cce753e68"
+      },
+      "removed_visible_path_count": 46,
+      "removed_visible_copy_values": [
+        "© OpenStreetMap contributors / ODbL-1.0"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "07-golf-courses/augusta-national/augusta-national.svg",
+    "sha256": "aa440a599ac691a82eaf239d62d73d65d05c68807f9e2b7a7ee15f2f75efce3a",
+    "bytes": 343639
+  },
+  "png": {
+    "path": "07-golf-courses/augusta-national/augusta-national.png",
+    "sha256": "df51ef46dc9d149f348a33ff9daf565cabb1904b4338ca47ab1ec60556544faa",
+    "bytes": 1371775
+  },
+  "thumbnail": {
+    "path": "07-golf-courses/augusta-national/thumbnail.png",
+    "sha256": "ae7a601cf2958abcc9405b17ac9bcc26b17fe5bbee27d80df5532b16d064e2b3",
+    "bytes": 128763
+  },
+  "manifest": {
+    "path": "07-golf-courses/augusta-national/augusta-national.plot.json",
+    "sha256": "91573fd925346336cdb5706caf667e9b5fbc9c31d4cd2aeef7254a07161b2aa0",
+    "bytes": 1491660
+  },
+  "job": {
+    "path": "07-golf-courses/augusta-national/augusta-national.plotjob.json",
+    "sha256": "d54cc3603acc72c217c2eb1212f4d878d658b68112851d6d58e467db78826d2b",
+    "bytes": 706603
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "07-golf-courses/augusta-national/pens/augusta-national.pen-01-grey-0-25.svg",
+      "sha256": "022045312419705c9c9bedb1773f9db8e9b291377906606069ac45ab10dbdfc6",
+      "bytes": 54843
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "07-golf-courses/augusta-national/pens/augusta-national.pen-02-grey-0-4.svg",
+      "sha256": "55082bf9bae6e3886ff95dabcb8e9eda177615fc83fe106e8262fd44c2766d07",
+      "bytes": 6698
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "07-golf-courses/augusta-national/pens/augusta-national.pen-03-green-0-25.svg",
+      "sha256": "64bdee9ef7c0a3e57d24e8f7ab2252f2ed95027e9618532de12e87bfb598d337",
+      "bytes": 104183
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-4",
+      "path": "07-golf-courses/augusta-national/pens/augusta-national.pen-04-green-0-4.svg",
+      "sha256": "924cf6b4a8aeca227df0686d5c9333c13aee1f6cdbc987b619b4c58b63c7fbc0",
+      "bytes": 26611
+    },
+    {
+      "step": 5,
+      "pen_id": "blue-0-25",
+      "path": "07-golf-courses/augusta-national/pens/augusta-national.pen-05-blue-0-25.svg",
+      "sha256": "14860182367865e70780d1c0cb4bb424ed169944ada7bfb78d7014076eb6fd5f",
+      "bytes": 74560
+    },
+    {
+      "step": 6,
+      "pen_id": "blue-0-4",
+      "path": "07-golf-courses/augusta-national/pens/augusta-national.pen-06-blue-0-4.svg",
+      "sha256": "46d87dcafc50a77c704a8a5e2e6c022fbc52d028f4094a85b40f66ec479111ac",
+      "bytes": 11520
+    },
+    {
+      "step": 7,
+      "pen_id": "red-0-25",
+      "path": "07-golf-courses/augusta-national/pens/augusta-national.pen-07-red-0-25.svg",
+      "sha256": "22f04bd4570d200d2b4ef8522a699f39ec127da469a36834f7f56f3a9bb164a2",
+      "bytes": 23024
+    },
+    {
+      "step": 8,
+      "pen_id": "black-0-4",
+      "path": "07-golf-courses/augusta-national/pens/augusta-national.pen-08-black-0-4.svg",
+      "sha256": "447bfbd4a218988523cd835ddbe5aa7816f13aa8ca81cf00ff87c9ff79760fa8",
+      "bytes": 46467
+    },
+    {
+      "step": 9,
+      "pen_id": "black-1",
+      "path": "07-golf-courses/augusta-national/pens/augusta-national.pen-09-black-1.svg",
+      "sha256": "05fbef2a2379c9011c23690619d8738f985ec06a6265a8f61260f79b61f74f49",
+      "bytes": 6487
+    },
+    {
+      "step": 10,
+      "pen_id": "gold-1",
+      "path": "07-golf-courses/augusta-national/pens/augusta-national.pen-10-gold-1.svg",
+      "sha256": "ad6e6051e62ebf3432ddae14508c05ff35b452e205d9fcd896df735b85d56d42",
+      "bytes": 9901
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 312,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "18 HOLES",
+    "ANNUAL HOST",
+    "AUGUSTA NATIONAL",
+    "AUGUSTA, GEORGIA / UNITED STATES",
+    "MASTERS TOURNAMENT"
+  ],
+  "stroke_count": 740,
+  "pen_count": 10,
+  "physical_execution_allowed": false
+}

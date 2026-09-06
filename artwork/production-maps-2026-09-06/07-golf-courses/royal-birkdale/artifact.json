@@ -1,0 +1,511 @@
+{
+  "id": "royal-birkdale",
+  "domain": "07-golf-courses",
+  "title": "ROYAL BIRKDALE",
+  "artifact_version": 1,
+  "format_id": "a3-portrait",
+  "source": {
+    "svg_sha256": "e0e4615e829a89622d6e3b66f37ebaf965b4df2dc5e69dba1847be0e1694bab6",
+    "manifest_sha256": "5c3baaa57a6e2933cb6a902bdeac933a2a66fa4d7617204fe663722ba425b391",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/07-golf-courses/artwork/royal-birkdale.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 10,
+      "pen_changes": 9,
+      "pen_down_path_count": 977,
+      "pen_down_distance_mm": 15536.0,
+      "pen_up_travel_mm": 12558.4,
+      "travel_ratio": 0.808,
+      "estimated_plot_seconds_including_pen_up": 600.9,
+      "field_ink_mm2_upper_bound": 3889.5,
+      "field_ink_coverage_upper_bound": 0.060649,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "course_paths",
+          "bunkers",
+          "field_frame"
+        ],
+        "path_count": 230,
+        "pen_down_distance_mm": 3269.7,
+        "pen_up_travel_mm": 2469.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 93.4,
+        "estimated_plot_seconds_including_pen_up": 124.3,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "playing_envelope"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 1078.3,
+        "pen_up_travel_mm": 206.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 30.8,
+        "estimated_plot_seconds_including_pen_up": 33.4,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "fairways"
+        ],
+        "path_count": 185,
+        "pen_down_distance_mm": 2442.4,
+        "pen_up_travel_mm": 1338.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 69.8,
+        "estimated_plot_seconds_including_pen_up": 86.5,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.4",
+        "pen_id": "green-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "greens_and_tees"
+        ],
+        "path_count": 81,
+        "pen_down_distance_mm": 881.4,
+        "pen_up_travel_mm": 1359.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 25.2,
+        "estimated_plot_seconds_including_pen_up": 42.2,
+        "instruction": "Load Green 0.4 (green-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water_stipple"
+        ],
+        "path_count": 82,
+        "pen_down_distance_mm": 91.7,
+        "pen_up_travel_mm": 689.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 2.6,
+        "estimated_plot_seconds_including_pen_up": 11.2,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Blue 0.4",
+        "pen_id": "blue-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water"
+        ],
+        "path_count": 26,
+        "pen_down_distance_mm": 468.7,
+        "pen_up_travel_mm": 726.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 13.4,
+        "estimated_plot_seconds_including_pen_up": 22.5,
+        "instruction": "Load Blue 0.4 (blue-0-4) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Red 0.25",
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hole_markers"
+        ],
+        "path_count": 36,
+        "pen_down_distance_mm": 464.9,
+        "pen_up_travel_mm": 965.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 13.3,
+        "estimated_plot_seconds_including_pen_up": 25.4,
+        "instruction": "Load Red 0.25 (red-0-25) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "hole_numbers",
+          "course_buildings",
+          "map_reference",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 339,
+        "pen_down_distance_mm": 2487.8,
+        "pen_up_travel_mm": 3667.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 71.1,
+        "estimated_plot_seconds_including_pen_up": 116.9,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 9,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 25,
+        "pen_down_distance_mm": 3137.7,
+        "pen_up_travel_mm": 698.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 89.6,
+        "estimated_plot_seconds_including_pen_up": 98.4,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 09.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 10,
+        "pen": "Gold 1",
+        "pen_id": "gold-1",
+        "pen_profile": "actual-pens",
+        "ink": "Gold",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#b88900",
+        "layers": [
+          "holes"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 1213.5,
+        "pen_up_travel_mm": 438.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 34.7,
+        "estimated_plot_seconds_including_pen_up": 40.2,
+        "instruction": "Load Gold 1 (gold-1) and plot SVG layer 10.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-birkdale.svg",
+        "sha256": "e0e4615e829a89622d6e3b66f37ebaf965b4df2dc5e69dba1847be0e1694bab6"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-birkdale.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-birkdale.pen-01-grey-0-25.svg",
+          "sha256": "982808c76b594bc48342bc8910d6533bd9574abac0f436e55001483457a8eee1"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-birkdale.pen-02-grey-0-4.svg",
+          "sha256": "c9e13efaaa7d1b5f426eefd99fc7f2572e91fe9cf3f603925fe1372f64f180db"
+        },
+        {
+          "step": 3,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-birkdale.pen-03-green-0-25.svg",
+          "sha256": "813b4ae0a768f657a74e7cf9fef27b2a9ee2cc8f8722534d2d42bda94102b910"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.4",
+          "pen_id": "green-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-birkdale.pen-04-green-0-4.svg",
+          "sha256": "6407f9a5b173927b74f372e93a4e4a5de71511b2bb54e7941ff0e51ab328239d"
+        },
+        {
+          "step": 5,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-birkdale.pen-05-blue-0-25.svg",
+          "sha256": "d61babd1b4c3dfebd7b98186ce8e094065d0d4786360607085151ee4cb787741"
+        },
+        {
+          "step": 6,
+          "pen": "Blue 0.4",
+          "pen_id": "blue-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-birkdale.pen-06-blue-0-4.svg",
+          "sha256": "ce2981b7bc6b3fdf81d1c7ffdaed82ae832ce39316e902e0bfd4c0e3a11855af"
+        },
+        {
+          "step": 7,
+          "pen": "Red 0.25",
+          "pen_id": "red-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-birkdale.pen-07-red-0-25.svg",
+          "sha256": "1c2174339650e6b6dc98b174976d13fc86a0600ed54d95394115709af0e6e8c3"
+        },
+        {
+          "step": 8,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-birkdale.pen-08-black-0-4.svg",
+          "sha256": "5fa4988cccf256ad6076722b56efdf71fb515cc39e5fbf06d122e2f19f7067df"
+        },
+        {
+          "step": 9,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-birkdale.pen-09-black-1.svg",
+          "sha256": "93922173f02f6010b0babec9933bb98015e726ece25b01ca80ec7f6771c77b25"
+        },
+        {
+          "step": 10,
+          "pen": "Gold 1",
+          "pen_id": "gold-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-birkdale.pen-10-gold-1.svg",
+          "sha256": "8c76a68bc9538d594bf1c3e5ffff0c244f9380fd645241778c755bbda4eb12b7"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-birkdale.png",
+        "dpi": 180.0,
+        "sha256": "0ae67490ef81c1c50655bf0d83b7bb193a265fbfe2fe27b887b34ca973a36175"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "4d690cf1c11ffbed8f3dc715ffee8e41708e562f77c43bf5c41bd7084a7a07af",
+        "png": "6b8f1b072f8dd1e87ebffae4668e854618529a93cb7ea4ec0892c9bb56a34776",
+        "manifest": "be96fae51c6f53845a96cef422624003d3f10312b96a51c0fac61f7b5d4b772c"
+      },
+      "removed_visible_path_count": 46,
+      "removed_visible_copy_values": [
+        "© OpenStreetMap contributors / ODbL-1.0"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "07-golf-courses/royal-birkdale/royal-birkdale.svg",
+    "sha256": "c39674f5ce4808faa74ea3c220c719213bf949113873e2f7b207d63cfcb2209f",
+    "bytes": 378346
+  },
+  "png": {
+    "path": "07-golf-courses/royal-birkdale/royal-birkdale.png",
+    "sha256": "112b01ae91d91700e966d8c1c81078100d519f8c7996e11e22cf32e95cad7e41",
+    "bytes": 1182822
+  },
+  "thumbnail": {
+    "path": "07-golf-courses/royal-birkdale/thumbnail.png",
+    "sha256": "578c1176eb669cee63def47eb474a5b36e9b5a14f7b75f4bd7ea97eff097b913",
+    "bytes": 107215
+  },
+  "manifest": {
+    "path": "07-golf-courses/royal-birkdale/royal-birkdale.plot.json",
+    "sha256": "902af74308fe061796363037d1116b9de78dd175dd6fb8cb19746302f27f6347",
+    "bytes": 1019382
+  },
+  "job": {
+    "path": "07-golf-courses/royal-birkdale/royal-birkdale.plotjob.json",
+    "sha256": "3004787e8383f862b657f85a05336ad88e2cab7b678e9d6ab818ea29a6809152",
+    "bytes": 765007
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "07-golf-courses/royal-birkdale/pens/royal-birkdale.pen-01-grey-0-25.svg",
+      "sha256": "682f2094faee8dbd015117ee029a8bba59bc884f912f66010288ac2a5a43e9ec",
+      "bytes": 100005
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "07-golf-courses/royal-birkdale/pens/royal-birkdale.pen-02-grey-0-4.svg",
+      "sha256": "71ab18bbb05a29d04f9b998b56c8efdf53cf9f9004d8a1429a2b8f17f60d11f1",
+      "bytes": 8774
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "07-golf-courses/royal-birkdale/pens/royal-birkdale.pen-03-green-0-25.svg",
+      "sha256": "bb9aad88ac818096ae04f492dab2a21973ef327229cfed32b1946e8c5269db80",
+      "bytes": 93508
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-4",
+      "path": "07-golf-courses/royal-birkdale/pens/royal-birkdale.pen-04-green-0-4.svg",
+      "sha256": "28b8db25d54752bb1d14dc4c45c82615b8d5dd009250083f39cd023c703e3327",
+      "bytes": 42373
+    },
+    {
+      "step": 5,
+      "pen_id": "blue-0-25",
+      "path": "07-golf-courses/royal-birkdale/pens/royal-birkdale.pen-05-blue-0-25.svg",
+      "sha256": "da781c0a2098a6008479596f51fabd2c45bd6270154c63fac84cce78d302cee2",
+      "bytes": 58725
+    },
+    {
+      "step": 6,
+      "pen_id": "blue-0-4",
+      "path": "07-golf-courses/royal-birkdale/pens/royal-birkdale.pen-06-blue-0-4.svg",
+      "sha256": "acae34431c240f7d2d04bb278302dbb1a8886d4de8cee606c1e0eeb66ff23538",
+      "bytes": 14469
+    },
+    {
+      "step": 7,
+      "pen_id": "red-0-25",
+      "path": "07-golf-courses/royal-birkdale/pens/royal-birkdale.pen-07-red-0-25.svg",
+      "sha256": "8bb563ab92d47aa27ba0f1caf52578e0370d764cbf2099e3e4cb6e44eae24ea5",
+      "bytes": 22908
+    },
+    {
+      "step": 8,
+      "pen_id": "black-0-4",
+      "path": "07-golf-courses/royal-birkdale/pens/royal-birkdale.pen-08-black-0-4.svg",
+      "sha256": "69d17ee93bb2d58c46c721df281de559615b178c678e70834bdcbe6a84780827",
+      "bytes": 41473
+    },
+    {
+      "step": 9,
+      "pen_id": "black-1",
+      "path": "07-golf-courses/royal-birkdale/pens/royal-birkdale.pen-09-black-1.svg",
+      "sha256": "5dd6aee1232fe0bdece085fdd2e4134a86fdf53e02274c66774ab4a4de9b1845",
+      "bytes": 6304
+    },
+    {
+      "step": 10,
+      "pen_id": "gold-1",
+      "path": "07-golf-courses/royal-birkdale/pens/royal-birkdale.pen-10-gold-1.svg",
+      "sha256": "8c76a68bc9538d594bf1c3e5ffff0c244f9380fd645241778c755bbda4eb12b7",
+      "bytes": 9895
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 312,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "18 HOLES",
+    "CHAMPIONSHIP LINKS",
+    "ROYAL BIRKDALE",
+    "SOUTHPORT, MERSEYSIDE / ENGLAND",
+    "THE OPEN VENUE"
+  ],
+  "stroke_count": 839,
+  "pen_count": 10,
+  "physical_execution_allowed": false
+}

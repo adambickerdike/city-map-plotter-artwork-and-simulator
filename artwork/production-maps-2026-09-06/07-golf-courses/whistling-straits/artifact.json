@@ -1,0 +1,510 @@
+{
+  "id": "whistling-straits",
+  "domain": "07-golf-courses",
+  "title": "WHISTLING STRAITS",
+  "artifact_version": 1,
+  "format_id": "a3-portrait",
+  "source": {
+    "svg_sha256": "4f2d911a2ed53d35f92e8de5f17eabd96408e95a0e5e0d81966c437d9eb287ee",
+    "manifest_sha256": "2fc3eb6cc372c914f2721fc7b410da23a9a52337c9b50d1e6845c6e779dacd4b",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/07-golf-courses/artwork/whistling-straits.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 10,
+      "pen_changes": 9,
+      "pen_down_path_count": 1756,
+      "pen_down_distance_mm": 16147.2,
+      "pen_up_travel_mm": 12230.7,
+      "travel_ratio": 0.757,
+      "estimated_plot_seconds_including_pen_up": 614.2,
+      "field_ink_mm2_upper_bound": 3474.8,
+      "field_ink_coverage_upper_bound": 0.054182,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "course_paths",
+          "bunkers",
+          "field_frame"
+        ],
+        "path_count": 1102,
+        "pen_down_distance_mm": 6283.3,
+        "pen_up_travel_mm": 3635.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 179.5,
+        "estimated_plot_seconds_including_pen_up": 225.0,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "playing_envelope"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 716.1,
+        "pen_up_travel_mm": 40.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 20.5,
+        "estimated_plot_seconds_including_pen_up": 21.0,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "fairways"
+        ],
+        "path_count": 82,
+        "pen_down_distance_mm": 1373.4,
+        "pen_up_travel_mm": 981.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 39.2,
+        "estimated_plot_seconds_including_pen_up": 51.5,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.4",
+        "pen_id": "green-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "greens_and_tees"
+        ],
+        "path_count": 79,
+        "pen_down_distance_mm": 482.1,
+        "pen_up_travel_mm": 895.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 13.8,
+        "estimated_plot_seconds_including_pen_up": 25.0,
+        "instruction": "Load Green 0.4 (green-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water_stipple"
+        ],
+        "path_count": 107,
+        "pen_down_distance_mm": 119.6,
+        "pen_up_travel_mm": 644.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 3.4,
+        "estimated_plot_seconds_including_pen_up": 11.5,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Blue 0.4",
+        "pen_id": "blue-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water"
+        ],
+        "path_count": 4,
+        "pen_down_distance_mm": 285.7,
+        "pen_up_travel_mm": 535.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 8.2,
+        "estimated_plot_seconds_including_pen_up": 14.9,
+        "instruction": "Load Blue 0.4 (blue-0-4) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Red 0.25",
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hole_markers"
+        ],
+        "path_count": 36,
+        "pen_down_distance_mm": 515.4,
+        "pen_up_travel_mm": 989.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 14.7,
+        "estimated_plot_seconds_including_pen_up": 27.1,
+        "instruction": "Load Red 0.25 (red-0-25) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "hole_numbers",
+          "map_reference",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 342,
+        "pen_down_distance_mm": 2477.4,
+        "pen_up_travel_mm": 3433.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 70.8,
+        "estimated_plot_seconds_including_pen_up": 113.7,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 9,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 31,
+        "pen_down_distance_mm": 3198.3,
+        "pen_up_travel_mm": 729.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 91.4,
+        "estimated_plot_seconds_including_pen_up": 100.5,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 09.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 10,
+        "pen": "Gold 1",
+        "pen_id": "gold-1",
+        "pen_profile": "actual-pens",
+        "ink": "Gold",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#b88900",
+        "layers": [
+          "holes"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 695.7,
+        "pen_up_travel_mm": 345.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 19.9,
+        "estimated_plot_seconds_including_pen_up": 24.2,
+        "instruction": "Load Gold 1 (gold-1) and plot SVG layer 10.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/whistling-straits.svg",
+        "sha256": "4f2d911a2ed53d35f92e8de5f17eabd96408e95a0e5e0d81966c437d9eb287ee"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/whistling-straits.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/whistling-straits.pen-01-grey-0-25.svg",
+          "sha256": "3d1a220f91aec34af67c2f28fa7a260e87c657f575824549fa50e3360ad14c71"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/whistling-straits.pen-02-grey-0-4.svg",
+          "sha256": "46dd342b87de8a85f7f562d97cc62cfcdf5ebfb9d77e4c16419c45726cae8b79"
+        },
+        {
+          "step": 3,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/whistling-straits.pen-03-green-0-25.svg",
+          "sha256": "c2635dab92a781615612addeec638d50c54766678c90335618628b1c821ac40e"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.4",
+          "pen_id": "green-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/whistling-straits.pen-04-green-0-4.svg",
+          "sha256": "d27fc06f58a315ed768c0749ea7d5ae267d65f099d0fc152ce7ce531fdcefd04"
+        },
+        {
+          "step": 5,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/whistling-straits.pen-05-blue-0-25.svg",
+          "sha256": "8a467473e9f94ea4a92cb95b8b230e2077800a2a437a69198ceadd97086e2167"
+        },
+        {
+          "step": 6,
+          "pen": "Blue 0.4",
+          "pen_id": "blue-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/whistling-straits.pen-06-blue-0-4.svg",
+          "sha256": "4c20f39c7dbbf09dd806fd1cec2daa636140dc24e126e9d2b9812acee59ac7e6"
+        },
+        {
+          "step": 7,
+          "pen": "Red 0.25",
+          "pen_id": "red-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/whistling-straits.pen-07-red-0-25.svg",
+          "sha256": "3f6433bb47da6d0c0a1af38a2de0788fd3a621fee5eeed13c4bda5a4b175f896"
+        },
+        {
+          "step": 8,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/whistling-straits.pen-08-black-0-4.svg",
+          "sha256": "534808b6696997968d129e9ec882eeab6261ef48b0ddded0a5ae0f7835fdfca1"
+        },
+        {
+          "step": 9,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/whistling-straits.pen-09-black-1.svg",
+          "sha256": "240ca1b1233f15ff4b5ed329440bbeac334db4b354f1c4f80792c46e7b9b88ae"
+        },
+        {
+          "step": 10,
+          "pen": "Gold 1",
+          "pen_id": "gold-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/whistling-straits.pen-10-gold-1.svg",
+          "sha256": "3bfd8b4788e3cb364a38d05f280ed9f4287b127358942fa823ab328bfd52703d"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/whistling-straits.png",
+        "dpi": 180.0,
+        "sha256": "76de6cbe30cd4f3bf3a5b92aa2f393c9de6b7ab40cd071ee31477900a89ef2ce"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "ada38220e9c6344519f2692cbe3bc0987506dd001523965d5899e15f794eef0a",
+        "png": "3c45f042d1f5b64cfdbd40c6726f0cafca869381d13ab240202f8bf38d5466e6",
+        "manifest": "b336dc6ac27af04b39689d28005c667e0a5183fcf8b86c5c392326c146b524e9"
+      },
+      "removed_visible_path_count": 46,
+      "removed_visible_copy_values": [
+        "© OpenStreetMap contributors / ODbL-1.0"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "07-golf-courses/whistling-straits/whistling-straits.svg",
+    "sha256": "ba5c87d2503096ed6f7feaaff6b8334e7226c5af7065c5af57802ac94c93f513",
+    "bytes": 804513
+  },
+  "png": {
+    "path": "07-golf-courses/whistling-straits/whistling-straits.png",
+    "sha256": "b8a16fbc4d302dac08d9de2421b80d3d6b332eabdda725596d98db898f4b61ac",
+    "bytes": 1306859
+  },
+  "thumbnail": {
+    "path": "07-golf-courses/whistling-straits/thumbnail.png",
+    "sha256": "46e51b56ccd56efeb40edc218ed7a9771375e39443917d71cc8ede2cfe2b4bf2",
+    "bytes": 104396
+  },
+  "manifest": {
+    "path": "07-golf-courses/whistling-straits/whistling-straits.plot.json",
+    "sha256": "f894556fef0543eef679c6c995818d67796e074db0d43d846958b0627589e18c",
+    "bytes": 3534763
+  },
+  "job": {
+    "path": "07-golf-courses/whistling-straits/whistling-straits.plotjob.json",
+    "sha256": "dea2bbf499a5a950df5fae5de7c1ef6ea326c6f00e848b7883ba734d5f8fd990",
+    "bytes": 1849859
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "07-golf-courses/whistling-straits/pens/whistling-straits.pen-01-grey-0-25.svg",
+      "sha256": "1e1935c9afc353dd2e71a2c2877752f6be809c64cfdba1d7f299719c04e0f060",
+      "bytes": 550225
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "07-golf-courses/whistling-straits/pens/whistling-straits.pen-02-grey-0-4.svg",
+      "sha256": "f8500fe9e0a6183f7ff46352c57763a0b82ab5b31b9373789660a31ea84ce081",
+      "bytes": 19786
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "07-golf-courses/whistling-straits/pens/whistling-straits.pen-03-green-0-25.svg",
+      "sha256": "36284e9b646186d29da8204eb16d32f560a509815db0fab0d46b9e5c42c4a26d",
+      "bytes": 54753
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-4",
+      "path": "07-golf-courses/whistling-straits/pens/whistling-straits.pen-04-green-0-4.svg",
+      "sha256": "4602e615a4c402d010752989b3a9a9d18f72996632c8e1020f9e3e64c5104870",
+      "bytes": 42991
+    },
+    {
+      "step": 5,
+      "pen_id": "blue-0-25",
+      "path": "07-golf-courses/whistling-straits/pens/whistling-straits.pen-05-blue-0-25.svg",
+      "sha256": "4789e1bd19d6cba28e9dcd89d2a90e3277ebb29d1e2dd49079132ef0cb42b8a1",
+      "bytes": 68773
+    },
+    {
+      "step": 6,
+      "pen_id": "blue-0-4",
+      "path": "07-golf-courses/whistling-straits/pens/whistling-straits.pen-06-blue-0-4.svg",
+      "sha256": "1dac436a1fafd306a69136894593a5be71412591c03fdf161f67a54095bb7df5",
+      "bytes": 7854
+    },
+    {
+      "step": 7,
+      "pen_id": "red-0-25",
+      "path": "07-golf-courses/whistling-straits/pens/whistling-straits.pen-07-red-0-25.svg",
+      "sha256": "3c68baf3461ca836a3c1b5bbc81febc9ba4474925f1fb3a22c045389b8fb87b6",
+      "bytes": 22895
+    },
+    {
+      "step": 8,
+      "pen_id": "black-0-4",
+      "path": "07-golf-courses/whistling-straits/pens/whistling-straits.pen-08-black-0-4.svg",
+      "sha256": "e6cb867ce7f295ecb8ded7ffd7be5004508ee034863985ad7411f131eadba2d2",
+      "bytes": 40774
+    },
+    {
+      "step": 9,
+      "pen_id": "black-1",
+      "path": "07-golf-courses/whistling-straits/pens/whistling-straits.pen-09-black-1.svg",
+      "sha256": "8a85246fc5598d04cfacb1390446151d5c328a2145b0161d65d66379d2d50f0a",
+      "bytes": 7130
+    },
+    {
+      "step": 10,
+      "pen_id": "gold-1",
+      "path": "07-golf-courses/whistling-straits/pens/whistling-straits.pen-10-gold-1.svg",
+      "sha256": "3bfd8b4788e3cb364a38d05f280ed9f4287b127358942fa823ab328bfd52703d",
+      "bytes": 9843
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 312,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "18 HOLES",
+    "PGA CHAMPIONSHIP",
+    "RYDER CUP VENUE",
+    "SHEBOYGAN, WISCONSIN / UNITED STATES",
+    "WHISTLING STRAITS"
+  ],
+  "stroke_count": 1617,
+  "pen_count": 10,
+  "physical_execution_allowed": false
+}

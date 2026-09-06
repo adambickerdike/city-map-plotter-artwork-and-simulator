@@ -1,0 +1,699 @@
+{
+  "id": "005-berlin-marathon-2025",
+  "domain": "04-marathon-courses",
+  "title": "BERLIN MARATHON",
+  "artifact_version": 2,
+  "format_id": "a4-landscape",
+  "source": {
+    "svg_sha256": "c234adf9c735e97ab0afd2f09d7d9b637a124c8b69a86104964b6fb3dc722e2c",
+    "manifest_sha256": "664914b6b3c7dd4405ead1872a987f7282b0eafb08dcf6770c538c8714ab9221",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/04-marathon-courses/artwork/005-berlin-marathon-2025.svg",
+    "original_plot_summary": {
+      "estimated_plot_seconds_including_pen_up": 9560.1,
+      "inventory_pen_slots": 9,
+      "lower_bound_seconds_excluding_all_pen_up_travel": 7799.4,
+      "lower_bound_timing_assumptions": {
+        "draw_speed_mm_s": 40.0,
+        "lift_seconds_per_path": 0.4,
+        "safety_factor": 1.15
+      },
+      "lower_bound_timing_scope": "all emitted paths; includes nominal drawing and one lift cycle per path, but excludes all pen-up travel and manual pen-change time",
+      "map_path_optimisation": {
+        "after": {
+          "estimated_plot_minutes": 150.79,
+          "estimated_plot_seconds": 9047.7,
+          "lift_count": 12203,
+          "pen_down_distance_mm": 70909.5,
+          "pen_up_travel_mm": 121359.3,
+          "stroke_count": 12203
+        },
+        "algorithm": "source-order-with-semantic-buckets",
+        "before": {
+          "estimated_plot_minutes": 150.79,
+          "estimated_plot_seconds": 9047.7,
+          "lift_count": 12203,
+          "pen_down_distance_mm": 70909.5,
+          "pen_up_travel_mm": 121359.3,
+          "stroke_count": 12203
+        },
+        "enabled": false,
+        "fallback_applied": false,
+        "pen_up_saved_mm": 0.0,
+        "scope": "map paths only; furniture is listed separately by layer",
+        "timing_assumptions": {
+          "draw_speed_mm_s": 40.0,
+          "lift_seconds": 0.4,
+          "safety_factor": 1.15,
+          "travel_speed_mm_s": 100.0
+        }
+      },
+      "pen_changes": 8,
+      "pen_down_distance_mm": 74321.4,
+      "pen_down_path_count": 12310,
+      "pen_up_travel_mm": 122486.0,
+      "physical_pen_steps": 9
+    },
+    "original_pen_sequence": [
+      {
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "estimated_plot_seconds_including_pen_up": 167.6,
+        "ink": "Blue",
+        "instruction": "Load Blue 0.4 (blue-0-4) and plot layers: water_areas, rivers.",
+        "layer_settings": [
+          {
+            "id": "water_areas",
+            "offset_pitch_mm": 0.0,
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "passes": 1,
+            "plotted_width_mm": 0.4,
+            "requested_width_mm": 0.4,
+            "strokes": 1,
+            "width_fit_error_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          },
+          {
+            "id": "rivers",
+            "offset_pitch_mm": 0.0,
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "passes": 1,
+            "plotted_width_mm": 0.4,
+            "requested_width_mm": 0.4,
+            "strokes": 1,
+            "width_fit_error_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          }
+        ],
+        "layers": [
+          "water_areas",
+          "rivers"
+        ],
+        "minimum_plot_seconds": 116.1,
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "passes": 1,
+        "path_count": 106,
+        "pen": "Blue 0.4",
+        "pen_down_distance_mm": 2341.3,
+        "pen_id": "blue-0-4",
+        "pen_profile": "actual-pens",
+        "pen_up_schedule_scope": "exact emitted path order; includes home-to-first travel and excludes return-home and manual pen-change motion",
+        "pen_up_travel_mm": 3586.4,
+        "plotted_width_mm": 0.4,
+        "preview_color": "#6eadd0",
+        "settings_vary_by_layer": false,
+        "step": 1,
+        "strokes": 1,
+        "timing_scope": "all emitted paths in these layers; excludes pen-up travel and manual pen-change time"
+      },
+      {
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "estimated_plot_seconds_including_pen_up": 120.1,
+        "ink": "Blue",
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot layers: waterways.",
+        "layer_settings": [
+          {
+            "id": "waterways",
+            "offset_pitch_mm": 0.0,
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "passes": 1,
+            "plotted_width_mm": 0.25,
+            "requested_width_mm": 0.25,
+            "strokes": 1,
+            "width_fit_error_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          }
+        ],
+        "layers": [
+          "waterways"
+        ],
+        "minimum_plot_seconds": 60.4,
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "passes": 1,
+        "path_count": 84,
+        "pen": "Blue 0.25",
+        "pen_down_distance_mm": 756.6,
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "pen_up_schedule_scope": "exact emitted path order; includes home-to-first travel and excludes return-home and manual pen-change motion",
+        "pen_up_travel_mm": 4150.3,
+        "plotted_width_mm": 0.25,
+        "preview_color": "#78b4d3",
+        "settings_vary_by_layer": false,
+        "step": 2,
+        "strokes": 1,
+        "timing_scope": "all emitted paths in these layers; excludes pen-up travel and manual pen-change time"
+      },
+      {
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "estimated_plot_seconds_including_pen_up": 2284.6,
+        "ink": "Green",
+        "instruction": "Load Green 0.25 (green-0-25) and plot layers: green_space.",
+        "layer_settings": [
+          {
+            "id": "green_space",
+            "offset_pitch_mm": 0.0,
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "passes": 1,
+            "plotted_width_mm": 0.25,
+            "requested_width_mm": 0.25,
+            "strokes": 1,
+            "width_fit_error_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          }
+        ],
+        "layers": [
+          "green_space"
+        ],
+        "minimum_plot_seconds": 1970.1,
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "passes": 1,
+        "path_count": 2937,
+        "pen": "Green 0.25",
+        "pen_down_distance_mm": 21532.7,
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "pen_up_schedule_scope": "exact emitted path order; includes home-to-first travel and excludes return-home and manual pen-change motion",
+        "pen_up_travel_mm": 21876.5,
+        "plotted_width_mm": 0.25,
+        "preview_color": "#82b89a",
+        "settings_vary_by_layer": false,
+        "step": 3,
+        "strokes": 1,
+        "timing_scope": "all emitted paths in these layers; excludes pen-up travel and manual pen-change time"
+      },
+      {
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "estimated_plot_seconds_including_pen_up": 424.1,
+        "ink": "Red",
+        "instruction": "Load Red 0.4 (red-0-4) and plot layers: roads_major, race_course.",
+        "layer_settings": [
+          {
+            "id": "roads_major",
+            "offset_pitch_mm": 0.0,
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "passes": 1,
+            "plotted_width_mm": 0.4,
+            "requested_width_mm": 0.4,
+            "strokes": 1,
+            "width_fit_error_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          },
+          {
+            "id": "race_course",
+            "offset_pitch_mm": 0.266667,
+            "offset_pitch_options_mm": [
+              0.266667
+            ],
+            "passes": 1,
+            "plotted_width_mm": 1.2,
+            "requested_width_mm": 1.2,
+            "strokes": 4,
+            "width_fit_error_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "parallel-offsets"
+          }
+        ],
+        "layers": [
+          "roads_major",
+          "race_course"
+        ],
+        "minimum_plot_seconds": 330.7,
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "passes": 1,
+        "path_count": 338,
+        "pen": "Red 0.4",
+        "pen_down_distance_mm": 6094.1,
+        "pen_id": "red-0-4",
+        "pen_profile": "actual-pens",
+        "pen_up_schedule_scope": "exact emitted path order; includes home-to-first travel and excludes return-home and manual pen-change motion",
+        "pen_up_travel_mm": 6496.8,
+        "plotted_width_mm": null,
+        "preview_color": "#d98a4f",
+        "settings_vary_by_layer": true,
+        "step": 4,
+        "strokes": null,
+        "timing_scope": "all emitted paths in these layers; excludes pen-up travel and manual pen-change time"
+      },
+      {
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "estimated_plot_seconds_including_pen_up": 665.4,
+        "ink": "Red",
+        "instruction": "Load Red 0.25 (red-0-25) and plot layers: roads_secondary.",
+        "layer_settings": [
+          {
+            "id": "roads_secondary",
+            "offset_pitch_mm": 0.0,
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "passes": 1,
+            "plotted_width_mm": 0.25,
+            "requested_width_mm": 0.25,
+            "strokes": 1,
+            "width_fit_error_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          }
+        ],
+        "layers": [
+          "roads_secondary"
+        ],
+        "minimum_plot_seconds": 499.2,
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "passes": 1,
+        "path_count": 641,
+        "pen": "Red 0.25",
+        "pen_down_distance_mm": 7107.6,
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "pen_up_schedule_scope": "exact emitted path order; includes home-to-first travel and excludes return-home and manual pen-change motion",
+        "pen_up_travel_mm": 11560.1,
+        "plotted_width_mm": 0.25,
+        "preview_color": "#e0a878",
+        "settings_vary_by_layer": false,
+        "step": 5,
+        "strokes": 1,
+        "timing_scope": "all emitted paths in these layers; excludes pen-up travel and manual pen-change time"
+      },
+      {
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "estimated_plot_seconds_including_pen_up": 5735.4,
+        "ink": "Grey",
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot layers: roads_local, roads_other, railways.",
+        "layer_settings": [
+          {
+            "id": "roads_local",
+            "offset_pitch_mm": 0.0,
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "passes": 1,
+            "plotted_width_mm": 0.25,
+            "requested_width_mm": 0.25,
+            "strokes": 1,
+            "width_fit_error_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          },
+          {
+            "id": "roads_other",
+            "offset_pitch_mm": 0.0,
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "passes": 1,
+            "plotted_width_mm": 0.25,
+            "requested_width_mm": 0.25,
+            "strokes": 1,
+            "width_fit_error_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          },
+          {
+            "id": "railways",
+            "offset_pitch_mm": 0.0,
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "passes": 1,
+            "plotted_width_mm": 0.25,
+            "requested_width_mm": 0.25,
+            "strokes": 1,
+            "width_fit_error_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          }
+        ],
+        "layers": [
+          "roads_local",
+          "roads_other",
+          "railways"
+        ],
+        "minimum_plot_seconds": 4675.6,
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "passes": 1,
+        "path_count": 8097,
+        "pen": "Grey 0.25",
+        "pen_down_distance_mm": 33077.3,
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "pen_up_schedule_scope": "exact emitted path order; includes home-to-first travel and excludes return-home and manual pen-change motion",
+        "pen_up_travel_mm": 73729.2,
+        "plotted_width_mm": 0.25,
+        "preview_color": "#7f8992",
+        "settings_vary_by_layer": false,
+        "step": 6,
+        "strokes": 1,
+        "timing_scope": "all emitted paths in these layers; excludes pen-up travel and manual pen-change time"
+      },
+      {
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "estimated_plot_seconds_including_pen_up": 21.8,
+        "ink": "Black",
+        "instruction": "Load Black 0.6 (black-0-6) and plot layers: frame.",
+        "layer_settings": [
+          {
+            "id": "frame",
+            "offset_pitch_mm": 0.0,
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "passes": 1,
+            "plotted_width_mm": 0.6,
+            "requested_width_mm": 0.6,
+            "strokes": 1,
+            "width_fit_error_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          }
+        ],
+        "layers": [
+          "frame"
+        ],
+        "minimum_plot_seconds": 21.4,
+        "nib_mm": 0.6,
+        "nominal_nib_mm": 0.6,
+        "passes": 1,
+        "path_count": 1,
+        "pen": "Black 0.6",
+        "pen_down_distance_mm": 730.0,
+        "pen_id": "black-0-6",
+        "pen_profile": "actual-pens",
+        "pen_up_schedule_scope": "exact emitted path order; includes home-to-first travel and excludes return-home and manual pen-change motion",
+        "pen_up_travel_mm": 24.1,
+        "plotted_width_mm": 0.6,
+        "preview_color": "#17212b",
+        "settings_vary_by_layer": false,
+        "step": 7,
+        "strokes": 1,
+        "timing_scope": "all emitted paths in these layers; excludes pen-up travel and manual pen-change time"
+      },
+      {
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "estimated_plot_seconds_including_pen_up": 59.9,
+        "ink": "Black",
+        "instruction": "Load Black 0.4 (black-0-4) and plot layers: map_furniture, poster_subtitle, poster_details.",
+        "layer_settings": [
+          {
+            "id": "map_furniture",
+            "offset_pitch_mm": 0.0,
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "passes": 1,
+            "plotted_width_mm": 0.4,
+            "requested_width_mm": 0.4,
+            "strokes": 1,
+            "width_fit_error_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          },
+          {
+            "id": "poster_subtitle",
+            "offset_pitch_mm": 0.0,
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "passes": 1,
+            "plotted_width_mm": 0.4,
+            "requested_width_mm": 0.4,
+            "strokes": 1,
+            "width_fit_error_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          },
+          {
+            "id": "poster_details",
+            "offset_pitch_mm": 0.0,
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "passes": 1,
+            "plotted_width_mm": 0.4,
+            "requested_width_mm": 0.4,
+            "strokes": 1,
+            "width_fit_error_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          }
+        ],
+        "layers": [
+          "map_furniture",
+          "poster_subtitle",
+          "poster_details"
+        ],
+        "minimum_plot_seconds": 50.5,
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "passes": 1,
+        "path_count": 79,
+        "pen": "Black 0.4",
+        "pen_down_distance_mm": 491.3,
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "pen_up_schedule_scope": "exact emitted path order; includes home-to-first travel and excludes return-home and manual pen-change motion",
+        "pen_up_travel_mm": 659.4,
+        "plotted_width_mm": 0.4,
+        "preview_color": "#17212b",
+        "settings_vary_by_layer": false,
+        "step": 8,
+        "strokes": 1,
+        "timing_scope": "all emitted paths in these layers; excludes pen-up travel and manual pen-change time"
+      },
+      {
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "estimated_plot_seconds_including_pen_up": 81.2,
+        "ink": "Black",
+        "instruction": "Load Black 1 (black-1) and plot layers: poster_border, poster_title.",
+        "layer_settings": [
+          {
+            "id": "poster_border",
+            "offset_pitch_mm": 0.0,
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "passes": 1,
+            "plotted_width_mm": 1.0,
+            "requested_width_mm": 1.0,
+            "strokes": 1,
+            "width_fit_error_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          },
+          {
+            "id": "poster_title",
+            "offset_pitch_mm": 0.0,
+            "offset_pitch_options_mm": [
+              0.0
+            ],
+            "passes": 1,
+            "plotted_width_mm": 1.0,
+            "requested_width_mm": 1.0,
+            "strokes": 1,
+            "width_fit_error_mm": 0.0,
+            "width_fit_error_options_mm": [
+              0.0
+            ],
+            "width_fit_mode": "single-nib"
+          }
+        ],
+        "layers": [
+          "poster_border",
+          "poster_title"
+        ],
+        "minimum_plot_seconds": 75.4,
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "passes": 1,
+        "path_count": 27,
+        "pen": "Black 1",
+        "pen_down_distance_mm": 2190.5,
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "pen_up_schedule_scope": "exact emitted path order; includes home-to-first travel and excludes return-home and manual pen-change motion",
+        "pen_up_travel_mm": 403.2,
+        "plotted_width_mm": 1.0,
+        "preview_color": "#17212b",
+        "settings_vary_by_layer": false,
+        "step": 9,
+        "strokes": 1,
+        "timing_scope": "all emitted paths in these layers; excludes pen-up travel and manual pen-change time"
+      }
+    ],
+    "original_outputs": null
+  },
+  "svg": {
+    "path": "04-marathon-courses/005-berlin-marathon-2025/005-berlin-marathon-2025.svg",
+    "sha256": "e2cc1317861f59a181f18cf6249661942a555c99a1e8799863e9037dc78947ec",
+    "bytes": 14461485
+  },
+  "png": {
+    "path": "04-marathon-courses/005-berlin-marathon-2025/005-berlin-marathon-2025.png",
+    "sha256": "2536c95d4699d0f88cb47cb5fad359869a93b477f3aef86d9accc3fd029eedee",
+    "bytes": 4138137
+  },
+  "thumbnail": {
+    "path": "04-marathon-courses/005-berlin-marathon-2025/thumbnail.png",
+    "sha256": "b584611de5b4ad214fef964eb37a7833825f241d55c48e7ee6b32d0daab2666e",
+    "bytes": 244740
+  },
+  "manifest": {
+    "path": "04-marathon-courses/005-berlin-marathon-2025/005-berlin-marathon-2025.plot.json",
+    "sha256": "9e537e83cb58965abf704495cd34acd741ba6c648139d7310762d94a3360398f",
+    "bytes": 44988473
+  },
+  "job": {
+    "path": "04-marathon-courses/005-berlin-marathon-2025/005-berlin-marathon-2025.plotjob.json",
+    "sha256": "d9a8718e7072ff011e647e7dc3034116d9224fdd8036da33ce8900aa7ed5da56",
+    "bytes": 18088298
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "blue-0-4",
+      "path": "04-marathon-courses/005-berlin-marathon-2025/pens/005-berlin-marathon-2025.pen-01-blue-0-4.svg",
+      "sha256": "068ef59aa54e340d718ce41a73113e7615fe7f40a3a8f103828db4b7b702bee6",
+      "bytes": 125353
+    },
+    {
+      "step": 2,
+      "pen_id": "blue-0-25",
+      "path": "04-marathon-courses/005-berlin-marathon-2025/pens/005-berlin-marathon-2025.pen-02-blue-0-25.svg",
+      "sha256": "230dec59f1fecef260e7d45112a4091106a1646a9345a1c23f30e8dc9d33bde9",
+      "bytes": 75980
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "04-marathon-courses/005-berlin-marathon-2025/pens/005-berlin-marathon-2025.pen-03-green-0-25.svg",
+      "sha256": "3a38d20a73797365e75ff4c19dd644943f2c1e718907311e9f919365e570191e",
+      "bytes": 2675500
+    },
+    {
+      "step": 4,
+      "pen_id": "red-0-4",
+      "path": "04-marathon-courses/005-berlin-marathon-2025/pens/005-berlin-marathon-2025.pen-04-red-0-4.svg",
+      "sha256": "b1269238bca141cabeee1a9e13546c5249483110bcb113baced167cee2d6fc96",
+      "bytes": 598454
+    },
+    {
+      "step": 5,
+      "pen_id": "red-0-25",
+      "path": "04-marathon-courses/005-berlin-marathon-2025/pens/005-berlin-marathon-2025.pen-05-red-0-25.svg",
+      "sha256": "2bd52975feb554e581accb98e48a34cb5b099c4863653596dd4403457f41b4d1",
+      "bytes": 1371415
+    },
+    {
+      "step": 6,
+      "pen_id": "grey-0-25",
+      "path": "04-marathon-courses/005-berlin-marathon-2025/pens/005-berlin-marathon-2025.pen-06-grey-0-25.svg",
+      "sha256": "4bf0889607cf333324e9753bf90fdd9dc739482cebb0db1df47ae559b2d1b178",
+      "bytes": 9603923
+    },
+    {
+      "step": 7,
+      "pen_id": "black-0-6",
+      "path": "04-marathon-courses/005-berlin-marathon-2025/pens/005-berlin-marathon-2025.pen-07-black-0-6.svg",
+      "sha256": "e6234ffa75e483b6be7139e2ae5302f5ef61a20f204794b74944be485182d31d",
+      "bytes": 1983
+    },
+    {
+      "step": 8,
+      "pen_id": "black-0-4",
+      "path": "04-marathon-courses/005-berlin-marathon-2025/pens/005-berlin-marathon-2025.pen-08-black-0-4.svg",
+      "sha256": "f6d58948f1aba3d7d53e24a37b7becec9a572d1d879e44eacbde070d89b8cfe4",
+      "bytes": 14161
+    },
+    {
+      "step": 9,
+      "pen_id": "black-1",
+      "path": "04-marathon-courses/005-berlin-marathon-2025/pens/005-berlin-marathon-2025.pen-09-black-1.svg",
+      "sha256": "4297881efe475bc21a4da1a03cddc34161fe4e9402b93d77b94b6b81a84a0c30",
+      "bytes": 5140
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 12708,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [
+      "map field ink coverage 58.4% (19,441 mm² of a 9,317 mm² reference budget at 28%) — advisory only, not a defect"
+    ],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "42.195 KM",
+    "APPROX SCALE 1:57151",
+    "BERLIN MARATHON",
+    "N / 1 KM",
+    "RACE COURSE"
+  ],
+  "stroke_count": 12291,
+  "pen_count": 9,
+  "physical_execution_allowed": false
+}

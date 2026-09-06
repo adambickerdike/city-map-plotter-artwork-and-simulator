@@ -1,0 +1,257 @@
+{
+  "schema_version": 2,
+  "id": "city-map-plotter-themes-v2",
+  "themes": [
+    {
+      "id": "city-memorabilia-a5-series-v1",
+      "version": 2,
+      "label": "A5 city memorabilia — centred stack",
+      "description": "The classic composition: full-colour hierarchy, a double border, and a centred title over the map with the details beneath it.",
+      "format": {"contract_id": "plate-format-v1", "format_id": "a5-portrait"},
+      "export": {
+        "canonical_args": [
+          "--preset", "a5-balanced-poster",
+          "--radius-km", "2",
+          "--layers", "roads,water,railways,parks",
+          "--detail-profile", "ink-balanced",
+          "--simplify-mm", "0.04",
+          "--road-style", "centreline",
+          "--extent-fit", "contain",
+          "--pen-profile", "actual-pens",
+          "--stock-tone", "light",
+          "--attribution-mode", "external",
+          "--external-attribution-placement", "Product page, packaging, or caption adjacent to each artwork",
+          "--no-scale-bar",
+          "--no-scale-detail",
+          "--optimise",
+          "--physical-audit"
+        ],
+        "locked_options": [
+          "--preset", "--radius-km", "--layers", "--detail-profile", "--simplify-mm",
+          "--road-style", "--extent-fit", "--pen-profile", "--stock-tone",
+          "--attribution-mode", "--external-attribution-placement",
+          "--scale-bar", "--no-scale-bar", "--scale-detail", "--no-scale-detail",
+          "--optimise", "--optimize", "--no-optimise", "--no-optimize",
+          "--physical-audit", "--no-physical-audit",
+          "--style", "--title", "--subtitle", "--detail",
+          "--paper", "--orientation", "--width-mm", "--height-mm", "--margin-mm",
+          "--nib-mm", "--png-dpi", "--allow-repeat-passes"
+        ]
+      },
+      "map_layers": [
+        {"id": "water_areas",     "ink": "Blue",  "nib_role": "primary",  "order": 10},
+        {"id": "rivers",          "ink": "Blue",  "nib_role": "primary",  "order": 15},
+        {"id": "waterways",       "ink": "Blue",  "nib_role": "hairline", "order": 20},
+        {"id": "green_space",     "ink": "Green", "nib_role": "hairline", "order": 30},
+        {"id": "road_areas",      "ink": "Grey",  "nib_role": "hairline", "order": 55},
+        {"id": "roads_major",     "ink": "Black", "nib_role": "heavy",    "order": 60},
+        {"id": "roads_secondary", "ink": "Black", "nib_role": "primary",  "order": 80},
+        {"id": "roads_local",     "ink": "Black", "nib_role": "text",     "order": 90},
+        {"id": "roads_other",     "ink": "Grey",  "nib_role": "hairline", "order": 100},
+        {"id": "paths",           "ink": "Grey",  "nib_role": "hairline", "order": 110},
+        {"id": "railways",        "ink": "Red",   "nib_role": "hairline", "order": 120}
+      ],
+      "furniture": {
+        "poster_border":   {"draws": true,  "ink": "Black", "nib_role": "heavy",    "style": "double"},
+        "frame":           {"draws": true,  "ink": "Black", "nib_role": "primary"},
+        "map_furniture":   {"draws": true,  "ink": "Black", "nib_role": "text", "north_mark": "field-north-east", "scale_bar": false},
+        "poster_title":    {"draws": true,  "ink": "Black", "nib_role": "heavy",    "weight": 1},
+        "poster_subtitle": {"draws": true,  "ink": "Black", "nib_role": "text",     "weight": 1},
+        "poster_details":  {"draws": true,  "ink": "Black", "nib_role": "text",     "weight": 1},
+        "attribution":     {"draws": false, "ink": "Black", "nib_role": "hairline", "weight": 1}
+      },
+      "typography": {
+        "policy_id": "city-memorabilia-type-v1",
+        "font_roles": {"display": "plotter-grid-v4", "text": "plotter-grid-v4", "mono": "plotter-grid-v4"},
+        "normalisation_policy_id": "nfc-supported-diacritics-v2",
+        "roles": {
+          "title":       {"font_role": "display", "zone": "title",       "align": "centre", "vertical": "top",    "case": "upper", "max_lines": 2, "cap_role": "title",       "cap_scale": 1.0, "gutter": 2.7},
+          "subtitle":    {"font_role": "text",    "zone": "subtitle",    "align": "centre", "vertical": "middle", "case": "upper", "max_lines": 1, "cap_role": "subtitle",    "cap_scale": 1.0, "gutter": 4.0},
+          "detail":      {"font_role": "text",    "zone": "detail",      "align": "centre", "vertical": "middle", "case": "upper", "max_lines": 3, "cap_role": "detail",      "cap_scale": 1.0, "gutter": 3.3},
+          "legend":      {"font_role": "mono",    "zone": "map_field",   "align": "left",   "vertical": "top",    "case": "upper", "max_lines": 1, "cap_role": "legend",      "cap_scale": 1.0},
+          "attribution": {"font_role": "text",    "zone": "attribution", "align": "split",  "vertical": "middle", "case": "mixed", "max_lines": 1, "cap_role": "attribution", "cap_scale": 1.0}
+        }
+      },
+      "copy": {
+        "policy_id": "city-memorabilia-copy-v1",
+        "rules": {
+          "campus": {"title": "subject.name", "subtitle": "city-country", "details": ["purpose", "coordinates"]},
+          "student_city": {"title": "city", "subtitle": "country", "details": ["purpose", "coordinates"]},
+          "city_preview": {"title": "city", "subtitle": "country", "details": ["purpose", "course-disclosure", "coordinates"]}
+        }
+      },
+      "placement_policy_id": "plate-format-named-zones-v1",
+      "source_policy_id": "selected-family-lineage-relative-to-source-v1",
+      "validation_policy_id": "format-physical-source-and-cohort-v1",
+      "batch": {"title_mode": "theme", "recommended_png_dpi": 254, "cohort_key": "edition_signature_sha256"}
+    },
+
+    {
+      "id": "engraved-monochrome-foot-v1",
+      "version": 1,
+      "label": "Engraved monochrome — title in the foot",
+      "description": "Black and grey only, corner registration ticks instead of a box, no map frame, the details set small along the head, and a bold two-stroke title along the bottom left.",
+      "format": {"contract_id": "plate-format-v1", "format_id": "a5-portrait"},
+      "export": {
+        "canonical_args": [
+          "--preset", "a5-balanced-poster",
+          "--radius-km", "2",
+          "--layers", "roads,water,railways,parks",
+          "--detail-profile", "ink-balanced",
+          "--simplify-mm", "0.04",
+          "--road-style", "centreline",
+          "--extent-fit", "contain",
+          "--pen-profile", "actual-pens",
+          "--stock-tone", "light",
+          "--attribution-mode", "external",
+          "--external-attribution-placement", "Product page, packaging, or caption adjacent to each artwork",
+          "--scale-bar",
+          "--no-scale-detail",
+          "--optimise",
+          "--physical-audit"
+        ],
+        "locked_options": [
+          "--preset", "--radius-km", "--layers", "--detail-profile", "--simplify-mm",
+          "--road-style", "--extent-fit", "--pen-profile", "--stock-tone",
+          "--attribution-mode", "--external-attribution-placement",
+          "--scale-bar", "--no-scale-bar", "--scale-detail", "--no-scale-detail",
+          "--optimise", "--optimize", "--no-optimise", "--no-optimize",
+          "--physical-audit", "--no-physical-audit",
+          "--style", "--title", "--subtitle", "--detail",
+          "--paper", "--orientation", "--width-mm", "--height-mm", "--margin-mm",
+          "--nib-mm", "--png-dpi", "--allow-repeat-passes"
+        ]
+      },
+      "map_layers": [
+        {"id": "water_areas",     "ink": "Grey",  "nib_role": "primary",  "order": 10},
+        {"id": "rivers",          "ink": "Grey",  "nib_role": "primary",  "order": 15},
+        {"id": "waterways",       "ink": "Grey",  "nib_role": "hairline", "order": 20},
+        {"id": "green_space",     "ink": "Grey",  "nib_role": "hairline", "order": 30, "draws": false},
+        {"id": "road_areas",      "ink": "Grey",  "nib_role": "hairline", "order": 55, "draws": false},
+        {"id": "roads_major",     "ink": "Black", "nib_role": "heavy",    "order": 60},
+        {"id": "roads_secondary", "ink": "Black", "nib_role": "primary",  "order": 80},
+        {"id": "roads_local",     "ink": "Black", "nib_role": "text",     "order": 90},
+        {"id": "roads_other",     "ink": "Grey",  "nib_role": "hairline", "order": 100},
+        {"id": "paths",           "ink": "Grey",  "nib_role": "hairline", "order": 110, "draws": false},
+        {"id": "railways",        "ink": "Black", "nib_role": "text",     "order": 120}
+      ],
+      "furniture": {
+        "poster_border":   {"draws": true,  "ink": "Black", "nib_role": "primary",  "style": "corner"},
+        "frame":           {"draws": false, "ink": "Black", "nib_role": "primary"},
+        "map_furniture":   {"draws": true,  "ink": "Grey",  "nib_role": "text", "north_mark": "field-north-west", "scale_bar": true},
+        "poster_title":    {"draws": true,  "ink": "Black", "nib_role": "heavy",    "weight": 2},
+        "poster_subtitle": {"draws": true,  "ink": "Grey",  "nib_role": "text",     "weight": 1},
+        "poster_details":  {"draws": true,  "ink": "Grey",  "nib_role": "hairline", "weight": 1},
+        "attribution":     {"draws": false, "ink": "Black", "nib_role": "hairline", "weight": 1}
+      },
+      "typography": {
+        "policy_id": "city-memorabilia-type-v1",
+        "font_roles": {"display": "plotter-grid-v4", "text": "plotter-grid-v4", "mono": "plotter-grid-v4"},
+        "normalisation_policy_id": "nfc-supported-diacritics-v2",
+        "roles": {
+          "title":       {"font_role": "display", "zone": "foot_main",   "align": "left",   "vertical": "bottom", "case": "upper", "max_lines": 2, "cap_role": "title",       "cap_scale": 0.75, "gutter": 0.0},
+          "subtitle":    {"font_role": "text",    "zone": "foot_rail",   "align": "right",  "vertical": "bottom", "case": "upper", "max_lines": 1, "cap_role": "subtitle",    "cap_scale": 1.0,  "gutter": 0.0},
+          "detail":      {"font_role": "text",    "zone": "head_main",   "align": "left",   "vertical": "top",    "case": "upper", "max_lines": 3, "cap_role": "detail",      "cap_scale": 0.9,  "gutter": 0.0},
+          "legend":      {"font_role": "mono",    "zone": "head_rail",   "align": "left",   "vertical": "top",    "case": "upper", "max_lines": 1, "cap_role": "legend",      "cap_scale": 1.0},
+          "attribution": {"font_role": "text",    "zone": "attribution", "align": "split",  "vertical": "middle", "case": "mixed", "max_lines": 1, "cap_role": "attribution", "cap_scale": 1.0}
+        }
+      },
+      "copy": {
+        "policy_id": "city-memorabilia-copy-v1",
+        "rules": {
+          "campus": {"title": "subject.name", "subtitle": "city-country", "details": ["purpose", "coordinates"]},
+          "student_city": {"title": "city", "subtitle": "country", "details": ["purpose", "coordinates"]},
+          "city_preview": {"title": "city", "subtitle": "country", "details": ["purpose", "course-disclosure", "coordinates"]}
+        }
+      },
+      "placement_policy_id": "plate-format-named-zones-v1",
+      "source_policy_id": "selected-family-lineage-relative-to-source-v1",
+      "validation_policy_id": "format-physical-source-and-cohort-v1",
+      "batch": {"title_mode": "theme", "recommended_png_dpi": 254, "cohort_key": "edition_signature_sha256"}
+    },
+
+    {
+      "id": "chromatic-head-rail-v1",
+      "version": 1,
+      "label": "Chromatic head rail — details beside the title",
+      "description": "No black in the linework: red arterials, purple secondaries, blue water, grey local streets. A hairline border, a three-stroke red title across the head, and the details stacked in a narrow rail beside it.",
+      "format": {"contract_id": "plate-format-v1", "format_id": "a5-portrait"},
+      "export": {
+        "canonical_args": [
+          "--preset", "a5-balanced-poster",
+          "--radius-km", "2",
+          "--layers", "roads,water,railways,parks",
+          "--detail-profile", "ink-balanced",
+          "--simplify-mm", "0.04",
+          "--road-style", "centreline",
+          "--extent-fit", "contain",
+          "--pen-profile", "actual-pens",
+          "--stock-tone", "light",
+          "--attribution-mode", "external",
+          "--external-attribution-placement", "Product page, packaging, or caption adjacent to each artwork",
+          "--scale-bar",
+          "--no-scale-detail",
+          "--optimise",
+          "--physical-audit"
+        ],
+        "locked_options": [
+          "--preset", "--radius-km", "--layers", "--detail-profile", "--simplify-mm",
+          "--road-style", "--extent-fit", "--pen-profile", "--stock-tone",
+          "--attribution-mode", "--external-attribution-placement",
+          "--scale-bar", "--no-scale-bar", "--scale-detail", "--no-scale-detail",
+          "--optimise", "--optimize", "--no-optimise", "--no-optimize",
+          "--physical-audit", "--no-physical-audit",
+          "--style", "--title", "--subtitle", "--detail",
+          "--paper", "--orientation", "--width-mm", "--height-mm", "--margin-mm",
+          "--nib-mm", "--png-dpi", "--allow-repeat-passes"
+        ]
+      },
+      "map_layers": [
+        {"id": "water_areas",     "ink": "Blue",   "nib_role": "primary",  "order": 10},
+        {"id": "rivers",          "ink": "Blue",   "nib_role": "primary",  "order": 15},
+        {"id": "waterways",       "ink": "Blue",   "nib_role": "hairline", "order": 20},
+        {"id": "green_space",     "ink": "Green",  "nib_role": "hairline", "order": 30},
+        {"id": "road_areas",      "ink": "Purple", "nib_role": "hairline", "order": 55},
+        {"id": "roads_major",     "ink": "Red",    "nib_role": "primary",  "order": 60},
+        {"id": "roads_secondary", "ink": "Purple", "nib_role": "primary",  "order": 80},
+        {"id": "roads_local",     "ink": "Grey",   "nib_role": "text",     "order": 90},
+        {"id": "roads_other",     "ink": "Grey",   "nib_role": "hairline", "order": 100},
+        {"id": "paths",           "ink": "Green",  "nib_role": "hairline", "order": 110},
+        {"id": "railways",        "ink": "Black",  "nib_role": "text",     "order": 120}
+      ],
+      "furniture": {
+        "poster_border":   {"draws": true,  "ink": "Blue",   "nib_role": "hairline", "style": "hairline"},
+        "frame":           {"draws": true,  "ink": "Blue",   "nib_role": "primary"},
+        "map_furniture":   {"draws": true,  "ink": "Purple", "nib_role": "text", "north_mark": "field-north-east", "scale_bar": true},
+        "poster_title":    {"draws": true,  "ink": "Red",    "nib_role": "primary",  "weight": 3},
+        "poster_subtitle": {"draws": true,  "ink": "Purple", "nib_role": "text",     "weight": 1},
+        "poster_details":  {"draws": true,  "ink": "Grey",   "nib_role": "text",     "weight": 1},
+        "attribution":     {"draws": false, "ink": "Black",  "nib_role": "hairline", "weight": 1}
+      },
+      "typography": {
+        "policy_id": "city-memorabilia-type-v1",
+        "font_roles": {"display": "plotter-grid-v4", "text": "plotter-grid-v4", "mono": "plotter-grid-v4"},
+        "normalisation_policy_id": "nfc-supported-diacritics-v2",
+        "roles": {
+          "title":       {"font_role": "display", "zone": "head_main",   "align": "left",   "vertical": "middle", "case": "upper", "max_lines": 2, "cap_role": "title",       "cap_scale": 0.85, "gutter": 0.0},
+          "subtitle":    {"font_role": "text",    "zone": "foot_main",   "align": "left",   "vertical": "top",    "case": "upper", "max_lines": 1, "cap_role": "subtitle",    "cap_scale": 1.2,  "gutter": 0.0},
+          "detail":      {"font_role": "text",    "zone": "head_rail",   "align": "right",  "vertical": "middle", "case": "upper", "max_lines": 3, "cap_role": "detail",      "cap_scale": 0.86, "gutter": 0.0},
+          "legend":      {"font_role": "mono",    "zone": "foot_rail",   "align": "left",   "vertical": "top",    "case": "upper", "max_lines": 1, "cap_role": "legend",      "cap_scale": 1.0},
+          "attribution": {"font_role": "text",    "zone": "attribution", "align": "split",  "vertical": "middle", "case": "mixed", "max_lines": 1, "cap_role": "attribution", "cap_scale": 1.0}
+        }
+      },
+      "copy": {
+        "policy_id": "city-memorabilia-copy-v1",
+        "rules": {
+          "campus": {"title": "subject.name", "subtitle": "city-country", "details": ["purpose", "coordinates"]},
+          "student_city": {"title": "city", "subtitle": "country", "details": ["purpose", "coordinates"]},
+          "city_preview": {"title": "city", "subtitle": "country", "details": ["purpose", "course-disclosure", "coordinates"]}
+        }
+      },
+      "placement_policy_id": "plate-format-named-zones-v1",
+      "source_policy_id": "selected-family-lineage-relative-to-source-v1",
+      "validation_policy_id": "format-physical-source-and-cohort-v1",
+      "batch": {"title_mode": "theme", "recommended_png_dpi": 254, "cohort_key": "edition_signature_sha256"}
+    }
+  ]
+}

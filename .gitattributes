@@ -1,5 +1,7 @@
 *.png filter=lfs diff=lfs merge=lfs -text
 *.svg filter=lfs diff=lfs merge=lfs -text
 *.plot.json filter=lfs diff=lfs merge=lfs -text
+*.plotjob.json filter=lfs diff=lfs merge=lfs -text
+*.osm.pbf filter=lfs diff=lfs merge=lfs -text
 artwork/latest-map-portfolio-2026-08-18-v3/03-hiking-maps/contracts/hiking-data/hike-plates-release-v1.json filter=lfs diff=lfs merge=lfs -text
 artwork/latest-map-portfolio-2026-08-18-v3/06-f1-courses/code/src/city_map_plotter/data/f1-circuits-2026.json filter=lfs diff=lfs merge=lfs -text

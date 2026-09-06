@@ -1,0 +1,440 @@
+{
+  "id": "belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape",
+  "domain": "06-f1-courses",
+  "title": "SPA-FRANCORCHAMPS",
+  "artifact_version": 1,
+  "format_id": "a4-landscape",
+  "source": {
+    "svg_sha256": "9cbfb640ce38f2e7ba779d6f7dac8bd7c4c9a86e0f5b66bb5b4fc4b894290536",
+    "manifest_sha256": "92af760574ca85a8cee967d1f42fc05590ac398161ccea3f04171bfcd6c8b394",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/06-f1-courses/artwork/current-2026/a4-landscape/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 8,
+      "pen_changes": 7,
+      "pen_down_path_count": 958,
+      "pen_down_distance_mm": 9019.1,
+      "pen_up_travel_mm": 5587.5,
+      "travel_ratio": 0.62,
+      "estimated_plot_seconds_including_pen_up": 327.5,
+      "field_ink_mm2_upper_bound": 1739.6,
+      "field_ink_coverage_upper_bound": 0.052281,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "circuit_context_grey"
+        ],
+        "path_count": 123,
+        "pen_down_distance_mm": 917.4,
+        "pen_up_travel_mm": 757.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 26.2,
+        "estimated_plot_seconds_including_pen_up": 35.7,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "circuit_context_green"
+        ],
+        "path_count": 69,
+        "pen_down_distance_mm": 856.7,
+        "pen_up_travel_mm": 593.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 24.5,
+        "estimated_plot_seconds_including_pen_up": 31.9,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "circuit_context_blue"
+        ],
+        "path_count": 45,
+        "pen_down_distance_mm": 318.2,
+        "pen_up_travel_mm": 352.4,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 9.1,
+        "estimated_plot_seconds_including_pen_up": 13.5,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Purple 0.4",
+        "pen_id": "purple-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Purple",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#7e22ce",
+        "layers": [
+          "circuit_venue_purple"
+        ],
+        "path_count": 12,
+        "pen_down_distance_mm": 129.4,
+        "pen_up_travel_mm": 186.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 3.7,
+        "estimated_plot_seconds_including_pen_up": 6.0,
+        "instruction": "Load Purple 0.4 (purple-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Red 0.4",
+        "pen_id": "red-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "lap_centreline"
+        ],
+        "path_count": 5,
+        "pen_down_distance_mm": 2040.7,
+        "pen_up_travel_mm": 22.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 58.3,
+        "estimated_plot_seconds_including_pen_up": 58.6,
+        "instruction": "Load Red 0.4 (red-0-4) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Black 0.25",
+        "pen_id": "black-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "circuit_copy",
+          "plate_attribution"
+        ],
+        "path_count": 470,
+        "pen_down_distance_mm": 1667.4,
+        "pen_up_travel_mm": 1450.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 47.6,
+        "estimated_plot_seconds_including_pen_up": 65.8,
+        "instruction": "Load Black 0.25 (black-0-25) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_copy"
+        ],
+        "path_count": 274,
+        "pen_down_distance_mm": 1809.3,
+        "pen_up_travel_mm": 1511.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 51.7,
+        "estimated_plot_seconds_including_pen_up": 70.6,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 25,
+        "pen_down_distance_mm": 1280.1,
+        "pen_up_travel_mm": 713.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 36.6,
+        "estimated_plot_seconds_including_pen_up": 45.5,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a4-landscape/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.svg",
+        "sha256": "9cbfb640ce38f2e7ba779d6f7dac8bd7c4c9a86e0f5b66bb5b4fc4b894290536"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a4-landscape/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a4-landscape/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.pen-01-grey-0-25.svg",
+          "sha256": "b090da0ac51960b7b7532f16b1a8b0401f25ed0b1a8813579cbeb57374e44b9a"
+        },
+        {
+          "step": 2,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a4-landscape/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.pen-02-green-0-25.svg",
+          "sha256": "8b60d302826dd53a2529262cdc934ed402cc4f125444037b32fb22cd017ea7f4"
+        },
+        {
+          "step": 3,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a4-landscape/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.pen-03-blue-0-25.svg",
+          "sha256": "a036be017ce29f302e2aa316cdf44b7fd2e4ebeda13fe27e889215496e9330a0"
+        },
+        {
+          "step": 4,
+          "pen": "Purple 0.4",
+          "pen_id": "purple-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a4-landscape/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.pen-04-purple-0-4.svg",
+          "sha256": "6a788a0ee8e5702f16d5b217daae37ae3336d67bb61d1f156501bc3813f6f42b"
+        },
+        {
+          "step": 5,
+          "pen": "Red 0.4",
+          "pen_id": "red-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a4-landscape/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.pen-05-red-0-4.svg",
+          "sha256": "8ff7664a50047b48a162f1396e38072b848f7d786f72662d92e8f1e6f0251496"
+        },
+        {
+          "step": 6,
+          "pen": "Black 0.25",
+          "pen_id": "black-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a4-landscape/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.pen-06-black-0-25.svg",
+          "sha256": "8bf7a75dea39d7bf3d338eb17f09a1f7f6bdfbeea836dd7e13334c78bd7e8c6b"
+        },
+        {
+          "step": 7,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a4-landscape/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.pen-07-black-0-4.svg",
+          "sha256": "124d08dbb787418af07f460ca5d473ad22b223e2db0152ec71e7f63e959c1bcd"
+        },
+        {
+          "step": 8,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a4-landscape/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.pen-08-black-1.svg",
+          "sha256": "85e5278cd2a58debd3fae95423f56c3ad1a9529bedda94420c81ccd814f71315"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a4-landscape/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.png",
+        "dpi": 254.0,
+        "sha256": "1e9e429015bff83440007c4ba9244b2a688cfca5abd115dfc53c4e39018f6b73"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "99cb1a80b7307dbc18e671504b3da65a2c7eb0cc21a93bcb0525eeccf10526dd",
+        "png": "ffcb992c92b39342cdd3024a39c9288952d6a88adddfa235eeb0a8c8f4eaac71",
+        "manifest": "9c317baee502b50f6fe151a218be3fa44e5c009500a681e9e7d75e78fd4e1596"
+      },
+      "removed_visible_path_count": 65,
+      "removed_visible_copy_values": [
+        "OSM CONTRIBUTORS / OPENSTREETMAP.ORG/COPYRIGHT"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "06-f1-courses/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.svg",
+    "sha256": "d228d713dcd3b2d060dad0a2fb1b6cc9b79d8d7d3b4b912493e0e50c4035e53a",
+    "bytes": 628265
+  },
+  "png": {
+    "path": "06-f1-courses/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.png",
+    "sha256": "353ab26b6f98942232c2671f13e6761daa8649738751b0cefd931f0e675d4ca4",
+    "bytes": 602984
+  },
+  "thumbnail": {
+    "path": "06-f1-courses/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape/thumbnail.png",
+    "sha256": "e040e397faab299c55e38b4bd6902eb9e9245510f62ab0d8094ecc8fccace42d",
+    "bytes": 62919
+  },
+  "manifest": {
+    "path": "06-f1-courses/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.plot.json",
+    "sha256": "3d03d79d20708d1062a7850541081e821ab1e2e33802e59ed5ee1fa398f2a971",
+    "bytes": 364986
+  },
+  "job": {
+    "path": "06-f1-courses/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.plotjob.json",
+    "sha256": "dcd8c7bc60700bbd8fe8aff932e099753d1d817f95c5b26486e98f8b52d575ee",
+    "bytes": 780269
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "06-f1-courses/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape/pens/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.pen-01-grey-0-25.svg",
+      "sha256": "52a983a2958c516985fa2744271888a85a90f16d60c4c044bc4de33997ab1a9a",
+      "bytes": 77068
+    },
+    {
+      "step": 2,
+      "pen_id": "green-0-25",
+      "path": "06-f1-courses/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape/pens/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.pen-02-green-0-25.svg",
+      "sha256": "5e1414069ec5feb72bf21fd771ab354c32cb0b6c2f91fc2440a77e0349e041a6",
+      "bytes": 48223
+    },
+    {
+      "step": 3,
+      "pen_id": "blue-0-25",
+      "path": "06-f1-courses/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape/pens/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.pen-03-blue-0-25.svg",
+      "sha256": "585dafbc47b4c2ec4997f282dbcc9ad24571149c687a8fb4ea77619c401e6c0d",
+      "bytes": 33900
+    },
+    {
+      "step": 4,
+      "pen_id": "purple-0-4",
+      "path": "06-f1-courses/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape/pens/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.pen-04-purple-0-4.svg",
+      "sha256": "6eec00db3cf508c7e24b4aec7557b2324054ab7c0947523ec41b725f6cf1affd",
+      "bytes": 18970
+    },
+    {
+      "step": 5,
+      "pen_id": "red-0-4",
+      "path": "06-f1-courses/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape/pens/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.pen-05-red-0-4.svg",
+      "sha256": "7ea5a534124d029420df4f4787ac8b7507beefb1015506bdac18a23f2ade4c29",
+      "bytes": 54418
+    },
+    {
+      "step": 6,
+      "pen_id": "black-0-25",
+      "path": "06-f1-courses/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape/pens/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.pen-06-black-0-25.svg",
+      "sha256": "47e28decc4c58f8ae3e8cc4a3ee91cef6fd1258efb863d11651715d9b0d19e31",
+      "bytes": 366647
+    },
+    {
+      "step": 7,
+      "pen_id": "black-0-4",
+      "path": "06-f1-courses/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape/pens/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.pen-07-black-0-4.svg",
+      "sha256": "fc03c775b3a6d217c138c4d0ef49a022cdc6b1eb55ac92b7a7a00dc9eb567225",
+      "bytes": 69402
+    },
+    {
+      "step": 8,
+      "pen_id": "black-1",
+      "path": "06-f1-courses/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape/pens/belgium-spa-francorchamps-2026--circuit-atlas-v2-a4-landscape.pen-08-black-1.svg",
+      "sha256": "85e5278cd2a58debd3fae95423f56c3ad1a9529bedda94420c81ccd814f71315",
+      "bytes": 14349
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 280,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "1:44.701 / 2024",
+    "1:44.701 / SERGIO PEREZ / 2024",
+    "7.004 KM",
+    "CIRCUIT LAYOUT",
+    "CLOCKWISE",
+    "COURSE",
+    "DIAGRAMMATIC COURSE",
+    "FASTEST LAP",
+    "FIRST GRAND PRIX 1950",
+    "FORMULA 1",
+    "GRANDSTANDS",
+    "LENGTH 7.004 KM / FIRST GP 1950",
+    "SEASON 2026 REFERENCE",
+    "SERGIO PEREZ",
+    "SOURCE CENTRELINE / DIAGRAMMATIC CORRIDOR",
+    "SPA-FRANCORCHAMPS",
+    "STAVELOT / GP LAYOUT / 2026"
+  ],
+  "stroke_count": 939,
+  "pen_count": 8,
+  "physical_execution_allowed": false
+}

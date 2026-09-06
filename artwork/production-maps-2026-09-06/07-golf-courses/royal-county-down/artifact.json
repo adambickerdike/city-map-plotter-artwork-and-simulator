@@ -1,0 +1,431 @@
+{
+  "id": "royal-county-down",
+  "domain": "07-golf-courses",
+  "title": "ROYAL COUNTY DOWN",
+  "artifact_version": 1,
+  "format_id": "a3-portrait",
+  "source": {
+    "svg_sha256": "48f7640d0abe68cd59ae37b72a97726330c2bbcbb56b37d219f76da36ce9c47e",
+    "manifest_sha256": "6eb14944c8f19834182a7052c4e208f5bf7adc3e9d0c49f736d0e10744585d83",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/07-golf-courses/artwork/royal-county-down.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 8,
+      "pen_changes": 7,
+      "pen_down_path_count": 708,
+      "pen_down_distance_mm": 13122.5,
+      "pen_up_travel_mm": 9947.5,
+      "travel_ratio": 0.758,
+      "estimated_plot_seconds_including_pen_up": 499.3,
+      "field_ink_mm2_upper_bound": 3181.8,
+      "field_ink_coverage_upper_bound": 0.049614,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "bunkers",
+          "field_frame"
+        ],
+        "path_count": 116,
+        "pen_down_distance_mm": 1470.6,
+        "pen_up_travel_mm": 1747.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 42.0,
+        "estimated_plot_seconds_including_pen_up": 63.9,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "playing_envelope"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 792.0,
+        "pen_up_travel_mm": 130.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 22.6,
+        "estimated_plot_seconds_including_pen_up": 24.3,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "fairways"
+        ],
+        "path_count": 119,
+        "pen_down_distance_mm": 2399.3,
+        "pen_up_travel_mm": 982.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 68.6,
+        "estimated_plot_seconds_including_pen_up": 80.8,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.4",
+        "pen_id": "green-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "greens_and_tees"
+        ],
+        "path_count": 90,
+        "pen_down_distance_mm": 874.6,
+        "pen_up_travel_mm": 1276.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 25.0,
+        "estimated_plot_seconds_including_pen_up": 40.9,
+        "instruction": "Load Green 0.4 (green-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Red 0.25",
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hole_markers"
+        ],
+        "path_count": 36,
+        "pen_down_distance_mm": 483.9,
+        "pen_up_travel_mm": 976.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 13.8,
+        "estimated_plot_seconds_including_pen_up": 26.0,
+        "instruction": "Load Red 0.25 (red-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "hole_numbers",
+          "map_reference",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 352,
+        "pen_down_distance_mm": 2595.3,
+        "pen_up_travel_mm": 3729.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 74.2,
+        "estimated_plot_seconds_including_pen_up": 120.8,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 22,
+        "pen_down_distance_mm": 3199.8,
+        "pen_up_travel_mm": 687.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 91.4,
+        "estimated_plot_seconds_including_pen_up": 100.0,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Gold 1",
+        "pen_id": "gold-1",
+        "pen_profile": "actual-pens",
+        "ink": "Gold",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#b88900",
+        "layers": [
+          "holes"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 1307.0,
+        "pen_up_travel_mm": 417.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 37.3,
+        "estimated_plot_seconds_including_pen_up": 42.6,
+        "instruction": "Load Gold 1 (gold-1) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-county-down.svg",
+        "sha256": "48f7640d0abe68cd59ae37b72a97726330c2bbcbb56b37d219f76da36ce9c47e"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-county-down.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-county-down.pen-01-grey-0-25.svg",
+          "sha256": "c662290cac52e36262ee1008de1ea6493b72859b253c6691bbc7e4b9fb2f22e0"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-county-down.pen-02-grey-0-4.svg",
+          "sha256": "07aaedd0e9ebf74935ee0eb05e48b5ff76e8a50f2f79da108c5303960e897dd1"
+        },
+        {
+          "step": 3,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-county-down.pen-03-green-0-25.svg",
+          "sha256": "f3c9ac961fe501cfa8a35258c4011560d047c752e81131e4a7b6560ae8f02dfc"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.4",
+          "pen_id": "green-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-county-down.pen-04-green-0-4.svg",
+          "sha256": "8af43c9b3e3a9cda3f70873d7f34e296c7c498db17c6ba0f945426591a12e91a"
+        },
+        {
+          "step": 5,
+          "pen": "Red 0.25",
+          "pen_id": "red-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-county-down.pen-05-red-0-25.svg",
+          "sha256": "45484676d0ca99919c7bc4af8a452450df2091b797491d3e101f3e20b0e9356c"
+        },
+        {
+          "step": 6,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-county-down.pen-06-black-0-4.svg",
+          "sha256": "119a1f8d0bb24ad4ad02a730cfe0aafd4ea31e85145e657fe71e87de8baaeed0"
+        },
+        {
+          "step": 7,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-county-down.pen-07-black-1.svg",
+          "sha256": "ed41b60897286a00fdb565f869c1722d32503f630db19e7927f1557a6cf0f21e"
+        },
+        {
+          "step": 8,
+          "pen": "Gold 1",
+          "pen_id": "gold-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-county-down.pen-08-gold-1.svg",
+          "sha256": "b94f66d328295f2d115cd2d06dd3d108f87cd3f389844aea8b29f04f0e53acca"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-county-down.png",
+        "dpi": 180.0,
+        "sha256": "9c643a1d44293e5f10923b0100b6377a72fc9bb31df443e5fb967f2f03337617"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "27c0d76e82d9c5cdf01b22ce609829217656dd9ef84460cbe0ddb243955bc88c",
+        "png": "3515694f1f50f97bf786e2b1172c6887fb5f92ea5e21f09967ee544e70fbe878",
+        "manifest": "26ebf9ce4b2272f1b57685bfb60fd4127b00a3b8c483e6248addd9d136ec3319"
+      },
+      "removed_visible_path_count": 46,
+      "removed_visible_copy_values": [
+        "© OpenStreetMap contributors / ODbL-1.0"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "07-golf-courses/royal-county-down/royal-county-down.svg",
+    "sha256": "cf97549955a33b095661e0022306f1f21768c717f36a05d2bf81d18d7c7a2c0f",
+    "bytes": 231396
+  },
+  "png": {
+    "path": "07-golf-courses/royal-county-down/royal-county-down.png",
+    "sha256": "1bb4939b6e3e83c9266c1c36221ef766779b3869d1114e420a64d757cb913659",
+    "bytes": 1000986
+  },
+  "thumbnail": {
+    "path": "07-golf-courses/royal-county-down/thumbnail.png",
+    "sha256": "a7f470116d7224b471421a7ef320b5ce7d03c7b2794ef57aad6d3538aef21bd5",
+    "bytes": 94290
+  },
+  "manifest": {
+    "path": "07-golf-courses/royal-county-down/royal-county-down.plot.json",
+    "sha256": "93e74bebfd8a3a3a77063c829e980011c28e461b8a2cab363e71cfe19f9477ae",
+    "bytes": 642945
+  },
+  "job": {
+    "path": "07-golf-courses/royal-county-down/royal-county-down.plotjob.json",
+    "sha256": "6c754461098acc5bb6668a314ab1798452014b10a8a3bd0ea4b0a9b4d51a375a",
+    "bytes": 470895
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "07-golf-courses/royal-county-down/pens/royal-county-down.pen-01-grey-0-25.svg",
+      "sha256": "6bd02e49e96ab3d15626f5c6f7bebab2d9b34b8c1435167335db04ff7f6e142c",
+      "bytes": 52022
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "07-golf-courses/royal-county-down/pens/royal-county-down.pen-02-grey-0-4.svg",
+      "sha256": "f0940a0828b3854e103bc423ab3a394093792f3cdb0fab2d3895a182ece7ca11",
+      "bytes": 8246
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "07-golf-courses/royal-county-down/pens/royal-county-down.pen-03-green-0-25.svg",
+      "sha256": "c1f61edaf9d5c276c91c41132fbf47b61226860942e3ffd11444688dac6132d9",
+      "bytes": 65719
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-4",
+      "path": "07-golf-courses/royal-county-down/pens/royal-county-down.pen-04-green-0-4.svg",
+      "sha256": "dc05554ee4976ea6e1cff7dab33250bcf6b42bea68e4af51cbd95420d63b93ed",
+      "bytes": 39922
+    },
+    {
+      "step": 5,
+      "pen_id": "red-0-25",
+      "path": "07-golf-courses/royal-county-down/pens/royal-county-down.pen-05-red-0-25.svg",
+      "sha256": "8555b857874fd4442ed6dec3b951e576eff337f8a34fae52ccf0313359c106a0",
+      "bytes": 23048
+    },
+    {
+      "step": 6,
+      "pen_id": "black-0-4",
+      "path": "07-golf-courses/royal-county-down/pens/royal-county-down.pen-06-black-0-4.svg",
+      "sha256": "74a610e4fa4558b85571d3cb27fcdbf69f67b8d588cf5e454c23379d6f871439",
+      "bytes": 42285
+    },
+    {
+      "step": 7,
+      "pen_id": "black-1",
+      "path": "07-golf-courses/royal-county-down/pens/royal-county-down.pen-07-black-1.svg",
+      "sha256": "4e4b54b1b03576eb078dc9e2c325911d4b70079734089ec91b1c8014f5ec1969",
+      "bytes": 6185
+    },
+    {
+      "step": 8,
+      "pen_id": "gold-1",
+      "path": "07-golf-courses/royal-county-down/pens/royal-county-down.pen-08-gold-1.svg",
+      "sha256": "b94f66d328295f2d115cd2d06dd3d108f87cd3f389844aea8b29f04f0e53acca",
+      "bytes": 9873
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 264,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "18 HOLES",
+    "CHAMPIONSHIP LINKS",
+    "MOURNE MOUNTAINS",
+    "NEWCASTLE, COUNTY DOWN / NORTHERN IRELAND",
+    "ROYAL COUNTY DOWN"
+  ],
+  "stroke_count": 569,
+  "pen_count": 8,
+  "physical_execution_allowed": false
+}

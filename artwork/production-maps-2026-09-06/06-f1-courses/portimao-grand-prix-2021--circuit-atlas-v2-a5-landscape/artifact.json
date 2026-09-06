@@ -1,0 +1,360 @@
+{
+  "id": "portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape",
+  "domain": "06-f1-courses",
+  "title": "PORTIMAO / 2021",
+  "artifact_version": 1,
+  "format_id": "a5-landscape",
+  "source": {
+    "svg_sha256": "bf55e6eee35bf7c637c21d6ea1de6a5a32e3f1d517b3356a95d67d07b63ab543",
+    "manifest_sha256": "4815b1e2d8eafa7025f1c64c4ae85cf9ada5afed14d7601965806d445c0b722f",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/06-f1-courses/artwork/former-events/a5-landscape/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 6,
+      "pen_changes": 5,
+      "pen_down_path_count": 463,
+      "pen_down_distance_mm": 5004.8,
+      "pen_up_travel_mm": 3150.7,
+      "travel_ratio": 0.63,
+      "estimated_plot_seconds_including_pen_up": 182.4,
+      "field_ink_mm2_upper_bound": 868.2,
+      "field_ink_coverage_upper_bound": 0.052366,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "circuit_context_grey"
+        ],
+        "path_count": 34,
+        "pen_down_distance_mm": 666.6,
+        "pen_up_travel_mm": 396.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 19.0,
+        "estimated_plot_seconds_including_pen_up": 24.0,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "circuit_context_green"
+        ],
+        "path_count": 33,
+        "pen_down_distance_mm": 507.0,
+        "pen_up_travel_mm": 331.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 14.5,
+        "estimated_plot_seconds_including_pen_up": 18.6,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "circuit_context_blue"
+        ],
+        "path_count": 26,
+        "pen_down_distance_mm": 227.0,
+        "pen_up_travel_mm": 295.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 6.5,
+        "estimated_plot_seconds_including_pen_up": 10.2,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Red 0.4",
+        "pen_id": "red-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "lap_centreline"
+        ],
+        "path_count": 3,
+        "pen_down_distance_mm": 1092.4,
+        "pen_up_travel_mm": 101.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 31.2,
+        "estimated_plot_seconds_including_pen_up": 32.5,
+        "instruction": "Load Red 0.4 (red-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Black 0.25",
+        "pen_id": "black-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "circuit_copy",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 411,
+        "pen_down_distance_mm": 1683.4,
+        "pen_up_travel_mm": 1560.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 48.1,
+        "estimated_plot_seconds_including_pen_up": 67.6,
+        "instruction": "Load Black 0.25 (black-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Black 0.6",
+        "pen_id": "black-0-6",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.6,
+        "nominal_nib_mm": 0.6,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 21,
+        "pen_down_distance_mm": 828.4,
+        "pen_up_travel_mm": 464.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.6,
+        "minimum_plot_seconds": 23.7,
+        "estimated_plot_seconds_including_pen_up": 29.5,
+        "instruction": "Load Black 0.6 (black-0-6) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape.svg",
+        "sha256": "bf55e6eee35bf7c637c21d6ea1de6a5a32e3f1d517b3356a95d67d07b63ab543"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape.pen-01-grey-0-25.svg",
+          "sha256": "4b8cd209cff8379c95573efc6dfb12e10b8f8c6a72305dca8e116e72abdbb9eb"
+        },
+        {
+          "step": 2,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape.pen-02-green-0-25.svg",
+          "sha256": "96be8b7973ac5c7fbdd6e922d638a9e6e772c66e8c3bfc3fc24e8087eadfdfee"
+        },
+        {
+          "step": 3,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape.pen-03-blue-0-25.svg",
+          "sha256": "c5397ed0d5e811025e70354995813c0e2964d29b0ec01797f3dd7096d3701124"
+        },
+        {
+          "step": 4,
+          "pen": "Red 0.4",
+          "pen_id": "red-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape.pen-04-red-0-4.svg",
+          "sha256": "3fd412c0bb8bbc417faaf1930e413d2289f21c409b7fa80c808cf811df9db98a"
+        },
+        {
+          "step": 5,
+          "pen": "Black 0.25",
+          "pen_id": "black-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape.pen-05-black-0-25.svg",
+          "sha256": "7b3654d9898687529ffa81a804cf260315ba9def8b2611f2bc23def82604e41a"
+        },
+        {
+          "step": 6,
+          "pen": "Black 0.6",
+          "pen_id": "black-0-6",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape.pen-06-black-0-6.svg",
+          "sha256": "bd6ab30b1eee1b2697ff4032ee8073f4f4ca7a6cb436d7622df871a5eb3cf7ef"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape.png",
+        "dpi": 254.0,
+        "sha256": "d24453c6b97348c332f52d37ad7113ce95cdf3412db05a796a22b7606b63da2c"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "cb4fe87c40dbe1d8f193d9dc935c2f4586d56a0f418f16c8006c0e37f86f6c7a",
+        "png": "39619aaae1e15e5d13626ce1998918a62cbe0492d59f20c7c169033ae66b29b6",
+        "manifest": "a4ca2b4190ec928d9e8a5642a7224cb6b095257922272e2babd91366b9f67539"
+      },
+      "removed_visible_path_count": 65,
+      "removed_visible_copy_values": [
+        "OSM CONTRIBUTORS / OPENSTREETMAP.ORG/COPYRIGHT"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "06-f1-courses/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape.svg",
+    "sha256": "3b493818c53a9c1462d257f18d904201a82b731550eb517ab6852ca1b1628e1b",
+    "bytes": 228135
+  },
+  "png": {
+    "path": "06-f1-courses/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape.png",
+    "sha256": "fa183bc7de29f634b87d5bd01ead2a902e8a120823615e017538440e873ab9ba",
+    "bytes": 340278
+  },
+  "thumbnail": {
+    "path": "06-f1-courses/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape/thumbnail.png",
+    "sha256": "3540416681aeff1d798ab27f66d8fdfc56ec90911bf946292b3abc3251ef4a06",
+    "bytes": 57356
+  },
+  "manifest": {
+    "path": "06-f1-courses/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape.plot.json",
+    "sha256": "1101588374d5819ff1e1dba66f8a5fbdfeca6d356dafb24afd95698f69bd1721",
+    "bytes": 188048
+  },
+  "job": {
+    "path": "06-f1-courses/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape.plotjob.json",
+    "sha256": "61b40349505412f12d917eecf36e108633d15e72d5155467f8d16492841b46ac",
+    "bytes": 372356
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "06-f1-courses/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape/pens/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape.pen-01-grey-0-25.svg",
+      "sha256": "a81ab22e85ab44fafea1597ab09e86972cb0821b42968cb52e5c1eb817b711fa",
+      "bytes": 35454
+    },
+    {
+      "step": 2,
+      "pen_id": "green-0-25",
+      "path": "06-f1-courses/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape/pens/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape.pen-02-green-0-25.svg",
+      "sha256": "7dc908b544eddb003bdc7236fbf1f087df1b10eece40c0f9943afc1bd55eb4a5",
+      "bytes": 27845
+    },
+    {
+      "step": 3,
+      "pen_id": "blue-0-25",
+      "path": "06-f1-courses/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape/pens/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape.pen-03-blue-0-25.svg",
+      "sha256": "1dc2951d518bbbccc873d2553e8bfebb74126ec2351c143d638b89404a36d25b",
+      "bytes": 22783
+    },
+    {
+      "step": 4,
+      "pen_id": "red-0-4",
+      "path": "06-f1-courses/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape/pens/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape.pen-04-red-0-4.svg",
+      "sha256": "32e837412971736fb119c85ec97d24d5eb59b8752718e7bcf6a9b93df6fe46e9",
+      "bytes": 25129
+    },
+    {
+      "step": 5,
+      "pen_id": "black-0-25",
+      "path": "06-f1-courses/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape/pens/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape.pen-05-black-0-25.svg",
+      "sha256": "8f04e2db9edb2c34f3baa447cef56ff34800f123911637e8a82d15c77a4e67fd",
+      "bytes": 148558
+    },
+    {
+      "step": 6,
+      "pen_id": "black-0-6",
+      "path": "06-f1-courses/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape/pens/portimao-grand-prix-2021--circuit-atlas-v2-a5-landscape.pen-06-black-0-6.svg",
+      "sha256": "bd6ab30b1eee1b2697ff4032ee8073f4f4ca7a6cb436d7622df871a5eb3cf7ef",
+      "bytes": 14561
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 232,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "4.653 KM",
+    "CIRCUIT LAYOUT",
+    "CIRCUIT PLAN",
+    "COURSE",
+    "CURRENT COURSE / F1 REF 2021",
+    "CURRENT COURSE STUDY",
+    "CURRENT COURSE STUDY / F1 REFERENCE 2021",
+    "EDITION",
+    "F1 REFERENCE 2021",
+    "FORMULA 1",
+    "LENGTH 4.653 KM / F1 REFERENCE 2021",
+    "NORTH-UP COURSE PLAN",
+    "PORTIMAO / 2021",
+    "SOURCE CENTRELINE COURSE STUDY"
+  ],
+  "stroke_count": 459,
+  "pen_count": 6,
+  "physical_execution_allowed": false
+}

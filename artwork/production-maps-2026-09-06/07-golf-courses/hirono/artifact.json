@@ -1,0 +1,510 @@
+{
+  "id": "hirono",
+  "domain": "07-golf-courses",
+  "title": "HIRONO GOLF CLUB",
+  "artifact_version": 1,
+  "format_id": "a3-portrait",
+  "source": {
+    "svg_sha256": "e8c837de11bf35dbb377a2c5404768255c19c65af0038aed0d287bbca7d443a4",
+    "manifest_sha256": "76831ddea4ef2edd7cb26a88bde5995f8f93f6962951476446e91d33da023663",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/07-golf-courses/artwork/hirono.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 10,
+      "pen_changes": 9,
+      "pen_down_path_count": 786,
+      "pen_down_distance_mm": 13015.5,
+      "pen_up_travel_mm": 12036.0,
+      "travel_ratio": 0.925,
+      "estimated_plot_seconds_including_pen_up": 522.3,
+      "field_ink_mm2_upper_bound": 3113.1,
+      "field_ink_coverage_upper_bound": 0.048542,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "course_paths",
+          "bunkers",
+          "field_frame"
+        ],
+        "path_count": 177,
+        "pen_down_distance_mm": 2706.0,
+        "pen_up_travel_mm": 1836.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 77.3,
+        "estimated_plot_seconds_including_pen_up": 100.3,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "playing_envelope"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 747.1,
+        "pen_up_travel_mm": 248.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 21.3,
+        "estimated_plot_seconds_including_pen_up": 24.5,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "fairways"
+        ],
+        "path_count": 82,
+        "pen_down_distance_mm": 1478.7,
+        "pen_up_travel_mm": 1179.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 42.2,
+        "estimated_plot_seconds_including_pen_up": 57.0,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.4",
+        "pen_id": "green-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "greens_and_tees"
+        ],
+        "path_count": 60,
+        "pen_down_distance_mm": 644.4,
+        "pen_up_travel_mm": 1291.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 18.4,
+        "estimated_plot_seconds_including_pen_up": 34.6,
+        "instruction": "Load Green 0.4 (green-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water_stipple"
+        ],
+        "path_count": 113,
+        "pen_down_distance_mm": 126.3,
+        "pen_up_travel_mm": 993.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 3.6,
+        "estimated_plot_seconds_including_pen_up": 16.0,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Blue 0.4",
+        "pen_id": "blue-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water"
+        ],
+        "path_count": 11,
+        "pen_down_distance_mm": 384.8,
+        "pen_up_travel_mm": 742.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 11.0,
+        "estimated_plot_seconds_including_pen_up": 20.3,
+        "instruction": "Load Blue 0.4 (blue-0-4) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Red 0.25",
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hole_markers"
+        ],
+        "path_count": 36,
+        "pen_down_distance_mm": 449.4,
+        "pen_up_travel_mm": 1041.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 12.8,
+        "estimated_plot_seconds_including_pen_up": 25.9,
+        "instruction": "Load Red 0.25 (red-0-25) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "hole_numbers",
+          "map_reference",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 311,
+        "pen_down_distance_mm": 2217.5,
+        "pen_up_travel_mm": 3642.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 63.4,
+        "estimated_plot_seconds_including_pen_up": 108.9,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 9,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 23,
+        "pen_down_distance_mm": 3168.8,
+        "pen_up_travel_mm": 696.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 90.5,
+        "estimated_plot_seconds_including_pen_up": 99.2,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 09.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 10,
+        "pen": "Gold 1",
+        "pen_id": "gold-1",
+        "pen_profile": "actual-pens",
+        "ink": "Gold",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#b88900",
+        "layers": [
+          "holes"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 1092.5,
+        "pen_up_travel_mm": 364.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 31.2,
+        "estimated_plot_seconds_including_pen_up": 35.8,
+        "instruction": "Load Gold 1 (gold-1) and plot SVG layer 10.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/hirono.svg",
+        "sha256": "e8c837de11bf35dbb377a2c5404768255c19c65af0038aed0d287bbca7d443a4"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/hirono.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/hirono.pen-01-grey-0-25.svg",
+          "sha256": "44f0a2a782767f1bd7b4b43d88fc926cf13ec938556dd6ab1ed0ab94114e1542"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/hirono.pen-02-grey-0-4.svg",
+          "sha256": "7ec1ae59825de1b52b4c361c57ca5ce8f8a6d9859b335905f5ef284416de4929"
+        },
+        {
+          "step": 3,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/hirono.pen-03-green-0-25.svg",
+          "sha256": "1fcef9540d6f3d75b15399a639ebf3f9f39a13c0250e36b1a752dbf1e4e73aaa"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.4",
+          "pen_id": "green-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/hirono.pen-04-green-0-4.svg",
+          "sha256": "b831900290794236b0469dfcd1bf6a7f3579335ab3d180464087ce5556d67125"
+        },
+        {
+          "step": 5,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/hirono.pen-05-blue-0-25.svg",
+          "sha256": "b43590990a3d05df2d34f6f166bfa5cf747cce7957d608c88f3d5f56daaf5a0b"
+        },
+        {
+          "step": 6,
+          "pen": "Blue 0.4",
+          "pen_id": "blue-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/hirono.pen-06-blue-0-4.svg",
+          "sha256": "5f45e19ccda76cf512b20a643a172d97c47a0a0ff41280e5d1e16fefb19d8d79"
+        },
+        {
+          "step": 7,
+          "pen": "Red 0.25",
+          "pen_id": "red-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/hirono.pen-07-red-0-25.svg",
+          "sha256": "1017078ad135f505ee89a631011f9dc2c192b211238545438066f4436045eaaf"
+        },
+        {
+          "step": 8,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/hirono.pen-08-black-0-4.svg",
+          "sha256": "9d71fb1e9f4d67832025204a5bdf83d979424f19948102543a75df12819a034f"
+        },
+        {
+          "step": 9,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/hirono.pen-09-black-1.svg",
+          "sha256": "4510e630d918eb810260ebc0376be74ec8a4c0709f8640b1c446f5aa35aef2c1"
+        },
+        {
+          "step": 10,
+          "pen": "Gold 1",
+          "pen_id": "gold-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/hirono.pen-10-gold-1.svg",
+          "sha256": "9101717ddf31bcac184d26a5130e316eeff3e7bf621f2a3ec2cccdf405a78127"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/hirono.png",
+        "dpi": 180.0,
+        "sha256": "ebdf792137c2dee13804c1f33a353af4278f3206d397b4c28a6e748c943e96c8"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "fc25cdc8d7c972988d5129d00d0e5ce594e562d47e4ebb49ad8e62c162ee3c5b",
+        "png": "97e5ab0650c8a8f3237726b74f4bad1cd315c6a6ade61e928d04d72c0920dae8",
+        "manifest": "ed1d5e6fa95a371dae276cd283f991f2bdedf6b52813c86465f7ee2fb4b8b9a2"
+      },
+      "removed_visible_path_count": 46,
+      "removed_visible_copy_values": [
+        "© OpenStreetMap contributors / ODbL-1.0"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "07-golf-courses/hirono/hirono.svg",
+    "sha256": "8a48fcc2fb899953193f826f50b3f12a441761cde06e8d97c0b2898ecf0025cd",
+    "bytes": 304317
+  },
+  "png": {
+    "path": "07-golf-courses/hirono/hirono.png",
+    "sha256": "38820cd896ff183a3dbc6d768ff4700602f24195cafa594a3eb58e06c2f16110",
+    "bytes": 978219
+  },
+  "thumbnail": {
+    "path": "07-golf-courses/hirono/thumbnail.png",
+    "sha256": "185e8d517dc0b168af5f63a39323a636fa6bea71b8ad2bb29ff7ef63998c677b",
+    "bytes": 88876
+  },
+  "manifest": {
+    "path": "07-golf-courses/hirono/hirono.plot.json",
+    "sha256": "06c92de68421c06e4a161b6fade639c19f8cc462bb097e64b5a44c9bd9e3ce6d",
+    "bytes": 516814
+  },
+  "job": {
+    "path": "07-golf-courses/hirono/hirono.plotjob.json",
+    "sha256": "d6513b3403e5dd1fd0b02fa96b81446589c3b71bd4ac3aeed323cba88ff884ee",
+    "bytes": 621310
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "07-golf-courses/hirono/pens/hirono.pen-01-grey-0-25.svg",
+      "sha256": "1e3287c2d4a3d5866f6a9d89b046299d5989f42c4ba4b7d50d00d794aa7561a2",
+      "bytes": 89621
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "07-golf-courses/hirono/pens/hirono.pen-02-grey-0-4.svg",
+      "sha256": "b65d2850a8d2e9bf0ee10200024fb9e021f93bb562e6fb739f725afdbd7ec914",
+      "bytes": 6627
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "07-golf-courses/hirono/pens/hirono.pen-03-green-0-25.svg",
+      "sha256": "fa6b234a68ecbc770452a12a8124c80c4177a2b6826fb0c35df0a0d2b7c247e9",
+      "bytes": 40315
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-4",
+      "path": "07-golf-courses/hirono/pens/hirono.pen-04-green-0-4.svg",
+      "sha256": "0163512a60c05f23525692c1179f3f86f76440d6d76f12d8764158ee00973a9f",
+      "bytes": 30431
+    },
+    {
+      "step": 5,
+      "pen_id": "blue-0-25",
+      "path": "07-golf-courses/hirono/pens/hirono.pen-05-blue-0-25.svg",
+      "sha256": "750c25151c14e9b8f7761d4277ac6bc8b8cd3a0e7f9fe234bf9ba23ce924a912",
+      "bytes": 71895
+    },
+    {
+      "step": 6,
+      "pen_id": "blue-0-4",
+      "path": "07-golf-courses/hirono/pens/hirono.pen-06-blue-0-4.svg",
+      "sha256": "d7756837ecb5e98ba401a50a449db509541badf48adf1224b856aae43cd75a2b",
+      "bytes": 10496
+    },
+    {
+      "step": 7,
+      "pen_id": "red-0-25",
+      "path": "07-golf-courses/hirono/pens/hirono.pen-07-red-0-25.svg",
+      "sha256": "2616766148511298a46c7846d87ea36a1bda6f63e2224e14bcd166b050c399ee",
+      "bytes": 22740
+    },
+    {
+      "step": 8,
+      "pen_id": "black-0-4",
+      "path": "07-golf-courses/hirono/pens/hirono.pen-08-black-0-4.svg",
+      "sha256": "749ca7a5df82bc3fdd11fed2b3739af5e51120e8367feb445a28813f1872bf80",
+      "bytes": 35744
+    },
+    {
+      "step": 9,
+      "pen_id": "black-1",
+      "path": "07-golf-courses/hirono/pens/hirono.pen-09-black-1.svg",
+      "sha256": "b209421b27007ee41eb2fdb75a9f75334544616e8a85df421f61053d515f0baa",
+      "bytes": 6232
+    },
+    {
+      "step": 10,
+      "pen_id": "gold-1",
+      "path": "07-golf-courses/hirono/pens/hirono.pen-10-gold-1.svg",
+      "sha256": "9101717ddf31bcac184d26a5130e316eeff3e7bf621f2a3ec2cccdf405a78127",
+      "bytes": 9692
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 312,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "18 HOLES",
+    "C. H. ALISON",
+    "HIRONO GOLF CLUB",
+    "JAPANESE CLASSIC",
+    "MIKI, HYOGO / JAPAN"
+  ],
+  "stroke_count": 647,
+  "pen_count": 10,
+  "physical_execution_allowed": false
+}

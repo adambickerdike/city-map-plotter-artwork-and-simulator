@@ -1,0 +1,511 @@
+{
+  "id": "royal-troon-old",
+  "domain": "07-golf-courses",
+  "title": "ROYAL TROON OLD COURSE",
+  "artifact_version": 1,
+  "format_id": "a3-portrait",
+  "source": {
+    "svg_sha256": "6f8494867013c5dd9483717d5bdb728b3ab66dd7739b5bcf884c6fcb87ec6523",
+    "manifest_sha256": "70440ac8cb9db996125d456a0c3ad7b0cc7d239c97fba46ffac4373b8f4e88c6",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/07-golf-courses/artwork/royal-troon-old.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 10,
+      "pen_changes": 9,
+      "pen_down_path_count": 754,
+      "pen_down_distance_mm": 12487.3,
+      "pen_up_travel_mm": 9609.5,
+      "travel_ratio": 0.77,
+      "estimated_plot_seconds_including_pen_up": 476.9,
+      "field_ink_mm2_upper_bound": 2614.1,
+      "field_ink_coverage_upper_bound": 0.040762,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "course_paths",
+          "bunkers",
+          "field_frame"
+        ],
+        "path_count": 183,
+        "pen_down_distance_mm": 2639.6,
+        "pen_up_travel_mm": 1708.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 75.4,
+        "estimated_plot_seconds_including_pen_up": 96.8,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "playing_envelope"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 712.5,
+        "pen_up_travel_mm": 12.4,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 20.4,
+        "estimated_plot_seconds_including_pen_up": 20.5,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "fairways"
+        ],
+        "path_count": 116,
+        "pen_down_distance_mm": 1514.2,
+        "pen_up_travel_mm": 819.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 43.3,
+        "estimated_plot_seconds_including_pen_up": 53.5,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.4",
+        "pen_id": "green-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "greens_and_tees"
+        ],
+        "path_count": 80,
+        "pen_down_distance_mm": 494.3,
+        "pen_up_travel_mm": 1119.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 14.1,
+        "estimated_plot_seconds_including_pen_up": 28.1,
+        "instruction": "Load Green 0.4 (green-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water_stipple"
+        ],
+        "path_count": 8,
+        "pen_down_distance_mm": 8.9,
+        "pen_up_travel_mm": 236.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 0.3,
+        "estimated_plot_seconds_including_pen_up": 3.2,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Blue 0.4",
+        "pen_id": "blue-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water"
+        ],
+        "path_count": 3,
+        "pen_down_distance_mm": 46.4,
+        "pen_up_travel_mm": 39.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 1.3,
+        "estimated_plot_seconds_including_pen_up": 1.8,
+        "instruction": "Load Blue 0.4 (blue-0-4) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Red 0.25",
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hole_markers"
+        ],
+        "path_count": 36,
+        "pen_down_distance_mm": 497.9,
+        "pen_up_travel_mm": 694.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 14.2,
+        "estimated_plot_seconds_including_pen_up": 22.9,
+        "instruction": "Load Red 0.25 (red-0-25) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "hole_numbers",
+          "course_buildings",
+          "map_reference",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 327,
+        "pen_down_distance_mm": 2394.4,
+        "pen_up_travel_mm": 3844.4,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 68.4,
+        "estimated_plot_seconds_including_pen_up": 116.5,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 9,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 28,
+        "pen_down_distance_mm": 3361.7,
+        "pen_up_travel_mm": 748.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 96.0,
+        "estimated_plot_seconds_including_pen_up": 105.4,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 09.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 10,
+        "pen": "Gold 1",
+        "pen_id": "gold-1",
+        "pen_profile": "actual-pens",
+        "ink": "Gold",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#b88900",
+        "layers": [
+          "holes"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 817.4,
+        "pen_up_travel_mm": 387.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 23.4,
+        "estimated_plot_seconds_including_pen_up": 28.2,
+        "instruction": "Load Gold 1 (gold-1) and plot SVG layer 10.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-troon-old.svg",
+        "sha256": "6f8494867013c5dd9483717d5bdb728b3ab66dd7739b5bcf884c6fcb87ec6523"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-troon-old.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-troon-old.pen-01-grey-0-25.svg",
+          "sha256": "6ab90e0861efaceb2692cc86bc35d414b6ec56f58d177ae2f570fe9de0360656"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-troon-old.pen-02-grey-0-4.svg",
+          "sha256": "8c641fa3874cdb2856f7582fdb21e3c66e124845e5775aede2ad57007ec864f7"
+        },
+        {
+          "step": 3,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-troon-old.pen-03-green-0-25.svg",
+          "sha256": "2c036b97fb79c95f613e54dd26cf0680cb4cef1b77364951ac0d50b5c9c6ab3e"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.4",
+          "pen_id": "green-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-troon-old.pen-04-green-0-4.svg",
+          "sha256": "65e223bde0972ea29e83b9cf34f4695766aa2e59d26590d464e94cd25482d809"
+        },
+        {
+          "step": 5,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-troon-old.pen-05-blue-0-25.svg",
+          "sha256": "a39b83c45d68af6454e2a0a431af20627c9202979e8e392e40b8c19c4925c0d4"
+        },
+        {
+          "step": 6,
+          "pen": "Blue 0.4",
+          "pen_id": "blue-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-troon-old.pen-06-blue-0-4.svg",
+          "sha256": "e030e67bf3754247db84b9bf976794d7f20e7b1f533fe3480cfa5854da29e26b"
+        },
+        {
+          "step": 7,
+          "pen": "Red 0.25",
+          "pen_id": "red-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-troon-old.pen-07-red-0-25.svg",
+          "sha256": "c76de34aeb0a14c88088c4424e2afc44fd943cf686613070d49680df767e3d42"
+        },
+        {
+          "step": 8,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-troon-old.pen-08-black-0-4.svg",
+          "sha256": "188dc620feabc42f2bbdcccf6057c7f577f56b21a7cfd90899337d78d67fb8a1"
+        },
+        {
+          "step": 9,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-troon-old.pen-09-black-1.svg",
+          "sha256": "4f30052701273b84bd681f5433ebfe59066bde151aad2ab6d1ec9342dd0949b8"
+        },
+        {
+          "step": 10,
+          "pen": "Gold 1",
+          "pen_id": "gold-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-troon-old.pen-10-gold-1.svg",
+          "sha256": "098fa8a900a9cbb4fb1c7f78f0c1d093b6a7d7c1939a171a6cfa4b81e769774b"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-troon-old.png",
+        "dpi": 180.0,
+        "sha256": "517932d8ebb3f6d5d58fa0159ffa8bcb881f6f447c8cc50c1d3c0dbd33070917"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "6104f00e52e1c6facb02e8d6e25660f2916f712323a0c81c9dd5083db980b104",
+        "png": "86120e7f5bf12fe0a06f64c97e4a304b2ed110b9dbece546e2f24bc65386e32d",
+        "manifest": "1f821173de99ef580f9e65af0ef2b8e8cd2beb4db68825e6a3ba657342f3d133"
+      },
+      "removed_visible_path_count": 46,
+      "removed_visible_copy_values": [
+        "© OpenStreetMap contributors / ODbL-1.0"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "07-golf-courses/royal-troon-old/royal-troon-old.svg",
+    "sha256": "192f6b28a2a25eca361f388fe2df23839c62105701d5b8ec84dc808edc0ee3e9",
+    "bytes": 261370
+  },
+  "png": {
+    "path": "07-golf-courses/royal-troon-old/royal-troon-old.png",
+    "sha256": "0478292863fd5f2b4560a8e4a514087f9b0a3a70303d135ce936bbc4890728e1",
+    "bytes": 897883
+  },
+  "thumbnail": {
+    "path": "07-golf-courses/royal-troon-old/thumbnail.png",
+    "sha256": "cadb52387cad189618475d247f796d7a2acf7548b804d9ea46a8fa2d15aa8f2b",
+    "bytes": 81596
+  },
+  "manifest": {
+    "path": "07-golf-courses/royal-troon-old/royal-troon-old.plot.json",
+    "sha256": "3b8b6848161fed9ae1fd5a160674913d020acc43029df4a354ec0a793c561f88",
+    "bytes": 575093
+  },
+  "job": {
+    "path": "07-golf-courses/royal-troon-old/royal-troon-old.plotjob.json",
+    "sha256": "e68a0c92776f74483ad9b4477f31b0e381bd21d05292fa1717941b82ec5d0371",
+    "bytes": 543268
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "07-golf-courses/royal-troon-old/pens/royal-troon-old.pen-01-grey-0-25.svg",
+      "sha256": "9e5ba484e13cf0512cbfd16e2c7d07f3917cbaaabc67751ab07cca3d62ad8edf",
+      "bytes": 81229
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "07-golf-courses/royal-troon-old/pens/royal-troon-old.pen-02-grey-0-4.svg",
+      "sha256": "75befd532be6bc0552edf4cf7705d797b52826fe1cbe505bcc6790c295756d02",
+      "bytes": 7257
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "07-golf-courses/royal-troon-old/pens/royal-troon-old.pen-03-green-0-25.svg",
+      "sha256": "40403b17d9396819a46a1348d9d0d7ef522e29f2785a48859749e0f6ce6974c5",
+      "bytes": 64510
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-4",
+      "path": "07-golf-courses/royal-troon-old/pens/royal-troon-old.pen-04-green-0-4.svg",
+      "sha256": "8b900dd744d59c406daf4ee56fcc91ad6e46919fba89c1c00a34ac3bd883b91d",
+      "bytes": 36354
+    },
+    {
+      "step": 5,
+      "pen_id": "blue-0-25",
+      "path": "07-golf-courses/royal-troon-old/pens/royal-troon-old.pen-05-blue-0-25.svg",
+      "sha256": "2b0fa31fe63de026e211a18c4e5f5a10f4d235c0aa080e676bfde377b1b984a9",
+      "bytes": 8602
+    },
+    {
+      "step": 6,
+      "pen_id": "blue-0-4",
+      "path": "07-golf-courses/royal-troon-old/pens/royal-troon-old.pen-06-blue-0-4.svg",
+      "sha256": "cfb2e29b3a72771f57d1186c71809175308b6c2c5e75fc9346eaeca5e1fba4e2",
+      "bytes": 4135
+    },
+    {
+      "step": 7,
+      "pen_id": "red-0-25",
+      "path": "07-golf-courses/royal-troon-old/pens/royal-troon-old.pen-07-red-0-25.svg",
+      "sha256": "26329d688f6cf9cfc3d521de23a9fb842f1319cd95e746d92bd6afcdb1edaf8e",
+      "bytes": 22929
+    },
+    {
+      "step": 8,
+      "pen_id": "black-0-4",
+      "path": "07-golf-courses/royal-troon-old/pens/royal-troon-old.pen-08-black-0-4.svg",
+      "sha256": "43642820ce8b9439a46879ebeed3b40d711354e58562ba99aac95eff31750289",
+      "bytes": 39649
+    },
+    {
+      "step": 9,
+      "pen_id": "black-1",
+      "path": "07-golf-courses/royal-troon-old/pens/royal-troon-old.pen-09-black-1.svg",
+      "sha256": "75abf4f0d3687f1b18abab11461e0a0454b03c2c6ab29f0fe6117b8cf8207271",
+      "bytes": 7269
+    },
+    {
+      "step": 10,
+      "pen_id": "gold-1",
+      "path": "07-golf-courses/royal-troon-old/pens/royal-troon-old.pen-10-gold-1.svg",
+      "sha256": "098fa8a900a9cbb4fb1c7f78f0c1d093b6a7d7c1939a171a6cfa4b81e769774b",
+      "bytes": 9767
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 312,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "18 HOLES",
+    "POSTAGE STAMP",
+    "ROYAL TROON OLD COURSE",
+    "THE OPEN VENUE",
+    "TROON, SOUTH AYRSHIRE / SCOTLAND"
+  ],
+  "stroke_count": 618,
+  "pen_count": 10,
+  "physical_execution_allowed": false
+}

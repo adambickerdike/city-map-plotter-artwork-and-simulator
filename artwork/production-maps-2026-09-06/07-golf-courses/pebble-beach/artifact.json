@@ -1,0 +1,510 @@
+{
+  "id": "pebble-beach",
+  "domain": "07-golf-courses",
+  "title": "PEBBLE BEACH GOLF LINKS",
+  "artifact_version": 1,
+  "format_id": "a3-portrait",
+  "source": {
+    "svg_sha256": "d3328e1b852d59ec018097bfee0079cd04178aa0bd4083d2ed1d8fa5ad7e77ff",
+    "manifest_sha256": "c5b492a271e195f72420477d4e7c50a184d5ad4d74b777300247f2cffb61f011",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/07-golf-courses/artwork/pebble-beach.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 10,
+      "pen_changes": 9,
+      "pen_down_path_count": 870,
+      "pen_down_distance_mm": 12358.8,
+      "pen_up_travel_mm": 11771.0,
+      "travel_ratio": 0.952,
+      "estimated_plot_seconds_including_pen_up": 500.2,
+      "field_ink_mm2_upper_bound": 2612.5,
+      "field_ink_coverage_upper_bound": 0.040737,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "course_paths",
+          "bunkers",
+          "field_frame"
+        ],
+        "path_count": 198,
+        "pen_down_distance_mm": 2424.5,
+        "pen_up_travel_mm": 2164.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 69.3,
+        "estimated_plot_seconds_including_pen_up": 96.3,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "playing_envelope"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 810.0,
+        "pen_up_travel_mm": 245.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 23.1,
+        "estimated_plot_seconds_including_pen_up": 26.2,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "fairways"
+        ],
+        "path_count": 63,
+        "pen_down_distance_mm": 1144.8,
+        "pen_up_travel_mm": 1078.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 32.7,
+        "estimated_plot_seconds_including_pen_up": 46.2,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.4",
+        "pen_id": "green-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "greens_and_tees"
+        ],
+        "path_count": 85,
+        "pen_down_distance_mm": 561.7,
+        "pen_up_travel_mm": 1118.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 16.0,
+        "estimated_plot_seconds_including_pen_up": 30.0,
+        "instruction": "Load Green 0.4 (green-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water_stipple"
+        ],
+        "path_count": 125,
+        "pen_down_distance_mm": 139.8,
+        "pen_up_travel_mm": 1327.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 4.0,
+        "estimated_plot_seconds_including_pen_up": 20.6,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Blue 0.4",
+        "pen_id": "blue-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water"
+        ],
+        "path_count": 3,
+        "pen_down_distance_mm": 43.3,
+        "pen_up_travel_mm": 206.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 1.2,
+        "estimated_plot_seconds_including_pen_up": 3.8,
+        "instruction": "Load Blue 0.4 (blue-0-4) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Red 0.25",
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hole_markers"
+        ],
+        "path_count": 36,
+        "pen_down_distance_mm": 434.4,
+        "pen_up_travel_mm": 903.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 12.4,
+        "estimated_plot_seconds_including_pen_up": 23.7,
+        "instruction": "Load Red 0.25 (red-0-25) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "hole_numbers",
+          "map_reference",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 352,
+        "pen_down_distance_mm": 2496.1,
+        "pen_up_travel_mm": 3480.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 71.3,
+        "estimated_plot_seconds_including_pen_up": 114.8,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 9,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 35,
+        "pen_down_distance_mm": 3409.9,
+        "pen_up_travel_mm": 832.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 97.4,
+        "estimated_plot_seconds_including_pen_up": 107.8,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 09.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 10,
+        "pen": "Gold 1",
+        "pen_id": "gold-1",
+        "pen_profile": "actual-pens",
+        "ink": "Gold",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#b88900",
+        "layers": [
+          "holes"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 894.3,
+        "pen_up_travel_mm": 414.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 25.6,
+        "estimated_plot_seconds_including_pen_up": 30.7,
+        "instruction": "Load Gold 1 (gold-1) and plot SVG layer 10.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/pebble-beach.svg",
+        "sha256": "d3328e1b852d59ec018097bfee0079cd04178aa0bd4083d2ed1d8fa5ad7e77ff"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/pebble-beach.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/pebble-beach.pen-01-grey-0-25.svg",
+          "sha256": "62413f34c83f3a00619a42f08bbcae75a8a544153a7d1e31b6bfe6203e657e1f"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/pebble-beach.pen-02-grey-0-4.svg",
+          "sha256": "917869f1f428139285384fff92f729920e3416e906061a418da807321e578520"
+        },
+        {
+          "step": 3,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/pebble-beach.pen-03-green-0-25.svg",
+          "sha256": "471622e4a3774e534609b12a7a30734d8d644d2eb005a7e8e75dda69c36202c0"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.4",
+          "pen_id": "green-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/pebble-beach.pen-04-green-0-4.svg",
+          "sha256": "cd31224fbc1affd48e54d7801c54885767f5df4b6cce3c8379872f9504438ba3"
+        },
+        {
+          "step": 5,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/pebble-beach.pen-05-blue-0-25.svg",
+          "sha256": "dc0e12fa099a6e1bb46b6541c7e4295625389c5c13ee56d923aaac38fb7ebc28"
+        },
+        {
+          "step": 6,
+          "pen": "Blue 0.4",
+          "pen_id": "blue-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/pebble-beach.pen-06-blue-0-4.svg",
+          "sha256": "d72b25436705339aab34d3b8d91e1dd5d0d18038e788c4896843aed1a1f356de"
+        },
+        {
+          "step": 7,
+          "pen": "Red 0.25",
+          "pen_id": "red-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/pebble-beach.pen-07-red-0-25.svg",
+          "sha256": "79b3af82f16eb99f2da1759db296cfff81d39e7a362248f5c4e7a277bd5c0f41"
+        },
+        {
+          "step": 8,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/pebble-beach.pen-08-black-0-4.svg",
+          "sha256": "bc853d718057632b057f1234d01e54a5cd7abf214e6c4eb4b3f7bc51492da8a1"
+        },
+        {
+          "step": 9,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/pebble-beach.pen-09-black-1.svg",
+          "sha256": "ef7005e6e8e3fc9530e7b644cac32eb228e965cd58e2f93f2e6dce69047c288c"
+        },
+        {
+          "step": 10,
+          "pen": "Gold 1",
+          "pen_id": "gold-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/pebble-beach.pen-10-gold-1.svg",
+          "sha256": "92d9294762656d6136874de9e8d4638b8579a1a1f2f2be411eff7c33970507e8"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/pebble-beach.png",
+        "dpi": 180.0,
+        "sha256": "01f46b69e74daf71c11a86856649b1ac73855096718ff6c27b76226858fa7ae9"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "135be196cddae691f5233dd5f45a4052834bd2e5723865b9d6300421bb9836aa",
+        "png": "196f466f5e1143de74e68583b2393e51e91a445dcd02f91103da2983664bbff3",
+        "manifest": "d4cd8a864a540e67dda55c0b924623a106d2aac82c37c1f5802e59ff560c93b1"
+      },
+      "removed_visible_path_count": 46,
+      "removed_visible_copy_values": [
+        "© OpenStreetMap contributors / ODbL-1.0"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "07-golf-courses/pebble-beach/pebble-beach.svg",
+    "sha256": "801950283056e0fe39f57faa982f973c7a99e4134a207feb21abeeef2b12db53",
+    "bytes": 332003
+  },
+  "png": {
+    "path": "07-golf-courses/pebble-beach/pebble-beach.png",
+    "sha256": "81d66fed9b23c98a99e784e692d249e0b16b54742ecd0130082e46d60c45417e",
+    "bytes": 884453
+  },
+  "thumbnail": {
+    "path": "07-golf-courses/pebble-beach/thumbnail.png",
+    "sha256": "e355f11a889fc4c963f93f869aaef5f4928ae300c0ca368e9e88e4ff13baa97b",
+    "bytes": 82009
+  },
+  "manifest": {
+    "path": "07-golf-courses/pebble-beach/pebble-beach.plot.json",
+    "sha256": "78bc0368e217343ff8cb6e80ed7674e30e06af6f01b6471e70921d294dcfda23",
+    "bytes": 772207
+  },
+  "job": {
+    "path": "07-golf-courses/pebble-beach/pebble-beach.plotjob.json",
+    "sha256": "d7413747a30e74b316c875615fff96e08feb3ae8aa642c60a63857d71726a1b8",
+    "bytes": 684288
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "07-golf-courses/pebble-beach/pens/pebble-beach.pen-01-grey-0-25.svg",
+      "sha256": "3127e85ea8e8af864ae436c8afd6d5e006921bf04f634507a5ceadebdf869cf1",
+      "bytes": 97309
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "07-golf-courses/pebble-beach/pens/pebble-beach.pen-02-grey-0-4.svg",
+      "sha256": "e29dcda3f53a4d1b8032e72e698c16a8933a01cb2e3b9fda7dd4762a775a540b",
+      "bytes": 7850
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "07-golf-courses/pebble-beach/pens/pebble-beach.pen-03-green-0-25.svg",
+      "sha256": "ddc75ab47ac97f4837ce502130b42584e7a4f086d48314c123549fcd6bd8cf47",
+      "bytes": 37517
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-4",
+      "path": "07-golf-courses/pebble-beach/pens/pebble-beach.pen-04-green-0-4.svg",
+      "sha256": "413cb215da3ed5ea756ff723a65f9b44eb44d83f8fa6977dadc3a0eb96da6d25",
+      "bytes": 37981
+    },
+    {
+      "step": 5,
+      "pen_id": "blue-0-25",
+      "path": "07-golf-courses/pebble-beach/pens/pebble-beach.pen-05-blue-0-25.svg",
+      "sha256": "30d6edfc990dfa33d1ec8a26b988374b6b9a74e93ad6585f3c88d1a7a69f8c8e",
+      "bytes": 85878
+    },
+    {
+      "step": 6,
+      "pen_id": "blue-0-4",
+      "path": "07-golf-courses/pebble-beach/pens/pebble-beach.pen-06-blue-0-4.svg",
+      "sha256": "469689abe49a2940bd08f1155ace74d2a1e45e64752cdad6b651863ecc69fad4",
+      "bytes": 4254
+    },
+    {
+      "step": 7,
+      "pen_id": "red-0-25",
+      "path": "07-golf-courses/pebble-beach/pens/pebble-beach.pen-07-red-0-25.svg",
+      "sha256": "365125d5a2900abb5c700cd04fd3ab9dafae54a5ae3e363e535e07de921c36c4",
+      "bytes": 22892
+    },
+    {
+      "step": 8,
+      "pen_id": "black-0-4",
+      "path": "07-golf-courses/pebble-beach/pens/pebble-beach.pen-08-black-0-4.svg",
+      "sha256": "e5fa3c90d3ad683fa734e193aa65db6da0c6ac85e50de306ac9fa594a673fe60",
+      "bytes": 40901
+    },
+    {
+      "step": 9,
+      "pen_id": "black-1",
+      "path": "07-golf-courses/pebble-beach/pens/pebble-beach.pen-09-black-1.svg",
+      "sha256": "4d31c0d5a458d2fc521fac1a3367a202931f7a9353088d690b96a174a93871a0",
+      "bytes": 7882
+    },
+    {
+      "step": 10,
+      "pen_id": "gold-1",
+      "path": "07-golf-courses/pebble-beach/pens/pebble-beach.pen-10-gold-1.svg",
+      "sha256": "92d9294762656d6136874de9e8d4638b8579a1a1f2f2be411eff7c33970507e8",
+      "bytes": 9798
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 312,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "18 HOLES",
+    "MONTEREY PENINSULA, CALIFORNIA / UNITED STATES",
+    "PACIFIC LINKS",
+    "PEBBLE BEACH GOLF LINKS",
+    "U.S. OPEN VENUE"
+  ],
+  "stroke_count": 730,
+  "pen_count": 10,
+  "physical_execution_allowed": false
+}

@@ -1,0 +1,363 @@
+{
+  "id": "great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait",
+  "domain": "06-f1-courses",
+  "title": "SILVERSTONE",
+  "artifact_version": 1,
+  "format_id": "a5-portrait",
+  "source": {
+    "svg_sha256": "39955f543325411329343492d1e32c556ae3b36c411c51a3c31e1d74587487b2",
+    "manifest_sha256": "072b9f6a978429b330d54ffe89b0cb235aba44b2c2248d3b24993cd8e305d88f",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/06-f1-courses/artwork/current-2026/a5-portrait/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 6,
+      "pen_changes": 5,
+      "pen_down_path_count": 692,
+      "pen_down_distance_mm": 5130.4,
+      "pen_up_travel_mm": 3842.9,
+      "travel_ratio": 0.749,
+      "estimated_plot_seconds_including_pen_up": 194.6,
+      "field_ink_mm2_upper_bound": 854.7,
+      "field_ink_coverage_upper_bound": 0.053463,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "circuit_context_green"
+        ],
+        "path_count": 30,
+        "pen_down_distance_mm": 402.2,
+        "pen_up_travel_mm": 353.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 11.5,
+        "estimated_plot_seconds_including_pen_up": 15.9,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "circuit_context_blue"
+        ],
+        "path_count": 22,
+        "pen_down_distance_mm": 109.1,
+        "pen_up_travel_mm": 302.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 3.1,
+        "estimated_plot_seconds_including_pen_up": 6.9,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Purple 0.4",
+        "pen_id": "purple-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Purple",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#7e22ce",
+        "layers": [
+          "circuit_venue_purple"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 197.8,
+        "pen_up_travel_mm": 353.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 5.7,
+        "estimated_plot_seconds_including_pen_up": 10.1,
+        "instruction": "Load Purple 0.4 (purple-0-4) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Red 0.4",
+        "pen_id": "red-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "lap_centreline"
+        ],
+        "path_count": 3,
+        "pen_down_distance_mm": 971.9,
+        "pen_up_travel_mm": 54.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 27.8,
+        "estimated_plot_seconds_including_pen_up": 28.5,
+        "instruction": "Load Red 0.4 (red-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Black 0.25",
+        "pen_id": "black-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "circuit_copy",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 666,
+        "pen_down_distance_mm": 2585.8,
+        "pen_up_travel_mm": 2426.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 73.9,
+        "estimated_plot_seconds_including_pen_up": 104.2,
+        "instruction": "Load Black 0.25 (black-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Black 0.6",
+        "pen_id": "black-0-6",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.6,
+        "nominal_nib_mm": 0.6,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 863.6,
+        "pen_up_travel_mm": 352.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.6,
+        "minimum_plot_seconds": 24.7,
+        "estimated_plot_seconds_including_pen_up": 29.1,
+        "instruction": "Load Black 0.6 (black-0-6) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-portrait/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait.svg",
+        "sha256": "39955f543325411329343492d1e32c556ae3b36c411c51a3c31e1d74587487b2"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-portrait/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-portrait/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait.pen-01-green-0-25.svg",
+          "sha256": "b71de3fe5b46ffdfd7dcdbf77569af0dee9f213191840e63f71a5769601a8a4c"
+        },
+        {
+          "step": 2,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-portrait/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait.pen-02-blue-0-25.svg",
+          "sha256": "ecce03c7c972deef304525568afc764ef13ed884d108d78b60184735750fd911"
+        },
+        {
+          "step": 3,
+          "pen": "Purple 0.4",
+          "pen_id": "purple-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-portrait/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait.pen-03-purple-0-4.svg",
+          "sha256": "94256ce88c9214dd44342ade1ef5cc9053c4d346b64c13b494b119344069b18a"
+        },
+        {
+          "step": 4,
+          "pen": "Red 0.4",
+          "pen_id": "red-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-portrait/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait.pen-04-red-0-4.svg",
+          "sha256": "605917c1b18543665e8f786366c8269e16eef2fdee033648959949f3a06295e2"
+        },
+        {
+          "step": 5,
+          "pen": "Black 0.25",
+          "pen_id": "black-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-portrait/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait.pen-05-black-0-25.svg",
+          "sha256": "dc4413deaedd1cb0fb52b429ea4ee65c987cad76005cab3c986411cff9243514"
+        },
+        {
+          "step": 6,
+          "pen": "Black 0.6",
+          "pen_id": "black-0-6",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-portrait/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait.pen-06-black-0-6.svg",
+          "sha256": "86a13268c8adce525c92fd58433180523880c51ff92193bc7af1a50a6310b3e9"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-portrait/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait.png",
+        "dpi": 254.0,
+        "sha256": "1664c2cd29b6a11b5638c160c00ec69486a57dc23c91eea91962c9993eeb75e9"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "39cf87975ce501a021e6fd78978a01a5f7b5f33c064e12bc06b7ab3e33bbe493",
+        "png": "38a0ff48a776749e988ac40c0a7b69b102a62cf96f0829eedbfbf4730a1f9fbe",
+        "manifest": "d317133f6cfa00c72313af3041a0aa72397544584ddddcce598e847e3455447b"
+      },
+      "removed_visible_path_count": 65,
+      "removed_visible_copy_values": [
+        "OSM CONTRIBUTORS / OPENSTREETMAP.ORG/COPYRIGHT"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "06-f1-courses/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait.svg",
+    "sha256": "4b637e5d2f8ab11c27bd0f4121c1b1cd3d38a74ccb4bdd104bc5713c0ea4ee32",
+    "bytes": 453228
+  },
+  "png": {
+    "path": "06-f1-courses/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait.png",
+    "sha256": "ddc265a4ab25378e14894f7dc482afec3ee7174deca3b8668018c32372a0fd12",
+    "bytes": 296293
+  },
+  "thumbnail": {
+    "path": "06-f1-courses/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait/thumbnail.png",
+    "sha256": "0a54b8b0c59ba57f558f61d366ba6d1a79553c49b40101b9405ed180175c4496",
+    "bytes": 85157
+  },
+  "manifest": {
+    "path": "06-f1-courses/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait.plot.json",
+    "sha256": "250e0688512c7c4558b7e2e366b7257a5628ac5b28615f22bf86ba5a8fc552a4",
+    "bytes": 313165
+  },
+  "job": {
+    "path": "06-f1-courses/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait.plotjob.json",
+    "sha256": "e29862a2808559520d9557fe9c0a1bd2cfcb36b0f6fd1d0a2c5da7bb1e4c4d92",
+    "bytes": 582237
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "green-0-25",
+      "path": "06-f1-courses/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait/pens/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait.pen-01-green-0-25.svg",
+      "sha256": "cf3f368d7b4e257444a759b1f503a412423d28ba1c82252b2a8e49ff97e43284",
+      "bytes": 26844
+    },
+    {
+      "step": 2,
+      "pen_id": "blue-0-25",
+      "path": "06-f1-courses/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait/pens/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait.pen-02-blue-0-25.svg",
+      "sha256": "ef14ce65aec931dd5691113c84797ff2c8cdc277f1e89a7f6eba30d2b907ccdd",
+      "bytes": 22621
+    },
+    {
+      "step": 3,
+      "pen_id": "purple-0-4",
+      "path": "06-f1-courses/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait/pens/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait.pen-03-purple-0-4.svg",
+      "sha256": "8b27c05220f0f3c7f5f87f19bee9e3edf2f571c4f467166442155b1076eade23",
+      "bytes": 20944
+    },
+    {
+      "step": 4,
+      "pen_id": "red-0-4",
+      "path": "06-f1-courses/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait/pens/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait.pen-04-red-0-4.svg",
+      "sha256": "7a32e1a9086dd5cf5ea6252402843cd0801f3a63c3194b61ee1ebfd7e2d47260",
+      "bytes": 45159
+    },
+    {
+      "step": 5,
+      "pen_id": "black-0-25",
+      "path": "06-f1-courses/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait/pens/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait.pen-05-black-0-25.svg",
+      "sha256": "81254d13d2b6bd73cc9cb72adb8d17aa934b894353e23b6af6ff09d061482d26",
+      "bytes": 364430
+    },
+    {
+      "step": 6,
+      "pen_id": "black-0-6",
+      "path": "06-f1-courses/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait/pens/great-britain-silverstone-2026--circuit-atlas-v2-a5-portrait.pen-06-black-0-6.svg",
+      "sha256": "86a13268c8adce525c92fd58433180523880c51ff92193bc7af1a50a6310b3e9",
+      "bytes": 12460
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 232,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "1:27.097 / 2020",
+    "1:27.097 / MAX VERSTAPPEN / 2020",
+    "5.891 KM",
+    "CIRCUIT LAYOUT",
+    "CLOCKWISE",
+    "COURSE",
+    "DIAGRAMMATIC COURSE",
+    "FASTEST LAP",
+    "FIRST GRAND PRIX 1950",
+    "FORMULA 1",
+    "GRANDSTANDS",
+    "LENGTH 5.891 KM / FIRST GP 1950",
+    "MAX VERSTAPPEN",
+    "SEASON 2026 REFERENCE",
+    "SILVERSTONE",
+    "SILVERSTONE / GP LAYOUT / 2026",
+    "SOURCE CENTRELINE / DIAGRAMMATIC CORRIDOR"
+  ],
+  "stroke_count": 673,
+  "pen_count": 6,
+  "physical_execution_allowed": false
+}

@@ -1,0 +1,472 @@
+{
+  "id": "oakmont",
+  "domain": "07-golf-courses",
+  "title": "OAKMONT COUNTRY CLUB",
+  "artifact_version": 1,
+  "format_id": "a3-portrait",
+  "source": {
+    "svg_sha256": "e6c45d227ddefed121967c8ac5fd565f19bca63fac4f1bc0b9e92aefb689b5ea",
+    "manifest_sha256": "67c877de029ff4508277a427930a1ae4dc07ea6e4baf00d36dae15eb5e8f263b",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/07-golf-courses/artwork/oakmont.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 9,
+      "pen_changes": 8,
+      "pen_down_path_count": 972,
+      "pen_down_distance_mm": 15883.7,
+      "pen_up_travel_mm": 12624.0,
+      "travel_ratio": 0.795,
+      "estimated_plot_seconds_including_pen_up": 611.6,
+      "field_ink_mm2_upper_bound": 4115.5,
+      "field_ink_coverage_upper_bound": 0.064172,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "course_paths",
+          "bunkers",
+          "field_frame"
+        ],
+        "path_count": 310,
+        "pen_down_distance_mm": 3670.3,
+        "pen_up_travel_mm": 2901.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 104.9,
+        "estimated_plot_seconds_including_pen_up": 141.1,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "playing_envelope"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 870.6,
+        "pen_up_travel_mm": 241.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 24.9,
+        "estimated_plot_seconds_including_pen_up": 27.9,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "fairways"
+        ],
+        "path_count": 153,
+        "pen_down_distance_mm": 2319.2,
+        "pen_up_travel_mm": 1362.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 66.3,
+        "estimated_plot_seconds_including_pen_up": 83.3,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.4",
+        "pen_id": "green-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "greens_and_tees"
+        ],
+        "path_count": 77,
+        "pen_down_distance_mm": 1161.3,
+        "pen_up_travel_mm": 1595.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 33.2,
+        "estimated_plot_seconds_including_pen_up": 53.1,
+        "instruction": "Load Green 0.4 (green-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water_stipple"
+        ],
+        "path_count": 62,
+        "pen_down_distance_mm": 69.3,
+        "pen_up_travel_mm": 627.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 2.0,
+        "estimated_plot_seconds_including_pen_up": 9.8,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Red 0.25",
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hole_markers"
+        ],
+        "path_count": 36,
+        "pen_down_distance_mm": 474.9,
+        "pen_up_travel_mm": 920.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 13.6,
+        "estimated_plot_seconds_including_pen_up": 25.1,
+        "instruction": "Load Red 0.25 (red-0-25) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "hole_numbers",
+          "course_buildings",
+          "map_reference",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 334,
+        "pen_down_distance_mm": 2471.5,
+        "pen_up_travel_mm": 3544.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 70.6,
+        "estimated_plot_seconds_including_pen_up": 114.9,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 27,
+        "pen_down_distance_mm": 3315.3,
+        "pen_up_travel_mm": 731.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 94.7,
+        "estimated_plot_seconds_including_pen_up": 103.9,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 9,
+        "pen": "Gold 1",
+        "pen_id": "gold-1",
+        "pen_profile": "actual-pens",
+        "ink": "Gold",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#b88900",
+        "layers": [
+          "holes"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 1531.3,
+        "pen_up_travel_mm": 699.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 43.8,
+        "estimated_plot_seconds_including_pen_up": 52.5,
+        "instruction": "Load Gold 1 (gold-1) and plot SVG layer 09.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/oakmont.svg",
+        "sha256": "e6c45d227ddefed121967c8ac5fd565f19bca63fac4f1bc0b9e92aefb689b5ea"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/oakmont.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/oakmont.pen-01-grey-0-25.svg",
+          "sha256": "0ca061c8cd73d3bab0e07d512b9042c337784227ca43d603fe7238cfa36041c4"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/oakmont.pen-02-grey-0-4.svg",
+          "sha256": "7e0bfefd73d4bd67b670b05fd8bac1abc8db8d1091e2fab595a527911e97db7f"
+        },
+        {
+          "step": 3,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/oakmont.pen-03-green-0-25.svg",
+          "sha256": "478c858026fd855630abfa9cc8d394a22aabfdda0ee47bcadbc02464e6fefe1d"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.4",
+          "pen_id": "green-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/oakmont.pen-04-green-0-4.svg",
+          "sha256": "6d643165c2222dcc0fce80359fa3ba716177a734018d93168b1ca721a4e07a55"
+        },
+        {
+          "step": 5,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/oakmont.pen-05-blue-0-25.svg",
+          "sha256": "f40c4f4ec70817ec1da155460bd816f9513d9b7b4dbce0f4e3fb01f7befaea57"
+        },
+        {
+          "step": 6,
+          "pen": "Red 0.25",
+          "pen_id": "red-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/oakmont.pen-06-red-0-25.svg",
+          "sha256": "ae2b38a64b9da4d22c638b3438ed91e377e61107c73c7c016be45c2e5e2b0f6d"
+        },
+        {
+          "step": 7,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/oakmont.pen-07-black-0-4.svg",
+          "sha256": "56a685029bead99834119394ce492df9064af61f4b6f8acefdbfb3d52c31f546"
+        },
+        {
+          "step": 8,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/oakmont.pen-08-black-1.svg",
+          "sha256": "82c79e75a254ad53816767bd38175ca587dbe29dc470f1b6c3d8ea4eb44e3a1c"
+        },
+        {
+          "step": 9,
+          "pen": "Gold 1",
+          "pen_id": "gold-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/oakmont.pen-09-gold-1.svg",
+          "sha256": "35509eca4e4bb1d83b8a3cad059c766f07bd09bb2fc5163e4300f21534b74336"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/oakmont.png",
+        "dpi": 180.0,
+        "sha256": "32e7a2aca70f9f4de3a567a06a49cbf21f6d79b8ef53d8ddddae4639bb9e2a86"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "40fddc9e558d135f5df36b9560ea1a4eecfc3a780036da975877bd8837021d12",
+        "png": "26b0878dad17893b16bcf9f4a7729193591f6c6b98dde8eb3f32aa8634ea430e",
+        "manifest": "7c4d9e8b3ab8896e657e617920b18aa570984b293896bbe3cf3b0ca6e2243ab0"
+      },
+      "removed_visible_path_count": 46,
+      "removed_visible_copy_values": [
+        "© OpenStreetMap contributors / ODbL-1.0"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "07-golf-courses/oakmont/oakmont.svg",
+    "sha256": "0f803db2db6c43f0f8335ea4ed3b6cea0b76d28bec74319f3d8e2e96b2e5eab0",
+    "bytes": 355487
+  },
+  "png": {
+    "path": "07-golf-courses/oakmont/oakmont.png",
+    "sha256": "6a12d86eb112093150b42b8ac43a969aec8aa05bb535f56808da4ed2892bdda9",
+    "bytes": 1370731
+  },
+  "thumbnail": {
+    "path": "07-golf-courses/oakmont/thumbnail.png",
+    "sha256": "f30e44e0071822540730e86bb4c031ba311301e2621379cdb61e5c210cdb7eae",
+    "bytes": 121359
+  },
+  "manifest": {
+    "path": "07-golf-courses/oakmont/oakmont.plot.json",
+    "sha256": "069f768ac00e3b1bb03ac546f855fc46001dd1dd7452b378a9706fc36a1c90eb",
+    "bytes": 687399
+  },
+  "job": {
+    "path": "07-golf-courses/oakmont/oakmont.plotjob.json",
+    "sha256": "56e325b89ce5c13dc09d3e6fa86385a9ce324ed2019ca03260ad526703d248f8",
+    "bytes": 669785
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "07-golf-courses/oakmont/pens/oakmont.pen-01-grey-0-25.svg",
+      "sha256": "12161f260d31bc0b5a46775f92bc886e474abfbd4e9f4951f381ffd43a07e680",
+      "bytes": 137958
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "07-golf-courses/oakmont/pens/oakmont.pen-02-grey-0-4.svg",
+      "sha256": "c760a36666adb3a637e87da40e5c2e0b212fb2f5e4091abdac59c768b350b73b",
+      "bytes": 8256
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "07-golf-courses/oakmont/pens/oakmont.pen-03-green-0-25.svg",
+      "sha256": "d929ccee4193e08d1d144a142f9d127715a2107619c50ab9c91c01964c851f08",
+      "bytes": 68586
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-4",
+      "path": "07-golf-courses/oakmont/pens/oakmont.pen-04-green-0-4.svg",
+      "sha256": "29562a83afbe779f677c397cd3a11693ab3000bdc973da0aa6689153ec1e48cd",
+      "bytes": 34926
+    },
+    {
+      "step": 5,
+      "pen_id": "blue-0-25",
+      "path": "07-golf-courses/oakmont/pens/oakmont.pen-05-blue-0-25.svg",
+      "sha256": "8a352a4b2d23a62bc91cfc462d4783b5ffaea725773a99e6df5c30da6260302d",
+      "bytes": 44691
+    },
+    {
+      "step": 6,
+      "pen_id": "red-0-25",
+      "path": "07-golf-courses/oakmont/pens/oakmont.pen-06-red-0-25.svg",
+      "sha256": "a93443cbcf367c241a326cb7e9c12bfa9dba7bc1b0266cf94d53cdddb97f3605",
+      "bytes": 22961
+    },
+    {
+      "step": 7,
+      "pen_id": "black-0-4",
+      "path": "07-golf-courses/oakmont/pens/oakmont.pen-07-black-0-4.svg",
+      "sha256": "9ff11dabed4196af3f8735d9c89bb924aeb5f2d4c725825849f512745d563ce9",
+      "bytes": 39332
+    },
+    {
+      "step": 8,
+      "pen_id": "black-1",
+      "path": "07-golf-courses/oakmont/pens/oakmont.pen-08-black-1.svg",
+      "sha256": "9326b97f189a18618942f93bb44a73b008808e83f61332de19dd434c77ad424f",
+      "bytes": 6882
+    },
+    {
+      "step": 9,
+      "pen_id": "gold-1",
+      "path": "07-golf-courses/oakmont/pens/oakmont.pen-09-gold-1.svg",
+      "sha256": "35509eca4e4bb1d83b8a3cad059c766f07bd09bb2fc5163e4300f21534b74336",
+      "bytes": 9735
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 288,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "18 HOLES",
+    "HENRY FOWNES",
+    "OAKMONT COUNTRY CLUB",
+    "OAKMONT, PENNSYLVANIA / UNITED STATES",
+    "U.S. OPEN VENUE"
+  ],
+  "stroke_count": 833,
+  "pen_count": 9,
+  "physical_execution_allowed": false
+}

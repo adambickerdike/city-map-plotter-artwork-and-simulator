@@ -1,0 +1,440 @@
+{
+  "id": "sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait",
+  "domain": "06-f1-courses",
+  "title": "INTERLAGOS",
+  "artifact_version": 1,
+  "format_id": "a3-portrait",
+  "source": {
+    "svg_sha256": "5b2997ca2fe47a6604273a44fd590b63ebe05d789b87722c6c30d4cd55f2bae4",
+    "manifest_sha256": "15e4d65f92c5f83c2ced01bc5f34713a46078971315874cf372a14dd1c8c71a8",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/06-f1-courses/artwork/current-2026/a3-portrait/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 8,
+      "pen_changes": 7,
+      "pen_down_path_count": 1446,
+      "pen_down_distance_mm": 15723.4,
+      "pen_up_travel_mm": 9289.2,
+      "travel_ratio": 0.591,
+      "estimated_plot_seconds_including_pen_up": 565.4,
+      "field_ink_mm2_upper_bound": 3291.6,
+      "field_ink_coverage_upper_bound": 0.051325,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "circuit_context_grey"
+        ],
+        "path_count": 86,
+        "pen_down_distance_mm": 1648.6,
+        "pen_up_travel_mm": 1168.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 47.1,
+        "estimated_plot_seconds_including_pen_up": 61.7,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "circuit_context_green"
+        ],
+        "path_count": 45,
+        "pen_down_distance_mm": 1602.8,
+        "pen_up_travel_mm": 906.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 45.8,
+        "estimated_plot_seconds_including_pen_up": 57.1,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "circuit_context_blue"
+        ],
+        "path_count": 89,
+        "pen_down_distance_mm": 723.4,
+        "pen_up_travel_mm": 767.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 20.7,
+        "estimated_plot_seconds_including_pen_up": 30.3,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Purple 0.4",
+        "pen_id": "purple-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Purple",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#7e22ce",
+        "layers": [
+          "circuit_venue_purple"
+        ],
+        "path_count": 6,
+        "pen_down_distance_mm": 337.3,
+        "pen_up_travel_mm": 302.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 9.6,
+        "estimated_plot_seconds_including_pen_up": 13.4,
+        "instruction": "Load Purple 0.4 (purple-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Red 0.4",
+        "pen_id": "red-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "lap_centreline"
+        ],
+        "path_count": 5,
+        "pen_down_distance_mm": 3439.7,
+        "pen_up_travel_mm": 45.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 98.3,
+        "estimated_plot_seconds_including_pen_up": 98.8,
+        "instruction": "Load Red 0.4 (red-0-4) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Black 0.25",
+        "pen_id": "black-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "circuit_copy"
+        ],
+        "path_count": 907,
+        "pen_down_distance_mm": 3148.3,
+        "pen_up_travel_mm": 2609.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 90.0,
+        "estimated_plot_seconds_including_pen_up": 122.6,
+        "instruction": "Load Black 0.25 (black-0-25) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 356,
+        "pen_down_distance_mm": 3118.9,
+        "pen_up_travel_mm": 2838.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 89.1,
+        "estimated_plot_seconds_including_pen_up": 124.6,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 17,
+        "pen_down_distance_mm": 1704.3,
+        "pen_up_travel_mm": 651.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 48.7,
+        "estimated_plot_seconds_including_pen_up": 56.8,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a3-portrait/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.svg",
+        "sha256": "5b2997ca2fe47a6604273a44fd590b63ebe05d789b87722c6c30d4cd55f2bae4"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a3-portrait/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a3-portrait/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.pen-01-grey-0-25.svg",
+          "sha256": "63391bb390a333a255a20d4db13b468b4c575326786da56abe49b27ff6d60f90"
+        },
+        {
+          "step": 2,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a3-portrait/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.pen-02-green-0-25.svg",
+          "sha256": "0219b74a3e885087f9e5612d715bfda440fa5bcb364be1f3ab16c02a94ba5d69"
+        },
+        {
+          "step": 3,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a3-portrait/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.pen-03-blue-0-25.svg",
+          "sha256": "13cbf906d9ade05e79c5e97daf1b152f23e6b75d11d58a28e2c350828758f546"
+        },
+        {
+          "step": 4,
+          "pen": "Purple 0.4",
+          "pen_id": "purple-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a3-portrait/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.pen-04-purple-0-4.svg",
+          "sha256": "8f46d3bb3321dc2c31e7e7a71d96857a0be22d699a58a53af05939b51d8a6a2c"
+        },
+        {
+          "step": 5,
+          "pen": "Red 0.4",
+          "pen_id": "red-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a3-portrait/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.pen-05-red-0-4.svg",
+          "sha256": "02f0157c771cd325587c4b91e6f035bae0cefaf09fc9ba55c361a34301606158"
+        },
+        {
+          "step": 6,
+          "pen": "Black 0.25",
+          "pen_id": "black-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a3-portrait/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.pen-06-black-0-25.svg",
+          "sha256": "e123a08c8ceec86016d0e0c142336187363c879aebfa3983fbdc0e46f0fb5f60"
+        },
+        {
+          "step": 7,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a3-portrait/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.pen-07-black-0-4.svg",
+          "sha256": "9950334ea3edf746e647c622aae32c6724f444da196ed41d85c4855b896a3aa4"
+        },
+        {
+          "step": 8,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a3-portrait/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.pen-08-black-1.svg",
+          "sha256": "c35fb4a6ce25e347adcf3d737ea887ed62e0163251066a14571e46d9c80bb8ef"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a3-portrait/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.png",
+        "dpi": 254.0,
+        "sha256": "0e1e7cce7b6e8c164a2611303300a95709cbe4a8db37b75c24b327f8241eb2ae"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "bf7ba55b16810b2bf2f0a605eb0690b15c2ce594f8da6f16780ce3a142fd2b9d",
+        "png": "909890a1478e829c8d553be18d3ad4fa987ec76a62b1a5fc3faa52565e0bf886",
+        "manifest": "e901e2d82268df595d0c081804decc1ca872686371da9fe74ec4314c53d6c4bb"
+      },
+      "removed_visible_path_count": 65,
+      "removed_visible_copy_values": [
+        "OSM CONTRIBUTORS / OPENSTREETMAP.ORG/COPYRIGHT"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "06-f1-courses/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.svg",
+    "sha256": "c3fcbf18f862a9a861d0f8c916a7493feae323b616b4a6178d0d6ce6e9fca820",
+    "bytes": 1048242
+  },
+  "png": {
+    "path": "06-f1-courses/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.png",
+    "sha256": "2d077c0d8eb116d011841b49272cd1ca249fb530b3b0763dc10a2f1f631ecccc",
+    "bytes": 961961
+  },
+  "thumbnail": {
+    "path": "06-f1-courses/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait/thumbnail.png",
+    "sha256": "e916c5962cd98e036233c3a20d220ebb08b8686492a4e58b98e0898eccf1c405",
+    "bytes": 100179
+  },
+  "manifest": {
+    "path": "06-f1-courses/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.plot.json",
+    "sha256": "432cd14c8cb4322ea5615b16527e11d880be39a919322b3b9697774042a0d180",
+    "bytes": 590108
+  },
+  "job": {
+    "path": "06-f1-courses/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.plotjob.json",
+    "sha256": "e300e855d4962caf4f9259289e592c3e64345ca5bbe398eb7e21c0968850329d",
+    "bytes": 1204883
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "06-f1-courses/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait/pens/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.pen-01-grey-0-25.svg",
+      "sha256": "62b5c9c7eb23d5c7097d4eb5863b1ad4ba8b87060e18189342dddc2abf644cb5",
+      "bytes": 63856
+    },
+    {
+      "step": 2,
+      "pen_id": "green-0-25",
+      "path": "06-f1-courses/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait/pens/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.pen-02-green-0-25.svg",
+      "sha256": "9467d3eeee1b2bc632947d8b60ef9a1aae91638fe2d241e0d640a7c49f86b7c6",
+      "bytes": 53638
+    },
+    {
+      "step": 3,
+      "pen_id": "blue-0-25",
+      "path": "06-f1-courses/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait/pens/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.pen-03-blue-0-25.svg",
+      "sha256": "3fe52608ee1644eb3843b522051e80d3b7db6c8e22798f076973f9f9e49092a1",
+      "bytes": 71370
+    },
+    {
+      "step": 4,
+      "pen_id": "purple-0-4",
+      "path": "06-f1-courses/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait/pens/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.pen-04-purple-0-4.svg",
+      "sha256": "7235698caacfe6feabd129f6cd4f0a39d6246251e2d43c73a4049e09ac03b846",
+      "bytes": 14159
+    },
+    {
+      "step": 5,
+      "pen_id": "red-0-4",
+      "path": "06-f1-courses/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait/pens/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.pen-05-red-0-4.svg",
+      "sha256": "62e222cadc71fb534c6cd183dd92ed876f41745f608ab95cdfc02e758eed903a",
+      "bytes": 51456
+    },
+    {
+      "step": 6,
+      "pen_id": "black-0-25",
+      "path": "06-f1-courses/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait/pens/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.pen-06-black-0-25.svg",
+      "sha256": "7f9ed4487ee4be5048ce301c7d6d5531a5cfa0a8273b766739cdd738f3f61da7",
+      "bytes": 762359
+    },
+    {
+      "step": 7,
+      "pen_id": "black-0-4",
+      "path": "06-f1-courses/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait/pens/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.pen-07-black-0-4.svg",
+      "sha256": "c7ad357235f17bda5d544e7e7ef30d15ec36066b1e1793ccc2f7ce0185137c61",
+      "bytes": 73801
+    },
+    {
+      "step": 8,
+      "pen_id": "black-1",
+      "path": "06-f1-courses/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait/pens/sao-paulo-interlagos-2026--circuit-atlas-v2-a3-portrait.pen-08-black-1.svg",
+      "sha256": "c35fb4a6ce25e347adcf3d737ea887ed62e0163251066a14571e46d9c80bb8ef",
+      "bytes": 12357
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 280,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "1:10.540 / 2018",
+    "1:10.540 / VALTTERI BOTTAS / 2018",
+    "4.309 KM",
+    "ANTI-CLOCKWISE",
+    "CIRCUIT LAYOUT",
+    "COURSE",
+    "DIAGRAMMATIC COURSE",
+    "FASTEST LAP",
+    "FIRST GRAND PRIX 1973",
+    "FORMULA 1",
+    "GRANDSTANDS",
+    "INTERLAGOS",
+    "LENGTH 4.309 KM / FIRST GP 1973",
+    "SAO PAULO / GP LAYOUT / 2026",
+    "SEASON 2026 REFERENCE",
+    "SOURCE CENTRELINE / DIAGRAMMATIC CORRIDOR",
+    "VALTTERI BOTTAS"
+  ],
+  "stroke_count": 1427,
+  "pen_count": 8,
+  "physical_execution_allowed": false
+}

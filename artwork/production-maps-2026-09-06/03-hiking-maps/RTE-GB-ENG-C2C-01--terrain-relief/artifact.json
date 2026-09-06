@@ -1,0 +1,394 @@
+{
+  "id": "RTE-GB-ENG-C2C-01--terrain-relief",
+  "domain": "03-hiking-maps",
+  "title": "COAST TO COAST",
+  "artifact_version": 1,
+  "format_id": "a5-landscape",
+  "source": {
+    "svg_sha256": "54d1387eecd46599f30e2a85c7aecde2c74b1ea7ccfc61b6ac7020cc176fd2a7",
+    "manifest_sha256": "b9a2f7a8a19ec71db27e4faaf33e0211b6e8dd7b6d44dd4f719547ec4e5c6613",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/03-hiking-maps/artwork/RTE-GB-ENG-C2C-01--terrain-relief.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 7,
+      "pen_changes": 6,
+      "pen_down_path_count": 557,
+      "pen_down_distance_mm": 6657.6,
+      "pen_up_travel_mm": 5715.7,
+      "travel_ratio": 0.859,
+      "estimated_plot_seconds_including_pen_up": 261.7,
+      "field_ink_mm2_upper_bound": 1431.7,
+      "field_ink_coverage_upper_bound": 0.086353,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "context_relief",
+          "context_relief_labels",
+          "profile_guides"
+        ],
+        "path_count": 66,
+        "pen_down_distance_mm": 2879.9,
+        "pen_up_travel_mm": 1365.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 82.3,
+        "estimated_plot_seconds_including_pen_up": 99.3,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "context_relief_index"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 722.5,
+        "pen_up_travel_mm": 394.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 20.6,
+        "estimated_plot_seconds_including_pen_up": 25.6,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "context_water"
+        ],
+        "path_count": 13,
+        "pen_down_distance_mm": 25.1,
+        "pen_up_travel_mm": 194.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 0.7,
+        "estimated_plot_seconds_including_pen_up": 3.2,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "context_woodland"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 34.0,
+        "pen_up_travel_mm": 116.4,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 1.0,
+        "estimated_plot_seconds_including_pen_up": 2.4,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Black 0.25",
+        "pen_id": "black-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "context_markers",
+          "context_labels",
+          "route_annotations",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 473,
+        "pen_down_distance_mm": 1779.7,
+        "pen_up_travel_mm": 2569.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 50.8,
+        "estimated_plot_seconds_including_pen_up": 83.0,
+        "instruction": "Load Black 0.25 (black-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Black 0.6",
+        "pen_id": "black-0-6",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.6,
+        "nominal_nib_mm": 0.6,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 810.9,
+        "pen_up_travel_mm": 473.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.6,
+        "minimum_plot_seconds": 23.2,
+        "estimated_plot_seconds_including_pen_up": 29.1,
+        "instruction": "Load Black 0.6 (black-0-6) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Red 0.4",
+        "pen_id": "red-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hero_route"
+        ],
+        "path_count": 16,
+        "pen_down_distance_mm": 405.7,
+        "pen_up_travel_mm": 602.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 11.6,
+        "estimated_plot_seconds_including_pen_up": 19.1,
+        "instruction": "Load Red 0.4 (red-0-4) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-GB-ENG-C2C-01--terrain-relief.svg",
+        "sha256": "54d1387eecd46599f30e2a85c7aecde2c74b1ea7ccfc61b6ac7020cc176fd2a7"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-GB-ENG-C2C-01--terrain-relief.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-GB-ENG-C2C-01--terrain-relief.pen-01-grey-0-25.svg",
+          "sha256": "e271b078ba95778cc80b36b5fe4fd877caf098a88e96d0df9c795bf47388dd4a"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-GB-ENG-C2C-01--terrain-relief.pen-02-grey-0-4.svg",
+          "sha256": "c76fd41eb0901daa481695ceab98340bfe229b4cb5174983d8e3e5c12e149742"
+        },
+        {
+          "step": 3,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-GB-ENG-C2C-01--terrain-relief.pen-03-blue-0-25.svg",
+          "sha256": "f79e81d89f1a44315f0cd1ebc7f55dba95855ea49abac3d0978b7384bd3fe1ce"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-GB-ENG-C2C-01--terrain-relief.pen-04-green-0-25.svg",
+          "sha256": "1b84ed56eb93575a4a65e922c017c6933ce15e6acfe6f985aeee33a9b3acea23"
+        },
+        {
+          "step": 5,
+          "pen": "Black 0.25",
+          "pen_id": "black-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-GB-ENG-C2C-01--terrain-relief.pen-05-black-0-25.svg",
+          "sha256": "58fc70a77d81c2418ce3e121adbc5da74d3ae7746f58a4f3e7bba8c5fd4a8630"
+        },
+        {
+          "step": 6,
+          "pen": "Black 0.6",
+          "pen_id": "black-0-6",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-GB-ENG-C2C-01--terrain-relief.pen-06-black-0-6.svg",
+          "sha256": "8805331652c4dca528e9d1ca13d2ba2b9d41d7f812ff30ce51d8b5e23138714f"
+        },
+        {
+          "step": 7,
+          "pen": "Red 0.4",
+          "pen_id": "red-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-GB-ENG-C2C-01--terrain-relief.pen-07-red-0-4.svg",
+          "sha256": "1d05681ea9fd761051e8aff3f4e2d0848e5c39cae295ef4a7c66d259b2bb11dc"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-GB-ENG-C2C-01--terrain-relief.png",
+        "dpi": 300.0,
+        "sha256": "9755e5c9ec3e61bfeeffce8655c0b57f655c6de930edbe0a00dbde211367d48f"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "5fd50377f4d7fb219ec11cb077e7b2e5da4ea72e39454cd856f0091562d840a9",
+        "png": "2c5938cfa15293bf0e793e239711c6b0a6ea7015fb507d66da7ac2f5876ba935",
+        "manifest": "f24bcf75e04b16999b63882fc2a89effe2300200e377e60712c2b9837a74f37e"
+      },
+      "removed_visible_path_count": 65,
+      "removed_visible_copy_values": [
+        "© OPENSTREETMAP / OPENSTREETMAP.ORG/COPYRIGHT"
+      ],
+      "remaining_visible_attribution_copy_values": [
+        "MAPZEN AWS TERRAIN"
+      ],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "03-hiking-maps/RTE-GB-ENG-C2C-01--terrain-relief/RTE-GB-ENG-C2C-01--terrain-relief.svg",
+    "sha256": "d8267878dade799f9b2eb0c44c558025602fb572d05bc639504d78e7f4d4a7ad",
+    "bytes": 509267
+  },
+  "png": {
+    "path": "03-hiking-maps/RTE-GB-ENG-C2C-01--terrain-relief/RTE-GB-ENG-C2C-01--terrain-relief.png",
+    "sha256": "3c026396c1af8c266efab6ae36a4044f7ce57857e88c9d1439f4c17ca9e5e43a",
+    "bytes": 509140
+  },
+  "thumbnail": {
+    "path": "03-hiking-maps/RTE-GB-ENG-C2C-01--terrain-relief/thumbnail.png",
+    "sha256": "06895b0043b7f41cd9b76722ceb44fe65103dcd697a90b00dcc0f2c6249de844",
+    "bytes": 69030
+  },
+  "manifest": {
+    "path": "03-hiking-maps/RTE-GB-ENG-C2C-01--terrain-relief/RTE-GB-ENG-C2C-01--terrain-relief.plot.json",
+    "sha256": "89af3691121cfe57e632c8acfd73841eae58ae4068aa83f795401ad020616e3f",
+    "bytes": 1273266
+  },
+  "job": {
+    "path": "03-hiking-maps/RTE-GB-ENG-C2C-01--terrain-relief/RTE-GB-ENG-C2C-01--terrain-relief.plotjob.json",
+    "sha256": "5eb9963b558f741f3af713ee1396e201e4804e9bf824ddedc831a9db22221aa5",
+    "bytes": 831605
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "03-hiking-maps/RTE-GB-ENG-C2C-01--terrain-relief/pens/RTE-GB-ENG-C2C-01--terrain-relief.pen-01-grey-0-25.svg",
+      "sha256": "565e8de95255b34419f74957f31b11ad400dfe739aa7d7b67a8c0be1d4d6c3c1",
+      "bytes": 152866
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "03-hiking-maps/RTE-GB-ENG-C2C-01--terrain-relief/pens/RTE-GB-ENG-C2C-01--terrain-relief.pen-02-grey-0-4.svg",
+      "sha256": "b2b937b1432559e9e7d8dc08e3d79be2c986ac3722034a734f125048807ace1b",
+      "bytes": 46838
+    },
+    {
+      "step": 3,
+      "pen_id": "blue-0-25",
+      "path": "03-hiking-maps/RTE-GB-ENG-C2C-01--terrain-relief/pens/RTE-GB-ENG-C2C-01--terrain-relief.pen-03-blue-0-25.svg",
+      "sha256": "1e697eeacc80f916b3eebaf5feac7b89c25a3206404f9134504a893263a1e066",
+      "bytes": 22736
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-25",
+      "path": "03-hiking-maps/RTE-GB-ENG-C2C-01--terrain-relief/pens/RTE-GB-ENG-C2C-01--terrain-relief.pen-04-green-0-25.svg",
+      "sha256": "9bfe685cfa59d97ab8ac71cdc20060c67c31a46a9893b0ecbf90734645b3df04",
+      "bytes": 25519
+    },
+    {
+      "step": 5,
+      "pen_id": "black-0-25",
+      "path": "03-hiking-maps/RTE-GB-ENG-C2C-01--terrain-relief/pens/RTE-GB-ENG-C2C-01--terrain-relief.pen-05-black-0-25.svg",
+      "sha256": "149eef6e67e495a50f3ccd040599280652a4c39c3e2b9882fee478a1e44e909b",
+      "bytes": 256997
+    },
+    {
+      "step": 6,
+      "pen_id": "black-0-6",
+      "path": "03-hiking-maps/RTE-GB-ENG-C2C-01--terrain-relief/pens/RTE-GB-ENG-C2C-01--terrain-relief.pen-06-black-0-6.svg",
+      "sha256": "b74ec5f5cf50548092d44b6d2df7d6890f501f079dd415c3087dd0900daee295",
+      "bytes": 14635
+    },
+    {
+      "step": 7,
+      "pen_id": "red-0-4",
+      "path": "03-hiking-maps/RTE-GB-ENG-C2C-01--terrain-relief/pens/RTE-GB-ENG-C2C-01--terrain-relief.pen-07-red-0-4.svg",
+      "sha256": "1d05681ea9fd761051e8aff3f4e2d0848e5c39cae295ef4a7c66d259b2bb11dc",
+      "bytes": 56912
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 240,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "309 KM / ST BEES > ROBIN HOOD'S BAY",
+    "COAST TO COAST",
+    "ENGLAND / 309 KM"
+  ],
+  "stroke_count": 454,
+  "pen_count": 7,
+  "physical_execution_allowed": false
+}

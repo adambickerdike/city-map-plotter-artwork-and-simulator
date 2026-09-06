@@ -1,0 +1,395 @@
+{
+  "id": "RTE-CA-FUNDY-01--terrain-relief",
+  "domain": "03-hiking-maps",
+  "title": "FUNDY FOOTPATH",
+  "artifact_version": 1,
+  "format_id": "a5-landscape",
+  "source": {
+    "svg_sha256": "3f4ea97b1bfdc23ef2b2101273624cc346af49aad2fad2bec3cf87b94d251c88",
+    "manifest_sha256": "6edeb58d403a559c606a0bae2e6a1c4e3a28c6f6c80a7e050bef1c497ddf021c",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/03-hiking-maps/artwork/RTE-CA-FUNDY-01--terrain-relief.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 7,
+      "pen_changes": 6,
+      "pen_down_path_count": 589,
+      "pen_down_distance_mm": 6808.2,
+      "pen_up_travel_mm": 8077.6,
+      "travel_ratio": 1.186,
+      "estimated_plot_seconds_including_pen_up": 295.5,
+      "field_ink_mm2_upper_bound": 1440.6,
+      "field_ink_coverage_upper_bound": 0.086888,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "context_roads",
+          "context_relief",
+          "context_relief_labels",
+          "profile_guides"
+        ],
+        "path_count": 96,
+        "pen_down_distance_mm": 3049.2,
+        "pen_up_travel_mm": 3748.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 87.1,
+        "estimated_plot_seconds_including_pen_up": 134.0,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "context_relief_index"
+        ],
+        "path_count": 16,
+        "pen_down_distance_mm": 460.7,
+        "pen_up_travel_mm": 632.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 13.2,
+        "estimated_plot_seconds_including_pen_up": 21.1,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "context_water"
+        ],
+        "path_count": 9,
+        "pen_down_distance_mm": 91.1,
+        "pen_up_travel_mm": 435.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 2.6,
+        "estimated_plot_seconds_including_pen_up": 8.1,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "context_woodland"
+        ],
+        "path_count": 14,
+        "pen_down_distance_mm": 123.6,
+        "pen_up_travel_mm": 47.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 3.5,
+        "estimated_plot_seconds_including_pen_up": 4.1,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Black 0.25",
+        "pen_id": "black-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "context_markers",
+          "context_labels",
+          "route_annotations",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 485,
+        "pen_down_distance_mm": 1838.4,
+        "pen_up_travel_mm": 2427.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 52.5,
+        "estimated_plot_seconds_including_pen_up": 82.9,
+        "instruction": "Load Black 0.25 (black-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Black 0.6",
+        "pen_id": "black-0-6",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.6,
+        "nominal_nib_mm": 0.6,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 22,
+        "pen_down_distance_mm": 822.6,
+        "pen_up_travel_mm": 476.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.6,
+        "minimum_plot_seconds": 23.5,
+        "estimated_plot_seconds_including_pen_up": 29.5,
+        "instruction": "Load Black 0.6 (black-0-6) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Red 0.4",
+        "pen_id": "red-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hero_route"
+        ],
+        "path_count": 12,
+        "pen_down_distance_mm": 422.7,
+        "pen_up_travel_mm": 310.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 12.1,
+        "estimated_plot_seconds_including_pen_up": 16.0,
+        "instruction": "Load Red 0.4 (red-0-4) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-CA-FUNDY-01--terrain-relief.svg",
+        "sha256": "3f4ea97b1bfdc23ef2b2101273624cc346af49aad2fad2bec3cf87b94d251c88"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-CA-FUNDY-01--terrain-relief.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-CA-FUNDY-01--terrain-relief.pen-01-grey-0-25.svg",
+          "sha256": "c4f0be2a9ca5ba9d1f043220db9f2056febe38540cf5b9d50aa198c782565610"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-CA-FUNDY-01--terrain-relief.pen-02-grey-0-4.svg",
+          "sha256": "a8214e6d875830fa4a4d610f49600dc4434f38b2fe30f91274eb2cf603de256d"
+        },
+        {
+          "step": 3,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-CA-FUNDY-01--terrain-relief.pen-03-blue-0-25.svg",
+          "sha256": "fd6b38977103b7dd02c3b03248fb41111638ea9cfc3558ee528a2adae0281207"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-CA-FUNDY-01--terrain-relief.pen-04-green-0-25.svg",
+          "sha256": "256e3abf61d9bb2cb8c12fa0fee2d045c9fdfe65875410f638069cb9b73d088f"
+        },
+        {
+          "step": 5,
+          "pen": "Black 0.25",
+          "pen_id": "black-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-CA-FUNDY-01--terrain-relief.pen-05-black-0-25.svg",
+          "sha256": "db748f5f4059cec7c95e84d7d10aebb7868f95ed1900cac62ad1fc861d0da7f4"
+        },
+        {
+          "step": 6,
+          "pen": "Black 0.6",
+          "pen_id": "black-0-6",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-CA-FUNDY-01--terrain-relief.pen-06-black-0-6.svg",
+          "sha256": "ac126f7e4cbebb1c15412b6b91138bde37ada279ad9df9fa5297f5bc6e05dce2"
+        },
+        {
+          "step": 7,
+          "pen": "Red 0.4",
+          "pen_id": "red-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-CA-FUNDY-01--terrain-relief.pen-07-red-0-4.svg",
+          "sha256": "90d68755f877461835786dae7027a37aaefdbcf53b243443ba8175d016a7a4b6"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-CA-FUNDY-01--terrain-relief.png",
+        "dpi": 300.0,
+        "sha256": "5dd6d1cfc544143c799d486710c59e0a8a5d69291ab05424eea544b788153b80"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "be78f3ec52febb4ee62bece96c24d54b520eee915c3e6931e83fea9359e2b417",
+        "png": "fac4be1a294cce44547a02b308feaeae695857658e99790d8bad0014615087e7",
+        "manifest": "5a02bfa52e691675f27b417d6af09c70989888bcc1dea46a718e2142032d10be"
+      },
+      "removed_visible_path_count": 65,
+      "removed_visible_copy_values": [
+        "© OPENSTREETMAP / OPENSTREETMAP.ORG/COPYRIGHT"
+      ],
+      "remaining_visible_attribution_copy_values": [
+        "MAPZEN AWS TERRAIN"
+      ],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "03-hiking-maps/RTE-CA-FUNDY-01--terrain-relief/RTE-CA-FUNDY-01--terrain-relief.svg",
+    "sha256": "0284af44d429f4f5ff1c8897a39c92e5542a3b57527a57f0d963ae10a6ecd05f",
+    "bytes": 427796
+  },
+  "png": {
+    "path": "03-hiking-maps/RTE-CA-FUNDY-01--terrain-relief/RTE-CA-FUNDY-01--terrain-relief.png",
+    "sha256": "205c31dbfdbea4301c3eda865d06af015544d771831c206a73e62f4c8158f558",
+    "bytes": 498986
+  },
+  "thumbnail": {
+    "path": "03-hiking-maps/RTE-CA-FUNDY-01--terrain-relief/thumbnail.png",
+    "sha256": "b235b7900381a77c92c4822fc20ae766fb276c8a795be5a621c68e74654c840d",
+    "bytes": 69282
+  },
+  "manifest": {
+    "path": "03-hiking-maps/RTE-CA-FUNDY-01--terrain-relief/RTE-CA-FUNDY-01--terrain-relief.plot.json",
+    "sha256": "1ee79aeb1f6fe27df55cb16e293def16c0e126f4b1c8747da9efe4c85d651a8f",
+    "bytes": 969810
+  },
+  "job": {
+    "path": "03-hiking-maps/RTE-CA-FUNDY-01--terrain-relief/RTE-CA-FUNDY-01--terrain-relief.plotjob.json",
+    "sha256": "691894e95b60896e26f2a3182521b5c4101f739de6fe4818a11cbb29ee5d6f3f",
+    "bytes": 408821
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "03-hiking-maps/RTE-CA-FUNDY-01--terrain-relief/pens/RTE-CA-FUNDY-01--terrain-relief.pen-01-grey-0-25.svg",
+      "sha256": "256408ad75d994d72dbb45c0ecefa58ab943cc59630ac779392d381d5cfaa135",
+      "bytes": 118250
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "03-hiking-maps/RTE-CA-FUNDY-01--terrain-relief/pens/RTE-CA-FUNDY-01--terrain-relief.pen-02-grey-0-4.svg",
+      "sha256": "9a17cd235dd99838a2bf6c41966858941bb09f7f6cc1ac367c7995cea479d1b7",
+      "bytes": 25663
+    },
+    {
+      "step": 3,
+      "pen_id": "blue-0-25",
+      "path": "03-hiking-maps/RTE-CA-FUNDY-01--terrain-relief/pens/RTE-CA-FUNDY-01--terrain-relief.pen-03-blue-0-25.svg",
+      "sha256": "93162507b6aaaae1ba6156c03cc0dabc9bfa2cec5cc8d85867bfdbe6c6a47d26",
+      "bytes": 15609
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-25",
+      "path": "03-hiking-maps/RTE-CA-FUNDY-01--terrain-relief/pens/RTE-CA-FUNDY-01--terrain-relief.pen-04-green-0-25.svg",
+      "sha256": "48f76b8758e1f5c63e1a9d3ffdb2c630bd11223cb21b7cb077ee5603b653a9f8",
+      "bytes": 20153
+    },
+    {
+      "step": 5,
+      "pen_id": "black-0-25",
+      "path": "03-hiking-maps/RTE-CA-FUNDY-01--terrain-relief/pens/RTE-CA-FUNDY-01--terrain-relief.pen-05-black-0-25.svg",
+      "sha256": "6d1ae0ce9c34d5a461dcfb98ae415f5a1f9a3471283d7741cdf830c09f05cc02",
+      "bytes": 254119
+    },
+    {
+      "step": 6,
+      "pen_id": "black-0-6",
+      "path": "03-hiking-maps/RTE-CA-FUNDY-01--terrain-relief/pens/RTE-CA-FUNDY-01--terrain-relief.pen-06-black-0-6.svg",
+      "sha256": "ceda87a81a4be555db7ddda9fcd50a71d4bd65bc702f1bccb234b7847e43b28a",
+      "bytes": 10186
+    },
+    {
+      "step": 7,
+      "pen_id": "red-0-4",
+      "path": "03-hiking-maps/RTE-CA-FUNDY-01--terrain-relief/pens/RTE-CA-FUNDY-01--terrain-relief.pen-07-red-0-4.svg",
+      "sha256": "90d68755f877461835786dae7027a37aaefdbcf53b243443ba8175d016a7a4b6",
+      "bytes": 23992
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 240,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "41 KM / FUNDY PARK > ST MARTINS",
+    "CANADA / 41 KM",
+    "FUNDY FOOTPATH"
+  ],
+  "stroke_count": 486,
+  "pen_count": 7,
+  "physical_execution_allowed": false
+}

@@ -1,0 +1,395 @@
+{
+  "id": "RTE-US-CA-CHILKOOT-01--terrain-relief",
+  "domain": "03-hiking-maps",
+  "title": "CHILKOOT TRAIL",
+  "artifact_version": 1,
+  "format_id": "a5-portrait",
+  "source": {
+    "svg_sha256": "52a24f4d38c7226e768b87f98897f39a519aeba974f1f922c8d510dc86fcf2e1",
+    "manifest_sha256": "12f00863d6dbc857e6e3409bc31b8cb66d0dc24fa856a4a2e27f7e538a673fdf",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/03-hiking-maps/artwork/RTE-US-CA-CHILKOOT-01--terrain-relief.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 7,
+      "pen_changes": 6,
+      "pen_down_path_count": 745,
+      "pen_down_distance_mm": 7014.2,
+      "pen_up_travel_mm": 8077.7,
+      "travel_ratio": 1.152,
+      "estimated_plot_seconds_including_pen_up": 301.4,
+      "field_ink_mm2_upper_bound": 1490.0,
+      "field_ink_coverage_upper_bound": 0.093203,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "context_roads",
+          "context_relief",
+          "context_relief_labels",
+          "profile_guides"
+        ],
+        "path_count": 87,
+        "pen_down_distance_mm": 2647.2,
+        "pen_up_travel_mm": 2573.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 75.6,
+        "estimated_plot_seconds_including_pen_up": 107.8,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "context_relief_index"
+        ],
+        "path_count": 29,
+        "pen_down_distance_mm": 795.2,
+        "pen_up_travel_mm": 709.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 22.7,
+        "estimated_plot_seconds_including_pen_up": 31.6,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "context_water"
+        ],
+        "path_count": 9,
+        "pen_down_distance_mm": 17.4,
+        "pen_up_travel_mm": 234.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 0.5,
+        "estimated_plot_seconds_including_pen_up": 3.4,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "context_woodland"
+        ],
+        "path_count": 16,
+        "pen_down_distance_mm": 73.4,
+        "pen_up_travel_mm": 195.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 2.1,
+        "estimated_plot_seconds_including_pen_up": 4.5,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Black 0.25",
+        "pen_id": "black-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "context_markers",
+          "context_labels",
+          "route_annotations",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 632,
+        "pen_down_distance_mm": 2286.6,
+        "pen_up_travel_mm": 3404.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 65.3,
+        "estimated_plot_seconds_including_pen_up": 107.9,
+        "instruction": "Load Black 0.25 (black-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Black 0.6",
+        "pen_id": "black-0-6",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.6,
+        "nominal_nib_mm": 0.6,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 25,
+        "pen_down_distance_mm": 880.1,
+        "pen_up_travel_mm": 356.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.6,
+        "minimum_plot_seconds": 25.1,
+        "estimated_plot_seconds_including_pen_up": 29.6,
+        "instruction": "Load Black 0.6 (black-0-6) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Red 0.4",
+        "pen_id": "red-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hero_route"
+        ],
+        "path_count": 12,
+        "pen_down_distance_mm": 314.3,
+        "pen_up_travel_mm": 605.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 9.0,
+        "estimated_plot_seconds_including_pen_up": 16.5,
+        "instruction": "Load Red 0.4 (red-0-4) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-US-CA-CHILKOOT-01--terrain-relief.svg",
+        "sha256": "52a24f4d38c7226e768b87f98897f39a519aeba974f1f922c8d510dc86fcf2e1"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-US-CA-CHILKOOT-01--terrain-relief.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-US-CA-CHILKOOT-01--terrain-relief.pen-01-grey-0-25.svg",
+          "sha256": "cdee49700db48ca0d6943b338b1ea65979a4965cb6ad507aa73b941698a41853"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-US-CA-CHILKOOT-01--terrain-relief.pen-02-grey-0-4.svg",
+          "sha256": "ab126e56f8ba95240dc1c68d3846502f5f4d81bcc0f0f7f8a47e38bb2ef486e7"
+        },
+        {
+          "step": 3,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-US-CA-CHILKOOT-01--terrain-relief.pen-03-blue-0-25.svg",
+          "sha256": "06da103544f215d53f27f51aea7eff385b87e3d7e8af59b9d142bbdeb34ec015"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-US-CA-CHILKOOT-01--terrain-relief.pen-04-green-0-25.svg",
+          "sha256": "c1596d0811ab4f05d8d77cbbec6e6a73c0fb97e05151e204f16629c80af87110"
+        },
+        {
+          "step": 5,
+          "pen": "Black 0.25",
+          "pen_id": "black-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-US-CA-CHILKOOT-01--terrain-relief.pen-05-black-0-25.svg",
+          "sha256": "8432bbfc27566e52b3348d7e2bd45302397bc6f9512d2ac7a5b2d98fe9ee70d8"
+        },
+        {
+          "step": 6,
+          "pen": "Black 0.6",
+          "pen_id": "black-0-6",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-US-CA-CHILKOOT-01--terrain-relief.pen-06-black-0-6.svg",
+          "sha256": "094f15852e9c084d853a8606c4cda8b550882fb61264b1526de63c35e54fe6cc"
+        },
+        {
+          "step": 7,
+          "pen": "Red 0.4",
+          "pen_id": "red-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-US-CA-CHILKOOT-01--terrain-relief.pen-07-red-0-4.svg",
+          "sha256": "60a82f89d42be130d16d4e10d108926607ad142ad925400697dc370b10510d34"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-US-CA-CHILKOOT-01--terrain-relief.png",
+        "dpi": 300.0,
+        "sha256": "cd6a17adbc2eadb70be59304ec77c1970605cb0d50495ab36901262b4b36c7f9"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "9b98458783b2137cbc31c870a54e42b0a62d583c75e94fdd3599bc34b3cb1d50",
+        "png": "872cec87e0cac61f675920f92c87e4c4863cf8dee3a6ba69404b805eac6c66a4",
+        "manifest": "95c18319354e2b42e172452e8c9a25cb1da31c7f44346d670d7720073c70e269"
+      },
+      "removed_visible_path_count": 65,
+      "removed_visible_copy_values": [
+        "© OPENSTREETMAP / OPENSTREETMAP.ORG/COPYRIGHT"
+      ],
+      "remaining_visible_attribution_copy_values": [
+        "MAPZEN AWS TERRAIN"
+      ],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "03-hiking-maps/RTE-US-CA-CHILKOOT-01--terrain-relief/RTE-US-CA-CHILKOOT-01--terrain-relief.svg",
+    "sha256": "b2fb1ae1f35094ad6508a22691856642ac44df0a4f862fafa63e719631169cf7",
+    "bytes": 543091
+  },
+  "png": {
+    "path": "03-hiking-maps/RTE-US-CA-CHILKOOT-01--terrain-relief/RTE-US-CA-CHILKOOT-01--terrain-relief.png",
+    "sha256": "dc6925ac4f2cbb2062e370c70e1f3256684ac5f6232f37b6050c812ba1f472ac",
+    "bytes": 581730
+  },
+  "thumbnail": {
+    "path": "03-hiking-maps/RTE-US-CA-CHILKOOT-01--terrain-relief/thumbnail.png",
+    "sha256": "1ea1d6293965dc69c6236056ac7a1d167ebb41654bcf00bca75331cff0595978",
+    "bytes": 144890
+  },
+  "manifest": {
+    "path": "03-hiking-maps/RTE-US-CA-CHILKOOT-01--terrain-relief/RTE-US-CA-CHILKOOT-01--terrain-relief.plot.json",
+    "sha256": "25224a9c46ad26b00cc20b7dcaecd8451e97f007923dc69072f1d885298bca58",
+    "bytes": 832839
+  },
+  "job": {
+    "path": "03-hiking-maps/RTE-US-CA-CHILKOOT-01--terrain-relief/RTE-US-CA-CHILKOOT-01--terrain-relief.plotjob.json",
+    "sha256": "be81ddace667926d089e43522c846deacdde55a1b97f15079575b2cb4765efeb",
+    "bytes": 520804
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "03-hiking-maps/RTE-US-CA-CHILKOOT-01--terrain-relief/pens/RTE-US-CA-CHILKOOT-01--terrain-relief.pen-01-grey-0-25.svg",
+      "sha256": "6b4c088b72742fcd790f9339338f83eb6d6efbbbb5a48bd1b7789849a059cfdf",
+      "bytes": 115903
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "03-hiking-maps/RTE-US-CA-CHILKOOT-01--terrain-relief/pens/RTE-US-CA-CHILKOOT-01--terrain-relief.pen-02-grey-0-4.svg",
+      "sha256": "f746cb90a9f78746facafe45736cfe48c013f4bb21bf9a3e9bde635b2845c980",
+      "bytes": 42104
+    },
+    {
+      "step": 3,
+      "pen_id": "blue-0-25",
+      "path": "03-hiking-maps/RTE-US-CA-CHILKOOT-01--terrain-relief/pens/RTE-US-CA-CHILKOOT-01--terrain-relief.pen-03-blue-0-25.svg",
+      "sha256": "aaa60503ba70ab9366c71c3c46ecee7cc3f92d6420f3f2c9094cde39b5f6bed0",
+      "bytes": 14769
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-25",
+      "path": "03-hiking-maps/RTE-US-CA-CHILKOOT-01--terrain-relief/pens/RTE-US-CA-CHILKOOT-01--terrain-relief.pen-04-green-0-25.svg",
+      "sha256": "18946628dd155b99c302072a7ed232ba4be7f6c0285eefa83f5115c951014a6e",
+      "bytes": 19741
+    },
+    {
+      "step": 5,
+      "pen_id": "black-0-25",
+      "path": "03-hiking-maps/RTE-US-CA-CHILKOOT-01--terrain-relief/pens/RTE-US-CA-CHILKOOT-01--terrain-relief.pen-05-black-0-25.svg",
+      "sha256": "612dd9df27b1eb22bfeac3aa3cf71749e028ea44f4d6368ff426b6e9c23f68ee",
+      "bytes": 356071
+    },
+    {
+      "step": 6,
+      "pen_id": "black-0-6",
+      "path": "03-hiking-maps/RTE-US-CA-CHILKOOT-01--terrain-relief/pens/RTE-US-CA-CHILKOOT-01--terrain-relief.pen-06-black-0-6.svg",
+      "sha256": "0e9d3642825e564b44676e088078ee9d6ed9ea126fc2c28841c63b7e229e062e",
+      "bytes": 10446
+    },
+    {
+      "step": 7,
+      "pen_id": "red-0-4",
+      "path": "03-hiking-maps/RTE-US-CA-CHILKOOT-01--terrain-relief/pens/RTE-US-CA-CHILKOOT-01--terrain-relief.pen-07-red-0-4.svg",
+      "sha256": "60a82f89d42be130d16d4e10d108926607ad142ad925400697dc370b10510d34",
+      "bytes": 24395
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 240,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "53 KM / DYEA > BENNETT",
+    "CHILKOOT TRAIL",
+    "UNITED STATES AND CANADA / 53 KM"
+  ],
+  "stroke_count": 642,
+  "pen_count": 7,
+  "physical_execution_allowed": false
+}

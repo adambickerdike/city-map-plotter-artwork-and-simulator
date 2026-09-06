@@ -1,0 +1,511 @@
+{
+  "id": "sunningdale-old",
+  "domain": "07-golf-courses",
+  "title": "SUNNINGDALE OLD",
+  "artifact_version": 1,
+  "format_id": "a3-portrait",
+  "source": {
+    "svg_sha256": "f95ba418eec2eb847b5029f94d62ce9e499a1e9a891aca6cd4273b877cf0399d",
+    "manifest_sha256": "c5d94f087f52e0cd212b801ee590d7e47dabc06bb523080b7b57d0769bb9f119",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/07-golf-courses/artwork/sunningdale-old.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 10,
+      "pen_changes": 9,
+      "pen_down_path_count": 713,
+      "pen_down_distance_mm": 12835.6,
+      "pen_up_travel_mm": 11116.7,
+      "travel_ratio": 0.866,
+      "estimated_plot_seconds_including_pen_up": 505.7,
+      "field_ink_mm2_upper_bound": 2832.9,
+      "field_ink_coverage_upper_bound": 0.044173,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "course_paths",
+          "bunkers",
+          "field_frame"
+        ],
+        "path_count": 175,
+        "pen_down_distance_mm": 2360.5,
+        "pen_up_travel_mm": 2428.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 67.4,
+        "estimated_plot_seconds_including_pen_up": 97.8,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "playing_envelope"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 857.0,
+        "pen_up_travel_mm": 239.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 24.5,
+        "estimated_plot_seconds_including_pen_up": 27.5,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "fairways"
+        ],
+        "path_count": 88,
+        "pen_down_distance_mm": 1825.7,
+        "pen_up_travel_mm": 1333.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 52.2,
+        "estimated_plot_seconds_including_pen_up": 68.8,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.4",
+        "pen_id": "green-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "greens_and_tees"
+        ],
+        "path_count": 75,
+        "pen_down_distance_mm": 700.0,
+        "pen_up_travel_mm": 1130.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 20.0,
+        "estimated_plot_seconds_including_pen_up": 34.1,
+        "instruction": "Load Green 0.4 (green-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water_stipple"
+        ],
+        "path_count": 3,
+        "pen_down_distance_mm": 3.4,
+        "pen_up_travel_mm": 67.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 0.1,
+        "estimated_plot_seconds_including_pen_up": 0.9,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Blue 0.4",
+        "pen_id": "blue-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water"
+        ],
+        "path_count": 2,
+        "pen_down_distance_mm": 19.4,
+        "pen_up_travel_mm": 5.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 0.6,
+        "estimated_plot_seconds_including_pen_up": 0.6,
+        "instruction": "Load Blue 0.4 (blue-0-4) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Red 0.25",
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hole_markers"
+        ],
+        "path_count": 36,
+        "pen_down_distance_mm": 517.9,
+        "pen_up_travel_mm": 945.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 14.8,
+        "estimated_plot_seconds_including_pen_up": 26.6,
+        "instruction": "Load Red 0.25 (red-0-25) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "hole_numbers",
+          "course_buildings",
+          "map_reference",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 341,
+        "pen_down_distance_mm": 2469.4,
+        "pen_up_travel_mm": 3940.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 70.6,
+        "estimated_plot_seconds_including_pen_up": 119.8,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 9,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 20,
+        "pen_down_distance_mm": 3183.5,
+        "pen_up_travel_mm": 656.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 91.0,
+        "estimated_plot_seconds_including_pen_up": 99.2,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 09.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 10,
+        "pen": "Gold 1",
+        "pen_id": "gold-1",
+        "pen_profile": "actual-pens",
+        "ink": "Gold",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#b88900",
+        "layers": [
+          "holes"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 898.9,
+        "pen_up_travel_mm": 369.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 25.7,
+        "estimated_plot_seconds_including_pen_up": 30.3,
+        "instruction": "Load Gold 1 (gold-1) and plot SVG layer 10.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/sunningdale-old.svg",
+        "sha256": "f95ba418eec2eb847b5029f94d62ce9e499a1e9a891aca6cd4273b877cf0399d"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/sunningdale-old.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/sunningdale-old.pen-01-grey-0-25.svg",
+          "sha256": "6613daff46eeefaa88d052ee0c673d2aef507178d63a72f21b17a554e5568d13"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/sunningdale-old.pen-02-grey-0-4.svg",
+          "sha256": "986fba2713ccab755d9cff2bc40c7381e9ff8113b72afe5d123f3895b64250e0"
+        },
+        {
+          "step": 3,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/sunningdale-old.pen-03-green-0-25.svg",
+          "sha256": "acd3c5dfe256d7e7aff5b7395cdfc135475471fe45229f451a3c7f9d610d726a"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.4",
+          "pen_id": "green-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/sunningdale-old.pen-04-green-0-4.svg",
+          "sha256": "1ae6535799d8577c31a73a25eea0f8e1d628ce82de22a084b39b3488d0d30a6e"
+        },
+        {
+          "step": 5,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/sunningdale-old.pen-05-blue-0-25.svg",
+          "sha256": "f00ab44eaa87e69ae02bad0a8884bda0873bd83dac2c8d5751301ad4b4f6ddd2"
+        },
+        {
+          "step": 6,
+          "pen": "Blue 0.4",
+          "pen_id": "blue-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/sunningdale-old.pen-06-blue-0-4.svg",
+          "sha256": "ebc7a1da0a2be2c3703e2ae6a393c45e7efcf86b19549f8e99042cca33062d22"
+        },
+        {
+          "step": 7,
+          "pen": "Red 0.25",
+          "pen_id": "red-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/sunningdale-old.pen-07-red-0-25.svg",
+          "sha256": "6e8f36611bd7a207c8af8d99237991713fb61f537e5c4489c01e430e4bc63971"
+        },
+        {
+          "step": 8,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/sunningdale-old.pen-08-black-0-4.svg",
+          "sha256": "d4ee2606b4dc97024046f849730003ad7e7b970dc4952d7911a86605f0f3e4d2"
+        },
+        {
+          "step": 9,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/sunningdale-old.pen-09-black-1.svg",
+          "sha256": "ca7cac7ed6ae2ca00f42a7646963fb4ecf95915f8f1b5ec15efa5b659159f737"
+        },
+        {
+          "step": 10,
+          "pen": "Gold 1",
+          "pen_id": "gold-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/sunningdale-old.pen-10-gold-1.svg",
+          "sha256": "67211e409fdb842d63b01c18e76fc45c7cdab57623b50d10ab87f974adb2f758"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/sunningdale-old.png",
+        "dpi": 180.0,
+        "sha256": "b2c8f27b73b2c7062bc56ff9d1f69af1f184b3c62671b82ef040f735f0993723"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "b9127f6eadde4ff17c9ec51030d1e0aa1bcc5b339aa7f23785b13f536d2d649b",
+        "png": "bac1ee599c6b288143946bcc14a790a633dcd42684d811c652b3487d0d78b91a",
+        "manifest": "d3ac4ad55ce1ac57b50c16907858b014b3ff570bf356ca287f004201e5fc25c7"
+      },
+      "removed_visible_path_count": 46,
+      "removed_visible_copy_values": [
+        "© OpenStreetMap contributors / ODbL-1.0"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "07-golf-courses/sunningdale-old/sunningdale-old.svg",
+    "sha256": "2c4ef1d3f4e19b0db71444953fd8feb41c26bbfbae8f5d08f996a8be4c4a2628",
+    "bytes": 252535
+  },
+  "png": {
+    "path": "07-golf-courses/sunningdale-old/sunningdale-old.png",
+    "sha256": "52e5ceb92584f94115ccd1962241aa3bb9840ef15c4206dfa094fd1f4ffbbec8",
+    "bytes": 924620
+  },
+  "thumbnail": {
+    "path": "07-golf-courses/sunningdale-old/thumbnail.png",
+    "sha256": "610f5b4b1cd9c946b98d0072762b616f85941a0dfc80894586f277e4e1d2182b",
+    "bytes": 84720
+  },
+  "manifest": {
+    "path": "07-golf-courses/sunningdale-old/sunningdale-old.plot.json",
+    "sha256": "65fac8cb928d06e8bda162eae52d93c91d1aa44d4c533687908c08614a50c7b6",
+    "bytes": 915034
+  },
+  "job": {
+    "path": "07-golf-courses/sunningdale-old/sunningdale-old.plotjob.json",
+    "sha256": "9e01dfa8b6e6d9f400e649946ba5bb7c143f59b63c0728118b9ef22c0c6d5071",
+    "bytes": 545455
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "07-golf-courses/sunningdale-old/pens/sunningdale-old.pen-01-grey-0-25.svg",
+      "sha256": "98f2cc40fc3065d49c96f2042236e78543805019a1e887913de821e3888f2879",
+      "bytes": 85287
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "07-golf-courses/sunningdale-old/pens/sunningdale-old.pen-02-grey-0-4.svg",
+      "sha256": "b3be88fa25933ab6306553758d00d6728d9523f50f676b934d7d5c0464d386db",
+      "bytes": 7824
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "07-golf-courses/sunningdale-old/pens/sunningdale-old.pen-03-green-0-25.svg",
+      "sha256": "307d9e51c8ee8cec3f3c00a2da539a7c516667efb5f85f33173492dd35d483fd",
+      "bytes": 55340
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-4",
+      "path": "07-golf-courses/sunningdale-old/pens/sunningdale-old.pen-04-green-0-4.svg",
+      "sha256": "2ec5b7022bddcd024969fc0b9c22c9c9be86c6a3b650226c113640b061a9e162",
+      "bytes": 36207
+    },
+    {
+      "step": 5,
+      "pen_id": "blue-0-25",
+      "path": "07-golf-courses/sunningdale-old/pens/sunningdale-old.pen-05-blue-0-25.svg",
+      "sha256": "88615e080edb80deecab95526c24c5eec3f7b8d6fbaeb9130fcd2bc03ead7e45",
+      "bytes": 5104
+    },
+    {
+      "step": 6,
+      "pen_id": "blue-0-4",
+      "path": "07-golf-courses/sunningdale-old/pens/sunningdale-old.pen-06-blue-0-4.svg",
+      "sha256": "c396987ccc1152ce8369e9cd36cd31416d530f41b74ffcf2dbc138f4ba06ada7",
+      "bytes": 4128
+    },
+    {
+      "step": 7,
+      "pen_id": "red-0-25",
+      "path": "07-golf-courses/sunningdale-old/pens/sunningdale-old.pen-07-red-0-25.svg",
+      "sha256": "f7b95d2dad03ddce98cada1d774c42f7e7775ba79830495bcccfcf14887e29ab",
+      "bytes": 23039
+    },
+    {
+      "step": 8,
+      "pen_id": "black-0-4",
+      "path": "07-golf-courses/sunningdale-old/pens/sunningdale-old.pen-08-black-0-4.svg",
+      "sha256": "ab1d2c2dd0df4e0d372da712860267ad950be7df837b7d789ca8d39269c1b9a4",
+      "bytes": 40675
+    },
+    {
+      "step": 9,
+      "pen_id": "black-1",
+      "path": "07-golf-courses/sunningdale-old/pens/sunningdale-old.pen-09-black-1.svg",
+      "sha256": "75deaa883b0a9cfa8a79dfd762ab82fd6eabc7220b7ad70e4c4ecdf36233de52",
+      "bytes": 6003
+    },
+    {
+      "step": 10,
+      "pen_id": "gold-1",
+      "path": "07-golf-courses/sunningdale-old/pens/sunningdale-old.pen-10-gold-1.svg",
+      "sha256": "67211e409fdb842d63b01c18e76fc45c7cdab57623b50d10ab87f974adb2f758",
+      "bytes": 9844
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 312,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "18 HOLES",
+    "HEATHLAND CLASSIC",
+    "SUNNINGDALE OLD",
+    "SUNNINGDALE, BERKSHIRE / ENGLAND",
+    "WILLIE PARK JR"
+  ],
+  "stroke_count": 575,
+  "pen_count": 10,
+  "physical_execution_allowed": false
+}

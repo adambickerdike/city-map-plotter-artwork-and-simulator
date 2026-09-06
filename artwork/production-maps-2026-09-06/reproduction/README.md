@@ -1,0 +1,5 @@
+# Reproduction inputs
+
+The Newcastle recipe contains the exact PBF, renderer, style, environment pins, extent and commands. Install `requirements.txt` in a CPython 3.13 environment and run `python rebuild_newcastle.py --output /path/to/new/output`. Rebuilding checks every pinned input and uses no network. City and university headers use `city-header-left-stack-v1`: name at top left, coordinates below, compass centred beside them at the right. The packaged customer masters additionally pass through `customer-map-copy-v1` and have their motion regenerated from the final SVG.
+
+The 423 original source editions and their source contracts remain in `../../latest-map-portfolio-2026-08-18-v3/`. The 30 UK city source files are that portfolio's `01-university-cities-uk/contracts/university-memorabilia-v2.1/source-snapshots/`. Their original binding ledger is `UK-CITY-SOURCE-MAP.json`. The standalone Carlisle and Seaton inputs remain in their named sibling releases. Nothing depends on a cache outside the repository for plotting or rebuilding Newcastle.

@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "series_id": "uk-city-maps-2026-08-21-v1",
+  "status": "review-only",
+  "created_at": "2026-08-21T10:26:57.642177+00:00",
+  "expected_plate_count": 30,
+  "selection": "uk-times-good-university-guide-2026-top-30",
+  "purpose": "city-only versions of the reviewed UK university map cohort",
+  "visible_copy_contract": [
+    "city/locality",
+    "coordinates",
+    "north mark"
+  ],
+  "forbidden_visible_copy": [
+    "university or institution name",
+    "degree",
+    "honours",
+    "years",
+    "person name",
+    "map-data attribution"
+  ],
+  "source_contract": {
+    "mode": "exact-pinned-overpass-json",
+    "network_fallback": false,
+    "upstream_manifest_sha256": "581d07bc7262664d4b1134ec42b30ddd9a086f9915e067068b4f0fe77e121362",
+    "upstream_cohort_sha256": "1a861b085466c23ce2c97ce03b3807459bf96cf3e0c3c0faccbf3079b97cd6d3",
+    "path": "release-metadata/contracts/university-memorabilia-v2.1/source-snapshots/source-manifest.json"
+  },
+  "renderer": {
+    "path": "release-metadata/src/city_map_plotter",
+    "fingerprint": {
+      "format_id": "plate-format-v1",
+      "format_resource": "city_map_plotter/data/format-v1.json",
+      "format_sha256": "bd410c82101ec23898e2359c0a1725ac9157368ef7e0559814e6ca58af831451",
+      "generator": "city-map-plotter 0.2.0",
+      "sha256": "2fdd54ed8b0de20ccee31d0c9facd56b4d535133ca65f0000e13cd883b7f7c99",
+      "source_file_count": 100,
+      "source_tree_sha256": "8e1c0dcbaaf96183c8e163d592bf1786d5c2234b2895b0cd0c7c06a0055867ff",
+      "theme_catalog_id": "city-map-plotter-themes-v2",
+      "theme_catalog_sha256": "0612e7145059da24978507d5d7b2523fa727886999a92008fa7688e9d9ff7fa1",
+      "theme_resource": "city_map_plotter/data/themes-v1.json"
+    },
+    "release_metadata_tree_sha256": "80eee6eaee053795c6de694012fbc41b22c70f349dc2fcdd303887468c54ebcf"
+  },
+  "dependencies": {
+    "catalog_sha256": "9a58174a4e13f0ac7a66f9a91d4789d63ca71cdcb7d899d534731deca4f1e5fe",
+    "style_path": "release-metadata/contracts/university-memorabilia-v2.1/base/renderer-contract/university-memorabilia-v2.json",
+    "style_sha256": "d5bc3c092d6cc05bbbc9581b5463a043716cfd5a8b237f8df634a44d6b6f7910",
+    "format_path": "release-metadata/docs/format/format-v1.json",
+    "format_sha256": "bd410c82101ec23898e2359c0a1725ac9157368ef7e0559814e6ca58af831451"
+  },
+  "composition": {
+    "paper": "A5 portrait",
+    "preset": "a5-balanced-poster",
+    "poster_layout": "city-map",
+    "border_and_map_frame": true,
+    "field_policy": "The standard map field starts at the same x/y and retains its 124 mm width; its bottom extends to one plate gap above the attribution zone, increasing height from 128.924 to 155.874 mm.",
+    "geographic_fit": "Centred cover crop into the taller field. Exact pinned source bytes, centre, north-up orientation, layers, style and linework rules are retained; east/west edges are cropped and geometry is never stretched or reacquired.",
+    "map_field_area_increase_percent": 20.9
+  },
+  "rendering": {
+    "families": [
+      "roads",
+      "water",
+      "railways",
+      "parks",
+      "buildings"
+    ],
+    "detail_profile": "plotter-faithful",
+    "simplify_mm": 0.04,
+    "road_style": "centreline",
+    "water_fill": "dots",
+    "landmark_buildings": true,
+    "pen_profile": "actual-pens",
+    "split_by_pen": true,
+    "optimise": true,
+    "physical_audit": true,
+    "png_dpi": 254,
+    "attribution_mode": "external"
+  }
+}

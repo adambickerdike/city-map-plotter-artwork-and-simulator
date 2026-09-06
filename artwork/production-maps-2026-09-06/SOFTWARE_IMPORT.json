@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "release_id": "production-maps-2026-09-06",
+  "catalog": "catalog.json",
+  "gallery": "index.html",
+  "qa_report": "QA-REPORT.json",
+  "checksums": "CHECKSUMS.sha256",
+  "artifact_count": 457,
+  "file_roles": {
+    "svg": "Master drawing in physical millimetres",
+    "png": "254 DPI preview",
+    "job": "SHA-bound compiled motion",
+    "pen_files": "Ordered full-page SVGs for each physical pen"
+  },
+  "studio_command": "python tools/plotter_studio.py <master.svg> --machine-profile plotter-profiles/axidraw-class-simulation-v1.json",
+  "verification_command": "python scripts/verify_production_maps.py --full",
+  "software_import_ready": true,
+  "physical_execution_allowed": false
+}

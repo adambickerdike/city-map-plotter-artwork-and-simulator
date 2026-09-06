@@ -1,0 +1,432 @@
+{
+  "id": "muirfield",
+  "domain": "07-golf-courses",
+  "title": "MUIRFIELD",
+  "artifact_version": 1,
+  "format_id": "a3-portrait",
+  "source": {
+    "svg_sha256": "8327be8a9cb9133bac0370c385df9bf4a4686222f49d6b0148edf6053bee684f",
+    "manifest_sha256": "d8d31915a27dd26672940febcf303240885758363903ff1848fbd7ed8446a201",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/07-golf-courses/artwork/muirfield.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 8,
+      "pen_changes": 7,
+      "pen_down_path_count": 788,
+      "pen_down_distance_mm": 13424.7,
+      "pen_up_travel_mm": 10212.7,
+      "travel_ratio": 0.761,
+      "estimated_plot_seconds_including_pen_up": 511.2,
+      "field_ink_mm2_upper_bound": 3460.7,
+      "field_ink_coverage_upper_bound": 0.053962,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "bunkers",
+          "field_frame"
+        ],
+        "path_count": 152,
+        "pen_down_distance_mm": 1616.3,
+        "pen_up_travel_mm": 1735.4,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 46.2,
+        "estimated_plot_seconds_including_pen_up": 67.9,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "playing_envelope"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 768.7,
+        "pen_up_travel_mm": 244.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 22.0,
+        "estimated_plot_seconds_including_pen_up": 25.0,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "fairways"
+        ],
+        "path_count": 200,
+        "pen_down_distance_mm": 2821.9,
+        "pen_up_travel_mm": 1339.4,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 80.6,
+        "estimated_plot_seconds_including_pen_up": 97.4,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.4",
+        "pen_id": "green-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "greens_and_tees"
+        ],
+        "path_count": 83,
+        "pen_down_distance_mm": 1008.6,
+        "pen_up_travel_mm": 1396.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 28.8,
+        "estimated_plot_seconds_including_pen_up": 46.3,
+        "instruction": "Load Green 0.4 (green-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Red 0.25",
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hole_markers"
+        ],
+        "path_count": 36,
+        "pen_down_distance_mm": 451.9,
+        "pen_up_travel_mm": 866.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 12.9,
+        "estimated_plot_seconds_including_pen_up": 23.7,
+        "instruction": "Load Red 0.25 (red-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "hole_numbers",
+          "course_buildings",
+          "map_reference",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 326,
+        "pen_down_distance_mm": 2402.6,
+        "pen_up_travel_mm": 3588.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 68.6,
+        "estimated_plot_seconds_including_pen_up": 113.5,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 2969.2,
+        "pen_up_travel_mm": 619.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 84.8,
+        "estimated_plot_seconds_including_pen_up": 92.6,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Gold 1",
+        "pen_id": "gold-1",
+        "pen_profile": "actual-pens",
+        "ink": "Gold",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#b88900",
+        "layers": [
+          "holes"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 1385.6,
+        "pen_up_travel_mm": 422.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 39.6,
+        "estimated_plot_seconds_including_pen_up": 44.9,
+        "instruction": "Load Gold 1 (gold-1) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/muirfield.svg",
+        "sha256": "8327be8a9cb9133bac0370c385df9bf4a4686222f49d6b0148edf6053bee684f"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/muirfield.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/muirfield.pen-01-grey-0-25.svg",
+          "sha256": "8c6f00d96c812e186f1622d68265d1e857e1e2ed8b19fc0f42eaf313e8f91e89"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/muirfield.pen-02-grey-0-4.svg",
+          "sha256": "1ecc4447b56c455c9871be1a2755275b3387246e129a156e7f1521f0bb164aa8"
+        },
+        {
+          "step": 3,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/muirfield.pen-03-green-0-25.svg",
+          "sha256": "4c5dd6009569d138ef3eed23af7d65d54b0192c786a5bffd46b29ce473dcc356"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.4",
+          "pen_id": "green-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/muirfield.pen-04-green-0-4.svg",
+          "sha256": "c9caea23fa396ac468749a01396df85d73ee8abd60fc630535fbf107b97fc4a2"
+        },
+        {
+          "step": 5,
+          "pen": "Red 0.25",
+          "pen_id": "red-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/muirfield.pen-05-red-0-25.svg",
+          "sha256": "6617c8ccd6d388ba0048abdbebf9dcb3f1a72c3abcf86e0b5fd954af04c76f54"
+        },
+        {
+          "step": 6,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/muirfield.pen-06-black-0-4.svg",
+          "sha256": "f16bdaab747ce2c4a52b162cf3188748c52541336e87323930495802e0ed3a11"
+        },
+        {
+          "step": 7,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/muirfield.pen-07-black-1.svg",
+          "sha256": "749968733a9a28c787e5652f6e5ede348271bde51ad85f0521bfe8c219a9e273"
+        },
+        {
+          "step": 8,
+          "pen": "Gold 1",
+          "pen_id": "gold-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/muirfield.pen-08-gold-1.svg",
+          "sha256": "e1de5628423968f5c0217c86782a0db0d7c026d3eb02acb8b39821af1890502e"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/muirfield.png",
+        "dpi": 180.0,
+        "sha256": "06ebf8188028841b1f9ce9a0201c88ac2433a6a093df7c0c803b290c2a126f13"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "51bd503cdb1648191c56d41cb465cb6bee66a246a13bcc496cbb842674143031",
+        "png": "638164e2a240add389df76f0ca6a8b8cb3144f2c2adeff7ae3eaca32d315812a",
+        "manifest": "894b417420dc85569c1911a3d62007a20a2d17460083be48eafeefb7645d022b"
+      },
+      "removed_visible_path_count": 46,
+      "removed_visible_copy_values": [
+        "© OpenStreetMap contributors / ODbL-1.0"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "07-golf-courses/muirfield/muirfield.svg",
+    "sha256": "e29ad6fc9fe78026166dbde14a784e19c1313b2fbb020c0921dc2fc0a0067b63",
+    "bytes": 269583
+  },
+  "png": {
+    "path": "07-golf-courses/muirfield/muirfield.png",
+    "sha256": "fd882bdcb98ca350e6827d39c8f7b7ebdbd82809984c0b44f3728b1548de0f15",
+    "bytes": 1004967
+  },
+  "thumbnail": {
+    "path": "07-golf-courses/muirfield/thumbnail.png",
+    "sha256": "68eb7d4d62b22754391f581727c6926cfbe9b624d81c83a192fcd8e17a0f17cb",
+    "bytes": 91511
+  },
+  "manifest": {
+    "path": "07-golf-courses/muirfield/muirfield.plot.json",
+    "sha256": "25985c3f1ed73393965212333b09c0152eda313ead2f3d6f8809e82ef11fd7dd",
+    "bytes": 765267
+  },
+  "job": {
+    "path": "07-golf-courses/muirfield/muirfield.plotjob.json",
+    "sha256": "abe05fad299d481a932e01f9498e6e9c20a287a450e7dc146d74853407f498ca",
+    "bytes": 526541
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "07-golf-courses/muirfield/pens/muirfield.pen-01-grey-0-25.svg",
+      "sha256": "45ae59c265deeece2046a6773d9402f06c9b53322fbbfd5cb925320a79c46116",
+      "bytes": 66772
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "07-golf-courses/muirfield/pens/muirfield.pen-02-grey-0-4.svg",
+      "sha256": "255ba3bb15318e485771d0ef325ea93f1983bdc1b59f74ce3a24d610b80b58d3",
+      "bytes": 8304
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "07-golf-courses/muirfield/pens/muirfield.pen-03-green-0-25.svg",
+      "sha256": "bb92f43bd17763e64c797dfd0ea3d3c4fc78a583f62959a981fcc435477b01cd",
+      "bytes": 94990
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-4",
+      "path": "07-golf-courses/muirfield/pens/muirfield.pen-04-green-0-4.svg",
+      "sha256": "9005834c02cde73fd6d72683bb554c4053851ec0926ed6d438559b7c26db5b1b",
+      "bytes": 38519
+    },
+    {
+      "step": 5,
+      "pen_id": "red-0-25",
+      "path": "07-golf-courses/muirfield/pens/muirfield.pen-05-red-0-25.svg",
+      "sha256": "71a3105ec5d27796264f9db6bf64c38d80db6f8e3416c960f62fabb13c22b4a7",
+      "bytes": 22830
+    },
+    {
+      "step": 6,
+      "pen_id": "black-0-4",
+      "path": "07-golf-courses/muirfield/pens/muirfield.pen-06-black-0-4.svg",
+      "sha256": "1504d0f9fe5e818bd9c06dacbc9897ad2e4430a9fa9bfcf49d46dbfec6195847",
+      "bytes": 38779
+    },
+    {
+      "step": 7,
+      "pen_id": "black-1",
+      "path": "07-golf-courses/muirfield/pens/muirfield.pen-07-black-1.svg",
+      "sha256": "a4ffd8b699aea75caeebfb58c8949ae7d1c3a24a06230492060d664709df0d5e",
+      "bytes": 5238
+    },
+    {
+      "step": 8,
+      "pen_id": "gold-1",
+      "path": "07-golf-courses/muirfield/pens/muirfield.pen-08-gold-1.svg",
+      "sha256": "e1de5628423968f5c0217c86782a0db0d7c026d3eb02acb8b39821af1890502e",
+      "bytes": 9663
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 264,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "18 HOLES",
+    "GULLANE, EAST LOTHIAN / SCOTLAND",
+    "LINKS COURSE",
+    "MUIRFIELD",
+    "THE OPEN VENUE"
+  ],
+  "stroke_count": 649,
+  "pen_count": 8,
+  "physical_execution_allowed": false
+}

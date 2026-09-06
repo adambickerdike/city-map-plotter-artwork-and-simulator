@@ -1,0 +1,363 @@
+{
+  "id": "china-shanghai-2026--circuit-atlas-v2-a5-landscape",
+  "domain": "06-f1-courses",
+  "title": "SHANGHAI",
+  "artifact_version": 1,
+  "format_id": "a5-landscape",
+  "source": {
+    "svg_sha256": "4870700be3c17ee836ba30a2b9b25849b99213635d294b294fcef454108312e4",
+    "manifest_sha256": "7bac9953987f327628434ef23e67799c81bab536289903a18c82fb423d90a531",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/06-f1-courses/artwork/current-2026/a5-landscape/china-shanghai-2026--circuit-atlas-v2-a5-landscape.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 6,
+      "pen_changes": 5,
+      "pen_down_path_count": 558,
+      "pen_down_distance_mm": 5117.9,
+      "pen_up_travel_mm": 3514.2,
+      "travel_ratio": 0.687,
+      "estimated_plot_seconds_including_pen_up": 190.2,
+      "field_ink_mm2_upper_bound": 952.8,
+      "field_ink_coverage_upper_bound": 0.057468,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "circuit_context_green"
+        ],
+        "path_count": 10,
+        "pen_down_distance_mm": 127.3,
+        "pen_up_travel_mm": 194.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 3.6,
+        "estimated_plot_seconds_including_pen_up": 6.1,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "circuit_context_blue"
+        ],
+        "path_count": 37,
+        "pen_down_distance_mm": 352.0,
+        "pen_up_travel_mm": 495.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 10.1,
+        "estimated_plot_seconds_including_pen_up": 16.3,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Purple 0.4",
+        "pen_id": "purple-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Purple",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#7e22ce",
+        "layers": [
+          "circuit_venue_purple"
+        ],
+        "path_count": 12,
+        "pen_down_distance_mm": 362.7,
+        "pen_up_travel_mm": 259.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 10.4,
+        "estimated_plot_seconds_including_pen_up": 13.6,
+        "instruction": "Load Purple 0.4 (purple-0-4) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Red 0.4",
+        "pen_id": "red-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "lap_centreline"
+        ],
+        "path_count": 3,
+        "pen_down_distance_mm": 1310.0,
+        "pen_up_travel_mm": 32.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 37.4,
+        "estimated_plot_seconds_including_pen_up": 37.8,
+        "instruction": "Load Red 0.4 (red-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Black 0.25",
+        "pen_id": "black-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "circuit_copy",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 544,
+        "pen_down_distance_mm": 2143.5,
+        "pen_up_travel_mm": 2073.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 61.2,
+        "estimated_plot_seconds_including_pen_up": 87.2,
+        "instruction": "Load Black 0.25 (black-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Black 0.6",
+        "pen_id": "black-0-6",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.6,
+        "nominal_nib_mm": 0.6,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 17,
+        "pen_down_distance_mm": 822.3,
+        "pen_up_travel_mm": 458.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.6,
+        "minimum_plot_seconds": 23.5,
+        "estimated_plot_seconds_including_pen_up": 29.2,
+        "instruction": "Load Black 0.6 (black-0-6) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-landscape/china-shanghai-2026--circuit-atlas-v2-a5-landscape.svg",
+        "sha256": "4870700be3c17ee836ba30a2b9b25849b99213635d294b294fcef454108312e4"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-landscape/china-shanghai-2026--circuit-atlas-v2-a5-landscape.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-landscape/china-shanghai-2026--circuit-atlas-v2-a5-landscape.pen-01-green-0-25.svg",
+          "sha256": "2de9d4a9d871803e935298e503cb89d932dca79edac7c6650795d0b52206cb6e"
+        },
+        {
+          "step": 2,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-landscape/china-shanghai-2026--circuit-atlas-v2-a5-landscape.pen-02-blue-0-25.svg",
+          "sha256": "d67239c17bb3a62247b4c44216a9e3e0f3cdbf5d66c865470d9a8b74393b0987"
+        },
+        {
+          "step": 3,
+          "pen": "Purple 0.4",
+          "pen_id": "purple-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-landscape/china-shanghai-2026--circuit-atlas-v2-a5-landscape.pen-03-purple-0-4.svg",
+          "sha256": "35b3f0b8c41e1f42e3efd3235a0298e4187d6a3064160e01c5d3f74c8d943985"
+        },
+        {
+          "step": 4,
+          "pen": "Red 0.4",
+          "pen_id": "red-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-landscape/china-shanghai-2026--circuit-atlas-v2-a5-landscape.pen-04-red-0-4.svg",
+          "sha256": "114caabf2407dd3060275592027be99937818dd79b97461a70f719774285eb35"
+        },
+        {
+          "step": 5,
+          "pen": "Black 0.25",
+          "pen_id": "black-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-landscape/china-shanghai-2026--circuit-atlas-v2-a5-landscape.pen-05-black-0-25.svg",
+          "sha256": "da25bbdb2714c796c8e0bdd949767339e9d2ce65e077cc2f2f7576d524fb5d3f"
+        },
+        {
+          "step": 6,
+          "pen": "Black 0.6",
+          "pen_id": "black-0-6",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-landscape/china-shanghai-2026--circuit-atlas-v2-a5-landscape.pen-06-black-0-6.svg",
+          "sha256": "9417002bddc887cb72549dc8cc40da77a6b9817d1b6006486e1e8d474601aadc"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-landscape/china-shanghai-2026--circuit-atlas-v2-a5-landscape.png",
+        "dpi": 254.0,
+        "sha256": "e4dc9caeca764cca5beb655e68b4144ca57e8fb744ba3e3d2ec2eb3532634aa0"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "4b7ebddab0cb3dd4aafcc70573a97d7ef8856fdb1cccd9a4f68ecb9af1f98410",
+        "png": "ee0bbdf2dd09436a7ff5e238621f979d116864f8d9813c77ca7c7d00f2445aa4",
+        "manifest": "ad66041994cdc113536686732fc4cf33151b6b59a3d5bfc1003210d91ec08c67"
+      },
+      "removed_visible_path_count": 65,
+      "removed_visible_copy_values": [
+        "OSM CONTRIBUTORS / OPENSTREETMAP.ORG/COPYRIGHT"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "06-f1-courses/china-shanghai-2026--circuit-atlas-v2-a5-landscape/china-shanghai-2026--circuit-atlas-v2-a5-landscape.svg",
+    "sha256": "4a6f7b24c13834371fe784af13a5f64ea3ddb44747dff161d7ffeeab6186a06e",
+    "bytes": 269106
+  },
+  "png": {
+    "path": "06-f1-courses/china-shanghai-2026--circuit-atlas-v2-a5-landscape/china-shanghai-2026--circuit-atlas-v2-a5-landscape.png",
+    "sha256": "67b332411c8d2d8eed282f14a041c5b1c8e315c2b57986b5e265946e36e2e32a",
+    "bytes": 317699
+  },
+  "thumbnail": {
+    "path": "06-f1-courses/china-shanghai-2026--circuit-atlas-v2-a5-landscape/thumbnail.png",
+    "sha256": "2495132e82bc4795c3428f3545cef9f6320ce472b001c8a88fdd91e5e3256089",
+    "bytes": 55263
+  },
+  "manifest": {
+    "path": "06-f1-courses/china-shanghai-2026--circuit-atlas-v2-a5-landscape/china-shanghai-2026--circuit-atlas-v2-a5-landscape.plot.json",
+    "sha256": "0720eae9b8b7fd92a48a42fa3e487b86f709307229376f3b47cd4166199a1d06",
+    "bytes": 239188
+  },
+  "job": {
+    "path": "06-f1-courses/china-shanghai-2026--circuit-atlas-v2-a5-landscape/china-shanghai-2026--circuit-atlas-v2-a5-landscape.plotjob.json",
+    "sha256": "edf9a13a899bd44bc1a0cf8becf2b46f321cc3cced2d1ac896c3f562b70f1c50",
+    "bytes": 472618
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "green-0-25",
+      "path": "06-f1-courses/china-shanghai-2026--circuit-atlas-v2-a5-landscape/pens/china-shanghai-2026--circuit-atlas-v2-a5-landscape.pen-01-green-0-25.svg",
+      "sha256": "3644ef3d9eef7aaa58a5bcd4bd40347e6ecb502900646a81ae184fb78fe96ee4",
+      "bytes": 14522
+    },
+    {
+      "step": 2,
+      "pen_id": "blue-0-25",
+      "path": "06-f1-courses/china-shanghai-2026--circuit-atlas-v2-a5-landscape/pens/china-shanghai-2026--circuit-atlas-v2-a5-landscape.pen-02-blue-0-25.svg",
+      "sha256": "26d3a614eb050cea91a01d45ba6130cb2ab71ffcbf28b4c8a7a151d9d987455b",
+      "bytes": 35001
+    },
+    {
+      "step": 3,
+      "pen_id": "purple-0-4",
+      "path": "06-f1-courses/china-shanghai-2026--circuit-atlas-v2-a5-landscape/pens/china-shanghai-2026--circuit-atlas-v2-a5-landscape.pen-03-purple-0-4.svg",
+      "sha256": "ada0727888fa3be39df7691603fa46f56700fc858e18048a8cccba57d6881a6e",
+      "bytes": 23724
+    },
+    {
+      "step": 4,
+      "pen_id": "red-0-4",
+      "path": "06-f1-courses/china-shanghai-2026--circuit-atlas-v2-a5-landscape/pens/china-shanghai-2026--circuit-atlas-v2-a5-landscape.pen-04-red-0-4.svg",
+      "sha256": "c053a1d569ba3bb8708b5f453c9cd280d2bde6fe541cdbcd204bf8dcaedffe6d",
+      "bytes": 27427
+    },
+    {
+      "step": 5,
+      "pen_id": "black-0-25",
+      "path": "06-f1-courses/china-shanghai-2026--circuit-atlas-v2-a5-landscape/pens/china-shanghai-2026--circuit-atlas-v2-a5-landscape.pen-05-black-0-25.svg",
+      "sha256": "03de5e7ddea6f8be8963588becf48ebefcd032084f7d8dc3349cd2ddd474f69a",
+      "bytes": 195012
+    },
+    {
+      "step": 6,
+      "pen_id": "black-0-6",
+      "path": "06-f1-courses/china-shanghai-2026--circuit-atlas-v2-a5-landscape/pens/china-shanghai-2026--circuit-atlas-v2-a5-landscape.pen-06-black-0-6.svg",
+      "sha256": "9417002bddc887cb72549dc8cc40da77a6b9817d1b6006486e1e8d474601aadc",
+      "bytes": 12020
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 232,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "1:32.238 / 2004",
+    "1:32.238 / MICHAEL SCHUMACHER / 2004",
+    "5.451 KM",
+    "CIRCUIT LAYOUT",
+    "CLOCKWISE",
+    "COURSE",
+    "DIAGRAMMATIC COURSE",
+    "FASTEST LAP",
+    "FIRST GRAND PRIX 2004",
+    "FORMULA 1",
+    "GRANDSTANDS",
+    "LENGTH 5.451 KM / FIRST GP 2004",
+    "MICHAEL SCHUMACHER",
+    "SEASON 2026 REFERENCE",
+    "SHANGHAI",
+    "SHANGHAI / GP LAYOUT / 2026",
+    "SOURCE CENTRELINE / DIAGRAMMATIC CORRIDOR"
+  ],
+  "stroke_count": 539,
+  "pen_count": 6,
+  "physical_execution_allowed": false
+}

@@ -1,0 +1,432 @@
+{
+  "id": "royal-dornoch-championship",
+  "domain": "07-golf-courses",
+  "title": "ROYAL DORNOCH",
+  "artifact_version": 1,
+  "format_id": "a3-portrait",
+  "source": {
+    "svg_sha256": "3e5e591395e21d00eac71e2c91818788e5fb684cb2b957a66402e3886d0bd73d",
+    "manifest_sha256": "a37d633fdbe2d105ff5691b49d53d1cde6d05f458cbac11f93bf6ac20c6e6b93",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/07-golf-courses/artwork/royal-dornoch-championship.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 8,
+      "pen_changes": 7,
+      "pen_down_path_count": 593,
+      "pen_down_distance_mm": 11395.6,
+      "pen_up_travel_mm": 9081.7,
+      "travel_ratio": 0.797,
+      "estimated_plot_seconds_including_pen_up": 439.1,
+      "field_ink_mm2_upper_bound": 2381.9,
+      "field_ink_coverage_upper_bound": 0.037141,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "course_paths",
+          "bunkers",
+          "field_frame"
+        ],
+        "path_count": 109,
+        "pen_down_distance_mm": 1689.9,
+        "pen_up_travel_mm": 1221.4,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 48.3,
+        "estimated_plot_seconds_including_pen_up": 63.5,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "playing_envelope"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 755.9,
+        "pen_up_travel_mm": 276.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 21.6,
+        "estimated_plot_seconds_including_pen_up": 25.1,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "fairways"
+        ],
+        "path_count": 67,
+        "pen_down_distance_mm": 1621.8,
+        "pen_up_travel_mm": 846.4,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 46.3,
+        "estimated_plot_seconds_including_pen_up": 56.9,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.4",
+        "pen_id": "green-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "greens_and_tees"
+        ],
+        "path_count": 64,
+        "pen_down_distance_mm": 520.9,
+        "pen_up_travel_mm": 1112.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 14.9,
+        "estimated_plot_seconds_including_pen_up": 28.8,
+        "instruction": "Load Green 0.4 (green-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Red 0.25",
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hole_markers"
+        ],
+        "path_count": 36,
+        "pen_down_distance_mm": 556.9,
+        "pen_up_travel_mm": 975.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 15.9,
+        "estimated_plot_seconds_including_pen_up": 28.1,
+        "instruction": "Load Red 0.25 (red-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "hole_numbers",
+          "map_reference",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 324,
+        "pen_down_distance_mm": 2350.0,
+        "pen_up_travel_mm": 3421.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 67.1,
+        "estimated_plot_seconds_including_pen_up": 109.9,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 20,
+        "pen_down_distance_mm": 3111.6,
+        "pen_up_travel_mm": 677.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 88.9,
+        "estimated_plot_seconds_including_pen_up": 97.4,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Gold 1",
+        "pen_id": "gold-1",
+        "pen_profile": "actual-pens",
+        "ink": "Gold",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#b88900",
+        "layers": [
+          "holes"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 788.6,
+        "pen_up_travel_mm": 550.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 22.5,
+        "estimated_plot_seconds_including_pen_up": 29.4,
+        "instruction": "Load Gold 1 (gold-1) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-dornoch-championship.svg",
+        "sha256": "3e5e591395e21d00eac71e2c91818788e5fb684cb2b957a66402e3886d0bd73d"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-dornoch-championship.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-dornoch-championship.pen-01-grey-0-25.svg",
+          "sha256": "e104b85310f7c340f2b70beaae7057093e1dfe55fca7f5eb3c56b86be288f8dc"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-dornoch-championship.pen-02-grey-0-4.svg",
+          "sha256": "a09c1c1da3359ee3a6856f9b48e1d3a26ae8dba99fe39dc1dd46664486ef8ebb"
+        },
+        {
+          "step": 3,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-dornoch-championship.pen-03-green-0-25.svg",
+          "sha256": "88df06435ea5ef34fac27e36a69982d1ac027e320888054cd3b0720414d791fa"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.4",
+          "pen_id": "green-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-dornoch-championship.pen-04-green-0-4.svg",
+          "sha256": "1775d1a7e921d1fe7e7f2a481f2a2664d277094cd290e6ad6e8fb6fd4639a36b"
+        },
+        {
+          "step": 5,
+          "pen": "Red 0.25",
+          "pen_id": "red-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-dornoch-championship.pen-05-red-0-25.svg",
+          "sha256": "329e9ebe32f5c62ed32f27d882f23e21edcd558bb4b55c56c20cbbd1d5b62210"
+        },
+        {
+          "step": 6,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-dornoch-championship.pen-06-black-0-4.svg",
+          "sha256": "49b3242fe418dcef3d773d4af741aa4907e9146a9d9deadca82b7effd0e694b6"
+        },
+        {
+          "step": 7,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-dornoch-championship.pen-07-black-1.svg",
+          "sha256": "2e0313f4f37f5e0d1f1ba1a3521320736f0d3956811a985959ddca1b5b994eb4"
+        },
+        {
+          "step": 8,
+          "pen": "Gold 1",
+          "pen_id": "gold-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-dornoch-championship.pen-08-gold-1.svg",
+          "sha256": "039032c7c9c4994b36fc523faac1f0d18190bef9479a5b3b7af4b1e9241075e8"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-dornoch-championship.png",
+        "dpi": 180.0,
+        "sha256": "7abeecbee9e1dc1acda2a936b8b55a5862f5568f6384f874788839993abe3695"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "4e04b438cd7b55108cd84ebc7a69da9c3c0fa128ce01f89a042a0e134e15ff41",
+        "png": "72cc6c83756a372e50c5e1ea89e14fe1ea4c19b55fbc01b6615fcfe6b18d9682",
+        "manifest": "082b3dba12a4c12c60addaca46023b27e0e26f07bf33e489524e02eb0349c3a1"
+      },
+      "removed_visible_path_count": 46,
+      "removed_visible_copy_values": [
+        "© OpenStreetMap contributors / ODbL-1.0"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "07-golf-courses/royal-dornoch-championship/royal-dornoch-championship.svg",
+    "sha256": "2158f087c44d4585a70d8674bd66ea6d409eccc921b4ac20e647a6f0bb437ff3",
+    "bytes": 192213
+  },
+  "png": {
+    "path": "07-golf-courses/royal-dornoch-championship/royal-dornoch-championship.png",
+    "sha256": "f28827178e4787ded26e79876b6730702d9baef6947bee325b775991d85ed571",
+    "bytes": 778931
+  },
+  "thumbnail": {
+    "path": "07-golf-courses/royal-dornoch-championship/thumbnail.png",
+    "sha256": "333cc27f484d222b042756d33fc45024a2a7c442c7e3e763679e3e3ab2a223af",
+    "bytes": 71979
+  },
+  "manifest": {
+    "path": "07-golf-courses/royal-dornoch-championship/royal-dornoch-championship.plot.json",
+    "sha256": "2a4838430d66cc20f3c98b0c46d4a7aa5f6f36f5029b6f7665061169a931e228",
+    "bytes": 556576
+  },
+  "job": {
+    "path": "07-golf-courses/royal-dornoch-championship/royal-dornoch-championship.plotjob.json",
+    "sha256": "558f1bf441114adf5fcdc55482253096aaea22acaeac09d0037660242b6fb4e6",
+    "bytes": 405031
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "07-golf-courses/royal-dornoch-championship/pens/royal-dornoch-championship.pen-01-grey-0-25.svg",
+      "sha256": "ac5f2ae66d55f905f79930df9bac517c5a9e2ba7fa1ff76b3bfd77f380c27d75",
+      "bytes": 50757
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "07-golf-courses/royal-dornoch-championship/pens/royal-dornoch-championship.pen-02-grey-0-4.svg",
+      "sha256": "9a0e659a7cf69cb39e0cc7ccdfe49b768d34a0413fe80e8caea9f9445d58ea9b",
+      "bytes": 6997
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "07-golf-courses/royal-dornoch-championship/pens/royal-dornoch-championship.pen-03-green-0-25.svg",
+      "sha256": "77b5618579915f2f1d13f9a11956feaedc5c33daf5b39d9d162a16af11d083f8",
+      "bytes": 41974
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-4",
+      "path": "07-golf-courses/royal-dornoch-championship/pens/royal-dornoch-championship.pen-04-green-0-4.svg",
+      "sha256": "005f10325cd067cf0fe7273da9110f1d6b28efb8cf57bd2442fbb8124bf8e6ef",
+      "bytes": 32479
+    },
+    {
+      "step": 5,
+      "pen_id": "red-0-25",
+      "path": "07-golf-courses/royal-dornoch-championship/pens/royal-dornoch-championship.pen-05-red-0-25.svg",
+      "sha256": "3f3f0d42b65fd5e3255a42250b129cf33973e7080caf7b9838b24e2b08de0519",
+      "bytes": 22992
+    },
+    {
+      "step": 6,
+      "pen_id": "black-0-4",
+      "path": "07-golf-courses/royal-dornoch-championship/pens/royal-dornoch-championship.pen-06-black-0-4.svg",
+      "sha256": "70e71312096d6cdca0893ddf81dbaaccf61d56ac7b7da489b2ab89fc9f662408",
+      "bytes": 37883
+    },
+    {
+      "step": 7,
+      "pen_id": "black-1",
+      "path": "07-golf-courses/royal-dornoch-championship/pens/royal-dornoch-championship.pen-07-black-1.svg",
+      "sha256": "2c805eab4116ee960434894728359043c34bb58b5957e5ddcaa57a389e6bdb45",
+      "bytes": 6029
+    },
+    {
+      "step": 8,
+      "pen_id": "gold-1",
+      "path": "07-golf-courses/royal-dornoch-championship/pens/royal-dornoch-championship.pen-08-gold-1.svg",
+      "sha256": "039032c7c9c4994b36fc523faac1f0d18190bef9479a5b3b7af4b1e9241075e8",
+      "bytes": 9895
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 264,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "18 HOLES",
+    "DORNOCH, HIGHLAND / SCOTLAND",
+    "HIGHLAND LINKS",
+    "OLD TOM MORRIS",
+    "ROYAL DORNOCH"
+  ],
+  "stroke_count": 455,
+  "pen_count": 8,
+  "physical_execution_allowed": false
+}

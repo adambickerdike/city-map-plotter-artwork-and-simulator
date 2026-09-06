@@ -1,0 +1,361 @@
+{
+  "id": "kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape",
+  "domain": "06-f1-courses",
+  "title": "KYALAMI / 1993",
+  "artifact_version": 1,
+  "format_id": "a5-landscape",
+  "source": {
+    "svg_sha256": "863b07141c988e9980d02ea53dce823a7cdad5dc9b8c710cb59790c41bbd402d",
+    "manifest_sha256": "0e0c4e4ec5896fcf6db82e54c71def64bb72f388de6d98dce33a77cb57fce98c",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/06-f1-courses/artwork/former-events/a5-landscape/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 6,
+      "pen_changes": 5,
+      "pen_down_path_count": 452,
+      "pen_down_distance_mm": 4181.0,
+      "pen_up_travel_mm": 2624.4,
+      "travel_ratio": 0.628,
+      "estimated_plot_seconds_including_pen_up": 152.3,
+      "field_ink_mm2_upper_bound": 653.6,
+      "field_ink_coverage_upper_bound": 0.039421,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "circuit_context_grey"
+        ],
+        "path_count": 54,
+        "pen_down_distance_mm": 347.1,
+        "pen_up_travel_mm": 434.4,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 9.9,
+        "estimated_plot_seconds_including_pen_up": 15.3,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "circuit_context_green"
+        ],
+        "path_count": 10,
+        "pen_down_distance_mm": 333.9,
+        "pen_up_travel_mm": 106.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 9.5,
+        "estimated_plot_seconds_including_pen_up": 10.9,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Purple 0.4",
+        "pen_id": "purple-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Purple",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#7e22ce",
+        "layers": [
+          "circuit_venue_purple"
+        ],
+        "path_count": 4,
+        "pen_down_distance_mm": 94.4,
+        "pen_up_travel_mm": 84.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 2.7,
+        "estimated_plot_seconds_including_pen_up": 3.8,
+        "instruction": "Load Purple 0.4 (purple-0-4) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Red 0.4",
+        "pen_id": "red-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "lap_centreline"
+        ],
+        "path_count": 3,
+        "pen_down_distance_mm": 906.4,
+        "pen_up_travel_mm": 32.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 25.9,
+        "estimated_plot_seconds_including_pen_up": 26.3,
+        "instruction": "Load Red 0.4 (red-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Black 0.25",
+        "pen_id": "black-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "circuit_copy",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 425,
+        "pen_down_distance_mm": 1691.8,
+        "pen_up_travel_mm": 1498.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 48.3,
+        "estimated_plot_seconds_including_pen_up": 67.1,
+        "instruction": "Load Black 0.25 (black-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Black 0.6",
+        "pen_id": "black-0-6",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.6,
+        "nominal_nib_mm": 0.6,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 21,
+        "pen_down_distance_mm": 807.3,
+        "pen_up_travel_mm": 468.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.6,
+        "minimum_plot_seconds": 23.1,
+        "estimated_plot_seconds_including_pen_up": 28.9,
+        "instruction": "Load Black 0.6 (black-0-6) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape.svg",
+        "sha256": "863b07141c988e9980d02ea53dce823a7cdad5dc9b8c710cb59790c41bbd402d"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape.pen-01-grey-0-25.svg",
+          "sha256": "3b4bbf00328ee738d887036b3dec97e0d32931d7db3c6cf33451884b1158d509"
+        },
+        {
+          "step": 2,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape.pen-02-green-0-25.svg",
+          "sha256": "819f885afbd5375d12521c1330fd88fc9c2fed1a326b19cb2a224b9e58702a2c"
+        },
+        {
+          "step": 3,
+          "pen": "Purple 0.4",
+          "pen_id": "purple-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape.pen-03-purple-0-4.svg",
+          "sha256": "a8e107f1cad028496e6f2c5eadd312a746ef59e003f4485d60a9c98e5a3d5a65"
+        },
+        {
+          "step": 4,
+          "pen": "Red 0.4",
+          "pen_id": "red-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape.pen-04-red-0-4.svg",
+          "sha256": "9bec45215c2233a9c396227cff26500cd525bc95eaaeccbfa1d546a7c5886b13"
+        },
+        {
+          "step": 5,
+          "pen": "Black 0.25",
+          "pen_id": "black-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape.pen-05-black-0-25.svg",
+          "sha256": "a40aff9ac286e3f5c6b936f8276c93bd1150beebbd9c007e731c63fa6a83e8bf"
+        },
+        {
+          "step": 6,
+          "pen": "Black 0.6",
+          "pen_id": "black-0-6",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape.pen-06-black-0-6.svg",
+          "sha256": "eded8ee805d1925350e2b460ab5141a9455bd0abc72db8fee267bc2fb08ddb4f"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape.png",
+        "dpi": 254.0,
+        "sha256": "8ed339767dd0247dfef13ffbe6d8e50c90c846deb933df3d701806d95ec868d2"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "07506bc2d520ec38848655c757bc523bbe7d6422a0ea0f5da5821eba14527f89",
+        "png": "83b3d6ffa54fd2a919cf8682e7c23ce5d3e1114b914064781383242625b22cec",
+        "manifest": "278863866d810cf833493f1eb434adf444ba08fb0ec186fc2792a06186719d00"
+      },
+      "removed_visible_path_count": 65,
+      "removed_visible_copy_values": [
+        "OSM CONTRIBUTORS / OPENSTREETMAP.ORG/COPYRIGHT"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "06-f1-courses/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape.svg",
+    "sha256": "dc9cee1ebfb86fa044f9b3d12fa7b022b89a269e3f11f0087dd7d26f117d23f1",
+    "bytes": 209021
+  },
+  "png": {
+    "path": "06-f1-courses/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape.png",
+    "sha256": "cf7aba5748e91478fc87c43f388339c07eb86baf17ca35ffb08c2f69b51f4603",
+    "bytes": 252302
+  },
+  "thumbnail": {
+    "path": "06-f1-courses/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape/thumbnail.png",
+    "sha256": "1cbcee888bd4599c1e2c856aefc034bcf824d42385e17fa464c514b3f95e9db9",
+    "bytes": 44062
+  },
+  "manifest": {
+    "path": "06-f1-courses/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape.plot.json",
+    "sha256": "afef799845dc9e8a350a1b6c610c798f97e8ea975026c2a30194a2e908a123a4",
+    "bytes": 196226
+  },
+  "job": {
+    "path": "06-f1-courses/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape.plotjob.json",
+    "sha256": "ed7721ee5b33f6c68ba41a6da7f85dd33ba60d666a235d3839184de79f339932",
+    "bytes": 319560
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "06-f1-courses/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape/pens/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape.pen-01-grey-0-25.svg",
+      "sha256": "9703107494faaf5866bc9a000b8c5ec43cf4637e030838e85584b20509e19773",
+      "bytes": 38860
+    },
+    {
+      "step": 2,
+      "pen_id": "green-0-25",
+      "path": "06-f1-courses/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape/pens/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape.pen-02-green-0-25.svg",
+      "sha256": "8d5d30c45288d660af4395e53d34c61beb48106ddddf3bbdc1aa46b78924eb5b",
+      "bytes": 14856
+    },
+    {
+      "step": 3,
+      "pen_id": "purple-0-4",
+      "path": "06-f1-courses/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape/pens/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape.pen-03-purple-0-4.svg",
+      "sha256": "47ee05e0e07ebeb07f65eaf886c5a92deb1fbe6c1e8dd69a6c55e9b17758d20c",
+      "bytes": 11082
+    },
+    {
+      "step": 4,
+      "pen_id": "red-0-4",
+      "path": "06-f1-courses/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape/pens/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape.pen-04-red-0-4.svg",
+      "sha256": "6e60bb3c6818740faf756b93e60ac52425ec47ffc50fa0162dce0877450947d9",
+      "bytes": 23130
+    },
+    {
+      "step": 5,
+      "pen_id": "black-0-25",
+      "path": "06-f1-courses/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape/pens/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape.pen-05-black-0-25.svg",
+      "sha256": "9206d9c46bb134bf0445ded2ab6a86154e76f4c979245f639a6d56f0a521604f",
+      "bytes": 147696
+    },
+    {
+      "step": 6,
+      "pen_id": "black-0-6",
+      "path": "06-f1-courses/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape/pens/kyalami-grand-prix-current-reference-1993--circuit-atlas-v2-a5-landscape.pen-06-black-0-6.svg",
+      "sha256": "eded8ee805d1925350e2b460ab5141a9455bd0abc72db8fee267bc2fb08ddb4f",
+      "bytes": 13162
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 232,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "4.522 KM",
+    "ANTI-CLOCKWISE",
+    "CIRCUIT LAYOUT",
+    "CIRCUIT PLAN",
+    "COURSE",
+    "CURRENT COURSE / F1 REF 1993",
+    "CURRENT COURSE STUDY",
+    "CURRENT COURSE STUDY / F1 REFERENCE 1993",
+    "EDITION",
+    "F1 REFERENCE 1993",
+    "FORMULA 1",
+    "GRANDSTANDS",
+    "KYALAMI / 1993",
+    "LENGTH 4.522 KM / F1 REFERENCE 1993",
+    "SOURCE CENTRELINE COURSE STUDY"
+  ],
+  "stroke_count": 432,
+  "pen_count": 6,
+  "physical_execution_allowed": false
+}

@@ -1,0 +1,1688 @@
+{
+  "schema_version": 1,
+  "series_id": "uk-city-maps-2026-08-21-v1",
+  "selection": "uk-times-good-university-guide-2026-top-30",
+  "map_instance_policy": "One output is retained for every upstream campus-centred map. Repeated city titles therefore identify distinct map extents, not duplicate files. University/rank fields are provenance only.",
+  "rows": [
+    {
+      "position": 1,
+      "subject_id": "uk-university-lse",
+      "upstream_institution": "London School of Economics and Political Science",
+      "published_rank": "1",
+      "visible_city": "London",
+      "visible_title": "LONDON",
+      "center_wgs84_lat_lon": [
+        51.513888888,
+        -0.116666666
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-lse.json.gz",
+        "size_bytes": 3984965,
+        "sha256": "712a9944d1db7a2365db7e8e70b0938880d3b32470a44f7527cd36b013b9bc43",
+        "canonical_json_sha256": "4faada2b9825366e3bdec99dfb60f06e7acdb9afd87b74cc067d86b1cd11364f",
+        "query_sha256": "2999bd9b6acc05af18b7c6c7d2ce364df2343113e59d0ac856ddaebd139cce9a",
+        "osm_base_timestamp": "2026-08-03T17:05:21Z",
+        "extent_wgs84": {
+          "west": -0.14556862222963254,
+          "south": 51.49519199894127,
+          "east": -0.08776470977036746,
+          "north": 51.53258577705872
+        }
+      },
+      "output_stem": "001-uk-university-lse",
+      "rendered_extent_wgs84": {
+        "west": -0.13967262315878906,
+        "south": 51.495902480725505,
+        "east": -0.09366070884121096,
+        "north": 51.53187529527449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/001-uk-university-lse.svg",
+          "size_bytes": 9963417,
+          "sha256": "2da78470e09b66b76c3118293a933a080ae87d0f084fc2cb10933f37287ef9b2"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/001-uk-university-lse.png",
+          "size_bytes": 2462771,
+          "sha256": "0d011918ed149b01df56e2c11a06a26555d6140acd7aa5fc389e3128601d0694"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/001-uk-university-lse.plot.json",
+          "size_bytes": 10851474,
+          "sha256": "5c3f27c3d25abff76c8154fd362f7bca069f5dc737afe94daf791a02658b3d59"
+        }
+      }
+    },
+    {
+      "position": 2,
+      "subject_id": "uk-university-st-andrews",
+      "upstream_institution": "University of St Andrews",
+      "published_rank": "2",
+      "visible_city": "St Andrews",
+      "visible_title": "ST ANDREWS",
+      "center_wgs84_lat_lon": [
+        56.3398554,
+        -2.8117775
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-st-andrews.json.gz",
+        "size_bytes": 431351,
+        "sha256": "4f4fed22a2a4aa9d1a1a64d70c7a75003753a778f53b2aeeb56ed571370a0afa",
+        "canonical_json_sha256": "6af09e6a2eb2f3dbf9e61c600a113218361bfec3b6a4d7edb404f95c9d82b047",
+        "query_sha256": "17ca9529e4930a8cedd1fd1bc8bc1bfa98b3ba924e14d68ffdfbd2c60ca1a7f2",
+        "osm_base_timestamp": "2026-08-03T17:47:20Z",
+        "extent_wgs84": {
+          "west": -2.8442283826535597,
+          "south": 56.321158510941274,
+          "east": -2.77932661734644,
+          "north": 56.35855228905872
+        }
+      },
+      "output_stem": "002-uk-university-st-andrews",
+      "rendered_extent_wgs84": {
+        "west": -2.8376084025922355,
+        "south": 56.321868992725506,
+        "east": -2.785946597407764,
+        "north": 56.35784180727449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/002-uk-university-st-andrews.svg",
+          "size_bytes": 2950186,
+          "sha256": "e75f33c2e826f6b3bdaa4a749d7c1ef9a0692c87d8a80b1d3303d0ab37165517"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/002-uk-university-st-andrews.png",
+          "size_bytes": 1163951,
+          "sha256": "8afb71f789f6329a8da72d77e77380f343269973907b634e5f0b7e7ceab02b25"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/002-uk-university-st-andrews.plot.json",
+          "size_bytes": 1248313,
+          "sha256": "6ff7327116754d45124f8958e44ef666215ec933c7afc4b03bf68e17ce08f168"
+        }
+      }
+    },
+    {
+      "position": 3,
+      "subject_id": "uk-university-durham",
+      "upstream_institution": "Durham University",
+      "published_rank": "3",
+      "visible_city": "Durham",
+      "visible_title": "DURHAM",
+      "center_wgs84_lat_lon": [
+        54.775,
+        -1.575
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-durham.json.gz",
+        "size_bytes": 915798,
+        "sha256": "2e651c42a20172447f638bd98ae71bd8f6c487a907c2b48c9ed9434fb3212d17",
+        "canonical_json_sha256": "82dc431ac6f5b701bace2e3ce86e7f8f4f56f2185289c1de65398eeb920d69a4",
+        "query_sha256": "a33e29301660ccb1f972a26d614198dbdff21f2e4a648bb2faf8e01dd8ad0fbd",
+        "osm_base_timestamp": "2026-08-03T17:48:21Z",
+        "extent_wgs84": {
+          "west": -1.6061836967443153,
+          "south": 54.756303110941275,
+          "east": -1.5438163032556846,
+          "north": 54.79369688905872
+        }
+      },
+      "output_stem": "003-uk-university-durham",
+      "rendered_extent_wgs84": {
+        "west": -1.5998222226084766,
+        "south": 54.75701359272551,
+        "east": -1.5501777773915233,
+        "north": 54.79298640727449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/003-uk-university-durham.svg",
+          "size_bytes": 3953657,
+          "sha256": "6cdac32330ddd6edf1f329a0be561b05cbef9d263d1985a37b0373c098e18c04"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/003-uk-university-durham.png",
+          "size_bytes": 1836252,
+          "sha256": "51bf862bb81b378a7b33a39b4880c5f3084fd51671378aa6ef8407963cbe1268"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/003-uk-university-durham.plot.json",
+          "size_bytes": 2329075,
+          "sha256": "1186b920988a8de8beb8fa493eff9b3cf2868b9614350b5b1c5da8da9064722f"
+        }
+      }
+    },
+    {
+      "position": 4,
+      "subject_id": "uk-university-cambridge",
+      "upstream_institution": "University of Cambridge",
+      "published_rank": "4=",
+      "visible_city": "Cambridge",
+      "visible_title": "CAMBRIDGE",
+      "center_wgs84_lat_lon": [
+        52.205355979,
+        0.113157269
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-cambridge.json.gz",
+        "size_bytes": 1382318,
+        "sha256": "5b7dccd6b651153193610a2a25fb60e49ae502d31ece746c70572662328a9b2c",
+        "canonical_json_sha256": "32b554ecf1ec58956faac9454f8cb43d0247ecb27dc0cdb2331bff38fcb3dd91",
+        "query_sha256": "a3c5efda744a8a9fe37f350ba73325b3634b1f4ad309fa9fa1fba38210e900cc",
+        "osm_base_timestamp": "2026-08-03T17:49:21Z",
+        "extent_wgs84": {
+          "west": 0.08380767169464856,
+          "south": 52.18665908994127,
+          "east": 0.14250686630535145,
+          "north": 52.22405286805872
+        }
+      },
+      "output_stem": "004-uk-university-cambridge",
+      "rendered_extent_wgs84": {
+        "west": 0.08979498954493868,
+        "south": 52.187369571725505,
+        "east": 0.1365195484550613,
+        "north": 52.22334238627449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/004-uk-university-cambridge.svg",
+          "size_bytes": 4463912,
+          "sha256": "e8736e9ae54a9b06123a321ae9395e3658312f0d5e021379484d1242a09b3246"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/004-uk-university-cambridge.png",
+          "size_bytes": 1785709,
+          "sha256": "8daa988e8a6eb39dc850d435be16ca721e8caa083559bf0b96e9d7dfbc2febe2"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/004-uk-university-cambridge.plot.json",
+          "size_bytes": 4763684,
+          "sha256": "66969d503f1e8fecec2e90b02296ed2cab99e1bd3d9cc25fb2db5d0100e08e76"
+        }
+      }
+    },
+    {
+      "position": 5,
+      "subject_id": "uk-university-oxford",
+      "upstream_institution": "University of Oxford",
+      "published_rank": "4=",
+      "visible_city": "Oxford",
+      "visible_title": "OXFORD",
+      "center_wgs84_lat_lon": [
+        51.755,
+        -1.255
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-oxford.json.gz",
+        "size_bytes": 1360339,
+        "sha256": "b0a0829d98671e53553c581cf5d4a053e34b3fe7cbfbe3370125f2d166db740e",
+        "canonical_json_sha256": "393f6c5f914e11c26f9c3859fece684dee7bc98d635ca37aa69460e67941a9cc",
+        "query_sha256": "b89a484e4dfa6f37d62280e8979310625df34ab5bbeede73f3124844484b397d",
+        "osm_base_timestamp": "2026-08-03T17:50:26Z",
+        "extent_wgs84": {
+          "west": -1.2840560077746495,
+          "south": 51.73630311094128,
+          "east": -1.2259439922253503,
+          "north": 51.773696889058726
+        }
+      },
+      "output_stem": "005-uk-university-oxford",
+      "rendered_extent_wgs84": {
+        "west": -1.2781285821886226,
+        "south": 51.73701359272551,
+        "east": -1.2318714178113772,
+        "north": 51.772986407274495
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/005-uk-university-oxford.svg",
+          "size_bytes": 4227512,
+          "sha256": "a3838ffeb50adb55fff1d91effabfe368e839e434f53408d8cf6afd8306f4eeb"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/005-uk-university-oxford.png",
+          "size_bytes": 1933765,
+          "sha256": "ad275f950b395211d185e9af4685d560496b2e6db04d752d95c10bf4e926f96b"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/005-uk-university-oxford.plot.json",
+          "size_bytes": 4516226,
+          "sha256": "eac8b110ac189574db928375478dff2b660377df70a6424b1741cbeef262948d"
+        }
+      }
+    },
+    {
+      "position": 6,
+      "subject_id": "uk-university-imperial",
+      "upstream_institution": "Imperial College London",
+      "published_rank": "6",
+      "visible_city": "London",
+      "visible_title": "LONDON",
+      "center_wgs84_lat_lon": [
+        51.498308,
+        -0.176882
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-imperial.json.gz",
+        "size_bytes": 1848063,
+        "sha256": "8525e7a3c35ec541515aa8844df17537932090ff60e9f1e08ab9a001c60aa2be",
+        "canonical_json_sha256": "1be1465311a612b38948cddaf529aef1b59ab71719cd8a21aaeafbfb51203e20",
+        "query_sha256": "d7375b1b3cfa28f937a9b70d685fc5e7280112ddef763d1f3baa41ac839f2803",
+        "osm_base_timestamp": "2026-08-03T17:51:28Z",
+        "extent_wgs84": {
+          "west": -0.20577407497123387,
+          "south": 51.47961111094128,
+          "east": -0.14798992502876615,
+          "north": 51.517004889058725
+        }
+      },
+      "output_stem": "006-uk-university-imperial",
+      "rendered_extent_wgs84": {
+        "west": -0.1998800916771037,
+        "south": 51.48032159272551,
+        "east": -0.15388390832289633,
+        "north": 51.51629440727449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/006-uk-university-imperial.svg",
+          "size_bytes": 5029777,
+          "sha256": "e51b47aa28e313fe57c494e16f85d49faa00d19676660404546121a28c24849f"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/006-uk-university-imperial.png",
+          "size_bytes": 2149116,
+          "sha256": "2043bd1f378c3cf64b912cffb1eda2e6a5f53d25fa519bb8dbb92b6eefa8be30"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/006-uk-university-imperial.plot.json",
+          "size_bytes": 3871302,
+          "sha256": "ec6476575fac37e23b7e7f3b3a9e4c4255746a8232a3b3de87a8df340f8a99b8"
+        }
+      }
+    },
+    {
+      "position": 7,
+      "subject_id": "uk-university-bath",
+      "upstream_institution": "University of Bath",
+      "published_rank": "7",
+      "visible_city": "Bath",
+      "visible_title": "BATH",
+      "center_wgs84_lat_lon": [
+        51.3766938,
+        -2.3234206
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-bath.json.gz",
+        "size_bytes": 504869,
+        "sha256": "918f01f3ed4abea791802f647fa5e1cf87bb697af4d2cfb93bf9c10f5761643e",
+        "canonical_json_sha256": "feac2bb8995bbbb0ca122caa3c38de0c5f0994e03717fbde2192b93d09b3cca3",
+        "query_sha256": "a68076621cec103c719932797b5dda24b9dfed3d11c09ed87be145c0805dea59",
+        "osm_base_timestamp": "2026-08-03T17:52:31Z",
+        "extent_wgs84": {
+          "west": -2.3522358530007517,
+          "south": 51.357996910941274,
+          "east": -2.2946053469992482,
+          "north": 51.39539068905872
+        }
+      },
+      "output_stem": "007-uk-university-bath",
+      "rendered_extent_wgs84": {
+        "west": -2.3463575413885995,
+        "south": 51.358707392725506,
+        "east": -2.3004836586114004,
+        "north": 51.39468020727449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/007-uk-university-bath.svg",
+          "size_bytes": 1634004,
+          "sha256": "2c628252a2ebee3ee972d2b0464d1f7b21a5848c024ab4f493648141eb41f378"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/007-uk-university-bath.png",
+          "size_bytes": 1218115,
+          "sha256": "88fdd2710aa660e80f627db2744f0dc25458723419c1a30ab499ce7dafb252c3"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/007-uk-university-bath.plot.json",
+          "size_bytes": 970868,
+          "sha256": "04d074f45340df70b1e13e09febb05a6a65bd24af04898dcead839e20041c740"
+        }
+      }
+    },
+    {
+      "position": 8,
+      "subject_id": "uk-university-warwick",
+      "upstream_institution": "University of Warwick",
+      "published_rank": "8",
+      "visible_city": "Coventry",
+      "visible_title": "COVENTRY",
+      "center_wgs84_lat_lon": [
+        52.380080555,
+        -1.561930555
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-warwick.json.gz",
+        "size_bytes": 529572,
+        "sha256": "eff2d5d6ced8ffc0c88e35d07e23e9234d7913d494bd9c84570af621a067aa93",
+        "canonical_json_sha256": "e8dd47c7db5d674da6a6e202d83a3fbb629dad406210b3dff76be1d863a77493",
+        "query_sha256": "e36284098f246d99755ca6f87488728380f2ff60244eef59908ecf3bbc19c6bf",
+        "osm_base_timestamp": "2026-08-03T17:52:31Z",
+        "extent_wgs84": {
+          "west": -1.5913961530318523,
+          "south": 52.361383665941275,
+          "east": -1.5324649569681477,
+          "north": 52.39877744405872
+        }
+      },
+      "output_stem": "008-uk-university-warwick",
+      "rendered_extent_wgs84": {
+        "west": -1.5853851710333562,
+        "south": 52.36209414772551,
+        "east": -1.5384759389666438,
+        "north": 52.39806696227449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/008-uk-university-warwick.svg",
+          "size_bytes": 2385754,
+          "sha256": "db21aa1a380de2aa251f8297a5dda8bb49dd84e873e4e1bf4cfd5462a06b09be"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/008-uk-university-warwick.png",
+          "size_bytes": 1336947,
+          "sha256": "2f1101057ad2bae8f490c6de43a93926aec28c1c7a158b99a80ca22124f18a3f"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/008-uk-university-warwick.plot.json",
+          "size_bytes": 1266751,
+          "sha256": "506e2b273d5a3bcef078b3201dedf227d3bc3088584016c8ab2bb6bf1b1dcde9"
+        }
+      }
+    },
+    {
+      "position": 9,
+      "subject_id": "uk-university-ucl",
+      "upstream_institution": "University College London",
+      "published_rank": "9",
+      "visible_city": "London",
+      "visible_title": "LONDON",
+      "center_wgs84_lat_lon": [
+        51.524722222,
+        -0.133611111
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-ucl.json.gz",
+        "size_bytes": 3316201,
+        "sha256": "181435a4212f070a273b8591bb4500d91dcd072827b7413a8779cc8909a72f82",
+        "canonical_json_sha256": "63084021cf745b6c96b0813ec5878c10a1096cc1d227203d106e5c75cfa64013",
+        "query_sha256": "5defb3f345472c9fc7eb7b8a2299c99d6bafd888b01e7cd1f42fc27d7411664a",
+        "osm_base_timestamp": "2026-08-03T17:53:36Z",
+        "extent_wgs84": {
+          "west": -0.1625199428768923,
+          "south": 51.50602533294128,
+          "east": -0.1047022791231077,
+          "north": 51.543419111058725
+        }
+      },
+      "output_stem": "009-uk-university-ucl",
+      "rendered_extent_wgs84": {
+        "west": -0.1566225411740078,
+        "south": 51.50673581472551,
+        "east": -0.1105996808259922,
+        "north": 51.54270862927449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/009-uk-university-ucl.svg",
+          "size_bytes": 8144797,
+          "sha256": "34d5018c52d121075aeabcbcc51163831917d3820161f49a7cc995477986c4f9"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/009-uk-university-ucl.png",
+          "size_bytes": 2477757,
+          "sha256": "2f1b9bcffec0fe4097dea3d790ccc728efcf82fd09926eeaa2c7ae05a24dca07"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/009-uk-university-ucl.plot.json",
+          "size_bytes": 9051702,
+          "sha256": "988eccc7974285c3d103a4e01c158e358e58b161c0e279ffa1bb24b9d7293548"
+        }
+      }
+    },
+    {
+      "position": 10,
+      "subject_id": "uk-university-bristol",
+      "upstream_institution": "University of Bristol",
+      "published_rank": "10",
+      "visible_city": "Bristol",
+      "visible_title": "BRISTOL",
+      "center_wgs84_lat_lon": [
+        51.456388888,
+        -2.604444444
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-bristol.json.gz",
+        "size_bytes": 1556511,
+        "sha256": "b13b2dffa6d242acbc8295d6e2334ce6a3af86be51885871210649b1d23e680e",
+        "canonical_json_sha256": "ab6c97791668edc9191aca2a0667a8ef24635064e20cdb5778fc568cff5e9a37",
+        "query_sha256": "26c8f179e3e5382e6e93649a0010783a43cc214df882432cb74cb5fa60893c56",
+        "osm_base_timestamp": "2026-08-03T17:55:36Z",
+        "extent_wgs84": {
+          "west": -2.63330997834994,
+          "south": 51.437691998941276,
+          "east": -2.57557890965006,
+          "north": 51.47508577705872
+        }
+      },
+      "output_stem": "010-uk-university-bristol",
+      "rendered_extent_wgs84": {
+        "west": -2.6274214093425536,
+        "south": 51.43840248072551,
+        "east": -2.581467478657446,
+        "north": 51.47437529527449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/010-uk-university-bristol.svg",
+          "size_bytes": 5445093,
+          "sha256": "f68960d909070194a31522bfe8f8dd2a9cf25955eb9680fc1ed73512cb68db4e"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/010-uk-university-bristol.png",
+          "size_bytes": 2074956,
+          "sha256": "0e61fa468e054ac889fca43ef107d0bb34093ee8c2f19b19b8f6ba7edbc9f006"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/010-uk-university-bristol.plot.json",
+          "size_bytes": 4427893,
+          "sha256": "bf3c60f1d63a2bed3d4d74d09bcc99dbe7c6ffe5842e14ff99ccdd002c116947"
+        }
+      }
+    },
+    {
+      "position": 11,
+      "subject_id": "uk-university-strathclyde",
+      "upstream_institution": "University of Strathclyde",
+      "published_rank": "11",
+      "visible_city": "Glasgow",
+      "visible_title": "GLASGOW",
+      "center_wgs84_lat_lon": [
+        55.8618812,
+        -4.2419566
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-strathclyde.json.gz",
+        "size_bytes": 1371985,
+        "sha256": "d0fd72c61b89b9489bd800b8dbb2b5f9ebb0fc15386f2f58f43cbf986dc7e943",
+        "canonical_json_sha256": "efd29e8640a5bf622689a60ef9af310fdd8f461672c224cc59b335550c76c9d1",
+        "query_sha256": "fadac010cf82a19890f49b54de08956c1bcb7227173adc90dd453e1fbee0425d",
+        "osm_base_timestamp": "2026-08-03T18:57:51Z",
+        "extent_wgs84": {
+          "west": -4.274007089844937,
+          "south": 55.843184310941275,
+          "east": -4.209906110155063,
+          "north": 55.88057808905872
+        }
+      },
+      "output_stem": "011-uk-university-strathclyde",
+      "rendered_extent_wgs84": {
+        "west": -4.267468789916571,
+        "south": 55.84389479272551,
+        "east": -4.216444410083429,
+        "north": 55.87986760727449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/011-uk-university-strathclyde.svg",
+          "size_bytes": 4969864,
+          "sha256": "bfe8077f5c601c542f170c961341c6ea1cd72c27ae0bb8ad9901b069ad9a77aa"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/011-uk-university-strathclyde.png",
+          "size_bytes": 2035296,
+          "sha256": "c5ade396d1f9dca7c8ed984941701430797d0bd1a615f2562f68a90d089e6d96"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/011-uk-university-strathclyde.plot.json",
+          "size_bytes": 2806823,
+          "sha256": "706f76c71526a53b13b46a911d11ef89de79afe9a9a5f47caa9db510901e1ba7"
+        }
+      }
+    },
+    {
+      "position": 12,
+      "subject_id": "uk-university-loughborough",
+      "upstream_institution": "Loughborough University",
+      "published_rank": "12",
+      "visible_city": "Loughborough",
+      "visible_title": "LOUGHBOROUGH",
+      "center_wgs84_lat_lon": [
+        52.763845,
+        -1.2372582
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-loughborough.json.gz",
+        "size_bytes": 688860,
+        "sha256": "dec1303e3ae1b91c60b4d999b34000ae44a6130a35b51cf7bec360214fc67057",
+        "canonical_json_sha256": "fced10278725606a380017d7cba7b1eb1e6ca0cdd11be89b3311a89f58fc883f",
+        "query_sha256": "9b4683b99774c1547e7e459265d87ce5602284faf6cd1c8c8453a74877718b4d",
+        "osm_base_timestamp": "2026-08-03T17:57:40Z",
+        "extent_wgs84": {
+          "west": -1.2669828058637136,
+          "south": 52.74514811094128,
+          "east": -1.2075335941362866,
+          "north": 52.78254188905873
+        }
+      },
+      "output_stem": "012-uk-university-loughborough",
+      "rendered_extent_wgs84": {
+        "west": -1.2609189862675176,
+        "south": 52.74585859272551,
+        "east": -1.2135974137324825,
+        "north": 52.781831407274495
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/012-uk-university-loughborough.svg",
+          "size_bytes": 3049495,
+          "sha256": "143ec33fef9a266b0ec1102e5aae21c81393285db0e215ea051fa77defcfa322"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/012-uk-university-loughborough.png",
+          "size_bytes": 1623435,
+          "sha256": "679ecca65916e32780e4e89ad39df0c724f1732adb6fc5dd9e7adf8a36d8610b"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/012-uk-university-loughborough.plot.json",
+          "size_bytes": 1999189,
+          "sha256": "13d1b7ee835a502fcdf63163329044ba2c25948b1b5d143bd6e8af77ea21c38e"
+        }
+      }
+    },
+    {
+      "position": 13,
+      "subject_id": "uk-university-sheffield",
+      "upstream_institution": "University of Sheffield",
+      "published_rank": "13",
+      "visible_city": "Sheffield",
+      "visible_title": "SHEFFIELD",
+      "center_wgs84_lat_lon": [
+        53.380722222,
+        -1.488805555
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-sheffield.json.gz",
+        "size_bytes": 1550744,
+        "sha256": "2d0bb72de3dc5a39cf5dab38aa1db59555805c8b92d508465daeaea3a68862fe",
+        "canonical_json_sha256": "2f1f99f7d81b68b59f6c89652394cb63344df085c1dfe00e5610c80d0f7c4239",
+        "query_sha256": "4e0bedbdf55bd6747e73439d4ccbd2c3a6d91cd4c5c8f78f2195643e945c5d90",
+        "osm_base_timestamp": "2026-08-03T17:57:40Z",
+        "extent_wgs84": {
+          "west": -1.5189590492434515,
+          "south": 53.36202533294128,
+          "east": -1.4586520607565483,
+          "north": 53.39941911105873
+        }
+      },
+      "output_stem": "013-uk-university-sheffield",
+      "rendered_extent_wgs84": {
+        "west": -1.512807736417789,
+        "south": 53.36273581472551,
+        "east": -1.4648033735822108,
+        "north": 53.398708629274495
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/013-uk-university-sheffield.svg",
+          "size_bytes": 5553661,
+          "sha256": "b25e42ef7593e49d29c8bb6fa942e9be7407a8c74a9a73456adb47ed16387c9f"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/013-uk-university-sheffield.png",
+          "size_bytes": 2133888,
+          "sha256": "8da48f1b212623a698c32b1d42311ebe11e1c7ce8f71c9bc4086dbda0f810836"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/013-uk-university-sheffield.plot.json",
+          "size_bytes": 4052449,
+          "sha256": "f565d1f247aed1213348fc194ff810c6d73cb02b94ace49c0d32dc4503a9e541"
+        }
+      }
+    },
+    {
+      "position": 14,
+      "subject_id": "uk-university-exeter",
+      "upstream_institution": "University of Exeter",
+      "published_rank": "14",
+      "visible_city": "Exeter",
+      "visible_title": "EXETER",
+      "center_wgs84_lat_lon": [
+        50.736111111,
+        -3.535
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-exeter.json.gz",
+        "size_bytes": 832584,
+        "sha256": "903e34316db11b93c9377f1781e82dc2442a11f4f54c009ca21eba0b34bb982f",
+        "canonical_json_sha256": "9f250cd03a942582c20e184b6d7deda30523c26785c31263731dfb68f050c665",
+        "query_sha256": "dcaa898814d47b24ed75f6400bb7a9b6b5055d942152c3095a24d182c6d5a5bc",
+        "osm_base_timestamp": "2026-08-03T17:59:46Z",
+        "extent_wgs84": {
+          "west": -3.563419348100562,
+          "south": 50.717414221941276,
+          "east": -3.5065806518994385,
+          "north": 50.75480800005872
+        }
+      },
+      "output_stem": "014-uk-university-exeter",
+      "rendered_extent_wgs84": {
+        "west": -3.557621801088049,
+        "south": 50.71812470372551,
+        "east": -3.5123781989119514,
+        "north": 50.75409751827449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/014-uk-university-exeter.svg",
+          "size_bytes": 3603078,
+          "sha256": "90041720c5d07394dfe394cb21bb9c717dba92105a8a2dff648a96525b0124c9"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/014-uk-university-exeter.png",
+          "size_bytes": 1723399,
+          "sha256": "1110a0a6ea5528f0c95fdea0b0a49be35e3a1c54a84dac839dff85b061397f19"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/014-uk-university-exeter.plot.json",
+          "size_bytes": 1759084,
+          "sha256": "5d0b64c9d46f2c42fb4f77d5d925b61f7b684a9fd345c8c78f25314fedc5047e"
+        }
+      }
+    },
+    {
+      "position": 15,
+      "subject_id": "uk-university-lancaster",
+      "upstream_institution": "Lancaster University",
+      "published_rank": "15",
+      "visible_city": "Lancaster",
+      "visible_title": "LANCASTER",
+      "center_wgs84_lat_lon": [
+        54.0098429,
+        -2.7875768
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-lancaster.json.gz",
+        "size_bytes": 460528,
+        "sha256": "5cccf2f4888f168289c58ed1ff111bf8e5735bfd22250ba61dca03cde210bce2",
+        "canonical_json_sha256": "eb96aa26952776457c38f20fe30950afde5cf93ab6188ef3fd7283f817b3dbf9",
+        "query_sha256": "799cd16b7663cc5330a3138a90cb61ed39f5a87a02bf4f0fb36d296c2fd73220",
+        "osm_base_timestamp": "2026-08-03T17:59:46Z",
+        "extent_wgs84": {
+          "west": -2.818184341380917,
+          "south": 53.99114601094128,
+          "east": -2.7569692586190833,
+          "north": 54.028539789058726
+        }
+      },
+      "output_stem": "015-uk-university-lancaster",
+      "rendered_extent_wgs84": {
+        "west": -2.811940402939211,
+        "south": 53.99185649272551,
+        "east": -2.763213197060789,
+        "north": 54.027829307274494
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/015-uk-university-lancaster.svg",
+          "size_bytes": 1836121,
+          "sha256": "07c9ea49c7834678613b4248d34062284d9f05ba39a9427d6afdf71682ea33f9"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/015-uk-university-lancaster.png",
+          "size_bytes": 1062204,
+          "sha256": "9b1416c498b4b962b80ce20907dfa4557016e4181f9876139d2ddfacbe9d6250"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/015-uk-university-lancaster.plot.json",
+          "size_bytes": 1328939,
+          "sha256": "a78082fd154cf843b184cb04ff382ac12cf5982080e9a8bccb27263a291963f1"
+        }
+      }
+    },
+    {
+      "position": 16,
+      "subject_id": "uk-university-birmingham",
+      "upstream_institution": "University of Birmingham",
+      "published_rank": "16",
+      "visible_city": "Birmingham",
+      "visible_title": "BIRMINGHAM",
+      "center_wgs84_lat_lon": [
+        52.450555555,
+        -1.930555555
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-birmingham.json.gz",
+        "size_bytes": 695599,
+        "sha256": "a80efc1c396d1eae1622b0476b68e25aea27bc4c7682f39889271012b8eb300f",
+        "canonical_json_sha256": "688ce11863cc678f85debbf993086e54450f4a3427d1d840e7807dba131627c2",
+        "query_sha256": "af693f5495773c6952051718f1ec166d850102518af82f6bcbda30ab04761984",
+        "osm_base_timestamp": "2026-08-03T18:00:47Z",
+        "extent_wgs84": {
+          "west": -1.960068279613276,
+          "south": 52.43185866594128,
+          "east": -1.901042830386724,
+          "north": 52.469252444058725
+        }
+      },
+      "output_stem": "016-uk-university-birmingham",
+      "rendered_extent_wgs84": {
+        "west": -1.9540476837921692,
+        "south": 52.43256914772551,
+        "east": -1.9070634262078308,
+        "north": 52.46854196227449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/016-uk-university-birmingham.svg",
+          "size_bytes": 3067405,
+          "sha256": "91af97fea515bcda1b9ac2f10d203a9189a391dab3d451bf26aede3baa58032f"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/016-uk-university-birmingham.png",
+          "size_bytes": 1516187,
+          "sha256": "ebfd6cda12f2951354c37a4f76b48c27d9afaf19350bcf9c6773b126eccd3812"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/016-uk-university-birmingham.plot.json",
+          "size_bytes": 1582941,
+          "sha256": "eed621c90371fab8488ad9eb05ffedd22e054f72adba5b4da262df861bd2d039"
+        }
+      }
+    },
+    {
+      "position": 17,
+      "subject_id": "uk-university-southampton",
+      "upstream_institution": "University of Southampton",
+      "published_rank": "17",
+      "visible_city": "Southampton",
+      "visible_title": "SOUTHAMPTON",
+      "center_wgs84_lat_lon": [
+        50.93463,
+        -1.39595
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-southampton.json.gz",
+        "size_bytes": 886586,
+        "sha256": "787fe9116b50ef02a3895470e4928714504890b92bc0682c7493953e99d3a512",
+        "canonical_json_sha256": "4e89ad08b558bc06a99c83bfc6d0b8f2469c660e8f12b3d7eabfadf0a0d12cd0",
+        "query_sha256": "13a00bffbaf5021892528508279ad5b33cfa8c4b8f2ef26b7d92f10ddb022f38",
+        "osm_base_timestamp": "2026-08-03T18:00:47Z",
+        "extent_wgs84": {
+          "west": -1.4244904913551852,
+          "south": 50.915933110941275,
+          "east": -1.3674095086448148,
+          "north": 50.95332688905872
+        }
+      },
+      "output_stem": "017-uk-university-southampton",
+      "rendered_extent_wgs84": {
+        "west": -1.418668231118729,
+        "south": 50.91664359272551,
+        "east": -1.373231768881271,
+        "north": 50.95261640727449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/017-uk-university-southampton.svg",
+          "size_bytes": 3432501,
+          "sha256": "4409f3331a7557266df1900a72dfe0983ea8cb2dd1d1c34a55d1f688332d6912"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/017-uk-university-southampton.png",
+          "size_bytes": 1752975,
+          "sha256": "0eb1d297d97f78ef14925417d3a7a29a7e73479cfba18cccf5a517909ce53a00"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/017-uk-university-southampton.plot.json",
+          "size_bytes": 2218519,
+          "sha256": "73d1871b608798303ad900484c57e7529c60a172fd5d8458bb290a96ca1c9fdb"
+        }
+      }
+    },
+    {
+      "position": 18,
+      "subject_id": "uk-university-liverpool",
+      "upstream_institution": "University of Liverpool",
+      "published_rank": "18",
+      "visible_city": "Liverpool",
+      "visible_title": "LIVERPOOL",
+      "center_wgs84_lat_lon": [
+        53.406,
+        -2.967
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-liverpool.json.gz",
+        "size_bytes": 1325845,
+        "sha256": "34bcebe2cebaa8d155c6951c9ce07e379cad12053a5ee1052f8ec586b3946780",
+        "canonical_json_sha256": "707579e682316a8087fe55980f75752c8f6b7b5ac41e09601aa8d61f949f0b36",
+        "query_sha256": "088101a4bb09b1ce6b48c87375259b77dec2c3143e17f845e8d967002b1860ad",
+        "osm_base_timestamp": "2026-08-03T18:01:51Z",
+        "extent_wgs84": {
+          "west": -2.997171407910564,
+          "south": 53.387303110941275,
+          "east": -2.9368285920894364,
+          "north": 53.42469688905872
+        }
+      },
+      "output_stem": "018-uk-university-liverpool",
+      "rendered_extent_wgs84": {
+        "west": -2.9910164406968103,
+        "south": 53.38801359272551,
+        "east": -2.94298355930319,
+        "north": 53.42398640727449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/018-uk-university-liverpool.svg",
+          "size_bytes": 5780344,
+          "sha256": "f3a27f269d57272d4df5198a25c13225c15c1a4802984af42e1192fffe169984"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/018-uk-university-liverpool.png",
+          "size_bytes": 2118870,
+          "sha256": "2371fe77786a541d9e87f3fbad4f90b1b6189ecc9d1f0fd313a51c2a91cfd2b0"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/018-uk-university-liverpool.plot.json",
+          "size_bytes": 3826780,
+          "sha256": "42098c6c81d19d83aa378789829dadec2837a827701fd4bae05c6b44f8fca282"
+        }
+      }
+    },
+    {
+      "position": 19,
+      "subject_id": "uk-university-kings",
+      "upstream_institution": "King's College London",
+      "published_rank": "19",
+      "visible_city": "London",
+      "visible_title": "LONDON",
+      "center_wgs84_lat_lon": [
+        51.511944444,
+        -0.116111111
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-kings.json.gz",
+        "size_bytes": 4021256,
+        "sha256": "3d94cdc4665b4027e62461cf71e247bdb92ddf677cca6862cd1357212fa36598",
+        "canonical_json_sha256": "3ba98c0c465884d3e4e52921e287f5890af77e55e7baf1b69d638ac0f3b1af47",
+        "query_sha256": "7e2c4382a1ebb56653db2df7a3198e3b28b83259e146affb71b12090280e5ea3",
+        "osm_base_timestamp": "2026-08-03T18:03:51Z",
+        "extent_wgs84": {
+          "west": -0.14501183359499356,
+          "south": 51.49324755494128,
+          "east": -0.08721038840500647,
+          "north": 51.530641333058725
+        }
+      },
+      "output_stem": "019-uk-university-kings",
+      "rendered_extent_wgs84": {
+        "west": -0.13911608618561644,
+        "south": 51.49395803672551,
+        "east": -0.0931061358143836,
+        "north": 51.52993085127449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/019-uk-university-kings.svg",
+          "size_bytes": 10093561,
+          "sha256": "301d8834254294603dcc0a5552811866a3097ea3adf081ca7ac19e02d87e87d0"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/019-uk-university-kings.png",
+          "size_bytes": 2449336,
+          "sha256": "b4435294a515861deb8d9cd1eb937ed91edf66159656a14bd8753c909b609321"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/019-uk-university-kings.plot.json",
+          "size_bytes": 10958315,
+          "sha256": "68d7184eb0bd7ed51eea51708ee2039d76989852781d7803ea7779dd39b5c65e"
+        }
+      }
+    },
+    {
+      "position": 20,
+      "subject_id": "uk-university-york",
+      "upstream_institution": "University of York",
+      "published_rank": "20",
+      "visible_city": "York",
+      "visible_title": "YORK",
+      "center_wgs84_lat_lon": [
+        53.94659,
+        -1.0525
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-york.json.gz",
+        "size_bytes": 1217544,
+        "sha256": "03e23df86212a10a6270684055f7b9fdbe3bbce54d9bc014830bcc6130d0b8c0",
+        "canonical_json_sha256": "d2f9335095c7b88ed524c5ddc001a5e5a3f1121035407d156cbd1c9694e02d9d",
+        "query_sha256": "89964ef07265d0d4178f994622b92d6344760cccd96ecf25dc2dae76abbf0400",
+        "osm_base_timestamp": "2026-08-03T19:04:56Z",
+        "extent_wgs84": {
+          "west": -1.083061106053734,
+          "south": 53.92789311094128,
+          "east": -1.021938893946266,
+          "north": 53.965286889058724
+        }
+      },
+      "output_stem": "020-uk-university-york",
+      "rendered_extent_wgs84": {
+        "west": -1.0768266404187739,
+        "south": 53.92860359272551,
+        "east": -1.0281733595812261,
+        "north": 53.96457640727449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/020-uk-university-york.svg",
+          "size_bytes": 3790356,
+          "sha256": "5b48b217d055aaf93b42e3cba0efc026fe41aaf7db956834df70e8b29f639b5c"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/020-uk-university-york.png",
+          "size_bytes": 1602387,
+          "sha256": "785772abf2b862cfb2b316f5b8d5d8cec5ca78976996809827486679403f38e2"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/020-uk-university-york.plot.json",
+          "size_bytes": 5140986,
+          "sha256": "a03341d016532840e0dcb415872a9bc6e7cb832d58fb3c9c81f2e2a928cb898d"
+        }
+      }
+    },
+    {
+      "position": 21,
+      "subject_id": "uk-university-queens-belfast",
+      "upstream_institution": "Queen's University Belfast",
+      "published_rank": "21",
+      "visible_city": "Belfast",
+      "visible_title": "BELFAST",
+      "center_wgs84_lat_lon": [
+        54.584166666,
+        -5.934722222
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-queens-belfast.json.gz",
+        "size_bytes": 1122441,
+        "sha256": "f271d647104b08f915ff56d7c53462446e7278efbe9e57b114f04836cd20e04a",
+        "canonical_json_sha256": "44729c0b78484cd660d932227266e071fd452f42a9f449f4c7ca5791137768e7",
+        "query_sha256": "89a82d222cc686917da48b72790e83d3c8a03901f5cebdb8d9e1c15d7813f0f4",
+        "osm_base_timestamp": "2026-08-03T18:06:57Z",
+        "extent_wgs84": {
+          "west": -5.965759682667012,
+          "south": 54.56546977694128,
+          "east": -5.903684761332989,
+          "north": 54.602863555058725
+        }
+      },
+      "output_stem": "021-uk-university-queens-belfast",
+      "rendered_extent_wgs84": {
+        "west": -5.959428040690943,
+        "south": 54.56618025872551,
+        "east": -5.910016403309058,
+        "north": 54.60215307327449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/021-uk-university-queens-belfast.svg",
+          "size_bytes": 4757015,
+          "sha256": "06a8a2599ec461c6887c290b83c12396059245198be07068c0c79d23eb2a12ed"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/021-uk-university-queens-belfast.png",
+          "size_bytes": 1906343,
+          "sha256": "536a26575fc609164b8ae116a1b315e64d2b16e29a5dfa1e4984e15e92c14db3"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/021-uk-university-queens-belfast.plot.json",
+          "size_bytes": 2223916,
+          "sha256": "de997a60ad6cc1fcaeaf8db3c98fb692932ef4ec07ce2a83c8dbd0b9bc8287fd"
+        }
+      }
+    },
+    {
+      "position": 22,
+      "subject_id": "uk-university-glasgow",
+      "upstream_institution": "University of Glasgow",
+      "published_rank": "22",
+      "visible_city": "Glasgow",
+      "visible_title": "GLASGOW",
+      "center_wgs84_lat_lon": [
+        55.872222222,
+        -4.288055555
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-glasgow.json.gz",
+        "size_bytes": 1441145,
+        "sha256": "c75df4b55a243089351a8a4c0619cc14d29ae2b1f28305e2dc4909c2e866b0b5",
+        "canonical_json_sha256": "374854410a46b8637e8d45392709d465742c906e137420671f1cf6eb7d5b790e",
+        "query_sha256": "726c8491484dc475e59dd80433bc251cc4c661265a5b15116ef84e1df24d528a",
+        "osm_base_timestamp": "2026-08-03T18:08:01Z",
+        "extent_wgs84": {
+          "west": -4.320114579267957,
+          "south": 55.853525332941274,
+          "east": -4.255996530732042,
+          "north": 55.89091911105872
+        }
+      },
+      "output_stem": "022-uk-university-glasgow",
+      "rendered_extent_wgs84": {
+        "west": -4.313574538317296,
+        "south": 55.854235814725506,
+        "east": -4.262536571682704,
+        "north": 55.89020862927449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/022-uk-university-glasgow.svg",
+          "size_bytes": 5154348,
+          "sha256": "1c0c8ef88ba1e0993ed8e54c858c272f02900ba80502ab2b6a3b0692a240b62b"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/022-uk-university-glasgow.png",
+          "size_bytes": 2190346,
+          "sha256": "13a214eb62e814b99ee12d076c944a1f8cd437403f07e1b1858631fb1db7d1cb"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/022-uk-university-glasgow.plot.json",
+          "size_bytes": 4890645,
+          "sha256": "5424fa3f147ef63f04b99ac4d4bbc505cdebaaa6a79613a734e346e105684b71"
+        }
+      }
+    },
+    {
+      "position": 23,
+      "subject_id": "uk-university-aberdeen",
+      "upstream_institution": "University of Aberdeen",
+      "published_rank": "23=",
+      "visible_city": "Aberdeen",
+      "visible_title": "ABERDEEN",
+      "center_wgs84_lat_lon": [
+        57.1645542,
+        -2.1018424
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-aberdeen.json.gz",
+        "size_bytes": 1300180,
+        "sha256": "405906d3fcefdf928170b49f4539037533a55b7618ffcc6769899b429d3e2e2d",
+        "canonical_json_sha256": "95c3ebf544993d31b23845df0328e25f9e984db74a3ef4cb6c01dd0747d7141d",
+        "query_sha256": "34bc699b3aee1ede441d690a80b983cbc437c9377c8c9b84c4d6d78ec0590ef9",
+        "osm_base_timestamp": "2026-08-03T18:09:02Z",
+        "extent_wgs84": {
+          "west": -2.135013691973894,
+          "south": 57.145857310941274,
+          "east": -2.0686711080261064,
+          "north": 57.18325108905872
+        }
+      },
+      "output_stem": "023-uk-university-aberdeen",
+      "rendered_extent_wgs84": {
+        "west": -2.1282467484112213,
+        "south": 57.146567792725506,
+        "east": -2.075438051588779,
+        "north": 57.18254060727449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/023-uk-university-aberdeen.svg",
+          "size_bytes": 5055886,
+          "sha256": "e60cecdbbaab054c3fe70981fe11090ba8eb014f9ed4a8751ea5d7f310b2d303"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/023-uk-university-aberdeen.png",
+          "size_bytes": 1956579,
+          "sha256": "2bc63d6f0abf072bf7386e4f651c9f1a7fe352c19cd2eccab7a23ae9cb97d7c3"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/023-uk-university-aberdeen.plot.json",
+          "size_bytes": 3494728,
+          "sha256": "80fb2849de21cf70b918df54ccc12e42c26122ddb2e68bc4013868615273af77"
+        }
+      }
+    },
+    {
+      "position": 24,
+      "subject_id": "uk-university-dundee",
+      "upstream_institution": "University of Dundee",
+      "published_rank": "23=",
+      "visible_city": "Dundee",
+      "visible_title": "DUNDEE",
+      "center_wgs84_lat_lon": [
+        56.4579676,
+        -2.9821483
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-dundee.json.gz",
+        "size_bytes": 788666,
+        "sha256": "7d3481be92bb504df9d5eee129cb2520bdcf8d98193376a63382ccaa426d4c0b",
+        "canonical_json_sha256": "c27b76de6505743dde7bf02da20a4eab56c41b7f8eab8a2ac9ff726f50150550",
+        "query_sha256": "b5e99e20d8011eba1fea9b9b508f17ee3a8c32da07bc8ce87c813b7d4cdaab1e",
+        "osm_base_timestamp": "2026-08-03T18:10:06Z",
+        "extent_wgs84": {
+          "west": -3.0147000211944923,
+          "south": 56.43927071094128,
+          "east": -2.9495965788055076,
+          "north": 56.47666448905873
+        }
+      },
+      "output_stem": "024-uk-university-dundee",
+      "rendered_extent_wgs84": {
+        "west": -3.0080594700708176,
+        "south": 56.43998119272551,
+        "east": -2.9562371299291823,
+        "north": 56.475954007274495
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/024-uk-university-dundee.svg",
+          "size_bytes": 5160205,
+          "sha256": "1fdc14864b0e093bcde067fdc9993c3d9a0d462ea32b828e5ca80e50c64f51b7"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/024-uk-university-dundee.png",
+          "size_bytes": 1385983,
+          "sha256": "77bdf99ad47a8ab9cdf9e196f0eed4e0200e53bdd24bc73d953daa2c0418427c"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/024-uk-university-dundee.plot.json",
+          "size_bytes": 1984265,
+          "sha256": "b75724384617a19c03fbbbaa678468107612f263a376e6493ec3e7d3a826ea60"
+        }
+      }
+    },
+    {
+      "position": 25,
+      "subject_id": "uk-university-edinburgh",
+      "upstream_institution": "University of Edinburgh",
+      "published_rank": "25",
+      "visible_city": "Edinburgh",
+      "visible_title": "EDINBURGH",
+      "center_wgs84_lat_lon": [
+        55.947388888,
+        -3.187194444
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-edinburgh.json.gz",
+        "size_bytes": 1823354,
+        "sha256": "b3e4f7f87ed77eef58a0a8a327cc86264e8fa8776574a7d9f52d57c0b0addc1c",
+        "canonical_json_sha256": "835f5efb9f2fafbd96407153541062209dfcbffa444a32bcfd9b6d9373c0778e",
+        "query_sha256": "0e8c5acbb4d24b42df6bd5779a9e84f75ea04775504ff5b53766ba6775dac621",
+        "osm_base_timestamp": "2026-08-03T18:11:06Z",
+        "extent_wgs84": {
+          "west": -3.2193156714968083,
+          "south": 55.928691998941275,
+          "east": -3.155073216503192,
+          "north": 55.96608577705872
+        }
+      },
+      "output_stem": "025-uk-university-edinburgh",
+      "rendered_extent_wgs84": {
+        "west": -3.212762941087461,
+        "south": 55.92940248072551,
+        "east": -3.1616259469125394,
+        "north": 55.96537529527449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/025-uk-university-edinburgh.svg",
+          "size_bytes": 4920705,
+          "sha256": "c6d2353222f0e54d991b428639762a6934332082d1a75628e9e28b860bbc5130"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/025-uk-university-edinburgh.png",
+          "size_bytes": 2033423,
+          "sha256": "dc42ba310de2aad5573d0669ab5b6e6cf15b78077901e2b4e33832c337ff646c"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/025-uk-university-edinburgh.plot.json",
+          "size_bytes": 5113444,
+          "sha256": "71f34e333119d565a241eb04876436378abd5a6832f3f75ce4ca1fcdfc7de782"
+        }
+      }
+    },
+    {
+      "position": 26,
+      "subject_id": "uk-university-leeds",
+      "upstream_institution": "University of Leeds",
+      "published_rank": "26",
+      "visible_city": "Leeds",
+      "visible_title": "LEEDS",
+      "center_wgs84_lat_lon": [
+        53.807222222,
+        -1.551666666
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-leeds.json.gz",
+        "size_bytes": 1503191,
+        "sha256": "be8d898e5679a2736ee1a6ef9f67e726bfe6461c7e9e96e00893784c5f1e6dd2",
+        "canonical_json_sha256": "69379849aee1c6eb86396a83700cc5f63de57f22a138b47cbf316b67ed910130",
+        "query_sha256": "f55af4096955121516cf0ee6591cb43ddac5fb519510e44cf144d958019cc945",
+        "osm_base_timestamp": "2026-08-03T18:12:05Z",
+        "extent_wgs84": {
+          "west": -1.5821260853608268,
+          "south": 53.788525332941276,
+          "east": -1.5212072466391733,
+          "north": 53.825919111058724
+        }
+      },
+      "output_stem": "026-uk-university-leeds",
+      "rendered_extent_wgs84": {
+        "west": -1.5759123638112198,
+        "south": 53.78923581472551,
+        "east": -1.5274209681887803,
+        "north": 53.82520862927449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/026-uk-university-leeds.svg",
+          "size_bytes": 6384571,
+          "sha256": "c7d2e710d16558192912e1c47377c3944c908819f610480bb682e29f7c021da0"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/026-uk-university-leeds.png",
+          "size_bytes": 2261340,
+          "sha256": "5d33479e0599870a1a9185bc16af2007cc80cf081a4c2d6fb6a6db7169ff82d6"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/026-uk-university-leeds.plot.json",
+          "size_bytes": 3569211,
+          "sha256": "2c525435aa5a66890af21195570eba09054da9165e8fa4f13a47295aa10ba3e3"
+        }
+      }
+    },
+    {
+      "position": 27,
+      "subject_id": "uk-university-manchester",
+      "upstream_institution": "University of Manchester",
+      "published_rank": "27",
+      "visible_city": "Manchester",
+      "visible_title": "MANCHESTER",
+      "center_wgs84_lat_lon": [
+        53.466111111,
+        -2.231944444
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-manchester.json.gz",
+        "size_bytes": 2405957,
+        "sha256": "cba62a671944c1872a4d5c6e3759747b9933690ccab25206693ea71bb93e8d13",
+        "canonical_json_sha256": "b46cd091d28580b1e97adaac468db0dc31b578b9fec4efa290e5e56fadca7d53",
+        "query_sha256": "57461aca1b3bb8f4e3cc203445732e0c5d14750c8bdf727c01555f8ee48ad01c",
+        "osm_base_timestamp": "2026-08-03T18:14:06Z",
+        "extent_wgs84": {
+          "west": -2.262158560261595,
+          "south": 53.44741422194127,
+          "east": -2.201730327738405,
+          "north": 53.48480800005872
+        }
+      },
+      "output_stem": "027-uk-university-manchester",
+      "rendered_extent_wgs84": {
+        "west": -2.255994880544231,
+        "south": 53.448124703725505,
+        "east": -2.2078940074557685,
+        "north": 53.48409751827449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/027-uk-university-manchester.svg",
+          "size_bytes": 8242494,
+          "sha256": "6a20f568b347fa486d048f12d34d27dce09a3ae9cd00cae17194cd268fc15daa"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/027-uk-university-manchester.png",
+          "size_bytes": 2496557,
+          "sha256": "ecccdd565b2e982b56966a5e3543fc1df53a7d22d394cdcee9d19dcd06258e4a"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/027-uk-university-manchester.plot.json",
+          "size_bytes": 7321059,
+          "sha256": "3f9008d2a0766aec7639d7f5b16aea656c894d715407a8b74cee2834aa18217b"
+        }
+      }
+    },
+    {
+      "position": 28,
+      "subject_id": "uk-university-cardiff",
+      "upstream_institution": "Cardiff University",
+      "published_rank": "28=",
+      "visible_city": "Cardiff",
+      "visible_title": "CARDIFF",
+      "center_wgs84_lat_lon": [
+        51.487433333,
+        -3.178230555
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-cardiff.json.gz",
+        "size_bytes": 1718903,
+        "sha256": "6e6e748afa96c7ab2602ba781f30b7917966a09d97201d15c6aabd172f272a76",
+        "canonical_json_sha256": "b54702c3b3bd49faaa0bdc37167ea827e107d4a5bcad04fc7b6f0bffd7741548",
+        "query_sha256": "faa6d542ad3b27be548ea52dae4742a863329ef31e7afcefde2e0a0746fee29f",
+        "osm_base_timestamp": "2026-08-03T18:16:06Z",
+        "extent_wgs84": {
+          "west": -3.2071157386236324,
+          "south": 51.468736443941275,
+          "east": -3.1493453713763673,
+          "north": 51.50613022205872
+        }
+      },
+      "output_stem": "028-uk-university-cardiff",
+      "rendered_extent_wgs84": {
+        "west": -3.201223161164413,
+        "south": 51.46944692572551,
+        "east": -3.1552379488355866,
+        "north": 51.50541974027449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/028-uk-university-cardiff.svg",
+          "size_bytes": 5416230,
+          "sha256": "c58ea711a517fd32a99f06a24193b7779bd20a59eaa69fa96a5908e02cabca67"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/028-uk-university-cardiff.png",
+          "size_bytes": 2265729,
+          "sha256": "e1b73fa63d7cbe403376b175ca858a726994635472031298d270e89869b7d077"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/028-uk-university-cardiff.plot.json",
+          "size_bytes": 3480168,
+          "sha256": "ef68cf805dc66d0913c77243858cfe2f9b255f60b3f722ca26f149400829ab1b"
+        }
+      }
+    },
+    {
+      "position": 29,
+      "subject_id": "uk-university-leicester",
+      "upstream_institution": "University of Leicester",
+      "published_rank": "28=",
+      "visible_city": "Leicester",
+      "visible_title": "LEICESTER",
+      "center_wgs84_lat_lon": [
+        52.6087005,
+        -1.114824
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-leicester.json.gz",
+        "size_bytes": 559088,
+        "sha256": "363615b41c5dc2a1240c7e969b45dcf09d4a00278052eb139ad0450168ad08a2",
+        "canonical_json_sha256": "9c2626d8602a4e36858ba3fe650a00141dce8ed2923938f73c2552c246aca4de",
+        "query_sha256": "27e2cde828d9e124f7b73a41ab80ea04e0e3cf49767de70209bd85be4948b676",
+        "osm_base_timestamp": "2026-08-03T18:17:06Z",
+        "extent_wgs84": {
+          "west": -1.1444431902593775,
+          "south": 52.590003610941274,
+          "east": -1.0852048097406226,
+          "north": 52.62739738905872
+        }
+      },
+      "output_stem": "029-uk-university-leicester",
+      "rendered_extent_wgs84": {
+        "west": -1.138400875446466,
+        "south": 52.590714092725506,
+        "east": -1.091247124553534,
+        "north": 52.62668690727449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/029-uk-university-leicester.svg",
+          "size_bytes": 2259105,
+          "sha256": "82211d52e8c392e97d29cbda404c70d5650a200d8f26b95536a6cced340cbde7"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/029-uk-university-leicester.png",
+          "size_bytes": 1349686,
+          "sha256": "7c2b71de61bbb666d7802250dd91ec472e745cb1f760bbc06e77ae4d706193c1"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/029-uk-university-leicester.plot.json",
+          "size_bytes": 922969,
+          "sha256": "5056673d6d0a15481c2ae11f0e8e734b6547c9669e9be59de7b460a93554b7fa"
+        }
+      }
+    },
+    {
+      "position": 30,
+      "subject_id": "uk-university-nottingham",
+      "upstream_institution": "University of Nottingham",
+      "published_rank": "30",
+      "visible_city": "Nottingham",
+      "visible_title": "NOTTINGHAM",
+      "center_wgs84_lat_lon": [
+        52.938888888,
+        -1.196944444
+      ],
+      "source_snapshot": {
+        "path": "overpass/uk-university-nottingham.json.gz",
+        "size_bytes": 1027183,
+        "sha256": "f7f5d9e67c5b49dd4dcc5af8b081daf8fbb955dc96c11c9bad06569ebfaa8f4b",
+        "canonical_json_sha256": "2f3301326f1e6823113adbfabd591fa5ff6e10c9f39913a646cfd66771d91b1a",
+        "query_sha256": "f2b342241692355f5d06a5859f83c9eb1460398f791bab9f007f0825c7bc71c8",
+        "osm_base_timestamp": "2026-08-03T18:17:06Z",
+        "extent_wgs84": {
+          "west": -1.2267891547175926,
+          "south": 52.92019199894128,
+          "east": -1.1670997332824076,
+          "north": 52.957585777058725
+        }
+      },
+      "output_stem": "030-uk-university-nottingham",
+      "rendered_extent_wgs84": {
+        "west": -1.2207008337312053,
+        "south": 52.92090248072551,
+        "east": -1.173188054268795,
+        "north": 52.95687529527449
+      },
+      "map_bounds_mm": {
+        "x": 12.0,
+        "y": 35.17,
+        "width": 124.0,
+        "height": 155.779
+      },
+      "artifacts": {
+        "svg": {
+          "path": "uk-times-good-university-guide-2026-top-30/030-uk-university-nottingham.svg",
+          "size_bytes": 4015280,
+          "sha256": "9f7002c3b8e9ea1e2cd768d9cf14516938a1d08a753389a046170e8f50de83d8"
+        },
+        "png": {
+          "path": "uk-times-good-university-guide-2026-top-30/030-uk-university-nottingham.png",
+          "size_bytes": 1865558,
+          "sha256": "dbd16e9a73246dc884a812f3f1b20e5b94704bfc1202987cc4023eb4c1cc9f13"
+        },
+        "manifest": {
+          "path": "uk-times-good-university-guide-2026-top-30/030-uk-university-nottingham.plot.json",
+          "size_bytes": 2441776,
+          "sha256": "d151feb3c766697977369ba370067930f7f4e768bb21357562a4f1d96878c456"
+        }
+      }
+    }
+  ]
+}

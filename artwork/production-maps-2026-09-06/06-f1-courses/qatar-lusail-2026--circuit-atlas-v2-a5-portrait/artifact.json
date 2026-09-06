@@ -1,0 +1,363 @@
+{
+  "id": "qatar-lusail-2026--circuit-atlas-v2-a5-portrait",
+  "domain": "06-f1-courses",
+  "title": "LUSAIL",
+  "artifact_version": 1,
+  "format_id": "a5-portrait",
+  "source": {
+    "svg_sha256": "a143d8ef8f52add977d493ad4f7f26c61a0856805a51ed958287e99256dafcde",
+    "manifest_sha256": "3fee952e6781ff1e968c9ff02367264b44d0a1020c9daed5893bc274630a5c09",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/06-f1-courses/artwork/current-2026/a5-portrait/qatar-lusail-2026--circuit-atlas-v2-a5-portrait.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 6,
+      "pen_changes": 5,
+      "pen_down_path_count": 425,
+      "pen_down_distance_mm": 4256.3,
+      "pen_up_travel_mm": 2889.8,
+      "travel_ratio": 0.679,
+      "estimated_plot_seconds_including_pen_up": 157.7,
+      "field_ink_mm2_upper_bound": 663.3,
+      "field_ink_coverage_upper_bound": 0.041491,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "circuit_context_grey"
+        ],
+        "path_count": 64,
+        "pen_down_distance_mm": 479.8,
+        "pen_up_travel_mm": 439.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 13.7,
+        "estimated_plot_seconds_including_pen_up": 19.2,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "circuit_context_green"
+        ],
+        "path_count": 24,
+        "pen_down_distance_mm": 217.8,
+        "pen_up_travel_mm": 230.3,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 6.2,
+        "estimated_plot_seconds_including_pen_up": 9.1,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Purple 0.4",
+        "pen_id": "purple-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Purple",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#7e22ce",
+        "layers": [
+          "circuit_venue_purple"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 55.4,
+        "pen_up_travel_mm": 75.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 1.6,
+        "estimated_plot_seconds_including_pen_up": 2.5,
+        "instruction": "Load Purple 0.4 (purple-0-4) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Red 0.4",
+        "pen_id": "red-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "lap_centreline"
+        ],
+        "path_count": 3,
+        "pen_down_distance_mm": 1040.7,
+        "pen_up_travel_mm": 3.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 29.7,
+        "estimated_plot_seconds_including_pen_up": 29.8,
+        "instruction": "Load Red 0.4 (red-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Black 0.25",
+        "pen_id": "black-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "circuit_copy",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 388,
+        "pen_down_distance_mm": 1700.3,
+        "pen_up_travel_mm": 1832.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 48.6,
+        "estimated_plot_seconds_including_pen_up": 71.5,
+        "instruction": "Load Black 0.25 (black-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Black 0.6",
+        "pen_id": "black-0-6",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.6,
+        "nominal_nib_mm": 0.6,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 10,
+        "pen_down_distance_mm": 762.5,
+        "pen_up_travel_mm": 308.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.6,
+        "minimum_plot_seconds": 21.8,
+        "estimated_plot_seconds_including_pen_up": 25.6,
+        "instruction": "Load Black 0.6 (black-0-6) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-portrait/qatar-lusail-2026--circuit-atlas-v2-a5-portrait.svg",
+        "sha256": "a143d8ef8f52add977d493ad4f7f26c61a0856805a51ed958287e99256dafcde"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-portrait/qatar-lusail-2026--circuit-atlas-v2-a5-portrait.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-portrait/qatar-lusail-2026--circuit-atlas-v2-a5-portrait.pen-01-grey-0-25.svg",
+          "sha256": "1811162fd639ad3e268d12a1efcce1633d828f97aa8801f1794b54a147af2531"
+        },
+        {
+          "step": 2,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-portrait/qatar-lusail-2026--circuit-atlas-v2-a5-portrait.pen-02-green-0-25.svg",
+          "sha256": "530f41bfd4e2f54a3537636688dfa4f13e9c2c2a3f0124eae903b4e11f0b5630"
+        },
+        {
+          "step": 3,
+          "pen": "Purple 0.4",
+          "pen_id": "purple-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-portrait/qatar-lusail-2026--circuit-atlas-v2-a5-portrait.pen-03-purple-0-4.svg",
+          "sha256": "3d3ce9112bafa247c1e5848ed11c92f6a7f872181c70ae31c732db6929fdbe70"
+        },
+        {
+          "step": 4,
+          "pen": "Red 0.4",
+          "pen_id": "red-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-portrait/qatar-lusail-2026--circuit-atlas-v2-a5-portrait.pen-04-red-0-4.svg",
+          "sha256": "7dfed66525c8b9b79160bbd0f2bbea1d70a5e078594bedf4299e08c729a63bd7"
+        },
+        {
+          "step": 5,
+          "pen": "Black 0.25",
+          "pen_id": "black-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-portrait/qatar-lusail-2026--circuit-atlas-v2-a5-portrait.pen-05-black-0-25.svg",
+          "sha256": "95d6a03f9580322f6d77edfbd8ceab0fc84747735a94dd5060b11553dccc20bc"
+        },
+        {
+          "step": 6,
+          "pen": "Black 0.6",
+          "pen_id": "black-0-6",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-portrait/qatar-lusail-2026--circuit-atlas-v2-a5-portrait.pen-06-black-0-6.svg",
+          "sha256": "8ae670db8598547ea75db80b81c7583a498d6124d653f13689368a466de07166"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-2026-v2.3-format-v1-2026-08-16/plates/a5-portrait/qatar-lusail-2026--circuit-atlas-v2-a5-portrait.png",
+        "dpi": 254.0,
+        "sha256": "e7ce781cac452857dae55ba34da82f8b727b98bebdfd2e6e73b199433e68fde1"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "8ff575e4db7bab10b165f0ad31e6224289670d36dc6106d04cf611c68963dda7",
+        "png": "728001fe3cefc77cd79c9a7a0c4b1845f1469f927ae5d06cd81449f603d11ab2",
+        "manifest": "e68297a9a993f7c71dc085b7f9efce7de0de41159168a17680f024ef72c6ea3f"
+      },
+      "removed_visible_path_count": 65,
+      "removed_visible_copy_values": [
+        "OSM CONTRIBUTORS / OPENSTREETMAP.ORG/COPYRIGHT"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "06-f1-courses/qatar-lusail-2026--circuit-atlas-v2-a5-portrait/qatar-lusail-2026--circuit-atlas-v2-a5-portrait.svg",
+    "sha256": "b164d44b94c6d367af09d568c1b3263b8028e066df2100fbdd069bc4c04813d4",
+    "bytes": 192561
+  },
+  "png": {
+    "path": "06-f1-courses/qatar-lusail-2026--circuit-atlas-v2-a5-portrait/qatar-lusail-2026--circuit-atlas-v2-a5-portrait.png",
+    "sha256": "4eae497202f110cf422b27d45d79a633d6bd4ede535c6f7bba425333545908c2",
+    "bytes": 255704
+  },
+  "thumbnail": {
+    "path": "06-f1-courses/qatar-lusail-2026--circuit-atlas-v2-a5-portrait/thumbnail.png",
+    "sha256": "f159004ccf4c8d22ee31be81d897ffe28ad3cae3875e0a15fe02bf6f2d8b5a79",
+    "bytes": 69351
+  },
+  "manifest": {
+    "path": "06-f1-courses/qatar-lusail-2026--circuit-atlas-v2-a5-portrait/qatar-lusail-2026--circuit-atlas-v2-a5-portrait.plot.json",
+    "sha256": "c70b02878560f5473180c2d8a36e90b6845518dff00c66cb6633d7570241e062",
+    "bytes": 207096
+  },
+  "job": {
+    "path": "06-f1-courses/qatar-lusail-2026--circuit-atlas-v2-a5-portrait/qatar-lusail-2026--circuit-atlas-v2-a5-portrait.plotjob.json",
+    "sha256": "6f3fcd7ea7b73808c7df1295e9ca16d900f0f869758c8a67f79466566c0adadd",
+    "bytes": 385531
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "06-f1-courses/qatar-lusail-2026--circuit-atlas-v2-a5-portrait/pens/qatar-lusail-2026--circuit-atlas-v2-a5-portrait.pen-01-grey-0-25.svg",
+      "sha256": "eb78f49b6b1e3506f07c2ae5685a1f4823b24ea113a62248b8b0c48f78ca95c9",
+      "bytes": 46355
+    },
+    {
+      "step": 2,
+      "pen_id": "green-0-25",
+      "path": "06-f1-courses/qatar-lusail-2026--circuit-atlas-v2-a5-portrait/pens/qatar-lusail-2026--circuit-atlas-v2-a5-portrait.pen-02-green-0-25.svg",
+      "sha256": "1780b302efdd3c33766f7beb0630f00b71c39f5fe4ea66287528deb00f050ef7",
+      "bytes": 28635
+    },
+    {
+      "step": 3,
+      "pen_id": "purple-0-4",
+      "path": "06-f1-courses/qatar-lusail-2026--circuit-atlas-v2-a5-portrait/pens/qatar-lusail-2026--circuit-atlas-v2-a5-portrait.pen-03-purple-0-4.svg",
+      "sha256": "4ebe66921fea72d90aa630191dfae61bb49bab9c0d56fb54d0e6f30b346c2798",
+      "bytes": 10599
+    },
+    {
+      "step": 4,
+      "pen_id": "red-0-4",
+      "path": "06-f1-courses/qatar-lusail-2026--circuit-atlas-v2-a5-portrait/pens/qatar-lusail-2026--circuit-atlas-v2-a5-portrait.pen-04-red-0-4.svg",
+      "sha256": "9612c23cbaf15e68b11196a212ac853966296ec6078f1f98c1d1060589296245",
+      "bytes": 30159
+    },
+    {
+      "step": 5,
+      "pen_id": "black-0-25",
+      "path": "06-f1-courses/qatar-lusail-2026--circuit-atlas-v2-a5-portrait/pens/qatar-lusail-2026--circuit-atlas-v2-a5-portrait.pen-05-black-0-25.svg",
+      "sha256": "96e3ec7e32f38cb08c5a7b20b4da3cf961e3a2e30a6c18c49ffe4c39babff53f",
+      "bytes": 109800
+    },
+    {
+      "step": 6,
+      "pen_id": "black-0-6",
+      "path": "06-f1-courses/qatar-lusail-2026--circuit-atlas-v2-a5-portrait/pens/qatar-lusail-2026--circuit-atlas-v2-a5-portrait.pen-06-black-0-6.svg",
+      "sha256": "8ae670db8598547ea75db80b81c7583a498d6124d653f13689368a466de07166",
+      "bytes": 11808
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 232,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "1:22.384 / 2024",
+    "1:22.384 / LANDO NORRIS / 2024",
+    "5.419 KM",
+    "CIRCUIT LAYOUT",
+    "CIRCUIT PLAN",
+    "CLOCKWISE",
+    "COURSE",
+    "FASTEST LAP",
+    "FIRST GRAND PRIX 2021",
+    "FORMULA 1",
+    "GRANDSTANDS",
+    "LANDO NORRIS",
+    "LENGTH 5.419 KM / FIRST GP 2021",
+    "LUSAIL",
+    "LUSAIL / COURSE STUDY / 2026",
+    "SEASON 2026 REFERENCE",
+    "SOURCE CENTRELINE COURSE STUDY"
+  ],
+  "stroke_count": 405,
+  "pen_count": 6,
+  "physical_execution_allowed": false
+}

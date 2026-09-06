@@ -1,0 +1,511 @@
+{
+  "id": "turnberry-ailsa",
+  "domain": "07-golf-courses",
+  "title": "TURNBERRY AILSA",
+  "artifact_version": 1,
+  "format_id": "a3-portrait",
+  "source": {
+    "svg_sha256": "9226f169a2ab86a5e5ab523a83ca1a7a5e20fd694bfef28081eb9ab46dab738d",
+    "manifest_sha256": "6e9402c851ba68046eeb4c115c7b49c155c5197798111677ef0cccd766b59ef7",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/07-golf-courses/artwork/turnberry-ailsa.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 10,
+      "pen_changes": 9,
+      "pen_down_path_count": 909,
+      "pen_down_distance_mm": 12579.1,
+      "pen_up_travel_mm": 11601.2,
+      "travel_ratio": 0.922,
+      "estimated_plot_seconds_including_pen_up": 504.4,
+      "field_ink_mm2_upper_bound": 2865.0,
+      "field_ink_coverage_upper_bound": 0.044673,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "course_paths",
+          "bunkers",
+          "field_frame"
+        ],
+        "path_count": 127,
+        "pen_down_distance_mm": 1584.2,
+        "pen_up_travel_mm": 1391.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 45.3,
+        "estimated_plot_seconds_including_pen_up": 62.7,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "playing_envelope"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 775.9,
+        "pen_up_travel_mm": 46.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 22.2,
+        "estimated_plot_seconds_including_pen_up": 22.7,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "fairways"
+        ],
+        "path_count": 91,
+        "pen_down_distance_mm": 1774.4,
+        "pen_up_travel_mm": 896.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 50.7,
+        "estimated_plot_seconds_including_pen_up": 61.9,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.4",
+        "pen_id": "green-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "greens_and_tees"
+        ],
+        "path_count": 118,
+        "pen_down_distance_mm": 810.2,
+        "pen_up_travel_mm": 1512.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 23.1,
+        "estimated_plot_seconds_including_pen_up": 42.1,
+        "instruction": "Load Green 0.4 (green-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water_stipple"
+        ],
+        "path_count": 194,
+        "pen_down_distance_mm": 216.9,
+        "pen_up_travel_mm": 1666.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 6.2,
+        "estimated_plot_seconds_including_pen_up": 27.0,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Blue 0.4",
+        "pen_id": "blue-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water"
+        ],
+        "path_count": 2,
+        "pen_down_distance_mm": 77.4,
+        "pen_up_travel_mm": 206.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 2.2,
+        "estimated_plot_seconds_including_pen_up": 4.8,
+        "instruction": "Load Blue 0.4 (blue-0-4) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Red 0.25",
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hole_markers"
+        ],
+        "path_count": 36,
+        "pen_down_distance_mm": 706.9,
+        "pen_up_travel_mm": 908.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 20.2,
+        "estimated_plot_seconds_including_pen_up": 31.6,
+        "instruction": "Load Red 0.25 (red-0-25) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "hole_numbers",
+          "course_buildings",
+          "map_reference",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 341,
+        "pen_down_distance_mm": 2450.7,
+        "pen_up_travel_mm": 3691.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 70.0,
+        "estimated_plot_seconds_including_pen_up": 116.2,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 9,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 27,
+        "pen_down_distance_mm": 3179.4,
+        "pen_up_travel_mm": 722.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 90.8,
+        "estimated_plot_seconds_including_pen_up": 99.9,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 09.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 10,
+        "pen": "Gold 1",
+        "pen_id": "gold-1",
+        "pen_profile": "actual-pens",
+        "ink": "Gold",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#b88900",
+        "layers": [
+          "holes"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 1003.3,
+        "pen_up_travel_mm": 559.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 28.7,
+        "estimated_plot_seconds_including_pen_up": 35.7,
+        "instruction": "Load Gold 1 (gold-1) and plot SVG layer 10.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/turnberry-ailsa.svg",
+        "sha256": "9226f169a2ab86a5e5ab523a83ca1a7a5e20fd694bfef28081eb9ab46dab738d"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/turnberry-ailsa.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/turnberry-ailsa.pen-01-grey-0-25.svg",
+          "sha256": "2b874a03b1a8e6984516281cdddcd249f135e96def495c3fa6f1a5dd56f6e7af"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/turnberry-ailsa.pen-02-grey-0-4.svg",
+          "sha256": "75b90dd3326f1e0056014388be1db5473663a93724e624b001aa871c3e474ca4"
+        },
+        {
+          "step": 3,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/turnberry-ailsa.pen-03-green-0-25.svg",
+          "sha256": "0c69031b6235de264d02cbce7058655ab0dd23734eba09f68834349371696b9d"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.4",
+          "pen_id": "green-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/turnberry-ailsa.pen-04-green-0-4.svg",
+          "sha256": "7ef4507152edf7f303121c77b408c2f67eada9acfc3a8386974420018beaa9e1"
+        },
+        {
+          "step": 5,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/turnberry-ailsa.pen-05-blue-0-25.svg",
+          "sha256": "7746b6ae919c52eb496853e8fd5f7b0a8e0c39b6a4d378ad893749a46946d06b"
+        },
+        {
+          "step": 6,
+          "pen": "Blue 0.4",
+          "pen_id": "blue-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/turnberry-ailsa.pen-06-blue-0-4.svg",
+          "sha256": "da7eed0ac437c632d93c514ee6d2193b0a6c1447230daca73fafcc1334b50335"
+        },
+        {
+          "step": 7,
+          "pen": "Red 0.25",
+          "pen_id": "red-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/turnberry-ailsa.pen-07-red-0-25.svg",
+          "sha256": "bae40c7112e7beedad5a856d04ce649598e2eb348b3a8d64cf7175f3f4e78053"
+        },
+        {
+          "step": 8,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/turnberry-ailsa.pen-08-black-0-4.svg",
+          "sha256": "f1c24144d72b0b63d58b86617b077095e3088018a9c1bedb558b2fa337250bce"
+        },
+        {
+          "step": 9,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/turnberry-ailsa.pen-09-black-1.svg",
+          "sha256": "16aa43b11367f7a6382352b8c1a6654af5c5431a75b92b8ccaed15b29ff7307c"
+        },
+        {
+          "step": 10,
+          "pen": "Gold 1",
+          "pen_id": "gold-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/turnberry-ailsa.pen-10-gold-1.svg",
+          "sha256": "6b5de53716089b50d9c4f5d54508f7914c720fa78cd440f2f86985e9dfff8a51"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/turnberry-ailsa.png",
+        "dpi": 180.0,
+        "sha256": "a11a828a3d9a55ac246f8ef8b3d93a8036f1ac321397955f6381c55acabf06d3"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "0f28434b8fe13bb2d2e4d6bcf2715843e6f3b75d28cf7568b33e0ead3597307d",
+        "png": "701373d5a7727a9985c8d5c5b8792faee5f66cbb0c918f73e2b676a134fb2432",
+        "manifest": "4185fb7863236eb7b2718cc2158c320c409461ea399f86f69f00438a705e44c9"
+      },
+      "removed_visible_path_count": 46,
+      "removed_visible_copy_values": [
+        "© OpenStreetMap contributors / ODbL-1.0"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "07-golf-courses/turnberry-ailsa/turnberry-ailsa.svg",
+    "sha256": "4fe179f46687b22dfba7391dbdc6373f2fa80d46e97e0c68204ea81242da535c",
+    "bytes": 369900
+  },
+  "png": {
+    "path": "07-golf-courses/turnberry-ailsa/turnberry-ailsa.png",
+    "sha256": "462adf19fed902cfb9f839d20a50e4b69f72f58e6ef629a4e42ef1821e21f04a",
+    "bytes": 932366
+  },
+  "thumbnail": {
+    "path": "07-golf-courses/turnberry-ailsa/thumbnail.png",
+    "sha256": "ad575d05aa0993d0d556b0986c7f2e088cac10109122594d45ca7e02031cbda6",
+    "bytes": 88285
+  },
+  "manifest": {
+    "path": "07-golf-courses/turnberry-ailsa/turnberry-ailsa.plot.json",
+    "sha256": "0730b9382a95ca9ab9ef3f1d88e7f0abbf55d0baa94f0464fbb293b74b9b7ff5",
+    "bytes": 1411399
+  },
+  "job": {
+    "path": "07-golf-courses/turnberry-ailsa/turnberry-ailsa.plotjob.json",
+    "sha256": "405bf28727cbcf33e1eb79ba28d6a2cf3b1c0dee458e979099123b2031ac1c8a",
+    "bytes": 743276
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "07-golf-courses/turnberry-ailsa/pens/turnberry-ailsa.pen-01-grey-0-25.svg",
+      "sha256": "01fc9b8e24ec89e8ee9ab1eb5855275fe1658d69f01ee7aac7efca94fdb5e5b8",
+      "bytes": 64171
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "07-golf-courses/turnberry-ailsa/pens/turnberry-ailsa.pen-02-grey-0-4.svg",
+      "sha256": "cb606486dca4b005ae66ddb6b066eb98e754b975e1473fcf02a6c92bc4009930",
+      "bytes": 8095
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "07-golf-courses/turnberry-ailsa/pens/turnberry-ailsa.pen-03-green-0-25.svg",
+      "sha256": "4ebd38fc3f69dd7d156384e35e09babe76ae236b6c834770d72369a25419be8a",
+      "bytes": 51195
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-4",
+      "path": "07-golf-courses/turnberry-ailsa/pens/turnberry-ailsa.pen-04-green-0-4.svg",
+      "sha256": "ee0c826c7277144a263cb412d76f383333154102b6237e55fecd07ac62eeb343",
+      "bytes": 53657
+    },
+    {
+      "step": 5,
+      "pen_id": "blue-0-25",
+      "path": "07-golf-courses/turnberry-ailsa/pens/turnberry-ailsa.pen-05-blue-0-25.svg",
+      "sha256": "aadd23b6910627f4043eefa1f5eed4a3f1996f28ee0a52c5e43e0d5b0ac46ba8",
+      "bytes": 130185
+    },
+    {
+      "step": 6,
+      "pen_id": "blue-0-4",
+      "path": "07-golf-courses/turnberry-ailsa/pens/turnberry-ailsa.pen-06-blue-0-4.svg",
+      "sha256": "9da606893350be834b443de580ab911a2954277740f91e5a22ae9b8dbe29dd03",
+      "bytes": 4300
+    },
+    {
+      "step": 7,
+      "pen_id": "red-0-25",
+      "path": "07-golf-courses/turnberry-ailsa/pens/turnberry-ailsa.pen-07-red-0-25.svg",
+      "sha256": "a49bdeb38bfb67d01a49bb4a7d9e44327e7050d86d7781007ec1eafa9bd0fcc7",
+      "bytes": 22935
+    },
+    {
+      "step": 8,
+      "pen_id": "black-0-4",
+      "path": "07-golf-courses/turnberry-ailsa/pens/turnberry-ailsa.pen-08-black-0-4.svg",
+      "sha256": "033c8761b928e2329bb85cd02b04a7adbbaa95bba688e0f5951982524a3aa852",
+      "bytes": 39850
+    },
+    {
+      "step": 9,
+      "pen_id": "black-1",
+      "path": "07-golf-courses/turnberry-ailsa/pens/turnberry-ailsa.pen-09-black-1.svg",
+      "sha256": "cbf63b6831e6a48948afd6d3ae0ed82342af2d658e42d13cbfb273fb6e8f589d",
+      "bytes": 6769
+    },
+    {
+      "step": 10,
+      "pen_id": "gold-1",
+      "path": "07-golf-courses/turnberry-ailsa/pens/turnberry-ailsa.pen-10-gold-1.svg",
+      "sha256": "6b5de53716089b50d9c4f5d54508f7914c720fa78cd440f2f86985e9dfff8a51",
+      "bytes": 9875
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 312,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "18 HOLES",
+    "DUEL IN THE SUN",
+    "THE OPEN VENUE",
+    "TURNBERRY AILSA",
+    "TURNBERRY, SOUTH AYRSHIRE / SCOTLAND"
+  ],
+  "stroke_count": 769,
+  "pen_count": 10,
+  "physical_execution_allowed": false
+}

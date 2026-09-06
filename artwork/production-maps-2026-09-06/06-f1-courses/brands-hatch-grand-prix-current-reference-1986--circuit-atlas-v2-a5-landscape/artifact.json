@@ -1,0 +1,361 @@
+{
+  "id": "brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape",
+  "domain": "06-f1-courses",
+  "title": "BRANDS HATCH GP / 1986",
+  "artifact_version": 1,
+  "format_id": "a5-landscape",
+  "source": {
+    "svg_sha256": "f0c951dcd0d06564ece351383c3d54597337ca58f491730698a3d9f0753a2f7e",
+    "manifest_sha256": "fb4ea43cf1fb2a6c17b3c584ac2745d43b4a1de48ca4a2db56413898db4e2c74",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/06-f1-courses/artwork/former-events/a5-landscape/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 6,
+      "pen_changes": 5,
+      "pen_down_path_count": 550,
+      "pen_down_distance_mm": 5122.4,
+      "pen_up_travel_mm": 3121.1,
+      "travel_ratio": 0.609,
+      "estimated_plot_seconds_including_pen_up": 185.4,
+      "field_ink_mm2_upper_bound": 893.1,
+      "field_ink_coverage_upper_bound": 0.053868,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "circuit_context_grey"
+        ],
+        "path_count": 43,
+        "pen_down_distance_mm": 471.1,
+        "pen_up_travel_mm": 357.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 13.5,
+        "estimated_plot_seconds_including_pen_up": 17.9,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "circuit_context_green"
+        ],
+        "path_count": 10,
+        "pen_down_distance_mm": 440.2,
+        "pen_up_travel_mm": 188.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 12.6,
+        "estimated_plot_seconds_including_pen_up": 14.9,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Purple 0.4",
+        "pen_id": "purple-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Purple",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#7e22ce",
+        "layers": [
+          "circuit_venue_purple"
+        ],
+        "path_count": 9,
+        "pen_down_distance_mm": 120.5,
+        "pen_up_travel_mm": 256.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 3.4,
+        "estimated_plot_seconds_including_pen_up": 6.6,
+        "instruction": "Load Purple 0.4 (purple-0-4) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Red 0.4",
+        "pen_id": "red-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "lap_centreline"
+        ],
+        "path_count": 3,
+        "pen_down_distance_mm": 1136.2,
+        "pen_up_travel_mm": 79.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 32.5,
+        "estimated_plot_seconds_including_pen_up": 33.5,
+        "instruction": "Load Red 0.4 (red-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Black 0.25",
+        "pen_id": "black-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "circuit_copy",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 520,
+        "pen_down_distance_mm": 2048.9,
+        "pen_up_travel_mm": 1718.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 58.5,
+        "estimated_plot_seconds_including_pen_up": 80.0,
+        "instruction": "Load Black 0.25 (black-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Black 0.6",
+        "pen_id": "black-0-6",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.6,
+        "nominal_nib_mm": 0.6,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 30,
+        "pen_down_distance_mm": 905.5,
+        "pen_up_travel_mm": 519.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.6,
+        "minimum_plot_seconds": 25.9,
+        "estimated_plot_seconds_including_pen_up": 32.4,
+        "instruction": "Load Black 0.6 (black-0-6) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape.svg",
+        "sha256": "f0c951dcd0d06564ece351383c3d54597337ca58f491730698a3d9f0753a2f7e"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape.pen-01-grey-0-25.svg",
+          "sha256": "971a6afba0c3ff209d3bc52d40f86174640fdaa27a3b888ac1ccb39c3f91fbb7"
+        },
+        {
+          "step": 2,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape.pen-02-green-0-25.svg",
+          "sha256": "2b50b2a7edbab43e4127550aef72c52442adfedb43516dfbc464a75db668e1d5"
+        },
+        {
+          "step": 3,
+          "pen": "Purple 0.4",
+          "pen_id": "purple-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape.pen-03-purple-0-4.svg",
+          "sha256": "f3fa22fe2742e4081fb4523a7809908e97b1cec9d7da19fa853e516cdf5a74ea"
+        },
+        {
+          "step": 4,
+          "pen": "Red 0.4",
+          "pen_id": "red-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape.pen-04-red-0-4.svg",
+          "sha256": "9d47d7f2ad157678af59e12a5a30c78596a1e5f64eef5d7274fbb44c1a35a69e"
+        },
+        {
+          "step": 5,
+          "pen": "Black 0.25",
+          "pen_id": "black-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape.pen-05-black-0-25.svg",
+          "sha256": "0cafd85c90122680f2624f97c6b5b5ae13bed3f5628ec9a8b61a83d533542806"
+        },
+        {
+          "step": 6,
+          "pen": "Black 0.6",
+          "pen_id": "black-0-6",
+          "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape.pen-06-black-0-6.svg",
+          "sha256": "647397248d75c41c139381ba8acba9553f192eb7eeb1f7babd54bd7d42010cc0"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/review-output/f1-circuit-atlas-legacy-v2.3-format-v1-2026-08-16-r2/plates/a5-landscape/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape.png",
+        "dpi": 254.0,
+        "sha256": "947f08d31708a3fe942a90e566601f52197ee833fcfa0ed133c16ee940c98fc1"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "27aa5f0c8ff5d6b09516cf2c43ee17433004fb5a0e587e63d6b3fcf4df3e10e3",
+        "png": "078325b3f8684f791040a9447e5369a42cc0f8f789319d0fea5ee3a911c35d20",
+        "manifest": "40ed4b14a57ffdb78b31a211699f1fece91785d9cd4439963e72a1bfa8e593dd"
+      },
+      "removed_visible_path_count": 65,
+      "removed_visible_copy_values": [
+        "OSM CONTRIBUTORS / OPENSTREETMAP.ORG/COPYRIGHT"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "06-f1-courses/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape.svg",
+    "sha256": "0faf052a7ed7b2b55794d916c1ec71926d18f6109f861c7c148925cf4fcb6e9b",
+    "bytes": 308731
+  },
+  "png": {
+    "path": "06-f1-courses/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape.png",
+    "sha256": "1bfebe78ec6695dfc5f2e2f1682cf0c2b264185ff6ca067e5d53636467e6a40c",
+    "bytes": 321297
+  },
+  "thumbnail": {
+    "path": "06-f1-courses/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape/thumbnail.png",
+    "sha256": "45d76d6b60a7c349caccfe8690cedd1708d1c97d7f830b02396ceae81d47ea54",
+    "bytes": 57114
+  },
+  "manifest": {
+    "path": "06-f1-courses/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape.plot.json",
+    "sha256": "ee68186be3a427f6ee769058dc326a94121d6a52545e40351af6346b49b159f4",
+    "bytes": 234749
+  },
+  "job": {
+    "path": "06-f1-courses/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape.plotjob.json",
+    "sha256": "0ab02acee5bca146c83d2827ac9d98ab3eaa629ae251ee68066fc9dba5f882bc",
+    "bytes": 411789
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "06-f1-courses/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape/pens/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape.pen-01-grey-0-25.svg",
+      "sha256": "df30f39be55b5474a2d02ea0f3472767bf842a00e514f07fae9be6465fdd959e",
+      "bytes": 38083
+    },
+    {
+      "step": 2,
+      "pen_id": "green-0-25",
+      "path": "06-f1-courses/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape/pens/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape.pen-02-green-0-25.svg",
+      "sha256": "f4ba74c18314b9705e866ad05ac9f3e22b92f174d1fce6529d62be6aff42a06d",
+      "bytes": 14494
+    },
+    {
+      "step": 3,
+      "pen_id": "purple-0-4",
+      "path": "06-f1-courses/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape/pens/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape.pen-03-purple-0-4.svg",
+      "sha256": "6d56cb7ef2b68239cd85a1222c2c9ab8cc56084f76d59c7b2a01b194cb5d5c46",
+      "bytes": 16112
+    },
+    {
+      "step": 4,
+      "pen_id": "red-0-4",
+      "path": "06-f1-courses/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape/pens/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape.pen-04-red-0-4.svg",
+      "sha256": "d0db475011cd7ebce1ef68275c39313418c66d7b4a8bba2210fa6c6d2b0a0be1",
+      "bytes": 24059
+    },
+    {
+      "step": 5,
+      "pen_id": "black-0-25",
+      "path": "06-f1-courses/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape/pens/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape.pen-05-black-0-25.svg",
+      "sha256": "9a404a0c88ed32937d004ad90a1927d9d133d0d7bee83ba078c12959b6f3d0fe",
+      "bytes": 239882
+    },
+    {
+      "step": 6,
+      "pen_id": "black-0-6",
+      "path": "06-f1-courses/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape/pens/brands-hatch-grand-prix-current-reference-1986--circuit-atlas-v2-a5-landscape.pen-06-black-0-6.svg",
+      "sha256": "647397248d75c41c139381ba8acba9553f192eb7eeb1f7babd54bd7d42010cc0",
+      "bytes": 15446
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 232,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "3.916 KM",
+    "BRANDS HATCH GP / 1986",
+    "CIRCUIT LAYOUT",
+    "CIRCUIT PLAN",
+    "COURSE",
+    "CURRENT COURSE / F1 REF 1986",
+    "CURRENT COURSE STUDY",
+    "CURRENT COURSE STUDY / F1 REFERENCE 1986",
+    "EDITION",
+    "F1 REFERENCE 1986",
+    "FORMULA 1",
+    "GRANDSTANDS",
+    "LENGTH 3.916 KM / F1 REFERENCE 1986",
+    "NORTH-UP COURSE PLAN",
+    "SOURCE CENTRELINE COURSE STUDY"
+  ],
+  "stroke_count": 530,
+  "pen_count": 6,
+  "physical_execution_allowed": false
+}

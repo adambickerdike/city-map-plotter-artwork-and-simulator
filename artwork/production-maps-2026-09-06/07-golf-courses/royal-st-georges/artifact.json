@@ -1,0 +1,511 @@
+{
+  "id": "royal-st-georges",
+  "domain": "07-golf-courses",
+  "title": "ROYAL ST GEORGE'S",
+  "artifact_version": 1,
+  "format_id": "a3-portrait",
+  "source": {
+    "svg_sha256": "cbf6e684779c12cb0e9a683d7045ffb347fe9d7b1d0ab984902bf8923d6ccc91",
+    "manifest_sha256": "12b81154d31daeadd520a9cfe559cb37e7785b9be12a974818e74994725e25ac",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/07-golf-courses/artwork/royal-st-georges.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 10,
+      "pen_changes": 9,
+      "pen_down_path_count": 729,
+      "pen_down_distance_mm": 12341.5,
+      "pen_up_travel_mm": 11934.2,
+      "travel_ratio": 0.967,
+      "estimated_plot_seconds_including_pen_up": 501.8,
+      "field_ink_mm2_upper_bound": 2933.5,
+      "field_ink_coverage_upper_bound": 0.045742,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "course_paths",
+          "bunkers",
+          "field_frame"
+        ],
+        "path_count": 145,
+        "pen_down_distance_mm": 1678.6,
+        "pen_up_travel_mm": 1984.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 48.0,
+        "estimated_plot_seconds_including_pen_up": 72.8,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "playing_envelope"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 905.2,
+        "pen_up_travel_mm": 150.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 25.9,
+        "estimated_plot_seconds_including_pen_up": 27.7,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "fairways"
+        ],
+        "path_count": 98,
+        "pen_down_distance_mm": 1743.5,
+        "pen_up_travel_mm": 1274.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 49.8,
+        "estimated_plot_seconds_including_pen_up": 65.7,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.4",
+        "pen_id": "green-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "greens_and_tees"
+        ],
+        "path_count": 91,
+        "pen_down_distance_mm": 798.5,
+        "pen_up_travel_mm": 1476.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 22.8,
+        "estimated_plot_seconds_including_pen_up": 41.3,
+        "instruction": "Load Green 0.4 (green-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water_stipple"
+        ],
+        "path_count": 40,
+        "pen_down_distance_mm": 44.7,
+        "pen_up_travel_mm": 519.9,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 1.3,
+        "estimated_plot_seconds_including_pen_up": 7.8,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Blue 0.4",
+        "pen_id": "blue-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water"
+        ],
+        "path_count": 3,
+        "pen_down_distance_mm": 82.6,
+        "pen_up_travel_mm": 395.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 2.4,
+        "estimated_plot_seconds_including_pen_up": 7.3,
+        "instruction": "Load Blue 0.4 (blue-0-4) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Red 0.25",
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hole_markers"
+        ],
+        "path_count": 36,
+        "pen_down_distance_mm": 441.9,
+        "pen_up_travel_mm": 1107.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 12.6,
+        "estimated_plot_seconds_including_pen_up": 26.5,
+        "instruction": "Load Red 0.25 (red-0-25) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "hole_numbers",
+          "course_buildings",
+          "map_reference",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 319,
+        "pen_down_distance_mm": 2358.4,
+        "pen_up_travel_mm": 3870.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 67.4,
+        "estimated_plot_seconds_including_pen_up": 115.8,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 9,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 24,
+        "pen_down_distance_mm": 3180.0,
+        "pen_up_travel_mm": 740.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 90.9,
+        "estimated_plot_seconds_including_pen_up": 100.1,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 09.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 10,
+        "pen": "Gold 1",
+        "pen_id": "gold-1",
+        "pen_profile": "actual-pens",
+        "ink": "Gold",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#b88900",
+        "layers": [
+          "holes"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 1108.1,
+        "pen_up_travel_mm": 414.7,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 31.7,
+        "estimated_plot_seconds_including_pen_up": 36.8,
+        "instruction": "Load Gold 1 (gold-1) and plot SVG layer 10.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-st-georges.svg",
+        "sha256": "cbf6e684779c12cb0e9a683d7045ffb347fe9d7b1d0ab984902bf8923d6ccc91"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-st-georges.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-st-georges.pen-01-grey-0-25.svg",
+          "sha256": "ba18124022795f5f16c000513da2599d85c589a7a11a3a404a3a32a67d405bee"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-st-georges.pen-02-grey-0-4.svg",
+          "sha256": "bea453a898f45777a8d4e4ca74b6ca5a47605e50eb18023ecf7aa1021ccbe137"
+        },
+        {
+          "step": 3,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-st-georges.pen-03-green-0-25.svg",
+          "sha256": "46b86668549ce23ed7c9258b3b763b039531412840c65d084f2f2bc0a6dab7c5"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.4",
+          "pen_id": "green-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-st-georges.pen-04-green-0-4.svg",
+          "sha256": "8c44cd4cb2a7d77228dc56f360051b49aed1585fb81a4d4ba456339c662ff1e5"
+        },
+        {
+          "step": 5,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-st-georges.pen-05-blue-0-25.svg",
+          "sha256": "c55ae2128b2718c9db7f807a3106253efb19bfa838496ee6eb894634c8f08fa8"
+        },
+        {
+          "step": 6,
+          "pen": "Blue 0.4",
+          "pen_id": "blue-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-st-georges.pen-06-blue-0-4.svg",
+          "sha256": "95e59e2581d36f2ae1a2e9d4b2884880d294b94bbd81c7ece675afb1ba6837ce"
+        },
+        {
+          "step": 7,
+          "pen": "Red 0.25",
+          "pen_id": "red-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-st-georges.pen-07-red-0-25.svg",
+          "sha256": "980650d3701702c024baf8824347a8111d4f487339892fa476bb08577c07797a"
+        },
+        {
+          "step": 8,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-st-georges.pen-08-black-0-4.svg",
+          "sha256": "5528a735dd745b226e3504761726fe2c45387281df48e1785465f328982f3612"
+        },
+        {
+          "step": 9,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-st-georges.pen-09-black-1.svg",
+          "sha256": "5cca2537b053d9a62b648089d13d591598974e0ab8b153a062f0dc72b90456ad"
+        },
+        {
+          "step": 10,
+          "pen": "Gold 1",
+          "pen_id": "gold-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-st-georges.pen-10-gold-1.svg",
+          "sha256": "4b2c127fa2a41796d38aef4b2f2201133157d3dc07bfbf161b56176b987a6a4e"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/royal-st-georges.png",
+        "dpi": 180.0,
+        "sha256": "4e00766bec5c37d38bff822bbecfdb5b1817702e96bd1fa65949bbee6a93befa"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "62e77b4ce6ccd66ecf81122d5f87642cde3b97598a23f02c3c32feaac8e2e7bc",
+        "png": "458682d67747c1514e4925e65f4c4877dea6753abb8e37820b53c5af71732ca8",
+        "manifest": "bbb776cf57310a8b49b68c346cd2d592f8320765be4c5b031937ea3bf5c6911b"
+      },
+      "removed_visible_path_count": 46,
+      "removed_visible_copy_values": [
+        "© OpenStreetMap contributors / ODbL-1.0"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "07-golf-courses/royal-st-georges/royal-st-georges.svg",
+    "sha256": "92f3d5662eecf67f7ccdb7445f1c05211f02bafaeb617af7a1d525aa40b7fcd9",
+    "bytes": 255268
+  },
+  "png": {
+    "path": "07-golf-courses/royal-st-georges/royal-st-georges.png",
+    "sha256": "7dadce8643ede1f8c401ee4168fccdb48f8cf0a94f940d30a3b77cc59a7e41b3",
+    "bytes": 929167
+  },
+  "thumbnail": {
+    "path": "07-golf-courses/royal-st-georges/thumbnail.png",
+    "sha256": "c8acb555671551ec97967057d565e02943f82b8a11ae8c475cc12e3da183db3d",
+    "bytes": 87113
+  },
+  "manifest": {
+    "path": "07-golf-courses/royal-st-georges/royal-st-georges.plot.json",
+    "sha256": "434066cd5164a4b72b0680960349bb8dc46f54efadebc8e2adc888bd9915fde5",
+    "bytes": 666880
+  },
+  "job": {
+    "path": "07-golf-courses/royal-st-georges/royal-st-georges.plotjob.json",
+    "sha256": "d0bc68d9a517b40c72aaaf238fdde73ebc54cf73060151a5f3478a1967572207",
+    "bytes": 502151
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "07-golf-courses/royal-st-georges/pens/royal-st-georges.pen-01-grey-0-25.svg",
+      "sha256": "c3f298d9e459236d6b67c6aace3e22b677d6ffeeba98adef97b07b8055ff2d1a",
+      "bytes": 64106
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "07-golf-courses/royal-st-georges/pens/royal-st-georges.pen-02-grey-0-4.svg",
+      "sha256": "a2e32d82b67c85bda3e25cbd622b9990f6dc338502d9b06920e9d160e227ac03",
+      "bytes": 7687
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "07-golf-courses/royal-st-georges/pens/royal-st-georges.pen-03-green-0-25.svg",
+      "sha256": "8a6401d3f99d0d68d2a685c561f42469b0bf46fe9a609ee754f39f01c84d0d7e",
+      "bytes": 51301
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-4",
+      "path": "07-golf-courses/royal-st-georges/pens/royal-st-georges.pen-04-green-0-4.svg",
+      "sha256": "91992d4b9377dd29f5d1d277bab677e8d859eb6e73c7dcd8fcd669a1bb2481a0",
+      "bytes": 41617
+    },
+    {
+      "step": 5,
+      "pen_id": "blue-0-25",
+      "path": "07-golf-courses/royal-st-georges/pens/royal-st-georges.pen-05-blue-0-25.svg",
+      "sha256": "603509467cf88ab0f2af6ba7fd9ae5fcbe4c6109ef3fbdc83da7e54a4013fe7c",
+      "bytes": 29210
+    },
+    {
+      "step": 6,
+      "pen_id": "blue-0-4",
+      "path": "07-golf-courses/royal-st-georges/pens/royal-st-georges.pen-06-blue-0-4.svg",
+      "sha256": "239218d88f5e9757fc1ea3e41ee083a04833c51f99a4779b541df366930af269",
+      "bytes": 5065
+    },
+    {
+      "step": 7,
+      "pen_id": "red-0-25",
+      "path": "07-golf-courses/royal-st-georges/pens/royal-st-georges.pen-07-red-0-25.svg",
+      "sha256": "26e9b26e55d75ac006d5b749e5e7b3c39f8c908bf4b144762680393acb69b48d",
+      "bytes": 22819
+    },
+    {
+      "step": 8,
+      "pen_id": "black-0-4",
+      "path": "07-golf-courses/royal-st-georges/pens/royal-st-georges.pen-08-black-0-4.svg",
+      "sha256": "2cf4c19a514a5d3caf3087e7519453e9485ffa56d20455e75c43eb4c20cb16bc",
+      "bytes": 37308
+    },
+    {
+      "step": 9,
+      "pen_id": "black-1",
+      "path": "07-golf-courses/royal-st-georges/pens/royal-st-georges.pen-09-black-1.svg",
+      "sha256": "147244edac3bd55df97f4a2c222b16c6a50b30e2dacfc367dae1473e400b4b14",
+      "bytes": 6613
+    },
+    {
+      "step": 10,
+      "pen_id": "gold-1",
+      "path": "07-golf-courses/royal-st-georges/pens/royal-st-georges.pen-10-gold-1.svg",
+      "sha256": "4b2c127fa2a41796d38aef4b2f2201133157d3dc07bfbf161b56176b987a6a4e",
+      "bytes": 9792
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 312,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "18 HOLES",
+    "ROYAL ST GEORGE'S",
+    "SANDWICH LINKS",
+    "SANDWICH, KENT / ENGLAND",
+    "THE OPEN VENUE"
+  ],
+  "stroke_count": 591,
+  "pen_count": 10,
+  "physical_execution_allowed": false
+}

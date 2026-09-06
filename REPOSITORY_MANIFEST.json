@@ -12,22 +12,26 @@
     "checksum_entry_count": 2463
   },
   "repository_assets": {
-    "png_count": 451,
-    "png_bytes": 829158683,
-    "svg_count": 483,
-    "svg_bytes": 1392621757,
+    "png_count": 1365,
+    "png_bytes": 1347423701,
+    "svg_count": 4620,
+    "svg_bytes": 3333672438,
     "git_lfs_patterns": [
       "*.png",
       "*.svg",
       "*.plot.json",
+      "*.plotjob.json",
+      "*.osm.pbf",
       "artwork/latest-map-portfolio-2026-08-18-v3/03-hiking-maps/contracts/hiking-data/hike-plates-release-v1.json",
       "artwork/latest-map-portfolio-2026-08-18-v3/06-f1-courses/code/src/city_map_plotter/data/f1-circuits-2026.json"
     ],
-    "git_lfs_tracked_path_count": 1364,
-    "git_lfs_approximate_bytes": 3214792160,
+    "git_lfs_tracked_path_count": 7336,
+    "git_lfs_approximate_bytes": 7678264978,
     "production_visible_provider_copy_audit": "passed",
-    "production_visible_provider_copy_svg_count": 483,
-    "production_visible_provider_copy_html_count": 18
+    "production_visible_provider_copy_svg_count": 4620,
+    "production_visible_provider_copy_html_count": 19,
+    "git_lfs_matching_path_count": 7339,
+    "git_lfs_matching_bytes": 7681371279
   },
   "standalone_releases": {
     "seaton_sluice_v8": {
@@ -97,5 +101,27 @@
       "removed_visible_provider_path_count": 46,
       "physical_execution_allowed": false
     }
+  },
+  "current_map_release": {
+    "release_id": "production-maps-2026-09-06",
+    "path": "artwork/production-maps-2026-09-06",
+    "catalog": "artwork/production-maps-2026-09-06/catalog.json",
+    "import_manifest": "artwork/production-maps-2026-09-06/SOFTWARE_IMPORT.json",
+    "map_count": 457,
+    "per_pen_svg_count": 3680,
+    "plot_job_count": 457,
+    "software_import_ready": true,
+    "physical_execution_allowed": false,
+    "city_header_policy": "city-header-left-stack-v1",
+    "city_headers_updated": 84
+  },
+  "website_examples": {
+    "path": "website-examples",
+    "index": "website-examples/README.md",
+    "manifest": "website-examples/manifest.json",
+    "example_count": 14,
+    "image_format": "WebP",
+    "image_bytes": 10503218,
+    "git_lfs_required_for_examples": false
   }
 }

@@ -1,0 +1,613 @@
+{
+  "schema_version": 1,
+  "source_date_epoch": 1788652800,
+  "header_layout_policy": "city-header-left-stack-v1",
+  "python": "3.13.9",
+  "source": {
+    "path": "sources/tyne-and-wear-2026-08-07.osm.pbf",
+    "sha256": "c4d25171f9a0d4dfb81cdfe602cdcbbd0fdbd270871d3276c0f1f9ca0c1fd01e",
+    "bytes": 19328636
+  },
+  "style": {
+    "path": "styles/university-memorabilia-v2.json",
+    "sha256": "d5bc3c092d6cc05bbbc9581b5463a043716cfd5a8b237f8df634a44d6b6f7910",
+    "bytes": 2496
+  },
+  "common_arguments": [
+    "--radius-km",
+    "RADIUS",
+    "--preset",
+    "a3-balanced-poster",
+    "--orientation",
+    "portrait",
+    "--layers",
+    "roads,water,railways,parks,buildings",
+    "--water-fill",
+    "dots",
+    "--landmark-buildings",
+    "--detail-profile",
+    "plotter-faithful",
+    "--simplify-mm",
+    "0.04",
+    "--road-style",
+    "centreline",
+    "--extent-fit",
+    "cover",
+    "--pen-profile",
+    "actual-pens",
+    "--no-scale-bar",
+    "--no-scale-detail",
+    "--optimise",
+    "--physical-audit",
+    "--split-by-pen",
+    "--frame",
+    "--title",
+    "NEWCASTLE",
+    "--attribution-mode",
+    "external",
+    "--external-attribution-placement",
+    "Accompanying product page, packaging and ATTRIBUTION.md"
+  ],
+  "editions": [
+    {
+      "id": "newcastle-city-a3-portrait",
+      "center": [
+        54.979,
+        -1.611
+      ],
+      "radius_km": 1.9,
+      "arguments": [
+        "--poster-layout",
+        "city-map"
+      ]
+    },
+    {
+      "id": "newcastle-university-a3-portrait",
+      "center": [
+        54.9805,
+        -1.6152
+      ],
+      "radius_km": 1.25,
+      "arguments": [
+        "--poster-layout",
+        "university-memorabilia",
+        "--memorabilia-variant",
+        "clean-personalised",
+        "--person-name",
+        "Newcastle University"
+      ]
+    }
+  ],
+  "renderer_files": [
+    {
+      "path": "renderer/src/city_map_plotter/__init__.py",
+      "sha256": "52ccd7d76050cb2941202fafcd3180b29af1a1f5f133749b3ae6e211279f0b95",
+      "bytes": 87
+    },
+    {
+      "path": "renderer/src/city_map_plotter/__main__.py",
+      "sha256": "3d2438ae92f4746e9ffaa1f837b1fe803f6281091d1f31f8c95643716f257d9a",
+      "bytes": 80
+    },
+    {
+      "path": "renderer/src/city_map_plotter/abstract_3d_scenes.py",
+      "sha256": "4ed4eb8d4647b432e0c5017a00e1bee1544f357be11da7756369bba131a4c79d",
+      "bytes": 29536
+    },
+    {
+      "path": "renderer/src/city_map_plotter/abstract_3d_scenes_expanded.py",
+      "sha256": "0abc8895c3f0abd20cd34230db7ecc65e7febf50ca4c9b2811f916278eac51fb",
+      "bytes": 75525
+    },
+    {
+      "path": "renderer/src/city_map_plotter/abstract_art.py",
+      "sha256": "085e65b74664246d2b586c9b25c6209dc28f60f54b13bc8cca7c338eaa506058",
+      "bytes": 83138
+    },
+    {
+      "path": "renderer/src/city_map_plotter/abstract_art_v2.py",
+      "sha256": "aac53598341ffc02c4578cc845749ac4f0accd7eb6f78e4d8238df47f4cd1e87",
+      "bytes": 14133
+    },
+    {
+      "path": "renderer/src/city_map_plotter/abstract_cli.py",
+      "sha256": "29bac9c6cd7efbb8c84be4527d861bad3714c2cce7138a98bbb28edfcfa2f10a",
+      "bytes": 15885
+    },
+    {
+      "path": "renderer/src/city_map_plotter/abstract_v2_cli.py",
+      "sha256": "6445cac12b536a4ab9a00b61fa0133d85f4c10d92cc2d7f93827baab6a5e558e",
+      "bytes": 19169
+    },
+    {
+      "path": "renderer/src/city_map_plotter/academic.py",
+      "sha256": "cd5fa590b4ae57073e6cd2876711c392aca18542f44dd74dfc0534770d137872",
+      "bytes": 136986
+    },
+    {
+      "path": "renderer/src/city_map_plotter/academic_cli.py",
+      "sha256": "81d6590d931ffaa20c7f38c5f2f7557d86f34b1850e9c8b3626f53f3237cdc12",
+      "bytes": 5076
+    },
+    {
+      "path": "renderer/src/city_map_plotter/architecture.py",
+      "sha256": "8d0a4e2cbea98eb16fc0a2727631ba358a7d85db330f4e4123d500e5051b413d",
+      "bytes": 57402
+    },
+    {
+      "path": "renderer/src/city_map_plotter/architecture_cli.py",
+      "sha256": "122e846c76cb74310c29b51d62547f26cc973305ba7fb978fd1957cc8190fa72",
+      "bytes": 17139
+    },
+    {
+      "path": "renderer/src/city_map_plotter/batch.py",
+      "sha256": "8e34893046f28c5b7c52cf01dd2ff7da9335a9764c4057f6c792ad4fc87504c4",
+      "bytes": 98817
+    },
+    {
+      "path": "renderer/src/city_map_plotter/bridge_cli.py",
+      "sha256": "01c9f95e583c2560d214840299bbcdbd0c0e5687afa408c5d1752eb2d82dbc0f",
+      "bytes": 20894
+    },
+    {
+      "path": "renderer/src/city_map_plotter/bridges.py",
+      "sha256": "1f3f54981ecf0b818282acd6f0cabb6f66b8e114903e8ca07becf7fe3571d94c",
+      "bytes": 61896
+    },
+    {
+      "path": "renderer/src/city_map_plotter/cartography.py",
+      "sha256": "1d52b8db733620712e14ec26e3010f9c4793e1bbd217a6169f3fe705e6f2e2a2",
+      "bytes": 200654
+    },
+    {
+      "path": "renderer/src/city_map_plotter/catalog.py",
+      "sha256": "0a0c8966099d0b573d19fb91aeedfde85b5d55b81eb04a617332d94b17767f02",
+      "bytes": 16293
+    },
+    {
+      "path": "renderer/src/city_map_plotter/cli.py",
+      "sha256": "ae9d958cf7588fc2693d3fafcf2c2df2c3840b012ce590cdeb31a114cade4304",
+      "bytes": 82128
+    },
+    {
+      "path": "renderer/src/city_map_plotter/completeness.py",
+      "sha256": "c5bb11df3faf3aeb6528929dad2f3b8671ddfdc60e95ff93e5764e57419b3cd7",
+      "bytes": 189858
+    },
+    {
+      "path": "renderer/src/city_map_plotter/course.py",
+      "sha256": "f31c5da8cacd47b3b0a6b4b2c42c4e10011452d1795ce2d72413c98e69a4b3fc",
+      "bytes": 25460
+    },
+    {
+      "path": "renderer/src/city_map_plotter/crew.py",
+      "sha256": "950c544998e2e31dbae0fe8791b797c02621a3fb782485e2fe5a167bbccc9b34",
+      "bytes": 10748
+    },
+    {
+      "path": "renderer/src/city_map_plotter/data/catalog-v1.json",
+      "sha256": "fac118eab3b597c9629975ac3b57d7be6514032f2c6527252f1ff6eba780295f",
+      "bytes": 117696
+    },
+    {
+      "path": "renderer/src/city_map_plotter/data/format-v1.json",
+      "sha256": "50e700d8b015dd9421d5e6f670bef894e73393b0c5eaa32521c4ff79198bb6f6",
+      "bytes": 71122
+    },
+    {
+      "path": "renderer/src/city_map_plotter/data/hershey-serif-medium.json",
+      "sha256": "8c19d5b94c9e42e4ba3c70210424ad1528b99714654382e6cb2e6c987eeec0b0",
+      "bytes": 136357
+    },
+    {
+      "path": "renderer/src/city_map_plotter/data/ranked-universities-2026-v1.json",
+      "sha256": "9a58174a4e13f0ac7a66f9a91d4789d63ca71cdcb7d899d534731deca4f1e5fe",
+      "bytes": 99535
+    },
+    {
+      "path": "renderer/src/city_map_plotter/data/rowing-courses-v1.json",
+      "sha256": "6b44adefb4eace975578b95d7cda555ad3e8da1cc0928ae5a3f670a368becfe8",
+      "bytes": 56997
+    },
+    {
+      "path": "renderer/src/city_map_plotter/data/themes-v1.json",
+      "sha256": "0612e7145059da24978507d5d7b2523fa727886999a92008fa7688e9d9ff7fa1",
+      "bytes": 16875
+    },
+    {
+      "path": "renderer/src/city_map_plotter/display_font.py",
+      "sha256": "ac0908c27c14d8e186fa1dfe544c7238cfdb157b4a6886e2d8ea48d324e8d465",
+      "bytes": 4349
+    },
+    {
+      "path": "renderer/src/city_map_plotter/f1_circuits.py",
+      "sha256": "9cfc6604990f92e6afd1dc82f430aad54ceaa44de9cc102a3e41b794f458de27",
+      "bytes": 298500
+    },
+    {
+      "path": "renderer/src/city_map_plotter/f1_cli.py",
+      "sha256": "ff8af91a0cb4ff15f31fa13e343b0c116faac294d569b0b4430a6ac2e921fa32",
+      "bytes": 11190
+    },
+    {
+      "path": "renderer/src/city_map_plotter/f1_legacy.py",
+      "sha256": "3b8bc16d9e3e3e497c37b0ab57fcf2ef5f946f6e6f7603f991aea61df8dc5c0c",
+      "bytes": 12106
+    },
+    {
+      "path": "renderer/src/city_map_plotter/features.py",
+      "sha256": "1dc62dd3c2a769eec6ea3e9407d0d6447b68b45359885dc03a4bd7802885eb46",
+      "bytes": 33496
+    },
+    {
+      "path": "renderer/src/city_map_plotter/furniture.py",
+      "sha256": "0bde52e280e96fd99c4cddd1e230713454783fa6b3c1b7515f623bc5b6563f48",
+      "bytes": 160431
+    },
+    {
+      "path": "renderer/src/city_map_plotter/geometry.py",
+      "sha256": "8da916a163da878528271418477bcb5008f9f1bb76f4a12f336d84ef9df67777",
+      "bytes": 24295
+    },
+    {
+      "path": "renderer/src/city_map_plotter/golf.py",
+      "sha256": "109c11e54aa9daf7080aea4e9f256e144178f321a8f9016a541ef7485b987dae",
+      "bytes": 101308
+    },
+    {
+      "path": "renderer/src/city_map_plotter/golf_cli.py",
+      "sha256": "97f93ce8022282e597a314ace0d08d9ec04357e5e78e3d41ae4465618dac9427",
+      "bytes": 17568
+    },
+    {
+      "path": "renderer/src/city_map_plotter/hike_plates.py",
+      "sha256": "c376047824347b6430a0b8afc2128e7e2307a82ca2c6342b158eb5a8edd96919",
+      "bytes": 446130
+    },
+    {
+      "path": "renderer/src/city_map_plotter/ink_budget.py",
+      "sha256": "d655cefb6dde51025ebbbc7682594fb4828dc67ad063b429d794825e155f8f0a",
+      "bytes": 66147
+    },
+    {
+      "path": "renderer/src/city_map_plotter/models.py",
+      "sha256": "9d99ade562b1810743d95bcd450901f9e8b6d04ff6886bb96148ae2e9a00aa0e",
+      "bytes": 8815
+    },
+    {
+      "path": "renderer/src/city_map_plotter/motorsport_circuits.py",
+      "sha256": "ee9f5821a1c02e3a53c2222e3c0023bcb7ae2aba2dea4177e35761cc1edc5860",
+      "bytes": 4557
+    },
+    {
+      "path": "renderer/src/city_map_plotter/motorsport_cli.py",
+      "sha256": "2d6dc17271ff5f4c88d384b9c64be967c39a5f37ef110135708d74ce1cb3b83a",
+      "bytes": 2555
+    },
+    {
+      "path": "renderer/src/city_map_plotter/niche_cli.py",
+      "sha256": "cf824e3e4e92c09caef2f53ef0ca2a6c255954ca250a4f986699f9e025dafd22",
+      "bytes": 24836
+    },
+    {
+      "path": "renderer/src/city_map_plotter/niche_common.py",
+      "sha256": "9bbd0d37ac09718e77171919287caed2cb703f09a3ec85f59517edc74cd803ca",
+      "bytes": 81704
+    },
+    {
+      "path": "renderer/src/city_map_plotter/osm.py",
+      "sha256": "5d01e5876e88707c553a5b35b202ea3b48bd1defc49304cbd890f2d53c48751f",
+      "bytes": 32277
+    },
+    {
+      "path": "renderer/src/city_map_plotter/pbf.py",
+      "sha256": "a2b1b72edd0b44987e656f51f0199abfe6bc6af482763f55cd4bd6aa5bd1c054",
+      "bytes": 41016
+    },
+    {
+      "path": "renderer/src/city_map_plotter/pens.py",
+      "sha256": "94afe575822a1658aa568532796ea94fe93a1d8167b6c4cf4ca9865fd49be0d6",
+      "bytes": 61541
+    },
+    {
+      "path": "renderer/src/city_map_plotter/physical.py",
+      "sha256": "398a7a3c1abb22362074ebc2db48d0520c4676dc1c00faa769a4bfa959b9babf",
+      "bytes": 61124
+    },
+    {
+      "path": "renderer/src/city_map_plotter/place_art.py",
+      "sha256": "b24a9c28520649da98c828a8740cb5f6df9001e568476fa2519af1d8357fb577",
+      "bytes": 150531
+    },
+    {
+      "path": "renderer/src/city_map_plotter/place_cli.py",
+      "sha256": "cf5d3549be44fed28973f64e49db517457a13559816cbbfbf251ca25409882c6",
+      "bytes": 7704
+    },
+    {
+      "path": "renderer/src/city_map_plotter/plot3d.py",
+      "sha256": "a221b8814774392cc8ab41d2e231647fe0fd338fc2519dd0c2442174a26210c7",
+      "bytes": 34555
+    },
+    {
+      "path": "renderer/src/city_map_plotter/plotopt.py",
+      "sha256": "4f1a7c525c57bf471287dfc2407ff0e71dcde8e916f8b5b245ee1f4dd6e5715d",
+      "bytes": 14084
+    },
+    {
+      "path": "renderer/src/city_map_plotter/production_copy.py",
+      "sha256": "3ced3026b255585ae61e9a8c16c7e30b3292b636f30952082952316091216195",
+      "bytes": 10447
+    },
+    {
+      "path": "renderer/src/city_map_plotter/production_header.py",
+      "sha256": "744298b853413f8e7bf07785b24f0cb161dbb2ca9b133bf4ef45b677eb11cf77",
+      "bytes": 7932
+    },
+    {
+      "path": "renderer/src/city_map_plotter/quality.py",
+      "sha256": "c5cfdc3a0f7b3d051f2a9c6dc83143d8bc44fe9195f4b79bf47b1fe1597b1d3e",
+      "bytes": 12291
+    },
+    {
+      "path": "renderer/src/city_map_plotter/render_contract.py",
+      "sha256": "440a2d7f63deb24f7c55b3efdeb6201b67c4cf2000388f5c8d79efce92c624e9",
+      "bytes": 7174
+    },
+    {
+      "path": "renderer/src/city_map_plotter/retrace_audit.py",
+      "sha256": "135afa268266eb8d13a0620a10e100da37276938adc9f340db6e659d528b8bb1",
+      "bytes": 33307
+    },
+    {
+      "path": "renderer/src/city_map_plotter/route_chainage.py",
+      "sha256": "347b05fd3a464d89f6e9e2cfe5b0fcf68a1a6142c6616eff4ca73a466c5c75b8",
+      "bytes": 23426
+    },
+    {
+      "path": "renderer/src/city_map_plotter/rowing.py",
+      "sha256": "f8da194f3e95a6be74abc0876a175f4d7905a421ca56cf0080252960fc1c0356",
+      "bytes": 16936
+    },
+    {
+      "path": "renderer/src/city_map_plotter/scientific_assets.py",
+      "sha256": "c9093d0760873fc14f9e9fbe9e0eb6fda3f6c4b2c6d1fb5c6bd460ff43f5e0a3",
+      "bytes": 20347
+    },
+    {
+      "path": "renderer/src/city_map_plotter/scientific_data.py",
+      "sha256": "334226c8ff57ae8fec07bb38d0c28bb41dda55efda259efbf53320e2db37721e",
+      "bytes": 21450
+    },
+    {
+      "path": "renderer/src/city_map_plotter/scientific_math.py",
+      "sha256": "7e96585951caa83708a1b9fb1423caaeb1b19a0a60f7f74fdfdd454f23b29c97",
+      "bytes": 21834
+    },
+    {
+      "path": "renderer/src/city_map_plotter/sports.py",
+      "sha256": "45dc919b299942e59d9103e2ee268eb74796603b79e32d8e0aff46aae480b2d9",
+      "bytes": 136097
+    },
+    {
+      "path": "renderer/src/city_map_plotter/sports_cli.py",
+      "sha256": "66840d14accedb5ad323916ffe1558a70074dd629bdd102c220bec91c4311386",
+      "bytes": 8562
+    },
+    {
+      "path": "renderer/src/city_map_plotter/sports_route.py",
+      "sha256": "fe0bf3111754a4cb133138eb8d8160af855886d43edd93b5e539e9fb1356a57e",
+      "bytes": 46957
+    },
+    {
+      "path": "renderer/src/city_map_plotter/stroke_font.py",
+      "sha256": "d6a83ce73261f9b9cab9e8276097e9c9b05d537ad36592bd5a501a5f16efd18f",
+      "bytes": 28830
+    },
+    {
+      "path": "renderer/src/city_map_plotter/styles.py",
+      "sha256": "c1720c914f3fb0161fea01c88f35aeffb467db54e46e63096bf1d03925badcf7",
+      "bytes": 17508
+    },
+    {
+      "path": "renderer/src/city_map_plotter/svg.py",
+      "sha256": "f5d5dd714fc78df9d6f0bcaa8d359364b8e1e96844eb31f4b480117b5a348524",
+      "bytes": 124667
+    },
+    {
+      "path": "renderer/src/city_map_plotter/svgkit.py",
+      "sha256": "8c282bc5908f5e9c91f94d6b1c62b8f908ba84e5bdecce035538552eed09b52f",
+      "bytes": 14634
+    },
+    {
+      "path": "renderer/src/city_map_plotter/technical.py",
+      "sha256": "7208553979188121a5ed57ac0df4b6eb8548ca7ceb9c865b74640447bac8464c",
+      "bytes": 122069
+    },
+    {
+      "path": "renderer/src/city_map_plotter/technical_assets.py",
+      "sha256": "5acae11fae9217aec19eb81792f26e4d1190cb05db82ffd3cbcc01c872afb594",
+      "bytes": 21227
+    },
+    {
+      "path": "renderer/src/city_map_plotter/technical_cli.py",
+      "sha256": "7f11fd3c153c2e7830e9186de46532e9752129cdceb8c7fddf002555e2a1925a",
+      "bytes": 48302
+    },
+    {
+      "path": "renderer/src/city_map_plotter/technical_collections.py",
+      "sha256": "7ab2c27c9be05fd2e4c900e7cea6f22625cdd09820ee04ff9c311dec4fc4e750",
+      "bytes": 253200
+    },
+    {
+      "path": "renderer/src/city_map_plotter/technical_geometry.py",
+      "sha256": "e856e723a3df914ddd6a3917ee68050310a7e6d3cbfd22f77ee6065bc613e5b4",
+      "bytes": 50789
+    },
+    {
+      "path": "renderer/src/city_map_plotter/technical_pdf.py",
+      "sha256": "b6628ab25ac32b4690498deddd98f8acd9e14424f220ef54059f9436b9b3799a",
+      "bytes": 40837
+    },
+    {
+      "path": "renderer/src/city_map_plotter/technical_raster.py",
+      "sha256": "703fa975c242acd5b979bb2b98ceb75a797bc49ecfd6d3d3789a5f292cba8dc5",
+      "bytes": 35713
+    },
+    {
+      "path": "renderer/src/city_map_plotter/technical_source_audit.py",
+      "sha256": "3baadc9965bdd9b49e4ebca04b26869744b84bed45bb29aaaaee48a4ff73cc12",
+      "bytes": 68679
+    },
+    {
+      "path": "renderer/src/city_map_plotter/textweight.py",
+      "sha256": "551901ff69bf2a99a9f44098d7a91ba6b3ec6e9e0ee9c049951078351538dfad",
+      "bytes": 8195
+    },
+    {
+      "path": "renderer/src/city_map_plotter/themes.py",
+      "sha256": "0c4abb5a0ca8e770d4b8f35362f1c787584a25664253a02273d395f7af260493",
+      "bytes": 52011
+    },
+    {
+      "path": "renderer/src/city_map_plotter/topology.py",
+      "sha256": "80437ba5aede3d6793ea10c2a890816d97202d172c2f49866ff902f18a44e23a",
+      "bytes": 46919
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit.py",
+      "sha256": "d3dbce94a6eda07746c237badc81a9358e9efcf8900832b2222c96f3e73e7493",
+      "bytes": 43605
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_cli.py",
+      "sha256": "fd2c171cfb2c60fc1ac6ee19c490f7de8907ab2e2c126875012d4234dc5d7a56",
+      "bytes": 30751
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_composition.py",
+      "sha256": "bfb6c6a08b742ae6e3fe5687300a7951184e33d9688d8aa35d2d4d7aa41ce0eb",
+      "bytes": 8268
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_context.py",
+      "sha256": "ff7d99daa4fb19b992a0f5de5cf5974be54328beeafdf0697df3c6eca173d86a",
+      "bytes": 27404
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_extent.py",
+      "sha256": "9fd17778b1a6923839252fe2ec05005cb6b93c7633572dba0bdae91a67644583",
+      "bytes": 7294
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_national_rail.py",
+      "sha256": "55d79fcd21d13255e4662c0a0d4e3c9c07f660158136c36d8304cfa0f89d019d",
+      "bytes": 48795
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_operator_candidates.py",
+      "sha256": "9d1cc5f2b5f7b1f6fe9354f39ed1269d41ace2fa75d39f71d553a6ecb6fa7595",
+      "bytes": 34981
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_operator_cartographic_corridor.py",
+      "sha256": "458e790b6817b6b6950418f20dc33d22f8b986e3b60df92a13f8542f5f9277ab",
+      "bytes": 83758
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_operator_compile.py",
+      "sha256": "b2d713826c7e459cfd2c169b46f7b9e1dcd37b2b6d13e90976f5ff0ce915d34d",
+      "bytes": 65145
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_operator_corridor.py",
+      "sha256": "25351df0409dd43917011f0159b1a1b1ce77fe88b7f27c120f52664bad315237",
+      "bytes": 43573
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_operator_manifest.py",
+      "sha256": "28a32174be832065462d761f841f5293124ba39488e081a6c976d388ac9bc865",
+      "bytes": 35406
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_operator_mixed_overview.py",
+      "sha256": "3e8f095411d3ab36dbeae1aaabbfd42a124adef41980fe437c3446dafef88732",
+      "bytes": 97145
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_operator_overview.py",
+      "sha256": "7d80a33630a57af7211c09f76a12cce991c214344d0857c0e30101b9d72935eb",
+      "bytes": 30555
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_operator_registry.py",
+      "sha256": "40e23224808170d9b00de5d7afff1581e36cefc7e8dad97e5ac7fb4eb8f7800c",
+      "bytes": 12123
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_operator_relations.py",
+      "sha256": "da0289d525aa27d50e39c99aa2791d137b5a95a6404c9f4b14f53d4026c93d49",
+      "bytes": 20923
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_operator_snapshot.py",
+      "sha256": "fcc175ae18c62d46df1a8e1aa02a050e821ae3bc6fd2101c3c4a5411e0c2b232",
+      "bytes": 52829
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_osm_coastline.py",
+      "sha256": "a559582329febbd4ae2c310a4e21c2b550cadbe27a0323ab5adcf6d6cd066634",
+      "bytes": 28072
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_rail_graph.py",
+      "sha256": "39913f247a570ec66c045e5aa927b325aa95b23a939c0d0b39c22d75422b8553",
+      "bytes": 50460
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_rail_svg.py",
+      "sha256": "15eed1eddc948151b407a1afcef847048051bd75449b6a13d96c0d29ec6916de",
+      "bytes": 69006
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_source.py",
+      "sha256": "fca600e5bff0f34d22553fa81082e4afba9738642c58e18f586d74dc6e8cd463",
+      "bytes": 57821
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_svg.py",
+      "sha256": "01914be501f26f333b118e89bf6b42fe3e3de2f97ffbbfedfe1f5912b3068cd3",
+      "bytes": 220484
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_tfgm.py",
+      "sha256": "60f5de0cb3bab0df205d5da153e839bfb4048944ca75a697d63aaaadff0d6b22",
+      "bytes": 68981
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_topology.py",
+      "sha256": "6e26fd5de12f4e021a108cc56bf3ae030f631a80234979e508c157e8bdb35e07",
+      "bytes": 112417
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_wtt.py",
+      "sha256": "100620a7a304a87c4839316d2272d074eef6e70d152b6e27cb19e74d2f8e3177",
+      "bytes": 40674
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_zoomstack.py",
+      "sha256": "d7c3af88b93a843b9bf4c8aa363db1c0cf74ee0508c12356b38d50e0a2470a7b",
+      "bytes": 55992
+    },
+    {
+      "path": "renderer/src/city_map_plotter/transit_zoomstack_context.py",
+      "sha256": "d1e0d3617ad93b08a2c444b4f4c5861c21f4efc7b7fcd0b55597002381600256",
+      "bytes": 32880
+    },
+    {
+      "path": "renderer/src/city_map_plotter/vector_path.py",
+      "sha256": "e9e4e6d1134aace4a8986c0a9290645d0eac6c8621e8f12ceb29dedcd18515e3",
+      "bytes": 27000
+    }
+  ]
+}

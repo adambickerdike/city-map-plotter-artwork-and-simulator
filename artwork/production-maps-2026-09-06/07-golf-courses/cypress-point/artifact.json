@@ -1,0 +1,471 @@
+{
+  "id": "cypress-point",
+  "domain": "07-golf-courses",
+  "title": "CYPRESS POINT CLUB",
+  "artifact_version": 1,
+  "format_id": "a3-portrait",
+  "source": {
+    "svg_sha256": "0c8807646ef6f4e9c5589ef766ab06884927279b1cf90844666b174956faefe8",
+    "manifest_sha256": "eb7609d920fe49c49c4abc0127a3b40e1fcbaf4f3b68ca31e247d429f4c636d6",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/07-golf-courses/artwork/cypress-point.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 9,
+      "pen_changes": 8,
+      "pen_down_path_count": 711,
+      "pen_down_distance_mm": 13304.7,
+      "pen_up_travel_mm": 10039.9,
+      "travel_ratio": 0.755,
+      "estimated_plot_seconds_including_pen_up": 505.6,
+      "field_ink_mm2_upper_bound": 2941.4,
+      "field_ink_coverage_upper_bound": 0.045864,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "course_paths",
+          "bunkers",
+          "field_frame"
+        ],
+        "path_count": 160,
+        "pen_down_distance_mm": 2811.9,
+        "pen_up_travel_mm": 2177.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 80.3,
+        "estimated_plot_seconds_including_pen_up": 107.6,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Grey 0.4",
+        "pen_id": "grey-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "playing_envelope"
+        ],
+        "path_count": 1,
+        "pen_down_distance_mm": 787.6,
+        "pen_up_travel_mm": 81.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 22.5,
+        "estimated_plot_seconds_including_pen_up": 23.5,
+        "instruction": "Load Grey 0.4 (grey-0-4) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "fairways"
+        ],
+        "path_count": 88,
+        "pen_down_distance_mm": 1958.0,
+        "pen_up_travel_mm": 926.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 55.9,
+        "estimated_plot_seconds_including_pen_up": 67.5,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Green 0.4",
+        "pen_id": "green-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "greens_and_tees"
+        ],
+        "path_count": 70,
+        "pen_down_distance_mm": 542.9,
+        "pen_up_travel_mm": 1115.0,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 15.5,
+        "estimated_plot_seconds_including_pen_up": 29.4,
+        "instruction": "Load Green 0.4 (green-0-4) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "water_stipple"
+        ],
+        "path_count": 6,
+        "pen_down_distance_mm": 6.7,
+        "pen_up_travel_mm": 164.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 0.2,
+        "estimated_plot_seconds_including_pen_up": 2.2,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Red 0.25",
+        "pen_id": "red-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hole_markers"
+        ],
+        "path_count": 36,
+        "pen_down_distance_mm": 465.9,
+        "pen_up_travel_mm": 987.8,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 13.3,
+        "estimated_plot_seconds_including_pen_up": 25.7,
+        "instruction": "Load Red 0.25 (red-0-25) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 7,
+        "pen": "Black 0.4",
+        "pen_id": "black-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "hole_numbers",
+          "map_reference",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 353,
+        "pen_down_distance_mm": 2527.2,
+        "pen_up_travel_mm": 3492.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 72.2,
+        "estimated_plot_seconds_including_pen_up": 115.9,
+        "instruction": "Load Black 0.4 (black-0-4) and plot SVG layer 07.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 8,
+        "pen": "Black 1",
+        "pen_id": "black-1",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 25,
+        "pen_down_distance_mm": 3224.9,
+        "pen_up_travel_mm": 724.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 92.1,
+        "estimated_plot_seconds_including_pen_up": 101.2,
+        "instruction": "Load Black 1 (black-1) and plot SVG layer 08.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 9,
+        "pen": "Gold 1",
+        "pen_id": "gold-1",
+        "pen_profile": "actual-pens",
+        "ink": "Gold",
+        "nib_mm": 1.0,
+        "nominal_nib_mm": 1.0,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#b88900",
+        "layers": [
+          "holes"
+        ],
+        "path_count": 18,
+        "pen_down_distance_mm": 979.7,
+        "pen_up_travel_mm": 372.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 1.0,
+        "minimum_plot_seconds": 28.0,
+        "estimated_plot_seconds_including_pen_up": 32.6,
+        "instruction": "Load Gold 1 (gold-1) and plot SVG layer 09.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/cypress-point.svg",
+        "sha256": "0c8807646ef6f4e9c5589ef766ab06884927279b1cf90844666b174956faefe8"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/cypress-point.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/cypress-point.pen-01-grey-0-25.svg",
+          "sha256": "dba81cb3f0148c3f52acec20084184a96d4498c32a6816c7c17b79f0f7e0e14b"
+        },
+        {
+          "step": 2,
+          "pen": "Grey 0.4",
+          "pen_id": "grey-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/cypress-point.pen-02-grey-0-4.svg",
+          "sha256": "24219b91b0ad1391003b5e86f8e02c9ac556e270d34421dd9a91911acd22f145"
+        },
+        {
+          "step": 3,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/cypress-point.pen-03-green-0-25.svg",
+          "sha256": "2f3b953d1ebd068a07058d93017976e6c39e2d0b99c086685b8bde0ac81e241f"
+        },
+        {
+          "step": 4,
+          "pen": "Green 0.4",
+          "pen_id": "green-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/cypress-point.pen-04-green-0-4.svg",
+          "sha256": "013f6616c93841a0501c828034d10486b6e0be4d87a3dd5dbd54c4cdd55c115a"
+        },
+        {
+          "step": 5,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/cypress-point.pen-05-blue-0-25.svg",
+          "sha256": "cb9fbcb2b389c033199a1ace32fd6dcedff411d09212bbb2fba834d2d3ec4bdb"
+        },
+        {
+          "step": 6,
+          "pen": "Red 0.25",
+          "pen_id": "red-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/cypress-point.pen-06-red-0-25.svg",
+          "sha256": "73b6bc8b0c3fc5d90450f0a0cdda3326a915e9aee9053049d6d767c7d26a0690"
+        },
+        {
+          "step": 7,
+          "pen": "Black 0.4",
+          "pen_id": "black-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/cypress-point.pen-07-black-0-4.svg",
+          "sha256": "5a58e3fdf30e64f2889578bd911b1962c2ffe77749038526eac21e8a79cb11fe"
+        },
+        {
+          "step": 8,
+          "pen": "Black 1",
+          "pen_id": "black-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/cypress-point.pen-08-black-1.svg",
+          "sha256": "76a1d80e2082fe28145065eb03aa1c75c680b3beba9088fb49d79c1601919c9b"
+        },
+        {
+          "step": 9,
+          "pen": "Gold 1",
+          "pen_id": "gold-1",
+          "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/cypress-point.pen-09-gold-1.svg",
+          "sha256": "325f3d629d222f80f3870ac86ccbc1c1b3fad1191d3c2583fc43fd60e1c6b957"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/golf-course-series-v4/cypress-point.png",
+        "dpi": 180.0,
+        "sha256": "265a800d9b103ed79cbe780e494ab8c97b015e05249b11a53290e26483500c4e"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "f036e70794e02bd06e0e2a442349f3c109a9dec95330d1002797d88c8039bdcf",
+        "png": "a6ca343d4618f6028bb91e64f54b10283d2bc2297d41ade38987928017fe7db6",
+        "manifest": "9daf35df4950c74b8203fe2ed47f13e6f7fb29653a170068585946f0c2591ac9"
+      },
+      "removed_visible_path_count": 46,
+      "removed_visible_copy_values": [
+        "© OpenStreetMap contributors / ODbL-1.0"
+      ],
+      "remaining_visible_attribution_copy_values": [],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "07-golf-courses/cypress-point/cypress-point.svg",
+    "sha256": "bcb1cdf5aae7a8c0db81b838c324b9272db98a3da9ed215b6ca07452409bf060",
+    "bytes": 269581
+  },
+  "png": {
+    "path": "07-golf-courses/cypress-point/cypress-point.png",
+    "sha256": "3807614a9ea6a3b09c89d6647796ffe99776a14a4a5914f3cd02a7751cd4e77e",
+    "bytes": 989222
+  },
+  "thumbnail": {
+    "path": "07-golf-courses/cypress-point/thumbnail.png",
+    "sha256": "56e3a7f90889ba397c06ef97c7b5ec6605acea147c9da71febed670908e280cf",
+    "bytes": 88100
+  },
+  "manifest": {
+    "path": "07-golf-courses/cypress-point/cypress-point.plot.json",
+    "sha256": "ca263626274f148f79550bc4e9b321a75642c01170fae1de92f7dad500b724a2",
+    "bytes": 851216
+  },
+  "job": {
+    "path": "07-golf-courses/cypress-point/cypress-point.plotjob.json",
+    "sha256": "0c44b87f3c25a0e1a3ba77c0e4082e800060ca4ad80e6774463d960bab363edb",
+    "bytes": 636873
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "07-golf-courses/cypress-point/pens/cypress-point.pen-01-grey-0-25.svg",
+      "sha256": "0047e2a6624ef221cc81ba96684cb9f72cbc33bf22d432e6ff73f3e3bf1f60b2",
+      "bytes": 99975
+    },
+    {
+      "step": 2,
+      "pen_id": "grey-0-4",
+      "path": "07-golf-courses/cypress-point/pens/cypress-point.pen-02-grey-0-4.svg",
+      "sha256": "ccabd0de6353939b767ade2050e5630d51e8cb389b98ec39a59a1d0de7790b11",
+      "bytes": 7239
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "07-golf-courses/cypress-point/pens/cypress-point.pen-03-green-0-25.svg",
+      "sha256": "3a7515acd9bf51079ba9acadda2e6a03a947f13e127f43cf332e6094566caf58",
+      "bytes": 56936
+    },
+    {
+      "step": 4,
+      "pen_id": "green-0-4",
+      "path": "07-golf-courses/cypress-point/pens/cypress-point.pen-04-green-0-4.svg",
+      "sha256": "53720f199976825853d0a20bc02f4b383f3537768b1eb1bbc093e13b2e5b244b",
+      "bytes": 34598
+    },
+    {
+      "step": 5,
+      "pen_id": "blue-0-25",
+      "path": "07-golf-courses/cypress-point/pens/cypress-point.pen-05-blue-0-25.svg",
+      "sha256": "ba7401448474a5115d7ed18ef7a95901c33c9c9e870f9a1b614ced5c3141a1ae",
+      "bytes": 7113
+    },
+    {
+      "step": 6,
+      "pen_id": "red-0-25",
+      "path": "07-golf-courses/cypress-point/pens/cypress-point.pen-06-red-0-25.svg",
+      "sha256": "5738024032a2fc6dfb46bdb7159631a933a439376a1f489fddbbfef52477bd66",
+      "bytes": 22904
+    },
+    {
+      "step": 7,
+      "pen_id": "black-0-4",
+      "path": "07-golf-courses/cypress-point/pens/cypress-point.pen-07-black-0-4.svg",
+      "sha256": "d9432b91e82d5b244b81a2a0b87a048f6205ba171d15eff6f17c7b1f62fc102b",
+      "bytes": 41915
+    },
+    {
+      "step": 8,
+      "pen_id": "black-1",
+      "path": "07-golf-courses/cypress-point/pens/cypress-point.pen-08-black-1.svg",
+      "sha256": "a926eba74b9aff78c99d7c97bd70acf9acdf0969962f958f6eb60eab8f2d2814",
+      "bytes": 6769
+    },
+    {
+      "step": 9,
+      "pen_id": "gold-1",
+      "path": "07-golf-courses/cypress-point/pens/cypress-point.pen-09-gold-1.svg",
+      "sha256": "325f3d629d222f80f3870ac86ccbc1c1b3fad1191d3c2583fc43fd60e1c6b957",
+      "bytes": 9812
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 288,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "18 HOLES",
+    "COASTAL COURSE",
+    "CYPRESS POINT CLUB",
+    "MONTEREY PENINSULA",
+    "PEBBLE BEACH, CALIFORNIA / UNITED STATES"
+  ],
+  "stroke_count": 571,
+  "pen_count": 9,
+  "physical_execution_allowed": false
+}

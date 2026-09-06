@@ -1,0 +1,355 @@
+{
+  "id": "RTE-CA-WCT-01--detailed-map",
+  "domain": "03-hiking-maps",
+  "title": "WEST COAST TRAIL",
+  "artifact_version": 1,
+  "format_id": "a5-landscape",
+  "source": {
+    "svg_sha256": "0e2db16c97b77aa7706d8bc20b86fc051b99f19addd7ea36996915c009761e4c",
+    "manifest_sha256": "da1ce3fc6a92d2a8d9500d33413bf6e980185f3bc99eba4afedb04d2fd0ca584",
+    "path": "artwork/latest-map-portfolio-2026-08-18-v3/03-hiking-maps/artwork/RTE-CA-WCT-01--detailed-map.svg",
+    "original_plot_summary": {
+      "physical_pen_steps": 6,
+      "pen_changes": 5,
+      "pen_down_path_count": 548,
+      "pen_down_distance_mm": 4978.9,
+      "pen_up_travel_mm": 5515.1,
+      "travel_ratio": 1.108,
+      "estimated_plot_seconds_including_pen_up": 211.2,
+      "field_ink_mm2_upper_bound": 915.2,
+      "field_ink_coverage_upper_bound": 0.055197,
+      "field_ink_budget": 0.28,
+      "presentation_transform_metrics_status": "path count updated; distances/timing remain source-release metrics and must be regenerated before plotting"
+    },
+    "original_pen_sequence": [
+      {
+        "step": 1,
+        "pen": "Grey 0.25",
+        "pen_id": "grey-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Grey",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#66717d",
+        "layers": [
+          "context_roads",
+          "context_relief",
+          "profile_guides"
+        ],
+        "path_count": 59,
+        "pen_down_distance_mm": 1728.3,
+        "pen_up_travel_mm": 1725.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 49.4,
+        "estimated_plot_seconds_including_pen_up": 70.9,
+        "instruction": "Load Grey 0.25 (grey-0-25) and plot SVG layer 01.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 2,
+        "pen": "Blue 0.25",
+        "pen_id": "blue-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Blue",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#2563eb",
+        "layers": [
+          "context_water"
+        ],
+        "path_count": 16,
+        "pen_down_distance_mm": 44.9,
+        "pen_up_travel_mm": 283.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 1.3,
+        "estimated_plot_seconds_including_pen_up": 4.8,
+        "instruction": "Load Blue 0.25 (blue-0-25) and plot SVG layer 02.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 3,
+        "pen": "Green 0.25",
+        "pen_id": "green-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Green",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#15803d",
+        "layers": [
+          "context_woodland"
+        ],
+        "path_count": 15,
+        "pen_down_distance_mm": 97.9,
+        "pen_up_travel_mm": 44.5,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 2.8,
+        "estimated_plot_seconds_including_pen_up": 3.4,
+        "instruction": "Load Green 0.25 (green-0-25) and plot SVG layer 03.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 4,
+        "pen": "Black 0.25",
+        "pen_id": "black-0-25",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.25,
+        "nominal_nib_mm": 0.25,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "context_markers",
+          "context_labels",
+          "route_annotations",
+          "plate_copy",
+          "plate_attribution"
+        ],
+        "path_count": 484,
+        "pen_down_distance_mm": 1869.4,
+        "pen_up_travel_mm": 2586.6,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.25,
+        "minimum_plot_seconds": 53.4,
+        "estimated_plot_seconds_including_pen_up": 85.7,
+        "instruction": "Load Black 0.25 (black-0-25) and plot SVG layer 04.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 5,
+        "pen": "Black 0.6",
+        "pen_id": "black-0-6",
+        "pen_profile": "actual-pens",
+        "ink": "Black",
+        "nib_mm": 0.6,
+        "nominal_nib_mm": 0.6,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#18181b",
+        "layers": [
+          "plate_heavy"
+        ],
+        "path_count": 24,
+        "pen_down_distance_mm": 833.1,
+        "pen_up_travel_mm": 473.2,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.6,
+        "minimum_plot_seconds": 23.8,
+        "estimated_plot_seconds_including_pen_up": 29.7,
+        "instruction": "Load Black 0.6 (black-0-6) and plot SVG layer 05.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      },
+      {
+        "step": 6,
+        "pen": "Red 0.4",
+        "pen_id": "red-0-4",
+        "pen_profile": "actual-pens",
+        "ink": "Red",
+        "nib_mm": 0.4,
+        "nominal_nib_mm": 0.4,
+        "calibration_state": "nominal-unmeasured",
+        "calibration_substrate": null,
+        "preview_color": "#dc2626",
+        "layers": [
+          "hero_route"
+        ],
+        "path_count": 15,
+        "pen_down_distance_mm": 405.4,
+        "pen_up_travel_mm": 402.1,
+        "strokes": 1,
+        "passes": 1,
+        "plotted_width_mm": 0.4,
+        "minimum_plot_seconds": 11.6,
+        "estimated_plot_seconds_including_pen_up": 16.6,
+        "instruction": "Load Red 0.4 (red-0-4) and plot SVG layer 06.",
+        "pen_up_schedule_scope": "Exact emitted path order; includes travel from the previous path endpoint and excludes manual pen-change time."
+      }
+    ],
+    "original_outputs": {
+      "svg": {
+        "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-CA-WCT-01--detailed-map.svg",
+        "sha256": "0e2db16c97b77aa7706d8bc20b86fc051b99f19addd7ea36996915c009761e4c"
+      },
+      "manifest": {
+        "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-CA-WCT-01--detailed-map.plot.json"
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen": "Grey 0.25",
+          "pen_id": "grey-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-CA-WCT-01--detailed-map.pen-01-grey-0-25.svg",
+          "sha256": "5fafd1b4493ea369bc7e2f69bacf48f23476c1a730a27e277b9e80b4f385e410"
+        },
+        {
+          "step": 2,
+          "pen": "Blue 0.25",
+          "pen_id": "blue-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-CA-WCT-01--detailed-map.pen-02-blue-0-25.svg",
+          "sha256": "68d6e25e7cec34e646879f252306ceb8f75ec8ec18e65cc94967305d3ab95df5"
+        },
+        {
+          "step": 3,
+          "pen": "Green 0.25",
+          "pen_id": "green-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-CA-WCT-01--detailed-map.pen-03-green-0-25.svg",
+          "sha256": "75a980c798c5dbeefcd3de920e3967191c3c555cc83bfb44c84ab5a2d4026790"
+        },
+        {
+          "step": 4,
+          "pen": "Black 0.25",
+          "pen_id": "black-0-25",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-CA-WCT-01--detailed-map.pen-04-black-0-25.svg",
+          "sha256": "0445d670e0004f57dcfeb48cffcd896eead1f8752f0dc89356155e4e29c0f03d"
+        },
+        {
+          "step": 5,
+          "pen": "Black 0.6",
+          "pen_id": "black-0-6",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-CA-WCT-01--detailed-map.pen-05-black-0-6.svg",
+          "sha256": "1c2ac59b4d9c04836de5eca843eb7acc82ff42828ca8e84d360d5f21ad2bff9b"
+        },
+        {
+          "step": 6,
+          "pen": "Red 0.4",
+          "pen_id": "red-0-4",
+          "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-CA-WCT-01--detailed-map.pen-06-red-0-4.svg",
+          "sha256": "b327cec6aad41da9f4a31136c9407ac87ad177b7d4e07902b2c571e6c2ddc33a"
+        }
+      ],
+      "png": {
+        "path": "/home/adam/Projects/city-map-plotter/output/hiking-series-paired-v4.2-2026-08-06/hikes/RTE-CA-WCT-01--detailed-map.png",
+        "dpi": 300.0,
+        "sha256": "dda89aa8698aadae7de8e94d07e188eb485c92f418e18be44a587e2be8617636"
+      },
+      "pen_files_status": "source-release files not copied; regenerate after external attribution configuration"
+    },
+    "original_presentation_transform": {
+      "schema_version": 1,
+      "id": "externalize-open-map-attribution-v1",
+      "applied_at": "2026-08-16T00:00:00Z",
+      "scope": "portfolio-review-display-copy",
+      "original_artifact_sha256": {
+        "svg": "0c767616382c0af1629c4c75dfc5ff58363af9327ac98d3a8e854fec3c065d22",
+        "png": "c58dc57e92e4bcfaa0ad2110b776574ee687637420c7b9d7ac77aaaa299396de",
+        "manifest": "ed06e773b3f3fdc4578b22726fc23ab81aa51071955aa0aabb33f58f36138e3b"
+      },
+      "removed_visible_path_count": 65,
+      "removed_visible_copy_values": [
+        "© OPENSTREETMAP / OPENSTREETMAP.ORG/COPYRIGHT"
+      ],
+      "remaining_visible_attribution_copy_values": [
+        "MAPZEN AWS TERRAIN"
+      ],
+      "external_attribution_placement": "Portfolio root ATTRIBUTION.md",
+      "source_provenance_retained": true,
+      "source_licence_metadata_retained": true,
+      "pen_files_regenerated": false,
+      "machine_metrics_regenerated": false
+    }
+  },
+  "svg": {
+    "path": "03-hiking-maps/RTE-CA-WCT-01--detailed-map/RTE-CA-WCT-01--detailed-map.svg",
+    "sha256": "5a5cf65e0a35ffb89fb25d7df66eb8658187fb3006af39ed765b760e203824f1",
+    "bytes": 395074
+  },
+  "png": {
+    "path": "03-hiking-maps/RTE-CA-WCT-01--detailed-map/RTE-CA-WCT-01--detailed-map.png",
+    "sha256": "82269c7366b0d0e1073474fdbf8d2ad115cd1b32e835c06fa7322402a340f312",
+    "bytes": 360073
+  },
+  "thumbnail": {
+    "path": "03-hiking-maps/RTE-CA-WCT-01--detailed-map/thumbnail.png",
+    "sha256": "a1887887ebe5aa7b10f9e2dbe72857c242bbcc977e7b5ac6d6a3abed7c7ac87e",
+    "bytes": 56927
+  },
+  "manifest": {
+    "path": "03-hiking-maps/RTE-CA-WCT-01--detailed-map/RTE-CA-WCT-01--detailed-map.plot.json",
+    "sha256": "4465893f3460ec775885d639d02897eaf0960ca7fbe9e1c833a978d1393a6198",
+    "bytes": 1018115
+  },
+  "job": {
+    "path": "03-hiking-maps/RTE-CA-WCT-01--detailed-map/RTE-CA-WCT-01--detailed-map.plotjob.json",
+    "sha256": "54aaa42602a5bce4c557c22b4abd5935c730378427cce936a66634854a5284c9",
+    "bytes": 417639
+  },
+  "pen_files": [
+    {
+      "step": 1,
+      "pen_id": "grey-0-25",
+      "path": "03-hiking-maps/RTE-CA-WCT-01--detailed-map/pens/RTE-CA-WCT-01--detailed-map.pen-01-grey-0-25.svg",
+      "sha256": "9d5a0d0f635b83a0ce1298be5d0fbe6aeac1d59d97f48f1704f45796517e846a",
+      "bytes": 79443
+    },
+    {
+      "step": 2,
+      "pen_id": "blue-0-25",
+      "path": "03-hiking-maps/RTE-CA-WCT-01--detailed-map/pens/RTE-CA-WCT-01--detailed-map.pen-02-blue-0-25.svg",
+      "sha256": "f1f2107b2089c4217af2ea1f1b7551e8553e48e0c8f29dc7e1d608ef857ad107",
+      "bytes": 21284
+    },
+    {
+      "step": 3,
+      "pen_id": "green-0-25",
+      "path": "03-hiking-maps/RTE-CA-WCT-01--detailed-map/pens/RTE-CA-WCT-01--detailed-map.pen-03-green-0-25.svg",
+      "sha256": "18147bb663dd51c8b9adab39ba81ca4f2291dca899333d1f9d8a974053009693",
+      "bytes": 21460
+    },
+    {
+      "step": 4,
+      "pen_id": "black-0-25",
+      "path": "03-hiking-maps/RTE-CA-WCT-01--detailed-map/pens/RTE-CA-WCT-01--detailed-map.pen-04-black-0-25.svg",
+      "sha256": "1b7b3e2b96e60777b2b24ec6c34f246baecebed3555ad178026d4f3890aeccf5",
+      "bytes": 267019
+    },
+    {
+      "step": 5,
+      "pen_id": "black-0-6",
+      "path": "03-hiking-maps/RTE-CA-WCT-01--detailed-map/pens/RTE-CA-WCT-01--detailed-map.pen-05-black-0-6.svg",
+      "sha256": "bdb9418c61404b0b17675ff14d2016c6299962cc6664787629782276b7f21a30",
+      "bytes": 11247
+    },
+    {
+      "step": 6,
+      "pen_id": "red-0-4",
+      "path": "03-hiking-maps/RTE-CA-WCT-01--detailed-map/pens/RTE-CA-WCT-01--detailed-map.pen-06-red-0-4.svg",
+      "sha256": "b327cec6aad41da9f4a31136c9407ac87ad177b7d4e07902b2c571e6c2ddc33a",
+      "bytes": 31356
+    }
+  ],
+  "qa": {
+    "format": "passed",
+    "format_checks": 216,
+    "format_warnings": [
+      "pen_sequence reports no pen-up travel; the plan is not schedulable"
+    ],
+    "density_advisories": [],
+    "strict_svg_preflight": "passed",
+    "job_integrity": "passed",
+    "pen_geometry_parity": "passed",
+    "customer_copy": "passed",
+    "map_geometry_unchanged": true
+  },
+  "visible_copy": [
+    "75 KM / PACHENA > GORDON",
+    "CANADA / 75 KM",
+    "WEST COAST TRAIL"
+  ],
+  "stroke_count": 453,
+  "pen_count": 6,
+  "physical_execution_allowed": false
+}
