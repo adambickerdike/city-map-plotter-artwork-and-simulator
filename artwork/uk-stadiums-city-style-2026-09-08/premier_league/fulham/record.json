@@ -2,6 +2,7 @@
   "id": "fulham",
   "league": "premier_league",
   "name": "Craven Cottage",
+  "club": "Fulham FC",
   "city": "London",
   "version": 7,
   "review_note": "Replaced the generic Riverside stripe with a reduced stepped terrace/glass-roof boundary. Retained the distinct end stands, Johnny Haynes roof and Cottage pavilion. Google shows Riverside construction; the completed-roof layout is cross-checked against the cached Esri overhead rather than regressed to a construction gap.",
@@ -13,94 +14,94 @@
   "files": {
     "svg": {
       "path": "premier_league/fulham/fulham.svg",
-      "sha256": "9de2dd68e1c7288757d4be0269c21fe0636c7b6d7901285509d1059221c270b0",
-      "bytes": 4643312
+      "sha256": "0eedb49114e2e9992cdfb09b77c2b6d6ac4679bfaa05044d3604931f0b1ca7d1",
+      "bytes": 4662064
     },
     "png": {
       "path": "premier_league/fulham/fulham.png",
-      "sha256": "05a21898c0f7bd5f4493d3d9a1347a3fe514be54c5e7c09dbc5db16f192c0554",
-      "bytes": 3544036
+      "sha256": "85e00a71589bfdd2f8bc813b2f7836cf99bf93406b29860353b1f80d37e2422b",
+      "bytes": 3020309
     },
     "thumbnail": {
       "path": "premier_league/fulham/thumbnail.png",
-      "sha256": "2fd575f567ac47e2636fa52735b4719ba2442490e3427d71a34295db46a762b8",
-      "bytes": 401100
+      "sha256": "d9de5792ab5c5194f28053947a8a40d84c924e844cf5507391bd3cce60125ceb",
+      "bytes": 359522
     },
     "detail": {
       "path": "premier_league/fulham/stadium-detail.png",
-      "sha256": "6c718d4a486203509a69448add3d1d66b7fb5e6030dbdb5f9f14a221f911bb4e",
-      "bytes": 56343
+      "sha256": "f1c660e2d851e2658ab82225f14464a8259c9c4e54f123baca54fb02be049ee1",
+      "bytes": 68038
     },
     "manifest": {
       "path": "premier_league/fulham/fulham.plot.json",
-      "sha256": "dca599f2c890633db7fb2937df8c7bf001fbd4ea4dd249bb08811e3182ff48bc",
-      "bytes": 823971
+      "sha256": "6743b906b7011eed7fe449fa59b47b615cf15071e3e6e9f005a6d0a1fce31ecd",
+      "bytes": 485341
     },
     "plotjob": {
       "path": "premier_league/fulham/fulham.plotjob.json",
-      "sha256": "fb84304fb387ea803902ca2960ea464e257bb523c655d511f06030ec3893a1a2",
-      "bytes": 5042339
+      "sha256": "3019ac51eb75ffef9bdab7c63808f21a61e1fca9178419c05f74e989df2ecbcb",
+      "bytes": 4846308
     },
     "qa": {
       "path": "premier_league/fulham/QA.json",
-      "sha256": "91152524b84582d6dd5d37b2b223b43ebe9bbcd92e3b7bbc12d44fcfd10439aa",
-      "bytes": 2084
+      "sha256": "131ef89eac6991b9626920afc4630649f6c501a11b26fd367f33214513252209",
+      "bytes": 2362
     }
   },
   "pens": [
     {
       "path": "premier_league/fulham/pens/fulham.pen-01-blue-0-4.svg",
-      "sha256": "120b79bd569f7330e915bfb07b611965a2e8354a24df4bd8ce14aa50f9f2a664",
-      "bytes": 160365
+      "sha256": "efaa049333df4b998da8c967a76ee1b4363f0017feb18d52826f10852e81431d",
+      "bytes": 160393
     },
     {
       "path": "premier_league/fulham/pens/fulham.pen-02-blue-0-25.svg",
-      "sha256": "2d11f4be8bc53e9f6192ce1e6f4746d22053e0617a1dd97ad39f62036bd52489",
-      "bytes": 2369064
+      "sha256": "df91924a7b06956449f2e64a99b7f231bb400f412cc61bd7a784b2eb5bc11821",
+      "bytes": 3163991
     },
     {
       "path": "premier_league/fulham/pens/fulham.pen-03-green-0-25.svg",
-      "sha256": "36f0fa8b21206ec497b93cd145ff596105def769ffe5cdf14c0fa2e98eb3d618",
-      "bytes": 145711
+      "sha256": "794f641d17aa9b0530ba4c8a4c3e9ca4b95a9dc0b0acb8f6e9aa60d44f4ffb76",
+      "bytes": 110669
     },
     {
       "path": "premier_league/fulham/pens/fulham.pen-04-purple-0-25.svg",
-      "sha256": "4c6a3ff57e62afe50c016d50b77e5af7d2588371aea0208ef6c218c9fd0ac5b9",
-      "bytes": 19963
+      "sha256": "11dcb555fd106639e3ee4551526507cb198385a06c384791aeda51e76ff76414",
+      "bytes": 11725
     },
     {
       "path": "premier_league/fulham/pens/fulham.pen-05-grey-0-25.svg",
-      "sha256": "525fff64c14e5edd161c0c538663c4bd532a4e74a2034f81f8ae49339c2f1d7c",
-      "bytes": 1858489
+      "sha256": "c7ac91b6101bd01c0009df1ed6baa500259e817e93c11244d6c9282f8268e2dc",
+      "bytes": 1148515
     },
     {
       "path": "premier_league/fulham/pens/fulham.pen-06-red-0-4.svg",
-      "sha256": "7847b1e490365484622f967cc71774d0065bb01758770d9b4fa04858688337b0",
-      "bytes": 47749
+      "sha256": "a33c05ed1ea76d42a068d2a51e8aa49a0e1757802cb810bb8c19bdc91264e134",
+      "bytes": 29580
     },
     {
       "path": "premier_league/fulham/pens/fulham.pen-07-red-0-25.svg",
-      "sha256": "05858a07385f71ac478979be3708873c1195bf504ae2c1542dedd37a1362acf0",
-      "bytes": 18481
+      "sha256": "a62bbb3013169602d5e3b83e853fd13aff97dcecf8e81a0ec7398cf932a9c479",
+      "bytes": 11782
     },
     {
       "path": "premier_league/fulham/pens/fulham.pen-08-black-0-6.svg",
-      "sha256": "b4570c556c731ff5741481a28954b5f85bc9ee5ecc481ef565cb905b60e09c9b",
+      "sha256": "21e3ea77c45521e5682756a938a583b7e4a6fa89ea61a6de1cc0b9a394620370",
       "bytes": 2011
     },
     {
       "path": "premier_league/fulham/pens/fulham.pen-09-black-1.svg",
-      "sha256": "c0cc841df0cce360786f14fca9e8136f6f4e5113ff463a59b2e776a5a29b3d64",
+      "sha256": "008b5bfd944aa1775eadcc8b56674fff804b230f70c8f03a6f60aa321cde9fe7",
       "bytes": 2033
     },
     {
       "path": "premier_league/fulham/pens/fulham.pen-10-black-0-4.svg",
-      "sha256": "b2388f9b2185f9835c82d2457d3ab34eb8b7f7b0a8025f93e4314641e82fcd83",
-      "bytes": 13410
+      "sha256": "4a5567caaa15fa16d3cf45333ec60ddea697b36e6a8b8d991b2b6efb11454e9a",
+      "bytes": 15329
     },
     {
       "path": "premier_league/fulham/pens/fulham.pen-11-black-0-25.svg",
-      "sha256": "f6e50cccaf0e5926af8d7854bc2ad79083840b78e267ad4bcf098ea6084b7d25",
+      "sha256": "587caf9b39ae48a2d2c7156e0bb03a8b7453c947e0db038328d6350abc09e59f",
       "bytes": 19166
     }
   ]

@@ -27,14 +27,14 @@
     "compass_vertical_error_mm": 0.0
   },
   "svg_preflight": {
-    "source_sha256": "9a14fd9e16dee55221c1cdfc8c63575c23af4e294a0073b49d576ac08664b507",
-    "source_bytes": 2667272,
+    "source_sha256": "f0b5ba04fa8552bafbb69590aa0b6441780757cd6e014eaa9beab46c9eee7f04",
+    "source_bytes": 1786049,
     "page_mm": {
       "width": 297.0,
       "height": 420.0
     },
-    "path_count": 2401,
-    "layer_count": 16,
+    "path_count": 1662,
+    "layer_count": 17,
     "metadata_complete": true,
     "hardware_safe": true,
     "issues": []
@@ -43,28 +43,26 @@
   "stadium_paths_exported": 49,
   "stadium_native_curves_preserved": true,
   "map_bbox": {
-    "west": -2.9775992085392753,
-    "south": 53.4183342104521,
-    "east": -2.9440413714246603,
-    "north": 53.443357377488724
+    "west": -2.974243424827814,
+    "south": 53.420836527155764,
+    "east": -2.9473971551361218,
+    "north": 53.44085506078506
   },
-  "zoom_out_width_factor": 1.15,
-  "base_format_checks": 2787,
-  "base_format_failures": [
-    "layer '06 — Footpaths, cycleways and tracks — Grey 0.25': 1 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
-  ],
+  "framing": {
+    "revision": 2,
+    "width_vs_previous_city_edition": 0.8,
+    "stadium_linear_enlargement_vs_previous": 1.25,
+    "width_vs_original_source_map": 0.92
+  },
+  "base_format_checks": 2033,
+  "base_format_failures": [],
   "floating_point_floor_exceptions": {
     "tolerance_mm": 1e-09,
-    "base": [
-      "layer '06 — Footpaths, cycleways and tracks — Grey 0.25': 1 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
-    ],
-    "composed": [
-      "layer '06 — Footpaths, cycleways and tracks — Grey 0.25': 1 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
-    ]
+    "base": [],
+    "composed": []
   },
-  "composed_format_checks": 2795,
+  "composed_format_checks": 2057,
   "format_failures": [
-    "layer '06 — Footpaths, cycleways and tracks — Grey 0.25': 1 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots",
     "layer 'Stadium roof and pitch detail — Black 0.25': 5 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
   ],
   "native_detail_floor_exceptions": [
@@ -73,27 +71,27 @@
   "nominal_stadium_subfloor_paths": [
     {
       "id": "bowl-stand-front-unique-0",
-      "length_mm": 0.2239767278647423,
+      "length_mm": 0.27997046658888186,
       "nib_mm": 0.25
     },
     {
       "id": "bowl-stand-front-unique-1",
-      "length_mm": 0.5268849638546789,
+      "length_mm": 0.658607148886357,
       "nib_mm": 0.25
     },
     {
       "id": "bowl-stand-front-unique-2",
-      "length_mm": 0.5268861145145063,
+      "length_mm": 0.6586068613273596,
       "nib_mm": 0.25
     },
     {
       "id": "bowl-stand-front-unique-3",
-      "length_mm": 0.5268851656469891,
+      "length_mm": 0.658607319154212,
       "nib_mm": 0.25
     },
     {
       "id": "bowl-stand-front-unique-4",
-      "length_mm": 0.5268854469299038,
+      "length_mm": 0.6586071488863292,
       "nib_mm": 0.25
     }
   ],

@@ -36,14 +36,19 @@ assert len(rows) == 44
 catalog = {
     "schema_version": 1,
     "release_id": P.name,
+    "revision": 2,
     "title": "UK football stadiums — city collection style",
     "source_stadium_release": OLD.name,
     "counts": {"premier_league": 20, "championship": 24, "total": 44},
     "paper": "A3 portrait",
-    "header_policy": "city-header-left-stack-v1 with city before coordinates",
+    "header_policy": "city-header-left-stack-v1 with club subtitle and city before coordinates",
     "map_style": "university-memorabilia-v2",
     "detail_profile": "plotter-faithful",
-    "zoom_out_width_factor": 1.15,
+    "framing": {
+        "width_vs_previous_city_edition": 0.8,
+        "stadium_linear_enlargement_vs_previous": 1.25,
+        "width_vs_original_source_map": 0.92,
+    },
     "stadium_geometry_policy": "All supplied native shell and detail paths retained in geographic registration. Native cubic controls are preserved.",
     "physical_execution_allowed": False,
     "stadiums": rows,
@@ -85,21 +90,21 @@ for r in rows:
     f = r["files"]
     esc = html.escape
     cards.append(
-        f'''<article data-search="{esc((r["name"] + " " + r["city"]).casefold())}" data-league="{r["league"]}"><a href="{f["png"]["path"]}"><img class="preview" loading="lazy" src="{f["thumbnail"]["path"]}" alt="{esc(r["name"])} stadium and city map"></a><h2>{esc(r["name"])}</h2><p>{esc(r["city"])}</p><nav><a href="{f["svg"]["path"]}">A3 SVG</a><a href="{f["png"]["path"]}">PNG</a><a href="{f["detail"]["path"]}">Stadium detail</a><a href="{f["plotjob"]["path"]}">Plot job</a></nav></article>'''
+        f'''<article data-search="{esc((r["name"] + " " + r["club"] + " " + r["city"]).casefold())}" data-league="{r["league"]}"><a href="{f["png"]["path"]}"><img class="preview" loading="lazy" src="{f["thumbnail"]["path"]}" alt="{esc(r["name"])} stadium and city map"></a><h2>{esc(r["name"])}</h2><p>{esc(r["club"])}<br>{esc(r["city"])}</p><nav><a href="{f["svg"]["path"]}">A3 SVG</a><a href="{f["png"]["path"]}">PNG</a><a href="{f["detail"]["path"]}">Stadium detail</a><a href="{f["plotjob"]["path"]}">Plot job</a></nav></article>'''
     )
 page = (
     """<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Football stadiums — The Plot Room city collection</title><style>"""
     + style
-    + """</style><main><h1>Football stadiums / the city collection</h1><p>44 grounds in the same detailed map style as our city and university prints.<br>Stadium name, city, coordinates and compass above a wider view of the neighbourhood.</p><nav><a href="premier_league-contact-sheet.png">Premier League overview</a><a href="championship-contact-sheet.png">Championship overview</a><a href="simulation/premier_league.html">Premier League plot preview</a><a href="simulation/championship.html">Championship plot preview</a><a href="SOFTWARE_IMPORT.md">Import guide</a></nav><p><input id="search" placeholder="Find a stadium or city" aria-label="Find a stadium or city"><select id="league" aria-label="Filter collection"><option value="">All 44 grounds</option value="premier_league">Premier League selection</option><option value="championship">Championship selection</option></select></p><div class="grid">"""
+    + """</style><main><h1>Football stadiums / the city collection</h1><p>44 grounds in the same detailed map style as our city and university prints.<br>Stadium name, football club, city and coordinates, with a compass beside the header and a closer view of the neighbourhood below.</p><nav><a href="premier_league-contact-sheet.png">Premier League overview</a><a href="championship-contact-sheet.png">Championship overview</a><a href="simulation/premier_league.html">Premier League plot preview</a><a href="simulation/championship.html">Championship plot preview</a><a href="SOFTWARE_IMPORT.md">Import guide</a></nav><p><input id="search" placeholder="Find a stadium, club or city" aria-label="Find a stadium, club or city"><select id="league" aria-label="Filter collection"><option value="">All 44 grounds</option value="premier_league">Premier League selection</option><option value="championship">Championship selection</option></select></p><div class="grid">"""
     + "".join(cards)
     + """</div><footer><p>A3 portrait, 297 × 420 mm. Full previews are 254 DPI. Print at actual size / 100%.</p><p>Venue geometry retains the source edition's reference-era details. The original standalone stadium drawings and their review notes remain in the source handoff.</p><a href="ATTRIBUTION.md">Source credits</a> · <a href="README.md">File index</a> · <a href="catalog.json">Catalogue</a></footer></main><script>function filter(){const q=document.querySelector('#search').value.toLowerCase(),l=document.querySelector('#league').value;document.querySelectorAll('article').forEach(a=>a.hidden=!a.dataset.search.includes(q)||(l&&a.dataset.league!==l));}document.querySelector('#search').addEventListener('input',filter);document.querySelector('#league').addEventListener('change',filter);</script></html>"""
 )
 (P / "index.html").write_text(page)
 md = """# Football stadiums — city collection style
 
-All **44 uploaded grounds** now use the city/university print treatment: **A3 portrait**, serif stadium name, city and coordinates beneath, and the diamond compass alongside. The map sits below the header.
+All **44 uploaded grounds** use the city/university print treatment: **A3 portrait**, serif stadium name, **football club beneath**, then city and coordinates, with the diamond compass alongside. The map sits below the header.
 
-The mapped width is **15% wider** than the supplied city maps, with additional north/south context from the portrait layout. All original geographic bounds remain visible. The neighbourhood uses the frozen `university-memorabilia-v2` palette, full `plotter-faithful` streets and paths, blue water banks and dots, green park outlines and purple landmarks. The authored stadium is distinguished in Black 0.40/0.25 mm.
+**Revision 2 brings the view closer:** the map covers 20% less width and height than the first city-style edition, making each stadium **25% larger on the page**. The stadium centre is unchanged, with the surrounding neighbourhood freshly rendered at the closer scale. The neighbourhood uses the frozen `university-memorabilia-v2` palette, full `plotter-faithful` streets and paths, blue water banks and dots, green park outlines and purple landmarks. The authored stadium is distinguished in Black 0.40/0.25 mm.
 
 Every supplied stadium shell/detail path is retained, including native cubic curves, pitch placement and the latest Etihad v10 detail. Geographic checks compare every endpoint and cubic control point against the original overlay. Context is cut away beneath sourced stadium surfaces, with the removed/clipped features recorded in each manifest. The original 44-ground standalone architecture handoff remains unchanged.
 
@@ -107,16 +112,16 @@ Every supplied stadium shell/detail path is retained, including native cubic cur
 
 [Premier League overview](premier_league-contact-sheet.png) · [Championship overview](championship-contact-sheet.png)
 
-| Stadium | City | A3 map | Preview | Detail |
-|---|---|---|---|---|
+| Stadium | Football club | City | A3 map | Preview | Detail |
+|---|---|---|---|---|---|
 """
 for r in rows:
     f = r["files"]
-    md += f"| {r['name']} | {r['city']} | [SVG]({f['svg']['path']}) | [PNG]({f['png']['path']}) | [PNG]({f['detail']['path']}) |\n"
+    md += f"| {r['name']} | {r['club']} | {r['city']} | [SVG]({f['svg']['path']}) | [PNG]({f['png']['path']}) | [PNG]({f['detail']['path']}) |\n"
 md += """
 ## Checks and physical detail
 
-Each master has a strict SVG preflight, verified A3 layout and header bounds, final pen splits, a SHA-bound plot job, and a 254 DPI PNG. Source hashes, extent expansion and **100% native stadium path/control-point coverage** are checked independently by `scripts/verify_stadium_city_maps.py`.
+Each master has a strict SVG preflight, verified A3 layout and header bounds, final pen splits, a SHA-bound plot job, and a 254 DPI PNG. Source hashes, the closer crop, club-name placement and **100% native stadium path/control-point coverage** are checked independently by `scripts/verify_stadium_city_maps.py`.
 
 Some authored roof details are shorter than three nominal nib widths. They are preserved because the request was to retain stadium detail; these exact exceptions remain in `QA.json` and the manifest instead of being silently deleted or declared physically certified. This is a digital artwork and simulation release using nominal pens. It is not permission to execute a physical plotter without its normal calibration and proofing.
 
@@ -151,7 +156,7 @@ python3 scripts/package_stadium_city_maps.py
 python3 scripts/verify_stadium_city_maps.py
 ```
 
-The builder's local intermediate maps are under ignored `build/stadium-house-work/`. Remove only that edition's basemap intermediates before deliberately rebuilding with changed source inputs. Original overlays retain their source editions and reference-era caveats; see the original handoff for stadium reuse in other projects.
+The builder's local intermediate maps are under ignored `build/stadium-house-work/closer-club-v2/`. The cache binds the render command and source bytes, so changing the framing regenerates the basemap. Original overlays retain their source editions and reference-era caveats; see the original handoff for stadium reuse in other projects.
 """)
 shutil.copyfile(OLD / "ATTRIBUTION.md", P / "ATTRIBUTION.md")
 # Bind the existing renderer rather than copying/replacing the shared code again.

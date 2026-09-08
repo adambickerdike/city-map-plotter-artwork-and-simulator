@@ -12,6 +12,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from verify_stadium_city_maps import (
     verify,
     verify_native_geometry,
+    verify_club_header,
     PACKAGE,
     ORIGINAL,
     SVG,
@@ -39,6 +40,30 @@ def test_all_stadium_city_artifacts():
     assert report["stadiums"] == 44
     assert report["native_stadium_paths"] > 1800
     assert report["physical_execution_allowed"] is False
+    assert report["club_headers"] == 44
+    assert report["stadium_linear_enlargement_vs_previous"] == 1.25
+
+
+def test_missing_club_header_is_rejected(stadium):
+    root, _, manifest = stadium
+    root.remove(root.find(f"{SVG}g[@id='layer-poster_club']"))
+    with pytest.raises(ValueError, match="Football club header is missing"):
+        verify_club_header(root, manifest, "Newcastle United FC")
+
+
+def test_wrong_club_header_is_rejected(stadium):
+    root, _, manifest = stadium
+    with pytest.raises(ValueError, match="header copy differs"):
+        verify_club_header(root, manifest, "Arsenal FC")
+
+
+def test_club_header_overlap_is_rejected(stadium):
+    root, _, manifest = stadium
+    club = root.find(f"{SVG}g[@id='layer-poster_club']")
+    for path in club:
+        path.set("d", "M 27.353,40 L 100,40 L 100,44 L 27.353,44")
+    with pytest.raises(ValueError, match="sit clearly between"):
+        verify_club_header(root, manifest, "Newcastle United FC")
 
 
 def test_missing_stadium_path_is_rejected(stadium):

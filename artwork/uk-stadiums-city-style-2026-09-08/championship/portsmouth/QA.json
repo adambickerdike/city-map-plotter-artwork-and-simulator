@@ -27,14 +27,14 @@
     "compass_vertical_error_mm": 0.0
   },
   "svg_preflight": {
-    "source_sha256": "79368fc3472a51f75458834ee533655056da8852bfd6b8d5969e61426846eb2e",
-    "source_bytes": 1879418,
+    "source_sha256": "9cedb6b8274e96df742629187da73f1854cea60787fee8c851e8ce7a238dff05",
+    "source_bytes": 1160165,
     "page_mm": {
       "width": 297.0,
       "height": 420.0
     },
-    "path_count": 1748,
-    "layer_count": 17,
+    "path_count": 1137,
+    "layer_count": 16,
     "metadata_complete": true,
     "hardware_safe": true,
     "issues": []
@@ -43,14 +43,25 @@
   "stadium_paths_exported": 41,
   "stadium_native_curves_preserved": true,
   "map_bbox": {
-    "west": -1.0796992731426385,
-    "south": 50.78381221648169,
-    "east": -1.0480679268573616,
-    "north": 50.808835383518314
+    "west": -1.0765361385141108,
+    "south": 50.786314533185354,
+    "east": -1.0512310614858893,
+    "north": 50.80633306681465
   },
-  "zoom_out_width_factor": 1.15,
-  "base_format_checks": 2131,
-  "composed_format_checks": 2150,
+  "framing": {
+    "revision": 2,
+    "width_vs_previous_city_edition": 0.8,
+    "stadium_linear_enlargement_vs_previous": 1.25,
+    "width_vs_original_source_map": 0.92
+  },
+  "base_format_checks": 1468,
+  "base_format_failures": [],
+  "floating_point_floor_exceptions": {
+    "tolerance_mm": 1e-09,
+    "base": [],
+    "composed": []
+  },
+  "composed_format_checks": 1482,
   "format_failures": [
     "layer 'Stadium roof and pitch detail — Black 0.25': 4 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
   ],
@@ -60,27 +71,27 @@
   "nominal_stadium_subfloor_paths": [
     {
       "id": "bowl-stand-front-unique-0",
-      "length_mm": 0.5268851684699326,
+      "length_mm": 0.6586078745628801,
       "nib_mm": 0.25
     },
     {
       "id": "bowl-stand-front-unique-1",
-      "length_mm": 0.5268866461111044,
+      "length_mm": 0.6586077501433719,
       "nib_mm": 0.25
     },
     {
       "id": "bowl-stand-front-unique-2",
-      "length_mm": 0.5268859147411629,
+      "length_mm": 0.6586071084546277,
       "nib_mm": 0.25
     },
     {
       "id": "bowl-stand-front-unique-3",
-      "length_mm": 0.5268854219565253,
+      "length_mm": 0.6586075259721971,
       "nib_mm": 0.25
     }
   ],
   "bounds": "passed",
-  "pen_splits": 11,
+  "pen_splits": 9,
   "png_pixels": [
     2970,
     4200

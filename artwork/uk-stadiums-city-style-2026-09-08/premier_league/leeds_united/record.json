@@ -2,6 +2,7 @@
   "id": "leeds_united",
   "league": "premier_league",
   "name": "Elland Road",
+  "club": "Leeds United FC",
   "city": "Leeds",
   "version": 7,
   "review_note": "Restored the missing curved northwest roof quadrant beside the Don Revie/East Stand junction. The new native curve joins the deep East Stand, rather than stopping in an implausibly small corner. Regularised two tiny opposite stand junctions and the rear annexe to share edges at plot scale: sub-pen-width gaps are deliberately omitted, not claimed absent in the real building. The unequal main stand depths remain.",
@@ -13,90 +14,90 @@
   "files": {
     "svg": {
       "path": "premier_league/leeds_united/leeds_united.svg",
-      "sha256": "d23fd15aacfc26d892370e02337674fc94479505b647a6300435fc9d92de749d",
-      "bytes": 2823117
+      "sha256": "1b3f3d3443548033e30bfca82ebce6a6bec6541a6a7121a04b4b667a9c80d932",
+      "bytes": 1890521
     },
     "png": {
       "path": "premier_league/leeds_united/leeds_united.png",
-      "sha256": "47dc5d7d0ab2cabd4e2d0f3a74475697633ac17720eab63302e75b0f0be2e862",
-      "bytes": 4248250
+      "sha256": "feebedd2f420dc61b45b791739bc4a8ff2a8a3f35bbfb4f6bf7c96fa78e5e650",
+      "bytes": 3522777
     },
     "thumbnail": {
       "path": "premier_league/leeds_united/thumbnail.png",
-      "sha256": "54529a51825bf1d855eaa16a7dc547df0fbe98cf7f77cdfc02e8c77f9089394d",
-      "bytes": 446006
+      "sha256": "8b21a47e37ba413a98a79f7117bf8e8b2c8ee922b718915448c813f11fdbf950",
+      "bytes": 389324
     },
     "detail": {
       "path": "premier_league/leeds_united/stadium-detail.png",
-      "sha256": "397841e22c52e845c735fadb5a9bef4c0222ecd7469a72ad67d7d75c693aa2f2",
-      "bytes": 74485
+      "sha256": "4be362caa34b928d50bef2c639e7ea7903328c83e74870c5938241808e55501d",
+      "bytes": 88945
     },
     "manifest": {
       "path": "premier_league/leeds_united/leeds_united.plot.json",
-      "sha256": "c9961b749e62dcc83ed8b246d91cbe727ba2120949b40dc7a830aaefb7754b2e",
-      "bytes": 815963
+      "sha256": "a984e0269c3598fa3fd239392ddb3220570d5693cc724e98fc2e2fa45c716a78",
+      "bytes": 513181
     },
     "plotjob": {
       "path": "premier_league/leeds_united/leeds_united.plotjob.json",
-      "sha256": "c203a1e43a7e996c54ccfc7e0131b725e28355721c5d1970037e64aac469bb00",
-      "bytes": 3193960
+      "sha256": "b4f6b4500170165ab37e119eac39034673a34d40fb5d590b52ab6b11420f6b40",
+      "bytes": 2205512
     },
     "qa": {
       "path": "premier_league/leeds_united/QA.json",
-      "sha256": "03ebd3076ba4c6d64ac00284b156f9632d05b8e6950714a509ab4f2d12f82627",
-      "bytes": 1860
+      "sha256": "9444b3cec9809e4af152515a288db3c90877ce1a81cc6b4180b6fb0d4fb54ef9",
+      "bytes": 2024
     }
   },
   "pens": [
     {
       "path": "premier_league/leeds_united/pens/leeds_united.pen-01-blue-0-25.svg",
-      "sha256": "a270013f67341f65fff975202bb50e58ac3f6923ebd1da2a6c0555b4830f948d",
-      "bytes": 8751
+      "sha256": "99ca4b2976b38896d1f2cd77ebc683023baed62a85b8439dc8a6327f33bb5936",
+      "bytes": 7092
     },
     {
       "path": "premier_league/leeds_united/pens/leeds_united.pen-02-green-0-25.svg",
-      "sha256": "6980f2a4147b8ec311ae15a6a97ce3e45178dd1266245f125d38b1d4e747780b",
-      "bytes": 244761
+      "sha256": "f3bbcf97c6d07e281aa9571950a18f4c1f02c9f21e5a31071147f25c0e723d54",
+      "bytes": 185366
     },
     {
       "path": "premier_league/leeds_united/pens/leeds_united.pen-03-purple-0-25.svg",
-      "sha256": "2a17d277c0bcf5d8f5e63a91ac418f65bf6b1bf66bbea219ed50fb736249b9a7",
-      "bytes": 7699
+      "sha256": "57158349dd542375d10dfe3f0cc3b6fce43ee160d135bfa26c1797e072a54276",
+      "bytes": 7437
     },
     {
       "path": "premier_league/leeds_united/pens/leeds_united.pen-04-grey-0-25.svg",
-      "sha256": "7dd863442fe9d5927182f092320dce91fd08b190f8fd2cb85c4978a6f5b5f6f3",
-      "bytes": 2340565
+      "sha256": "992f006cd336a8e6ff7dd7ed926565efb3741919f879b07ddebe3cca0ae7be2f",
+      "bytes": 1514159
     },
     {
       "path": "premier_league/leeds_united/pens/leeds_united.pen-05-red-0-4.svg",
-      "sha256": "049ad02d1080dc7fa48bfa323868f3b9445baacf7f4a842004651017f016145f",
-      "bytes": 139330
+      "sha256": "cfca96b54c4f46aebd4c3ef6d6302acc0862e8b48e511ed5f3b765aaf2b69e16",
+      "bytes": 109687
     },
     {
       "path": "premier_league/leeds_united/pens/leeds_united.pen-06-red-0-25.svg",
-      "sha256": "736a7ad64f11e4e85c43c94ec5e16bb8bf097f7a681ef178b1100e3d015a8bbf",
-      "bytes": 56704
+      "sha256": "45e178eecf28ae7d83a4cc6db9d66e5155977bf8bdc7bce5b2b22eb0e10c980c",
+      "bytes": 38818
     },
     {
       "path": "premier_league/leeds_united/pens/leeds_united.pen-07-black-0-6.svg",
-      "sha256": "2a9bb9813447d19e6c2687379933e3e7cb2b09d47a6668a2d8754fcae0c004ab",
-      "bytes": 2011
+      "sha256": "6c854d9936e358e69adcb9e04709a18be38d4530c22c466691f5e8e25038a89d",
+      "bytes": 2012
     },
     {
       "path": "premier_league/leeds_united/pens/leeds_united.pen-08-black-1.svg",
-      "sha256": "6bb16732cf98ef275da4f5311d124054e455def66675cd3df8b83bafd2e4da62",
-      "bytes": 2033
+      "sha256": "3ee62056fcca90b5b393c8bbb0fb9f062012c4a322736d0d4d3acc342ddf0b9f",
+      "bytes": 2034
     },
     {
       "path": "premier_league/leeds_united/pens/leeds_united.pen-09-black-0-4.svg",
-      "sha256": "e30192a15b15b72dd1a96026b12ed3ed34a38b96b550b1fe302b3fb339c642fc",
-      "bytes": 12620
+      "sha256": "28bc4ebe6054c14ce2a63d7fee5f190ac492e3a2d32b13f5b706edbe2f819c68",
+      "bytes": 15327
     },
     {
       "path": "premier_league/leeds_united/pens/leeds_united.pen-10-black-0-25.svg",
-      "sha256": "1513ae7b3cf325a443cb5e2bcd62d2bd2959c8e44b471fef2cf72caf2cccd29a",
-      "bytes": 20460
+      "sha256": "3244014d5606e4e80c1efacbbb6cf6bdbf62bfa2b2326305f5693bb46142820f",
+      "bytes": 20415
     }
   ]
 }

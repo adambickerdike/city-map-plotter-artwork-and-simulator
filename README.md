@@ -4,8 +4,9 @@
 
 The [44 updated stadium maps](artwork/uk-stadiums-city-style-2026-09-08/README.md)
 now match the city and university prints: A3 portrait, the stadium name at the
-top, city and coordinates beneath, and the diamond compass alongside. The map
-underneath covers a 15% wider neighbourhood in the same detailed house colours.
+top, football club beneath, then city and coordinates, with the diamond compass
+alongside. Revision 2 brings the maps closer: stadiums are 25% larger on the
+page than the first city-style edition, in the same detailed house colours.
 Every original stadium roof and pitch path is retained, including native curves.
 
 [Browse the gallery](artwork/uk-stadiums-city-style-2026-09-08/index.html) ·

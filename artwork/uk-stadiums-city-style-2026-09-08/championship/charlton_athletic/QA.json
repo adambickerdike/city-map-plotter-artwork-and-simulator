@@ -27,14 +27,14 @@
     "compass_vertical_error_mm": 0.0
   },
   "svg_preflight": {
-    "source_sha256": "52250c946c3cf4243bb10b1ab942022af8f5ee23ec3819055d93bf009a4b9e3d",
-    "source_bytes": 5763817,
+    "source_sha256": "81952d134725d47c79637336e43e7b1791611ecaf75abf092caf0a481e48dca1",
+    "source_bytes": 3423309,
     "page_mm": {
       "width": 297.0,
       "height": 420.0
     },
-    "path_count": 5403,
-    "layer_count": 18,
+    "path_count": 3181,
+    "layer_count": 19,
     "metadata_complete": true,
     "hardware_safe": true,
     "issues": []
@@ -43,15 +43,34 @@
   "stadium_paths_exported": 43,
   "stadium_native_curves_preserved": true,
   "map_bbox": {
-    "west": 0.020104626186601245,
-    "south": 51.47387991648169,
-    "east": 0.05221237381339876,
-    "north": 51.498903083518314
+    "west": 0.023315400949281,
+    "south": 51.476382233185355,
+    "east": 0.049001599050719005,
+    "north": 51.49640076681465
   },
-  "zoom_out_width_factor": 1.15,
-  "base_format_checks": 5844,
-  "composed_format_checks": 5853,
-  "format_failures": [],
+  "framing": {
+    "revision": 2,
+    "width_vs_previous_city_edition": 0.8,
+    "stadium_linear_enlargement_vs_previous": 1.25,
+    "width_vs_original_source_map": 0.92
+  },
+  "base_format_checks": 3588,
+  "base_format_failures": [
+    "layer '03 — Parks and green space — Green 0.25': 1 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "floating_point_floor_exceptions": {
+    "tolerance_mm": 1e-09,
+    "base": [
+      "layer '03 — Parks and green space — Green 0.25': 1 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+    ],
+    "composed": [
+      "layer '03 — Parks and green space — Green 0.25': 1 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+    ]
+  },
+  "composed_format_checks": 3616,
+  "format_failures": [
+    "layer '03 — Parks and green space — Green 0.25': 1 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
   "native_detail_floor_exceptions": [],
   "nominal_stadium_subfloor_paths": [],
   "bounds": "passed",

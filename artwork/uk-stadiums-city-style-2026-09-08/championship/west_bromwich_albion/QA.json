@@ -27,13 +27,13 @@
     "compass_vertical_error_mm": 0.0
   },
   "svg_preflight": {
-    "source_sha256": "9f446c448e78aea9591646773b3700669b834b1da516bcc4f07ae29cae98d4d3",
-    "source_bytes": 2191788,
+    "source_sha256": "35fd53061a1ee8a93fadb8d7a773d3735c8fee5ab814bc9c82519fd7e9cdf84b",
+    "source_bytes": 1040351,
     "page_mm": {
       "width": 297.0,
       "height": 420.0
     },
-    "path_count": 2025,
+    "path_count": 1037,
     "layer_count": 17,
     "metadata_complete": true,
     "hardware_safe": true,
@@ -43,14 +43,25 @@
   "stadium_paths_exported": 50,
   "stadium_native_curves_preserved": true,
   "map_bbox": {
-    "west": -1.9800869905458431,
-    "south": 52.49665381648169,
-    "east": -1.947237209454157,
-    "north": 52.52167698351831
+    "west": -1.9768020124366745,
+    "south": 52.49915613318535,
+    "east": -1.9505221875633256,
+    "north": 52.51917466681465
   },
-  "zoom_out_width_factor": 1.15,
-  "base_format_checks": 2392,
-  "composed_format_checks": 2405,
+  "framing": {
+    "revision": 2,
+    "width_vs_previous_city_edition": 0.8,
+    "stadium_linear_enlargement_vs_previous": 1.25,
+    "width_vs_original_source_map": 0.92
+  },
+  "base_format_checks": 1352,
+  "base_format_failures": [],
+  "floating_point_floor_exceptions": {
+    "tolerance_mm": 1e-09,
+    "base": [],
+    "composed": []
+  },
+  "composed_format_checks": 1373,
   "format_failures": [
     "layer 'Stadium roof and pitch detail — Black 0.25': 3 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
   ],
@@ -60,17 +71,17 @@
   "nominal_stadium_subfloor_paths": [
     {
       "id": "bowl-stand-front-unique-1",
-      "length_mm": 0.5268856702567677,
+      "length_mm": 0.65860768182309,
       "nib_mm": 0.25
     },
     {
       "id": "bowl-stand-front-unique-2",
-      "length_mm": 0.5268860607532971,
+      "length_mm": 0.6586071772435254,
       "nib_mm": 0.25
     },
     {
       "id": "bowl-stand-front-unique-3",
-      "length_mm": 0.5268853150082322,
+      "length_mm": 0.6586071090530532,
       "nib_mm": 0.25
     }
   ],

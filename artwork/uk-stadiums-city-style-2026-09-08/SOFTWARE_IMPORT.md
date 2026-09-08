@@ -26,4 +26,4 @@ python3 scripts/package_stadium_city_maps.py
 python3 scripts/verify_stadium_city_maps.py
 ```
 
-The builder's local intermediate maps are under ignored `build/stadium-house-work/`. Remove only that edition's basemap intermediates before deliberately rebuilding with changed source inputs. Original overlays retain their source editions and reference-era caveats; see the original handoff for stadium reuse in other projects.
+The builder's local intermediate maps are under ignored `build/stadium-house-work/closer-club-v2/`. The cache binds the render command and source bytes, so changing the framing regenerates the basemap. Original overlays retain their source editions and reference-era caveats; see the original handoff for stadium reuse in other projects.

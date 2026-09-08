@@ -2,6 +2,7 @@
   "id": "hull_city",
   "league": "premier_league",
   "name": "MKM Stadium",
+  "club": "Hull City FC",
   "city": "Kingston upon Hull",
   "version": 8,
   "review_note": "Retained the cleaned MKM shell and bowed main-stand geometry. Google and Esri displace the high roof differently; the Esri and pinned ground footprint support the existing depth. No repeated perimeter tracing was added to chase the photographic displacement.",
@@ -13,95 +14,95 @@
   "files": {
     "svg": {
       "path": "premier_league/hull_city/hull_city.svg",
-      "sha256": "550e82c5152873a0427ebaf03293a4d221f2534fc385d6f22b3dc38c4441d80c",
-      "bytes": 2250093
+      "sha256": "c1bd831fe8161dfea84ce884be2b29321ffe89de139a8b8ff333e18636fab0dd",
+      "bytes": 1373398
     },
     "png": {
       "path": "premier_league/hull_city/hull_city.png",
-      "sha256": "a51e252fbef03987ead0fb6bfe9903375ab9e0814d4141e7bd279ce522eb4144",
-      "bytes": 2710438
+      "sha256": "f01f2ed1a4883765d679dcc39d72f1d9ce3b49233c3dc5ad5a4f4aa4ab067a4b",
+      "bytes": 2193646
     },
     "thumbnail": {
       "path": "premier_league/hull_city/thumbnail.png",
-      "sha256": "1c083a9b68941f08877ca68f7ac6958a069eea56724297ee4692b24e3f43470e",
-      "bytes": 323273
+      "sha256": "5291dd2103d06907b299719955f333ab6e13dc29fb73ab229e77be128bde0327",
+      "bytes": 269753
     },
     "detail": {
       "path": "premier_league/hull_city/stadium-detail.png",
-      "sha256": "45d0144a31d7088ab48c5727551f55ea9c986e9510cae52eca9ccaa0dcdd52d7",
-      "bytes": 74067
+      "sha256": "b2104e47246514e89699ecf4a22ef22b527e1763d6ae7dbdee9912d0e1386955",
+      "bytes": 90641
     },
     "manifest": {
       "path": "premier_league/hull_city/hull_city.plot.json",
-      "sha256": "489aa4863e6ebbcc5d7d288015e204a32e5ad9ef51ff967b0e085cde78a1473a",
-      "bytes": 479550
+      "sha256": "40c0123088c40991c56bf0607dd89b88ab2d0acd1dd2336dc1fe378005a2d2f0",
+      "bytes": 340454
     },
     "plotjob": {
       "path": "premier_league/hull_city/hull_city.plotjob.json",
-      "sha256": "937a8336f364afff47eae6732d91944873a961069ddb40b812ae63c66adcb5b6",
-      "bytes": 2587189
+      "sha256": "2ec1fb962b268ab462ef28e352c61a2ceca07942185e47b9d17aba51bae0d7f6",
+      "bytes": 1637264
     },
     "qa": {
       "path": "premier_league/hull_city/QA.json",
-      "sha256": "ba139cb7cc82d2ad9f6e221cfc848ea044fa733f5840971460778f518896fb1a",
-      "bytes": 1843
+      "sha256": "5247f805d537ecb7a2fd653deabfa6a8c8dc4c6565d3a9b00db30b5cd59c982a",
+      "bytes": 2117
     }
   },
   "pens": [
     {
       "path": "premier_league/hull_city/pens/hull_city.pen-01-blue-0-4.svg",
-      "sha256": "f39d6847362e800b3e5c528e8583abf27538af14b68e3ab21adf75b5e6983b66",
-      "bytes": 10085
+      "sha256": "306f27e9cb592461acf745e53623998f70b27c0deb83795e1be6f565f4cb8e5f",
+      "bytes": 6170
     },
     {
       "path": "premier_league/hull_city/pens/hull_city.pen-02-blue-0-25.svg",
-      "sha256": "20879585688cb27b69677669b23d4fe349f5ace30b2eecc2b9cdc7b3f600811b",
-      "bytes": 109752
+      "sha256": "122b81eeebc378ea5e708162569adb44cff781d12c9495d4db71330ce94815c4",
+      "bytes": 10715
     },
     {
       "path": "premier_league/hull_city/pens/hull_city.pen-03-green-0-25.svg",
-      "sha256": "2886d44d3322206a2ac82061e68cc732aaa0cacb91340405ded950239023efe8",
-      "bytes": 107927
+      "sha256": "e24e2a3709449a0cc97c4c535593efff0e5cabfffb012c81428f992a5fca0b97",
+      "bytes": 67944
     },
     {
       "path": "premier_league/hull_city/pens/hull_city.pen-04-purple-0-25.svg",
-      "sha256": "4b2e4c391302ffdb45b96cd7435b64975b439dcf25674cfce8771cbf8c5fdb39",
-      "bytes": 20238
+      "sha256": "a93888cd2ddfda445ac65eccf7d2d7810a0731ff5acbece5f2983d28cc893be9",
+      "bytes": 19757
     },
     {
       "path": "premier_league/hull_city/pens/hull_city.pen-05-grey-0-25.svg",
-      "sha256": "cbbcd34c737784b4749a291eec52615f41a604bf3444cfb68b3f9b1d9cf19d74",
-      "bytes": 1795227
+      "sha256": "93eb688317aff58bfda98c675694c7f82ea16e91fee5ad9d8f5958baad2d2587",
+      "bytes": 1097577
     },
     {
       "path": "premier_league/hull_city/pens/hull_city.pen-06-red-0-4.svg",
-      "sha256": "fb6e8d6d04f57b79587877efd34055a8bf894738e608119922bdab49679555e0",
-      "bytes": 45540
+      "sha256": "7d4579b5617e6e119e265a4303cbfa0f7bff0757a21176f221282be470328d37",
+      "bytes": 21416
     },
     {
       "path": "premier_league/hull_city/pens/hull_city.pen-07-red-0-25.svg",
-      "sha256": "cbf04fb0b50cad73470c49b66c287f34032cbceba730e319f6e18f43097fba53",
-      "bytes": 46448
+      "sha256": "7556501db331d45b1aa339db4c9831a0042d47dccd6cac876818714f73c7befe",
+      "bytes": 32713
     },
     {
       "path": "premier_league/hull_city/pens/hull_city.pen-08-black-0-6.svg",
-      "sha256": "cac5bd07fc69ec87924bad49f6879285f74a83bc1a8f06dcbe9019da69593846",
-      "bytes": 2011
+      "sha256": "06c1d8865666c22c753b157170f892f4f923af5863a3af08ab9ebc23d1b56635",
+      "bytes": 2008
     },
     {
       "path": "premier_league/hull_city/pens/hull_city.pen-09-black-1.svg",
-      "sha256": "94468f8b61f3403ff4ff6ad0cb46b9e5c6ae21bd644f457629008500b2b46521",
-      "bytes": 2033
+      "sha256": "499f5e610ac3adca3f3887d93c6961e76fdb1ed5254d66d9744c853c48edf0dd",
+      "bytes": 2030
     },
     {
       "path": "premier_league/hull_city/pens/hull_city.pen-10-black-0-4.svg",
-      "sha256": "ba5f090f3830dff050c3bf5d3e06ad8b18f7be86ed995821973c15f1ffa9797d",
-      "bytes": 10617
+      "sha256": "f563c5bce24c5eb6781134c431bbe3f5c91d453f2ff3b6d0ac688d5d38b2f10c",
+      "bytes": 12826
     },
     {
       "path": "premier_league/hull_city/pens/hull_city.pen-11-black-0-25.svg",
-      "sha256": "0b9980916c9c33bf7e5c4bc4c63214b85b6fecb649fb98a4ee241cafceeedf03",
-      "bytes": 113345
+      "sha256": "aad18190716d02f036de887612e50ca2292962bf5c8620e9aba091c6247645f9",
+      "bytes": 113342
     }
   ]
 }

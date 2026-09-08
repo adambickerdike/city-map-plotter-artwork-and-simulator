@@ -27,13 +27,13 @@
     "compass_vertical_error_mm": 0.0
   },
   "svg_preflight": {
-    "source_sha256": "1a1f8923b072a6764c8769449e6d85c1263585ed8aa27c816bf3e51524ccd8f9",
-    "source_bytes": 3667157,
+    "source_sha256": "11b59d40d2b84c368abbb0a16d8d17fce3fa8a8cbfc83280f31d1907d85c4501",
+    "source_bytes": 3489696,
     "page_mm": {
       "width": 297.0,
       "height": 420.0
     },
-    "path_count": 3513,
+    "path_count": 3437,
     "layer_count": 17,
     "metadata_complete": true,
     "hardware_safe": true,
@@ -43,14 +43,25 @@
   "stadium_paths_exported": 46,
   "stadium_native_curves_preserved": true,
   "map_bbox": {
-    "west": -1.2360797306339006,
-    "south": 54.56441164053521,
-    "east": -1.1977508693660992,
-    "north": 54.592215159464786
+    "west": -1.2322468445071186,
+    "south": 54.56719199242817,
+    "east": -1.2015837554928812,
+    "north": 54.58943480757183
   },
-  "zoom_out_width_factor": 1.15,
-  "base_format_checks": 3878,
-  "composed_format_checks": 3891,
+  "framing": {
+    "revision": 2,
+    "width_vs_previous_city_edition": 0.8,
+    "stadium_linear_enlargement_vs_previous": 1.25,
+    "width_vs_original_source_map": 0.92
+  },
+  "base_format_checks": 3760,
+  "base_format_failures": [],
+  "floating_point_floor_exceptions": {
+    "tolerance_mm": 1e-09,
+    "base": [],
+    "composed": []
+  },
+  "composed_format_checks": 3781,
   "format_failures": [],
   "native_detail_floor_exceptions": [],
   "nominal_stadium_subfloor_paths": [],

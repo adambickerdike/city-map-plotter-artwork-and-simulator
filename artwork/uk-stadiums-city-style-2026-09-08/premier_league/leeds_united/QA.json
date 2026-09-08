@@ -27,14 +27,14 @@
     "compass_vertical_error_mm": 0.0
   },
   "svg_preflight": {
-    "source_sha256": "d23fd15aacfc26d892370e02337674fc94479505b647a6300435fc9d92de749d",
-    "source_bytes": 2823117,
+    "source_sha256": "1b3f3d3443548033e30bfca82ebce6a6bec6541a6a7121a04b4b667a9c80d932",
+    "source_bytes": 1890521,
     "page_mm": {
       "width": 297.0,
       "height": 420.0
     },
-    "path_count": 2505,
-    "layer_count": 17,
+    "path_count": 1717,
+    "layer_count": 18,
     "metadata_complete": true,
     "hardware_safe": true,
     "issues": []
@@ -43,29 +43,35 @@
   "stadium_paths_exported": 50,
   "stadium_native_curves_preserved": true,
   "map_bbox": {
-    "west": -1.589094502380793,
-    "south": 53.76528486330883,
-    "east": -1.5552598604565648,
-    "north": 53.79030803034545
+    "west": -1.5857110381883701,
+    "south": 53.76778718001249,
+    "east": -1.5586433246489877,
+    "north": 53.78780571364179
   },
-  "zoom_out_width_factor": 1.15,
-  "base_format_checks": 2904,
-  "composed_format_checks": 2921,
+  "framing": {
+    "revision": 2,
+    "width_vs_previous_city_edition": 0.8,
+    "stadium_linear_enlargement_vs_previous": 1.25,
+    "width_vs_original_source_map": 0.92
+  },
+  "base_format_checks": 2095,
+  "base_format_failures": [],
+  "floating_point_floor_exceptions": {
+    "tolerance_mm": 1e-09,
+    "base": [],
+    "composed": []
+  },
+  "composed_format_checks": 2130,
   "format_failures": [
-    "layer 'Stadium roof and pitch detail — Black 0.25': 2 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+    "layer 'Stadium roof and pitch detail — Black 0.25': 1 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
   ],
   "native_detail_floor_exceptions": [
-    "layer 'Stadium roof and pitch detail — Black 0.25': 2 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+    "layer 'Stadium roof and pitch detail — Black 0.25': 1 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
   ],
   "nominal_stadium_subfloor_paths": [
     {
       "id": "bowl-stand-front-unique-0",
-      "length_mm": 0.5268860907184304,
-      "nib_mm": 0.25
-    },
-    {
-      "id": "bowl-stand-front-unique-1",
-      "length_mm": 0.6388739335770454,
+      "length_mm": 0.658607189419363,
       "nib_mm": 0.25
     }
   ],

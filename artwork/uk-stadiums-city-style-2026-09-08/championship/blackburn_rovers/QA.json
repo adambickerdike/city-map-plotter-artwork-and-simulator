@@ -27,14 +27,14 @@
     "compass_vertical_error_mm": 0.0
   },
   "svg_preflight": {
-    "source_sha256": "ee0cd204671f0de64bc75c2c0c0bc7e589bce53d1bb3029f49b1992afe83d846",
-    "source_bytes": 1665239,
+    "source_sha256": "2bbbaf110676e891dbe03b13a689cb57da512208320143ebbeac4b07ca6345fd",
+    "source_bytes": 1129723,
     "page_mm": {
       "width": 297.0,
       "height": 420.0
     },
-    "path_count": 1513,
-    "layer_count": 17,
+    "path_count": 1077,
+    "layer_count": 18,
     "metadata_complete": true,
     "hardware_safe": true,
     "issues": []
@@ -43,14 +43,25 @@
   "stadium_paths_exported": 45,
   "stadium_native_curves_preserved": true,
   "map_bbox": {
-    "west": -2.506122590609319,
-    "south": 53.71601671648169,
-    "east": -2.472327609390681,
-    "north": 53.74103988351831
+    "west": -2.502743092487455,
+    "south": 53.71851903318535,
+    "east": -2.475707107512545,
+    "north": 53.73853756681465
   },
-  "zoom_out_width_factor": 1.15,
-  "base_format_checks": 1911,
-  "composed_format_checks": 1927,
+  "framing": {
+    "revision": 2,
+    "width_vs_previous_city_edition": 0.8,
+    "stadium_linear_enlargement_vs_previous": 1.25,
+    "width_vs_original_source_map": 0.92
+  },
+  "base_format_checks": 1449,
+  "base_format_failures": [],
+  "floating_point_floor_exceptions": {
+    "tolerance_mm": 1e-09,
+    "base": [],
+    "composed": []
+  },
+  "composed_format_checks": 1482,
   "format_failures": [
     "layer 'Stadium roof and pitch detail — Black 0.25': 2 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
   ],
@@ -60,12 +71,12 @@
   "nominal_stadium_subfloor_paths": [
     {
       "id": "bowl-stand-front-unique-0",
-      "length_mm": 0.52688621877788,
+      "length_mm": 0.6586073998443713,
       "nib_mm": 0.25
     },
     {
       "id": "bowl-stand-front-unique-3",
-      "length_mm": 0.5268865756990766,
+      "length_mm": 0.6586075112790806,
       "nib_mm": 0.25
     }
   ],

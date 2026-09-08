@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 FROZEN = ROOT / "artwork/production-maps-2026-09-06/reproduction"
 SOURCE = ROOT / "artwork/uk-stadiums-overhead-2026-09-08"
 DEST = ROOT / "artwork/uk-stadiums-city-style-2026-09-08"
-WORK = ROOT / "build/stadium-house-work"
+WORK = ROOT / "build/stadium-house-work/closer-club-v2"
 sys.path[:0] = [
     str(FROZEN / "renderer/src"),
     str(ROOT / "tools"),
@@ -141,10 +141,49 @@ def city_header(root, m, row):
     g.set("data-copy", copy_text)
     g.set("data-coordinate-line-copy-json", json.dumps([copy_text]))
     g.set("data-copy-geometry-sha256", stroke_geometry_sha256(strokes))
+    # Fit the added club line between the actual title and coordinate ink envelopes.
+    # Type size, nib and the containing column all come from the frozen A3 contract.
+    plate = SPEC["formats"]["a3-portrait"]
+    club_cap = plate["type_scale_mm"]["subtitle"]
+    club_nib = plate["nib_roles_mm"]["text"]
+    title = root.find(f"{S('g')}[@id='layer-poster_title']")
+    top = _bounds(title)[3] + float(title.get("data-plot-nib-mm")) / 2
+    bottom = b[1] - float(g.get("data-plot-nib-mm")) / 2
+    club_y = (top + bottom - club_cap) / 2
+    club_copy = row["club"].upper()
+    if text_width_mm(club_copy, cap_height_mm=club_cap) + club_nib > available:
+        raise ValueError("Football club exceeds header: " + row["id"])
+    if (bottom - top - club_cap - club_nib) / 2 < club_nib:
+        raise ValueError(
+            "Football club has insufficient vertical clearance: " + row["id"]
+        )
+    club = group(
+        "layer-poster_club", "Football club — Black 0.4", "Black", club_nib, "#26333d"
+    )
+    club_strokes = reliable_vector_strokes(
+        stroke_text(
+            club_copy, x_mm=b[0], y_mm=club_y, height_mm=club_cap, anchor="start"
+        ),
+        nib_mm=club_nib,
+    )
+    append_vector_strokes(club, club_strokes)
+    club.set("data-copy", club_copy)
+    club.set("data-cap-height-mm", str(club_cap))
+    club.set("data-copy-geometry-sha256", stroke_geometry_sha256(club_strokes))
+    root.append(club)
+    m["page"]["zones_mm"]["city_club"] = {
+        "x": zone["x"],
+        "y": top,
+        "width": zone["width"],
+        "height": bottom - top,
+    }
     m["city_map"]["coordinates"] = copy_text
-    m["city_map"]["visible_copy"] = [m["title"], copy_text, "N"]
+    m["city_map"]["visible_copy"] = [m["title"], club_copy, copy_text, "N"]
     m["stadium_city_header"] = {
         "stadium": row["name"],
+        "club": row["club"],
+        "club_copy": club_copy,
+        "club_bounds_mm": list(_bounds(club)),
         "city": row["city"],
         "coordinates_source": row["georeference"],
         "copy": copy_text,
@@ -291,7 +330,13 @@ def build_one(row):
         "--output",
         str(base),
     ]
-    if not base.exists():
+    cache_binding = {"command": command, "source_sha256": sha(source_pbf)}
+    cache_path = local / "render-input.json"
+    if (
+        not base.exists()
+        or not cache_path.exists()
+        or json.loads(cache_path.read_text()) != cache_binding
+    ):
         with (local / "render.log").open("w") as log:
             subprocess.run(
                 command,
@@ -301,6 +346,7 @@ def build_one(row):
                 stdout=log,
                 stderr=subprocess.STDOUT,
             )
+        dump(cache_path, cache_binding)
     m = json.loads(base.with_suffix(".plot.json").read_text())
     if m["source"]["provenance"]["content_sha256"] != sha(source_pbf):
         raise ValueError(
@@ -411,10 +457,11 @@ def build_one(row):
         overlay["shell_paths"]
     ) + len(overlay["paths"])
     city_header(root, m, row)
-    m["generator"] = "stadium-city-house-compositor/1"
+    m["generator"] = "stadium-city-house-compositor/2"
     m["source_stadium"] = {
         "id": sid,
         "name": row["name"],
+        "club": row["club"],
         "city": row["city"],
         "version": row["version"],
         "review_note": row["review_note"],
@@ -425,7 +472,8 @@ def build_one(row):
         "pitch_georeference": overlay["georeference"],
     }
     m["stadium_composition"] = {
-        "zoom_out_width_factor": 1.15,
+        "framing": row["framing"],
+        "previous_city_extent_wgs84": row["previous_city_extent_wgs84"],
         "old_extent_wgs84": row["old_extent_wgs84"],
         "roof_occlusion": {
             "removed": removed,
@@ -594,6 +642,10 @@ def build_one(row):
         save(split, pp)
         assert not preflight_svg(pp).errors
         pen_files.append(record(pp))
+    expected_pen_names = {Path(item["path"]).name for item in pen_files}
+    for previous in pd.glob(f"{sid}.pen-*.svg"):
+        if previous.name not in expected_pen_names:
+            previous.unlink()
     subprocess.run(
         [
             "inkscape",
@@ -635,7 +687,7 @@ def build_one(row):
         "stadium_paths_exported": sum(len(g) for g in stad_groups.values()),
         "stadium_native_curves_preserved": True,
         "map_bbox": m["extent_wgs84"],
-        "zoom_out_width_factor": 1.15,
+        "framing": row["framing"],
         "base_format_checks": br.checks,
         "base_format_failures": br.failures,
         "floating_point_floor_exceptions": {
@@ -658,6 +710,7 @@ def build_one(row):
             "id",
             "league",
             "name",
+            "club",
             "city",
             "version",
             "review_note",
