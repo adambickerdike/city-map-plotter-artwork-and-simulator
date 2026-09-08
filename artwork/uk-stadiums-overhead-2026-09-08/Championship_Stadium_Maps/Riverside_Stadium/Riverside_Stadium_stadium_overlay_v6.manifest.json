@@ -1,0 +1,244 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "Checked for doubled outlines, close parallel strokes, corner overshoots and under-roof map paths; clean geometry retained unchanged.",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -49.0,
+      -43.0,
+      75.0,
+      42.0
+    ],
+    "roof_translation_m": [
+      -2.9045000000000005,
+      3.6349999999999976
+    ],
+    "bowl_bounds_m": [
+      -51.9045,
+      -39.365,
+      72.0955,
+      45.635
+    ],
+    "pitch_centre_m": [
+      10.0955,
+      3.1349999999999976
+    ],
+    "bowl_centre_m": [
+      10.095500000000001,
+      3.134999999999998
+    ],
+    "opposed_clearances_m": {
+      "left": 9.5,
+      "right": 9.5,
+      "bottom": 8.5,
+      "top": 8.5
+    },
+    "centre_error_m": 1.831026719408895e-15,
+    "geographic_pitch_preserved": true
+  },
+  "id": "middlesbrough",
+  "name": "Riverside Stadium",
+  "source_recipe": {
+    "note": "The Riverside: connected rounded quadrants, broad side canopies, a continuous inner band and the main entrance projection. The stronger main-side truss distinguishes it from the shallower opposite roof.",
+    "reference_method": "Aligned World Imagery overhead and Clubs From Above aerial photographs; dates vary."
+  },
+  "baseline_overlay": "Championship_Stadium_Maps/Riverside_Stadium/Riverside_Stadium_stadium_overlay_v1.json",
+  "baseline_sha256": "93768ff01d8ba36264b2cc5328537c601fe61ef36e3d7905014281439967e800",
+  "map_cache": "Championship_Stadium_Maps/Riverside_Stadium/source_cache/osm_main_api_snapshot.json.gz",
+  "map_cache_sha256": "50004a9a84cb3e74538b80cae8229884446f13cd0f0761ea03d0c42b176c4008",
+  "outer_shell": "way/554223290",
+  "shell_element_sha256": "3f04a9ee83504fc1d9b576dc360430cfe149112066dea91cea7730b45e9c7b12",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/1255359071",
+      "name": "North Stand",
+      "element_sha256": "5c459f6d4901be546e994bb89e960f25fc4c8e73de10b8b204efcd468455c7dc"
+    },
+    {
+      "osm_ref": "way/1255359072",
+      "name": "East Stand",
+      "element_sha256": "8af8eae1faef792f89c5799d66e5cc47bbef1a5d7a0652ac331010a325b09782"
+    },
+    {
+      "osm_ref": "way/1255359073",
+      "name": "South Stand",
+      "element_sha256": "603d45f5a830e5e4fc1567091efba063cdd85f9406159721bf7ed67831ef325b"
+    },
+    {
+      "osm_ref": "way/1255359074",
+      "name": "West Stand",
+      "element_sha256": "90cd4c7f5b605560c339cd5b7ff76845aa4ada802b8b09de54ffb0f688df3fd2"
+    }
+  ],
+  "paths": 44,
+  "shell_paths": 2,
+  "previous_detailed_paths": 59,
+  "overlay": "Championship_Stadium_Maps/Riverside_Stadium/Riverside_Stadium_stadium_overlay_v6.json",
+  "overlay_sha256": "e51dee9afd3d770ebb58b8594d930066906d94dcd16e40a40af5f62f4817106d",
+  "svg": "Championship_Architecture_Review/middlesbrough/stadium_A2.svg",
+  "svg_sha256": "3956987c06be0238e52d941a813712a0181749e21bf3f949e0c1fd58cebc2eaf",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "championship",
+  "roof_geometry_file": "championship_roof_geometry.py",
+  "roof_geometry_sha256": "43d7c456711de1aee495c3092418eefb98dbea79f545c81340d84f11162dda88",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained Riverside's smooth joined outer roof and centred rectangular opening. The main roof/body proportions compare closely with the Google view; only the existing restrained roof divisions are kept.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=54.5783134,-1.2169153&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/middlesbrough.json",
+    "browser_record_sha256": "a4b7a711463de473a62ad8f07ce32e2ee760fb7b254880f573f08ba4bae37e93",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/middlesbrough.png",
+    "screenshot_sha256": "ddb239e7bcdfe0d21ab6c6a488daf994975f80f32107422efc436bf3a8ca6d4f",
+    "captured_utc": "2026-09-08T14:41:52.090059+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 54.5783134,
+      "longitude": -1.2169153,
+      "x_axis_degrees_from_east": -71.484222406
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      188.0,
+      159.0
+    ],
+    "pitch_to_body_ratio": [
+      0.5585,
+      0.4277
+    ]
+  },
+  "features_sha256": "1a5ce144e1ceb63c65458c3a3484475f1015897a59b79d3fe166d0a7513c60d3",
+  "parallel_families": [
+    {
+      "id": "side-roof-bays",
+      "axis": "x",
+      "positions_m": [
+        -29.9045,
+        -13.9045,
+        2.0954999999999995,
+        18.0955,
+        34.0955,
+        50.0955
+      ]
+    },
+    {
+      "id": "end-roof-bays",
+      "axis": "y",
+      "positions_m": [
+        -20.865000000000002,
+        -4.865000000000002,
+        11.134999999999998,
+        27.134999999999998
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "middlesbrough",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-135906.35797653333%2C7280011.7668985035%2C-135026.42509255416%2C7280891.699782483&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "95c6ad59bd1bb65a92500bd9c3ad1787d719fa4e75a469e57b04b42f17cf51a3",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -71.484222406,
+      "latitude": 54.5783134,
+      "longitude": -1.2169153
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -49.0,
+        -43.0,
+        75.0,
+        42.0
+      ],
+      "roof_translation_m": [
+        -2.9045000000000005,
+        3.6349999999999976
+      ],
+      "bowl_bounds_m": [
+        -51.9045,
+        -39.365,
+        72.0955,
+        45.635
+      ],
+      "pitch_centre_m": [
+        10.0955,
+        3.1349999999999976
+      ],
+      "bowl_centre_m": [
+        10.095500000000001,
+        3.134999999999998
+      ],
+      "opposed_clearances_m": {
+        "left": 9.5,
+        "right": 9.5,
+        "bottom": 8.5,
+        "top": 8.5
+      },
+      "centre_error_m": 1.831026719408895e-15,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 3,
+    "parallel_families": 2,
+    "explicit_projecting_structure_envelopes": 1,
+    "duplicate_straight_edge_length_removed_m": 29.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "aerial_gallery": {
+    "id": "middlesbrough",
+    "source_page": "https://www.clubsfromabove.com/team/middlesbrough",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_middlesbrough_riverside_250908190410_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/middlesbrough",
+        "path": ".stadium_aerial_references/middlesbrough/01.jpg",
+        "sha256": "4e0dd880c07afa0c264ca34a0f9669f82dad1d649c39f6f31854694b047c9e47"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_middlesbrough_riverside_070907190410_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/middlesbrough",
+        "path": ".stadium_aerial_references/middlesbrough/02.jpg",
+        "sha256": "d48e61477c7889181b8594d07240651f47b495139ad7f700b5e006eb10453215"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_middlesbrough_riverside_530905190410_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/middlesbrough",
+        "path": ".stadium_aerial_references/middlesbrough/03.jpg",
+        "sha256": "007e71ea57888c0561b2ff545870e284f3dc95d77bc8e6902830143869254d05"
+      }
+    ]
+  }
+}

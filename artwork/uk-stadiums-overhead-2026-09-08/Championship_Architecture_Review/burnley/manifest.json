@@ -1,0 +1,276 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "Trimmed the service/footpath segment hidden beneath the authored roof; outside approaches retained.",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -67,
+      -84,
+      49,
+      -5
+    ],
+    "roof_translation_m": [
+      -1.719000000000003,
+      -1.7674999999999983
+    ],
+    "bowl_bounds_m": [
+      -68.71900000000001,
+      -85.7675,
+      47.281,
+      -6.767499999999998
+    ],
+    "pitch_centre_m": [
+      -10.719000000000003,
+      -46.2675
+    ],
+    "bowl_centre_m": [
+      -10.719000000000005,
+      -46.2675
+    ],
+    "opposed_clearances_m": {
+      "left": 5.500000000000007,
+      "right": 5.5,
+      "bottom": 5.5,
+      "top": 5.5
+    },
+    "centre_error_m": 1.7763568394002505e-15,
+    "geographic_pitch_preserved": true
+  },
+  "id": "burnley",
+  "name": "Turf Moor",
+  "source_recipe": {
+    "note": "Turf Moor: four unequal stand roofs, the two larger trussed stands and small corner structures. The large northern forecourt inside the mapped stadium site is deliberately excluded from the roof drawing.",
+    "reference_method": "Aligned World Imagery overhead and Clubs From Above aerial photographs; dates vary."
+  },
+  "baseline_overlay": "Championship_Stadium_Maps/Turf_Moor/Turf_Moor_stadium_overlay_v1.json",
+  "baseline_sha256": "5e17afd389a55f166b817144345d5556e4644dea3bc1b7ec38c585c9efb5e003",
+  "map_cache": "Championship_Stadium_Maps/Turf_Moor/source_cache/osm_main_api_snapshot.json.gz",
+  "map_cache_sha256": "db51d4b1cf55856510245552ad2bc78020baf6ec182764a89dbd0ac0318433a9",
+  "outer_shell": "way/663006865",
+  "shell_element_sha256": "087d00149e405bbf5d667be2b218accb241b27256da867b0b9a76fa5bb95ca7d",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/1378974460",
+      "name": "North Stand",
+      "element_sha256": "4b93ae6fe795fda8108553d274698ee84ede481819af48e5719c6e6c670a39dc"
+    },
+    {
+      "osm_ref": "way/1378974461",
+      "name": "Cricket Field Stand",
+      "element_sha256": "b6172654c2a857266a210ee620649dfb56edccd5e62d93c3e118e0ae29555e0c"
+    },
+    {
+      "osm_ref": "way/1378974462",
+      "name": "Bob Lord Stand",
+      "element_sha256": "9210796e61b3718ef1ca7415991c625beb3f692316a9922851d907ea24ba08ac"
+    },
+    {
+      "osm_ref": "way/1378974463",
+      "name": "Jimmy McIlroy Stand",
+      "element_sha256": "363b4c27f49ce5502b4838d87f483ea2a700236dba15c76b0f6158f98067cf66"
+    },
+    {
+      "osm_ref": "way/1378974464",
+      "name": "",
+      "element_sha256": "1e4c513315a86bf94275ce874661e5d3c4f21098a6eff636c9d1e95d7fe4d010"
+    },
+    {
+      "osm_ref": "way/1378974465",
+      "name": "",
+      "element_sha256": "fcaf5244068484abc50157e58bcf6b011e38d124c4a118deed97e02028d0607d"
+    }
+  ],
+  "paths": 40,
+  "shell_paths": 7,
+  "previous_detailed_paths": 184,
+  "overlay": "Championship_Stadium_Maps/Turf_Moor/Turf_Moor_stadium_overlay_v7.json",
+  "overlay_sha256": "141658125bd96cef0298947ef2ad6827044649ecd29ccd7a01ab7daa02e4f917",
+  "svg": "Championship_Architecture_Review/burnley/stadium_A2.svg",
+  "svg_sha256": "de869d967d32b08adb8cde38a7751f93412f9f8984fa69ef6181b4fa9a1f859a",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "championship",
+  "roof_geometry_file": "championship_roof_geometry.py",
+  "roof_geometry_sha256": "43d7c456711de1aee495c3092418eefb98dbea79f545c81340d84f11162dda88",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained Turf Moor's four unequal canopies, principal trusses and small accessible corner roofs. Common photographic roof displacement is not copied into the pitch datum; the large northern forecourt remains excluded from the stadium roof.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=53.7893606,-2.2298547&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/burnley.json",
+    "browser_record_sha256": "261434b13f5eb5d52208a28dd46b1b4bc4b22333b53c7be885fa2b9cb124a171",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/burnley.png",
+    "screenshot_sha256": "b5ecf4ad840ed7084095c70a7f591047a313ca3e234265f49e07446c91b31420",
+    "captured_utc": "2026-09-08T14:41:36.200512+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 53.7893606,
+      "longitude": -2.2298547,
+      "x_axis_degrees_from_east": -16.411073256
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      185.0,
+      133.0
+    ],
+    "pitch_to_body_ratio": [
+      0.5676,
+      0.5113
+    ]
+  },
+  "features_sha256": "1a5ce144e1ceb63c65458c3a3484475f1015897a59b79d3fe166d0a7513c60d3",
+  "parallel_families": [
+    {
+      "id": "north-stand-bays",
+      "axis": "x",
+      "positions_m": [
+        -53.29042857142857,
+        -36.86185714285715,
+        -20.433285714285716,
+        -4.004714285714295,
+        12.423857142857136,
+        28.852428571428568
+      ]
+    },
+    {
+      "id": "jimmy-mcilroy-bays",
+      "axis": "y",
+      "positions_m": [
+        -82.60083333333333,
+        -66.43416666666666,
+        -50.2675,
+        -34.10083333333333,
+        -17.93416666666667
+      ]
+    },
+    {
+      "id": "cricket-field-bays",
+      "axis": "y",
+      "positions_m": [
+        -76.7675,
+        -59.7675,
+        -42.7675,
+        -25.7675
+      ]
+    },
+    {
+      "id": "bob-lord-bays",
+      "axis": "x",
+      "positions_m": [
+        -49.38566666666667,
+        -30.052333333333337,
+        -10.719000000000003,
+        8.614333333333326,
+        27.94766666666667
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "burnley",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-248657.94040159762%2C7129932.56341727%2C-247794.639092378%2C7130795.86472649&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "d3efad144e1c4e4140c58ed1fb2c044f30f430d5beadf90f9cf3cd01a0925f4c",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -16.411073256,
+      "latitude": 53.7893606,
+      "longitude": -2.2298547
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -67,
+        -84,
+        49,
+        -5
+      ],
+      "roof_translation_m": [
+        -1.719000000000003,
+        -1.7674999999999983
+      ],
+      "bowl_bounds_m": [
+        -68.71900000000001,
+        -85.7675,
+        47.281,
+        -6.767499999999998
+      ],
+      "pitch_centre_m": [
+        -10.719000000000003,
+        -46.2675
+      ],
+      "bowl_centre_m": [
+        -10.719000000000005,
+        -46.2675
+      ],
+      "opposed_clearances_m": {
+        "left": 5.500000000000007,
+        "right": 5.5,
+        "bottom": 5.5,
+        "top": 5.5
+      },
+      "centre_error_m": 1.7763568394002505e-15,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 4,
+    "parallel_families": 4,
+    "explicit_projecting_structure_envelopes": 2,
+    "duplicate_straight_edge_length_removed_m": 395.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "aerial_gallery": {
+    "id": "burnley",
+    "source_page": "https://www.clubsfromabove.com/team/burnley",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_burnley_turf_moor_300902190515_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/burnley",
+        "path": ".stadium_aerial_references/burnley/01.jpg",
+        "sha256": "54310e16fe64c141a1507862cf8cb66eb8f63da982dabf56b88d92b981d9c79b"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_burnley_turf_moor_320900190515_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/burnley",
+        "path": ".stadium_aerial_references/burnley/02.jpg",
+        "sha256": "4bd8a9f565b33aa6ea6d87642e493ed325c8cdc68305a2759528766ab822d74f"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_burnley_turf_moor_180959190514_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/burnley",
+        "path": ".stadium_aerial_references/burnley/03.jpg",
+        "sha256": "e5bd7d8c6a9ea87e25c239865e7c83673df88c38d7343ef589d84d6d22ecc032"
+      }
+    ]
+  }
+}

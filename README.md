@@ -1,5 +1,31 @@
 # City Map Plotter — artwork portfolio and physical simulator
 
+## Latest UK stadiums — Premier League and Championship
+
+The [44-stadium handoff](artwork/uk-stadiums-overhead-2026-09-08/README.md)
+contains the latest **20 Premier League and 24 Championship** drawings from
+8 September 2026, including the final **Etihad v10** roof fix. Each ground has
+its full A3 city map, PNG previews, standalone native A2 stadium SVG, and a
+georeferenced overlay JSON for reuse in other maps. The reviewed artwork is
+copied unchanged; older drafts, private reference imagery and NFL/European
+stadiums are not included.
+
+Start with the [map integration guide](artwork/uk-stadiums-overhead-2026-09-08/SOFTWARE_IMPORT.md)
+and [catalogue](artwork/uk-stadiums-overhead-2026-09-08/catalog.json).
+After pulling the repository, fetch just this package and verify it:
+
+```bash
+git lfs pull --include="artwork/uk-stadiums-overhead-2026-09-08/**"
+python3 scripts/verify_uk_stadiums.py
+```
+
+The [local visual gallery](artwork/uk-stadiums-overhead-2026-09-08/index.html)
+shows full maps first, then stadium close-ups. This is a reviewed artwork and
+integration handoff, separate from the production collection below; physical
+pen/paper proofing remains required.
+
+## Current production-map collection
+
 The current digital map release is
 [the 457-map customer collection](artwork/production-maps-2026-09-06/index.html).
 It brings together all approved city, university, hiking, marathon, rowing,

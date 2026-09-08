@@ -1,0 +1,258 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -62.0,
+      -40.0,
+      58.0,
+      40.0
+    ],
+    "roof_translation_m": [
+      2.0,
+      -0.0
+    ],
+    "bowl_bounds_m": [
+      -60.0,
+      -40.0,
+      60.0,
+      40.0
+    ],
+    "pitch_centre_m": [
+      -0.0,
+      -0.0
+    ],
+    "bowl_centre_m": [
+      0.0,
+      0.0
+    ],
+    "opposed_clearances_m": {
+      "left": 7.5,
+      "right": 7.5,
+      "bottom": 6.0,
+      "top": 6.0
+    },
+    "centre_error_m": 0.0,
+    "geographic_pitch_preserved": true
+  },
+  "id": "brentford",
+  "name": "Gtech Community Stadium",
+  "source_recipe": {
+    "note": "Six-sided asymmetric roof, four hip joints, restrained roof bays and a reduced solar-array bank.",
+    "reference_method": "Aligned overhead reference checked against aerial photographs; shared axes and native cubic curves authored in stadium_roof_geometry.py. Not an as-built survey."
+  },
+  "baseline_overlay": "Premier_League_Stadium_Maps/Gtech_Community_Stadium/Gtech_Community_Stadium_stadium_overlay_v1.json",
+  "baseline_sha256": "9909debc13a8fb233bfa61a4131d1042607a2e4fff782295cac8f8595dbd83f9",
+  "map_cache": "Premier_League_Stadium_Maps/Gtech_Community_Stadium/source_cache/overpass/7abc0f41556dcab8e1c4439fad3a9300a89bc9b048df5e3817ca2dee8ae5dd6b.json.gz",
+  "map_cache_sha256": "d24d1f9c9e568b1eb4eb829a6c482848fd03bf0fab88e83e5c3b805d6177d440",
+  "outer_shell": "way/703196592",
+  "shell_element_sha256": "d6000c55e64e493b6e89f83e21752478c46593890b8949a25c9f00a0202bb09e",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/703148305",
+      "name": "Main Stand",
+      "element_sha256": "9a8a3b7cb63b57dbf6d1fd29831531db2135740e3c3e977d5b3c24e23ac8b348"
+    },
+    {
+      "osm_ref": "way/703148306",
+      "name": "",
+      "element_sha256": "da06d98847e28a6c92a8d7bfc346100b30d36ea4cb399f749b2a97fedc2bce9a"
+    }
+  ],
+  "paths": 31,
+  "shell_paths": 1,
+  "previous_detailed_paths": 109,
+  "overlay": "Premier_League_Stadium_Maps/Gtech_Community_Stadium/Gtech_Community_Stadium_stadium_overlay_v7.json",
+  "overlay_sha256": "34a731468c0fcd242f9a60cca499a76c0d45c6ce4011ecf43035f153d0f5ba76",
+  "svg": "Stadium_Architecture_Review/brentford/stadium_A2.svg",
+  "svg_sha256": "a85372eb819265462f34f89b54a23bc82abda57a04f2f36511d334d2a0551ec1",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "premier_league",
+  "roof_geometry_file": "stadium_roof_geometry.py",
+  "roof_geometry_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "corrected",
+    "review": "Restored both chamfered upper corners and the angular southern site outline. Repositioned the solar-bank outline as one tapering group and removed its invented internal divider. Omitted the generic inner offset stripe that merged with the solar-bank edge at A3 pen weight. Principal hips connect the real roof corners; the pitch stays at its original scale.",
+    "map_context_changes": {
+      "way/703148297": {
+        "clearance_mm": 1.5,
+        "reason": "paved service loop near stadium edge; avoid false duplicate roof outline"
+      }
+    },
+    "map_url": "https://www.google.com/maps?ll=51.490769943,-0.288804884&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/brentford.json",
+    "browser_record_sha256": "0b97aeaa020b26cddda5e9dbee352861db30a2cd8f341b88af11bed40629d73c",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/brentford.png",
+    "screenshot_sha256": "3149110dc84b06adaa2ab70e24bc54a1beca2c519dcef1efa9f27b3a0431c80a",
+    "captured_utc": "2026-09-08T14:40:47.772785+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 51.490769943,
+      "longitude": -0.288804884,
+      "x_axis_degrees_from_east": 29.81924
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      180.0,
+      147.0
+    ],
+    "pitch_to_body_ratio": [
+      0.5833,
+      0.4626
+    ]
+  },
+  "features_sha256": "b7f7d08613ba86076de03d494eb92e1841884c16c4b394b916634be3f7319237",
+  "parallel_families": [
+    {
+      "id": "side-roof-bays",
+      "axis": "x",
+      "positions_m": [
+        -40.0,
+        -20.0,
+        0.0,
+        20.0,
+        40.0
+      ]
+    },
+    {
+      "id": "end-roof-bays",
+      "axis": "y",
+      "positions_m": [
+        -20.0,
+        0.0,
+        20.0
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "brentford",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-32559.158610649785%2C6708159.164444274%2C-31740.066640331097%2C6708978.256414593&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "b9ce796f6f653b3156897b38336bced5fca8f2cfa040bc9dce82f1c7729d4acd",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": 29.81924,
+      "latitude": 51.490769943,
+      "longitude": -0.288804884
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -62.0,
+        -40.0,
+        58.0,
+        40.0
+      ],
+      "roof_translation_m": [
+        2.0,
+        -0.0
+      ],
+      "bowl_bounds_m": [
+        -60.0,
+        -40.0,
+        60.0,
+        40.0
+      ],
+      "pitch_centre_m": [
+        -0.0,
+        -0.0
+      ],
+      "bowl_centre_m": [
+        0.0,
+        0.0
+      ],
+      "opposed_clearances_m": {
+        "left": 7.5,
+        "right": 7.5,
+        "bottom": 6.0,
+        "top": 6.0
+      },
+      "centre_error_m": 0.0,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 0,
+    "parallel_families": 2,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 0.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "survey_frame": {
+    "path": "Gtech_Community_Stadium/Gtech_Community_Stadium_SOURCE_MANIFEST.json",
+    "sha256": "4a6b4fe86f0350d40532ad6ddda7d0971d9b030909de53cb4f5c9fd0bee55ae5",
+    "year": 2023,
+    "plate": "Gtech_Community_Stadium/Gtech_Community_Stadium_GEOMETRY_PLATE.png",
+    "plate_sha256": "572879ae4cc53c5255297e6feedeffaddfa0848c4e1fbdad799e5bb61d307c1e"
+  },
+  "aerial_gallery": {
+    "id": "brentford",
+    "source_page": "https://www.clubsfromabove.com/team/brentford",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_brentford_brentford_community_stadium_161144210114_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/brentford",
+        "path": ".stadium_aerial_references/brentford/01.jpg",
+        "sha256": "9e73afa22f9fd7e719e10336ab5bb913174704a438c75a4958818142be183474"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_brentford_griffin_park_270316201609_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/brentford",
+        "path": ".stadium_aerial_references/brentford/02.jpg",
+        "sha256": "724f26a5e10161db2fe2f0b5cca4cb79020e1e697b3147d4300f7159a03af476"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_brentford_griffin_park_060315201609_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/brentford",
+        "path": ".stadium_aerial_references/brentford/03.jpg",
+        "sha256": "8452bcacc3767bc876fb57718f5fc300dc36836afbeb9c2c0cf73830f6c66c03"
+      },
+      {
+        "index": 4,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_brentford_brentford_community_stadium_410642212711_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/brentford",
+        "path": ".stadium_aerial_references/brentford/04.jpg",
+        "sha256": "3254621b3ed787a1a25a4fe2cb40f30f70d004109ef769b36d2a1cedbd9f906f"
+      },
+      {
+        "index": 5,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_brentford_brentford_community_stadium_500641212711_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/brentford",
+        "path": ".stadium_aerial_references/brentford/05.jpg",
+        "sha256": "e26bc33954330d33f3a15b834d9997aa1149298073adad07c348813aed55cde2"
+      }
+    ]
+  }
+}

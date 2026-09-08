@@ -1,0 +1,274 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "Rear structural contour now curves through the covered-end corners without straight overshoots.",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -38,
+      -60,
+      81,
+      20
+    ],
+    "roof_translation_m": [
+      -2.659500000000005,
+      0.19799999999999685
+    ],
+    "bowl_bounds_m": [
+      -40.65950000000001,
+      -59.80200000000001,
+      78.34049999999999,
+      20.197999999999997
+    ],
+    "pitch_centre_m": [
+      18.840499999999995,
+      -19.802000000000003
+    ],
+    "bowl_centre_m": [
+      18.84049999999999,
+      -19.802000000000007
+    ],
+    "opposed_clearances_m": {
+      "left": 7.150000000000006,
+      "right": 7.1499999999999915,
+      "bottom": 6.000000000000007,
+      "top": 5.9999999999999964
+    },
+    "centre_error_m": 5.0242958677880805e-15,
+    "geographic_pitch_preserved": true
+  },
+  "id": "charlton_athletic",
+  "name": "The Valley",
+  "source_recipe": {
+    "note": "The Valley: the curved Covered End and its two quadrants, straight East and West roofs, and the short separate Jimmy Seed stand. The car park inside the mapped site boundary is not misrepresented as stadium roof.",
+    "reference_method": "Aligned World Imagery overhead and Clubs From Above aerial photographs; dates vary."
+  },
+  "baseline_overlay": "Championship_Stadium_Maps/The_Valley/The_Valley_stadium_overlay_v1.json",
+  "baseline_sha256": "28b754a78b0f5ac09b9672ee075aad51ab8fba444515ec0584e4d80153a0961b",
+  "map_cache": "Championship_Stadium_Maps/The_Valley/source_cache/osm_main_api_snapshot.json.gz",
+  "map_cache_sha256": "d95e0339406dd590a712ef803845d62588083b6b2484604e9c2103a952f5d538",
+  "outer_shell": "way/704823227",
+  "shell_element_sha256": "3b57ba7e68e2b01aa7b47e52f63077ed3e853ef330386e89792c9cc8de6400b2",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/1065893825",
+      "name": "West Stand",
+      "element_sha256": "7d5990103895dfa190365f45d9db0f3d009867e55443f936961647a81e6b198b"
+    },
+    {
+      "osm_ref": "way/1065893826",
+      "name": "Northwest Quadrant",
+      "element_sha256": "76d8071e6e0dbc374a1932b54d5362229e375495ccda56e9bef6f563464266c1"
+    },
+    {
+      "osm_ref": "way/1065893827",
+      "name": "Covered End",
+      "element_sha256": "0ec54310306a4e325408fc0978f5efeb873953fd33ef4ec4738c12c8ec48205b"
+    },
+    {
+      "osm_ref": "way/1065893828",
+      "name": "Family Stand",
+      "element_sha256": "3fe1cabd6a4a99131349bf1b39f6605e818ab5fceabdf2dc9a4cbb1aaf165673"
+    },
+    {
+      "osm_ref": "way/1065893829",
+      "name": "Alan Curbishley Stand",
+      "element_sha256": "a447a70abc3790fd3ef79a6cf6c87ddbf0a7efeec8810a109205fcc9d1fbeaa4"
+    },
+    {
+      "osm_ref": "way/1065893830",
+      "name": "Jimmy Seed Stand",
+      "element_sha256": "28eb3c8e4e07b75ecfe044194d3befa89c5fe99c3d34e06c278357ecee6ee4e3"
+    }
+  ],
+  "paths": 39,
+  "shell_paths": 4,
+  "previous_detailed_paths": 109,
+  "overlay": "Championship_Stadium_Maps/The_Valley/The_Valley_stadium_overlay_v7.json",
+  "overlay_sha256": "8d4190c46de66ab1a5f061f0f6093bcdd17c76bc98e0da38e58504698ea68ca5",
+  "svg": "Championship_Architecture_Review/charlton_athletic/stadium_A2.svg",
+  "svg_sha256": "0e25749ad446fcfd708eef1059ae1b84919c4782986464449d751d0230d922b0",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "championship",
+  "roof_geometry_file": "championship_roof_geometry.py",
+  "roof_geometry_sha256": "43d7c456711de1aee495c3092418eefb98dbea79f545c81340d84f11162dda88",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained the three connected Valley stands and separate Jimmy Seed roof. Rounded corners reuse the same front curves, avoiding double lips. Long-side roof bays remain parallel.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=51.4863915,0.0361585&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/charlton_athletic.json",
+    "browser_record_sha256": "cfbeb522d57e6d64f758c119190279265aba1e8976dfce93653e2120658b519d",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/charlton_athletic.png",
+    "screenshot_sha256": "fb30bd487d24609f9bb6021c625d0a0067f72320fdca569b3843c3125ee9cc35",
+    "captured_utc": "2026-09-08T14:41:43.345792+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 51.4863915,
+      "longitude": 0.0361585,
+      "x_axis_degrees_from_east": 64.397119463
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      104.7,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      179.0,
+      140.0
+    ],
+    "pitch_to_body_ratio": [
+      0.5849,
+      0.4857
+    ]
+  },
+  "features_sha256": "1a5ce144e1ceb63c65458c3a3484475f1015897a59b79d3fe166d0a7513c60d3",
+  "parallel_families": [
+    {
+      "id": "east-stand-bays",
+      "axis": "x",
+      "positions_m": [
+        -13.659500000000005,
+        3.340499999999995,
+        20.340499999999995,
+        37.34049999999999,
+        54.34049999999999
+      ]
+    },
+    {
+      "id": "west-stand-bays",
+      "axis": "x",
+      "positions_m": [
+        -24.659500000000005,
+        -8.659500000000005,
+        7.340499999999995,
+        23.340499999999995,
+        39.34049999999999,
+        55.34049999999999
+      ]
+    },
+    {
+      "id": "jimmy-seed-bays",
+      "axis": "y",
+      "positions_m": [
+        -38.30200000000001,
+        -23.802000000000003,
+        -9.302000000000003
+      ]
+    },
+    {
+      "id": "covered-end-bays",
+      "axis": "y",
+      "positions_m": [
+        -38.80200000000001,
+        -23.802000000000003,
+        -8.802000000000003,
+        6.197999999999997
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "charlton_athletic",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=3615.6391501614403%2C6707376.436695914%2C4434.652465535724%2C6708195.450011288&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "a1ae7f93abe0c09b56b7bb5198b524c131ae21d09198e9090e8286f36f62aaec",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": 64.397119463,
+      "latitude": 51.4863915,
+      "longitude": 0.0361585
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -38,
+        -60,
+        81,
+        20
+      ],
+      "roof_translation_m": [
+        -2.659500000000005,
+        0.19799999999999685
+      ],
+      "bowl_bounds_m": [
+        -40.65950000000001,
+        -59.80200000000001,
+        78.34049999999999,
+        20.197999999999997
+      ],
+      "pitch_centre_m": [
+        18.840499999999995,
+        -19.802000000000003
+      ],
+      "bowl_centre_m": [
+        18.84049999999999,
+        -19.802000000000007
+      ],
+      "opposed_clearances_m": {
+        "left": 7.150000000000006,
+        "right": 7.1499999999999915,
+        "bottom": 6.000000000000007,
+        "top": 5.9999999999999964
+      },
+      "centre_error_m": 5.0242958677880805e-15,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 4,
+    "parallel_families": 4,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 416.609,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "aerial_gallery": {
+    "id": "charlton_athletic",
+    "source_page": "https://www.clubsfromabove.com/team/charlton-athletic",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_charlton_athletic_the_valley_140517202907_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/charlton-athletic",
+        "path": ".stadium_aerial_references/charlton_athletic/01.jpg",
+        "sha256": "1cda90200e78dfe1c55179009eb5d1ec5b987ed9c17c0487ca145c7b40cd532e"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_charlton_athletic_the_valley_410517202907_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/charlton-athletic",
+        "path": ".stadium_aerial_references/charlton_athletic/02.jpg",
+        "sha256": "e5140763e85703b0eb8ddb3a8e5678bc4f01d1b8829e1f186f7c27a014b4443b"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_charlton_athletic_the_valley_330518202907_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/charlton-athletic",
+        "path": ".stadium_aerial_references/charlton_athletic/03.jpg",
+        "sha256": "c17247970bcd3ca5b9c2dba446a095a938cc734621156d2a2f4e86cb6290c7ad"
+      }
+    ]
+  }
+}

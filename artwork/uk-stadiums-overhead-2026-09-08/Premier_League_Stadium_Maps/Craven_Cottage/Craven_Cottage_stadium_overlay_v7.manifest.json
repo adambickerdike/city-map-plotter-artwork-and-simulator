@@ -1,0 +1,269 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -62,
+      -40,
+      58,
+      40
+    ],
+    "roof_translation_m": [
+      2.0,
+      -0.0
+    ],
+    "bowl_bounds_m": [
+      -60.0,
+      -40.0,
+      60.0,
+      40.0
+    ],
+    "pitch_centre_m": [
+      -0.0,
+      -0.0
+    ],
+    "bowl_centre_m": [
+      0.0,
+      0.0
+    ],
+    "opposed_clearances_m": {
+      "left": 7.5,
+      "right": 7.5,
+      "bottom": 6.0,
+      "top": 6.0
+    },
+    "centre_error_m": 0.0,
+    "geographic_pitch_preserved": true
+  },
+  "id": "fulham",
+  "name": "Craven Cottage",
+  "source_recipe": {
+    "note": "Four separate stand roofs, curved Riverside roof edge, Hammersmith and Putney roof bands, Johnny Haynes ridge and Cottage pavilion.",
+    "reference_method": "Aligned overhead reference checked against aerial photographs; shared axes and native cubic curves authored in stadium_roof_geometry.py. Not an as-built survey."
+  },
+  "baseline_overlay": "Premier_League_Stadium_Maps/Craven_Cottage/Craven_Cottage_stadium_overlay_v1.json",
+  "baseline_sha256": "2341597aaae661435479f02edaf3ab2c9ef2768c979e929745897b40386edb1c",
+  "map_cache": "Premier_League_Stadium_Maps/Craven_Cottage/source_cache/overpass/ea61a84a97df8f13db872ee4654314747dd88e235cb0c681a5f627669745fd42.json.gz",
+  "map_cache_sha256": "246fd2e3fcd5eeca1c7fe24a68c5931811e836b891a1cabf78a68feb80fea0c6",
+  "outer_shell": "way/4380344",
+  "shell_element_sha256": "e4166cab9840f5c0ce897703c9b92e44b2b63961112af6b53f6d98bab20292aa",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/124582872",
+      "name": "Hammersmith End",
+      "source": "Stadium_Architecture_Review/sources/osm_way_124582872.json",
+      "sha256": "a1fa8bbc0e812cfb2ac0c4cd16e63d75b7004be901b0e8b7dd161558753a6ec4",
+      "url": "https://api.openstreetmap.org/api/0.6/way/124582872/full.json",
+      "osm_timestamp": "2024-08-29T11:36:02Z"
+    },
+    {
+      "osm_ref": "way/124582878",
+      "name": "Riverside Stand",
+      "source": "Stadium_Architecture_Review/sources/osm_way_124582878.json",
+      "sha256": "4afb3f7faba45be40546c4ad1b72fdfe9ad9ab7a4906d602de00d9f87dc6e614",
+      "url": "https://api.openstreetmap.org/api/0.6/way/124582878/full.json",
+      "osm_timestamp": "2024-08-29T11:36:02Z"
+    },
+    {
+      "osm_ref": "way/124582880",
+      "name": "Putney End",
+      "source": "Stadium_Architecture_Review/sources/osm_way_124582880.json",
+      "sha256": "cd2987278003dd149a62e265d835279378852a87526b00ff699c3d32063be509",
+      "url": "https://api.openstreetmap.org/api/0.6/way/124582880/full.json",
+      "osm_timestamp": "2024-08-29T11:36:02Z"
+    },
+    {
+      "osm_ref": "way/124582884",
+      "name": "Johnny Haynes Stand",
+      "source": "Stadium_Architecture_Review/sources/osm_way_124582884.json",
+      "sha256": "572fff146f8129d20d93ee5e4feb09cd09a50530b7258e45f43443582b5fcb05",
+      "url": "https://api.openstreetmap.org/api/0.6/way/124582884/full.json",
+      "osm_timestamp": "2024-08-29T11:36:02Z"
+    }
+  ],
+  "paths": 39,
+  "shell_paths": 5,
+  "previous_detailed_paths": 71,
+  "overlay": "Premier_League_Stadium_Maps/Craven_Cottage/Craven_Cottage_stadium_overlay_v7.json",
+  "overlay_sha256": "e54ae72bd432b92bad740c5a153c47921492c5dd4ecc992a0109e3aa6dc991a9",
+  "svg": "Stadium_Architecture_Review/fulham/stadium_A2.svg",
+  "svg_sha256": "c333f3ce5c77e5f467a88866faab95b96f46c63fb568c37f1cb1d1648b999213",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "premier_league",
+  "roof_geometry_file": "stadium_roof_geometry.py",
+  "roof_geometry_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "corrected",
+    "review": "Replaced the generic Riverside stripe with a reduced stepped terrace/glass-roof boundary. Retained the distinct end stands, Johnny Haynes roof and Cottage pavilion. Google shows Riverside construction; the completed-roof layout is cross-checked against the cached Esri overhead rather than regressed to a construction gap.",
+    "map_context_changes": {
+      "way/1312001638": {
+        "clearance_mm": 0.6,
+        "reason": "covered=yes Thames-side footway beneath Riverside roof; exterior route retained"
+      }
+    },
+    "map_url": "https://www.google.com/maps?ll=51.474891444,-0.221630985&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/fulham.json",
+    "browser_record_sha256": "4a848b524727dd2b51ff1f6dd803cfda445924b5464a8fd3165051b0cf85f08f",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/fulham.png",
+    "screenshot_sha256": "0529b1649b5befed808d868840d66888898253ac7d3dea892598e17b19eeb975",
+    "captured_utc": "2026-09-08T14:40:40.923410+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 51.474891444,
+      "longitude": -0.221630985,
+      "x_axis_degrees_from_east": -67.190686
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": true,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      187.0,
+      140.5
+    ],
+    "pitch_to_body_ratio": [
+      0.5615,
+      0.484
+    ]
+  },
+  "features_sha256": "b7f7d08613ba86076de03d494eb92e1841884c16c4b394b916634be3f7319237",
+  "parallel_families": [
+    {
+      "id": "johnny-haynes-bays",
+      "axis": "x",
+      "positions_m": [
+        -39.16666666666667,
+        -19.333333333333336,
+        0.5,
+        20.33333333333333,
+        40.16666666666667
+      ]
+    },
+    {
+      "id": "hammersmith-bays",
+      "axis": "y",
+      "positions_m": [
+        -31.0,
+        -15.0,
+        1.0,
+        17.0,
+        33.0
+      ]
+    },
+    {
+      "id": "putney-bays",
+      "axis": "y",
+      "positions_m": [
+        -31.0,
+        -17.0,
+        -3.0,
+        11.0,
+        25.0
+      ]
+    },
+    {
+      "id": "riverside-bays",
+      "axis": "x",
+      "positions_m": [
+        -42.285714285714285,
+        -25.57142857142857,
+        -8.857142857142854,
+        7.857142857142861,
+        24.57142857142857,
+        41.28571428571429
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "fulham",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-25081.251804961863%2C6705320.946636296%2C-24262.444983461446%2C6706139.753457797&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "8b651bf3a922a11b12b55e5384d40af8f856dcc32a4abf06f78f8fccff5e5ddc",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -67.190686,
+      "latitude": 51.474891444,
+      "longitude": -0.221630985
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -62,
+        -40,
+        58,
+        40
+      ],
+      "roof_translation_m": [
+        2.0,
+        -0.0
+      ],
+      "bowl_bounds_m": [
+        -60.0,
+        -40.0,
+        60.0,
+        40.0
+      ],
+      "pitch_centre_m": [
+        -0.0,
+        -0.0
+      ],
+      "bowl_centre_m": [
+        0.0,
+        0.0
+      ],
+      "opposed_clearances_m": {
+        "left": 7.5,
+        "right": 7.5,
+        "bottom": 6.0,
+        "top": 6.0
+      },
+      "centre_error_m": 0.0,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 5,
+    "parallel_families": 4,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 376.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "survey_frame": {
+    "path": "Craven_Cottage/Craven_Cottage_SOURCE_MANIFEST.json",
+    "sha256": "b3d5e07d6de7d43bbb27e41f21023b4673b7fdb45b876a98c019c957540daa9d",
+    "year": 2023,
+    "plate": "Craven_Cottage/Craven_Cottage_GEOMETRY_PLATE.png",
+    "plate_sha256": "d8f6b55e9f67b6107112395afa96a1ac23d2015ad7520be2288af8f34ee63abd"
+  },
+  "aerial_gallery": {
+    "id": "fulham",
+    "source_page": "https://www.clubsfromabove.com/team/fulham",
+    "credit": "Clubs From Above; local reference only",
+    "images": []
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "North and west roof steps joined through a smooth corner, without straight overshoots through the curved roof sectors.",
+  "stroke_audit": "",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -63.0,
+      -43.0,
+      62.0,
+      44.0
+    ],
+    "roof_translation_m": [
+      0.4969999999999999,
+      -0.4979999999999979
+    ],
+    "bowl_bounds_m": [
+      -62.503,
+      -43.498,
+      62.497,
+      43.502
+    ],
+    "pitch_centre_m": [
+      -0.003000000000000104,
+      0.002000000000002104
+    ],
+    "bowl_centre_m": [
+      -0.0030000000000001137,
+      0.0020000000000024443
+    ],
+    "opposed_clearances_m": {
+      "left": 9.899999999999999,
+      "right": 9.899999999999999,
+      "bottom": 9.5,
+      "top": 9.5
+    },
+    "centre_error_m": 3.405731511675604e-16,
+    "geographic_pitch_preserved": true
+  },
+  "id": "sunderland",
+  "name": "Stadium of Light",
+  "source_recipe": {
+    "note": "Unequal north/west upper roof depths, rounded corners, stepped main-stand rear edge and an offset inner band.",
+    "reference_method": "Aligned overhead reference checked against aerial photographs; shared axes and native cubic curves authored in stadium_roof_geometry.py. Not an as-built survey."
+  },
+  "baseline_overlay": "Premier_League_Stadium_Maps/Stadium_of_Light/Stadium_of_Light_stadium_overlay_v1.json",
+  "baseline_sha256": "13ffc9db10676c89a06118c109593d48ac19575679bad7b43679e7a8f546e7c7",
+  "map_cache": "Premier_League_Stadium_Maps/Stadium_of_Light/source_cache/overpass/177700a3bc93688bf6af12c7d707f7a12ed643697c1a738716289614ad21781b.json.gz",
+  "map_cache_sha256": "4ca5d6edcc50034fd508dd732ac8a43a82a3f6d5bb3e10681fcb1105cd725137",
+  "outer_shell": "relation/1698592",
+  "shell_element_sha256": "1aa50e95e188471ab7420888f3531b2ddfbfeeb98b6bc3fd8ca9c036101f1499",
+  "mapped_structures": [],
+  "paths": 48,
+  "shell_paths": 1,
+  "previous_detailed_paths": 148,
+  "overlay": "Premier_League_Stadium_Maps/Stadium_of_Light/Stadium_of_Light_stadium_overlay_v8.json",
+  "overlay_sha256": "15670e3bc905055aeddd94eec99d66c4c27cd54174e90fb3d00d8808e45c76c9",
+  "svg": "Stadium_Architecture_Review/sunderland/stadium_A2.svg",
+  "svg_sha256": "fd980ffe793a1f6c5d9ba8fe78c82ec9aa20923c9d4f949138b795fc85199c64",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "premier_league",
+  "roof_geometry_file": "stadium_roof_geometry.py",
+  "roof_geometry_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained the approved benchmark geometry: joined curved corners, larger stepped west/north-side footprint and centred opening. Main roof levels agree with the overhead; no extra outline or cross-bracing added.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=54.9144416164,-1.3881751492&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/sunderland.json",
+    "browser_record_sha256": "90c8b4e0594e7194529bdb385fd446773173fbf8a3ad169a794ef2eb37cb48c8",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/sunderland.png",
+    "screenshot_sha256": "8be45a7255be64f124fd01778ce0957203c739334d8fd800c082299a10e71bcb",
+    "captured_utc": "2026-09-08T14:40:28.920294+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 54.9144416164,
+      "longitude": -1.3881751492,
+      "x_axis_degrees_from_east": -61.960586
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.2,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      204.0,
+      183.0
+    ],
+    "pitch_to_body_ratio": [
+      0.5157,
+      0.3716
+    ]
+  },
+  "features_sha256": "b7f7d08613ba86076de03d494eb92e1841884c16c4b394b916634be3f7319237",
+  "parallel_families": [
+    {
+      "id": "side-roof-bays",
+      "axis": "x",
+      "positions_m": [
+        -42.003,
+        -28.003,
+        -14.003,
+        -0.0030000000000001137,
+        13.997,
+        27.997,
+        41.997
+      ]
+    },
+    {
+      "id": "end-roof-bays",
+      "axis": "y",
+      "positions_m": [
+        -27.997999999999998,
+        -13.997999999999998,
+        0.002000000000002111,
+        14.002000000000002,
+        28.002000000000002
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "sunderland",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-154974.58406807104%2C7344835.016967155%2C-154087.31741357007%2C7345722.283621656&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "e7062a9af3d158fc57929d1217ba43b9815adff342e0261346b72a48209dae90",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -61.960586,
+      "latitude": 54.9144416164,
+      "longitude": -1.3881751492
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -63.0,
+        -43.0,
+        62.0,
+        44.0
+      ],
+      "roof_translation_m": [
+        0.4969999999999999,
+        -0.4979999999999979
+      ],
+      "bowl_bounds_m": [
+        -62.503,
+        -43.498,
+        62.497,
+        43.502
+      ],
+      "pitch_centre_m": [
+        -0.003000000000000104,
+        0.002000000000002104
+      ],
+      "bowl_centre_m": [
+        -0.0030000000000001137,
+        0.0020000000000024443
+      ],
+      "opposed_clearances_m": {
+        "left": 9.899999999999999,
+        "right": 9.899999999999999,
+        "bottom": 9.5,
+        "top": 9.5
+      },
+      "centre_error_m": 3.405731511675604e-16,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 4,
+    "parallel_families": 2,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 0.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "survey_frame": {
+    "path": "Stadium_of_Light/Stadium_of_Light_SOURCE_MANIFEST.json",
+    "sha256": "041f545ac80bd847bcc2cd693ab595f81c3474b5339137da3200f9eac6a36f8a",
+    "year": 2021,
+    "plate": "Stadium_of_Light/Stadium_of_Light_GEOMETRY_PLATE.png",
+    "plate_sha256": "7e8da4ab59b293a3538e040d90f8cb8489651d876145e7ea80fe9c66025384d6"
+  },
+  "aerial_gallery": {
+    "id": "sunderland",
+    "source_page": "https://www.clubsfromabove.com/team/sunderland",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_sunderland_stadium_of_light_340950190408_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/sunderland",
+        "path": ".stadium_aerial_references/sunderland/01.jpg",
+        "sha256": "7c93eadd5c0d696504045a80f2d0237a77cbb4fd956595b6606b6b50235bc83e"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_sunderland_stadium_of_light_340949190408_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/sunderland",
+        "path": ".stadium_aerial_references/sunderland/02.jpg",
+        "sha256": "20d984c01819644c809f8195ca4dcd1fa8d0f7ae3a739f419177aae78c4c2381"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_sunderland_stadium_of_light_590948190408_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/sunderland",
+        "path": ".stadium_aerial_references/sunderland/03.jpg",
+        "sha256": "7cf4132fced4088e93626228ed74de89da305adf5dfabb166b578f99f03c847a"
+      }
+    ]
+  }
+}

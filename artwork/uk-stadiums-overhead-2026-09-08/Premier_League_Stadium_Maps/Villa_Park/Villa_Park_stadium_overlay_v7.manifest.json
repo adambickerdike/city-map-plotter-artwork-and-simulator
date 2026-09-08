@@ -1,0 +1,277 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -61,
+      -39,
+      77,
+      40
+    ],
+    "roof_translation_m": [
+      -8.0,
+      -0.5
+    ],
+    "bowl_bounds_m": [
+      -69.0,
+      -39.5,
+      69.0,
+      39.5
+    ],
+    "pitch_centre_m": [
+      -0.0,
+      -0.0
+    ],
+    "bowl_centre_m": [
+      0.0,
+      0.0
+    ],
+    "opposed_clearances_m": {
+      "left": 16.5,
+      "right": 16.5,
+      "bottom": 5.5,
+      "top": 5.5
+    },
+    "centre_error_m": 0.0,
+    "geographic_pitch_preserved": true
+  },
+  "id": "aston_villa",
+  "name": "Villa Park",
+  "source_recipe": {
+    "note": "Four unequal roof blocks, the chamfered Trinity Road rear edge, Holte End band and separate north corner building.",
+    "reference_method": "Aligned overhead reference checked against aerial photographs; shared axes and native cubic curves authored in stadium_roof_geometry.py. Not an as-built survey."
+  },
+  "baseline_overlay": "Premier_League_Stadium_Maps/Villa_Park/Villa_Park_stadium_overlay_v1.json",
+  "baseline_sha256": "156d9e9a5192dee2e7c1f40300ce9b0dc1ea91a16aff4567a748d994f426e791",
+  "map_cache": "Premier_League_Stadium_Maps/Villa_Park/source_cache/overpass/336c71cf792c9e74001c91c450c25a16e63bc668c2a1cd5aea28f6b586377249.json.gz",
+  "map_cache_sha256": "677f879ffabb06b6c09a7cf862b97a5b2fb7124743ea6205aaf8fe1bc2be425a",
+  "outer_shell": "relation/1156840",
+  "shell_element_sha256": "361536283c6e70865734197390eb6466e9e9e930e431b048aaa16f2a36453e3f",
+  "mapped_structures": [],
+  "paths": 44,
+  "shell_paths": 6,
+  "previous_detailed_paths": 233,
+  "overlay": "Premier_League_Stadium_Maps/Villa_Park/Villa_Park_stadium_overlay_v7.json",
+  "overlay_sha256": "b15e76b44c8fff1d6a8c357904146d37d2e5dc2aa88a077101fa56a2d73f9bc3",
+  "svg": "Stadium_Architecture_Review/aston_villa/stadium_A2.svg",
+  "svg_sha256": "167cb99e0092c30b9608431a4ffe6700a3a3fb249b4c68781437c66d407f67d2",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "premier_league",
+  "roof_geometry_file": "stadium_roof_geometry.py",
+  "roof_geometry_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "corrected",
+    "review": "Preserved the four unequal stands, deep chamfered Trinity roof and Holte end. Regularised the tiny gap beside the north-corner building into a shared junction, avoiding two edges merging at A3 pen weight. This is a small cartographic simplification, not a measured relocation of the building. The road hidden under Trinity Stand is suppressed only beneath the roof.",
+    "map_context_changes": {
+      "way/75839325": {
+        "clearance_mm": 0.4,
+        "reason": "Trinity Road: tunnel=yes, layer=-1; hidden beneath Trinity Stand"
+      }
+    },
+    "map_url": "https://www.google.com/maps?ll=52.509130973,-1.884856736&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/aston_villa.json",
+    "browser_record_sha256": "65719cb67cd1263dae3f686b4cf8de1d518ff0c53122cd98f6b96cae4a1f178a",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/aston_villa.png",
+    "screenshot_sha256": "d3f401d2462ee8a3f5fd8ffc8989c914a2e572b6350126ae70164a5b68a9d64d",
+    "captured_utc": "2026-09-08T14:40:13.397922+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 52.509130973,
+      "longitude": -1.884856736,
+      "x_axis_degrees_from_east": -54.53813
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      222.0,
+      168.0
+    ],
+    "pitch_to_body_ratio": [
+      0.473,
+      0.4048
+    ]
+  },
+  "features_sha256": "b7f7d08613ba86076de03d494eb92e1841884c16c4b394b916634be3f7319237",
+  "parallel_families": [
+    {
+      "id": "doug-ellis-bays",
+      "axis": "x",
+      "positions_m": [
+        -52.14285714285714,
+        -32.285714285714285,
+        -12.42857142857143,
+        7.428571428571431,
+        27.285714285714292,
+        47.14285714285714
+      ]
+    },
+    {
+      "id": "north-stand-bays",
+      "axis": "y",
+      "positions_m": [
+        -24.166666666666664,
+        -11.833333333333332,
+        0.5,
+        12.833333333333336,
+        25.166666666666664
+      ]
+    },
+    {
+      "id": "holte-end-bays",
+      "axis": "y",
+      "positions_m": [
+        -32.25,
+        -20.0,
+        -7.75,
+        4.5,
+        16.75,
+        29.0,
+        41.25
+      ]
+    },
+    {
+      "id": "trinity-road-bays",
+      "axis": "x",
+      "positions_m": [
+        -68.11111111111111,
+        -51.22222222222222,
+        -34.333333333333336,
+        -17.444444444444443,
+        -0.5555555555555571,
+        16.33333333333333,
+        33.22222222222223,
+        50.111111111111114
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "aston_villa",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-210240.2623968163%2C6892292.6373461%2C-209402.32174276703%2C6893130.578000149&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "d84917bfa1dab07ad99c2f88c61269de9ea10ea3ace371a180212883cae89c87",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -54.53813,
+      "latitude": 52.509130973,
+      "longitude": -1.884856736
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -61,
+        -39,
+        77,
+        40
+      ],
+      "roof_translation_m": [
+        -8.0,
+        -0.5
+      ],
+      "bowl_bounds_m": [
+        -69.0,
+        -39.5,
+        69.0,
+        39.5
+      ],
+      "pitch_centre_m": [
+        -0.0,
+        -0.0
+      ],
+      "bowl_centre_m": [
+        0.0,
+        0.0
+      ],
+      "opposed_clearances_m": {
+        "left": 16.5,
+        "right": 16.5,
+        "bottom": 5.5,
+        "top": 5.5
+      },
+      "centre_error_m": 0.0,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 4,
+    "parallel_families": 4,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 460.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "survey_frame": {
+    "path": "Villa_Park/Villa_Park_SOURCE_MANIFEST.json",
+    "sha256": "6193e9c0a036194ab143d2c6c9dabc0f48004b06a13c700be88da98a1cdee8d8",
+    "year": 2020,
+    "plate": "Villa_Park/Villa_Park_GEOMETRY_PLATE.png",
+    "plate_sha256": "ad3d3d3d64b3224353392a1c1e822235ced26315ede071a64c6c6abf4325411e"
+  },
+  "aerial_gallery": {
+    "id": "aston_villa",
+    "source_page": "https://www.clubsfromabove.com/team/aston-villa",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_aston_villa_villa_park_340946190307_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/aston-villa",
+        "path": ".stadium_aerial_references/aston_villa/01.jpg",
+        "sha256": "bea17d295d4f3cc56bca43f9fc8e88fc228fe088173741c135b416c52b7ea8d2"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_aston_villa_villa_park_000947190307_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/aston-villa",
+        "path": ".stadium_aerial_references/aston_villa/02.jpg",
+        "sha256": "52e770c0e74adab10fce0dcbc2e80ab4a6101db59912ad781cacec960d833202"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_aston_villa_villa_park_100945190307_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/aston-villa",
+        "path": ".stadium_aerial_references/aston_villa/03.jpg",
+        "sha256": "bf0f91d9c108bb8951278cf800306d932e928d2b52793e06629bd9c1044f0438"
+      },
+      {
+        "index": 4,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_aston_villa_villa_park_110947190307_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/aston-villa",
+        "path": ".stadium_aerial_references/aston_villa/04.jpg",
+        "sha256": "7c1887d69dbaab382b65672dcca7321cce6267a83204477121cf0eaae406dda9"
+      },
+      {
+        "index": 5,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_aston_villa_villa_park_250946190307_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/aston-villa",
+        "path": ".stadium_aerial_references/aston_villa/05.jpg",
+        "sha256": "bd2eff7658ab24dddb9ee0aea42dcbb066a595ff87aaff780fe1bcfd26cf3341"
+      }
+    ]
+  }
+}

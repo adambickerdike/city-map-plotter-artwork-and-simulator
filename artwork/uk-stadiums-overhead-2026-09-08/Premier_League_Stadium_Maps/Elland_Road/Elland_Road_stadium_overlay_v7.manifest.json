@@ -1,0 +1,308 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -60,
+      -40,
+      61,
+      39
+    ],
+    "roof_translation_m": [
+      -0.2999999999999965,
+      0.5
+    ],
+    "bowl_bounds_m": [
+      -60.3,
+      -39.5,
+      60.7,
+      39.5
+    ],
+    "pitch_centre_m": [
+      0.20000000000000354,
+      -0.0
+    ],
+    "bowl_centre_m": [
+      0.20000000000000284,
+      0.0
+    ],
+    "opposed_clearances_m": {
+      "left": 7.799999999999997,
+      "right": 7.799999999999997,
+      "bottom": 6.0,
+      "top": 6.0
+    },
+    "centre_error_m": 6.938893903907228e-16,
+    "geographic_pitch_preserved": true
+  },
+  "id": "leeds_united",
+  "name": "Elland Road",
+  "source_recipe": {
+    "note": "Deep East Stand with longitudinal truss, curved end/corner infills, shallower John Charles roof and rear annexe.",
+    "reference_method": "Aligned overhead reference checked against aerial photographs; shared axes and native cubic curves authored in stadium_roof_geometry.py. Not an as-built survey."
+  },
+  "baseline_overlay": "Premier_League_Stadium_Maps/Elland_Road/Elland_Road_stadium_overlay_v1.json",
+  "baseline_sha256": "63f8a4f3361d274269409e9e4e44b0f9c79c18271c1f3b27db519027147c6a7b",
+  "map_cache": "Premier_League_Stadium_Maps/Elland_Road/source_cache/overpass/206065049396b0ed9c45bd7cd5dc582bfa7529709ec2a827066d5495bae8ac2a.json.gz",
+  "map_cache_sha256": "57a710fe1be8db8fe81496aaecb4278d2df551ed490a96f5af5137c2a1e79530",
+  "outer_shell": "way/41438140",
+  "shell_element_sha256": "52af989d007ebf6a520ab0fe58074f2f6c9df3ad9c916f247a45aaba973ec6ff",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/193807773",
+      "name": "Jack Charlton Stand",
+      "element_sha256": "1478cce58ce2ed48247c205b939847c3252daba608b3a59de763cd8e1e70ce56"
+    },
+    {
+      "osm_ref": "way/193807774",
+      "name": "John Charles Stand",
+      "element_sha256": "a29e6ebce5d248e2c945336efbb2bbbca5e26d6e799607c811649af5a8926a31"
+    },
+    {
+      "osm_ref": "way/193807775",
+      "name": "North East Corner",
+      "element_sha256": "3f4d938bcf7ede53be0b4606d0568bdc182d772d3e0f2925f0442610b1bb782d"
+    },
+    {
+      "osm_ref": "way/193807776",
+      "name": "North West Corner",
+      "element_sha256": "1e2925e5031a22f7bf375f0231fb43ee6ae6d0a5896b19e9f2b2b7d1e7d8e9c5"
+    },
+    {
+      "osm_ref": "way/193807777",
+      "name": "Don Revie Stand",
+      "element_sha256": "297a3c55b80a89af023ebf6e6d896d937f65cd3ba9c0a3237926e8da1ac01c8f"
+    },
+    {
+      "osm_ref": "way/193807778",
+      "name": "South East Corner",
+      "element_sha256": "f6320f87a724c81c1065a672057815f002a7183fa873c57a84e08cadd5a09b4f"
+    },
+    {
+      "osm_ref": "way/193807779",
+      "name": "Norman Hunter Stand",
+      "element_sha256": "eedd14019eb5662abc9385dfd9cc175ef86bf8bfa381b6b48a83c1c6fe6ea3aa"
+    }
+  ],
+  "paths": 43,
+  "shell_paths": 7,
+  "previous_detailed_paths": 71,
+  "overlay": "Premier_League_Stadium_Maps/Elland_Road/Elland_Road_stadium_overlay_v7.json",
+  "overlay_sha256": "f411c4ca4ee8ae9d1c55913f9796e9179e771a84ce60be9b67246ddfcb749f7d",
+  "svg": "Stadium_Architecture_Review/leeds_united/stadium_A2.svg",
+  "svg_sha256": "9750057878c13c0b53669fbf414f970063c9aa52d89ff6dd63db4821e46e676e",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "premier_league",
+  "roof_geometry_file": "stadium_roof_geometry.py",
+  "roof_geometry_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "corrected",
+    "review": "Restored the missing curved northwest roof quadrant beside the Don Revie/East Stand junction. The new native curve joins the deep East Stand, rather than stopping in an implausibly small corner. Regularised two tiny opposite stand junctions and the rear annexe to share edges at plot scale: sub-pen-width gaps are deliberately omitted, not claimed absent in the real building. The unequal main stand depths remain.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=53.77779644682714,-1.572177181418679&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/leeds_united.json",
+    "browser_record_sha256": "bce38b8473e3cdf53a8e7a617bffead7a5384c4a5d99f4b94ce4adda25d17a54",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/leeds_united.png",
+    "screenshot_sha256": "6bcac832dbac6d2abf23fd9551a42b93940cc22c20dd082306577c75e1e58b06",
+    "captured_utc": "2026-09-08T14:40:54.669728+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 53.77779644682714,
+      "longitude": -1.572177181418679,
+      "x_axis_degrees_from_east": -60.3340441
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": true,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.4,
+      67.0
+    ],
+    "authored_body_spans_m": [
+      180.0,
+      193.0
+    ],
+    "pitch_to_body_ratio": [
+      0.5856,
+      0.3472
+    ]
+  },
+  "features_sha256": "b7f7d08613ba86076de03d494eb92e1841884c16c4b394b916634be3f7319237",
+  "parallel_families": [
+    {
+      "id": "east-stand-bays",
+      "axis": "x",
+      "positions_m": [
+        -41.87142857142857,
+        -25.442857142857143,
+        -9.014285714285712,
+        7.414285714285712,
+        23.84285714285714,
+        40.27142857142857
+      ]
+    },
+    {
+      "id": "don-revie-and-northwest-quadrant-bays",
+      "axis": "y",
+      "positions_m": [
+        -49.05555555555556,
+        -33.611111111111114,
+        -18.166666666666664,
+        -2.7222222222222214,
+        12.722222222222229,
+        28.16666666666667,
+        43.611111111111114,
+        59.05555555555556
+      ]
+    },
+    {
+      "id": "john-charles-bays",
+      "axis": "x",
+      "positions_m": [
+        -39.3,
+        -20.299999999999997,
+        -1.2999999999999965,
+        17.700000000000003,
+        36.7,
+        55.7
+      ]
+    },
+    {
+      "id": "norman-hunter-corner-bays",
+      "axis": "y",
+      "positions_m": [
+        -24.214285714285715,
+        -8.928571428571427,
+        6.357142857142854,
+        21.642857142857146,
+        36.92857142857143,
+        52.21428571428571
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "leeds_united",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-175445.4949789301%2C7127753.882094278%2C-174582.4315657327%2C7128616.945507475&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "9e63ecc72eccf3ec7db0972be3a5ac51ebe2ad6dc27f2916b65fb9633593ce11",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -60.3340441,
+      "latitude": 53.77779644682714,
+      "longitude": -1.572177181418679
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -60,
+        -40,
+        61,
+        39
+      ],
+      "roof_translation_m": [
+        -0.2999999999999965,
+        0.5
+      ],
+      "bowl_bounds_m": [
+        -60.3,
+        -39.5,
+        60.7,
+        39.5
+      ],
+      "pitch_centre_m": [
+        0.20000000000000354,
+        -0.0
+      ],
+      "bowl_centre_m": [
+        0.20000000000000284,
+        0.0
+      ],
+      "opposed_clearances_m": {
+        "left": 7.799999999999997,
+        "right": 7.799999999999997,
+        "bottom": 6.0,
+        "top": 6.0
+      },
+      "centre_error_m": 6.938893903907228e-16,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 5,
+    "parallel_families": 4,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 443.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "survey_frame": {
+    "path": "Elland_Road/Elland_Road_SOURCE_MANIFEST.json",
+    "sha256": "d70061692c28681d8652d32484d5464dad1da741a21b386c364b174f2f161340",
+    "year": 2019,
+    "plate": "Elland_Road/Elland_Road_GEOMETRY_PLATE.png",
+    "plate_sha256": "fd3385235481ee1b2360dd017a3e68f6a0ec1a92c5d053cb9f8847e3a0cd8dc0"
+  },
+  "aerial_gallery": {
+    "id": "leeds_united",
+    "source_page": "https://www.clubsfromabove.com/team/leeds-united",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_leeds_united_elland_road_440405250619_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/leeds-united",
+        "path": ".stadium_aerial_references/leeds_united/01.jpg",
+        "sha256": "425a8ac35938e36b39f94fa29a25f41633dee91c347c29e56b88a79aac24e7a4"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_leeds_united_elland_road_530939190411_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/leeds-united",
+        "path": ".stadium_aerial_references/leeds_united/02.jpg",
+        "sha256": "f66d126872c4cf5e72980fb97504b068512eaa066a27dc8ec34f42f166f3ed66"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_leeds_united_elland_road_120939190411_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/leeds-united",
+        "path": ".stadium_aerial_references/leeds_united/03.jpg",
+        "sha256": "f750e10fe0d1e825b50588228c2119c9c1383b25161819e81c1866cf2ae0a173"
+      },
+      {
+        "index": 4,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_leeds_united_elland_road_210939190411_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/leeds-united",
+        "path": ".stadium_aerial_references/leeds_united/04.jpg",
+        "sha256": "a2c2a345110e455ff2dd4f4144e633d6c3f06f5c2c7a856821d766b8c126224f"
+      },
+      {
+        "index": 5,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_leeds_united_elland_road_530936190411_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/leeds-united",
+        "path": ".stadium_aerial_references/leeds_united/05.jpg",
+        "sha256": "6048bf5ca26450e8e41ab9f1e42a63d6b51d6d93ca7e5ae798b48eea1db87446"
+      }
+    ]
+  }
+}

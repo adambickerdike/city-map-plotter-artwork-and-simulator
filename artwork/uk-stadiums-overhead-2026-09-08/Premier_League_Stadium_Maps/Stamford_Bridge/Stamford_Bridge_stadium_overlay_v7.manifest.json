@@ -1,0 +1,295 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -56,
+      -36,
+      55,
+      39
+    ],
+    "roof_translation_m": [
+      0.5,
+      -1.5
+    ],
+    "bowl_bounds_m": [
+      -55.5,
+      -37.5,
+      55.5,
+      37.5
+    ],
+    "pitch_centre_m": [
+      -0.0,
+      -0.0
+    ],
+    "bowl_centre_m": [
+      0.0,
+      0.0
+    ],
+    "opposed_clearances_m": {
+      "left": 3.0,
+      "right": 3.0,
+      "bottom": 3.5,
+      "top": 3.5
+    },
+    "centre_error_m": 0.0,
+    "geographic_pitch_preserved": true
+  },
+  "id": "chelsea",
+  "name": "Stamford Bridge",
+  "source_recipe": {
+    "note": "Separate East, West, Matthew Harding and Shed roofs; the curved West Stand roof bands and the East Stand longitudinal truss.",
+    "reference_method": "Aligned overhead reference checked against aerial photographs; shared axes and native cubic curves authored in stadium_roof_geometry.py. Not an as-built survey."
+  },
+  "baseline_overlay": "Premier_League_Stadium_Maps/Stamford_Bridge/Stamford_Bridge_stadium_overlay_v1.json",
+  "baseline_sha256": "185f457cc888cc4259e1c0ca97039627f3ba1d4f73d67547b70a559f80d83fde",
+  "map_cache": "Premier_League_Stadium_Maps/Stamford_Bridge/source_cache/overpass/560d5df92864bc908a0d2dd3748ff5ce104ed970d6c185e3625949ed91b9160a.json.gz",
+  "map_cache_sha256": "8644053bfc52e844eec02e77da960b72c4396226903cd4bb3f3beafaa0cd2423",
+  "outer_shell": "way/5986169",
+  "shell_element_sha256": "b18f67bcf2b16ef6887d5355c2ffed8fd57d954aa5316a88f0e56872f8fb9ecf",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/1312905892",
+      "name": "Shed End",
+      "element_sha256": "35f4dc4aae9f28a69e331fae72b7841afa3b8ba7d8d2d612772689485b0a39e5"
+    },
+    {
+      "osm_ref": "way/1312905893",
+      "name": "West Stand",
+      "element_sha256": "be4d87718f3aad540da65eefc4378d2362bc2a32637a3bd6814b7dff793159b3"
+    },
+    {
+      "osm_ref": "way/1312905894",
+      "name": "Matthew Harding Stand",
+      "element_sha256": "027b3a25623252c1ea7906497da81f8d3e506141b93019f5ac4d432443b71b99"
+    },
+    {
+      "osm_ref": "way/1312905895",
+      "name": "East Stand",
+      "element_sha256": "83b33498a1e097d9fc2a9668d6dbcf2e078d792ab379fcbafdf7ed466952de05"
+    }
+  ],
+  "paths": 45,
+  "shell_paths": 5,
+  "previous_detailed_paths": 60,
+  "overlay": "Premier_League_Stadium_Maps/Stamford_Bridge/Stamford_Bridge_stadium_overlay_v7.json",
+  "overlay_sha256": "3034752ac5838339f75a54a6cf5fdd0d9db6c3e305ca1dea43ca0e3612e18324",
+  "svg": "Stadium_Architecture_Review/chelsea/stadium_A2.svg",
+  "svg_sha256": "fba1da286bd6893fce2eaac556c71c2a904b93341dd39143b85576a554b9b26b",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "premier_league",
+  "roof_geometry_file": "stadium_roof_geometry.py",
+  "roof_geometry_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "corrected",
+    "review": "Separated the straight rear edge of the West Stand canopy from the curved lower building behind it. Roof bay lines now stop at the actual canopy edge instead of treating the whole rear footprint as one deep roof. Other three unequal roofs and the curved principal bands are retained.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=51.481725473,-0.190955663&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/chelsea.json",
+    "browser_record_sha256": "cfac6c74166e57431cb7ffc893712079f1d47bb08ac6d76d1564cc8717bc561f",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/chelsea.png",
+    "screenshot_sha256": "d39b4e9ecda49cce067516179d8a5a3c0c630054044b7a635a7bfb3e1440d4e3",
+    "captured_utc": "2026-09-08T14:40:34.155191+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 51.481725473,
+      "longitude": -0.190955663,
+      "x_axis_degrees_from_east": -55.136306
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": true,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      170.0,
+      170.75
+    ],
+    "pitch_to_body_ratio": [
+      0.6176,
+      0.3982
+    ]
+  },
+  "features_sha256": "b7f7d08613ba86076de03d494eb92e1841884c16c4b394b916634be3f7319237",
+  "parallel_families": [
+    {
+      "id": "east-stand-bays",
+      "axis": "x",
+      "positions_m": [
+        -37.5,
+        -22.5,
+        -7.5,
+        7.5,
+        22.5,
+        37.5
+      ]
+    },
+    {
+      "id": "matthew-harding-bays",
+      "axis": "y",
+      "positions_m": [
+        -42.611111111111114,
+        -29.72222222222222,
+        -16.833333333333336,
+        -3.944444444444443,
+        8.944444444444443,
+        21.83333333333333,
+        34.72222222222223,
+        47.611111111111114
+      ]
+    },
+    {
+      "id": "shed-end-bays",
+      "axis": "y",
+      "positions_m": [
+        -41.833333333333336,
+        -29.166666666666668,
+        -16.5,
+        -3.8333333333333357,
+        8.833333333333336,
+        21.5,
+        34.16666666666667,
+        46.83333333333333
+      ]
+    },
+    {
+      "id": "west-canopy-bays",
+      "axis": "x",
+      "positions_m": [
+        -39.92857142857143,
+        -24.357142857142858,
+        -8.785714285714285,
+        6.785714285714285,
+        22.35714285714286,
+        37.92857142857143
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "chelsea",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-21666.551927312114%2C6706542.380699904%2C-20847.622411191787%2C6707361.310216024&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "58e3b847e77582880677ea5ded5c30ee5dda8dd6d6af31c75cab8f5a950da83c",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -55.136306,
+      "latitude": 51.481725473,
+      "longitude": -0.190955663
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -56,
+        -36,
+        55,
+        39
+      ],
+      "roof_translation_m": [
+        0.5,
+        -1.5
+      ],
+      "bowl_bounds_m": [
+        -55.5,
+        -37.5,
+        55.5,
+        37.5
+      ],
+      "pitch_centre_m": [
+        -0.0,
+        -0.0
+      ],
+      "bowl_centre_m": [
+        0.0,
+        0.0
+      ],
+      "opposed_clearances_m": {
+        "left": 3.0,
+        "right": 3.0,
+        "bottom": 3.5,
+        "top": 3.5
+      },
+      "centre_error_m": 0.0,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 6,
+    "parallel_families": 4,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 214.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "survey_frame": {
+    "path": "Stamford_Bridge/Stamford_Bridge_SOURCE_MANIFEST.json",
+    "sha256": "2654ac6e07689d2d6ab225414d4bc505fe4080c4da687a25612ef1ecd40565d2",
+    "year": 2020,
+    "plate": "Stamford_Bridge/Stamford_Bridge_GEOMETRY_PLATE.png",
+    "plate_sha256": "675135c8a1ae848fed74f2e07f4c3bde2d19c7f394cdac5d9dc1d6f12ba69228"
+  },
+  "aerial_gallery": {
+    "id": "chelsea",
+    "source_page": "https://www.clubsfromabove.com/team/chelsea",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_chelsea_stamford_bridge_180755203105_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/chelsea",
+        "path": ".stadium_aerial_references/chelsea/01.jpg",
+        "sha256": "da049528cb7c77f088b8e6db66ac4f780547e81bd2e26da61654cb943fb9b4fe"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_chelsea_stamford_bridge_430702203106_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/chelsea",
+        "path": ".stadium_aerial_references/chelsea/02.jpg",
+        "sha256": "d8bab503321a56712d60becbd66ba045c31b97087f135bca880583a3c00ee601"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_chelsea_stamford_bridge_170703203106_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/chelsea",
+        "path": ".stadium_aerial_references/chelsea/03.jpg",
+        "sha256": "2dcd64a88358eac6338a262a00f27ac2d491db66c018efe0f4df4b8779fa3bf3"
+      },
+      {
+        "index": 4,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_chelsea_stamford_bridge_540703203106_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/chelsea",
+        "path": ".stadium_aerial_references/chelsea/04.jpg",
+        "sha256": "8bed3fb6dd4bb06e2dcd0b4f8169c6ff5001302fd8de13b885f87a2c5f620864"
+      },
+      {
+        "index": 5,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_chelsea_stamford_bridge_450703203106_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/chelsea",
+        "path": ".stadium_aerial_references/chelsea/05.jpg",
+        "sha256": "5acddfde094b0f3d4d6f40f3432637ddbd9ac7225093833fc8c521e96757962b"
+      }
+    ]
+  }
+}

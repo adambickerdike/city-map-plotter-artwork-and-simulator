@@ -1,0 +1,286 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "Service-route fragment hidden beneath the authored roof trimmed; roof geometry unchanged.",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -60,
+      -30,
+      59,
+      50
+    ],
+    "roof_translation_m": [
+      2.1785,
+      -1.5444999999999993
+    ],
+    "bowl_bounds_m": [
+      -57.8215,
+      -31.5445,
+      61.1785,
+      48.4555
+    ],
+    "pitch_centre_m": [
+      1.6785,
+      8.4555
+    ],
+    "bowl_centre_m": [
+      1.6784999999999997,
+      8.4555
+    ],
+    "opposed_clearances_m": {
+      "left": 7.0,
+      "right": 7.0,
+      "bottom": 7.049999999999997,
+      "top": 7.049999999999997
+    },
+    "centre_error_m": 4.440892098500626e-16,
+    "geographic_pitch_preserved": true
+  },
+  "id": "norwich_city",
+  "name": "Carrow Road",
+  "source_recipe": {
+    "note": "Carrow Road: the compact main stand, separate Barclay roof, deep South Stand with its curved River End connection, and the angular hotel corner. Roof lettering and surface texture are intentionally omitted.",
+    "reference_method": "Aligned World Imagery overhead and Clubs From Above aerial photographs; dates vary."
+  },
+  "baseline_overlay": "Championship_Stadium_Maps/Carrow_Road/Carrow_Road_stadium_overlay_v1.json",
+  "baseline_sha256": "d7ac0f357b44cb0dea192dac51a707faae9473ab20d4d3be201d9a11d253becc",
+  "map_cache": "Championship_Stadium_Maps/Carrow_Road/source_cache/osm_main_api_snapshot.json.gz",
+  "map_cache_sha256": "6517bf1ed76a2ad9dcaa0abc3cd72c70ae1e3a597ff21b077d424a18bf88e73a",
+  "outer_shell": "way/662365383",
+  "shell_element_sha256": "4b4f2fa3133b9736d590cb4fda24c7aaf18fe447fcf8f71999db2e107c33651b",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/1536710282",
+      "name": "The Barclay",
+      "element_sha256": "ab8460c0a338f6f3cf326ff3031295a9557ae4e0c6ba4f2f1b0be9df7b8f8bb9"
+    },
+    {
+      "osm_ref": "way/1536998611",
+      "name": "South Stand",
+      "element_sha256": "be0e0daf172035b91bdc4b27abc04f3d020939fa11170c22a946f5218ed04bb2"
+    },
+    {
+      "osm_ref": "way/1536998797",
+      "name": "Regency Security Stand",
+      "element_sha256": "868dfc0253ac4551da64cfaaaa4a1d0bed82f3f0598d90ed0ef49ad0fd2e78ec"
+    },
+    {
+      "osm_ref": "way/1536999105",
+      "name": "Joma Community Stand",
+      "element_sha256": "bca71530fb0bf0b77f7a5892cbdf7ec67162c4e81251b48c52624f172c7f413f"
+    },
+    {
+      "osm_ref": "way/1536999622",
+      "name": "Geoffrey Watling City Stand",
+      "element_sha256": "70e8cb7522bd232066d87312c4289ac8b509914bf87e3150e983e1bfc5a7bc2c"
+    }
+  ],
+  "paths": 42,
+  "shell_paths": 6,
+  "previous_detailed_paths": 96,
+  "overlay": "Championship_Stadium_Maps/Carrow_Road/Carrow_Road_stadium_overlay_v7.json",
+  "overlay_sha256": "5ac911bbefe4a0157943f3c413da18d709a87cf7445c0e8e12b33d3a9fa0db5e",
+  "svg": "Championship_Architecture_Review/norwich_city/stadium_A2.svg",
+  "svg_sha256": "9da7ee4d7e338fbcb0e2d2d208657f418f610cbe2aef85afa50027f32d07838e",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "championship",
+  "roof_geometry_file": "championship_roof_geometry.py",
+  "roof_geometry_sha256": "43d7c456711de1aee495c3092418eefb98dbea79f545c81340d84f11162dda88",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained the unequal River End/Barclay roofs, rounded main-side junction and angular corner hotel. The hotel is not used to centre or scale the pitch. Main roof depths compare adequately allowing for parallax.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=52.6220315,1.3093222&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/norwich_city.json",
+    "browser_record_sha256": "12f0d46a0d946add0aa507aeae49cdfa61e0dad8b2e7930fe6d0a452288bfdca",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/norwich_city.png",
+    "screenshot_sha256": "d0389fdd4d17f1ed5ecf42b3a89b2634e9b1ab604717e5dc771f138fc2657f32",
+    "captured_utc": "2026-09-08T14:41:59.051785+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 52.6220315,
+      "longitude": 1.3093222,
+      "x_axis_degrees_from_east": 46.497198163
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      65.9
+    ],
+    "authored_body_spans_m": [
+      190.0,
+      144.0
+    ],
+    "pitch_to_body_ratio": [
+      0.5526,
+      0.4576
+    ]
+  },
+  "features_sha256": "1a5ce144e1ceb63c65458c3a3484475f1015897a59b79d3fe166d0a7513c60d3",
+  "parallel_families": [
+    {
+      "id": "main-stand-bays",
+      "axis": "x",
+      "positions_m": [
+        -55.9465,
+        -36.0715,
+        -16.1965,
+        3.6785,
+        23.5535,
+        43.4285,
+        63.3035
+      ]
+    },
+    {
+      "id": "barclay-bays",
+      "axis": "y",
+      "positions_m": [
+        -10.744499999999999,
+        4.055500000000002,
+        18.8555,
+        33.6555
+      ]
+    },
+    {
+      "id": "river-end-bays",
+      "axis": "y",
+      "positions_m": [
+        -11.5445,
+        3.4555000000000007,
+        18.4555,
+        33.4555
+      ]
+    },
+    {
+      "id": "south-bays",
+      "axis": "x",
+      "positions_m": [
+        -45.8215,
+        -28.8215,
+        -11.8215,
+        5.1785,
+        22.1785,
+        39.1785
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "norwich_city",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=145333.03040699093%2C6912967.673514314%2C146173.1307696665%2C6913807.773876989&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "6f6f26c67a5da5b2ae62ee71e6c9f293995a1eca77fbef8b71f03b5e47445eeb",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": 46.497198163,
+      "latitude": 52.6220315,
+      "longitude": 1.3093222
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -60,
+        -30,
+        59,
+        50
+      ],
+      "roof_translation_m": [
+        2.1785,
+        -1.5444999999999993
+      ],
+      "bowl_bounds_m": [
+        -57.8215,
+        -31.5445,
+        61.1785,
+        48.4555
+      ],
+      "pitch_centre_m": [
+        1.6785,
+        8.4555
+      ],
+      "bowl_centre_m": [
+        1.6784999999999997,
+        8.4555
+      ],
+      "opposed_clearances_m": {
+        "left": 7.0,
+        "right": 7.0,
+        "bottom": 7.049999999999997,
+        "top": 7.049999999999997
+      },
+      "centre_error_m": 4.440892098500626e-16,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 6,
+    "parallel_families": 4,
+    "explicit_projecting_structure_envelopes": 1,
+    "duplicate_straight_edge_length_removed_m": 450.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "aerial_gallery": {
+    "id": "norwich_city",
+    "source_page": "https://www.clubsfromabove.com/team/norwich-city",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_norwich_city_carrow_road_231035190307_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/norwich-city",
+        "path": ".stadium_aerial_references/norwich_city/01.jpg",
+        "sha256": "271c28a1745a08cfa0fac66eb9789991df4070c41cc4b1024ec5c5ddad68d650"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_norwich_city_carrow_road_111034190307_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/norwich-city",
+        "path": ".stadium_aerial_references/norwich_city/02.jpg",
+        "sha256": "33f651e5c9a8df4af86ae31070183862035ee0f29e9b10caee5b0904af13e88c"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_norwich_city_carrow_road_181033190307_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/norwich-city",
+        "path": ".stadium_aerial_references/norwich_city/03.jpg",
+        "sha256": "241e8c2b8679d4a0ea9860632aa18aac6363455146f6d8d245cc67ff867944fe"
+      },
+      {
+        "index": 4,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_norwich_city_carrow_road_501032190307_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/norwich-city",
+        "path": ".stadium_aerial_references/norwich_city/04.jpg",
+        "sha256": "b5ca68755e53e5be0ed817893a33141b7ef5d306118b683a6f6751fff8f144ec"
+      },
+      {
+        "index": 5,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_norwich_city_carrow_road_461031190307_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/norwich-city",
+        "path": ".stadium_aerial_references/norwich_city/05.jpg",
+        "sha256": "fd3e4af38cb3b0e00c8f61d1c625ed316faf8d96937419b58808b246057cb4e5"
+      }
+    ]
+  }
+}

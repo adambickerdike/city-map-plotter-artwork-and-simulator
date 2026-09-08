@@ -1,0 +1,269 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "Smethwick roof meets the adjoining stand on one shared edge, without a narrow doubled junction.",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -73,
+      -23,
+      47,
+      55
+    ],
+    "roof_translation_m": [
+      2.445999999999998,
+      1.1814999999999998
+    ],
+    "bowl_bounds_m": [
+      -70.554,
+      -21.8185,
+      49.446,
+      56.1815
+    ],
+    "pitch_centre_m": [
+      -10.554000000000002,
+      17.1815
+    ],
+    "bowl_centre_m": [
+      -10.554000000000002,
+      17.1815
+    ],
+    "opposed_clearances_m": {
+      "left": 7.700000000000003,
+      "right": 7.700000000000003,
+      "bottom": 6.600000000000001,
+      "top": 6.600000000000001
+    },
+    "centre_error_m": 0.0,
+    "geographic_pitch_preserved": true
+  },
+  "id": "west_bromwich_albion",
+  "name": "The Hawthorns",
+  "source_recipe": {
+    "note": "The Hawthorns: the rounded West Stand ends, two unequal trussed end roofs and the broad East Stand with its characteristic projecting entrance. Curved corners and roof folds join cleanly across the different stand widths.",
+    "reference_method": "Aligned World Imagery overhead and Clubs From Above aerial photographs; dates vary."
+  },
+  "baseline_overlay": "Championship_Stadium_Maps/The_Hawthorns/The_Hawthorns_stadium_overlay_v1.json",
+  "baseline_sha256": "693d6a333cf053109ba90d65662f7617e9f31273f57ae32d3d2ea4ccf917bd9c",
+  "map_cache": "Championship_Stadium_Maps/The_Hawthorns/source_cache/osm_main_api_snapshot.json.gz",
+  "map_cache_sha256": "93bc00b54458a60dbda706631afa278987252ba9977a34240c8c38f0dac778bd",
+  "outer_shell": "way/26986235",
+  "shell_element_sha256": "ae67407ad4a284ac59d628c4c4a824ecc941ea85408bd4ed4796b769930a9162",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/1312868793",
+      "name": "East Stand",
+      "element_sha256": "74280eb5553a4b16dc75495d482cc49761936960cf8873bb997c426da24e1ee9"
+    },
+    {
+      "osm_ref": "way/1312868794",
+      "name": "Birmingham Road End",
+      "element_sha256": "35d68b9f4fad60440d2c9f474e9289e889b0ef48ad3f599787ba0ef12392d3e3"
+    },
+    {
+      "osm_ref": "way/1312868795",
+      "name": "West Stand",
+      "element_sha256": "fada9575f7c841f65732e8cc5dca4ec43c1a3b3978dff8608c372dab652c92a9"
+    },
+    {
+      "osm_ref": "way/1312868796",
+      "name": "Smethwick End",
+      "element_sha256": "3f0a28013dc4cecd91a35dcb4084efe22075f979162fd46be75e6cf745bf951a"
+    }
+  ],
+  "paths": 47,
+  "shell_paths": 3,
+  "previous_detailed_paths": 121,
+  "overlay": "Championship_Stadium_Maps/The_Hawthorns/The_Hawthorns_stadium_overlay_v7.json",
+  "overlay_sha256": "9cf44ec88702a7d0370c263d47da09331aa7121aed8b1012b7d32ccd5c5c861f",
+  "svg": "Championship_Architecture_Review/west_bromwich_albion/stadium_A2.svg",
+  "svg_sha256": "3d0c6eea67053d015c0bfc0e98590f32e79bdec3e0a62bebd43846fc46e320b4",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "championship",
+  "roof_geometry_file": "championship_roof_geometry.py",
+  "roof_geometry_sha256": "43d7c456711de1aee495c3092418eefb98dbea79f545c81340d84f11162dda88",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained the curved connected Hawthorns stands, separate Smethwick end and characteristic deep angular East Stand annexe. Its roof folds terminate on actual roof boundaries and are not extra perimeter shells.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=52.5091654,-1.9636621&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/west_bromwich_albion.json",
+    "browser_record_sha256": "e29b52e645ee71324c258cd5c944dece1948e2f98b849e79259f5c6e2c34cc4f",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/west_bromwich_albion.png",
+    "screenshot_sha256": "fad341a4dd503584eab12d297cfb9f9f21cb9a7a44f69a06f1bc958eda976a2d",
+    "captured_utc": "2026-09-08T14:42:31.741530+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 52.5091654,
+      "longitude": -1.9636621,
+      "x_axis_degrees_from_east": 83.917707856
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      104.6,
+      64.8
+    ],
+    "authored_body_spans_m": [
+      191.0,
+      162.0
+    ],
+    "pitch_to_body_ratio": [
+      0.5476,
+      0.4
+    ]
+  },
+  "features_sha256": "1a5ce144e1ceb63c65458c3a3484475f1015897a59b79d3fe166d0a7513c60d3",
+  "parallel_families": [
+    {
+      "id": "west-stand-bays",
+      "axis": "x",
+      "positions_m": [
+        -69.554,
+        -51.554,
+        -33.554,
+        -15.554000000000002,
+        2.445999999999998,
+        20.445999999999998,
+        38.446
+      ]
+    },
+    {
+      "id": "birmingham-road-bays",
+      "axis": "y",
+      "positions_m": [
+        -12.8185,
+        3.1814999999999998,
+        19.1815,
+        35.1815,
+        51.1815
+      ]
+    },
+    {
+      "id": "smethwick-end-bays",
+      "axis": "y",
+      "positions_m": [
+        -3.8185000000000002,
+        11.1815,
+        26.1815,
+        41.1815
+      ]
+    },
+    {
+      "id": "east-bays",
+      "axis": "x",
+      "positions_m": [
+        -56.554,
+        -41.554,
+        -26.554000000000002,
+        -11.554000000000002,
+        3.445999999999998,
+        18.445999999999998,
+        33.446
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "west_bromwich_albion",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-219012.8357172632%2C6892298.933727245%2C-218174.89440683732%2C6893136.875037671&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "9d4717e019016760c1219430878930d1142c88fc348c968bbafdaea90605d722",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": 83.917707856,
+      "latitude": 52.5091654,
+      "longitude": -1.9636621
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -73,
+        -23,
+        47,
+        55
+      ],
+      "roof_translation_m": [
+        2.445999999999998,
+        1.1814999999999998
+      ],
+      "bowl_bounds_m": [
+        -70.554,
+        -21.8185,
+        49.446,
+        56.1815
+      ],
+      "pitch_centre_m": [
+        -10.554000000000002,
+        17.1815
+      ],
+      "bowl_centre_m": [
+        -10.554000000000002,
+        17.1815
+      ],
+      "opposed_clearances_m": {
+        "left": 7.700000000000003,
+        "right": 7.700000000000003,
+        "bottom": 6.600000000000001,
+        "top": 6.600000000000001
+      },
+      "centre_error_m": 0.0,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 6,
+    "parallel_families": 4,
+    "explicit_projecting_structure_envelopes": 2,
+    "duplicate_straight_edge_length_removed_m": 391.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "aerial_gallery": {
+    "id": "west_bromwich_albion",
+    "source_page": "https://www.clubsfromabove.com/team/west-bromwich-albion",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_west_bromwich_albion_the_hawthorns_590928190308_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/west-bromwich-albion",
+        "path": ".stadium_aerial_references/west_bromwich_albion/01.jpg",
+        "sha256": "1559f821ddf16ac79aa8ae5354270ca3c963c757fe58eabd7fc817c22784ede7"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_west_bromwich_albion_the_hawthorns_300926190308_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/west-bromwich-albion",
+        "path": ".stadium_aerial_references/west_bromwich_albion/02.jpg",
+        "sha256": "c2c4e055aed7a418684952a559a2a088993bc891a57a9926758656bdca0b83bf"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_west_bromwich_albion_the_hawthorns_210926190308_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/west-bromwich-albion",
+        "path": ".stadium_aerial_references/west_bromwich_albion/03.jpg",
+        "sha256": "a25863218134e3827b94c496495a931054f9c9a2c5b1f2f5578ea62780416ede"
+      }
+    ]
+  }
+}

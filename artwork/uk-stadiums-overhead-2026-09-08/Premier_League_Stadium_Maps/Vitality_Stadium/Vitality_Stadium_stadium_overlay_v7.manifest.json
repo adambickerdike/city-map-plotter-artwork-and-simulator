@@ -1,0 +1,259 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -58,
+      -39,
+      58,
+      39
+    ],
+    "roof_translation_m": [
+      -0.0,
+      -0.0
+    ],
+    "bowl_bounds_m": [
+      -58.0,
+      -39.0,
+      58.0,
+      39.0
+    ],
+    "pitch_centre_m": [
+      -0.0,
+      -0.0
+    ],
+    "bowl_centre_m": [
+      0.0,
+      0.0
+    ],
+    "opposed_clearances_m": {
+      "left": 5.5,
+      "right": 5.5,
+      "bottom": 5.0,
+      "top": 5.0
+    },
+    "centre_error_m": 0.0,
+    "geographic_pitch_preserved": true
+  },
+  "id": "bournemouth",
+  "name": "Vitality Stadium",
+  "source_recipe": {
+    "note": "Four compact separate roof blocks, evenly spaced roof bays and the stepped main-stand rear annexe.",
+    "reference_method": "Aligned overhead reference checked against aerial photographs; shared axes and native cubic curves authored in stadium_roof_geometry.py. Not an as-built survey."
+  },
+  "baseline_overlay": "Premier_League_Stadium_Maps/Vitality_Stadium/Vitality_Stadium_stadium_overlay_v1.json",
+  "baseline_sha256": "6618677597f8b77e36409a5ad038345e693750e981b8a81685b50111ba27630f",
+  "map_cache": "Premier_League_Stadium_Maps/Vitality_Stadium/source_cache/overpass/00b7daee872d9f940f50d3221e7e119517692345a4e2992a365b5e02dd861274.json.gz",
+  "map_cache_sha256": "a164191d1c9caea4351eef522e4d9dc1d6f1e86435905b34861b17af7318e1ed",
+  "outer_shell": "relation/9099531",
+  "shell_element_sha256": "cc9293dbc280b7fe29420ba90dff00361aa4781a285fe1ac6a5bfaa309fd99a8",
+  "mapped_structures": [],
+  "paths": 33,
+  "shell_paths": 5,
+  "previous_detailed_paths": 85,
+  "overlay": "Premier_League_Stadium_Maps/Vitality_Stadium/Vitality_Stadium_stadium_overlay_v7.json",
+  "overlay_sha256": "b62b4a2c07509d2c6f5c3f8ea95da2d885d4505132234581374eec123784c8a3",
+  "svg": "Stadium_Architecture_Review/bournemouth/stadium_A2.svg",
+  "svg_sha256": "deaf9934cbce8319360f18a0b44e9146c90a125709e85cc08406ffbd29f93d28",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "premier_league",
+  "roof_geometry_file": "stadium_roof_geometry.py",
+  "roof_geometry_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "corrected",
+    "review": "Preserved the compact four separate canopies and open stadium corners. Joined the rear main-stand annexe on one shared edge instead of retaining a two-metre slit that printed as a doubled dark stripe. This is a plot-scale simplification of the building junction; overall stand depths, pitch position and dimensions are unchanged.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=50.735212223743,-1.838292137517&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/bournemouth.json",
+    "browser_record_sha256": "3effe8c6882ea8d8a67ca17d3d217b91a112eb9cca3b8461ea0f67d66c8aed8c",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/bournemouth.png",
+    "screenshot_sha256": "ff4e5f994eabc07d72afa3231938818178d597866fdc8db37ea1ad09b2fe2d44",
+    "captured_utc": "2026-09-08T14:41:03.412244+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 50.735212223743,
+      "longitude": -1.838292137517,
+      "x_axis_degrees_from_east": -51.706675228
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      147.0,
+      121.0
+    ],
+    "pitch_to_body_ratio": [
+      0.7143,
+      0.562
+    ]
+  },
+  "features_sha256": "b7f7d08613ba86076de03d494eb92e1841884c16c4b394b916634be3f7319237",
+  "parallel_families": [
+    {
+      "id": "east-stand-bays",
+      "axis": "x",
+      "positions_m": [
+        -40.0,
+        -24.0,
+        -8.0,
+        8.0,
+        24.0,
+        40.0
+      ]
+    },
+    {
+      "id": "west-main-bays",
+      "axis": "x",
+      "positions_m": [
+        -40.714285714285715,
+        -24.42857142857143,
+        -8.142857142857146,
+        8.142857142857139,
+        24.42857142857143,
+        40.71428571428571
+      ]
+    },
+    {
+      "id": "north-stand-bays",
+      "axis": "y",
+      "positions_m": [
+        -20.8,
+        -6.600000000000001,
+        7.600000000000001,
+        21.799999999999997
+      ]
+    },
+    {
+      "id": "south-stand-bays",
+      "axis": "y",
+      "positions_m": [
+        -20.8,
+        -6.600000000000001,
+        7.600000000000001,
+        21.799999999999997
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "bournemouth",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-205040.6486358179%2C6574185.906425375%2C-204234.84071952387%2C6574991.714341669&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "eecbc945d32ead61d1519a768bdb04a399ad63593c567b24d97581989487bd1f",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -51.706675228,
+      "latitude": 50.735212223743,
+      "longitude": -1.838292137517
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -58,
+        -39,
+        58,
+        39
+      ],
+      "roof_translation_m": [
+        -0.0,
+        -0.0
+      ],
+      "bowl_bounds_m": [
+        -58.0,
+        -39.0,
+        58.0,
+        39.0
+      ],
+      "pitch_centre_m": [
+        -0.0,
+        -0.0
+      ],
+      "bowl_centre_m": [
+        0.0,
+        0.0
+      ],
+      "opposed_clearances_m": {
+        "left": 5.5,
+        "right": 5.5,
+        "bottom": 5.0,
+        "top": 5.0
+      },
+      "centre_error_m": 0.0,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 4,
+    "parallel_families": 4,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 455.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "survey_frame": {
+    "path": "Vitality_Stadium/Vitality_Stadium_SOURCE_MANIFEST.json",
+    "sha256": "f7a34834d59c2129d42b21a218cec3d25030fa28cf8fe171abce11621a827db3",
+    "year": 2018,
+    "plate": "Vitality_Stadium/Vitality_Stadium_GEOMETRY_PLATE.png",
+    "plate_sha256": "ff1cc29b5e1c38cbd21c5d8d06e15e56ee81675c29eaba0d7549e21b43a9a87f"
+  },
+  "aerial_gallery": {
+    "id": "bournemouth",
+    "source_page": "https://www.clubsfromabove.com/team/bournemouth",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_bournemouth_vitality_stadium_560702191606_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/bournemouth",
+        "path": ".stadium_aerial_references/bournemouth/01.jpg",
+        "sha256": "0d9c2e8f4cd1d9dc04f75f560fee2445d5292689d70faa5e23f59cb0be452159"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_bournemouth_vitality_stadium_100759191605_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/bournemouth",
+        "path": ".stadium_aerial_references/bournemouth/02.jpg",
+        "sha256": "22d66f07bd2c215e23941c485d7994079c6b6dac1f2fe55085dcf3833fc02bf3"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_bournemouth_vitality_stadium_080809212413_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/bournemouth",
+        "path": ".stadium_aerial_references/bournemouth/03.jpg",
+        "sha256": "802a09793c1b83a37871c557dacadd3501ebd53eefe9aa5a7f6dc0ada9641e71"
+      },
+      {
+        "index": 4,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_bournemouth_vitality_stadium_070816212413_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/bournemouth",
+        "path": ".stadium_aerial_references/bournemouth/04.jpg",
+        "sha256": "2c6586ee688c5a07b1ce3231390e8f2150e1cdb3c93df92d571943b6fd3c8bf1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "Single inner roof edge with connected supports. Duplicate mapped Stadium Bowl removed; near-roof circulation simplified on the city map.",
+  "stroke_audit": "",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -63.0,
+      -39.0,
+      61.0,
+      40.0
+    ],
+    "roof_translation_m": [
+      1.0,
+      -0.5
+    ],
+    "bowl_bounds_m": [
+      -62.0,
+      -39.5,
+      62.0,
+      39.5
+    ],
+    "pitch_centre_m": [
+      -0.0,
+      -0.0
+    ],
+    "bowl_centre_m": [
+      0.0,
+      0.0
+    ],
+    "opposed_clearances_m": {
+      "left": 10.799999999999997,
+      "right": 10.799999999999997,
+      "bottom": 7.800000000000001,
+      "top": 7.800000000000001
+    },
+    "centre_error_m": 0.0,
+    "geographic_pitch_preserved": true
+  },
+  "id": "coventry_city",
+  "name": "Coventry Building Society Arena",
+  "source_recipe": {
+    "note": "Rounded bowl roof joined to the exhibition hall and broad roof divisions. Repeated diagonal tripod bracing is omitted in this clean-line edition.",
+    "reference_method": "Aligned overhead reference checked against aerial photographs; shared axes and native cubic curves authored in stadium_roof_geometry.py. Not an as-built survey."
+  },
+  "baseline_overlay": "Premier_League_Stadium_Maps/Coventry_Building_Society_Arena/Coventry_Building_Society_Arena_stadium_overlay_v1.json",
+  "baseline_sha256": "2bf28e66cb07584bba28b63af663880d352ddf2183402b193681167433216464",
+  "map_cache": "Premier_League_Stadium_Maps/Coventry_Building_Society_Arena/source_cache/overpass/1d683eefc9f601ab6c5363a8f452b7b2652a58e88a14c68847e9664b587d6f5c.json.gz",
+  "map_cache_sha256": "89f16784243507e71f2676b78b0186d468e3cbceeba1454e1b64bdcbb7790702",
+  "outer_shell": "relation/1832945",
+  "shell_element_sha256": "708220a6051b693fb27a6dac12a4f24d8a54db8c70f18b80be352c73385dc4b2",
+  "mapped_structures": [],
+  "paths": 32,
+  "shell_paths": 1,
+  "previous_detailed_paths": 91,
+  "overlay": "Premier_League_Stadium_Maps/Coventry_Building_Society_Arena/Coventry_Building_Society_Arena_stadium_overlay_v8.json",
+  "overlay_sha256": "46512abf9439d0334d7600dfe3324375195002abc2bd7d0d64f944ca0cb59bb7",
+  "svg": "Stadium_Architecture_Review/coventry_city/stadium_A2.svg",
+  "svg_sha256": "a206dabe54deaaa60d5c3cbd9236f842bbf2faaf5c5f3728b3a576194d5af467",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "premier_league",
+  "roof_geometry_file": "stadium_roof_geometry.py",
+  "roof_geometry_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained the joined arena/exhibition-hall outline and restrained major roof seams. The hall is a distinct adjoining building, not another outline around the bowl. The previously removed duplicate contour remains absent.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=52.448117500551,-1.495655061902&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/coventry_city.json",
+    "browser_record_sha256": "03731a8c0aa553e9cde87636b6db7031cdcad171110f37bfe7639b4ed22f56d5",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/coventry_city.png",
+    "screenshot_sha256": "c11258933bf60ed7a7ad946a6fc6d6cb49615ffd6671dacfc4b3ca44ff3c47da",
+    "captured_utc": "2026-09-08T14:41:10.313554+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 52.448117500551,
+      "longitude": -1.495655061902,
+      "x_axis_degrees_from_east": 63.438513804
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      102.4,
+      63.4
+    ],
+    "authored_body_spans_m": [
+      200.0,
+      271.0
+    ],
+    "pitch_to_body_ratio": [
+      0.512,
+      0.2339
+    ]
+  },
+  "features_sha256": "b7f7d08613ba86076de03d494eb92e1841884c16c4b394b916634be3f7319237",
+  "parallel_families": [
+    {
+      "id": "end-roof-bays",
+      "axis": "y",
+      "positions_m": [
+        -24.5,
+        -0.5,
+        23.5
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "coventry_city",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-166913.94963043527%2C6881141.575347047%2C-166077.1701561901%2C6881978.354821293&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "a634ffb37befcbd7ab546c040dfb3c3174f8ecaed88ffe7f215460b39a02d9c8",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": 63.438513804,
+      "latitude": 52.448117500551,
+      "longitude": -1.495655061902
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -63.0,
+        -39.0,
+        61.0,
+        40.0
+      ],
+      "roof_translation_m": [
+        1.0,
+        -0.5
+      ],
+      "bowl_bounds_m": [
+        -62.0,
+        -39.5,
+        62.0,
+        39.5
+      ],
+      "pitch_centre_m": [
+        -0.0,
+        -0.0
+      ],
+      "bowl_centre_m": [
+        0.0,
+        0.0
+      ],
+      "opposed_clearances_m": {
+        "left": 10.799999999999997,
+        "right": 10.799999999999997,
+        "bottom": 7.800000000000001,
+        "top": 7.800000000000001
+      },
+      "centre_error_m": 0.0,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 2,
+    "parallel_families": 1,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 0.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "survey_frame": {
+    "path": "Coventry_Building_Society_Arena/Coventry_Building_Society_Arena_SOURCE_MANIFEST.json",
+    "sha256": "b42b78474f985cca12a55f17198418c77a28669bf56945ae73e72cfcf95be7ea",
+    "year": 2021,
+    "plate": "Coventry_Building_Society_Arena/Coventry_Building_Society_Arena_GEOMETRY_PLATE.png",
+    "plate_sha256": "441c9470500441693c8e9a6070d81c6b4c796f7e58a4fa6444a418fe15a96902"
+  },
+  "aerial_gallery": {
+    "id": "coventry_city",
+    "source_page": "https://www.clubsfromabove.com/team/coventry-city",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_coventry_city_ricoh_arena_090439251018_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/coventry-city",
+        "path": ".stadium_aerial_references/coventry_city/01.jpg",
+        "sha256": "70c94ac61e35573cd445416e09e73edf16c0cf0039355a2b04c6b5d2852df9af"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_coventry_city_ricoh_arena_590437251018_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/coventry-city",
+        "path": ".stadium_aerial_references/coventry_city/02.jpg",
+        "sha256": "278241a2b75e9978dd1176b8318d95ee1dbe9a098d091aa4bcbcec9a8480d7df"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_coventry_city_ricoh_arena_140437251018_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/coventry-city",
+        "path": ".stadium_aerial_references/coventry_city/03.jpg",
+        "sha256": "02c522be8d5f8c28529b3acfa4bcd3b1c5c2ebf0ded8c93c96bc507f07fe572e"
+      }
+    ]
+  }
+}

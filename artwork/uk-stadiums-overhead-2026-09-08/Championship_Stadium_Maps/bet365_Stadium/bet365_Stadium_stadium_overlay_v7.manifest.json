@@ -1,0 +1,265 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "Roof fold terminates on corner seams. Under-roof perimeter footway trimmed.",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -59,
+      -37,
+      58,
+      49
+    ],
+    "roof_translation_m": [
+      1.0159999999999991,
+      4.546999999999997
+    ],
+    "bowl_bounds_m": [
+      -57.984,
+      -32.453,
+      59.016,
+      53.547
+    ],
+    "pitch_centre_m": [
+      0.5159999999999992,
+      10.546999999999997
+    ],
+    "bowl_centre_m": [
+      0.5159999999999982,
+      10.546999999999997
+    ],
+    "opposed_clearances_m": {
+      "left": 6.350000000000001,
+      "right": 6.350000000000001,
+      "bottom": 9.0,
+      "top": 9.0
+    },
+    "centre_error_m": 9.992007221626409e-16,
+    "geographic_pitch_preserved": true
+  },
+  "id": "stoke_city",
+  "name": "bet365 Stadium",
+  "source_recipe": {
+    "note": "The bet365 Stadium: the three-sided curved canopy, separate deep main stand, infilled corner and remaining open corner. The main roof’s broad glazing strip and rear central projection are retained.",
+    "reference_method": "Aligned World Imagery overhead and Clubs From Above aerial photographs; dates vary."
+  },
+  "baseline_overlay": "Championship_Stadium_Maps/bet365_Stadium/bet365_Stadium_stadium_overlay_v1.json",
+  "baseline_sha256": "5fbc3811e67f204b5e222e110ec25f1a372c0eecbfa3f0e5dba3ae04df0b0f35",
+  "map_cache": "Championship_Stadium_Maps/bet365_Stadium/source_cache/osm_main_api_snapshot.json.gz",
+  "map_cache_sha256": "b95b512222e80cde60c780aa896c9050513f4510005fe01bc0fb6d8ccf41831c",
+  "outer_shell": "way/124603901",
+  "shell_element_sha256": "26363dd2cb58726c40a5c2bfdf0a3904152c91ecd915e6f50b73425cc9780c89",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/191605682",
+      "name": "",
+      "element_sha256": "08106a2df61104c7a8ac6ce58b51319969a3d26d130f5fc4247c42896accf363"
+    },
+    {
+      "osm_ref": "way/191605683",
+      "name": "",
+      "element_sha256": "91772ff10f3959b699e4bc2c4403a273b284d7dbc957fce57dc633d42b860f44"
+    },
+    {
+      "osm_ref": "way/191605685",
+      "name": "",
+      "element_sha256": "a9016a06b8c30f75a948c8eddffae544dc9e54c176cad2b1a755c4098a62c63f"
+    },
+    {
+      "osm_ref": "way/517090972",
+      "name": "",
+      "element_sha256": "1480307bb2d92952d90465ffd280b7838ba3c53fd86f2e70ea6cb84dd27fa643"
+    }
+  ],
+  "paths": 47,
+  "shell_paths": 4,
+  "previous_detailed_paths": 124,
+  "overlay": "Championship_Stadium_Maps/bet365_Stadium/bet365_Stadium_stadium_overlay_v7.json",
+  "overlay_sha256": "9b200fa515e892c5dd38bdd09200a49451710ba8197cef1be2f43b1cf65637cb",
+  "svg": "Championship_Architecture_Review/stoke_city/stadium_A2.svg",
+  "svg_sha256": "9e8bc0d64b10bb3a496b9ee0352298da55a40e3e643bffcf30a183c2624ced79",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "championship",
+  "roof_geometry_file": "championship_roof_geometry.py",
+  "roof_geometry_sha256": "43d7c456711de1aee495c3092418eefb98dbea79f545c81340d84f11162dda88",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained the three-sided curved horseshoe, separate bowed West Stand and infill corner. Main stand depths and the open southwest junction remain distinct; no second offset stadium outline added.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=52.9883401,-2.1755919&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/stoke_city.json",
+    "browser_record_sha256": "c60dd4ce53eea22cc97fb5c99fe0a7769f49a381a082498cf81a897c0c517d22",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/stoke_city.png",
+    "screenshot_sha256": "f1fb35bac06e7d4eb6fb093f127686b9897b60688b0009ae2775fa9450473508",
+    "captured_utc": "2026-09-08T14:42:19.994537+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 52.9883401,
+      "longitude": -2.1755919,
+      "x_axis_degrees_from_east": -61.463945867
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      104.3,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      178.0,
+      166.75
+    ],
+    "pitch_to_body_ratio": [
+      0.586,
+      0.4078
+    ]
+  },
+  "features_sha256": "1a5ce144e1ceb63c65458c3a3484475f1015897a59b79d3fe166d0a7513c60d3",
+  "parallel_families": [
+    {
+      "id": "east-bays",
+      "axis": "x",
+      "positions_m": [
+        -46.984,
+        -30.984,
+        -14.984000000000002,
+        1.0159999999999991,
+        17.016,
+        33.016,
+        49.016
+      ]
+    },
+    {
+      "id": "end-bays",
+      "axis": "y",
+      "positions_m": [
+        -15.453000000000003,
+        -0.45300000000000296,
+        14.546999999999997,
+        29.546999999999997,
+        44.547
+      ]
+    },
+    {
+      "id": "west-main-stand-bays",
+      "axis": "x",
+      "positions_m": [
+        -39.55542857142857,
+        -23.126857142857148,
+        -6.698285714285716,
+        9.730285714285706,
+        26.158857142857137,
+        42.58742857142857
+      ]
+    },
+    {
+      "id": "northwest-infill-bays",
+      "axis": "y",
+      "positions_m": [
+        -45.953
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "stoke_city",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-242609.38632892704%2C6980417.841784258%2C-241762.17863501413%2C6981265.04947817&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "f9e9aa71e2e1a9010d04aae903868d1fca265f9538abc8de0faa0aac2906e0b0",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -61.463945867,
+      "latitude": 52.9883401,
+      "longitude": -2.1755919
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -59,
+        -37,
+        58,
+        49
+      ],
+      "roof_translation_m": [
+        1.0159999999999991,
+        4.546999999999997
+      ],
+      "bowl_bounds_m": [
+        -57.984,
+        -32.453,
+        59.016,
+        53.547
+      ],
+      "pitch_centre_m": [
+        0.5159999999999992,
+        10.546999999999997
+      ],
+      "bowl_centre_m": [
+        0.5159999999999982,
+        10.546999999999997
+      ],
+      "opposed_clearances_m": {
+        "left": 6.350000000000001,
+        "right": 6.350000000000001,
+        "bottom": 9.0,
+        "top": 9.0
+      },
+      "centre_error_m": 9.992007221626409e-16,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 6,
+    "parallel_families": 4,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 430.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "aerial_gallery": {
+    "id": "stoke_city",
+    "source_page": "https://www.clubsfromabove.com/team/stoke-city",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_stoke_city_britannia_stadium_420749192412_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/stoke-city",
+        "path": ".stadium_aerial_references/stoke_city/01.jpg",
+        "sha256": "652cf17df99dbd730f5e1023706cde823e576d5da67d346ed2631cb443795fbb"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_stoke_city_britannia_stadium_190748192412_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/stoke-city",
+        "path": ".stadium_aerial_references/stoke_city/02.jpg",
+        "sha256": "650ca37ea106731622ee47d0077a491f9696901b6623930db26a872b3342db3e"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_stoke_city_britannia_stadium_070749192412_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/stoke-city",
+        "path": ".stadium_aerial_references/stoke_city/03.jpg",
+        "sha256": "70fdd0763c0c8da28cd85e4e4b2de24297763f6fc9ef728acc3d02ca9f9dde32"
+      }
+    ]
+  }
+}

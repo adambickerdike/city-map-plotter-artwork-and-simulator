@@ -1,0 +1,280 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "Access-tower arcs stop at the roof edge; hidden portions no longer cross the main stadium. Tower positions and dated-roof caveat retained.",
+  "stroke_audit": "",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -67.0,
+      -42.0,
+      69.0,
+      53.0
+    ],
+    "roof_translation_m": [
+      -1.9099999999999977,
+      3.0
+    ],
+    "bowl_bounds_m": [
+      -68.91,
+      -39.0,
+      67.09,
+      56.0
+    ],
+    "pitch_centre_m": [
+      -0.9099999999999977,
+      8.5
+    ],
+    "bowl_centre_m": [
+      -0.9099999999999966,
+      8.5
+    ],
+    "opposed_clearances_m": {
+      "left": 15.649999999999999,
+      "right": 15.649999999999999,
+      "bottom": 13.799999999999997,
+      "top": 13.799999999999997
+    },
+    "centre_error_m": 1.1102230246251565e-15,
+    "geographic_pitch_preserved": true
+  },
+  "id": "manchester_city",
+  "name": "Etihad Stadium",
+  "source_recipe": {
+    "note": "Smooth cable-bowl roof, rounded opening, roof divisions and circular access towers. DATED EDITION: the registered overhead source predates the new North/Pep Guardiola Stand. This drawing does not claim to include the completed 2026 extension; current club and Sisk photographs are linked for the outstanding footprint check.",
+    "reference_method": "Aligned overhead reference checked against aerial photographs; shared axes and native cubic curves authored in stadium_roof_geometry.py. Not an as-built survey.",
+    "references": [
+      "https://www.mancity.com/news/club/north-stand-etihad-man-city-rood-update-gallery-63891448",
+      "https://sisk.com/what-we-do/projects/etihad-stadium"
+    ]
+  },
+  "baseline_overlay": "Premier_League_Stadium_Maps/Etihad_Stadium/Etihad_Stadium_stadium_overlay_v1.json",
+  "baseline_sha256": "10284a35c6c46974204ad9135b5badfe47c0f237022d856b8b00d537a126243a",
+  "map_cache": "Premier_League_Stadium_Maps/Etihad_Stadium/source_cache/overpass/56ce315a60c8ede94b724f62ba231c9159e2eb3ca1c743defbf1372022af4a14.json.gz",
+  "map_cache_sha256": "bf35e592218f61fd9aa053293a6909fa4cb8ae0c3385990369eef01a924a7881",
+  "outer_shell": "way/26329734",
+  "shell_element_sha256": "bc84d6adb17d021faf2b5f2c95f75ead48476ac2d56852f150ee7a3f6a44892c",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/193811663",
+      "name": "South Stand",
+      "element_sha256": "efcaaf96e4ff905495d88e1e210f84c451543a6fd039a34c38256250d3abbb49"
+    },
+    {
+      "osm_ref": "way/193811664",
+      "name": "East Stand",
+      "element_sha256": "4f37e326d9f4e0e700f779750f8102ad12114dfbad7b5c04e315961fb5d003f3"
+    },
+    {
+      "osm_ref": "way/193811665",
+      "name": "Pep Guardiola Stand",
+      "element_sha256": "adcfb65d4cb6bfabeac4b6c01a7641d8e4d040d39befd819b5645197e74b7e88"
+    },
+    {
+      "osm_ref": "way/193811666",
+      "name": "Colin Bell Stand",
+      "element_sha256": "c0b3c8085e9c5fb413f8a8a0a4e911368127d4d15b129bc52d05cd18fd118750"
+    }
+  ],
+  "paths": 52,
+  "shell_paths": 9,
+  "previous_detailed_paths": 299,
+  "overlay": "Premier_League_Stadium_Maps/Etihad_Stadium/Etihad_Stadium_stadium_overlay_v10.json",
+  "overlay_sha256": "48a25702152a468c88fafa1c75725e025647d05d5edc29ea6a2406b797152a8a",
+  "svg": "Stadium_Architecture_Review/manchester_city/stadium_A2.svg",
+  "svg_sha256": "b240ca10a6a7b3fb95c84ec8ab5fd91e0b521749895c8accd26aa22e58e7d3e5",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "premier_league",
+  "roof_geometry_file": "stadium_roof_geometry.py",
+  "roof_geometry_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "corrected",
+    "review": "Corrected the northern/top roof edge: the crown is now on the pitch's long centreline, removing the previous 6.5 m model offset. Two broad native curves give the north shoulders an even sweep, with matching tangent and curvature at the crown instead of the former pinched bend. Roof bays meet the revised boundary. The pitch, southern expanded end, main roof band and eight occluded access-tower caps are retained. Google shows an earlier North Stand phase; this drawing does not certify the completed 2026 extension.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=53.483144793425545,-2.200527281192041&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/manchester_city.json",
+    "browser_record_sha256": "4c5e2500f2fda793ff45d96393d5f1676b65b71bb86d7da8bccf22129ef198ea",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/manchester_city.png",
+    "screenshot_sha256": "c8cf1952bec2044bea2b3029253a137dd3ec93f1445d63f1289d871ac7060160",
+    "captured_utc": "2026-09-08T14:40:20.342982+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 53.483144793425545,
+      "longitude": -2.200527281192041,
+      "x_axis_degrees_from_east": -79.6169899
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": true,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      104.7,
+      67.4
+    ],
+    "authored_body_spans_m": [
+      242.0,
+      198.0
+    ],
+    "pitch_to_body_ratio": [
+      0.4326,
+      0.3404
+    ]
+  },
+  "features_sha256": "b7f7d08613ba86076de03d494eb92e1841884c16c4b394b916634be3f7319237",
+  "parallel_families": [
+    {
+      "id": "side-roof-bays",
+      "axis": "x",
+      "positions_m": [
+        -49.91,
+        -35.91,
+        -21.909999999999997,
+        -7.9099999999999975,
+        6.0900000000000025,
+        20.090000000000003,
+        34.09,
+        48.09
+      ]
+    },
+    {
+      "id": "end-roof-bays",
+      "axis": "y",
+      "positions_m": [
+        -26.5,
+        -12.5,
+        1.5,
+        15.5,
+        29.5,
+        43.5
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "manchester_city",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-245390.10518289442%2C7072442.96748873%2C-244533.04765511505%2C7073300.025016509&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "2c97f34932830023b01db7ac84fe36b7cb5ef17889ff87e28fd1a70458b7ee89",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -79.6169899,
+      "latitude": 53.483144793425545,
+      "longitude": -2.200527281192041
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -67.0,
+        -42.0,
+        69.0,
+        53.0
+      ],
+      "roof_translation_m": [
+        -1.9099999999999977,
+        3.0
+      ],
+      "bowl_bounds_m": [
+        -68.91,
+        -39.0,
+        67.09,
+        56.0
+      ],
+      "pitch_centre_m": [
+        -0.9099999999999977,
+        8.5
+      ],
+      "bowl_centre_m": [
+        -0.9099999999999966,
+        8.5
+      ],
+      "opposed_clearances_m": {
+        "left": 15.649999999999999,
+        "right": 15.649999999999999,
+        "bottom": 13.799999999999997,
+        "top": 13.799999999999997
+      },
+      "centre_error_m": 1.1102230246251565e-15,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 11,
+    "parallel_families": 2,
+    "explicit_projecting_structure_envelopes": 8,
+    "duplicate_straight_edge_length_removed_m": 0.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "survey_frame": {
+    "path": "Etihad_Stadium/Etihad_Stadium_SOURCE_MANIFEST.json",
+    "sha256": "5ef2ec5885378449e9507d2f9ad9aea87fb4e6288ea406a2a6c64eab1e08badd",
+    "year": 2020,
+    "plate": "Etihad_Stadium/Etihad_Stadium_GEOMETRY_PLATE.png",
+    "plate_sha256": "70ee6bdf438567a67750ad8979c17a485a6c5563d29bdd4448dc03dfa2608274"
+  },
+  "aerial_gallery": {
+    "id": "manchester_city",
+    "source_page": "https://www.clubsfromabove.com/team/manchester-city",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_manchester_city_etihad_stadium_200755192111_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/manchester-city",
+        "path": ".stadium_aerial_references/manchester_city/01.jpg",
+        "sha256": "b3c77c9f562b2e112837c11f46c3c5e4549da789acadabf0ba07dde6bd6571cc"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_manchester_city_etihad_stadium_560755192111_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/manchester-city",
+        "path": ".stadium_aerial_references/manchester_city/02.jpg",
+        "sha256": "059a739d2e6f5efdad1c7903d80f014baa6649e1c405718161dcc875ce6476ef"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_manchester_city_etihad_stadium_120755192111_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/manchester-city",
+        "path": ".stadium_aerial_references/manchester_city/03.jpg",
+        "sha256": "bf3e9fe5e48217ea73bac0b5da63831dbc627a90429724b8381523bd54a63183"
+      },
+      {
+        "index": 4,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_manchester_city_etihad_stadium_510921201411_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/manchester-city",
+        "path": ".stadium_aerial_references/manchester_city/04.jpg",
+        "sha256": "63b31f4080d07f1a8d014993641aa3d55bc836d607df248c2ae1949190ee0062"
+      },
+      {
+        "index": 5,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_manchester_city_etihad_stadium_000923201411_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/manchester-city",
+        "path": ".stadium_aerial_references/manchester_city/05.jpg",
+        "sha256": "97d5686aabda19b0c5e5bd53f5fd5b6f73d0b6539de9deeafb96308cb800e227"
+      },
+      {
+        "index": 6,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_manchester_city_etihad_stadium_100924201411_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/manchester-city",
+        "path": ".stadium_aerial_references/manchester_city/06.jpg",
+        "sha256": "bddf640887e16a1dc30726b174f444133ae3b1285604565196b010a3408f7786"
+      }
+    ]
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "Pedestrian-area boundaries near the roof suppressed to remove a false second stadium outline.",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -64.0,
+      -44.0,
+      65.0,
+      42.0
+    ],
+    "roof_translation_m": [
+      -3.0360000000000005,
+      -2.3235000000000032
+    ],
+    "bowl_bounds_m": [
+      -67.036,
+      -46.3235,
+      61.964,
+      39.6765
+    ],
+    "pitch_centre_m": [
+      -2.5360000000000005,
+      -3.3235000000000032
+    ],
+    "bowl_centre_m": [
+      -2.5360000000000014,
+      -3.323500000000003
+    ],
+    "opposed_clearances_m": {
+      "left": 12.0,
+      "right": 12.0,
+      "bottom": 9.100000000000001,
+      "top": 9.100000000000001
+    },
+    "centre_error_m": 9.930136612989092e-16,
+    "geographic_pitch_preserved": true
+  },
+  "id": "cardiff_city",
+  "name": "Cardiff City Stadium",
+  "source_recipe": {
+    "note": "Cardiff City Stadium: continuous rounded corners, a broad extended Ninian-side roof and the main entrance projection. Roof bays terminate at a shared opening and outer edge; the inner band is a constant-distance offset.",
+    "reference_method": "Aligned World Imagery overhead; the photographer catalogue has no Cardiff gallery. Capture date not established."
+  },
+  "baseline_overlay": "Championship_Stadium_Maps/Cardiff_City_Stadium/Cardiff_City_Stadium_stadium_overlay_v1.json",
+  "baseline_sha256": "a50b775855e0b7f2e247152a48afff29249bda6867b33f118b7e9519043f4a17",
+  "map_cache": "Championship_Stadium_Maps/Cardiff_City_Stadium/source_cache/osm_main_api_snapshot.json.gz",
+  "map_cache_sha256": "ae508ee3aa053aa56064f430a7a1422d22f79a99cf837202dd134464f25df7af",
+  "outer_shell": "way/68424396",
+  "shell_element_sha256": "baf72bd9a32a4ada6a5a79de1bdb3132d5921817750a494d682ca95108d2eb95",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/191648494",
+      "name": "Grange Stand (Family Stand)",
+      "element_sha256": "cccc94c924912d729e8f0ba2d00863a16640297a69b3ee3e8d0cc62aeb94f3fe"
+    },
+    {
+      "osm_ref": "way/191648495",
+      "name": "Ninian Stand",
+      "element_sha256": "2a721c6b4f03d8ee0dadc64fb9b696bff9577a3ab6636e8554859c3dc980646c"
+    },
+    {
+      "osm_ref": "way/191648498",
+      "name": "USW Stand",
+      "element_sha256": "b7334941492990853c08beb117d3a165b6e2ab28645f7085f4b7bf0ad72f0aba"
+    },
+    {
+      "osm_ref": "way/191648500",
+      "name": "Grandstand",
+      "element_sha256": "83ea0709ddafede7fd0e83659fe3278077138dcc658010c4a757656208ec3d3f"
+    },
+    {
+      "osm_ref": "way/779000658",
+      "name": "Visitors' Stand",
+      "element_sha256": "a2353171ec2a23ac9e9ca8f08f969828ee8692c8a91e71e7c4fb9c3721f02813"
+    },
+    {
+      "osm_ref": "way/984142002",
+      "name": "",
+      "element_sha256": "90476301d36df4740bafb67d62eaaaa282e248e9c5eb7585a3c39150c20b0cb8"
+    }
+  ],
+  "paths": 51,
+  "shell_paths": 3,
+  "previous_detailed_paths": 94,
+  "overlay": "Championship_Stadium_Maps/Cardiff_City_Stadium/Cardiff_City_Stadium_stadium_overlay_v7.json",
+  "overlay_sha256": "1ea3d0ce06a01b12d6a2e39ea28cbaf03498351833ce0aab5eff32c56cd12a9c",
+  "svg": "Championship_Architecture_Review/cardiff_city/stadium_A2.svg",
+  "svg_sha256": "5c0a8164deb061230931d5a95a0bf2116c99d5560343862a92292e5134f7cc3a",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "championship",
+  "roof_geometry_file": "championship_roof_geometry.py",
+  "roof_geometry_sha256": "43d7c456711de1aee495c3092418eefb98dbea79f545c81340d84f11162dda88",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained the rounded main ring and distinctly deeper Ninian extension. The upper-tier block is a real extension, not a second outline. Opening proportions and shared roof boundaries compare well.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=51.4728209,-3.2029602&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/cardiff_city.json",
+    "browser_record_sha256": "e6219781b37bb9692026e7b4ba9827e9fdcdc8b0ef4ff0500bbfa680814696ef",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/cardiff_city.png",
+    "screenshot_sha256": "ea2be876e79bafacb6c1598042635a9efb01834136da7f6bc8d77cc034b0f252",
+    "captured_utc": "2026-09-08T14:41:38.076471+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 51.4728209,
+      "longitude": -3.2029602,
+      "x_axis_degrees_from_east": -58.990461651
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      67.8
+    ],
+    "authored_body_spans_m": [
+      198.0,
+      186.0
+    ],
+    "pitch_to_body_ratio": [
+      0.5303,
+      0.3645
+    ]
+  },
+  "features_sha256": "1a5ce144e1ceb63c65458c3a3484475f1015897a59b79d3fe166d0a7513c60d3",
+  "parallel_families": [
+    {
+      "id": "side-roof-bays",
+      "axis": "x",
+      "positions_m": [
+        -50.536,
+        -34.536,
+        -18.536,
+        -2.5360000000000005,
+        13.463999999999999,
+        29.464,
+        45.464
+      ]
+    },
+    {
+      "id": "end-roof-bays",
+      "axis": "y",
+      "positions_m": [
+        -27.323500000000003,
+        -11.323500000000003,
+        4.676499999999997,
+        20.676499999999997
+      ]
+    },
+    {
+      "id": "ninian-upper-tier-bays",
+      "axis": "x",
+      "positions_m": [
+        -41.36933333333333,
+        -23.702666666666666,
+        -6.0360000000000005,
+        11.63066666666667,
+        29.297333333333327
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "cardiff_city",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-356961.28332391195%2C6704950.918041767%2C-356142.5136663314%2C6705769.687699347&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "dcbc93b3da1cdf85a37a717619bccde4941b42436aafd7e9d78845dcc5129901",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -58.990461651,
+      "latitude": 51.4728209,
+      "longitude": -3.2029602
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -64.0,
+        -44.0,
+        65.0,
+        42.0
+      ],
+      "roof_translation_m": [
+        -3.0360000000000005,
+        -2.3235000000000032
+      ],
+      "bowl_bounds_m": [
+        -67.036,
+        -46.3235,
+        61.964,
+        39.6765
+      ],
+      "pitch_centre_m": [
+        -2.5360000000000005,
+        -3.3235000000000032
+      ],
+      "bowl_centre_m": [
+        -2.5360000000000014,
+        -3.323500000000003
+      ],
+      "opposed_clearances_m": {
+        "left": 12.0,
+        "right": 12.0,
+        "bottom": 9.100000000000001,
+        "top": 9.100000000000001
+      },
+      "centre_error_m": 9.930136612989092e-16,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 3,
+    "parallel_families": 3,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 157.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "aerial_gallery": {
+    "id": "cardiff_city",
+    "source_page": "https://www.clubsfromabove.com/team/cardiff-city",
+    "credit": "Clubs From Above; local reference only",
+    "images": []
+  }
+}

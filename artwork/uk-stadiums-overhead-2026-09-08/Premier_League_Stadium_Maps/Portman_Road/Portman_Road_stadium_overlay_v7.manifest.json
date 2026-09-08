@@ -1,0 +1,272 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -63,
+      -44,
+      63,
+      44
+    ],
+    "roof_translation_m": [
+      -0.0,
+      -0.0
+    ],
+    "bowl_bounds_m": [
+      -63.0,
+      -44.0,
+      63.0,
+      44.0
+    ],
+    "pitch_centre_m": [
+      -0.0,
+      -0.0
+    ],
+    "bowl_centre_m": [
+      0.0,
+      0.0
+    ],
+    "opposed_clearances_m": {
+      "left": 10.5,
+      "right": 10.5,
+      "bottom": 10.0,
+      "top": 10.0
+    },
+    "centre_error_m": 0.0,
+    "geographic_pitch_preserved": true
+  },
+  "id": "ipswich_town",
+  "name": "Portman Road",
+  "source_recipe": {
+    "note": "Four unequal stand roofs with connected Robson and Ramsey trusses. The oversized, skewed former pitch/apron and detached markings are replaced by a coherent illustrative playing field.",
+    "reference_method": "Aligned overhead reference checked against aerial photographs; shared axes and native cubic curves authored in stadium_roof_geometry.py. Not an as-built survey."
+  },
+  "baseline_overlay": "Premier_League_Stadium_Maps/Portman_Road/Portman_Road_stadium_overlay_v1.json",
+  "baseline_sha256": "4e34b3f66057bcb8123f28c204f6bd25019d4e6b06e87578a4182c3c153eff89",
+  "map_cache": "Premier_League_Stadium_Maps/Portman_Road/source_cache/overpass/e7fe748626fcbe3177e233a3685759200a9c87141776669d99ac2a38f312efe7.json.gz",
+  "map_cache_sha256": "49b86b7534712c9f7254a2750edfbf9df57a447f073d417c6263c57469f84892",
+  "outer_shell": "way/117953386",
+  "shell_element_sha256": "238abddf8f1cbcc79dce3598128063adf121e66ae06510359f9d22f569c212ef",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/27770804",
+      "name": "West Stand",
+      "element_sha256": "6006ee58836b71be614cac1099d2f1443b4cbd59e7af8bc105a33e0dca5fd293"
+    },
+    {
+      "osm_ref": "way/27770947",
+      "name": "Sir Bobby Robson Stand",
+      "element_sha256": "a6d6f7f8feb373b3b51ff2de6045953e3f8501b83130ce3364841bd87ac7fcc2"
+    },
+    {
+      "osm_ref": "way/27771085",
+      "name": "Cobbold Stand",
+      "element_sha256": "8e964dcbea33df91cda991004baf75f3e312f8d16f353e4e73e3928bd42bb287"
+    },
+    {
+      "osm_ref": "way/28873485",
+      "name": "Sir Alf Ramsey Stand",
+      "element_sha256": "2ea2cfd568b2e9529ef48854d8ac00d66dc7a79a8c114d96bc3720a826cfa897"
+    }
+  ],
+  "paths": 39,
+  "shell_paths": 4,
+  "previous_detailed_paths": 155,
+  "overlay": "Premier_League_Stadium_Maps/Portman_Road/Portman_Road_stadium_overlay_v7.json",
+  "overlay_sha256": "ec09c46cbea2ff163ff071a3dfdab0b95809f42a3d434d5994c9702bdfa29f45",
+  "svg": "Stadium_Architecture_Review/ipswich_town/stadium_A2.svg",
+  "svg_sha256": "294eac8f58f160979eb3fa7f86f3355c5b55eb7b9259175fa6482bf15e7486d8",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "premier_league",
+  "roof_geometry_file": "stadium_roof_geometry.py",
+  "roof_geometry_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained four unequal roof blocks and characteristic end-stand steps. The 105 by 68 m field is the playing surface, not the larger grass apron. Main stand depths and opening agree with the comparison.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=52.054952092073,1.145287689621&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/ipswich_town.json",
+    "browser_record_sha256": "63ff6d6c8b7cac5ca7e589eae6a80f4b4d4a7ae6c998facfb0a1f71278d95f93",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/ipswich_town.png",
+    "screenshot_sha256": "e46f71121da00cb2a5a5eade32e7fc4043fabe0f4edb03e84c26d1a9c95c7517",
+    "captured_utc": "2026-09-08T14:41:17.189515+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 52.054952092073,
+      "longitude": 1.145287689621,
+      "x_axis_degrees_from_east": -84.077489431
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      177.0,
+      130.0
+    ],
+    "pitch_to_body_ratio": [
+      0.5932,
+      0.5231
+    ]
+  },
+  "features_sha256": "b7f7d08613ba86076de03d494eb92e1841884c16c4b394b916634be3f7319237",
+  "parallel_families": [
+    {
+      "id": "cobbold-bays",
+      "axis": "x",
+      "positions_m": [
+        -40.0,
+        -20.0,
+        0.0,
+        20.0,
+        40.0
+      ]
+    },
+    {
+      "id": "west-stand-bays",
+      "axis": "x",
+      "positions_m": [
+        -38.66666666666667,
+        -19.333333333333336,
+        0.0,
+        19.33333333333333,
+        38.66666666666667
+      ]
+    },
+    {
+      "id": "bobby-robson-bays",
+      "axis": "y",
+      "positions_m": [
+        -26.0,
+        -11.0,
+        4.0,
+        19.0,
+        34.0
+      ]
+    },
+    {
+      "id": "alf-ramsey-bays",
+      "axis": "y",
+      "positions_m": [
+        -19.0,
+        -4.0,
+        11.0,
+        26.0
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "ipswich_town",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=127078.14449498514%2C6809652.904689454%2C127907.5403458438%2C6810482.300540313&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "9b33a8395e6bd28acc2ccfab97bc29883ea4b3c2d236f1fb3dbf7b490942489d",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -84.077489431,
+      "latitude": 52.054952092073,
+      "longitude": 1.145287689621
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -63,
+        -44,
+        63,
+        44
+      ],
+      "roof_translation_m": [
+        -0.0,
+        -0.0
+      ],
+      "bowl_bounds_m": [
+        -63.0,
+        -44.0,
+        63.0,
+        44.0
+      ],
+      "pitch_centre_m": [
+        -0.0,
+        -0.0
+      ],
+      "bowl_centre_m": [
+        0.0,
+        0.0
+      ],
+      "opposed_clearances_m": {
+        "left": 10.5,
+        "right": 10.5,
+        "bottom": 10.0,
+        "top": 10.0
+      },
+      "centre_error_m": 0.0,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 4,
+    "parallel_families": 4,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 393.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "survey_frame": {
+    "path": "Portman_Road/Portman_Road_SOURCE_MANIFEST.json",
+    "sha256": "abf04a18de61daeb093632d045896e739e510ba01cb687682590811ffdf94292",
+    "year": 2023,
+    "plate": "Portman_Road/Portman_Road_GEOMETRY_PLATE.png",
+    "plate_sha256": "ddd6347467436ba9f5169ead30348a471313584587814921e615904a66b93452"
+  },
+  "aerial_gallery": {
+    "id": "ipswich_town",
+    "source_page": "https://www.clubsfromabove.com/team/ipswich-town",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_ipswich_town_portman_road_211048190212_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/ipswich-town",
+        "path": ".stadium_aerial_references/ipswich_town/01.jpg",
+        "sha256": "993764efc550b35d0bdc719de8d1b8f621a6973060a062d8eef44cc312c39959"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_ipswich_town_portman_road_531047190212_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/ipswich-town",
+        "path": ".stadium_aerial_references/ipswich_town/02.jpg",
+        "sha256": "0b083ca96bf9e45df010e8e766d432ce1eebac6924148e04ede598a6756e3415"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_ipswich_town_portman_road_341046190212_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/ipswich-town",
+        "path": ".stadium_aerial_references/ipswich_town/03.jpg",
+        "sha256": "95e003acb5c54546b63258738ceb8c9841789966992ce9e2c3cbf6f7408a797e"
+      }
+    ]
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "Small-stand front and bowl edge share one stroke instead of a near-coincident pair.",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -52,
+      -43,
+      57,
+      39
+    ],
+    "roof_translation_m": [
+      -0.6829999999999989,
+      1.793999999999997
+    ],
+    "bowl_bounds_m": [
+      -52.683,
+      -41.206,
+      56.317,
+      40.794
+    ],
+    "pitch_centre_m": [
+      1.817000000000001,
+      -0.20600000000000318
+    ],
+    "bowl_centre_m": [
+      1.8170000000000002,
+      -0.20600000000000307
+    ],
+    "opposed_clearances_m": {
+      "left": 4.350000000000001,
+      "right": 4.350000000000001,
+      "bottom": 9.600000000000001,
+      "top": 9.600000000000001
+    },
+    "centre_error_m": 8.95090418262362e-16,
+    "geographic_pitch_preserved": true
+  },
+  "id": "lincoln_city",
+  "name": "LNER Stadium",
+  "source_recipe": {
+    "note": "Sincil Bank/LNER Stadium: the long Co-op roof, separate end roofs and the two smaller main-side blocks, retaining the open gaps between them. The Stacey West outline is reference-era: later hospitality/redevelopment details are not certified by this imagery.",
+    "reference_method": "Aligned World Imagery overhead and Clubs From Above photographs, with the club’s redevelopment notice as a date caveat.",
+    "references": [
+      "https://www.weareimps.com/news/2022/april/stacey-west-stand-update"
+    ]
+  },
+  "baseline_overlay": "Championship_Stadium_Maps/LNER_Stadium/LNER_Stadium_stadium_overlay_v1.json",
+  "baseline_sha256": "38bd95955490fde73a218a557d9121f4bb424f4385f770155d842582fa30a868",
+  "map_cache": "Championship_Stadium_Maps/LNER_Stadium/source_cache/osm_main_api_snapshot.json.gz",
+  "map_cache_sha256": "c5dc3d99db90824ef61320cf38ad7a3ea0249630f251870070eb4bc364e8f7d8",
+  "outer_shell": "way/23432862",
+  "shell_element_sha256": "eeecc1c0acb23a0623538b86be7d06301e865d6d2e35e5ef24a8718b38d6df00",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/241336321",
+      "name": "Lincolnshire Co-operative Stand",
+      "element_sha256": "ac8d54d2df0e6824a7f24a8d0e193a382b4161c7168a143e7c3d45ef42e35cf8"
+    },
+    {
+      "osm_ref": "way/241341144",
+      "name": "",
+      "element_sha256": "53f31dd03b19f7031d1d49495d353ce11f929e6bbcfa92a2cba4c012cd083073"
+    },
+    {
+      "osm_ref": "way/484582199",
+      "name": "",
+      "element_sha256": "6ff4b1b27c1b4b526ec10a1ebd76f4fc8e3d3b672dfbb35bedd1fc45d8fcce3d"
+    },
+    {
+      "osm_ref": "way/484582200",
+      "name": "",
+      "element_sha256": "20675b683c4709b9cca85b64c3ea406fc0ba82513bac70b83705d984a0864468"
+    },
+    {
+      "osm_ref": "way/1166309146",
+      "name": "",
+      "element_sha256": "7cde672f5f6dd36e65c5af6b4ec09e4731cf8eb27fe473e7b5f2c5e578ae1498"
+    }
+  ],
+  "paths": 38,
+  "shell_paths": 5,
+  "previous_detailed_paths": 31,
+  "overlay": "Championship_Stadium_Maps/LNER_Stadium/LNER_Stadium_stadium_overlay_v7.json",
+  "overlay_sha256": "2549b79419760d8b443eb0bec649cf394f147aa791ccf532a338a0a4b7f0e861",
+  "svg": "Championship_Architecture_Review/lincoln_city/stadium_A2.svg",
+  "svg_sha256": "5fd13268d421fd6d50edbdcfba3b865e9dcfa3d57c5db2e3195a855ed9f013ad",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "championship",
+  "roof_geometry_file": "championship_roof_geometry.py",
+  "roof_geometry_sha256": "43d7c456711de1aee495c3092418eefb98dbea79f545c81340d84f11162dda88",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained the distinctive short split Sincil Bank roofs, deeper Co-op stand and small end roofs. The gaps and unequal lengths are real features, not unfinished linework.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=53.2183,-0.5408655&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/lincoln_city.json",
+    "browser_record_sha256": "9888d7d0fb1611f591854b88903cdad0c81eef14534f5c92fece20b36bc96c6d",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/lincoln_city.png",
+    "screenshot_sha256": "9c68033c4b9365e91492ab6e1b7456d4f5d26bc979a90906711cf0ed083707b3",
+    "captured_utc": "2026-09-08T14:41:50.316803+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 53.2183,
+      "longitude": -0.5408655,
+      "x_axis_degrees_from_east": 77.045548453
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      100.3,
+      62.8
+    ],
+    "authored_body_spans_m": [
+      147.0,
+      128.0
+    ],
+    "pitch_to_body_ratio": [
+      0.6823,
+      0.4906
+    ]
+  },
+  "features_sha256": "1a5ce144e1ceb63c65458c3a3484475f1015897a59b79d3fe166d0a7513c60d3",
+  "parallel_families": [
+    {
+      "id": "coop-bays",
+      "axis": "x",
+      "positions_m": [
+        -29.540142857142857,
+        -14.397285714285715,
+        0.7455714285714317,
+        15.88842857142857,
+        31.03128571428571,
+        46.17414285714286
+      ]
+    },
+    {
+      "id": "stacey-west-bays",
+      "axis": "y",
+      "positions_m": [
+        -27.806000000000004,
+        -11.406000000000006,
+        4.994,
+        21.39399999999999
+      ]
+    },
+    {
+      "id": "south-stand-bays",
+      "axis": "y",
+      "positions_m": [
+        -25.606,
+        -11.006000000000004,
+        3.593999999999994,
+        18.193999999999996
+      ]
+    },
+    {
+      "id": "sincil-bank-main-bays",
+      "axis": "x",
+      "positions_m": [
+        5.983666666666667,
+        21.650333333333332
+      ]
+    },
+    {
+      "id": "st-andrews-small-stand-bays",
+      "axis": "x",
+      "positions_m": [
+        -33.183
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "lincoln_city",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-60634.746639207515%2C7023054.162964987%2C-59782.99745609111%2C7023905.912148103&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "caf14037f7c201ffeeabd5569e679a37392cc70e6502b6a75c021baad494145a",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": 77.045548453,
+      "latitude": 53.2183,
+      "longitude": -0.5408655
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -52,
+        -43,
+        57,
+        39
+      ],
+      "roof_translation_m": [
+        -0.6829999999999989,
+        1.793999999999997
+      ],
+      "bowl_bounds_m": [
+        -52.683,
+        -41.206,
+        56.317,
+        40.794
+      ],
+      "pitch_centre_m": [
+        1.817000000000001,
+        -0.20600000000000318
+      ],
+      "bowl_centre_m": [
+        1.8170000000000002,
+        -0.20600000000000307
+      ],
+      "opposed_clearances_m": {
+        "left": 4.350000000000001,
+        "right": 4.350000000000001,
+        "bottom": 9.600000000000001,
+        "top": 9.600000000000001
+      },
+      "centre_error_m": 8.95090418262362e-16,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 4,
+    "parallel_families": 5,
+    "explicit_projecting_structure_envelopes": 1,
+    "duplicate_straight_edge_length_removed_m": 327.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "aerial_gallery": {
+    "id": "lincoln_city",
+    "source_page": "https://www.clubsfromabove.com/team/lincoln-city",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_lincoln_city_lner_stadium_420910200914_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/lincoln-city",
+        "path": ".stadium_aerial_references/lincoln_city/01.jpg",
+        "sha256": "d92efeb0cc62961ed6c8578668ac7196e1c5538723c95689b0878898ea1286ca"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_lincoln_city_lner_stadium_410913200914_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/lincoln-city",
+        "path": ".stadium_aerial_references/lincoln_city/02.jpg",
+        "sha256": "1ff4160ebd07caececa3abb6d86e2165c1b36f715500bb5a94af2e39eee167d2"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_lincoln_city_lner_stadium_340910200914_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/lincoln-city",
+        "path": ".stadium_aerial_references/lincoln_city/03.jpg",
+        "sha256": "f6c1773ed99b4431045c6142903092aee2dfc6023935b025fb6ff540456514fe"
+      }
+    ]
+  }
+}

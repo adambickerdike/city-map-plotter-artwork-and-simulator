@@ -1,0 +1,286 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "Checked for doubled outlines, close parallel strokes, corner overshoots and under-roof map paths; clean geometry retained unchanged.",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -49,
+      -38,
+      64,
+      39
+    ],
+    "roof_translation_m": [
+      -0.9504999999999963,
+      -0.0020000000000026663
+    ],
+    "bowl_bounds_m": [
+      -49.9505,
+      -38.002,
+      63.0495,
+      38.998
+    ],
+    "pitch_centre_m": [
+      6.549500000000004,
+      0.49799999999999733
+    ],
+    "bowl_centre_m": [
+      6.549500000000002,
+      0.49799999999999756
+    ],
+    "opposed_clearances_m": {
+      "left": 4.5,
+      "right": 4.5,
+      "bottom": 4.899999999999999,
+      "top": 4.899999999999999
+    },
+    "centre_error_m": 1.790180836524724e-15,
+    "geographic_pitch_preserved": true
+  },
+  "id": "portsmouth",
+  "name": "Fratton Park",
+  "source_recipe": {
+    "note": "Fratton Park: four tightly arranged but unequal roofs, the North Stand’s stepped roof profile, larger Fratton End, narrow Milton End and the South Stand’s central gable. Recent small concourse changes are outside this simplified roof plan.",
+    "reference_method": "Aligned World Imagery overhead and six Clubs From Above aerial photographs; dates vary."
+  },
+  "baseline_overlay": "Championship_Stadium_Maps/Fratton_Park/Fratton_Park_stadium_overlay_v1.json",
+  "baseline_sha256": "e536c672347c92592c7a94912459371b2612bf73aaf8516849cc25b5751a212b",
+  "map_cache": "Championship_Stadium_Maps/Fratton_Park/source_cache/osm_main_api_snapshot.json.gz",
+  "map_cache_sha256": "b7b6c4262571604455861b32b5cd0c615a62d0f6ddac5f2a48bd734243b1f4e4",
+  "outer_shell": "way/12357544",
+  "shell_element_sha256": "c695ba505d44cf1ebe16d1890e73471a5ecd3f048c4b02f528167661643a7e2b",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/193896996",
+      "name": "Fratton End",
+      "element_sha256": "6cb402dc3b22e9beb19eb51caaa85d048fcbbcab95b828c1a98b737017256590"
+    },
+    {
+      "osm_ref": "way/193896998",
+      "name": "Milton End",
+      "element_sha256": "584f04920fe017471227dc89120314857466e30cb981deef8e7364f3754a9d94"
+    },
+    {
+      "osm_ref": "way/193897000",
+      "name": "North Stand",
+      "element_sha256": "8f7b5e69f243372fb9c4992a5a77ade42623d023832cde3183efa62b20e5a2f5"
+    },
+    {
+      "osm_ref": "way/193897002",
+      "name": "South Stand",
+      "element_sha256": "63cd362336a43c5400795e1b28a2e81953238cfa4e91b9f965532d0c4a2cb5ad"
+    }
+  ],
+  "paths": 37,
+  "shell_paths": 4,
+  "previous_detailed_paths": 69,
+  "overlay": "Championship_Stadium_Maps/Fratton_Park/Fratton_Park_stadium_overlay_v6.json",
+  "overlay_sha256": "ad8c7f4ac658ca24e19ae533ead3c673543bdcaba3f1657758a5fcf209de5b14",
+  "svg": "Championship_Architecture_Review/portsmouth/stadium_A2.svg",
+  "svg_sha256": "8ab34e9096cee399bd7188ad14589e4500363dcc872121e377c2bf7cc9e51cc5",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "championship",
+  "roof_geometry_file": "championship_roof_geometry.py",
+  "roof_geometry_sha256": "43d7c456711de1aee495c3092418eefb98dbea79f545c81340d84f11162dda88",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "corrected",
+    "review": "Removed the historic triangular South Stand roof gable/ridge from this edition: the Google reference shows the later continuous blue roof. The older Esri image visibly has the gable, so this is an imagery-era difference, not a claim the old feature was imaginary. Four separate roofs and the sloped North Stand folds remain.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=50.7963238,-1.0638836&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/portsmouth.json",
+    "browser_record_sha256": "66f0fe540954ad21596747f54cb7ffe589c982864153653d4cdacfe6675f333d",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/portsmouth.png",
+    "screenshot_sha256": "9d8c7f7f971a4ea6347deccfeb2b31832d663ac849d70d14f840698470372374",
+    "captured_utc": "2026-09-08T14:42:04.174989+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 50.7963238,
+      "longitude": -1.0638836,
+      "x_axis_degrees_from_east": -6.483875007
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": true,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      104.0,
+      67.2
+    ],
+    "authored_body_spans_m": [
+      153.0,
+      126.0
+    ],
+    "pitch_to_body_ratio": [
+      0.6797,
+      0.5333
+    ]
+  },
+  "features_sha256": "1a5ce144e1ceb63c65458c3a3484475f1015897a59b79d3fe166d0a7513c60d3",
+  "parallel_families": [
+    {
+      "id": "north-stand-bays",
+      "axis": "x",
+      "positions_m": [
+        -38.28383333333333,
+        -17.617166666666662,
+        3.0495000000000037,
+        23.716166666666673,
+        44.38283333333333
+      ]
+    },
+    {
+      "id": "fratton-end-bays",
+      "axis": "y",
+      "positions_m": [
+        -22.402,
+        -7.802000000000003,
+        6.797999999999995,
+        21.397999999999996
+      ]
+    },
+    {
+      "id": "milton-end-bays",
+      "axis": "y",
+      "positions_m": [
+        -33.002,
+        -17.002000000000002,
+        -1.0020000000000027,
+        14.997999999999998,
+        30.997999999999998,
+        46.998
+      ]
+    },
+    {
+      "id": "south-stand-bays",
+      "axis": "x",
+      "positions_m": [
+        -30.950499999999998,
+        -11.950499999999996,
+        27.049500000000002,
+        46.0495
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "portsmouth",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-118834.41118434718%2C6584941.10290473%2C-118027.55004628233%2C6585747.964042794&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "4828edce0c443ecb4a9c9c6212f8d482f5662315424a4f16f5c70a9ad827c756",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -6.483875007,
+      "latitude": 50.7963238,
+      "longitude": -1.0638836
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -49,
+        -38,
+        64,
+        39
+      ],
+      "roof_translation_m": [
+        -0.9504999999999963,
+        -0.0020000000000026663
+      ],
+      "bowl_bounds_m": [
+        -49.9505,
+        -38.002,
+        63.0495,
+        38.998
+      ],
+      "pitch_centre_m": [
+        6.549500000000004,
+        0.49799999999999733
+      ],
+      "bowl_centre_m": [
+        6.549500000000002,
+        0.49799999999999756
+      ],
+      "opposed_clearances_m": {
+        "left": 4.5,
+        "right": 4.5,
+        "bottom": 4.899999999999999,
+        "top": 4.899999999999999
+      },
+      "centre_error_m": 1.790180836524724e-15,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 4,
+    "parallel_families": 4,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 367.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "aerial_gallery": {
+    "id": "portsmouth",
+    "source_page": "https://www.clubsfromabove.com/team/portsmouth",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_portsmouth_fratton_park_280712190506_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/portsmouth",
+        "path": ".stadium_aerial_references/portsmouth/01.jpg",
+        "sha256": "eb3004db06b1cad97f93940b1378bd637908c097fbf2d40232996f93a6b5e913"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_portsmouth_fratton_park_520709190506_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/portsmouth",
+        "path": ".stadium_aerial_references/portsmouth/02.jpg",
+        "sha256": "8ebc26ad429dc4cac31a7bf5c47f007f8817e01bc2930489bced07e2fccb7925"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_portsmouth_fratton_park_210706190506_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/portsmouth",
+        "path": ".stadium_aerial_references/portsmouth/03.jpg",
+        "sha256": "79312c239fb209daf01dead6e4f21ef61060ee39bd8f7cabc6b1ce7220172ff3"
+      },
+      {
+        "index": 4,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_portsmouth_fratton_park_070322210918_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/portsmouth",
+        "path": ".stadium_aerial_references/portsmouth/04.jpg",
+        "sha256": "dee55d7860cb785989dc5a03e20ef70b958806b9be6e9903e4d0b0c442570bce"
+      },
+      {
+        "index": 5,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_portsmouth_fratton_park_480322210918_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/portsmouth",
+        "path": ".stadium_aerial_references/portsmouth/05.jpg",
+        "sha256": "1d9cbe8967b8dfb1cc9427294e587267df0990d832017fc2b94c89e747ca0d1e"
+      },
+      {
+        "index": 6,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_portsmouth_fratton_park_300324210918_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/portsmouth",
+        "path": ".stadium_aerial_references/portsmouth/06.jpg",
+        "sha256": "8a8724a885c1717a9c5ba84d55f5281913f058a972238fef00b6e14ede292564"
+      }
+    ]
+  }
+}

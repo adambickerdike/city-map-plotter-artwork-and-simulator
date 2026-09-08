@@ -1,0 +1,285 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "South Stand and Kop junction shares one boundary instead of a narrow doubled edge.",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -66,
+      -36,
+      51,
+      45
+    ],
+    "roof_translation_m": [
+      -1.3365000000000027,
+      2.563500000000003
+    ],
+    "bowl_bounds_m": [
+      -67.3365,
+      -33.436499999999995,
+      49.6635,
+      47.563500000000005
+    ],
+    "pitch_centre_m": [
+      -8.836500000000003,
+      7.063500000000003
+    ],
+    "bowl_centre_m": [
+      -8.836500000000001,
+      7.063500000000005
+    ],
+    "opposed_clearances_m": {
+      "left": 6.0,
+      "right": 6.0,
+      "bottom": 6.4999999999999964,
+      "top": 6.5
+    },
+    "centre_error_m": 2.5121479338940403e-15,
+    "geographic_pitch_preserved": true
+  },
+  "id": "sheffield_united",
+  "name": "Bramall Lane",
+  "source_recipe": {
+    "note": "Bramall Lane: unequal rectangular stand roofs, the John Street/Kop curved corner, the smaller Bramall Lane corner connection and the South Stand truss. The irregular outer site apron is not drawn as a roof.",
+    "reference_method": "Aligned World Imagery overhead and Clubs From Above aerial photographs; dates vary."
+  },
+  "baseline_overlay": "Championship_Stadium_Maps/Bramall_Lane/Bramall_Lane_stadium_overlay_v1.json",
+  "baseline_sha256": "abf866f9a89ee8ef97997a9b16a0e00197711a8eb59d1f7e6ddca3fc7f691810",
+  "map_cache": "Championship_Stadium_Maps/Bramall_Lane/source_cache/osm_main_api_snapshot.json.gz",
+  "map_cache_sha256": "8735c5579833ec555585e0c65a4fe0497ecee6ca248bf4e408ff35eef0caa0a9",
+  "outer_shell": "way/731980938",
+  "shell_element_sha256": "225987b2c3c38f5c84ba7216e4956eea7fc1770ab3161c8926c8134237cd1a96",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/140644368",
+      "name": "Tony Currie Stand",
+      "element_sha256": "c4659ecca637eba6b35fe49e38f5eec4c8dd75b53749fa5c89720eeba221cd45"
+    },
+    {
+      "osm_ref": "way/140644370",
+      "name": "Kop Stand",
+      "element_sha256": "325e3527f0b3ab66cbb1f462b0eb8aac3973a366c6e04e3ac5d68f6f9b615846"
+    },
+    {
+      "osm_ref": "way/140644372",
+      "name": "Bramall Lane Stand",
+      "element_sha256": "51d1b46048885c25f7d0e886ed310e8bda9aba5ff94c4be3bb288001031a2b1d"
+    },
+    {
+      "osm_ref": "way/140644373",
+      "name": "John Street Stand",
+      "element_sha256": "9393750ea55a4e3e380ad1ace5f70e7700ea7db7fd7c91bd21f38634a91c5710"
+    },
+    {
+      "osm_ref": "way/140644375",
+      "name": "Bramall Lane Corner",
+      "element_sha256": "6bea49ab50e1935e19cc401c1290abbc20ab9e9f1776e8e98c24fbdcf008e9ca"
+    },
+    {
+      "osm_ref": "way/1062376781",
+      "name": "John Street Corner",
+      "element_sha256": "2b43e07187926c5235f01c195e93b23e5719e361d41eb322ff74f8c1ef3e39db"
+    }
+  ],
+  "paths": 43,
+  "shell_paths": 7,
+  "previous_detailed_paths": 88,
+  "overlay": "Championship_Stadium_Maps/Bramall_Lane/Bramall_Lane_stadium_overlay_v7.json",
+  "overlay_sha256": "680ed7317256ffefda8e2089b4525db83f15586b36aa82b9bc7bab02ad1ca51f",
+  "svg": "Championship_Architecture_Review/sheffield_united/stadium_A2.svg",
+  "svg_sha256": "015b3fda0ff8e556e482feab10d0d40c19aa6ad525b7619b2a36222d19080f32",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "championship",
+  "roof_geometry_file": "championship_roof_geometry.py",
+  "roof_geometry_sha256": "43d7c456711de1aee495c3092418eefb98dbea79f545c81340d84f11162dda88",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained the unequal Bramall Lane roofs and smoothly connected John Street/Kop corner. The front curve is shared once; the corrected corner seam does not cross an extra square guide line.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=53.3703429,-1.4707145&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/sheffield_united.json",
+    "browser_record_sha256": "f09ffd21389f2a737f7b85cfab0ebbc7af27f93eefadb7508d4035ae65b26a05",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/sheffield_united.png",
+    "screenshot_sha256": "251b9722748de78c9775f41d2e04c14d00aab2274b39b40676b25d6de0cf5959",
+    "captured_utc": "2026-09-08T14:42:13.046727+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 53.3703429,
+      "longitude": -1.4707145,
+      "x_axis_degrees_from_east": 11.571778727
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      176.0,
+      153.0
+    ],
+    "pitch_to_body_ratio": [
+      0.5966,
+      0.4444
+    ]
+  },
+  "features_sha256": "1a5ce144e1ceb63c65458c3a3484475f1015897a59b79d3fe166d0a7513c60d3",
+  "parallel_families": [
+    {
+      "id": "john-street-bays",
+      "axis": "x",
+      "positions_m": [
+        -54.050785714285716,
+        -36.76507142857143,
+        -19.479357142857147,
+        -2.193642857142864,
+        15.092071428571428,
+        32.37778571428571
+      ]
+    },
+    {
+      "id": "kop-bays",
+      "axis": "y",
+      "positions_m": [
+        -35.769833333333324,
+        -19.10316666666666,
+        -2.436499999999997,
+        14.230166666666674,
+        30.896833333333333
+      ]
+    },
+    {
+      "id": "south-stand-bays",
+      "axis": "x",
+      "positions_m": [
+        -48.050785714285716,
+        -31.76507142857143,
+        -15.479357142857149,
+        0.8063571428571361,
+        17.09207142857143,
+        33.37778571428571
+      ]
+    },
+    {
+      "id": "bramall-lane-and-corner-bays",
+      "axis": "y",
+      "positions_m": [
+        -39.10316666666667,
+        -21.76983333333333,
+        -4.436499999999997,
+        12.896833333333332,
+        30.230166666666676
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "sheffield_united",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-164146.58239843993%2C7051369.911540129%2C-163291.79608612793%2C7052224.697852441&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "ef49281d177425a640cac507c57ea3be93eafad0afaca37fdf031db37cf9611e",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": 11.571778727,
+      "latitude": 53.3703429,
+      "longitude": -1.4707145
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -66,
+        -36,
+        51,
+        45
+      ],
+      "roof_translation_m": [
+        -1.3365000000000027,
+        2.563500000000003
+      ],
+      "bowl_bounds_m": [
+        -67.3365,
+        -33.436499999999995,
+        49.6635,
+        47.563500000000005
+      ],
+      "pitch_centre_m": [
+        -8.836500000000003,
+        7.063500000000003
+      ],
+      "bowl_centre_m": [
+        -8.836500000000001,
+        7.063500000000005
+      ],
+      "opposed_clearances_m": {
+        "left": 6.0,
+        "right": 6.0,
+        "bottom": 6.4999999999999964,
+        "top": 6.5
+      },
+      "centre_error_m": 2.5121479338940403e-15,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 5,
+    "parallel_families": 4,
+    "explicit_projecting_structure_envelopes": 1,
+    "duplicate_straight_edge_length_removed_m": 494.516,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "aerial_gallery": {
+    "id": "sheffield_united",
+    "source_page": "https://www.clubsfromabove.com/team/sheffield-united",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_sheffield_united_bramall_lane_190902190507_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/sheffield-united",
+        "path": ".stadium_aerial_references/sheffield_united/01.jpg",
+        "sha256": "191c6333f1f63be78f56a13e2c222b11f62ab4a3344b60e6a4fefabf9439f624"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_sheffield_united_bramall_lane_400904190507_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/sheffield-united",
+        "path": ".stadium_aerial_references/sheffield_united/02.jpg",
+        "sha256": "4f8442f1ff1453f4b3213c4b885fa3f82228967491340a73f68a58f7bb22d30c"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_sheffield_united_bramall_lane_160903190507_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/sheffield-united",
+        "path": ".stadium_aerial_references/sheffield_united/03.jpg",
+        "sha256": "00bcdaa48af3b72924f747f6b1e80885ba9a11d4b3ef2b5506cc485000d34b6b"
+      },
+      {
+        "index": 4,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_sheffield_united_bramall_lane_440901190507_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/sheffield-united",
+        "path": ".stadium_aerial_references/sheffield_united/04.jpg",
+        "sha256": "7a3325c4fe6cc91cff19a34bc7250ea3fcc1d5939d31d51d618a490e2666ee96"
+      }
+    ]
+  }
+}

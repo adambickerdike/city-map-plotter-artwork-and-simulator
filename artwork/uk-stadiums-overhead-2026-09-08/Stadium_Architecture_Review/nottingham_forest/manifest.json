@@ -1,0 +1,297 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -62,
+      -40,
+      59,
+      45
+    ],
+    "roof_translation_m": [
+      1.5,
+      -2.5
+    ],
+    "bowl_bounds_m": [
+      -60.5,
+      -42.5,
+      60.5,
+      42.5
+    ],
+    "pitch_centre_m": [
+      -0.0,
+      -0.0
+    ],
+    "bowl_centre_m": [
+      0.0,
+      0.0
+    ],
+    "opposed_clearances_m": {
+      "left": 9.200000000000003,
+      "right": 9.200000000000003,
+      "bottom": 8.75,
+      "top": 8.75
+    },
+    "centre_error_m": 0.0,
+    "geographic_pitch_preserved": true
+  },
+  "id": "nottingham_forest",
+  "name": "The City Ground",
+  "source_recipe": {
+    "note": "Independent Brian Clough, Trent End and Peter Taylor roofs; irregular curved Bridgford return and the Trent End truss.",
+    "reference_method": "Aligned overhead reference checked against aerial photographs; shared axes and native cubic curves authored in stadium_roof_geometry.py. Not an as-built survey."
+  },
+  "baseline_overlay": "Premier_League_Stadium_Maps/City_Ground/City_Ground_stadium_overlay_v1.json",
+  "baseline_sha256": "57d6b2c98abff32dc1d108a43b9e269ad65c7a8dfedaa793d79f46b1898ee1a6",
+  "map_cache": "Premier_League_Stadium_Maps/City_Ground/source_cache/overpass/855605d3cf24f644d8c790f4285663bb51fc8cd3388d6e94b03d185815154287.json.gz",
+  "map_cache_sha256": "c2528e06dbfd2ff3f03ca9240ae005d3922410f39bdfccb349f94ff19a8ebe30",
+  "outer_shell": "way/24724754",
+  "shell_element_sha256": "8b0ad20c962141f657501f0cce2c8c328eca1640e720324cb0753793c046bb59",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/77810520",
+      "name": "Peter Taylor Stand",
+      "element_sha256": "1b1dbd14b64eb189de4a0487a35382e6184a857a1a18cd7c4d265d58e15cbf41"
+    },
+    {
+      "osm_ref": "way/77810521",
+      "name": "Brian Clough Stand",
+      "element_sha256": "08a6af690221f4a5fd0d30ce9a4fe32b3f3ded5e35e2aaac780d7c3b0655b6f3"
+    },
+    {
+      "osm_ref": "way/77810522",
+      "name": "Bridgford End",
+      "element_sha256": "9a9ef8fd767225bd9ad124dcdfa42eb6b9f23639be06fdb0b75a8bdb60c019c7"
+    },
+    {
+      "osm_ref": "way/77810524",
+      "name": "Trent End",
+      "element_sha256": "6dbe06fb3ff09decffa7d91ea8640536c5363cf34a4c6864be287c36376af6d8"
+    },
+    {
+      "osm_ref": "way/283870748",
+      "name": "",
+      "element_sha256": "ffc170f6909ba63111bef074a39118b05f0655033b9bee9bad39d1359194646b"
+    }
+  ],
+  "paths": 42,
+  "shell_paths": 4,
+  "previous_detailed_paths": 87,
+  "overlay": "Premier_League_Stadium_Maps/City_Ground/City_Ground_stadium_overlay_v7.json",
+  "overlay_sha256": "0c0d3e44e20cb01973d1d573b4fb9ad23e26bf2b5a9914535a0f62ff488ef667",
+  "svg": "Stadium_Architecture_Review/nottingham_forest/stadium_A2.svg",
+  "svg_sha256": "774c5af612016fe48a6c74af16d9da275cb3b641686d12988ddc9cb4b795e396",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "premier_league",
+  "roof_geometry_file": "stadium_roof_geometry.py",
+  "roof_geometry_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "corrected",
+    "review": "Replaced the stepped Brian Clough rear outline with the continuous rectangular canopy visible in both overheads. The neighbouring service buildings are no longer mistaken for a roof extension. Retained the separate Trent End, curved Bridgford and shallower Taylor roof.",
+    "map_context_changes": {
+      "way/31014668": {
+        "clearance_mm": 0.4,
+        "reason": "Trentside North: covered=yes, tunnel=building_passage beneath Trent End"
+      },
+      "way/87309557": {
+        "clearance_mm": 0.4,
+        "reason": "service-route fragment beneath authored stand edge"
+      }
+    },
+    "map_url": "https://www.google.com/maps?ll=52.93993864255219,-1.1328866344612056&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/nottingham_forest.json",
+    "browser_record_sha256": "366ee63694dbc99eef44dba0b21f494dd7643fc7ca16441d48a51f33ede2c0bf",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/nottingham_forest.png",
+    "screenshot_sha256": "69b9d81a1443c35667950e9217f4b51772780fda06c99e6faff0c44cf8fff22a",
+    "captured_utc": "2026-09-08T14:40:56.467039+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 52.93993864255219,
+      "longitude": -1.1328866344612056,
+      "x_axis_degrees_from_east": -23.8436527
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": true,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      102.6,
+      67.5
+    ],
+    "authored_body_spans_m": [
+      175.0,
+      151.0
+    ],
+    "pitch_to_body_ratio": [
+      0.5863,
+      0.447
+    ]
+  },
+  "features_sha256": "b7f7d08613ba86076de03d494eb92e1841884c16c4b394b916634be3f7319237",
+  "parallel_families": [
+    {
+      "id": "brian-clough-bays",
+      "axis": "x",
+      "positions_m": [
+        -37.5,
+        -18.5,
+        0.5,
+        19.5,
+        38.5
+      ]
+    },
+    {
+      "id": "trent-end-bays",
+      "axis": "y",
+      "positions_m": [
+        -29.166666666666664,
+        -15.833333333333332,
+        -2.5,
+        10.833333333333336,
+        24.16666666666667
+      ]
+    },
+    {
+      "id": "peter-taylor-bays",
+      "axis": "x",
+      "positions_m": [
+        -37.5,
+        -18.5,
+        0.5,
+        19.5,
+        38.5
+      ]
+    },
+    {
+      "id": "bridgford-bays",
+      "axis": "y",
+      "positions_m": [
+        -48.611111111111114,
+        -34.72222222222222,
+        -20.833333333333336,
+        -6.944444444444443,
+        6.944444444444443,
+        20.83333333333333,
+        34.72222222222223,
+        48.611111111111114
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "nottingham_forest",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-126535.49312770009%2C6971472.783181305%2C-125689.23342175366%2C6972319.042887251&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "6ad688a2519300d7b230fc21bff9d158b88981b9fee1cb3ddcdfb28570161366",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -23.8436527,
+      "latitude": 52.93993864255219,
+      "longitude": -1.1328866344612056
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -62,
+        -40,
+        59,
+        45
+      ],
+      "roof_translation_m": [
+        1.5,
+        -2.5
+      ],
+      "bowl_bounds_m": [
+        -60.5,
+        -42.5,
+        60.5,
+        42.5
+      ],
+      "pitch_centre_m": [
+        -0.0,
+        -0.0
+      ],
+      "bowl_centre_m": [
+        0.0,
+        0.0
+      ],
+      "opposed_clearances_m": {
+        "left": 9.200000000000003,
+        "right": 9.200000000000003,
+        "bottom": 8.75,
+        "top": 8.75
+      },
+      "centre_error_m": 0.0,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 5,
+    "parallel_families": 4,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 384.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "survey_frame": {
+    "path": "City_Ground/City_Ground_SOURCE_MANIFEST.json",
+    "sha256": "b42f426bf72cca0a6a77bc37a7dec1b82fc256df7c758edc60ad6e6a10c3d151",
+    "year": 2018,
+    "plate": "City_Ground/City_Ground_GEOMETRY_PLATE.png",
+    "plate_sha256": "08d45bdce3224ea48dd8b6816428b33d41c1a14abc8ebc65361982c3bb4668dd"
+  },
+  "aerial_gallery": {
+    "id": "nottingham_forest",
+    "source_page": "https://www.clubsfromabove.com/team/nottingham-forest",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_notts_county_meadow_lane_190915190609_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/nottingham-forest",
+        "path": ".stadium_aerial_references/nottingham_forest/01.jpg",
+        "sha256": "8a2add331d6fb096bccb0906c27185b9e18ace8968734171c835d9d0ab337e54"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_nottingham_forest_the_city_ground_500924190609_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/nottingham-forest",
+        "path": ".stadium_aerial_references/nottingham_forest/02.jpg",
+        "sha256": "307388aea080caa3bccdb2d4769a08ea7f13d5b8447d1740d9a1ddab4ead8d68"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_nottingham_forest_the_city_ground_430924190609_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/nottingham-forest",
+        "path": ".stadium_aerial_references/nottingham_forest/03.jpg",
+        "sha256": "80708984278333e62e33be8ffe077350de1b3684daa7cf22d0d3be89092b4dcc"
+      },
+      {
+        "index": 4,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_nottingham_forest_the_city_ground_030923190609_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/nottingham-forest",
+        "path": ".stadium_aerial_references/nottingham_forest/04.jpg",
+        "sha256": "3edff5c78cdd481fddca2c2e60b26bd7e2e9f632285eb28653b707cbff4e261c"
+      }
+    ]
+  }
+}

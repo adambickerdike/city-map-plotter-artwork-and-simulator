@@ -1,0 +1,285 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -61,
+      -40,
+      59,
+      41
+    ],
+    "roof_translation_m": [
+      1.0,
+      -0.5
+    ],
+    "bowl_bounds_m": [
+      -60.0,
+      -40.5,
+      60.0,
+      40.5
+    ],
+    "pitch_centre_m": [
+      -0.0,
+      -0.0
+    ],
+    "bowl_centre_m": [
+      0.0,
+      0.0
+    ],
+    "opposed_clearances_m": {
+      "left": 7.5,
+      "right": 7.5,
+      "bottom": 6.5,
+      "top": 6.5
+    },
+    "centre_error_m": 0.0,
+    "geographic_pitch_preserved": true
+  },
+  "id": "crystal_palace",
+  "name": "Selhurst Park",
+  "source_recipe": {
+    "note": "Unequal separate Arthur Wait, Whitehorse Lane, Holmesdale and Main Stand roofs, with the Main Stand pavilion. Roof state follows available aerial evidence, not a future redevelopment proposal.",
+    "reference_method": "Aligned overhead reference checked against aerial photographs; shared axes and native cubic curves authored in stadium_roof_geometry.py. Not an as-built survey."
+  },
+  "baseline_overlay": "Premier_League_Stadium_Maps/Selhurst_Park/Selhurst_Park_stadium_overlay_v1.json",
+  "baseline_sha256": "047189d7db76b6c82d78148f47597d97a9ee4c59152e010f4030bee9a6a22bb6",
+  "map_cache": "Premier_League_Stadium_Maps/Selhurst_Park/source_cache/overpass/b576413850f5c8889acd5594e9c6d603cca7e9af829b878ff40c55d400336917.json.gz",
+  "map_cache_sha256": "3e7b89a613b1635ec6a60290da27e96471a0e1fbbfd5f3e60fda6a53702335c2",
+  "outer_shell": "way/704819406",
+  "shell_element_sha256": "89ffa7a4f33e12e928ab6b8cb48cbce916cd1e1b8cdadb7fed9f25975d5dfd98",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/166292152",
+      "name": "Holmesdale Road Stand",
+      "source": "Stadium_Architecture_Review/sources/osm_way_166292152.json",
+      "sha256": "f0b33e622d61432d65526da5ce255e7529e9f792eb6cb37df25fce6902808d29",
+      "url": "https://api.openstreetmap.org/api/0.6/way/166292152/full.json",
+      "osm_timestamp": "2023-07-29T12:24:42Z"
+    },
+    {
+      "osm_ref": "way/166292153",
+      "name": "Main Stand",
+      "source": "Stadium_Architecture_Review/sources/osm_way_166292153.json",
+      "sha256": "c30708e3763c1b793473db227b9e126cd5efbcd91aac28a4bdb39e967e3dd278",
+      "url": "https://api.openstreetmap.org/api/0.6/way/166292153/full.json",
+      "osm_timestamp": "2023-07-29T12:24:42Z"
+    },
+    {
+      "osm_ref": "way/166292156",
+      "name": "Arthur Wait Stand",
+      "source": "Stadium_Architecture_Review/sources/osm_way_166292156.json",
+      "sha256": "2f0fcb018f9ae3bf131f4c987581b7471de638ad960d5c13d26817afe835b9dd",
+      "url": "https://api.openstreetmap.org/api/0.6/way/166292156/full.json",
+      "osm_timestamp": "2023-07-29T12:24:42Z"
+    },
+    {
+      "osm_ref": "way/166292157",
+      "name": "Whitehorse Lane Stand",
+      "source": "Stadium_Architecture_Review/sources/osm_way_166292157.json",
+      "sha256": "3b3c54f5abd0510c63d69aa5ba71ce16a9d682a8d541faa495c1189ebf95a3c8",
+      "url": "https://api.openstreetmap.org/api/0.6/way/166292157/full.json",
+      "osm_timestamp": "2023-07-29T12:24:42Z"
+    }
+  ],
+  "paths": 38,
+  "shell_paths": 5,
+  "previous_detailed_paths": 68,
+  "overlay": "Premier_League_Stadium_Maps/Selhurst_Park/Selhurst_Park_stadium_overlay_v7.json",
+  "overlay_sha256": "dc05456fb4f252a795c090a8c97bfd29621fb7c392853eae5bdcc7712838e4b6",
+  "svg": "Stadium_Architecture_Review/crystal_palace/stadium_A2.svg",
+  "svg_sha256": "7c2343aefdb3f8cd5f252e5315b04a171bac3076d31d08b78b4f1b3ddbcf4ef4",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "premier_league",
+  "roof_geometry_file": "stadium_roof_geometry.py",
+  "roof_geometry_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained the four separate rectilinear roofs, stepped Holmesdale end and Main Stand pavilion. Opening and stand proportions compare well. This is the visible reference-era Main Stand, not a proposed replacement.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=51.398273345,-0.085435289&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/crystal_palace.json",
+    "browser_record_sha256": "20bc5f61ae19dc29d149b3d59821462754b87ecde7c66fab7a5b645baf125762",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/crystal_palace.png",
+    "screenshot_sha256": "553717151b70eadd5baa838a5a3b2f8bf884fc2dfda23faaadf431e94b738be5",
+    "captured_utc": "2026-09-08T14:40:42.716798+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 51.398273345,
+      "longitude": -0.085435289,
+      "x_axis_degrees_from_east": -53.525494
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      175.0,
+      144.0
+    ],
+    "pitch_to_body_ratio": [
+      0.6,
+      0.4722
+    ]
+  },
+  "features_sha256": "b7f7d08613ba86076de03d494eb92e1841884c16c4b394b916634be3f7319237",
+  "parallel_families": [
+    {
+      "id": "arthur-wait-bays",
+      "axis": "x",
+      "positions_m": [
+        -39.33333333333333,
+        -19.666666666666664,
+        0.0,
+        19.66666666666667,
+        39.33333333333333
+      ]
+    },
+    {
+      "id": "whitehorse-lane-bays",
+      "axis": "y",
+      "positions_m": [
+        -23.166666666666664,
+        -10.833333333333332,
+        1.5,
+        13.833333333333336,
+        26.166666666666664
+      ]
+    },
+    {
+      "id": "holmesdale-bays",
+      "axis": "y",
+      "positions_m": [
+        -20.166666666666664,
+        -5.833333333333332,
+        8.5,
+        22.833333333333336,
+        37.16666666666667
+      ]
+    },
+    {
+      "id": "main-stand-bays",
+      "axis": "x",
+      "positions_m": [
+        -37.0,
+        -18.0,
+        1.0,
+        20.0,
+        39.0
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "crystal_palace",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-9919.330150928998%2C6691639.634931289%2C-9101.895583583335%2C6692457.069498634&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "5525b66d4e99f4fe9d7a770695e6881f913a23b3b73c6af76af38a13592e24e0",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -53.525494,
+      "latitude": 51.398273345,
+      "longitude": -0.085435289
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -61,
+        -40,
+        59,
+        41
+      ],
+      "roof_translation_m": [
+        1.0,
+        -0.5
+      ],
+      "bowl_bounds_m": [
+        -60.0,
+        -40.5,
+        60.0,
+        40.5
+      ],
+      "pitch_centre_m": [
+        -0.0,
+        -0.0
+      ],
+      "bowl_centre_m": [
+        0.0,
+        0.0
+      ],
+      "opposed_clearances_m": {
+        "left": 7.5,
+        "right": 7.5,
+        "bottom": 6.5,
+        "top": 6.5
+      },
+      "centre_error_m": 0.0,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 4,
+    "parallel_families": 4,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 406.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "survey_frame": {
+    "path": "Selhurst_Park/Selhurst_Park_SOURCE_MANIFEST.json",
+    "sha256": "3156d65afa63eafee92fd88a81aa02660e11a4f7ae15d073f48de215b1dcdc97",
+    "year": 2018,
+    "plate": "Selhurst_Park/Selhurst_Park_GEOMETRY_PLATE.png",
+    "plate_sha256": "4602284239cdfe6f5a2e7cf0b95d1067967f0fb3bc2b0b72b96469aef9ad48ac"
+  },
+  "aerial_gallery": {
+    "id": "crystal_palace",
+    "source_page": "https://www.clubsfromabove.com/team/crystal-palace",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_crystal_palace_selhurst_park_050938191815_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/crystal-palace",
+        "path": ".stadium_aerial_references/crystal_palace/01.jpg",
+        "sha256": "575b35c0bbcc5d5939c90ff68561add645552f62f4c3cb1381e1f67af507d8b4"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_crystal_palace_selhurst_park_480937191815_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/crystal-palace",
+        "path": ".stadium_aerial_references/crystal_palace/02.jpg",
+        "sha256": "0a4fab899d5246d6388d3dba40c64ad231c657814214f9cf4161ba7f457a33dd"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_crystal_palace_selhurst_park_060937191815_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/crystal-palace",
+        "path": ".stadium_aerial_references/crystal_palace/03.jpg",
+        "sha256": "1044558075255e50ef52b60c412de5e99f4eca41e6298015b67ef774c3fec676"
+      }
+    ]
+  }
+}

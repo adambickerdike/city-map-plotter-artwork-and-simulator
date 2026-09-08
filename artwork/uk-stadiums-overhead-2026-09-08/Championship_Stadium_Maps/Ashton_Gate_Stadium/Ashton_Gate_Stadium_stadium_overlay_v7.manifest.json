@@ -1,0 +1,266 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "Dolman leading truss simplified to one connected stroke, clearly separated from the stand front. Overlapping pedestrian-area boundary trimmed on the map.",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -84,
+      -44,
+      38,
+      46
+    ],
+    "roof_translation_m": [
+      -1.9484999999999921,
+      9.4095
+    ],
+    "bowl_bounds_m": [
+      -85.9485,
+      -34.5905,
+      36.051500000000004,
+      55.4095
+    ],
+    "pitch_centre_m": [
+      -24.948499999999992,
+      10.4095
+    ],
+    "bowl_centre_m": [
+      -24.948499999999996,
+      10.409500000000001
+    ],
+    "opposed_clearances_m": {
+      "left": 8.5,
+      "right": 8.500000000000007,
+      "bottom": 11.0,
+      "top": 11.0
+    },
+    "centre_error_m": 3.972054645195637e-15,
+    "geographic_pitch_preserved": true
+  },
+  "id": "bristol_city",
+  "name": "Ashton Gate Stadium",
+  "source_recipe": {
+    "note": "Ashton Gate: the broad Lansdown roof and its major truss, slimmer Dolman roof, separate Atyeo stand and smoothly connected South Stand quadrants. The solar installation is shown as one broad zone, not individual cells.",
+    "reference_method": "Aligned World Imagery overhead and Clubs From Above aerial photographs; dates vary."
+  },
+  "baseline_overlay": "Championship_Stadium_Maps/Ashton_Gate_Stadium/Ashton_Gate_Stadium_stadium_overlay_v1.json",
+  "baseline_sha256": "f461c77b199397c68082d60287aa2f064310c39c36c85bfff597095dfba70d38",
+  "map_cache": "Championship_Stadium_Maps/Ashton_Gate_Stadium/source_cache/osm_main_api_snapshot.json.gz",
+  "map_cache_sha256": "b3b6d83de8a8ac2f7491ba2c530425e3c985678d40f2e626162676a1494cf251",
+  "outer_shell": "way/188698415",
+  "shell_element_sha256": "bd8c935ff4351bdf79b5d140a28deb1c4695f17395aee05020abebda67224a52",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/128620806",
+      "name": "Atyeo Stand",
+      "element_sha256": "06cd17000038b82a0f11873dc21331b9761d416dd07d1b9c2847f06871ad9331"
+    },
+    {
+      "osm_ref": "way/128620807",
+      "name": "Dolman Stand",
+      "element_sha256": "72e004ef5949abefffb4e0e8032055441e9327925be4aeff747d57afe3f1b8f8"
+    },
+    {
+      "osm_ref": "way/128620808",
+      "name": "Lansdown Stand",
+      "element_sha256": "610aa5abbc28a45648a22e275edb805194e60b3284c2c093491a644a3d47fa73"
+    },
+    {
+      "osm_ref": "way/128620809",
+      "name": "South Stand",
+      "element_sha256": "40c37bbbec7a6c51ac121187885d5ceac7e1f6c298a067e1e5f49f6eb995526c"
+    }
+  ],
+  "paths": 43,
+  "shell_paths": 4,
+  "previous_detailed_paths": 100,
+  "overlay": "Championship_Stadium_Maps/Ashton_Gate_Stadium/Ashton_Gate_Stadium_stadium_overlay_v7.json",
+  "overlay_sha256": "335b7e1f41b5da7cf82a001335076f483c5ee3a447733f7253d93dcd76182650",
+  "svg": "Championship_Architecture_Review/bristol_city/stadium_A2.svg",
+  "svg_sha256": "a44e944de36dc4a3438f5146ad2221c7a44b8baa45bf5bcb8519bb4ab31b4f2a",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "championship",
+  "roof_geometry_file": "championship_roof_geometry.py",
+  "roof_geometry_sha256": "43d7c456711de1aee495c3092418eefb98dbea79f545c81340d84f11162dda88",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "corrected",
+    "review": "Reduced the overly deep Dolman and Lansdown roofs, rejoined the curved South Stand corner to the corrected rear edge, and resized the single solar-bank group. Preserved the exact shared curved stand front, separate Atyeo roof and centred playing field.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=51.4398694,-2.6203405&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/bristol_city.json",
+    "browser_record_sha256": "49c514193cf76d5d73270db74590df688a08fa614aadce68827ae17606b1a5ce",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/bristol_city.png",
+    "screenshot_sha256": "0d2a65dd70da9cef2e115e11c0a12dad3bfbc944c06d74b1e9c6aae74f3d7d8f",
+    "captured_utc": "2026-09-08T14:41:30.929033+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 51.4398694,
+      "longitude": -2.6203405,
+      "x_axis_degrees_from_east": -66.452980027
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": true,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      172.0,
+      161.0
+    ],
+    "pitch_to_body_ratio": [
+      0.6105,
+      0.4224
+    ]
+  },
+  "features_sha256": "1a5ce144e1ceb63c65458c3a3484475f1015897a59b79d3fe166d0a7513c60d3",
+  "parallel_families": [
+    {
+      "id": "dolman-bays",
+      "axis": "x",
+      "positions_m": [
+        -63.61516666666667,
+        -45.281833333333324,
+        -26.948499999999992,
+        -8.615166666666664,
+        9.71816666666668
+      ]
+    },
+    {
+      "id": "atyeo-bays",
+      "axis": "y",
+      "positions_m": [
+        -10.257166666666668,
+        6.076166666666664,
+        22.4095,
+        38.74283333333333,
+        55.07616666666667
+      ]
+    },
+    {
+      "id": "lansdown-bays",
+      "axis": "x",
+      "positions_m": [
+        -64.4485,
+        -45.948499999999996,
+        -27.448499999999992,
+        -8.948499999999992,
+        9.551500000000008
+      ]
+    },
+    {
+      "id": "south-stand-bays",
+      "axis": "y",
+      "positions_m": [
+        -20.5905,
+        -4.5905000000000005,
+        11.4095,
+        27.4095,
+        43.4095
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "bristol_city",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-292104.05957146245%2C6699064.387628539%2C-291285.88075852126%2C6699882.566441481&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "a5d71ce894b309794207cb8a4e0aab75c6e903e1e4b5d4db7130be629a1e235e",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -66.452980027,
+      "latitude": 51.4398694,
+      "longitude": -2.6203405
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -84,
+        -44,
+        38,
+        46
+      ],
+      "roof_translation_m": [
+        -1.9484999999999921,
+        9.4095
+      ],
+      "bowl_bounds_m": [
+        -85.9485,
+        -34.5905,
+        36.051500000000004,
+        55.4095
+      ],
+      "pitch_centre_m": [
+        -24.948499999999992,
+        10.4095
+      ],
+      "bowl_centre_m": [
+        -24.948499999999996,
+        10.409500000000001
+      ],
+      "opposed_clearances_m": {
+        "left": 8.5,
+        "right": 8.500000000000007,
+        "bottom": 11.0,
+        "top": 11.0
+      },
+      "centre_error_m": 3.972054645195637e-15,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 3,
+    "parallel_families": 4,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 479.195,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "aerial_gallery": {
+    "id": "bristol_city",
+    "source_page": "https://www.clubsfromabove.com/team/bristol-city",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_bristol_city_ashton_gate_450619202414_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/bristol-city",
+        "path": ".stadium_aerial_references/bristol_city/01.jpg",
+        "sha256": "00415c246b7749f4ca30124024ce8564daac8a7090555f6e220e4d3253c6ad94"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_bristol_city_ashton_gate_370619202414_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/bristol-city",
+        "path": ".stadium_aerial_references/bristol_city/02.jpg",
+        "sha256": "5030a0d06b0ec8fb04abaf48c2f444121bc67542907056f51beab3f2c5280274"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_bristol_city_ashton_gate_250618202414_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/bristol-city",
+        "path": ".stadium_aerial_references/bristol_city/03.jpg",
+        "sha256": "817ae52edc7868a9980eb78f19fd9d852f1af19a2383411f053c10b006784f26"
+      }
+    ]
+  }
+}

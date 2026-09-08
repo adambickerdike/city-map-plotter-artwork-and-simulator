@@ -1,0 +1,254 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -67.0,
+      -44.0,
+      67.0,
+      44.0
+    ],
+    "roof_translation_m": [
+      -0.0,
+      -0.0
+    ],
+    "bowl_bounds_m": [
+      -67.0,
+      -44.0,
+      67.0,
+      44.0
+    ],
+    "pitch_centre_m": [
+      -0.0,
+      -0.0
+    ],
+    "bowl_centre_m": [
+      0.0,
+      0.0
+    ],
+    "opposed_clearances_m": {
+      "left": 14.5,
+      "right": 14.5,
+      "bottom": 10.0,
+      "top": 10.0
+    },
+    "centre_error_m": 0.0,
+    "geographic_pitch_preserved": true
+  },
+  "id": "tottenham_hotspur",
+  "name": "Tottenham Hotspur Stadium",
+  "source_recipe": {
+    "note": "Asymmetric continuous roof, tangent-continuous outer curves, rounded rectangular opening, shared-boundary translucent band and roof bays.",
+    "reference_method": "Aligned overhead reference checked against aerial photographs; shared axes and native cubic curves authored in stadium_roof_geometry.py. Not an as-built survey."
+  },
+  "baseline_overlay": "Premier_League_Stadium_Maps/Tottenham_Hotspur_Stadium/Tottenham_Hotspur_Stadium_stadium_overlay_v1.json",
+  "baseline_sha256": "10574f91f3d492d6d8a938fa543af6dc5e3aa90e5da7302099f6b3fc1becc9b1",
+  "map_cache": "Premier_League_Stadium_Maps/Tottenham_Hotspur_Stadium/source_cache/overpass/83ab9e560ef9bd4a3901b837a17d53fc7c03e5cab9b6e0693eeb6155ea02cbdb.json.gz",
+  "map_cache_sha256": "90033b9939c8196d8ae1dc43b59c4908008d178283149ba2470301f2a25677bc",
+  "outer_shell": "relation/7708006",
+  "shell_element_sha256": "7f8185073a4d474504915333562c151a7e50092447e0b8e0168f7832e3226aef",
+  "mapped_structures": [],
+  "paths": 49,
+  "shell_paths": 1,
+  "previous_detailed_paths": 109,
+  "overlay": "Premier_League_Stadium_Maps/Tottenham_Hotspur_Stadium/Tottenham_Hotspur_Stadium_stadium_overlay_v7.json",
+  "overlay_sha256": "34e97884b2bd91e10b4d82fd0452f21508a663d2001ae7a153a5713506106c46",
+  "svg": "Stadium_Architecture_Review/tottenham_hotspur/stadium_A2.svg",
+  "svg_sha256": "061361d920215fb4e37dfe2fba010362aca036f25ab8a89da38e9e6ef5d27fdb",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "premier_league",
+  "roof_geometry_file": "stadium_roof_geometry.py",
+  "roof_geometry_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "corrected",
+    "review": "Expanded the overly tight roof opening from approximately 117 by 81 m to 134 by 88 m, without enlarging the pitch. Retained the asymmetric flowing shell and a single consistent translucent band. The Google field is event-covered, so the retained football datum is used, not the event floor perimeter.",
+    "map_context_changes": {
+      "way/654759125": {
+        "clearance_mm": 1.5,
+        "reason": "Paxton Terrace pedestrian-area boundary near/under roof"
+      },
+      "way/616369784": {
+        "clearance_mm": 1.5,
+        "reason": "Park Lane Square pedestrian-area boundary near/under roof"
+      },
+      "way/654759123": {
+        "clearance_mm": 0.4,
+        "reason": "customer footway, level=1; roof-occluded length"
+      },
+      "way/1041296344": {
+        "clearance_mm": 0.4,
+        "reason": "customer footway, level=1; roof-occluded length"
+      },
+      "way/890183093": {
+        "clearance_mm": 1.0,
+        "reason": "footway-area boundary overlapping the main canopy"
+      }
+    },
+    "map_url": "https://www.google.com/maps?ll=51.604207246,-0.066230336&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/tottenham_hotspur.json",
+    "browser_record_sha256": "4a3680449c8e9740c065bde4ae0723fe79858abf2eca2cf53aab7707c5aa438f",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/tottenham_hotspur.png",
+    "screenshot_sha256": "2bc106446190b0b1ff3b41675e27e8563bc0b8ec38928be5afaa57f144122f4d",
+    "captured_utc": "2026-09-08T14:40:35.872770+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 51.604207246,
+      "longitude": -0.066230336,
+      "x_axis_degrees_from_east": -87.829236
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      242.013,
+      206.434
+    ],
+    "pitch_to_body_ratio": [
+      0.4339,
+      0.3294
+    ]
+  },
+  "features_sha256": "b7f7d08613ba86076de03d494eb92e1841884c16c4b394b916634be3f7319237",
+  "parallel_families": [
+    {
+      "id": "side-roof-bays",
+      "axis": "x",
+      "positions_m": [
+        -49.0,
+        -35.0,
+        -21.0,
+        -7.0,
+        7.0,
+        21.0,
+        35.0,
+        49.0
+      ]
+    },
+    {
+      "id": "end-roof-bays",
+      "axis": "y",
+      "positions_m": [
+        -28.0,
+        -14.0,
+        0.0,
+        14.0,
+        28.0
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "tottenham_hotspur",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-7783.2956420225155%2C6728464.439631453%2C-6962.158915152314%2C6729285.576358324&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "933393d6e5cf8735711567a0cd94e663e1b3a13e43779cfba39842a77d35da94",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -87.829236,
+      "latitude": 51.604207246,
+      "longitude": -0.066230336
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -67.0,
+        -44.0,
+        67.0,
+        44.0
+      ],
+      "roof_translation_m": [
+        -0.0,
+        -0.0
+      ],
+      "bowl_bounds_m": [
+        -67.0,
+        -44.0,
+        67.0,
+        44.0
+      ],
+      "pitch_centre_m": [
+        -0.0,
+        -0.0
+      ],
+      "bowl_centre_m": [
+        0.0,
+        0.0
+      ],
+      "opposed_clearances_m": {
+        "left": 14.5,
+        "right": 14.5,
+        "bottom": 10.0,
+        "top": 10.0
+      },
+      "centre_error_m": 0.0,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 3,
+    "parallel_families": 2,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 0.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "survey_frame": {
+    "path": "Tottenham_Hotspur_Stadium/Tottenham_Hotspur_Stadium_SOURCE_MANIFEST.json",
+    "sha256": "9b3956a371556b1759d848c2f5a1af0fa29a39964c4e496cd94401f6b917d9b9",
+    "year": 2020,
+    "plate": "Tottenham_Hotspur_Stadium/Tottenham_Hotspur_Stadium_GEOMETRY_PLATE.png",
+    "plate_sha256": "ca13cfd4872085bd61ae680d31b7056fc5cf3ad82a117869ab80bf40ea108def"
+  },
+  "aerial_gallery": {
+    "id": "tottenham_hotspur",
+    "source_page": "https://www.clubsfromabove.com/team/tottenham-hotspur",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_tottenham_hotspur_white_hart_lane_120950191811_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/tottenham-hotspur",
+        "path": ".stadium_aerial_references/tottenham_hotspur/01.jpg",
+        "sha256": "f5ed90e323ac38b593bb5a852f724ad971df9306a5605d6324b46b4bc277f909"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_tottenham_hotspur_white_hart_lane_180951191811_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/tottenham-hotspur",
+        "path": ".stadium_aerial_references/tottenham_hotspur/02.jpg",
+        "sha256": "f58d0f9bd92dbe8b0ab45e9f2ba02c781beb0bb8a136adf271ef8c45589c9987"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_tottenham_hotspur_white_hart_lane_050950191811_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/tottenham-hotspur",
+        "path": ".stadium_aerial_references/tottenham_hotspur/03.jpg",
+        "sha256": "f65d1c768afebb8a78ded80c52f718f871861543e22a81439ac0e5e592ac93a0"
+      }
+    ]
+  }
+}

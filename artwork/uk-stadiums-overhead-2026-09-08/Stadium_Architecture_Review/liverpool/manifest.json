@@ -1,0 +1,285 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -61,
+      -40,
+      63,
+      40
+    ],
+    "roof_translation_m": [
+      -0.9299999999999997,
+      0.009999999999998448
+    ],
+    "bowl_bounds_m": [
+      -61.93,
+      -39.99,
+      62.07,
+      40.01
+    ],
+    "pitch_centre_m": [
+      0.07000000000000026,
+      0.009999999999998448
+    ],
+    "bowl_centre_m": [
+      0.07000000000000028,
+      0.00999999999999801
+    ],
+    "opposed_clearances_m": {
+      "left": 11.200000000000003,
+      "right": 11.200000000000003,
+      "bottom": 5.649999999999999,
+      "top": 5.649999999999999
+    },
+    "centre_error_m": 4.380305591047026e-16,
+    "geographic_pitch_preserved": true
+  },
+  "id": "liverpool",
+  "name": "Anfield",
+  "source_recipe": {
+    "note": "Deep Main Stand and expanded Anfield Road roof, each with its long truss; smaller independent Kop and Kenny Dalglish roofs.",
+    "reference_method": "Aligned overhead reference checked against aerial photographs; shared axes and native cubic curves authored in stadium_roof_geometry.py. Not an as-built survey."
+  },
+  "baseline_overlay": "Premier_League_Stadium_Maps/Anfield/Anfield_stadium_overlay_v1.json",
+  "baseline_sha256": "c8ccf1f5afa54937d28b2ba2f4bdc7e0350bc05fd09d8faf23cc2be5c83997d8",
+  "map_cache": "Premier_League_Stadium_Maps/Anfield/source_cache/overpass/c7f380e668aa170b33ffb2df4825ff042db6b15097c78b915d8a3f7672e6deea.json.gz",
+  "map_cache_sha256": "6752894c37e2f6a5d61bd7e29ee167459659431103d2aa274571ee0a548e274e",
+  "outer_shell": "way/4830206",
+  "shell_element_sha256": "a62248088af408f1c66433b45360084c145da1d7bb258aac391bb1f391585e67",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/188699281",
+      "name": "Anfield Road Stand",
+      "element_sha256": "0aa023f256e4fb45dbe55ffb22b03428aea0cbd61c430a013a77f6421200fc75"
+    },
+    {
+      "osm_ref": "way/188699282",
+      "name": "Sir Kenny Dalglish Stand",
+      "element_sha256": "f7007bfd62fca0a07160c3bf6211fd70130f7c72c623981162db8f8169c123fe"
+    },
+    {
+      "osm_ref": "way/188699283",
+      "name": "The Spion Kop",
+      "element_sha256": "2b7de11f6b82a8499ba1dc89f1b1c5df9196fe026ad3f736a0307221f6e5223b"
+    },
+    {
+      "osm_ref": "way/188699284",
+      "name": "Main Stand",
+      "element_sha256": "dedae314991995bae88f014b83090183b368f70a9689c72998411228171d787e"
+    }
+  ],
+  "paths": 45,
+  "shell_paths": 4,
+  "previous_detailed_paths": 213,
+  "overlay": "Premier_League_Stadium_Maps/Anfield/Anfield_stadium_overlay_v7.json",
+  "overlay_sha256": "256b1a4a975e4635808b3ac2dfa5f515c5d9a863fd7711f63aeac868394ffdd2",
+  "svg": "Stadium_Architecture_Review/liverpool/stadium_A2.svg",
+  "svg_sha256": "389fdca6d97b76df7a4f6a08ce1b0f0ece97340c4fe6bbf3b9cb916c893a7ff1",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "premier_league",
+  "roof_geometry_file": "stadium_roof_geometry.py",
+  "roof_geometry_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained the deep Main Stand, asymmetric completed Anfield Road extension, Kop and shallower Dalglish roof. Google shows an earlier Anfield Road phase; the completed extension is corroborated by the cached Esri overhead and retained project references.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=53.43084579397041,-2.960820289981968&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/liverpool.json",
+    "browser_record_sha256": "c9202e8960326c54acf0ff1785877b6c6ee6d0eb81c0843e26dc006e180d5eb3",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/liverpool.png",
+    "screenshot_sha256": "1c1a335b42e3d5f7224dbf437b865cc7f1d42efeb4ba744a438317ae512ba6da",
+    "captured_utc": "2026-09-08T14:40:49.633126+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 53.43084579397041,
+      "longitude": -2.960820289981968,
+      "x_axis_degrees_from_east": 50.4958195
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": true,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      101.6,
+      68.7
+    ],
+    "authored_body_spans_m": [
+      224.0,
+      178.0
+    ],
+    "pitch_to_body_ratio": [
+      0.4536,
+      0.386
+    ]
+  },
+  "features_sha256": "b7f7d08613ba86076de03d494eb92e1841884c16c4b394b916634be3f7319237",
+  "parallel_families": [
+    {
+      "id": "main-stand-bays",
+      "axis": "x",
+      "positions_m": [
+        -53.43,
+        -35.93,
+        -18.43,
+        -0.9299999999999997,
+        16.57,
+        34.07,
+        51.57
+      ]
+    },
+    {
+      "id": "anfield-road-bays",
+      "axis": "y",
+      "positions_m": [
+        -46.115,
+        -30.240000000000002,
+        -14.365000000000002,
+        1.5099999999999985,
+        17.384999999999998,
+        33.26,
+        49.135
+      ]
+    },
+    {
+      "id": "kop-bays",
+      "axis": "y",
+      "positions_m": [
+        -31.990000000000002,
+        -15.990000000000002,
+        0.009999999999998448,
+        16.009999999999998,
+        32.01
+      ]
+    },
+    {
+      "id": "kenny-dalglish-bays",
+      "axis": "x",
+      "positions_m": [
+        -40.35857142857143,
+        -23.787142857142854,
+        -7.215714285714284,
+        9.355714285714292,
+        25.92714285714286,
+        42.49857142857143
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "liverpool",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-330025.008310926%2C7062665.790938254%2C-329169.0057114446%2C7063521.793537736&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "9bd3924999b93f22a6f239dfd7633c339559afdefb85c7422433d13cc374b756",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": 50.4958195,
+      "latitude": 53.43084579397041,
+      "longitude": -2.960820289981968
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -61,
+        -40,
+        63,
+        40
+      ],
+      "roof_translation_m": [
+        -0.9299999999999997,
+        0.009999999999998448
+      ],
+      "bowl_bounds_m": [
+        -61.93,
+        -39.99,
+        62.07,
+        40.01
+      ],
+      "pitch_centre_m": [
+        0.07000000000000026,
+        0.009999999999998448
+      ],
+      "bowl_centre_m": [
+        0.07000000000000028,
+        0.00999999999999801
+      ],
+      "opposed_clearances_m": {
+        "left": 11.200000000000003,
+        "right": 11.200000000000003,
+        "bottom": 5.649999999999999,
+        "top": 5.649999999999999
+      },
+      "centre_error_m": 4.380305591047026e-16,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 4,
+    "parallel_families": 4,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 398.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "survey_frame": {
+    "path": "Anfield/Anfield_SOURCE_MANIFEST.json",
+    "sha256": "b117a0821d48148b2273ef167fd4939c710fb7720725a7cda2d2e22253de3c16",
+    "year": 2019,
+    "plate": "Anfield/Anfield_GEOMETRY_PLATE.png",
+    "plate_sha256": "ef22b98e73a184c73595dd8b7081cd68d1dcde5bd080637688a406c22272252e"
+  },
+  "aerial_gallery": {
+    "id": "liverpool",
+    "source_page": "https://www.clubsfromabove.com/team/liverpool",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_liverpool_anfield_560727192306_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/liverpool",
+        "path": ".stadium_aerial_references/liverpool/01.jpg",
+        "sha256": "49523c160c1b7ada95893483e7b1c2cebbdaf5254f1ea236156a3fc50b60abcf"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_liverpool_anfield_240447251012_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/liverpool",
+        "path": ".stadium_aerial_references/liverpool/02.jpg",
+        "sha256": "e7cb6ecfd673639df37b01be0107847202ded70f0a1ac33408e4aa86e7e0f39c"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_liverpool_anfield_510725192306_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/liverpool",
+        "path": ".stadium_aerial_references/liverpool/03.jpg",
+        "sha256": "c6e695a42eea58d60f94f897449bbffc4a696ad29aa561e95456a5fe17cf9f2b"
+      },
+      {
+        "index": 4,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_liverpool_anfield_330724192306_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/liverpool",
+        "path": ".stadium_aerial_references/liverpool/04.jpg",
+        "sha256": "5837be5479d794ecbce3fab5348351a0e4f914a1c7c74430b7f9ee6bf7d94f2e"
+      }
+    ]
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "Omitted the narrow rear hotel contour that crossed the main roof edge. Genuine above-roof suspension masts retained.",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -65.0,
+      -42.0,
+      59.0,
+      41.0
+    ],
+    "roof_translation_m": [
+      -0.038499999999999535,
+      2.4744999999999986
+    ],
+    "bowl_bounds_m": [
+      -65.0385,
+      -39.5255,
+      58.9615,
+      43.4745
+    ],
+    "pitch_centre_m": [
+      -3.0384999999999995,
+      1.9744999999999986
+    ],
+    "bowl_centre_m": [
+      -3.038499999999999,
+      1.974499999999999
+    ],
+    "opposed_clearances_m": {
+      "left": 11.399999999999999,
+      "right": 11.399999999999999,
+      "bottom": 8.600000000000001,
+      "top": 8.600000000000001
+    },
+    "centre_error_m": 6.280369834735101e-16,
+    "geographic_pitch_preserved": true
+  },
+  "id": "bolton_wanderers",
+  "name": "Toughsheet Community Stadium",
+  "source_recipe": {
+    "note": "Bolton: the oval canopy, bowed primary trusses, four corner mast junctions and curved rear hotel roof. Native curves retain the characteristic smooth outline. Masts deliberately project beyond the roof membrane.",
+    "reference_method": "Aligned World Imagery overhead and Clubs From Above aerial photographs; dates vary."
+  },
+  "baseline_overlay": "Championship_Stadium_Maps/Toughsheet_Community_Stadium/Toughsheet_Community_Stadium_stadium_overlay_v1.json",
+  "baseline_sha256": "1ed1f61dab6c3fad92c35ce112e20afa6396c17149f920dc7813914df5d35376",
+  "map_cache": "Championship_Stadium_Maps/Toughsheet_Community_Stadium/source_cache/osm_main_api_snapshot.json.gz",
+  "map_cache_sha256": "239e05c484660db34879f6b2ab1e97baf9dafbd0125b10bc9af7e52d797152a2",
+  "outer_shell": "way/4729749",
+  "shell_element_sha256": "28c02253968fe012f4872bc457092b086e0f70ea2f08d26af7cf6b8e60871f55",
+  "mapped_structures": [],
+  "paths": 38,
+  "shell_paths": 1,
+  "previous_detailed_paths": 146,
+  "overlay": "Championship_Stadium_Maps/Toughsheet_Community_Stadium/Toughsheet_Community_Stadium_stadium_overlay_v7.json",
+  "overlay_sha256": "ecac30b065ee2863a5219f66d0b9cb993bae63d77783afcc95f227c3bd548b3b",
+  "svg": "Championship_Architecture_Review/bolton_wanderers/stadium_A2.svg",
+  "svg_sha256": "28d1544c5e660d364047a5854195c201cb8cf842fcf3b43bfaf0075f001be8ed",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "championship",
+  "roof_geometry_file": "championship_roof_geometry.py",
+  "roof_geometry_sha256": "43d7c456711de1aee495c3092418eefb98dbea79f545c81340d84f11162dda88",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "corrected",
+    "review": "Replaced the exaggerated bowed parallel truss ribbons with a restrained four-sided principal support frame connected to the four corner masts. The two overheads show different elevation/parallax separation of the truss chords, so the drawing uses reduced plan axes, not their shadows or elevation bows. Oval canopy and pitch scale are retained.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=53.5805396,-2.5356648&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/bolton_wanderers.json",
+    "browser_record_sha256": "ccf54abf0468eee5ecc642e441e8b9f3480e860008d0e37d48858004042c43b8",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/bolton_wanderers.png",
+    "screenshot_sha256": "0569324440e619fbda405f00820eaa544133efa8cad643b5c8ced8825f21f201",
+    "captured_utc": "2026-09-08T14:41:29.187385+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 53.5805396,
+      "longitude": -2.5356648,
+      "x_axis_degrees_from_east": -44.582984455
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": true,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      101.2,
+      65.8
+    ],
+    "authored_body_spans_m": [
+      216.0,
+      174.0
+    ],
+    "pitch_to_body_ratio": [
+      0.4685,
+      0.3782
+    ]
+  },
+  "features_sha256": "1a5ce144e1ceb63c65458c3a3484475f1015897a59b79d3fe166d0a7513c60d3",
+  "parallel_families": [
+    {
+      "id": "side-roof-bays",
+      "axis": "x",
+      "positions_m": [
+        -48.0385,
+        -30.0385,
+        -12.038499999999999,
+        5.961500000000001,
+        23.9615,
+        41.9615
+      ]
+    },
+    {
+      "id": "end-roof-bays",
+      "axis": "y",
+      "positions_m": [
+        -25.0255,
+        -7.025500000000001,
+        10.974499999999999,
+        28.9745
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "bolton_wanderers",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-282698.4298309807%2C7090682.8708239375%2C-281839.3988858751%2C7091541.901769043&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "fc9c21f4fc41c8897bea2acdb9e5904d135219d0327b73b6a0aa7f52fa4afb33",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -44.582984455,
+      "latitude": 53.5805396,
+      "longitude": -2.5356648
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -65.0,
+        -42.0,
+        59.0,
+        41.0
+      ],
+      "roof_translation_m": [
+        -0.038499999999999535,
+        2.4744999999999986
+      ],
+      "bowl_bounds_m": [
+        -65.0385,
+        -39.5255,
+        58.9615,
+        43.4745
+      ],
+      "pitch_centre_m": [
+        -3.0384999999999995,
+        1.9744999999999986
+      ],
+      "bowl_centre_m": [
+        -3.038499999999999,
+        1.974499999999999
+      ],
+      "opposed_clearances_m": {
+        "left": 11.399999999999999,
+        "right": 11.399999999999999,
+        "bottom": 8.600000000000001,
+        "top": 8.600000000000001
+      },
+      "centre_error_m": 6.280369834735101e-16,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 2,
+    "parallel_families": 2,
+    "explicit_projecting_structure_envelopes": 4,
+    "duplicate_straight_edge_length_removed_m": 0.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "aerial_gallery": {
+    "id": "bolton_wanderers",
+    "source_page": "https://www.clubsfromabove.com/team/bolton-wanderers",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_bolton_wanderers_macron_stadium_450944190516_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/bolton-wanderers",
+        "path": ".stadium_aerial_references/bolton_wanderers/01.jpg",
+        "sha256": "4021e552b4ca1540fb9ee46a11440c446b96a547df980be8481be46c9c33cef3"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_bolton_wanderers_macron_stadium_160944190516_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/bolton-wanderers",
+        "path": ".stadium_aerial_references/bolton_wanderers/02.jpg",
+        "sha256": "6aa54732cfc5acee97561cabdd3458d92dfeb9d0ef8d1f845b0264bbca4ac657"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_bolton_wanderers_macron_stadium_080943190516_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/bolton-wanderers",
+        "path": ".stadium_aerial_references/bolton_wanderers/03.jpg",
+        "sha256": "927b87b55a234cee6f4801afe8a044524f59b3519d9d474ff2a97b426e80c1ef"
+      }
+    ]
+  }
+}

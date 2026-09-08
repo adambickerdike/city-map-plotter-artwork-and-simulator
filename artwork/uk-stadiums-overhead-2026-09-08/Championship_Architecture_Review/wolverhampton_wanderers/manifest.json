@@ -1,0 +1,268 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "Trimmed the pedestrian-area boundary crossing the authored roof.",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -48,
+      -38,
+      64,
+      38
+    ],
+    "roof_translation_m": [
+      -0.7954999999999952,
+      -2.600000000000002
+    ],
+    "bowl_bounds_m": [
+      -48.7955,
+      -40.6,
+      63.2045,
+      35.4
+    ],
+    "pitch_centre_m": [
+      7.204500000000005,
+      -2.600000000000002
+    ],
+    "bowl_centre_m": [
+      7.204500000000003,
+      -2.6000000000000014
+    ],
+    "opposed_clearances_m": {
+      "left": 3.5,
+      "right": 3.5,
+      "bottom": 4.0,
+      "top": 4.0
+    },
+    "centre_error_m": 1.831026719408895e-15,
+    "geographic_pitch_preserved": true
+  },
+  "id": "wolverhampton_wanderers",
+  "name": "Molineux Stadium",
+  "source_recipe": {
+    "note": "Molineux: the bowed Steve Bull and Billy Wright side roofs, larger angular Stan Cullis end, separate opposite end and small corner pavilion. Long curves are native paths and the roof bays remain parallel.",
+    "reference_method": "Aligned World Imagery overhead and Clubs From Above aerial photographs; dates vary."
+  },
+  "baseline_overlay": "Championship_Stadium_Maps/Molineux_Stadium/Molineux_Stadium_stadium_overlay_v1.json",
+  "baseline_sha256": "0e96ccc72954c6a1fcbbb1fb1bd4f225096a5acbed6f42e74dfbfa40951f3cc0",
+  "map_cache": "Championship_Stadium_Maps/Molineux_Stadium/source_cache/osm_main_api_snapshot.json.gz",
+  "map_cache_sha256": "3679b0f02f02eab0310b4d17def99c2607f9f0f917a8b2aeafb460a1a99234e4",
+  "outer_shell": "way/124646599",
+  "shell_element_sha256": "9edb50cc31e80e779b77b5cbe324480a7f450482451d46a1087a170fdf8155db",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/85581295",
+      "name": "Sir Jack Hayward Stand",
+      "element_sha256": "bcded01ef976f25bd21236965290f4f4ea2bc0879b7e3823116ce65d8449567b"
+    },
+    {
+      "osm_ref": "way/85581309",
+      "name": "Stan Cullis Stand",
+      "element_sha256": "598a36bafc5febaca60ba93326fd66f2b39b78dcac34800ec547e9e8874c1c05"
+    },
+    {
+      "osm_ref": "way/85581310",
+      "name": "Billy Wright Stand",
+      "element_sha256": "ce536077073f203f3430183d5ddadbd969ed4c1c202383a9920289b00221a434"
+    },
+    {
+      "osm_ref": "way/85581316",
+      "name": "Steve Bull Stand",
+      "element_sha256": "dbfb923f498ab7f5af9808de0bdbcc863f5809f639a8cb8673191767f0ceff2e"
+    }
+  ],
+  "paths": 41,
+  "shell_paths": 5,
+  "previous_detailed_paths": 79,
+  "overlay": "Championship_Stadium_Maps/Molineux_Stadium/Molineux_Stadium_stadium_overlay_v7.json",
+  "overlay_sha256": "e9b5bd468b88f86b912b142198611c8213c5288399461015ddf2c52cc64267d3",
+  "svg": "Championship_Architecture_Review/wolverhampton_wanderers/stadium_A2.svg",
+  "svg_sha256": "77ff19deb177c9283bb529349c23afeb7f292617b4c8e1724bc7e5ee085b48c7",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "championship",
+  "roof_geometry_file": "championship_roof_geometry.py",
+  "roof_geometry_sha256": "43d7c456711de1aee495c3092418eefb98dbea79f545c81340d84f11162dda88",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained Molineux's four unequal curved/trapezoidal roofs, broad Stan Cullis end and small corner pavilion. Actual stand asymmetry is preserved without moving the pitch off the paired stand-front centre.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=52.5902723,-2.1304079&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/wolverhampton_wanderers.json",
+    "browser_record_sha256": "b3086e80b664b055d06f9b7109fc0a29a98a2ca8011b2c520550909a6bd34d7b",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/wolverhampton_wanderers.png",
+    "screenshot_sha256": "547f64afee27da8ab0e77273c7b9a25da5c6b1b20d5f4f8e275ae3b220967bd1",
+    "captured_utc": "2026-09-08T14:42:38.645728+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 52.5902723,
+      "longitude": -2.1304079,
+      "x_axis_degrees_from_east": -79.321717284
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      199.0,
+      162.433
+    ],
+    "pitch_to_body_ratio": [
+      0.5276,
+      0.4186
+    ]
+  },
+  "features_sha256": "1a5ce144e1ceb63c65458c3a3484475f1015897a59b79d3fe166d0a7513c60d3",
+  "parallel_families": [
+    {
+      "id": "steve-bull-bays",
+      "axis": "x",
+      "positions_m": [
+        -52.7955,
+        -34.7955,
+        -16.795499999999997,
+        1.2045000000000048,
+        19.204500000000003,
+        37.2045,
+        55.2045
+      ]
+    },
+    {
+      "id": "billy-wright-bays",
+      "axis": "x",
+      "positions_m": [
+        -47.65264285714286,
+        -28.509785714285712,
+        -9.366928571428565,
+        9.775928571428574,
+        28.91878571428571,
+        48.061642857142864
+      ]
+    },
+    {
+      "id": "stan-cullis-bays",
+      "axis": "y",
+      "positions_m": [
+        -23.26666666666667,
+        -6.933333333333337,
+        9.399999999999999,
+        25.733333333333327,
+        42.06666666666667
+      ]
+    },
+    {
+      "id": "sir-jack-hayward-bays",
+      "axis": "y",
+      "positions_m": [
+        -27.6,
+        -12.600000000000001,
+        2.399999999999998,
+        17.4
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "wolverhampton_wanderers",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-237575.66829850178%2C6907146.352370008%2C-236736.17692143275%2C6907985.843747077&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "321b1ced13d81faa738094601fbf38770aebf7fc8fe6e508741f83db1293bb68",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -79.321717284,
+      "latitude": 52.5902723,
+      "longitude": -2.1304079
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -48,
+        -38,
+        64,
+        38
+      ],
+      "roof_translation_m": [
+        -0.7954999999999952,
+        -2.600000000000002
+      ],
+      "bowl_bounds_m": [
+        -48.7955,
+        -40.6,
+        63.2045,
+        35.4
+      ],
+      "pitch_centre_m": [
+        7.204500000000005,
+        -2.600000000000002
+      ],
+      "bowl_centre_m": [
+        7.204500000000003,
+        -2.6000000000000014
+      ],
+      "opposed_clearances_m": {
+        "left": 3.5,
+        "right": 3.5,
+        "bottom": 4.0,
+        "top": 4.0
+      },
+      "centre_error_m": 1.831026719408895e-15,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 5,
+    "parallel_families": 4,
+    "explicit_projecting_structure_envelopes": 1,
+    "duplicate_straight_edge_length_removed_m": 148.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "aerial_gallery": {
+    "id": "wolverhampton_wanderers",
+    "source_page": "https://www.clubsfromabove.com/team/wolverhampton-wanderers",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_wolverhampton_wanderers_molineux_090753192506_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/wolverhampton-wanderers",
+        "path": ".stadium_aerial_references/wolverhampton_wanderers/01.jpg",
+        "sha256": "6c128bcde44595148b3f6127e183cd774f810c70e896cc6169639568a166c079"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_wolverhampton_wanderers_molineux_370750192506_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/wolverhampton-wanderers",
+        "path": ".stadium_aerial_references/wolverhampton_wanderers/02.jpg",
+        "sha256": "096e84c41b343f4bcc49eee19302c78fdbeb5273c6d2abac388bb8fba00a8b6f"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_wolverhampton_wanderers_molineux_190751192506_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/wolverhampton-wanderers",
+        "path": ".stadium_aerial_references/wolverhampton_wanderers/03.jpg",
+        "sha256": "8db0e13a025a8bf28bba329b511c74e2f632a9e9712c1fd22cbf6672a963b58d"
+      }
+    ]
+  }
+}

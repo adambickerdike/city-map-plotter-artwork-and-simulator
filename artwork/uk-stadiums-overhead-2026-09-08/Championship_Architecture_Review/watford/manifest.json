@@ -1,0 +1,255 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "Eleven barrel-roof modules retained with shared single separators, removing hairline slots and doubled front edges.",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -79,
+      -40,
+      38,
+      41
+    ],
+    "roof_translation_m": [
+      -1.2240000000000038,
+      0.4530000000000032
+    ],
+    "bowl_bounds_m": [
+      -80.224,
+      -39.547,
+      36.775999999999996,
+      41.453
+    ],
+    "pitch_centre_m": [
+      -21.724000000000004,
+      0.9530000000000032
+    ],
+    "bowl_centre_m": [
+      -21.724000000000004,
+      0.953000000000003
+    ],
+    "opposed_clearances_m": {
+      "left": 6.0,
+      "right": 5.9999999999999964,
+      "bottom": 6.5,
+      "top": 6.5
+    },
+    "centre_error_m": 2.220446049250313e-16,
+    "geographic_pitch_preserved": true
+  },
+  "id": "watford",
+  "name": "Vicarage Road",
+  "source_recipe": {
+    "note": "Vicarage Road: the distinctive eleven-module Graham Taylor roof, separate end stands, slim Elton John canopy and rounded corner pavilion. Each barrel module is a continuous native curved contour.",
+    "reference_method": "Aligned World Imagery overhead and Clubs From Above aerial photographs; dates vary."
+  },
+  "baseline_overlay": "Championship_Stadium_Maps/Vicarage_Road/Vicarage_Road_stadium_overlay_v1.json",
+  "baseline_sha256": "54cbb8ea1705b042548da1fca6dd2b6ec0a845e9e590faa1882e66acd556b940",
+  "map_cache": "Championship_Stadium_Maps/Vicarage_Road/source_cache/osm_main_api_snapshot.json.gz",
+  "map_cache_sha256": "629df9772c34f8248baa880f84c2b085f49531a36ea4c07c07f70d0eba06f588",
+  "outer_shell": "way/7989344",
+  "shell_element_sha256": "ab6543262b0fa20e544074fd8582484cf6e53e10bed1548491e180b4b830a56f",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/276756139",
+      "name": "Vicarage Road Stand",
+      "element_sha256": "00c1927ff585d3c456db28cb7d19420aa78b02e9095569dc7a47edfed56b5a82"
+    },
+    {
+      "osm_ref": "way/276756215",
+      "name": "The Rookery Stand",
+      "element_sha256": "5b6fc460e8a540cb3249276c8f83432ae0713a7333c6d02139525a6cf72b593c"
+    },
+    {
+      "osm_ref": "way/276757851",
+      "name": "The Graham Taylor Stand",
+      "element_sha256": "7d5146411691f06bcfbf816621d90be7bcbd14ffa4e78221791dfd8a88c106c9"
+    },
+    {
+      "osm_ref": "way/1493320639",
+      "name": "The Sir Elton John Stand",
+      "element_sha256": "4387af612c46228a40db9046e76548e8b1d9915178ad70e6815f6e2fde6e5be1"
+    }
+  ],
+  "paths": 43,
+  "shell_paths": 5,
+  "previous_detailed_paths": 167,
+  "overlay": "Championship_Stadium_Maps/Vicarage_Road/Vicarage_Road_stadium_overlay_v7.json",
+  "overlay_sha256": "52fd39461de18af1a3d13591755f773c57c23f900a754940d6975e194274f1dc",
+  "svg": "Championship_Architecture_Review/watford/stadium_A2.svg",
+  "svg_sha256": "6098d443db7d46231face7fce5d6322de85fd3189c5dfae3ea215a47ebbecf07",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "championship",
+  "roof_geometry_file": "championship_roof_geometry.py",
+  "roof_geometry_sha256": "43d7c456711de1aee495c3092418eefb98dbea79f545c81340d84f11162dda88",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained eleven connected Graham Taylor barrel-roof modules, four unequal stands and the rounded corner pavilion. Each module separator is drawn once; narrow repeated outlines remain removed.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=51.649759,-0.4013489&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/watford.json",
+    "browser_record_sha256": "af742e456facc31a9715cc84545a0d5be30c8e5e6a5cb34a5183866afd02998c",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/watford.png",
+    "screenshot_sha256": "d112c35e255af7a3bcee7ec2d7eaa060e4b6a7c0c191401576839163a9825d6c",
+    "captured_utc": "2026-09-08T14:42:27.172987+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 51.649759,
+      "longitude": -0.4013489,
+      "x_axis_degrees_from_east": -49.459381481
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      172.0,
+      139.0
+    ],
+    "pitch_to_body_ratio": [
+      0.6105,
+      0.4892
+    ]
+  },
+  "features_sha256": "1a5ce144e1ceb63c65458c3a3484475f1015897a59b79d3fe166d0a7513c60d3",
+  "parallel_families": [
+    {
+      "id": "elton-john-bays",
+      "axis": "x",
+      "positions_m": [
+        -61.890666666666675,
+        -43.55733333333334,
+        -25.224000000000004,
+        -6.890666666666675,
+        11.442666666666668
+      ]
+    },
+    {
+      "id": "rookery-bays",
+      "axis": "y",
+      "positions_m": [
+        -30.21366666666666,
+        -15.88033333333333,
+        -1.5469999999999968,
+        12.786333333333339,
+        27.119666666666674
+      ]
+    },
+    {
+      "id": "vicarage-road-bays",
+      "axis": "y",
+      "positions_m": [
+        -30.21366666666666,
+        -15.88033333333333,
+        -1.5469999999999968,
+        12.786333333333339,
+        27.119666666666674
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "watford",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-45088.93597880533%2C6736632.476187914%2C-44266.97437807562%2C6737454.437788644&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "0d1f728e8c41c9431327a2ba05c5773ed191885f454be46b4a8d120c909dfaf6",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -49.459381481,
+      "latitude": 51.649759,
+      "longitude": -0.4013489
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -79,
+        -40,
+        38,
+        41
+      ],
+      "roof_translation_m": [
+        -1.2240000000000038,
+        0.4530000000000032
+      ],
+      "bowl_bounds_m": [
+        -80.224,
+        -39.547,
+        36.775999999999996,
+        41.453
+      ],
+      "pitch_centre_m": [
+        -21.724000000000004,
+        0.9530000000000032
+      ],
+      "bowl_centre_m": [
+        -21.724000000000004,
+        0.953000000000003
+      ],
+      "opposed_clearances_m": {
+        "left": 6.0,
+        "right": 5.9999999999999964,
+        "bottom": 6.5,
+        "top": 6.5
+      },
+      "centre_error_m": 2.220446049250313e-16,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 16,
+    "parallel_families": 3,
+    "explicit_projecting_structure_envelopes": 1,
+    "duplicate_straight_edge_length_removed_m": 773.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "aerial_gallery": {
+    "id": "watford",
+    "source_page": "https://www.clubsfromabove.com/team/watford",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_watford_vicarage_road_400733191815_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/watford",
+        "path": ".stadium_aerial_references/watford/01.jpg",
+        "sha256": "0c5ce4888419e6d04d5f1dbf2d8ca14458bb9e5fc307b55fc34d1e2e0a06fe03"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_watford_vicarage_road_290733191815_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/watford",
+        "path": ".stadium_aerial_references/watford/02.jpg",
+        "sha256": "6473013fe5c5158e4b6e3f3a8fa5bf40b7f5408f12c0602e1491b3110d8bcaa7"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_watford_vicarage_road_270732191815_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/watford",
+        "path": ".stadium_aerial_references/watford/03.jpg",
+        "sha256": "9df7dcd732e69b4fba918dd895a39fd9a51de365f5199c8d9d9a8e95aaa5213c"
+      }
+    ]
+  }
+}

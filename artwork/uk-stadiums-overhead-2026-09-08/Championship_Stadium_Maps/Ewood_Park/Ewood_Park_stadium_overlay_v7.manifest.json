@@ -1,0 +1,259 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "Darwen and Jack Walker stand junction cleaned; overlapping rectangular corner removed.",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -63,
+      -36,
+      58,
+      44
+    ],
+    "roof_translation_m": [
+      -2.6654999999999944,
+      -2.307000000000003
+    ],
+    "bowl_bounds_m": [
+      -65.6655,
+      -38.307,
+      55.334500000000006,
+      41.693
+    ],
+    "pitch_centre_m": [
+      -5.165499999999994,
+      1.6929999999999972
+    ],
+    "bowl_centre_m": [
+      -5.165499999999994,
+      1.6929999999999978
+    ],
+    "opposed_clearances_m": {
+      "left": 8.0,
+      "right": 8.0,
+      "bottom": 6.0,
+      "top": 6.0
+    },
+    "centre_error_m": 6.661338147750939e-16,
+    "geographic_pitch_preserved": true
+  },
+  "id": "blackburn_rovers",
+  "name": "Ewood Park",
+  "source_recipe": {
+    "note": "Ewood Park: three substantial trussed roofs and the shallower Riverside stand. Straight stand edges share consistent axes; exposed trusses are reduced to paired chords and a single connected web.",
+    "reference_method": "Aligned World Imagery overhead and Clubs From Above aerial photographs; dates vary."
+  },
+  "baseline_overlay": "Championship_Stadium_Maps/Ewood_Park/Ewood_Park_stadium_overlay_v1.json",
+  "baseline_sha256": "786373ca9e39d7146dae582b45dc9d357c59c83dab0376ea966bc5a18beced72",
+  "map_cache": "Championship_Stadium_Maps/Ewood_Park/source_cache/osm_main_api_snapshot.json.gz",
+  "map_cache_sha256": "62a937435eefb98c814e5eb171688468dec17f9e3a2b3fdda1f47fa3c15ef2a2",
+  "outer_shell": "way/4597739",
+  "shell_element_sha256": "77dbf78ad209630b462246ff612c9c02d28dd26052b3899c7ccacf146644f3dc",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/193816647",
+      "name": "Jack Walker Stand",
+      "element_sha256": "10027ceefbbbb9b823a60541c58732c8e71d2b184487e48c00b698f6346c5ce5"
+    },
+    {
+      "osm_ref": "way/193816648",
+      "name": "RFS Riverside Stand",
+      "element_sha256": "6bc925f61999bfc18303f56890ffb9009f5dd8c7b60185233293d47124387373"
+    }
+  ],
+  "paths": 41,
+  "shell_paths": 4,
+  "previous_detailed_paths": 103,
+  "overlay": "Championship_Stadium_Maps/Ewood_Park/Ewood_Park_stadium_overlay_v7.json",
+  "overlay_sha256": "3c6784ed4f168353f24938ca12b81f1ce2aba02a9d5b717cad2cddaf81ba7e18",
+  "svg": "Championship_Architecture_Review/blackburn_rovers/stadium_A2.svg",
+  "svg_sha256": "2c663ede530b2426493393c4d1731e8a16d64237b63831fd11e015bc03ddbe6f",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "championship",
+  "roof_geometry_file": "championship_roof_geometry.py",
+  "roof_geometry_sha256": "43d7c456711de1aee495c3092418eefb98dbea79f545c81340d84f11162dda88",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained four unequal Ewood Park roofs and the three principal support frames. Stand widths and the shallower Riverside side compare well; genuine truss chords remain, duplicate stand-edge lengths do not.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=53.7285283,-2.4892251&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/blackburn_rovers.json",
+    "browser_record_sha256": "132aa748029305f43df999c8fd2229a7aebc990a92c443281c45f477d55b7f64",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/blackburn_rovers.png",
+    "screenshot_sha256": "f7c99877013ebb38f6b934a75282bc2079a09d38b6c4b416448820490fd52250",
+    "captured_utc": "2026-09-08T14:41:24.029979+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 53.7285283,
+      "longitude": -2.4892251,
+      "x_axis_degrees_from_east": -69.518518977
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      196.0,
+      144.0
+    ],
+    "pitch_to_body_ratio": [
+      0.5357,
+      0.4722
+    ]
+  },
+  "features_sha256": "1a5ce144e1ceb63c65458c3a3484475f1015897a59b79d3fe166d0a7513c60d3",
+  "parallel_families": [
+    {
+      "id": "riverside-bays",
+      "axis": "x",
+      "positions_m": [
+        -42.49883333333332,
+        -24.33216666666666,
+        -6.165499999999994,
+        12.001166666666677,
+        30.167833333333334
+      ]
+    },
+    {
+      "id": "darwen-end-bays",
+      "axis": "y",
+      "positions_m": [
+        -24.140333333333338,
+        -9.97366666666667,
+        4.192999999999997,
+        18.359666666666662,
+        32.526333333333326
+      ]
+    },
+    {
+      "id": "blackburn-end-bays",
+      "axis": "y",
+      "positions_m": [
+        -32.16414285714286,
+        -19.021285714285717,
+        -5.8784285714285724,
+        7.264428571428566,
+        20.407285714285706,
+        33.55014285714286
+      ]
+    },
+    {
+      "id": "jack-walker-bays",
+      "axis": "x",
+      "positions_m": [
+        -54.040499999999994,
+        -37.415499999999994,
+        -20.790499999999994,
+        -4.165499999999994,
+        12.459500000000006,
+        29.084500000000006,
+        45.709500000000006
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "blackburn_rovers",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-277530.2964703051%2C7118478.5056345705%2C-276668.2447333659%2C7119340.55737151&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "b4c7fc5fe30c6e5aef1a97898ac50462381239356dbd367e3169e81b38f968b2",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -69.518518977,
+      "latitude": 53.7285283,
+      "longitude": -2.4892251
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -63,
+        -36,
+        58,
+        44
+      ],
+      "roof_translation_m": [
+        -2.6654999999999944,
+        -2.307000000000003
+      ],
+      "bowl_bounds_m": [
+        -65.6655,
+        -38.307,
+        55.334500000000006,
+        41.693
+      ],
+      "pitch_centre_m": [
+        -5.165499999999994,
+        1.6929999999999972
+      ],
+      "bowl_centre_m": [
+        -5.165499999999994,
+        1.6929999999999978
+      ],
+      "opposed_clearances_m": {
+        "left": 8.0,
+        "right": 8.0,
+        "bottom": 6.0,
+        "top": 6.0
+      },
+      "centre_error_m": 6.661338147750939e-16,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 4,
+    "parallel_families": 4,
+    "explicit_projecting_structure_envelopes": 3,
+    "duplicate_straight_edge_length_removed_m": 389.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "aerial_gallery": {
+    "id": "blackburn_rovers",
+    "source_page": "https://www.clubsfromabove.com/team/blackburn-rovers",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_blackburn_rovers_ewood_park_470745192213_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/blackburn-rovers",
+        "path": ".stadium_aerial_references/blackburn_rovers/01.jpg",
+        "sha256": "f14017a2c710090b14fee58628122489d3173f7231a35116da1d4ad34e201f69"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_blackburn_rovers_ewood_park_440742192213_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/blackburn-rovers",
+        "path": ".stadium_aerial_references/blackburn_rovers/02.jpg",
+        "sha256": "e5397f467ebae927de51d36be1c5b3ff3c256262edb0bf834256155cf15284a4"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_blackburn_rovers_ewood_park_410743192213_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/blackburn-rovers",
+        "path": ".stadium_aerial_references/blackburn_rovers/03.jpg",
+        "sha256": "38bea1360a5386bddd579810a933da58d18a9d265c7222a5a7d6852adbc5e5a9"
+      }
+    ]
+  }
+}

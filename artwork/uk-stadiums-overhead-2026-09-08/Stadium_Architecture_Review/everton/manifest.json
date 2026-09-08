@@ -1,0 +1,271 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -58.0,
+      -40.0,
+      57.0,
+      40.0
+    ],
+    "roof_translation_m": [
+      0.5,
+      -0.0
+    ],
+    "bowl_bounds_m": [
+      -57.5,
+      -40.0,
+      57.5,
+      40.0
+    ],
+    "pitch_centre_m": [
+      -0.0,
+      -0.0
+    ],
+    "bowl_centre_m": [
+      0.0,
+      0.0
+    ],
+    "opposed_clearances_m": {
+      "left": 4.549999999999997,
+      "right": 4.549999999999997,
+      "bottom": 4.549999999999997,
+      "top": 4.549999999999997
+    },
+    "centre_error_m": 0.0,
+    "geographic_pitch_preserved": true
+  },
+  "id": "everton",
+  "name": "Hill Dickinson Stadium",
+  "source_recipe": {
+    "note": "Hill Dickinson Stadium, not Goodison Park: bowed side-roof edges, rectangular opening, broad translucent end roofs and principal parallel roof lines.",
+    "reference_method": "Aligned overhead reference checked against aerial photographs; shared axes and native cubic curves authored in stadium_roof_geometry.py. Not an as-built survey.",
+    "references": [
+      "https://www.istructe.org/structural-awards/projects/2025/everton-stadium/"
+    ]
+  },
+  "baseline_overlay": "Premier_League_Stadium_Maps/Hill_Dickinson_Stadium/Hill_Dickinson_Stadium_stadium_overlay_v1.json",
+  "baseline_sha256": "791408a2c521e72d09d74cfe95ab1f6eb47690ebc0a943fa405a72b0fb1e1478",
+  "map_cache": "Premier_League_Stadium_Maps/Hill_Dickinson_Stadium/source_cache/overpass/5733ef025144813639d99299000eb465a9866505313e09b94e375953e40c6ec2.json.gz",
+  "map_cache_sha256": "bb377fe53d396b325cd7680c3804228dfcd0c90ac3bd24ac6d2abd87ad7490a4",
+  "outer_shell": "relation/18827599",
+  "shell_element_sha256": "cbfcade8f15b2bbc1d3390feb211ccd5b48c015086dfd9b9926f243b141f6fbe",
+  "mapped_structures": [],
+  "paths": 37,
+  "shell_paths": 1,
+  "previous_detailed_paths": 137,
+  "overlay": "Premier_League_Stadium_Maps/Hill_Dickinson_Stadium/Hill_Dickinson_Stadium_stadium_overlay_v7.json",
+  "overlay_sha256": "6e76a423d73d49109b8ea816f0da37b9314edbc2b7e6aeb5d60936adf7adc33b",
+  "svg": "Stadium_Architecture_Review/everton/stadium_A2.svg",
+  "svg_sha256": "0551c7b75c3a2fea729b96db9153d51c17c7700e3041377934a751df6b74c96e",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "premier_league",
+  "roof_geometry_file": "stadium_roof_geometry.py",
+  "roof_geometry_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained the completed Hill Dickinson shell, bowed long-side edges and rectangular end roofs. Google shows construction and cannot date the finished roof; the completed Esri overhead and club stadium/pitch references corroborate the retained edition. Pitch dimensions are not inferred from the construction apron.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=53.42495927095408,-3.002708983085102&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/everton.json",
+    "browser_record_sha256": "b0f21cae763f96ead280a60f78847eecdaa3b0d6d8a8b02dec27086dee901c00",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/everton.png",
+    "screenshot_sha256": "1221607c3199534a16d10bfd9bf3e709ac9054901817af6042578594a6616dc2",
+    "captured_utc": "2026-09-08T14:41:01.524027+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 53.42495927095408,
+      "longitude": -3.002708983085102,
+      "x_axis_degrees_from_east": -87.0907562
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": true,
+    "additional_references": [
+      "https://www.hilldickinsonstadium.com/news/2024/April/11/pitch-plan-revealed-for-everton-stadium/"
+    ],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.9,
+      70.9
+    ],
+    "authored_body_spans_m": [
+      205.0,
+      197.877
+    ],
+    "pitch_to_body_ratio": [
+      0.5166,
+      0.3583
+    ]
+  },
+  "features_sha256": "b7f7d08613ba86076de03d494eb92e1841884c16c4b394b916634be3f7319237",
+  "parallel_families": [
+    {
+      "id": "long-roof-seams",
+      "axis": "x",
+      "positions_m": [
+        -77.5,
+        -51.5,
+        -25.5,
+        0.5,
+        26.5,
+        52.5,
+        78.5
+      ]
+    },
+    {
+      "id": "north-truss-lines",
+      "axis": "x",
+      "positions_m": [
+        -91.5,
+        -76.5
+      ]
+    },
+    {
+      "id": "south-truss-lines",
+      "axis": "x",
+      "positions_m": [
+        76.5,
+        89.5,
+        102.5
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "everton",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-334687.9770319457%2C7061566.072542681%2C-333832.09296289796%2C7062421.956611729&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "67a9b4a5439636fdef0597a9bac7f13030b3bc363bd92dd5b22764656c7d5864",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -87.0907562,
+      "latitude": 53.42495927095408,
+      "longitude": -3.002708983085102
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -58.0,
+        -40.0,
+        57.0,
+        40.0
+      ],
+      "roof_translation_m": [
+        0.5,
+        -0.0
+      ],
+      "bowl_bounds_m": [
+        -57.5,
+        -40.0,
+        57.5,
+        40.0
+      ],
+      "pitch_centre_m": [
+        -0.0,
+        -0.0
+      ],
+      "bowl_centre_m": [
+        0.0,
+        0.0
+      ],
+      "opposed_clearances_m": {
+        "left": 4.549999999999997,
+        "right": 4.549999999999997,
+        "bottom": 4.549999999999997,
+        "top": 4.549999999999997
+      },
+      "centre_error_m": 0.0,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 1,
+    "parallel_families": 3,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 0.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "survey_frame": {
+    "path": "Hill_Dickinson_Stadium/Hill_Dickinson_Stadium_SOURCE_MANIFEST.json",
+    "sha256": "78ce249af3c17730cd4826bdcf5845239164daad8b35a38261d5492b3b98a2d1",
+    "year": 2019,
+    "plate": "Hill_Dickinson_Stadium/Hill_Dickinson_Stadium_GEOMETRY_PLATE.png",
+    "plate_sha256": "a49f09bc4281c857539f83fd3ec4a65131e281c4d1a7f0de579f07a8aca2ba14"
+  },
+  "aerial_gallery": {
+    "id": "everton",
+    "source_page": "https://www.clubsfromabove.com/team/everton",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_everton_goodison_park_060452251012_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/everton",
+        "path": ".stadium_aerial_references/everton/01.jpg",
+        "sha256": "3fce753f1f2d7fb401f6af92b8f12e54749022c6e02959f6664ab43e15e24595"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_liverpool_anfield_380450251012_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/everton",
+        "path": ".stadium_aerial_references/everton/02.jpg",
+        "sha256": "d346550adc932164680774384bcdaac69832b230adc70cf25a89f91def782b2b"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_everton_everton_stadium_170435251013_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/everton",
+        "path": ".stadium_aerial_references/everton/03.jpg",
+        "sha256": "035c0c2c3f8ad8b04ddb56c3f24ab2628e5dd6834c247e02f81904ad8feff7ba"
+      },
+      {
+        "index": 4,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_everton_everton_stadium_340432251013_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/everton",
+        "path": ".stadium_aerial_references/everton/04.jpg",
+        "sha256": "110a64d69b56a9256af315853733c305e8119432655dff452f89644dd203e560"
+      },
+      {
+        "index": 5,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_everton_goodison_park_130739192306_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/everton",
+        "path": ".stadium_aerial_references/everton/05.jpg",
+        "sha256": "b3e8d2de4bfcd30b5f2590668b99dd8d33838cefac86cf036c6e1f8f2dc2ceba"
+      },
+      {
+        "index": 6,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_everton_goodison_park_240738192306_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/everton",
+        "path": ".stadium_aerial_references/everton/06.jpg",
+        "sha256": "7e2e68bbd2e1a56868d541923632d7733834f167951d0425b0c9e3a6bf1004b5"
+      },
+      {
+        "index": 7,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_everton_goodison_park_380737192306_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/everton",
+        "path": ".stadium_aerial_references/everton/07.jpg",
+        "sha256": "a5a2ec624e79c45cddca6cc4ff9a31ebf9a52b7dbec8b46f32223b12e9b47357"
+      }
+    ]
+  }
+}

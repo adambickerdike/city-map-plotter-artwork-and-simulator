@@ -10,6 +10,12 @@ Family-specific rights, source, physical-proof and non-endorsement caveats are
 binding. Read each numbered portfolio folder's `README.md`,
 `LLM_HANDOFF.md`, `contracts/`, `docs/`, and `release-metadata/`.
 
+The separate [44-ground UK stadium handoff](artwork/uk-stadiums-overhead-2026-09-08/README.md)
+also retains its [source and rights notice](artwork/uk-stadiums-overhead-2026-09-08/ATTRIBUTION.md).
+It includes authored maps, stadium geometry and artwork previews, but no
+private overhead reference photographs. Its files are not promoted to
+calibrated production jobs by this upload.
+
 ## Map-data attribution
 
 Map-data credit is deliberately external to the plotted pages. The portfolio

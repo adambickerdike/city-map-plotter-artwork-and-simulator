@@ -1,0 +1,286 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -68.0,
+      -44.0,
+      70.0,
+      49.0
+    ],
+    "roof_translation_m": [
+      -1.0,
+      -2.5
+    ],
+    "bowl_bounds_m": [
+      -69.0,
+      -46.5,
+      69.0,
+      46.5
+    ],
+    "pitch_centre_m": [
+      -0.0,
+      -0.0
+    ],
+    "bowl_centre_m": [
+      0.0,
+      0.0
+    ],
+    "opposed_clearances_m": {
+      "left": 16.5,
+      "right": 16.5,
+      "bottom": 12.5,
+      "top": 12.5
+    },
+    "centre_error_m": 0.0,
+    "geographic_pitch_preserved": true
+  },
+  "id": "arsenal",
+  "name": "Emirates Stadium",
+  "source_recipe": {
+    "note": "Continuous elliptical roof edge, rounded opening, translucent inner band and the two long primary trusses with shorter end trusses.",
+    "reference_method": "Aligned overhead reference checked against aerial photographs; shared axes and native cubic curves authored in stadium_roof_geometry.py. Not an as-built survey.",
+    "references": [
+      "https://www.severfield.com/Projects/arsenal-emirates-stadium",
+      "https://www.srm.com/projects/emirates-stadium/"
+    ]
+  },
+  "baseline_overlay": "Premier_League_Stadium_Maps/Emirates_Stadium/Emirates_Stadium_stadium_overlay_v1.json",
+  "baseline_sha256": "281a7cb48d81b7b4efacee19e04bee20782d297d7dce3d6abab1fbb7116737df",
+  "map_cache": "Premier_League_Stadium_Maps/Emirates_Stadium/source_cache/overpass/03dff32fa85a5853c24eeb0fa2421f2b01aea7acbe920f8d9bbe4d71d685c14c.json.gz",
+  "map_cache_sha256": "900f946a529461524d7afb6c2ed5da55ca15a69b95b7a8f222ce0106b1c93124",
+  "outer_shell": "way/25651711",
+  "shell_element_sha256": "297a04704aad8b7525bc6783abc9acb6275bacbe11b905b188057eab1081ddce",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/193811136",
+      "name": "East Stand",
+      "element_sha256": "6f542802cee6b1ce18620c51bee78c4a4a67fd425bf80ef4afde4f1e1d7cad00"
+    },
+    {
+      "osm_ref": "way/193811138",
+      "name": "North Bank",
+      "element_sha256": "95a67475f0cc29d6357de9ca50f3b137174045ef6b55c0a4ffa7095aa55748ca"
+    },
+    {
+      "osm_ref": "way/193811140",
+      "name": "The Clock End",
+      "element_sha256": "e25962fd95187837f4d805f45f46c5e58cbc9bfe70ccc425d1301d0b264ebafd"
+    },
+    {
+      "osm_ref": "way/193811141",
+      "name": "West Stand",
+      "element_sha256": "8657b4907ca971bf1b664e479365b734a203aa2efa85676bf023bc2c900712c0"
+    }
+  ],
+  "paths": 54,
+  "shell_paths": 1,
+  "previous_detailed_paths": 115,
+  "overlay": "Premier_League_Stadium_Maps/Emirates_Stadium/Emirates_Stadium_stadium_overlay_v7.json",
+  "overlay_sha256": "fc73db3947811ec7f187204161ead1fdac250ddd2a8725f6330fa116c0609ece",
+  "svg": "Stadium_Architecture_Review/arsenal/stadium_A2.svg",
+  "svg_sha256": "4fd778921181a00975f8922f23001db16ce7c05c38d0edeb08b6174738c1212c",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "premier_league",
+  "roof_geometry_file": "stadium_roof_geometry.py",
+  "roof_geometry_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained the elliptical body, rectangular rounded opening and four principal truss runs. Opposed roof clearances and overall pitch/body proportions compare well; elevated roof displacement is not a reason to move the pitch.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=51.555044322,-0.108387737&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/arsenal.json",
+    "browser_record_sha256": "f0fbd3f3d6bd94659366d7715e9ed4a3da75f982126421a23392cf2391f728e4",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/arsenal.png",
+    "screenshot_sha256": "219498afa4ff2534f92e0831045c195ef46910ef7264d994a633fcc20389ea40",
+    "captured_utc": "2026-09-08T14:40:13.306144+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 51.555044322,
+      "longitude": -0.108387737,
+      "x_axis_degrees_from_east": 87.383715
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      244.0,
+      196.0
+    ],
+    "pitch_to_body_ratio": [
+      0.4303,
+      0.3469
+    ]
+  },
+  "features_sha256": "b7f7d08613ba86076de03d494eb92e1841884c16c4b394b916634be3f7319237",
+  "parallel_families": [
+    {
+      "id": "side-roof-bays",
+      "axis": "x",
+      "positions_m": [
+        -52.5,
+        -37.5,
+        -22.5,
+        -7.5,
+        7.5,
+        22.5,
+        37.5,
+        52.5
+      ]
+    },
+    {
+      "id": "end-roof-bays",
+      "axis": "y",
+      "positions_m": [
+        -30.0,
+        -15.0,
+        0.0,
+        15.0,
+        30.0
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "arsenal",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-12475.792139537905%2C6719658.060743833%2C-11655.54324261261%2C6720478.309640758&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "fb86af96d251a39fd2d847d776b5e8dd9dc8ae0cae45f88a5c985cf5a51a0501",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": 87.383715,
+      "latitude": 51.555044322,
+      "longitude": -0.108387737
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -68.0,
+        -44.0,
+        70.0,
+        49.0
+      ],
+      "roof_translation_m": [
+        -1.0,
+        -2.5
+      ],
+      "bowl_bounds_m": [
+        -69.0,
+        -46.5,
+        69.0,
+        46.5
+      ],
+      "pitch_centre_m": [
+        -0.0,
+        -0.0
+      ],
+      "bowl_centre_m": [
+        0.0,
+        0.0
+      ],
+      "opposed_clearances_m": {
+        "left": 16.5,
+        "right": 16.5,
+        "bottom": 12.5,
+        "top": 12.5
+      },
+      "centre_error_m": 0.0,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 2,
+    "parallel_families": 2,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 16.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "survey_frame": {
+    "path": "Emirates_Stadium/Emirates_Stadium_SOURCE_MANIFEST.json",
+    "sha256": "dcec1215ca23ed75c18cc0819cdb0130c5db45395208c866e4308ea7b58b686f",
+    "year": 2020,
+    "plate": "Emirates_Stadium/Emirates_Stadium_GEOMETRY_PLATE.png",
+    "plate_sha256": "2c6c6bf352caa52c02aec89f412933d53c736a45650a0cabe88e2708b26cd5ae"
+  },
+  "aerial_gallery": {
+    "id": "arsenal",
+    "source_page": "https://www.clubsfromabove.com/team/arsenal",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_arsenal_emirates_stadium_070956191810_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/arsenal",
+        "path": ".stadium_aerial_references/arsenal/01.jpg",
+        "sha256": "78bf71e9a0f1da93a9635ec6dba73f68f3872127d77f3e8681a56bfa0c778da7"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_arsenal_emirates_stadium_131147210109_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/arsenal",
+        "path": ".stadium_aerial_references/arsenal/02.jpg",
+        "sha256": "b6e5e7d68066102500829b13f959e55b19fac47ad7097620f71e51e908cc3a0c"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_arsenal_emirates_stadium_111102210110_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/arsenal",
+        "path": ".stadium_aerial_references/arsenal/03.jpg",
+        "sha256": "7e61523e0364acc3ae1de939e94d4097aedf75a193cf2dbe86525d1f52b397f7"
+      },
+      {
+        "index": 4,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_arsenal_emirates_stadium_111103210110_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/arsenal",
+        "path": ".stadium_aerial_references/arsenal/04.jpg",
+        "sha256": "e0380c9e840f8cadd65e76132afc02dee52eb6be0ea8c48d6c07e1a707e3a405"
+      },
+      {
+        "index": 5,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_arsenal_emirates_stadium_480957191810_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/arsenal",
+        "path": ".stadium_aerial_references/arsenal/05.jpg",
+        "sha256": "9503e6b4df5473487705b818c42dd7924a218b28e8b8e26f3f9d44ab41268539"
+      },
+      {
+        "index": 6,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_arsenal_emirates_stadium_470954191810_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/arsenal",
+        "path": ".stadium_aerial_references/arsenal/06.jpg",
+        "sha256": "2b2d59434cb8b8735d7c3c2b1b5e1100e2eac5369cea53b9dfbfe760f7c397d4"
+      },
+      {
+        "index": 7,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_arsenal_emirates_stadium_140954191810_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/arsenal",
+        "path": ".stadium_aerial_references/arsenal/07.jpg",
+        "sha256": "bb1c59a85603f0c38d1b45aef19d8c049ff9816ade49f389c74771272229ebde"
+      }
+    ]
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "Trimmed the pedestrian-area boundary crossing the authored roof. Reference-era Kop caveat retained.",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -73,
+      -31,
+      48,
+      45
+    ],
+    "roof_translation_m": [
+      -3.3424999999999994,
+      -1.0105000000000004
+    ],
+    "bowl_bounds_m": [
+      -76.3425,
+      -32.0105,
+      44.6575,
+      43.9895
+    ],
+    "pitch_centre_m": [
+      -15.8425,
+      5.9895
+    ],
+    "bowl_centre_m": [
+      -15.842500000000001,
+      5.9895
+    ],
+    "opposed_clearances_m": {
+      "left": 8.700000000000003,
+      "right": 8.700000000000003,
+      "bottom": 5.350000000000001,
+      "top": 5.350000000000001
+    },
+    "centre_error_m": 1.7763568394002505e-15,
+    "geographic_pitch_preserved": true
+  },
+  "id": "wrexham",
+  "name": "STōK Cae Ras",
+  "source_recipe": {
+    "note": "REFERENCE-ERA EDITION — the three permanent roofs, shaped Mold Road canopy and historic open Kop terrace visible in the overhead image. The new Kop redevelopment is not drawn as completed or verified as-built. Update this ground from a dated, completed-roof reference before selling it as a current stadium portrait.",
+    "reference_method": "Aligned World Imagery overhead and Clubs From Above photographs predate the completed new Kop. Architect’s redevelopment announcement records the changing stadium configuration.",
+    "references": [
+      "https://populous.com/article/groundbreaking-ceremony-marks-major-step-forward-in-wrexham-afcs-new-kop-stand-redevelopment"
+    ],
+    "current_roof_verified": false
+  },
+  "baseline_overlay": "Championship_Stadium_Maps/SToK_Cae_Ras/SToK_Cae_Ras_stadium_overlay_v1.json",
+  "baseline_sha256": "3e7f12bff35022680b7632dc4c2b956e2cb51c105bed55ddc061e2fd6f306503",
+  "map_cache": "Championship_Stadium_Maps/SToK_Cae_Ras/source_cache/osm_main_api_snapshot.json.gz",
+  "map_cache_sha256": "4b1ae21813bfe9f36d9b82a6f20fbc1dc3dbc2e3519cddb9bde84d5b92a11424",
+  "outer_shell": "way/152050533",
+  "shell_element_sha256": "8e649922de41250731fb9d0f7c93c181ad09d83b3831d811570e856fc81c265f",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/204159307",
+      "name": "Macron Stand",
+      "element_sha256": "75614bc5d8a87c92d5d5c305498597b129006d23fa367c296724ed756e08858d"
+    },
+    {
+      "osm_ref": "way/204159309",
+      "name": "Wrexham Lager Stand",
+      "element_sha256": "caf228dc043c81f234e48b6cd28df053d9f86b57cef25fc901aea930674e70d6"
+    },
+    {
+      "osm_ref": "way/204159311",
+      "name": "STōK Cold Brew Coffee Stand",
+      "element_sha256": "be2adf9e6e401d5791e1f89e016e4a68050f43f6f9f0dd9e74211a685f1ae15c"
+    },
+    {
+      "osm_ref": "way/1269202476",
+      "name": "New Kop Stand",
+      "element_sha256": "a618400c4254d2378a295c880e33a49f56980396387b4344bdc87533fc2a0608"
+    }
+  ],
+  "paths": 31,
+  "shell_paths": 3,
+  "previous_detailed_paths": 47,
+  "overlay": "Championship_Stadium_Maps/SToK_Cae_Ras/SToK_Cae_Ras_stadium_overlay_v7.json",
+  "overlay_sha256": "24bc3e36fc26328ccda3b0a521d0227ee35a8733db2f252bd338a248cb09b3bd",
+  "svg": "Championship_Architecture_Review/wrexham/stadium_A2.svg",
+  "svg_sha256": "2e5517f54b5e1ac7bcbdbc58edf8828a14ea9542281d71124c466823debdc84d",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "championship",
+  "roof_geometry_file": "championship_roof_geometry.py",
+  "roof_geometry_sha256": "43d7c456711de1aee495c3092418eefb98dbea79f545c81340d84f11162dda88",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "corrected",
+    "review": "Removed the historic Kop terrace outline and its three level lines because the Google overhead shows a cleared end. Retained the three visible roofs and Mold Road scallop. The pitch-side boundary at the open end is a bowl datum, not a roof or a claim that the new Kop is complete.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=53.051824,-3.0036636&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/wrexham.json",
+    "browser_record_sha256": "34467436d54be9aec13d0569aba8e8987449512a9e010ad2359b00cd7c400ae4",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/wrexham.png",
+    "screenshot_sha256": "01ed087704309a75f7e568280252b3eeba42b4ac8def8e171a73c7b8677a6c92",
+    "captured_utc": "2026-09-08T14:42:40.923145+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 53.051824,
+      "longitude": -3.0036636,
+      "x_axis_degrees_from_east": -32.95525689
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      103.6,
+      65.3
+    ],
+    "authored_body_spans_m": [
+      143.0,
+      128.25
+    ],
+    "pitch_to_body_ratio": [
+      0.7245,
+      0.5092
+    ]
+  },
+  "features_sha256": "1a5ce144e1ceb63c65458c3a3484475f1015897a59b79d3fe166d0a7513c60d3",
+  "parallel_families": [
+    {
+      "id": "wrexham-lager-bays",
+      "axis": "x",
+      "positions_m": [
+        -59.3425,
+        -43.3425,
+        -27.3425,
+        -11.3425,
+        4.657500000000001,
+        20.6575
+      ]
+    },
+    {
+      "id": "university-end-bays",
+      "axis": "y",
+      "positions_m": [
+        -14.2105,
+        0.589500000000001,
+        15.389499999999998,
+        30.189500000000002
+      ]
+    },
+    {
+      "id": "mold-road-bays",
+      "axis": "x",
+      "positions_m": [
+        -60.77107142857143,
+        -44.199642857142855,
+        -27.628214285714286,
+        -11.056785714285708,
+        5.514642857142862,
+        22.08607142857143
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "wrexham",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-334790.5300809361%2C6992165.489158344%2C-333942.0748516457%2C6993013.944387634&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "69282c7c1281049b5d116ebf7abcce5e7609229cab2ddc4091f5805174e3658f",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -32.95525689,
+      "latitude": 53.051824,
+      "longitude": -3.0036636
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -73,
+        -31,
+        48,
+        45
+      ],
+      "roof_translation_m": [
+        -3.3424999999999994,
+        -1.0105000000000004
+      ],
+      "bowl_bounds_m": [
+        -76.3425,
+        -32.0105,
+        44.6575,
+        43.9895
+      ],
+      "pitch_centre_m": [
+        -15.8425,
+        5.9895
+      ],
+      "bowl_centre_m": [
+        -15.842500000000001,
+        5.9895
+      ],
+      "opposed_clearances_m": {
+        "left": 8.700000000000003,
+        "right": 8.700000000000003,
+        "bottom": 5.350000000000001,
+        "top": 5.350000000000001
+      },
+      "centre_error_m": 1.7763568394002505e-15,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 4,
+    "parallel_families": 3,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 654.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "aerial_gallery": {
+    "id": "wrexham",
+    "source_page": "https://www.clubsfromabove.com/team/wrexham",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_wrexham_racecourse_ground_350928201215_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/wrexham",
+        "path": ".stadium_aerial_references/wrexham/01.jpg",
+        "sha256": "d30d913b873393b6dbcda12d0d4237e7c0ddb6de62b065f488c636152a9a6460"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_wrexham_racecourse_ground_460928201215_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/wrexham",
+        "path": ".stadium_aerial_references/wrexham/02.jpg",
+        "sha256": "dfaef21db417f07d395daf92c8358d879aa3d9a5a342f4fe9fa78ad19cd5b0ab"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_wrexham_racecourse_ground_580927201215_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/wrexham",
+        "path": ".stadium_aerial_references/wrexham/03.jpg",
+        "sha256": "629db8e65076ad1562ba0bebae1200e210eaa944e40c0ec1b712aeb8e6f8b3af"
+      }
+    ]
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "Removed the duplicate mapped stadium multipolygon and under-roof footway fragments.",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -66,
+      -26,
+      48,
+      55
+    ],
+    "roof_translation_m": [
+      -1.5594999999999999,
+      -0.9564999999999966
+    ],
+    "bowl_bounds_m": [
+      -67.5595,
+      -26.9565,
+      46.4405,
+      54.0435
+    ],
+    "pitch_centre_m": [
+      -10.5595,
+      13.543500000000003
+    ],
+    "bowl_centre_m": [
+      -10.5595,
+      13.543500000000002
+    ],
+    "opposed_clearances_m": {
+      "left": 4.5,
+      "right": 4.5,
+      "bottom": 6.5,
+      "top": 6.5
+    },
+    "centre_error_m": 1.7763568394002505e-15,
+    "geographic_pitch_preserved": true
+  },
+  "id": "birmingham_city",
+  "name": "St Andrew's @ Knighthead Park",
+  "source_recipe": {
+    "note": "St Andrew’s: the separate Main and Gil Merrick roofs contrast with the connected Tilton/Spion Kop canopy. The curved corner, stepped end and three principal trusses are retained; small rooftop equipment is omitted.",
+    "reference_method": "Aligned World Imagery overhead and Clubs From Above aerial photographs. Authored simplified roof plan; imagery capture dates not established."
+  },
+  "baseline_overlay": "Championship_Stadium_Maps/St_Andrew_s_Knighthead_Park/St_Andrew_s_Knighthead_Park_stadium_overlay_v1.json",
+  "baseline_sha256": "d0785c2fb8163dbfbc959b099248a611f15e998a08b0bce61c21f9dedc38f973",
+  "map_cache": "Championship_Stadium_Maps/St_Andrew_s_Knighthead_Park/source_cache/osm_main_api_snapshot.json.gz",
+  "map_cache_sha256": "e2e1aea0360954dca4bfcf55a86b9feda0a30a3218c306422c31897f068b5596",
+  "outer_shell": "way/124424185",
+  "shell_element_sha256": "eb243b5db6b86594ca328ff40749cf6093292dcdcfbc37b04446203acdef6a54",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/124424180",
+      "name": "Garrison Lane Stand",
+      "element_sha256": "eb8589e208109108775b01ab1c5e309183895b96666c983a05763835ff7e1887"
+    },
+    {
+      "osm_ref": "way/392437751",
+      "name": "Gil Merrick Stand",
+      "element_sha256": "b1aa99917fd8ce7acefcb3f5be857d5d1e5f58e084a0094f56c0b35ffb152747"
+    },
+    {
+      "osm_ref": "way/392437752",
+      "name": "Tilton Road Stand",
+      "element_sha256": "a246cbee0126b1c1c4b98183d9820221828201b5e146630cd78203c9e1644dc0"
+    }
+  ],
+  "paths": 44,
+  "shell_paths": 4,
+  "previous_detailed_paths": 115,
+  "overlay": "Championship_Stadium_Maps/St_Andrew_s_Knighthead_Park/St_Andrew_s_Knighthead_Park_stadium_overlay_v7.json",
+  "overlay_sha256": "dc804d5583e245160cb32c7f8b2943c3ca78b893e0f8b10f75f844b0e0b7bd5a",
+  "svg": "Championship_Architecture_Review/birmingham_city/stadium_A2.svg",
+  "svg_sha256": "7532a2267f621fb17720779fcfa9f5653aa32093241a0274f9a8d97ddb87c682",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "championship",
+  "roof_geometry_file": "championship_roof_geometry.py",
+  "roof_geometry_sha256": "43d7c456711de1aee495c3092418eefb98dbea79f545c81340d84f11162dda88",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained the separate Main and Gil Merrick stands and smoothly connected Kop/Tilton corner. The overhead displaces the roofs in a common direction; the pitch remains centred on the stand-front datum, not the photographic roof centroid.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=52.4755671,-1.868041&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/birmingham_city.json",
+    "browser_record_sha256": "8096cd0ef27e7f1a3ca7536307e3f7ffdb8ea043edab0fec84f56caad79dd7fb",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/birmingham_city.png",
+    "screenshot_sha256": "cf920073d6b304c1ad83c8f0c3c7a588894a12cdb834e0228e9793d3be1a0bcc",
+    "captured_utc": "2026-09-08T14:41:22.189601+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 52.4755671,
+      "longitude": -1.868041,
+      "x_axis_degrees_from_east": -15.460062404
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      202.0,
+      153.0
+    ],
+    "pitch_to_body_ratio": [
+      0.5198,
+      0.4444
+    ]
+  },
+  "features_sha256": "1a5ce144e1ceb63c65458c3a3484475f1015897a59b79d3fe166d0a7513c60d3",
+  "parallel_families": [
+    {
+      "id": "main-stand-bays",
+      "axis": "x",
+      "positions_m": [
+        -48.5595,
+        -29.5595,
+        -10.5595,
+        8.4405,
+        27.4405
+      ]
+    },
+    {
+      "id": "gil-merrick-bays",
+      "axis": "y",
+      "positions_m": [
+        -23.789833333333327,
+        -7.623166666666661,
+        8.543500000000003,
+        24.710166666666673,
+        40.87683333333333
+      ]
+    },
+    {
+      "id": "kop-bays",
+      "axis": "x",
+      "positions_m": [
+        -57.5595,
+        -41.5595,
+        -25.5595,
+        -9.5595,
+        6.4405,
+        22.4405,
+        38.4405
+      ]
+    },
+    {
+      "id": "tilton-bays",
+      "axis": "y",
+      "positions_m": [
+        -20.9565,
+        -7.956499999999997,
+        5.043500000000003,
+        18.0435,
+        31.0435,
+        44.0435
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "birmingham_city",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-208368.02358404704%2C6886156.458781374%2C-207530.72221786808%2C6886993.760147552&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "5e4cfac60562318a9323c17c27e0a533332bd7e9e8bb4bbc0b5d668ac85ca8f8",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -15.460062404,
+      "latitude": 52.4755671,
+      "longitude": -1.868041
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -66,
+        -26,
+        48,
+        55
+      ],
+      "roof_translation_m": [
+        -1.5594999999999999,
+        -0.9564999999999966
+      ],
+      "bowl_bounds_m": [
+        -67.5595,
+        -26.9565,
+        46.4405,
+        54.0435
+      ],
+      "pitch_centre_m": [
+        -10.5595,
+        13.543500000000003
+      ],
+      "bowl_centre_m": [
+        -10.5595,
+        13.543500000000002
+      ],
+      "opposed_clearances_m": {
+        "left": 4.5,
+        "right": 4.5,
+        "bottom": 6.5,
+        "top": 6.5
+      },
+      "centre_error_m": 1.7763568394002505e-15,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 5,
+    "parallel_families": 4,
+    "explicit_projecting_structure_envelopes": 3,
+    "duplicate_straight_edge_length_removed_m": 385.385,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "aerial_gallery": {
+    "id": "birmingham_city",
+    "source_page": "https://www.clubsfromabove.com/team/birmingham-city",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_birmingham_city_st_andrews_430955190306_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/birmingham-city",
+        "path": ".stadium_aerial_references/birmingham_city/01.jpg",
+        "sha256": "177d6c42bff49ec6effb36a3b9a9a396f36aee12d78ab3ab8a94c711ec7d8d27"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_birmingham_city_st_andrews_070951190306_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/birmingham-city",
+        "path": ".stadium_aerial_references/birmingham_city/02.jpg",
+        "sha256": "909810a578b6265b16f3ecba08e171ea0740a462d263fbba3bef37bd0dd42be2"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_birmingham_city_st_andrews_370950190306_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/birmingham-city",
+        "path": ".stadium_aerial_references/birmingham_city/03.jpg",
+        "sha256": "faa20116645ba639712c767919c5f95b9c854946825f8b9feed27ec9d9e03c44"
+      },
+      {
+        "index": 4,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_birmingham_city_st_andrews_240956190306_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/birmingham-city",
+        "path": ".stadium_aerial_references/birmingham_city/04.jpg",
+        "sha256": "5d09c528b8ac8e29f924acedcd737ec700a763820db62581f98018ca221d1e14"
+      }
+    ]
+  }
+}

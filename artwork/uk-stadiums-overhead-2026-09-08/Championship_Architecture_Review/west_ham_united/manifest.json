@@ -1,0 +1,202 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "Removed the near-roof inner pedestrian-area boundary that doubled the compression-ring outline.",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -66.0,
+      -59.0,
+      76.0,
+      45.0
+    ],
+    "roof_translation_m": [
+      0.6610000000000023,
+      -0.2110000000000003
+    ],
+    "bowl_bounds_m": [
+      -65.339,
+      -59.211,
+      76.661,
+      44.789
+    ],
+    "pitch_centre_m": [
+      5.661000000000002,
+      -7.211
+    ],
+    "bowl_centre_m": [
+      5.661000000000001,
+      -7.2109999999999985
+    ],
+    "opposed_clearances_m": {
+      "left": 18.5,
+      "right": 18.5,
+      "bottom": 18.0,
+      "top": 18.0
+    },
+    "centre_error_m": 1.9860273225978185e-15,
+    "geographic_pitch_preserved": true
+  },
+  "id": "west_ham_united",
+  "name": "London Stadium",
+  "source_recipe": {
+    "note": "London Stadium: the oval compression ring, softened rectangular roof opening, continuous roof bands, radial cables and broad photovoltaic zones visible in the overhead reference. Individual solar cells and fine cable meshes are omitted.",
+    "reference_method": "Aligned World Imagery overhead and Clubs From Above aerial photographs. Overhead and oblique sources may show different solar-installation stages; the panel zones follow the overhead source."
+  },
+  "baseline_overlay": "Championship_Stadium_Maps/London_Stadium/London_Stadium_stadium_overlay_v1.json",
+  "baseline_sha256": "c18f13bec748272489ecea208e1cee455174f4c04c672b0f5b4875843d9fabcd",
+  "map_cache": "Championship_Stadium_Maps/London_Stadium/source_cache/osm_main_api_snapshot.json.gz",
+  "map_cache_sha256": "fd4b0cffd2b7a5b807d043fa4fb9aa6ff1fc13bab3f2f660c3d6cf50f3520ddb",
+  "outer_shell": "way/486297861",
+  "shell_element_sha256": "e7f8be7d2ab5f9d4f45fa114040357d133ffc9dc6f71efe1990af2ddeef5fc1d",
+  "mapped_structures": [],
+  "paths": 36,
+  "shell_paths": 1,
+  "previous_detailed_paths": 182,
+  "overlay": "Championship_Stadium_Maps/London_Stadium/London_Stadium_stadium_overlay_v7.json",
+  "overlay_sha256": "ffa50c3711c6dec05273f0c972bf864ab83790638f3adc207df815ce198e5aa5",
+  "svg": "Championship_Architecture_Review/west_ham_united/stadium_A2.svg",
+  "svg_sha256": "ed59283d716f3b78b546906ffae4f8536dca5e0c85b950bab10776099543438e",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "championship",
+  "roof_geometry_file": "championship_roof_geometry.py",
+  "roof_geometry_sha256": "43d7c456711de1aee495c3092418eefb98dbea79f545c81340d84f11162dda88",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "corrected",
+    "review": "Widened the London Stadium translucent-roof boundary, removed the unsupported extra surface ellipse and eleven invented solar-zone blocks, and replaced the centre-star cable pattern with parallel long-side runs and fanned ends. This matches the captured pre-solar overhead. The stadium operator confirms solar membrane installation in 2025; this reference-era drawing does not claim to map that later installation.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=51.5386207,-0.0166238&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/west_ham_united.json",
+    "browser_record_sha256": "bb1029910cb4b3b4e1c9f68ed3931d2ad2b3d377fdaf6d1c996204a4ebdc521c",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/west_ham_united.png",
+    "screenshot_sha256": "6e00cf27ec7b7d9117c8b53647354fcfa845af7b5d4ba034478f254e5c269c69",
+    "captured_utc": "2026-09-08T14:42:34.030368+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 51.5386207,
+      "longitude": -0.0166238,
+      "x_axis_degrees_from_east": 88.780452864
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [
+      "https://www.london-stadium.com/news/2025/july/london-stadium-powers-up.html"
+    ],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      312.0,
+      254.0
+    ],
+    "pitch_to_body_ratio": [
+      0.3365,
+      0.2677
+    ]
+  },
+  "features_sha256": "1a5ce144e1ceb63c65458c3a3484475f1015897a59b79d3fe166d0a7513c60d3",
+  "parallel_families": [],
+  "aerial_reference": {
+    "id": "west_ham_united",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-2260.5293840178483%2C6716718.277051939%2C-1440.5765180805943%2C6717538.229917876&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "e0603c9987ec74c3b7260c68eab5ffbead070143ca2addcd3cff423be8a31436",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": 88.780452864,
+      "latitude": 51.5386207,
+      "longitude": -0.0166238
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -66.0,
+        -59.0,
+        76.0,
+        45.0
+      ],
+      "roof_translation_m": [
+        0.6610000000000023,
+        -0.2110000000000003
+      ],
+      "bowl_bounds_m": [
+        -65.339,
+        -59.211,
+        76.661,
+        44.789
+      ],
+      "pitch_centre_m": [
+        5.661000000000002,
+        -7.211
+      ],
+      "bowl_centre_m": [
+        5.661000000000001,
+        -7.2109999999999985
+      ],
+      "opposed_clearances_m": {
+        "left": 18.5,
+        "right": 18.5,
+        "bottom": 18.0,
+        "top": 18.0
+      },
+      "centre_error_m": 1.9860273225978185e-15,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 4,
+    "parallel_families": 0,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 0.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "aerial_gallery": {
+    "id": "west_ham_united",
+    "source_page": "https://www.clubsfromabove.com/team/west%2Bham",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_west_ham_olympic_stadium_000709203107_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/west%2Bham",
+        "path": ".stadium_aerial_references/west_ham_united/01.jpg",
+        "sha256": "3dc462e2b8d5dcd5d1b5972db235065d42e69678f6b55c672441f3b6320fa0ee"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_west_ham_olympic_stadium_080709203107_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/west%2Bham",
+        "path": ".stadium_aerial_references/west_ham_united/02.jpg",
+        "sha256": "44538a5db40c82e18053526e8a5505668754bb3b6391648b2f5e63ec2872f63f"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_west_ham_olympic_stadium_010711203107_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/west%2Bham",
+        "path": ".stadium_aerial_references/west_ham_united/03.jpg",
+        "sha256": "b647c607eb1a603480454992a6a2c75088f575c95462e9c0275a1f4cd858a741"
+      }
+    ]
+  }
+}

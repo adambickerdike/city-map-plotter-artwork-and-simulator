@@ -1,0 +1,234 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "",
+  "stroke_audit": "Checked for doubled outlines, close parallel strokes, corner overshoots and under-roof map paths; clean geometry retained unchanged.",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -53.0,
+      -34.0,
+      72.0,
+      47.0
+    ],
+    "roof_translation_m": [
+      -2.8425000000000002,
+      0.07399999999999896
+    ],
+    "bowl_bounds_m": [
+      -55.8425,
+      -33.926,
+      69.1575,
+      47.074
+    ],
+    "pitch_centre_m": [
+      6.6575,
+      6.573999999999999
+    ],
+    "bowl_centre_m": [
+      6.657499999999999,
+      6.573999999999998
+    ],
+    "opposed_clearances_m": {
+      "left": 10.0,
+      "right": 10.0,
+      "bottom": 6.799999999999997,
+      "top": 6.799999999999997
+    },
+    "centre_error_m": 1.2560739669470201e-15,
+    "geographic_pitch_preserved": true
+  },
+  "id": "swansea_city",
+  "name": "Swansea.com Stadium",
+  "source_recipe": {
+    "note": "Swansea.com Stadium: rounded continuous quadrants, a broad translucent inner band and the deeper main-side roof extension. Repeated ribs are reduced to a clear structural rhythm rather than dense surface hatching.",
+    "reference_method": "Aligned World Imagery overhead; the photographer catalogue has no Swansea gallery. Capture date not established."
+  },
+  "baseline_overlay": "Championship_Stadium_Maps/Swansea_com_Stadium/Swansea_com_Stadium_stadium_overlay_v1.json",
+  "baseline_sha256": "2a65edd29f4efc1f093213302171223c536f72e9a7228a37e4dd1ced1930789f",
+  "map_cache": "Championship_Stadium_Maps/Swansea_com_Stadium/source_cache/osm_main_api_snapshot.json.gz",
+  "map_cache_sha256": "ab6b7533f5befc5b7a78b1094fe2345fee8cfdf48ef4507a3451c500ce9b03d0",
+  "outer_shell": "way/23211181",
+  "shell_element_sha256": "5e724acc305510fb5deab33578e8de5e8a03bdd2630030cc7d62c5778b3e007d",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/256661111",
+      "name": "East Stand",
+      "element_sha256": "bab71ec94605cd5f2d69a5ff2125ea7258d6715ae07e1577ae9c5ecb78f26714"
+    },
+    {
+      "osm_ref": "way/256661112",
+      "name": "North Stand",
+      "element_sha256": "eaea90ba8477556e37397d74358d3d4701adff1b08eb9ad4fdb5006a804561a8"
+    },
+    {
+      "osm_ref": "way/256661113",
+      "name": "South Stand",
+      "element_sha256": "21bc324d691e008a58b0ad30cef6369e64a79d85b5546fcec66d36f69ca23a6f"
+    },
+    {
+      "osm_ref": "way/256661114",
+      "name": "West Stand",
+      "element_sha256": "80c16d5a92a0c11a7492277dfaf98390f9a9f3e0e02f2e9b612d00ba68a662ec"
+    }
+  ],
+  "paths": 50,
+  "shell_paths": 2,
+  "previous_detailed_paths": 61,
+  "overlay": "Championship_Stadium_Maps/Swansea_com_Stadium/Swansea_com_Stadium_stadium_overlay_v6.json",
+  "overlay_sha256": "71e54ef370b7bd861c108d0f9cbed43b23f7fc992ef5cb0742e15a8ac3efabfb",
+  "svg": "Championship_Architecture_Review/swansea_city/stadium_A2.svg",
+  "svg_sha256": "389dba97dea42eee82e28b57469afb0b55aaea8c0d64a320538e4e637184fd82",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "championship",
+  "roof_geometry_file": "championship_roof_geometry.py",
+  "roof_geometry_sha256": "43d7c456711de1aee495c3092418eefb98dbea79f545c81340d84f11162dda88",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained the approved benchmark: a clean rounded ring, consistent inner band, deeper rear stand strip and centred pitch. Parallel bays and native curves compare well with the actual roof.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=51.6428065,-3.934739&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/swansea_city.json",
+    "browser_record_sha256": "6f356b1d3f0e7586d6493a72acdf5ee140aa5aa6c08ba6fcdc0730f03d7f1091",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/swansea_city.png",
+    "screenshot_sha256": "50a0af07eae1ab7beb9efab1ffe9e15bc544ad062c4d485d79fa307c13af7bd2",
+    "captured_utc": "2026-09-08T14:42:24.795409+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 51.6428065,
+      "longitude": -3.934739,
+      "x_axis_degrees_from_east": -70.13522474
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      67.4
+    ],
+    "authored_body_spans_m": [
+      181.0,
+      153.0
+    ],
+    "pitch_to_body_ratio": [
+      0.5801,
+      0.4405
+    ]
+  },
+  "features_sha256": "1a5ce144e1ceb63c65458c3a3484475f1015897a59b79d3fe166d0a7513c60d3",
+  "parallel_families": [
+    {
+      "id": "side-roof-bays",
+      "axis": "x",
+      "positions_m": [
+        -33.3425,
+        -17.3425,
+        -1.3425000000000002,
+        14.657499999999999,
+        30.6575,
+        46.6575
+      ]
+    },
+    {
+      "id": "end-roof-bays",
+      "axis": "y",
+      "positions_m": [
+        -17.426000000000002,
+        -1.426000000000001,
+        14.573999999999998,
+        30.573999999999998
+      ]
+    },
+    {
+      "id": "west-rear-roof-bays",
+      "axis": "x",
+      "positions_m": [
+        -36.98535714285714,
+        -20.128214285714286,
+        -3.271071428571431,
+        13.58607142857143,
+        30.44321428571429,
+        47.30035714285714
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "swansea_city",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-438424.0596647562%2C6735385.269827798%2C-437602.2241041128%2C6736207.105388442&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "242c5356999703f6424903781238dd25f1a522c88cee6807acccc3bf289b43ad",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -70.13522474,
+      "latitude": 51.6428065,
+      "longitude": -3.934739
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -53.0,
+        -34.0,
+        72.0,
+        47.0
+      ],
+      "roof_translation_m": [
+        -2.8425000000000002,
+        0.07399999999999896
+      ],
+      "bowl_bounds_m": [
+        -55.8425,
+        -33.926,
+        69.1575,
+        47.074
+      ],
+      "pitch_centre_m": [
+        6.6575,
+        6.573999999999999
+      ],
+      "bowl_centre_m": [
+        6.657499999999999,
+        6.573999999999998
+      ],
+      "opposed_clearances_m": {
+        "left": 10.0,
+        "right": 10.0,
+        "bottom": 6.799999999999997,
+        "top": 6.799999999999997
+      },
+      "centre_error_m": 1.2560739669470201e-15,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 3,
+    "parallel_families": 3,
+    "explicit_projecting_structure_envelopes": 1,
+    "duplicate_straight_edge_length_removed_m": 118.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "aerial_gallery": {
+    "id": "swansea_city",
+    "source_page": "https://www.clubsfromabove.com/team/swansea-city",
+    "credit": "Clubs From Above; local reference only",
+    "images": []
+  }
+}

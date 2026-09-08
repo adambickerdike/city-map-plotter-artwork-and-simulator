@@ -1,0 +1,239 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "Milburn and Leazes roof steps form one smooth corner; straight overshooting construction lines removed. Real high/low stand junctions retained.",
+  "stroke_audit": "",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -60.0,
+      -41.0,
+      60.0,
+      42.0
+    ],
+    "roof_translation_m": [
+      -0.0,
+      -0.5
+    ],
+    "bowl_bounds_m": [
+      -60.0,
+      -41.5,
+      60.0,
+      41.5
+    ],
+    "pitch_centre_m": [
+      -0.0,
+      -0.0
+    ],
+    "bowl_centre_m": [
+      0.0,
+      0.0
+    ],
+    "opposed_clearances_m": {
+      "left": 7.5,
+      "right": 7.5,
+      "bottom": 7.5,
+      "top": 7.5
+    },
+    "centre_error_m": 0.0,
+    "geographic_pitch_preserved": true
+  },
+  "id": "newcastle_united",
+  "name": "St James' Park",
+  "source_recipe": {
+    "note": "Asymmetric joined Milburn/Leazes L-shaped roof, curved quadrants, unequal roof depths and connected principal roof divisions.",
+    "reference_method": "Aligned overhead reference checked against aerial photographs; shared axes and native cubic curves authored in stadium_roof_geometry.py. Not an as-built survey."
+  },
+  "baseline_overlay": "Premier_League_Stadium_Maps/St_James_Park/St_James_Park_stadium_overlay_v2.json",
+  "baseline_sha256": "e182229d6b1389ae7cab15bb6718c8970dc26e9c2b525b2d0e026da908dcb509",
+  "map_cache": "Premier_League_Stadium_Maps/St_James_Park/source_cache/overpass/c9668dba7dc48d9a2b133727b7acf4b0a4c3c7d2ed0a57f237cccc91f1aae3af.json.gz",
+  "map_cache_sha256": "f7c555049f768bb437c9615b0e04fb6b0f98f4aaed2319b15909771b0cb7d88f",
+  "outer_shell": "relation/1698564",
+  "shell_element_sha256": "17ed82b52e9b644af9e8ec46b8bb9a91859b8a1be2b5781f2f3324a05852fdf4",
+  "mapped_structures": [],
+  "paths": 50,
+  "shell_paths": 1,
+  "previous_detailed_paths": 282,
+  "overlay": "Premier_League_Stadium_Maps/St_James_Park/St_James_Park_stadium_overlay_v9.json",
+  "overlay_sha256": "74de623f1a20d99201e888e0f080203c2e523ef6424b93c0d8c606b444ffa1c8",
+  "svg": "Stadium_Architecture_Review/newcastle_united/stadium_A2.svg",
+  "svg_sha256": "24611bf426943db9108c19d590e1630967265c5ef9576f7f593e17d8ab294073",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "premier_league",
+  "roof_geometry_file": "stadium_roof_geometry.py",
+  "roof_geometry_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained the unequal L-shaped high Milburn/Leazes roof and lower opposite stands. The high/low junctions fit the reference; no square corner guide boxes or duplicate outer shell were reintroduced.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=54.975509896,-1.62160267&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/newcastle_united.json",
+    "browser_record_sha256": "3307b4bf56e3ec16da6284d278fef1dcf9f508955d94cd7fca1b85fffa3d5270",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/newcastle_united.png",
+    "screenshot_sha256": "02223d8cf8b665813d723ea3952d5ad08cd03b8266711cdab98c48a28b470ef2",
+    "captured_utc": "2026-09-08T14:40:27.230716+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 54.975509896,
+      "longitude": -1.62160267,
+      "x_axis_degrees_from_east": -60.1102
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.0,
+      68.0
+    ],
+    "authored_body_spans_m": [
+      237.0,
+      170.0
+    ],
+    "pitch_to_body_ratio": [
+      0.443,
+      0.4
+    ]
+  },
+  "features_sha256": "b7f7d08613ba86076de03d494eb92e1841884c16c4b394b916634be3f7319237",
+  "parallel_families": [
+    {
+      "id": "side-roof-bays",
+      "axis": "x",
+      "positions_m": [
+        -42.0,
+        -28.0,
+        -14.0,
+        0.0,
+        14.0,
+        28.0,
+        42.0
+      ]
+    },
+    {
+      "id": "end-roof-bays",
+      "axis": "y",
+      "positions_m": [
+        -28.0,
+        -14.0,
+        0.0,
+        14.0,
+        28.0
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "newcastle_united",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-180960.2912447725%2C7356670.225457684%2C-180071.67574205314%2C7357558.840960403&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "152bb4243af033521183448e4b111dd97f2dd878b6fa69f019231e3f00726bd2",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": -60.1102,
+      "latitude": 54.975509896,
+      "longitude": -1.62160267
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -60.0,
+        -41.0,
+        60.0,
+        42.0
+      ],
+      "roof_translation_m": [
+        -0.0,
+        -0.5
+      ],
+      "bowl_bounds_m": [
+        -60.0,
+        -41.5,
+        60.0,
+        41.5
+      ],
+      "pitch_centre_m": [
+        -0.0,
+        -0.0
+      ],
+      "bowl_centre_m": [
+        0.0,
+        0.0
+      ],
+      "opposed_clearances_m": {
+        "left": 7.5,
+        "right": 7.5,
+        "bottom": 7.5,
+        "top": 7.5
+      },
+      "centre_error_m": 0.0,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 3,
+    "parallel_families": 2,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 0.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "survey_frame": {
+    "path": "St_James_Park_SOURCE_MANIFEST.json",
+    "sha256": "85403d3c34bebb9950283d242704a7b52bc996e68f3eaca171b47138f97d58b6",
+    "year": 2022,
+    "plate": "St_James_Park_GEOMETRY_PLATE.png",
+    "plate_sha256": "175d38518402b042852b9cfca680b76f6c3cc31bc3ffd1dc2395a14e0064b6a8"
+  },
+  "aerial_gallery": {
+    "id": "newcastle_united",
+    "source_page": "https://www.clubsfromabove.com/team/newcastle-united",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_newcastle_united_st_james_park_270900190407_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/newcastle-united",
+        "path": ".stadium_aerial_references/newcastle_united/01.jpg",
+        "sha256": "163da1c9e45bfe1517982a3bf8b42a961b1a0ec5183445d31a128c4d1bdf6d14"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_newcastle_united_st_james_park_240906190407_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/newcastle-united",
+        "path": ".stadium_aerial_references/newcastle_united/02.jpg",
+        "sha256": "e4bc5767cb455e5f9e611ff0224ec635d30fe3292cc3009091a33acda9a345ae"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_newcastle_united_st_james_park_400905190407_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/newcastle-united",
+        "path": ".stadium_aerial_references/newcastle_united/03.jpg",
+        "sha256": "5e259cdc1e09b4a545be538b8991bac01677f30d3bc99c533e46e1d446533ea1"
+      },
+      {
+        "index": 4,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_newcastle_united_st_james_park_550903190407_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/newcastle-united",
+        "path": ".stadium_aerial_references/newcastle_united/04.jpg",
+        "sha256": "0bf6da98fec6bf03c6ad956c181d616dc1fe4061296ee149a073fec6de50e65d"
+      }
+    ]
+  }
+}

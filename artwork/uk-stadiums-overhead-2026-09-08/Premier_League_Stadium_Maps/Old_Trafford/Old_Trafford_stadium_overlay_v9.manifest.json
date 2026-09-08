@@ -1,0 +1,274 @@
+{
+  "schema_version": 2,
+  "method": "photo-checked-coherent-roof-geometry",
+  "detail_style": "clean-roof-lines-without-repeated-cross-bracing",
+  "outline_polish": "Square roof-step scaffold replaced by a continuous rounded contour. Other tier lines terminate on corner seams; under-roof map paths suppressed.",
+  "stroke_audit": "Removed six narrow paired end-truss strips that merged with the roof bays. Entrance now joins the outer edge without an inset doubled box.",
+  "centring": {
+    "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+    "original_bowl_bounds_m": [
+      -61.0,
+      -44.0,
+      63.0,
+      38.0
+    ],
+    "roof_translation_m": [
+      -0.0799999999999973,
+      -1.9500000000000002
+    ],
+    "bowl_bounds_m": [
+      -61.08,
+      -45.95,
+      62.92,
+      36.05
+    ],
+    "pitch_centre_m": [
+      0.9200000000000027,
+      -4.95
+    ],
+    "bowl_centre_m": [
+      0.9200000000000017,
+      -4.950000000000003
+    ],
+    "opposed_clearances_m": {
+      "left": 9.450000000000003,
+      "right": 9.450000000000003,
+      "bottom": 7.149999999999999,
+      "top": 7.149999999999995
+    },
+    "centre_error_m": 2.8457249041605285e-15,
+    "geographic_pitch_preserved": true
+  },
+  "id": "manchester_united",
+  "name": "Old Trafford",
+  "source_recipe": {
+    "note": "Rounded northern quadrants, parallel Sir Alex Ferguson roof steps, three principal trusses across each end roof and the smaller southern roof.",
+    "reference_method": "Aligned overhead reference checked against aerial photographs; shared axes and native cubic curves authored in stadium_roof_geometry.py. Not an as-built survey."
+  },
+  "baseline_overlay": "Premier_League_Stadium_Maps/Old_Trafford/Old_Trafford_stadium_overlay_v1.json",
+  "baseline_sha256": "3058bef1352f3b7bf066001b489b81ec66ed2924bca0bccc4de9d2998b856958",
+  "map_cache": "Premier_League_Stadium_Maps/Old_Trafford/source_cache/overpass/01cbb0a6293a1b8212aa465221c64c977b772da214871948ecc06f443ad994c4.json.gz",
+  "map_cache_sha256": "4b9fd85d4ce11706a6a4b52041071e5b77113b5f36ab2fbd637c7fdc631de769",
+  "outer_shell": "way/99403577",
+  "shell_element_sha256": "fc4090530e84dfacb8fe3fafdb1c8a6fe620591657a556bd97d3d04b538d8122",
+  "mapped_structures": [
+    {
+      "osm_ref": "way/351220227",
+      "name": "Sir Alex Ferguson Stand",
+      "element_sha256": "a216df7fe39be69899328e82e19c86efa123daf6619ababaacf3951b7dedf8d0"
+    },
+    {
+      "osm_ref": "way/351220229",
+      "name": "West Stand",
+      "element_sha256": "97efaf58da24c93d701af08e106efdbd63264811319e46cea5190fc0f7530e52"
+    },
+    {
+      "osm_ref": "way/351220231",
+      "name": "East Stand",
+      "element_sha256": "c3b78b3c27bdd3d3febb5f9072a28a3421cb11324be3fbed549a76dd532f4075"
+    },
+    {
+      "osm_ref": "way/351220232",
+      "name": "Sir Bobby Charlton Stand",
+      "element_sha256": "c4501f81220b6206a215c938b9036962829ee93c9303a0fac5afe88d15fb2850"
+    }
+  ],
+  "paths": 51,
+  "shell_paths": 1,
+  "previous_detailed_paths": 315,
+  "overlay": "Premier_League_Stadium_Maps/Old_Trafford/Old_Trafford_stadium_overlay_v9.json",
+  "overlay_sha256": "b98806b38f35e7c5c43e5c4c91e69de82d0da011b06d4d50d7180f53df408ec3",
+  "svg": "Stadium_Architecture_Review/manchester_united/stadium_A2.svg",
+  "svg_sha256": "7fc18adad71eaeef15334916b366fde5eec1b35d9c3761fb72b509b4bf8e3b52",
+  "generator_sha256": "90dbd9ee62e2490ce16ee15855e362039cd8a7abde2c9e08bfc0f216d05227da",
+  "collection": "premier_league",
+  "roof_geometry_file": "stadium_roof_geometry.py",
+  "roof_geometry_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "roof_primitives_sha256": "262e06d6da59359717cf93e3c84db105bc6e8c2ff13a8529c4326dfaaeb7d445",
+  "google_review_geometry_file": "uk_google_roof_geometry.py",
+  "google_review_geometry_sha256": "e785ec9a24dffb4e32c05f919034de97c69a97a056f9a122a7c55dd88eeadc65",
+  "google_review_notes_sha256": "9c0340e33c50bb206df3d6efbdfdf00f01464ea9c26a6a5d2457fdbc80e22d65",
+  "google_overhead_review": {
+    "review_date": "2026-09-08",
+    "action": "retained",
+    "review": "Retained the broad Ferguson roof, shallower Charlton side and smoothly joined end quadrants. The prior doubled truss edges remain removed; roof levels are connected contours, not square construction boxes.",
+    "map_context_changes": {},
+    "map_url": "https://www.google.com/maps?ll=53.463109597211265,-2.291386488041104&z=18&t=k&hl=en",
+    "browser_record": ".stadium_aerial_references/google_maps_audit_2026_09_08/manchester_united.json",
+    "browser_record_sha256": "a62bdf34ee39bd6b1c088a939650660b6b84e1e5a80a532a882dde575a68a1de",
+    "screenshot": ".stadium_aerial_references/google_maps_audit_2026_09_08/manchester_united.png",
+    "screenshot_sha256": "0094c5d0adb1e28311886dde08a3b8c8cc65b7dbbe7d9bc9a52a51eba627670d",
+    "captured_utc": "2026-09-08T14:40:22.003738+00:00",
+    "imagery_capture_date": "Unknown; acquisition date is not photograph date.",
+    "georeference": {
+      "latitude": 53.463109597211265,
+      "longitude": -2.291386488041104,
+      "x_axis_degrees_from_east": 19.3078132
+    },
+    "comparison_frame": "400 by 340 ground metres; retained geographic field datum and long axis; no fit-to-page scaling.",
+    "secondary_overhead_inspected": false,
+    "additional_references": [],
+    "limitations": "Visually reviewed simplified main features, not a measured as-built survey or every roof panel. Elevated roofs can be displaced by parallax. Some views show older redevelopment stages; see individual review.",
+    "usage": "Private comparison only. Original Google screenshots retain attribution. No reference bitmap is embedded in plot artwork; this is not a licence to redistribute imagery.",
+    "field_dimensions_m": [
+      105.1,
+      67.7
+    ],
+    "authored_body_spans_m": [
+      242.0,
+      191.0
+    ],
+    "pitch_to_body_ratio": [
+      0.4343,
+      0.3545
+    ]
+  },
+  "features_sha256": "b7f7d08613ba86076de03d494eb92e1841884c16c4b394b916634be3f7319237",
+  "parallel_families": [
+    {
+      "id": "side-roof-bays",
+      "axis": "x",
+      "positions_m": [
+        -41.08,
+        -27.08,
+        -13.079999999999997,
+        0.9200000000000027,
+        14.920000000000003,
+        28.92,
+        42.92
+      ]
+    },
+    {
+      "id": "end-roof-bays",
+      "axis": "y",
+      "positions_m": [
+        -32.95,
+        -18.95,
+        -4.95,
+        9.05,
+        23.05
+      ]
+    }
+  ],
+  "aerial_reference": {
+    "id": "manchester_united",
+    "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-255504.3035615217%2C7068696.0110686915%2C-254647.65055712458%2C7069552.664073088&bboxSR=3857&imageSR=3857&size=1600%2C1600&format=jpg&f=image",
+    "source_page": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+    "attribution": "Esri, Maxar, Earthstar Geographics and the GIS User Community; see World Imagery service credits.",
+    "usage": "Private reference only; not redistributed in artwork.",
+    "capture_date": "Not established; cross-check redevelopment against dated club/project photographs.",
+    "sha256": "6958eb5666f27f91b82d9b5a7c41ccd67c5e7b83e62c0fec0734794de9808b0e",
+    "local_frame": {
+      "width_m": 360,
+      "height_m": 300,
+      "x_axis_degrees_from_east": 19.3078132,
+      "latitude": 53.463109597211265,
+      "longitude": -2.291386488041104
+    }
+  },
+  "accuracy": "Authored simplified roof plans checked against overhead imagery and oblique photographs. Cubics and shared-axis bays deliberately regularise source noise. Each complete roof model is translated onto the retained pitch centre using the opposed stand-front datum; unequal stand depths and annexes are retained. This is a centred architectural illustration, not exact OSM geometry or an as-built survey. Imagery dates vary; see per-ground caveats.",
+  "attribution": "Map data © OpenStreetMap contributors (ODbL 1.0). Private references: Google Maps (original screenshot attribution retained), Esri/Maxar/Earthstar Geographics/GIS User Community; aerial photographs © their credited photographers. No reference bitmap is embedded in the plot artwork.",
+  "validation": {
+    "passed": true,
+    "outside_shell": 0,
+    "roof_paths_crossing_pitch": 0,
+    "unique_path_ids": true,
+    "shell_comparison_tolerance_m": 0.05,
+    "centring": {
+      "datum": "paired stadium stand fronts / roof opening; excludes annexes",
+      "original_bowl_bounds_m": [
+        -61.0,
+        -44.0,
+        63.0,
+        38.0
+      ],
+      "roof_translation_m": [
+        -0.0799999999999973,
+        -1.9500000000000002
+      ],
+      "bowl_bounds_m": [
+        -61.08,
+        -45.95,
+        62.92,
+        36.05
+      ],
+      "pitch_centre_m": [
+        0.9200000000000027,
+        -4.95
+      ],
+      "bowl_centre_m": [
+        0.9200000000000017,
+        -4.950000000000003
+      ],
+      "opposed_clearances_m": {
+        "left": 9.450000000000003,
+        "right": 9.450000000000003,
+        "bottom": 7.149999999999999,
+        "top": 7.149999999999995
+      },
+      "centre_error_m": 2.8457249041605285e-15,
+      "geographic_pitch_preserved": true
+    },
+    "native_cubic_paths": 2,
+    "parallel_families": 2,
+    "explicit_projecting_structure_envelopes": 0,
+    "duplicate_straight_edge_length_removed_m": 0.0,
+    "junction_policy": "Rafters terminate exactly at shared roof boundaries; no intersection gap cutting."
+  },
+  "survey_frame": {
+    "path": "Old_Trafford/Old_Trafford_Manchester_SOURCE_MANIFEST.json",
+    "sha256": "525712b72a76af8b578547ed88656881706ef62656b3262fdb0e64c7c77e4eb8",
+    "year": 2020,
+    "plate": "Old_Trafford/Old_Trafford_Manchester_GEOMETRY_PLATE.png",
+    "plate_sha256": "0d7dca860ec72e5dc192954ea557d60071d1ae3ba0ab3ba87963ac859b6b3592"
+  },
+  "aerial_gallery": {
+    "id": "manchester_united",
+    "source_page": "https://www.clubsfromabove.com/team/manchester-united",
+    "credit": "Clubs From Above; local reference only",
+    "images": [
+      {
+        "index": 1,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_manchester_united_old_trafford_490953190312_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/manchester-united",
+        "path": ".stadium_aerial_references/manchester_united/01.jpg",
+        "sha256": "2000883a323541ff00b02ad6b021b41a7a56ae431ee8d80b1351af022ab20599"
+      },
+      {
+        "index": 2,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_manchester_united_old_trafford_270954190312_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/manchester-united",
+        "path": ".stadium_aerial_references/manchester_united/02.jpg",
+        "sha256": "8c986a719fee4f1f5387f39b8b8821c2ab70a24c69b0832b035b7c5354acc4b0"
+      },
+      {
+        "index": 3,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_manchester_united_old_trafford_190950190312_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/manchester-united",
+        "path": ".stadium_aerial_references/manchester_united/03.jpg",
+        "sha256": "3000aa961c429df8dddc3627f6bd63b5c57eb78f96319e87558e909dd167796c"
+      },
+      {
+        "index": 4,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_manchester_united_old_trafford_570713192113_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/manchester-united",
+        "path": ".stadium_aerial_references/manchester_united/04.jpg",
+        "sha256": "0fbd9a6a1a5ee17edc51676ad9118a91da166fe17332cf4a4e209106d98fd1b4"
+      },
+      {
+        "index": 5,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_manchester_united_old_trafford_550900201412_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/manchester-united",
+        "path": ".stadium_aerial_references/manchester_united/05.jpg",
+        "sha256": "050841743050b55ff95ef0aa07ba0a12e9296bc5c4eb4e4944c6396494b114e8"
+      },
+      {
+        "index": 6,
+        "image_url": "https://images.clubsfromabove.com/pictures/aerial_photo_of_manchester_united_old_trafford_040903201412_w750.jpg",
+        "source_page": "https://www.clubsfromabove.com/team/manchester-united",
+        "path": ".stadium_aerial_references/manchester_united/06.jpg",
+        "sha256": "f646749aa5c924b425e59bc4ddf3d37f4f78378f188cc3cc67ccc0e919d70a2b"
+      }
+    ]
+  }
+}
