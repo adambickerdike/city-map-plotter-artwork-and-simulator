@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "id": "millwall",
+  "city_header": {
+    "status": "passed",
+    "policy_id": "city-header-left-stack-v1",
+    "bounds_mm": {
+      "title": [
+        26.674,
+        29.619,
+        118.919,
+        43.667
+      ],
+      "coordinates": [
+        26.674,
+        57.815,
+        107.486,
+        61.833
+      ],
+      "compass": [
+        258.551,
+        31.891,
+        267.381,
+        59.486
+      ]
+    },
+    "compass_vertical_error_mm": 0.0
+  },
+  "svg_preflight": {
+    "source_sha256": "f9c89e2fae1f0fb418d62e2eb634c98c25c64c13218920ba0fbf5b32aae7bb6c",
+    "source_bytes": 4413179,
+    "page_mm": {
+      "width": 297.0,
+      "height": 420.0
+    },
+    "path_count": 3802,
+    "layer_count": 17,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "stadium_paths_expected": 51,
+  "stadium_paths_exported": 51,
+  "stadium_native_curves_preserved": true,
+  "map_bbox": {
+    "west": -0.06696402386473554,
+    "south": 51.47345401648169,
+    "east": -0.03485657613526445,
+    "north": 51.49847718351831
+  },
+  "zoom_out_width_factor": 1.15,
+  "base_format_checks": 4210,
+  "composed_format_checks": 4230,
+  "format_failures": [
+    "layer 'Stadium roof and pitch detail — Black 0.25': 5 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "native_detail_floor_exceptions": [
+    "layer 'Stadium roof and pitch detail — Black 0.25': 5 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "nominal_stadium_subfloor_paths": [
+    {
+      "id": "bowl-stand-front-unique-0",
+      "length_mm": 0.11198740001446307,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-1",
+      "length_mm": 0.526886333292669,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-2",
+      "length_mm": 0.5268849245936945,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-3",
+      "length_mm": 0.6388737767035754,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-4",
+      "length_mm": 0.526885923994423,
+      "nib_mm": 0.25
+    }
+  ],
+  "bounds": "passed",
+  "pen_splits": 11,
+  "png_pixels": [
+    2970,
+    4200
+  ]
+}

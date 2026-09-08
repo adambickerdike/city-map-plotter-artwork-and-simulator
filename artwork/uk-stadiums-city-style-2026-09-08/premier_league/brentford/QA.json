@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "id": "brentford",
+  "city_header": {
+    "status": "passed",
+    "policy_id": "city-header-left-stack-v1",
+    "bounds_mm": {
+      "title": [
+        26.408,
+        31.599,
+        246.732,
+        41.687
+      ],
+      "coordinates": [
+        26.408,
+        57.815,
+        106.542,
+        61.833
+      ],
+      "compass": [
+        258.551,
+        32.881,
+        267.381,
+        60.476
+      ]
+    },
+    "compass_vertical_error_mm": 0.0
+  },
+  "svg_preflight": {
+    "source_sha256": "2c505fcdf7c00d1d6ef7f91540cec494c6edbf138aab581db375301ac89c62a2",
+    "source_bytes": 3787825,
+    "page_mm": {
+      "width": 297.0,
+      "height": 420.0
+    },
+    "path_count": 3447,
+    "layer_count": 17,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "stadium_paths_expected": 32,
+  "stadium_paths_exported": 32,
+  "stadium_native_curves_preserved": true,
+  "map_bbox": {
+    "west": -0.3048602995667849,
+    "south": 51.478258359481686,
+    "east": -0.27274946843321507,
+    "north": 51.50328152651831
+  },
+  "zoom_out_width_factor": 1.15,
+  "base_format_checks": 3802,
+  "composed_format_checks": 3819,
+  "format_failures": [],
+  "native_detail_floor_exceptions": [],
+  "nominal_stadium_subfloor_paths": [],
+  "bounds": "passed",
+  "pen_splits": 11,
+  "png_pixels": [
+    2970,
+    4200
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "id": "everton",
+  "city_header": {
+    "status": "passed",
+    "policy_id": "city-header-left-stack-v1",
+    "bounds_mm": {
+      "title": [
+        26.168,
+        30.947,
+        246.732,
+        42.339
+      ],
+      "coordinates": [
+        26.168,
+        57.815,
+        117.184,
+        61.833
+      ],
+      "compass": [
+        258.551,
+        32.555,
+        267.381,
+        60.15
+      ]
+    },
+    "compass_vertical_error_mm": 0.0
+  },
+  "svg_preflight": {
+    "source_sha256": "a4e3283d45f568299d7e7103116f55ee585ee5926f69c60b3be9336146da143d",
+    "source_bytes": 7353317,
+    "page_mm": {
+      "width": 297.0,
+      "height": 420.0
+    },
+    "path_count": 7423,
+    "layer_count": 16,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "stadium_paths_expected": 38,
+  "stadium_paths_exported": 38,
+  "stadium_native_curves_preserved": true,
+  "map_bbox": {
+    "west": -3.019485578270384,
+    "south": 53.41244768743577,
+    "east": -2.98593238789982,
+    "north": 53.437470854472394
+  },
+  "zoom_out_width_factor": 1.15,
+  "base_format_checks": 7763,
+  "composed_format_checks": 7769,
+  "format_failures": [],
+  "native_detail_floor_exceptions": [],
+  "nominal_stadium_subfloor_paths": [],
+  "bounds": "passed",
+  "pen_splits": 11,
+  "png_pixels": [
+    2970,
+    4200
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "id": "aston_villa",
+  "city_header": {
+    "status": "passed",
+    "policy_id": "city-header-left-stack-v1",
+    "bounds_mm": {
+      "title": [
+        26.005,
+        29.619,
+        148.31,
+        43.667
+      ],
+      "coordinates": [
+        26.005,
+        57.815,
+        117.657,
+        61.833
+      ],
+      "compass": [
+        258.551,
+        31.891,
+        267.381,
+        59.486
+      ]
+    },
+    "compass_vertical_error_mm": 0.0
+  },
+  "svg_preflight": {
+    "source_sha256": "7a1bf0671f08e7d7229954435744154e0918f790286a2580a5990d86213ac3e6",
+    "source_bytes": 1875109,
+    "page_mm": {
+      "width": 297.0,
+      "height": 420.0
+    },
+    "path_count": 1705,
+    "layer_count": 19,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "stadium_paths_expected": 50,
+  "stadium_paths_exported": 50,
+  "stadium_native_curves_preserved": true,
+  "map_bbox": {
+    "west": -1.9012816136798896,
+    "south": 52.49661938948169,
+    "east": -1.8684318583201103,
+    "north": 52.52164255651831
+  },
+  "zoom_out_width_factor": 1.15,
+  "base_format_checks": 2134,
+  "composed_format_checks": 2164,
+  "format_failures": [
+    "layer 'Stadium roof shell — Black 0.4': 1 sub-nib strokes shorter than 1.20 mm (3 x nib) — these plot as dots",
+    "layer 'Stadium roof and pitch detail — Black 0.25': 4 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "native_detail_floor_exceptions": [
+    "layer 'Stadium roof shell — Black 0.4': 1 sub-nib strokes shorter than 1.20 mm (3 x nib) — these plot as dots",
+    "layer 'Stadium roof and pitch detail — Black 0.25': 4 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "nominal_stadium_subfloor_paths": [
+    {
+      "id": "outer-shell-north-corner-building-unique-1",
+      "length_mm": 0.22397603310397837,
+      "nib_mm": 0.4
+    },
+    {
+      "id": "bowl-stand-front-unique-0",
+      "length_mm": 0.5268862667716837,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-1",
+      "length_mm": 0.5268851763051365,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-2",
+      "length_mm": 0.5268862667716628,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-3",
+      "length_mm": 0.5268851763051047,
+      "nib_mm": 0.25
+    }
+  ],
+  "bounds": "passed",
+  "pen_splits": 11,
+  "png_pixels": [
+    2970,
+    4200
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "id": "sheffield_united",
+  "city_header": {
+    "status": "passed",
+    "policy_id": "city-header-left-stack-v1",
+    "bounds_mm": {
+      "title": [
+        26.674,
+        29.619,
+        183.09,
+        43.667
+      ],
+      "coordinates": [
+        26.674,
+        57.815,
+        115.028,
+        61.833
+      ],
+      "compass": [
+        258.551,
+        31.891,
+        267.381,
+        59.486
+      ]
+    },
+    "compass_vertical_error_mm": 0.0
+  },
+  "svg_preflight": {
+    "source_sha256": "8b66a6701d7c2ca38efb5692e7dc5193dc7e69d75544bec6c5ed654d4f8dbec1",
+    "source_bytes": 4368653,
+    "page_mm": {
+      "width": 297.0,
+      "height": 420.0
+    },
+    "path_count": 3866,
+    "layer_count": 19,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "stadium_paths_expected": 50,
+  "stadium_paths_exported": 50,
+  "stadium_native_curves_preserved": true,
+  "map_bbox": {
+    "west": -1.4874695775276536,
+    "south": 53.357831316481686,
+    "east": -1.4539594224723462,
+    "north": 53.38285448351831
+  },
+  "zoom_out_width_factor": 1.15,
+  "base_format_checks": 4279,
+  "composed_format_checks": 4310,
+  "format_failures": [
+    "layer 'Stadium roof and pitch detail — Black 0.25': 3 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "native_detail_floor_exceptions": [
+    "layer 'Stadium roof and pitch detail — Black 0.25': 3 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "nominal_stadium_subfloor_paths": [
+    {
+      "id": "bowl-stand-front-unique-0",
+      "length_mm": 0.526886026754826,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-1",
+      "length_mm": 0.5268854254698302,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-2",
+      "length_mm": 0.5268853805543603,
+      "nib_mm": 0.25
+    }
+  ],
+  "bounds": "passed",
+  "pen_splits": 11,
+  "png_pixels": [
+    2970,
+    4200
+  ]
+}

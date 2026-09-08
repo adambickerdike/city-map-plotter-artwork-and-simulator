@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "id": "west_ham_united",
+  "city_header": {
+    "status": "passed",
+    "policy_id": "city-header-left-stack-v1",
+    "bounds_mm": {
+      "title": [
+        26.674,
+        29.619,
+        213.139,
+        43.667
+      ],
+      "coordinates": [
+        26.674,
+        57.815,
+        106.18,
+        61.833
+      ],
+      "compass": [
+        258.551,
+        31.891,
+        267.381,
+        59.486
+      ]
+    },
+    "compass_vertical_error_mm": 0.0
+  },
+  "svg_preflight": {
+    "source_sha256": "1c7a066339560fd70a99b4d676f6aebacc01e225eead20115755d3a44f706a6b",
+    "source_bytes": 8319293,
+    "page_mm": {
+      "width": 297.0,
+      "height": 420.0
+    },
+    "path_count": 7217,
+    "layer_count": 18,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "stadium_paths_expected": 37,
+  "stadium_paths_exported": 37,
+  "stadium_native_curves_preserved": true,
+  "map_bbox": {
+    "west": -0.036267710483695315,
+    "south": 51.52332876458875,
+    "east": 0.0030201104836953124,
+    "north": 51.55391263541126
+  },
+  "zoom_out_width_factor": 1.15,
+  "base_format_checks": 7632,
+  "composed_format_checks": 7661,
+  "format_failures": [],
+  "native_detail_floor_exceptions": [],
+  "nominal_stadium_subfloor_paths": [],
+  "bounds": "passed",
+  "pen_splits": 11,
+  "png_pixels": [
+    2970,
+    4200
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "status": "passed",
+  "id": "bournemouth",
+  "city_header": {
+    "status": "passed",
+    "policy_id": "city-header-left-stack-v1",
+    "bounds_mm": {
+      "title": [
+        26.005,
+        29.619,
+        219.144,
+        43.667
+      ],
+      "coordinates": [
+        26.005,
+        57.815,
+        123.14,
+        61.833
+      ],
+      "compass": [
+        258.551,
+        31.891,
+        267.381,
+        59.486
+      ]
+    },
+    "compass_vertical_error_mm": 0.0
+  },
+  "svg_preflight": {
+    "source_sha256": "add439c4e4423fd611bbf1d7a8aa30c3787c1473c33c58965849bb475845d990",
+    "source_bytes": 1918364,
+    "page_mm": {
+      "width": 297.0,
+      "height": 420.0
+    },
+    "path_count": 1645,
+    "layer_count": 18,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "stadium_paths_expected": 38,
+  "stadium_paths_exported": 38,
+  "stadium_native_curves_preserved": true,
+  "map_bbox": {
+    "west": -1.8558421691128537,
+    "south": 50.72131046427821,
+    "east": -1.8207421059211464,
+    "north": 50.749113983207785
+  },
+  "zoom_out_width_factor": 1.15,
+  "base_format_checks": 2035,
+  "composed_format_checks": 2067,
+  "format_failures": [
+    "layer 'Stadium roof and pitch detail — Black 0.25': 4 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "native_detail_floor_exceptions": [
+    "layer 'Stadium roof and pitch detail — Black 0.25': 4 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "nominal_stadium_subfloor_paths": [
+    {
+      "id": "bowl-stand-front-unique-0",
+      "length_mm": 0.5749864979712063,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-1",
+      "length_mm": 0.47419698202710203,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-2",
+      "length_mm": 0.4741973885396934,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-3",
+      "length_mm": 0.5749860914586509,
+      "nib_mm": 0.25
+    }
+  ],
+  "bounds": "passed",
+  "pen_splits": 11,
+  "png_pixels": [
+    2970,
+    4200
+  ]
+}

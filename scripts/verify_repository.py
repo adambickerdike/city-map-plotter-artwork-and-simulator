@@ -24,6 +24,7 @@ COBRA_RELEASE = ROOT / "artwork/shelby-cobra-427-technical-blueprint-v1"
 PORSCHE_RELEASE = ROOT / "artwork/porsche-911-2-0-targa-technical-blueprint-v1"
 PRODUCTION_RELEASE = ROOT / "artwork/production-maps-2026-09-06"
 UK_STADIUM_RELEASE = ROOT / "artwork/uk-stadiums-overhead-2026-09-08"
+STADIUM_CITY_RELEASE = ROOT / "artwork/uk-stadiums-city-style-2026-09-08"
 EXPECTED_DOMAINS = {
     "01-university-cities-uk": 30,
     "02-university-cities-us": 20,
@@ -137,15 +138,24 @@ def _production_html_pages() -> list[Path]:
     pages.add(PORTFOLIO / "index.html")
     pages.add(PRODUCTION_RELEASE / "index.html")
     pages.update(UK_STADIUM_RELEASE.rglob("index.html"))
+    pages.update(STADIUM_CITY_RELEASE.rglob("index.html"))
     pages.update((ROOT / "artwork").rglob("simulation/*.html"))
     pages.update(PORTFOLIO.rglob("gallery.html"))
     return sorted(pages)
 
 
+def _repository_artwork_files(pattern: str) -> list[Path]:
+    """Count published assets without ignored local build/preview directories."""
+    return sorted(
+        path for path in ROOT.rglob(pattern)
+        if path.relative_to(ROOT).parts[0] not in {"build", ".git", ".venv"}
+    )
+
+
 def _verify_visible_map_provider_copy() -> dict[str, Any]:
     failures: list[str] = []
     inspected = 0
-    for path in sorted(ROOT.rglob("*.svg")):
+    for path in _repository_artwork_files("*.svg"):
         _require_real_file(path)
         inspected += 1
         copies = _visible_map_provider_copy(path)
@@ -962,17 +972,19 @@ def _verify_structure() -> dict[str, Any]:
             "Expected 445 portfolio PNGs and 445 portfolio SVGs, found "
             f"{len(portfolio_pngs)} and {len(portfolio_svgs)}."
         )
-    repository_pngs = list(ROOT.rglob("*.png"))
-    repository_svgs = list(ROOT.rglob("*.svg"))
+    repository_pngs = _repository_artwork_files("*.png")
+    repository_svgs = _repository_artwork_files("*.svg")
     original_pngs = [
         p for p in repository_pngs
         if not p.is_relative_to(PRODUCTION_RELEASE)
         and not p.is_relative_to(UK_STADIUM_RELEASE)
+        and not p.is_relative_to(STADIUM_CITY_RELEASE)
     ]
     original_svgs = [
         p for p in repository_svgs
         if not p.is_relative_to(PRODUCTION_RELEASE)
         and not p.is_relative_to(UK_STADIUM_RELEASE)
+        and not p.is_relative_to(STADIUM_CITY_RELEASE)
     ]
     if len(original_pngs) != 451 or len(original_svgs) != 483:
         raise VerificationError(
@@ -1030,9 +1042,11 @@ def main(argv: Sequence[str] | None = None) -> int:
         checksum_count = _verify_release_checksums() if args.full else None
         from verify_production_maps import verify
         from verify_uk_stadiums import verify as verify_stadiums
+        from verify_stadium_city_maps import verify as verify_stadium_city_maps
         try:
             production = verify(PRODUCTION_RELEASE, full=args.full)
             stadiums = verify_stadiums(UK_STADIUM_RELEASE)
+            stadium_city_maps = verify_stadium_city_maps(STADIUM_CITY_RELEASE)
         except (OSError, ValueError, KeyError, StopIteration) as exc:
             raise VerificationError(f"Production collection: {exc}") from exc
     except VerificationError as exc:
@@ -1046,6 +1060,9 @@ def main(argv: Sequence[str] | None = None) -> int:
         "release_checksum_count": checksum_count,
         "production_collection": production,
         "uk_stadium_collection": stadiums,
+        "stadium_city_collection": {
+            key: value for key, value in stadium_city_maps.items() if key != "artworks"
+        },
         **structure,
         **seaton,
         **carlisle,

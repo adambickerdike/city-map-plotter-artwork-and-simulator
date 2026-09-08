@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "id": "crystal_palace",
+  "city_header": {
+    "status": "passed",
+    "policy_id": "city-header-left-stack-v1",
+    "bounds_mm": {
+      "title": [
+        27.353,
+        29.619,
+        202.465,
+        43.667
+      ],
+      "coordinates": [
+        27.353,
+        57.815,
+        107.947,
+        61.833
+      ],
+      "compass": [
+        258.551,
+        31.891,
+        267.381,
+        59.486
+      ]
+    },
+    "compass_vertical_error_mm": 0.0
+  },
+  "svg_preflight": {
+    "source_sha256": "87e1c0cf668055f92838b7dfa468f259f3506d08774e4ad9ba133aaf3998a847",
+    "source_bytes": 1776148,
+    "page_mm": {
+      "width": 297.0,
+      "height": 420.0
+    },
+    "path_count": 1584,
+    "layer_count": 17,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "stadium_paths_expected": 43,
+  "stadium_paths_exported": 43,
+  "stadium_native_curves_preserved": true,
+  "map_bbox": {
+    "west": -0.1014582170141561,
+    "south": 51.38576176148169,
+    "east": -0.0694123609858439,
+    "north": 51.41078492851831
+  },
+  "zoom_out_width_factor": 1.15,
+  "base_format_checks": 1973,
+  "composed_format_checks": 1990,
+  "format_failures": [
+    "layer 'Stadium roof and pitch detail — Black 0.25': 3 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "native_detail_floor_exceptions": [
+    "layer 'Stadium roof and pitch detail — Black 0.25': 3 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "nominal_stadium_subfloor_paths": [
+    {
+      "id": "bowl-stand-front-unique-0",
+      "length_mm": 0.11198806647586729,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-2",
+      "length_mm": 0.5268858759159754,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-3",
+      "length_mm": 0.526886215398501,
+      "nib_mm": 0.25
+    }
+  ],
+  "bounds": "passed",
+  "pen_splits": 11,
+  "png_pixels": [
+    2970,
+    4200
+  ]
+}

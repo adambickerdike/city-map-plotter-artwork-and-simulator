@@ -1,0 +1,88 @@
+{
+  "status": "passed",
+  "id": "preston_north_end",
+  "city_header": {
+    "status": "passed",
+    "policy_id": "city-header-left-stack-v1",
+    "bounds_mm": {
+      "title": [
+        26.674,
+        29.619,
+        134.983,
+        43.667
+      ],
+      "coordinates": [
+        26.674,
+        57.815,
+        110.751,
+        61.833
+      ],
+      "compass": [
+        258.551,
+        31.891,
+        267.381,
+        59.486
+      ]
+    },
+    "compass_vertical_error_mm": 0.0
+  },
+  "svg_preflight": {
+    "source_sha256": "b027a60dfdd1b2ef18aa7b48b40db925dcb55052d5d82725a49e3a49779dedc3",
+    "source_bytes": 1760834,
+    "page_mm": {
+      "width": 297.0,
+      "height": 420.0
+    },
+    "path_count": 1594,
+    "layer_count": 17,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "stadium_paths_expected": 45,
+  "stadium_paths_exported": 45,
+  "stadium_native_curves_preserved": true,
+  "map_bbox": {
+    "west": -2.705475971391971,
+    "south": 53.75970321648169,
+    "east": -2.671645828608029,
+    "north": 53.78472638351831
+  },
+  "zoom_out_width_factor": 1.15,
+  "base_format_checks": 2005,
+  "composed_format_checks": 2022,
+  "format_failures": [
+    "layer 'Stadium roof and pitch detail — Black 0.25': 4 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "native_detail_floor_exceptions": [
+    "layer 'Stadium roof and pitch detail — Black 0.25': 4 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "nominal_stadium_subfloor_paths": [
+    {
+      "id": "bowl-stand-front-unique-0",
+      "length_mm": 0.5268860503208544,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-1",
+      "length_mm": 0.5268856905997761,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-2",
+      "length_mm": 0.5268858559818941,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-3",
+      "length_mm": 0.5268857953306196,
+      "nib_mm": 0.25
+    }
+  ],
+  "bounds": "passed",
+  "pen_splits": 11,
+  "png_pixels": [
+    2970,
+    4200
+  ]
+}

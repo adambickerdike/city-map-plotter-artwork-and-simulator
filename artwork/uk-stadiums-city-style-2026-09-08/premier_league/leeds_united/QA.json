@@ -1,0 +1,78 @@
+{
+  "status": "passed",
+  "id": "leeds_united",
+  "city_header": {
+    "status": "passed",
+    "policy_id": "city-header-left-stack-v1",
+    "bounds_mm": {
+      "title": [
+        26.674,
+        29.619,
+        170.401,
+        43.667
+      ],
+      "coordinates": [
+        26.674,
+        57.815,
+        104.732,
+        61.833
+      ],
+      "compass": [
+        258.551,
+        31.891,
+        267.381,
+        59.486
+      ]
+    },
+    "compass_vertical_error_mm": 0.0
+  },
+  "svg_preflight": {
+    "source_sha256": "d23fd15aacfc26d892370e02337674fc94479505b647a6300435fc9d92de749d",
+    "source_bytes": 2823117,
+    "page_mm": {
+      "width": 297.0,
+      "height": 420.0
+    },
+    "path_count": 2505,
+    "layer_count": 17,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "stadium_paths_expected": 50,
+  "stadium_paths_exported": 50,
+  "stadium_native_curves_preserved": true,
+  "map_bbox": {
+    "west": -1.589094502380793,
+    "south": 53.76528486330883,
+    "east": -1.5552598604565648,
+    "north": 53.79030803034545
+  },
+  "zoom_out_width_factor": 1.15,
+  "base_format_checks": 2904,
+  "composed_format_checks": 2921,
+  "format_failures": [
+    "layer 'Stadium roof and pitch detail — Black 0.25': 2 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "native_detail_floor_exceptions": [
+    "layer 'Stadium roof and pitch detail — Black 0.25': 2 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "nominal_stadium_subfloor_paths": [
+    {
+      "id": "bowl-stand-front-unique-0",
+      "length_mm": 0.5268860907184304,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-1",
+      "length_mm": 0.6388739335770454,
+      "nib_mm": 0.25
+    }
+  ],
+  "bounds": "passed",
+  "pen_splits": 10,
+  "png_pixels": [
+    2970,
+    4200
+  ]
+}

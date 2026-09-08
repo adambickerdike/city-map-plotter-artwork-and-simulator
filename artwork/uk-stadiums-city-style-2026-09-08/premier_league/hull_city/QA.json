@@ -1,0 +1,78 @@
+{
+  "status": "passed",
+  "id": "hull_city",
+  "city_header": {
+    "status": "passed",
+    "policy_id": "city-header-left-stack-v1",
+    "bounds_mm": {
+      "title": [
+        26.674,
+        29.619,
+        174.411,
+        43.667
+      ],
+      "coordinates": [
+        26.674,
+        57.815,
+        143.313,
+        61.833
+      ],
+      "compass": [
+        258.551,
+        31.891,
+        267.381,
+        59.486
+      ]
+    },
+    "compass_vertical_error_mm": 0.0
+  },
+  "svg_preflight": {
+    "source_sha256": "550e82c5152873a0427ebaf03293a4d221f2534fc385d6f22b3dc38c4441d80c",
+    "source_bytes": 2250093,
+    "page_mm": {
+      "width": 297.0,
+      "height": 420.0
+    },
+    "path_count": 2000,
+    "layer_count": 17,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "stadium_paths_expected": 54,
+  "stadium_paths_exported": 54,
+  "stadium_native_curves_preserved": true,
+  "map_bbox": {
+    "west": -0.38653163010568864,
+    "south": 53.73235891633621,
+    "east": -0.3489658055143114,
+    "north": 53.760162435265784
+  },
+  "zoom_out_width_factor": 1.15,
+  "base_format_checks": 2360,
+  "composed_format_checks": 2384,
+  "format_failures": [
+    "layer 'Stadium roof and pitch detail — Black 0.25': 2 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "native_detail_floor_exceptions": [
+    "layer 'Stadium roof and pitch detail — Black 0.25': 2 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "nominal_stadium_subfloor_paths": [
+    {
+      "id": "main-truss-cap-0",
+      "length_mm": 0.5039475016159709,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "main-truss-cap--1",
+      "length_mm": 0.5039470611929169,
+      "nib_mm": 0.25
+    }
+  ],
+  "bounds": "passed",
+  "pen_splits": 11,
+  "png_pixels": [
+    2970,
+    4200
+  ]
+}

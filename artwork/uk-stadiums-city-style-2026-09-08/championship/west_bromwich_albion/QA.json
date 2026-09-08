@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "id": "west_bromwich_albion",
+  "city_header": {
+    "status": "passed",
+    "policy_id": "city-header-left-stack-v1",
+    "bounds_mm": {
+      "title": [
+        26.674,
+        29.619,
+        206.454,
+        43.667
+      ],
+      "coordinates": [
+        26.674,
+        57.815,
+        127.032,
+        61.833
+      ],
+      "compass": [
+        258.551,
+        31.891,
+        267.381,
+        59.486
+      ]
+    },
+    "compass_vertical_error_mm": 0.0
+  },
+  "svg_preflight": {
+    "source_sha256": "9f446c448e78aea9591646773b3700669b834b1da516bcc4f07ae29cae98d4d3",
+    "source_bytes": 2191788,
+    "page_mm": {
+      "width": 297.0,
+      "height": 420.0
+    },
+    "path_count": 2025,
+    "layer_count": 17,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "stadium_paths_expected": 50,
+  "stadium_paths_exported": 50,
+  "stadium_native_curves_preserved": true,
+  "map_bbox": {
+    "west": -1.9800869905458431,
+    "south": 52.49665381648169,
+    "east": -1.947237209454157,
+    "north": 52.52167698351831
+  },
+  "zoom_out_width_factor": 1.15,
+  "base_format_checks": 2392,
+  "composed_format_checks": 2405,
+  "format_failures": [
+    "layer 'Stadium roof and pitch detail — Black 0.25': 3 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "native_detail_floor_exceptions": [
+    "layer 'Stadium roof and pitch detail — Black 0.25': 3 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "nominal_stadium_subfloor_paths": [
+    {
+      "id": "bowl-stand-front-unique-1",
+      "length_mm": 0.5268856702567677,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-2",
+      "length_mm": 0.5268860607532971,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-3",
+      "length_mm": 0.5268853150082322,
+      "nib_mm": 0.25
+    }
+  ],
+  "bounds": "passed",
+  "pen_splits": 11,
+  "png_pixels": [
+    2970,
+    4200
+  ]
+}

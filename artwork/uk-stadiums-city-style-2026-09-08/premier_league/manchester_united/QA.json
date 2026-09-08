@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "id": "manchester_united",
+  "city_header": {
+    "status": "passed",
+    "policy_id": "city-header-left-stack-v1",
+    "bounds_mm": {
+      "title": [
+        27.353,
+        29.619,
+        184.427,
+        43.667
+      ],
+      "coordinates": [
+        27.353,
+        57.815,
+        119.122,
+        61.833
+      ],
+      "compass": [
+        258.551,
+        31.891,
+        267.381,
+        59.486
+      ]
+    },
+    "compass_vertical_error_mm": 0.0
+  },
+  "svg_preflight": {
+    "source_sha256": "256ffbcbe89077923e25a3d08df4e7eb1297f143abc59ddb0cd30b9dbed2e21c",
+    "source_bytes": 6069286,
+    "page_mm": {
+      "width": 297.0,
+      "height": 420.0
+    },
+    "path_count": 5630,
+    "layer_count": 18,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "stadium_paths_expected": 52,
+  "stadium_paths_exported": 52,
+  "stadium_native_curves_preserved": true,
+  "map_bbox": {
+    "west": -2.3081781554979086,
+    "south": 53.450598013692954,
+    "east": -2.2745948205842996,
+    "north": 53.475621180729576
+  },
+  "zoom_out_width_factor": 1.15,
+  "base_format_checks": 6043,
+  "composed_format_checks": 6058,
+  "format_failures": [],
+  "native_detail_floor_exceptions": [],
+  "nominal_stadium_subfloor_paths": [],
+  "bounds": "passed",
+  "pen_splits": 11,
+  "png_pixels": [
+    2970,
+    4200
+  ]
+}

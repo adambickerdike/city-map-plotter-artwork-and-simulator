@@ -1,0 +1,78 @@
+{
+  "status": "passed",
+  "id": "wrexham",
+  "city_header": {
+    "status": "passed",
+    "policy_id": "city-header-left-stack-v1",
+    "bounds_mm": {
+      "title": [
+        27.353,
+        29.619,
+        177.743,
+        43.667
+      ],
+      "coordinates": [
+        27.353,
+        57.815,
+        110.86,
+        61.833
+      ],
+      "compass": [
+        258.551,
+        31.891,
+        267.381,
+        59.486
+      ]
+    },
+    "compass_vertical_error_mm": 0.0
+  },
+  "svg_preflight": {
+    "source_sha256": "e1b1af92f61376036989986cf7bc0416604ec25e8fa1aff645ba7cfd10534e55",
+    "source_bytes": 3258235,
+    "page_mm": {
+      "width": 297.0,
+      "height": 420.0
+    },
+    "path_count": 2929,
+    "layer_count": 18,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "stadium_paths_expected": 34,
+  "stadium_paths_exported": 34,
+  "stadium_native_curves_preserved": true,
+  "map_bbox": {
+    "west": -3.020294578925076,
+    "south": 53.03931241648169,
+    "east": -2.9870326210749236,
+    "north": 53.064335583518314
+  },
+  "zoom_out_width_factor": 1.15,
+  "base_format_checks": 3362,
+  "composed_format_checks": 3382,
+  "format_failures": [
+    "layer 'Stadium roof and pitch detail — Black 0.25': 2 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "native_detail_floor_exceptions": [
+    "layer 'Stadium roof and pitch detail — Black 0.25': 2 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "nominal_stadium_subfloor_paths": [
+    {
+      "id": "bowl-stand-front-unique-1",
+      "length_mm": 0.5268858371999594,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-2",
+      "length_mm": 0.5268857130169321,
+      "nib_mm": 0.25
+    }
+  ],
+  "bounds": "passed",
+  "pen_splits": 11,
+  "png_pixels": [
+    2970,
+    4200
+  ]
+}

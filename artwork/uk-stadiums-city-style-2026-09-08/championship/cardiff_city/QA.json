@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "id": "cardiff_city",
+  "city_header": {
+    "status": "passed",
+    "policy_id": "city-header-left-stack-v1",
+    "bounds_mm": {
+      "title": [
+        26.995,
+        30.368,
+        246.732,
+        42.918
+      ],
+      "coordinates": [
+        26.995,
+        57.815,
+        108.887,
+        61.833
+      ],
+      "compass": [
+        258.551,
+        32.266,
+        267.381,
+        59.861
+      ]
+    },
+    "compass_vertical_error_mm": 0.0005
+  },
+  "svg_preflight": {
+    "source_sha256": "319e6ffe7f835cf8190ab96823d18873991686ae57d84df5b5d0fa08b2cced8d",
+    "source_bytes": 3242970,
+    "page_mm": {
+      "width": 297.0,
+      "height": 420.0
+    },
+    "path_count": 2790,
+    "layer_count": 19,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "stadium_paths_expected": 54,
+  "stadium_paths_exported": 54,
+  "stadium_native_curves_preserved": true,
+  "map_bbox": {
+    "west": -3.220792530844243,
+    "south": 51.458919140535215,
+    "east": -3.185127869155757,
+    "north": 51.48672265946479
+  },
+  "zoom_out_width_factor": 1.15,
+  "base_format_checks": 3178,
+  "composed_format_checks": 3215,
+  "format_failures": [],
+  "native_detail_floor_exceptions": [],
+  "nominal_stadium_subfloor_paths": [],
+  "bounds": "passed",
+  "pen_splits": 11,
+  "png_pixels": [
+    2970,
+    4200
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "id": "chelsea",
+  "city_header": {
+    "status": "passed",
+    "policy_id": "city-header-left-stack-v1",
+    "bounds_mm": {
+      "title": [
+        27.353,
+        29.619,
+        225.85,
+        43.667
+      ],
+      "coordinates": [
+        27.353,
+        57.815,
+        103.402,
+        61.833
+      ],
+      "compass": [
+        258.551,
+        31.891,
+        267.381,
+        59.486
+      ]
+    },
+    "compass_vertical_error_mm": 0.0
+  },
+  "svg_preflight": {
+    "source_sha256": "f49346b9796d854487a7203989f53b09be18887b29bc1ebe00896e2e89a3135a",
+    "source_bytes": 3889037,
+    "page_mm": {
+      "width": 297.0,
+      "height": 420.0
+    },
+    "path_count": 3547,
+    "layer_count": 18,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "stadium_paths_expected": 50,
+  "stadium_paths_exported": 50,
+  "stadium_native_curves_preserved": true,
+  "map_bbox": {
+    "west": -0.20700789422392746,
+    "south": 51.469213889481686,
+    "east": -0.17490343177607254,
+    "north": 51.49423705651831
+  },
+  "zoom_out_width_factor": 1.15,
+  "base_format_checks": 3940,
+  "composed_format_checks": 3965,
+  "format_failures": [],
+  "native_detail_floor_exceptions": [],
+  "nominal_stadium_subfloor_paths": [],
+  "bounds": "passed",
+  "pen_splits": 11,
+  "png_pixels": [
+    2970,
+    4200
+  ]
+}

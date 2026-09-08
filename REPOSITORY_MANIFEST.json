@@ -12,10 +12,10 @@
     "checksum_entry_count": 2463
   },
   "repository_assets": {
-    "png_count": 1497,
-    "png_bytes": 1386340608,
-    "svg_count": 4708,
-    "svg_bytes": 3362962360,
+    "png_count": 1631,
+    "png_bytes": 1573047546,
+    "svg_count": 5235,
+    "svg_bytes": 3661134729,
     "git_lfs_patterns": [
       "*.png",
       "*.svg",
@@ -25,13 +25,13 @@
       "artwork/latest-map-portfolio-2026-08-18-v3/03-hiking-maps/contracts/hiking-data/hike-plates-release-v1.json",
       "artwork/latest-map-portfolio-2026-08-18-v3/06-f1-courses/code/src/city_map_plotter/data/f1-circuits-2026.json"
     ],
-    "git_lfs_tracked_path_count": 7600,
-    "git_lfs_approximate_bytes": 7746851625,
+    "git_lfs_tracked_path_count": 8393,
+    "git_lfs_approximate_bytes": 8505733441,
     "production_visible_provider_copy_audit": "passed",
-    "production_visible_provider_copy_svg_count": 4708,
-    "production_visible_provider_copy_html_count": 22,
-    "git_lfs_matching_path_count": 7603,
-    "git_lfs_matching_bytes": 7749957926
+    "production_visible_provider_copy_svg_count": 5235,
+    "production_visible_provider_copy_html_count": 25,
+    "git_lfs_matching_path_count": 8393,
+    "git_lfs_matching_bytes": 8505733441
   },
   "standalone_releases": {
     "seaton_sluice_v8": {
@@ -137,5 +137,20 @@
     "image_format": "WebP",
     "image_bytes": 10503218,
     "git_lfs_required_for_examples": false
+  },
+  "stadium_city_release": {
+    "release_id": "uk-stadiums-city-style-2026-09-08",
+    "path": "artwork/uk-stadiums-city-style-2026-09-08",
+    "catalog": "artwork/uk-stadiums-city-style-2026-09-08/catalog.json",
+    "import_guide": "artwork/uk-stadiums-city-style-2026-09-08/SOFTWARE_IMPORT.md",
+    "verification": "scripts/verify_stadium_city_maps.py",
+    "stadium_count": 44,
+    "premier_league_count": 20,
+    "championship_count": 24,
+    "paper": "A3 portrait",
+    "zoom_out_width_factor": 1.15,
+    "city_header_policy": "city-header-left-stack-v1",
+    "native_stadium_paths_preserved": true,
+    "physical_execution_allowed": false
   }
 }

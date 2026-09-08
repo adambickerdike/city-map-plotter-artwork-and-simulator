@@ -1,6 +1,26 @@
 # City Map Plotter — artwork portfolio and physical simulator
 
-## Latest UK stadiums — Premier League and Championship
+## Latest stadium maps — matching the city collection
+
+The [44 updated stadium maps](artwork/uk-stadiums-city-style-2026-09-08/README.md)
+now match the city and university prints: A3 portrait, the stadium name at the
+top, city and coordinates beneath, and the diamond compass alongside. The map
+underneath covers a 15% wider neighbourhood in the same detailed house colours.
+Every original stadium roof and pitch path is retained, including native curves.
+
+[Browse the gallery](artwork/uk-stadiums-city-style-2026-09-08/index.html) ·
+[Import and rebuild](artwork/uk-stadiums-city-style-2026-09-08/SOFTWARE_IMPORT.md) ·
+[Catalogue](artwork/uk-stadiums-city-style-2026-09-08/catalog.json)
+
+Each map includes a 254 DPI PNG, stadium close-up, ordered pen SVGs and a compiled
+plot job. Animated previews and exact saved map extracts accompany the collection.
+
+```bash
+git lfs pull --include="artwork/uk-stadiums-city-style-2026-09-08/**,artwork/uk-stadiums-overhead-2026-09-08/**"
+python3 scripts/verify_stadium_city_maps.py
+```
+
+## Original stadium architecture and integration handoff
 
 The [44-stadium handoff](artwork/uk-stadiums-overhead-2026-09-08/README.md)
 contains the latest **20 Premier League and 24 Championship** drawings from

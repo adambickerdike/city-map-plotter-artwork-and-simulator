@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "id": "middlesbrough",
+  "city_header": {
+    "status": "passed",
+    "policy_id": "city-header-left-stack-v1",
+    "bounds_mm": {
+      "title": [
+        26.674,
+        29.619,
+        239.898,
+        43.667
+      ],
+      "coordinates": [
+        26.674,
+        57.815,
+        128.664,
+        61.833
+      ],
+      "compass": [
+        258.551,
+        31.891,
+        267.381,
+        59.486
+      ]
+    },
+    "compass_vertical_error_mm": 0.0
+  },
+  "svg_preflight": {
+    "source_sha256": "1a1f8923b072a6764c8769449e6d85c1263585ed8aa27c816bf3e51524ccd8f9",
+    "source_bytes": 3667157,
+    "page_mm": {
+      "width": 297.0,
+      "height": 420.0
+    },
+    "path_count": 3513,
+    "layer_count": 17,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "stadium_paths_expected": 46,
+  "stadium_paths_exported": 46,
+  "stadium_native_curves_preserved": true,
+  "map_bbox": {
+    "west": -1.2360797306339006,
+    "south": 54.56441164053521,
+    "east": -1.1977508693660992,
+    "north": 54.592215159464786
+  },
+  "zoom_out_width_factor": 1.15,
+  "base_format_checks": 3878,
+  "composed_format_checks": 3891,
+  "format_failures": [],
+  "native_detail_floor_exceptions": [],
+  "nominal_stadium_subfloor_paths": [],
+  "bounds": "passed",
+  "pen_splits": 11,
+  "png_pixels": [
+    2970,
+    4200
+  ]
+}

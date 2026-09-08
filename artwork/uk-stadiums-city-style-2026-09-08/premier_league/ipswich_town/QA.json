@@ -1,0 +1,88 @@
+{
+  "status": "passed",
+  "id": "ipswich_town",
+  "city_header": {
+    "status": "passed",
+    "policy_id": "city-header-left-stack-v1",
+    "bounds_mm": {
+      "title": [
+        26.674,
+        29.619,
+        191.112,
+        43.667
+      ],
+      "coordinates": [
+        26.674,
+        57.815,
+        107.863,
+        61.833
+      ],
+      "compass": [
+        258.551,
+        31.891,
+        267.381,
+        59.486
+      ]
+    },
+    "compass_vertical_error_mm": 0.0
+  },
+  "svg_preflight": {
+    "source_sha256": "f9d923c3face7d0c2a61601d384e29e7739d25fdb67e9edfb4db6b5d296b6111",
+    "source_bytes": 4400713,
+    "page_mm": {
+      "width": 297.0,
+      "height": 420.0
+    },
+    "path_count": 3798,
+    "layer_count": 17,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "stadium_paths_expected": 43,
+  "stadium_paths_exported": 43,
+  "stadium_native_curves_preserved": true,
+  "map_bbox": {
+    "west": 1.1272239264167576,
+    "south": 52.041050332608215,
+    "east": 1.1633514528252424,
+    "north": 52.06885385153779
+  },
+  "zoom_out_width_factor": 1.15,
+  "base_format_checks": 4188,
+  "composed_format_checks": 4201,
+  "format_failures": [
+    "layer 'Stadium roof and pitch detail — Black 0.25': 4 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "native_detail_floor_exceptions": [
+    "layer 'Stadium roof and pitch detail — Black 0.25': 4 sub-nib strokes shorter than 0.75 mm (3 x nib) — these plot as dots"
+  ],
+  "nominal_stadium_subfloor_paths": [
+    {
+      "id": "bowl-stand-front-unique-0",
+      "length_mm": 0.20157889624164407,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-2",
+      "length_mm": 0.4741978183172878,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-3",
+      "length_mm": 0.47419781831728,
+      "nib_mm": 0.25
+    },
+    {
+      "id": "bowl-stand-front-unique-4",
+      "length_mm": 0.47419781831727986,
+      "nib_mm": 0.25
+    }
+  ],
+  "bounds": "passed",
+  "pen_splits": 11,
+  "png_pixels": [
+    2970,
+    4200
+  ]
+}
