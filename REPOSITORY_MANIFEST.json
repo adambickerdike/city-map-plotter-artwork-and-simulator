@@ -12,10 +12,10 @@
     "checksum_entry_count": 2463
   },
   "repository_assets": {
-    "png_count": 1631,
-    "png_bytes": 1549391387,
-    "svg_count": 5231,
-    "svg_bytes": 3584089502,
+    "png_count": 1650,
+    "png_bytes": 1587038199,
+    "svg_count": 5299,
+    "svg_bytes": 3698038278,
     "git_lfs_patterns": [
       "*.png",
       "*.svg",
@@ -25,13 +25,13 @@
       "artwork/latest-map-portfolio-2026-08-18-v3/03-hiking-maps/contracts/hiking-data/hike-plates-release-v1.json",
       "artwork/latest-map-portfolio-2026-08-18-v3/06-f1-courses/code/src/city_map_plotter/data/f1-circuits-2026.json"
     ],
-    "git_lfs_tracked_path_count": 8389,
-    "git_lfs_approximate_bytes": 8347622479,
+    "git_lfs_tracked_path_count": 8476,
+    "git_lfs_approximate_bytes": 8499218067,
     "production_visible_provider_copy_audit": "passed",
-    "production_visible_provider_copy_svg_count": 5231,
-    "production_visible_provider_copy_html_count": 25,
-    "git_lfs_matching_path_count": 8389,
-    "git_lfs_matching_bytes": 8347622479
+    "production_visible_provider_copy_svg_count": 5299,
+    "production_visible_provider_copy_html_count": 28,
+    "git_lfs_matching_path_count": 8476,
+    "git_lfs_matching_bytes": 8499218067
   },
   "standalone_releases": {
     "seaton_sluice_v8": {
@@ -155,5 +155,22 @@
     "club_headers": 44,
     "stadium_linear_enlargement_vs_previous": 1.25,
     "width_vs_previous_city_edition": 0.8
+  },
+  "promotional_lettering_release": {
+    "path": "artwork/the-plot-room-promotional-a3",
+    "index": "artwork/the-plot-room-promotional-a3/README.md",
+    "catalog": "artwork/the-plot-room-promotional-a3/catalog.json",
+    "verification": "scripts/verify_plot_room_promotion.py",
+    "print_count": 8,
+    "formats": [
+      "A3 portrait",
+      "A3 landscape"
+    ],
+    "treatments": [
+      "original-map-colours-with-black-letter-outlines",
+      "white-pen-on-dark-blue"
+    ],
+    "website": "theplotroom.com",
+    "physical_execution_allowed": false
   }
 }

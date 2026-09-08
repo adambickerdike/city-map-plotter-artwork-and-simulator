@@ -1,5 +1,15 @@
 # City Map Plotter — artwork portfolio and physical simulator
 
+## The Plot Room promotional writing plots
+
+The [A3 promotional lettering prints](artwork/the-plot-room-promotional-a3/README.md)
+are in **artwork/the-plot-room-promotional-a3/**. Each has `theplotroom.com`
+underneath: original city-map colours inside black-outlined letters, or white
+pen on dark blue. PDFs, PNGs, SVGs and pen files are included.
+
+[Colour previews](artwork/the-plot-room-promotional-a3/colour-comparison.png) ·
+[Blueprint previews](artwork/the-plot-room-promotional-a3/blueprint-comparison.png)
+
 ## Latest stadium maps — matching the city collection
 
 The [44 updated stadium maps](artwork/uk-stadiums-city-style-2026-09-08/README.md)

@@ -1,0 +1,85 @@
+{
+  "concept": {
+    "id": "01-city-stencil",
+    "name": "City stencil",
+    "source": "london",
+    "format": "a3-portrait",
+    "font": "sans",
+    "palette": "house",
+    "lines": [
+      [
+        "THE",
+        24,
+        61,
+        249,
+        72
+      ],
+      [
+        "PLOT",
+        24,
+        146,
+        249,
+        82
+      ],
+      [
+        "ROOM",
+        24,
+        241,
+        249,
+        88
+      ]
+    ],
+    "focus_y": 0.58,
+    "description": "Bold, three-line lettering filled with the established London map and Thames."
+  },
+  "treatment": "blueprint",
+  "website": "theplotroom.com",
+  "page_mm": [
+    297.0,
+    420.0
+  ],
+  "input": {
+    "path": "reproduction/inputs/blueprint/01-city-stencil.plot.svg",
+    "sha256": "745f0fcf181dd3f824548d09a9b075a5694fdfa9057bae216dc7879b812c63a0",
+    "bytes": 5589369
+  },
+  "palette_source": {
+    "path": "artwork/production-maps-2026-09-06/08-city-maps-uk/001-uk-university-lse/001-uk-university-lse.svg",
+    "sha256": "bffa73055506ba9998a40b65a96545dba89ea97ee87348b5e07b32b5882ee651"
+  },
+  "map_and_letter_outline_geometry_unchanged": true,
+  "map_palette": "white-blueprint-pens",
+  "website_bounds_mm": [
+    100.142,
+    357.961,
+    196.858,
+    367.037
+  ],
+  "website_nib_mm": 0.4,
+  "website_font": "plotter-grid-v4",
+  "paper_colour": "#123b63",
+  "physical_execution_allowed": false,
+  "preflight": {
+    "source_sha256": "35d08401e0376064170e47b3093ae3a671d122d9a957c010cf6af103eb313041",
+    "source_bytes": 3503678,
+    "page_mm": {
+      "width": 297.0,
+      "height": 420.0
+    },
+    "path_count": 4519,
+    "layer_count": 13,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "png_pixels": [
+    3508,
+    4961
+  ],
+  "checks": {
+    "a3_pdf": "passed",
+    "geometry_preservation": "passed",
+    "website_bounds": "passed",
+    "pen_split_parity": "passed"
+  }
+}

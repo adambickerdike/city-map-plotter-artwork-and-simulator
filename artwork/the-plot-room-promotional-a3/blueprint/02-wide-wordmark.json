@@ -1,0 +1,78 @@
+{
+  "concept": {
+    "id": "02-wide-wordmark",
+    "name": "Wide wordmark",
+    "source": "london",
+    "format": "a3-landscape",
+    "font": "sans",
+    "palette": "house",
+    "lines": [
+      [
+        "THE PLOT",
+        24,
+        53,
+        372,
+        70
+      ],
+      [
+        "ROOM",
+        24,
+        140,
+        372,
+        103
+      ]
+    ],
+    "focus_y": 0.69,
+    "description": "A broad two-line composition, with a larger ROOM and the Thames running through it."
+  },
+  "treatment": "blueprint",
+  "website": "theplotroom.com",
+  "page_mm": [
+    420.0,
+    297.0
+  ],
+  "input": {
+    "path": "reproduction/inputs/blueprint/02-wide-wordmark.plot.svg",
+    "sha256": "3c083620340ba05a1361d5387dd4c7d4bda696cd05330fae28e06c1d126fea30",
+    "bytes": 3065917
+  },
+  "palette_source": {
+    "path": "artwork/production-maps-2026-09-06/08-city-maps-uk/001-uk-university-lse/001-uk-university-lse.svg",
+    "sha256": "bffa73055506ba9998a40b65a96545dba89ea97ee87348b5e07b32b5882ee651"
+  },
+  "map_and_letter_outline_geometry_unchanged": true,
+  "map_palette": "white-blueprint-pens",
+  "website_bounds_mm": [
+    161.642,
+    253.461,
+    258.358,
+    262.537
+  ],
+  "website_nib_mm": 0.4,
+  "website_font": "plotter-grid-v4",
+  "paper_colour": "#123b63",
+  "physical_execution_allowed": false,
+  "preflight": {
+    "source_sha256": "f7d7a88f8b98432095ed18faa648800fe7ae7d369317ca088fb315deb078fc59",
+    "source_bytes": 1877567,
+    "page_mm": {
+      "width": 420.0,
+      "height": 297.0
+    },
+    "path_count": 2593,
+    "layer_count": 13,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "png_pixels": [
+    4961,
+    3508
+  ],
+  "checks": {
+    "a3_pdf": "passed",
+    "geometry_preservation": "passed",
+    "website_bounds": "passed",
+    "pen_split_parity": "passed"
+  }
+}

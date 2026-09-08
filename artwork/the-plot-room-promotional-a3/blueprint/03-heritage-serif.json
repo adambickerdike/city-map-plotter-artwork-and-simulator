@@ -1,0 +1,85 @@
+{
+  "concept": {
+    "id": "03-heritage-serif",
+    "name": "Heritage serif",
+    "source": "london",
+    "format": "a3-portrait",
+    "font": "serif",
+    "palette": "heritage",
+    "lines": [
+      [
+        "THE",
+        24,
+        59,
+        249,
+        71
+      ],
+      [
+        "PLOT",
+        24,
+        143,
+        249,
+        84
+      ],
+      [
+        "ROOM",
+        24,
+        240,
+        249,
+        91
+      ]
+    ],
+    "focus_y": 0.63,
+    "description": "Black-weight serif lettering, London streets and the River Thames in a deeper house palette."
+  },
+  "treatment": "blueprint",
+  "website": "theplotroom.com",
+  "page_mm": [
+    297.0,
+    420.0
+  ],
+  "input": {
+    "path": "reproduction/inputs/blueprint/03-heritage-serif.plot.svg",
+    "sha256": "54efd0a1e9ed3a758864da1fd046e5356e66e8f1c0b302d964f2f661cc9e3b2f",
+    "bytes": 5488774
+  },
+  "palette_source": {
+    "path": "artwork/production-maps-2026-09-06/08-city-maps-uk/001-uk-university-lse/001-uk-university-lse.svg",
+    "sha256": "bffa73055506ba9998a40b65a96545dba89ea97ee87348b5e07b32b5882ee651"
+  },
+  "map_and_letter_outline_geometry_unchanged": true,
+  "map_palette": "white-blueprint-pens",
+  "website_bounds_mm": [
+    100.142,
+    358.961,
+    196.858,
+    368.037
+  ],
+  "website_nib_mm": 0.4,
+  "website_font": "plotter-grid-v4",
+  "paper_colour": "#123b63",
+  "physical_execution_allowed": false,
+  "preflight": {
+    "source_sha256": "f2bae493396b3921ef762603cf2838aa3be839ae1c4ecd497d95dd8909f061a8",
+    "source_bytes": 3446131,
+    "page_mm": {
+      "width": 297.0,
+      "height": 420.0
+    },
+    "path_count": 4427,
+    "layer_count": 13,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "png_pixels": [
+    3508,
+    4961
+  ],
+  "checks": {
+    "a3_pdf": "passed",
+    "geometry_preservation": "passed",
+    "website_bounds": "passed",
+    "pen_split_parity": "passed"
+  }
+}
