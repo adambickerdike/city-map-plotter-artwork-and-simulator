@@ -348,7 +348,7 @@ def package(rows):
         )
         sid = c["id"]
         table.append(
-            f"| {sid[:2]} — {c['name']} | [PNG](colour/{sid}.png) · [PDF](colour/{sid}.pdf) | [PNG](blueprint/{sid}.png) · [PDF](blueprint/{sid}.pdf) |"
+            f"| {sid[:2]} — {c['name']} | [Plot SVG](colour/{sid}.plot.svg) · [PNG](colour/{sid}.png) · [PDF](colour/{sid}.pdf) | [Plot SVG](blueprint/{sid}.plot.svg) · [PNG](blueprint/{sid}.png) · [PDF](blueprint/{sid}.pdf) |"
         )
     page = (
         """<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Plot Room — promotional lettering</title><style>*{box-sizing:border-box}body{margin:0;background:#eeede9;color:#26333d;font-family:system-ui,sans-serif}main{max-width:1500px;margin:auto;padding:32px}p{line-height:1.6}section{margin-top:38px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:28px}article>a{display:flex;height:630px;align-items:center;justify-content:center}img{max-width:100%;max-height:100%;box-shadow:0 3px 14px #26333d20}a{color:#244e6a}h3{font-size:17px}footer{margin-top:40px;border-top:1px solid #bbb;padding-top:20px}@media(max-width:700px){.pair{grid-template-columns:1fr}main{padding:20px}article>a{height:520px}}</style><main><h1>The Plot Room / A3 promotional prints</h1><p>Original city-map colours inside black-outlined letters, or white pen on dark blue.<br>Every print carries <strong>theplotroom.com</strong> beneath the lettering.</p><nav><a href="colour-comparison.png">Colour overview</a> · <a href="blueprint-comparison.png">Blueprint overview</a> · <a href="simulation/colour.html">Colour simulation</a> · <a href="simulation/blueprint.html">Blueprint simulation</a></nav>"""
@@ -360,6 +360,12 @@ def package(rows):
         """# The Plot Room — A3 promotional writing plots
 
 The colour prints retain the original road, river, path, park and landmark colours from the city map, with **black outlines around the letters**. The blueprint prints use **white pen on dark blue**. All eight exports have **theplotroom.com** centred underneath in plotted lowercase lettering.
+
+## Download for pen-plotting software
+
+**[Download Colour pen files (ZIP)](https://github.com/adambickerdike/city-map-plotter-artwork-and-simulator/releases/download/plot-room-promotional-a3-2026-09-09/the-plot-room-colour-pen-files.zip)** · **[Download Blueprint pen files (ZIP)](https://github.com/adambickerdike/city-map-plotter-artwork-and-simulator/releases/download/plot-room-promotional-a3-2026-09-09/the-plot-room-blueprint-pen-files.zip)**
+
+Extract a ZIP and import a `.plot.svg` file using **Load SVG / Import SVG**. Both downloads include all four layouts, numbered per-pen SVGs, previews and an import guide. Keep the original A3 page size and 100% scale. The blueprint files use white pens on blue paper.
 
 [Open the local gallery](index.html) · [Colour overview](colour-comparison.png) · [Blueprint overview](blueprint-comparison.png)
 

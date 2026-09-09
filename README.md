@@ -7,6 +7,9 @@ are in **artwork/the-plot-room-promotional-a3/**. Each has `theplotroom.com`
 underneath: original city-map colours inside black-outlined letters, or white
 pen on dark blue. PDFs, PNGs, SVGs and pen files are included.
 
+[Download Colour plotting files (ZIP)](https://github.com/adambickerdike/city-map-plotter-artwork-and-simulator/releases/download/plot-room-promotional-a3-2026-09-09/the-plot-room-colour-pen-files.zip) ·
+[Download Blueprint plotting files (ZIP)](https://github.com/adambickerdike/city-map-plotter-artwork-and-simulator/releases/download/plot-room-promotional-a3-2026-09-09/the-plot-room-blueprint-pen-files.zip)
+
 [Colour previews](artwork/the-plot-room-promotional-a3/colour-comparison.png) ·
 [Blueprint previews](artwork/the-plot-room-promotional-a3/blueprint-comparison.png)
 

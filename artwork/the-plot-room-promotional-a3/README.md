@@ -2,16 +2,22 @@
 
 The colour prints retain the original road, river, path, park and landmark colours from the city map, with **black outlines around the letters**. The blueprint prints use **white pen on dark blue**. All eight exports have **theplotroom.com** centred underneath in plotted lowercase lettering.
 
+## Download for pen-plotting software
+
+**[Download Colour pen files (ZIP)](https://github.com/adambickerdike/city-map-plotter-artwork-and-simulator/releases/download/plot-room-promotional-a3-2026-09-09/the-plot-room-colour-pen-files.zip)** · **[Download Blueprint pen files (ZIP)](https://github.com/adambickerdike/city-map-plotter-artwork-and-simulator/releases/download/plot-room-promotional-a3-2026-09-09/the-plot-room-blueprint-pen-files.zip)**
+
+Extract a ZIP and import a `.plot.svg` file using **Load SVG / Import SVG**. Both downloads include all four layouts, numbered per-pen SVGs, previews and an import guide. Keep the original A3 page size and 100% scale. The blueprint files use white pens on blue paper.
+
 [Open the local gallery](index.html) · [Colour overview](colour-comparison.png) · [Blueprint overview](blueprint-comparison.png)
 
 ![Colour and blueprint examples](featured-comparison.png)
 
 | Design | Colour | Blueprint |
 |---|---|---|
-| 01 — City stencil | [PNG](colour/01-city-stencil.png) · [PDF](colour/01-city-stencil.pdf) | [PNG](blueprint/01-city-stencil.png) · [PDF](blueprint/01-city-stencil.pdf) |
-| 02 — Wide wordmark | [PNG](colour/02-wide-wordmark.png) · [PDF](colour/02-wide-wordmark.pdf) | [PNG](blueprint/02-wide-wordmark.png) · [PDF](blueprint/02-wide-wordmark.pdf) |
-| 03 — Heritage serif | [PNG](colour/03-heritage-serif.png) · [PDF](colour/03-heritage-serif.pdf) | [PNG](blueprint/03-heritage-serif.png) · [PDF](blueprint/03-heritage-serif.pdf) |
-| 04 — Ink and river | [PNG](colour/04-ink-and-river.png) · [PDF](colour/04-ink-and-river.pdf) | [PNG](blueprint/04-ink-and-river.png) · [PDF](blueprint/04-ink-and-river.pdf) |
+| 01 — City stencil | [Plot SVG](colour/01-city-stencil.plot.svg) · [PNG](colour/01-city-stencil.png) · [PDF](colour/01-city-stencil.pdf) | [Plot SVG](blueprint/01-city-stencil.plot.svg) · [PNG](blueprint/01-city-stencil.png) · [PDF](blueprint/01-city-stencil.pdf) |
+| 02 — Wide wordmark | [Plot SVG](colour/02-wide-wordmark.plot.svg) · [PNG](colour/02-wide-wordmark.png) · [PDF](colour/02-wide-wordmark.pdf) | [Plot SVG](blueprint/02-wide-wordmark.plot.svg) · [PNG](blueprint/02-wide-wordmark.png) · [PDF](blueprint/02-wide-wordmark.pdf) |
+| 03 — Heritage serif | [Plot SVG](colour/03-heritage-serif.plot.svg) · [PNG](colour/03-heritage-serif.png) · [PDF](colour/03-heritage-serif.pdf) | [Plot SVG](blueprint/03-heritage-serif.plot.svg) · [PNG](blueprint/03-heritage-serif.png) · [PDF](blueprint/03-heritage-serif.pdf) |
+| 04 — Ink and river | [Plot SVG](colour/04-ink-and-river.plot.svg) · [PNG](colour/04-ink-and-river.png) · [PDF](colour/04-ink-and-river.pdf) | [Plot SVG](blueprint/04-ink-and-river.plot.svg) · [PNG](blueprint/04-ink-and-river.png) · [PDF](blueprint/04-ink-and-river.pdf) |
 
 Options 01 and 04 now share the original map colours and identical stencil geometry; their earlier option numbers are retained. Option 02 is landscape, and the others are portrait.
 
