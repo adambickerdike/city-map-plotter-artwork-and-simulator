@@ -26,6 +26,7 @@ PRODUCTION_RELEASE = ROOT / "artwork/production-maps-2026-09-06"
 UK_STADIUM_RELEASE = ROOT / "artwork/uk-stadiums-overhead-2026-09-08"
 STADIUM_CITY_RELEASE = ROOT / "artwork/uk-stadiums-city-style-2026-09-08"
 PROMOTIONAL_RELEASE = ROOT / "artwork/the-plot-room-promotional-a3"
+IRAN_CITY_RELEASE = ROOT / "artwork/iran-city-maps-2026-09-10"
 EXPECTED_DOMAINS = {
     "01-university-cities-uk": 30,
     "02-university-cities-us": 20,
@@ -141,6 +142,7 @@ def _production_html_pages() -> list[Path]:
     pages.update(UK_STADIUM_RELEASE.rglob("index.html"))
     pages.update(STADIUM_CITY_RELEASE.rglob("index.html"))
     pages.update(PROMOTIONAL_RELEASE.rglob("index.html"))
+    pages.update(IRAN_CITY_RELEASE.rglob("index.html"))
     pages.update((ROOT / "artwork").rglob("simulation/*.html"))
     pages.update(PORTFOLIO.rglob("gallery.html"))
     return sorted(pages)
@@ -982,6 +984,7 @@ def _verify_structure() -> dict[str, Any]:
         and not p.is_relative_to(UK_STADIUM_RELEASE)
         and not p.is_relative_to(STADIUM_CITY_RELEASE)
         and not p.is_relative_to(PROMOTIONAL_RELEASE)
+        and not p.is_relative_to(IRAN_CITY_RELEASE)
     ]
     original_svgs = [
         p for p in repository_svgs
@@ -989,6 +992,7 @@ def _verify_structure() -> dict[str, Any]:
         and not p.is_relative_to(UK_STADIUM_RELEASE)
         and not p.is_relative_to(STADIUM_CITY_RELEASE)
         and not p.is_relative_to(PROMOTIONAL_RELEASE)
+        and not p.is_relative_to(IRAN_CITY_RELEASE)
     ]
     if len(original_pngs) != 451 or len(original_svgs) != 483:
         raise VerificationError(
@@ -1048,11 +1052,13 @@ def main(argv: Sequence[str] | None = None) -> int:
         from verify_uk_stadiums import verify as verify_stadiums
         from verify_stadium_city_maps import verify as verify_stadium_city_maps
         from verify_plot_room_promotion import verify as verify_promotion
+        from verify_iran_city_maps import verify as verify_iran_city_maps
         try:
             production = verify(PRODUCTION_RELEASE, full=args.full)
             stadiums = verify_stadiums(UK_STADIUM_RELEASE)
             stadium_city_maps = verify_stadium_city_maps(STADIUM_CITY_RELEASE)
             promotion = verify_promotion(PROMOTIONAL_RELEASE)
+            iran_cities = verify_iran_city_maps(IRAN_CITY_RELEASE)
         except (OSError, ValueError, KeyError, StopIteration) as exc:
             raise VerificationError(f"Production collection: {exc}") from exc
     except VerificationError as exc:
@@ -1067,6 +1073,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         "production_collection": production,
         "uk_stadium_collection": stadiums,
         "promotional_lettering": promotion,
+        "iran_city_maps": iran_cities,
         "stadium_city_collection": {
             key: value for key, value in stadium_city_maps.items() if key != "artworks"
         },

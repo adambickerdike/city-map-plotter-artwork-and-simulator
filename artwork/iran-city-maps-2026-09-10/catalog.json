@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "release_id": "iran-city-maps-2026-09-10",
+  "title": "Tehran and Karaj",
+  "paper": "A3 portrait / 297 x 420 mm",
+  "style": "university-memorabilia-v2",
+  "detail_profile": "plotter-faithful",
+  "download_release": "https://github.com/adambickerdike/city-map-plotter-artwork-and-simulator/releases/tag/tehran-karaj-a3-2026-09-10",
+  "cities": [
+    {
+      "id": "tehran",
+      "title": "TEHRAN",
+      "center": [
+        35.7,
+        51.41
+      ],
+      "radius_km": 4.5,
+      "scope": "Central Tehran and surrounding neighbourhoods",
+      "extract_bbox_wsen": [
+        51.34770738441849,
+        35.64941319303926,
+        51.4722926155815,
+        35.75058680696075
+      ],
+      "svg": {
+        "path": "tehran/tehran-a3-portrait.svg",
+        "sha256": "568fd7e45754df8e739ee4bde520ffc4dab59690764c80ad6659aa13467403a5",
+        "bytes": 14428207
+      },
+      "png": {
+        "path": "tehran/tehran-a3-portrait.png",
+        "sha256": "c79730733a7f1db1d5cd6d93b964a236b4082bcbb31eb1a559858809a52c0151",
+        "bytes": 5828365
+      },
+      "pdf": {
+        "path": "tehran/tehran-a3-portrait.pdf",
+        "sha256": "82f90a0250b7fab8998ab28e83c0f455bb1c2890250cda6bd9fbc89e4f31ce36",
+        "bytes": 710536
+      },
+      "preview": {
+        "path": "tehran/preview.png",
+        "sha256": "8278a2448074531f9280f6fa55ae5f0e7ec6684236d0b1fc3d8827485b423b92",
+        "bytes": 1176592
+      },
+      "manifest": {
+        "path": "tehran/tehran-a3-portrait.plot.json",
+        "sha256": "87fa035ee45c93c715a64045e287e1452d85d482609b92e3bdd4dba27c343938",
+        "bytes": 8381723
+      },
+      "job": {
+        "path": "tehran/tehran-a3-portrait.plotjob.json",
+        "sha256": "2253fa5051eff137de11d60337502c5ac9abb7bfc45b00417329f78fc49af629",
+        "bytes": 11169096
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen_id": "blue-0-4",
+          "path": "tehran/pens/tehran-a3-portrait.pen-01-blue-0-4.svg",
+          "sha256": "eafb87810ec9d57de4eb575fba99e0df6fe3f938b2ecfdd4f5319f342a8e4179",
+          "bytes": 20527
+        },
+        {
+          "step": 2,
+          "pen_id": "blue-0-25",
+          "path": "tehran/pens/tehran-a3-portrait.pen-02-blue-0-25.svg",
+          "sha256": "7e24768e3a4e7a6dde89ab6471e3506147f949f109492f3191fd0212c081db0c",
+          "bytes": 16132
+        },
+        {
+          "step": 3,
+          "pen_id": "green-0-25",
+          "path": "tehran/pens/tehran-a3-portrait.pen-03-green-0-25.svg",
+          "sha256": "4241f397d9eb5e28a7ce2b44b26ff153a15838539c3b5e51e69d74d00d5f7457",
+          "bytes": 518045
+        },
+        {
+          "step": 4,
+          "pen_id": "purple-0-25",
+          "path": "tehran/pens/tehran-a3-portrait.pen-04-purple-0-25.svg",
+          "sha256": "6de290bf88dfae3cbfb7c175136784e019fc12985e650ebf67b6c611f53209b9",
+          "bytes": 42031
+        },
+        {
+          "step": 5,
+          "pen_id": "grey-0-25",
+          "path": "tehran/pens/tehran-a3-portrait.pen-05-grey-0-25.svg",
+          "sha256": "a617c44946eb889c6c787e40b42f1e163b79df7473c14ad3d3682ecd2b2eb794",
+          "bytes": 12560046
+        },
+        {
+          "step": 6,
+          "pen_id": "red-0-4",
+          "path": "tehran/pens/tehran-a3-portrait.pen-06-red-0-4.svg",
+          "sha256": "bea1716fbc6e26a4a6035e8481180786fbd355e1a4137035529580d296c74aef",
+          "bytes": 593541
+        },
+        {
+          "step": 7,
+          "pen_id": "red-0-25",
+          "path": "tehran/pens/tehran-a3-portrait.pen-07-red-0-25.svg",
+          "sha256": "a85aa35bf31c1ae62b440b792285a84010f6e88e66cfc375bec7f77a8873352e",
+          "bytes": 674737
+        },
+        {
+          "step": 8,
+          "pen_id": "black-0-6",
+          "path": "tehran/pens/tehran-a3-portrait.pen-08-black-0-6.svg",
+          "sha256": "66da56809347766f5200b4534eb8349dac985b29e81fa8dc81387b3cf2c24164",
+          "bytes": 1983
+        },
+        {
+          "step": 9,
+          "pen_id": "black-1",
+          "path": "tehran/pens/tehran-a3-portrait.pen-09-black-1.svg",
+          "sha256": "c26a4ee98c0349dc92dbaff1e0be42119bb2ffab87425f4afe77583f38212bb0",
+          "bytes": 2005
+        },
+        {
+          "step": 10,
+          "pen_id": "black-0-4",
+          "path": "tehran/pens/tehran-a3-portrait.pen-10-black-0-4.svg",
+          "sha256": "f243ee7d687e0402d68b673ecdc094b810b1ffa37aa635fef76491eb53e1f267",
+          "bytes": 6854
+        },
+        {
+          "step": 11,
+          "pen_id": "black-0-25",
+          "path": "tehran/pens/tehran-a3-portrait.pen-11-black-0-25.svg",
+          "sha256": "e9eb4ad01b4047c94ae5800c3ed5297c0fecae2c5402181ea7d0527137d376ca",
+          "bytes": 5156
+        }
+      ],
+      "visible_copy": [
+        "35.7000 N / 51.4100 E",
+        "N",
+        "TEHRAN"
+      ],
+      "extent_wgs84": {
+        "west": 51.37018258885083,
+        "south": 35.659530583632396,
+        "east": 51.44981741114916,
+        "north": 35.74046941636761
+      },
+      "stroke_count": 13147,
+      "qa": {
+        "format": "passed",
+        "format_checks": 13637,
+        "strict_svg": "passed",
+        "pen_geometry_parity": "passed",
+        "map_geometry_unchanged": true,
+        "density_advisories": []
+      }
+    },
+    {
+      "id": "karaj",
+      "title": "KARAJ",
+      "center": [
+        35.825,
+        50.991
+      ],
+      "radius_km": 3.5,
+      "scope": "Central Karaj, surrounding neighbourhoods and the Karaj River",
+      "extract_bbox_wsen": [
+        50.942473999077826,
+        35.785654705697205,
+        51.03952600092217,
+        35.8643452943028
+      ],
+      "svg": {
+        "path": "karaj/karaj-a3-portrait.svg",
+        "sha256": "de2a62125beac2a2476b97211fade869963e5d923638739273f78e43e51ecefa",
+        "bytes": 6060694
+      },
+      "png": {
+        "path": "karaj/karaj-a3-portrait.png",
+        "sha256": "c70b20e40396913ddca64e969715e75294b53f410ddc8b73e11087b28ea4d528",
+        "bytes": 4899787
+      },
+      "pdf": {
+        "path": "karaj/karaj-a3-portrait.pdf",
+        "sha256": "e4f8d65dac02d3c35a7cbe07cb241e75371a52c3ab07114fbca827ffbb966ff1",
+        "bytes": 404780
+      },
+      "preview": {
+        "path": "karaj/preview.png",
+        "sha256": "7c7ab9f78b1de5d7d92c43cf62c2f658d7c5e1ca594938ec3ea17fc017d193a1",
+        "bytes": 932629
+      },
+      "manifest": {
+        "path": "karaj/karaj-a3-portrait.plot.json",
+        "sha256": "96fa82833bc558928cad4a1ef062a9f1626e29772d8a9fa00ac0caf0a8179250",
+        "bytes": 1251696
+      },
+      "job": {
+        "path": "karaj/karaj-a3-portrait.plotjob.json",
+        "sha256": "093fce67f42b73e2fa79f968d4de3471d51f6110dc4334e137bf302a8d35049c",
+        "bytes": 5970651
+      },
+      "pen_files": [
+        {
+          "step": 1,
+          "pen_id": "blue-0-4",
+          "path": "karaj/pens/karaj-a3-portrait.pen-01-blue-0-4.svg",
+          "sha256": "fea5322a1e76d781abf0b9fc9167f815fb3bbe92422e00dd7740d2a0cf03c424",
+          "bytes": 14463
+        },
+        {
+          "step": 2,
+          "pen_id": "blue-0-25",
+          "path": "karaj/pens/karaj-a3-portrait.pen-02-blue-0-25.svg",
+          "sha256": "ebc631825afc69e65f1218cbb937a73e514104109d35fbbb1300a930b04f75fe",
+          "bytes": 14122
+        },
+        {
+          "step": 3,
+          "pen_id": "green-0-25",
+          "path": "karaj/pens/karaj-a3-portrait.pen-03-green-0-25.svg",
+          "sha256": "d022fa0b7b986a77372410e4d89df1c0c5b704885be07f7af4509dd8a13d5641",
+          "bytes": 396934
+        },
+        {
+          "step": 4,
+          "pen_id": "purple-0-25",
+          "path": "karaj/pens/karaj-a3-portrait.pen-04-purple-0-25.svg",
+          "sha256": "c0448548362ced595bacfe148768cf36bdfec9687529d911bcad2cee000dddfe",
+          "bytes": 26147
+        },
+        {
+          "step": 5,
+          "pen_id": "grey-0-25",
+          "path": "karaj/pens/karaj-a3-portrait.pen-05-grey-0-25.svg",
+          "sha256": "b7117b83c908902b7b312de28ef0eb04e264de02d5089ea5f787b272cfbce7f9",
+          "bytes": 4510399
+        },
+        {
+          "step": 6,
+          "pen_id": "red-0-4",
+          "path": "karaj/pens/karaj-a3-portrait.pen-06-red-0-4.svg",
+          "sha256": "693f3a589b4a4899c28d80ea2ee626525b7e134c86ccd543e97305cd3e1e0c1a",
+          "bytes": 403880
+        },
+        {
+          "step": 7,
+          "pen_id": "red-0-25",
+          "path": "karaj/pens/karaj-a3-portrait.pen-07-red-0-25.svg",
+          "sha256": "43f672ab0825f59fe07b647ec47101d739d549651c8bd6e27af52a5cb9527b28",
+          "bytes": 691867
+        },
+        {
+          "step": 8,
+          "pen_id": "black-0-6",
+          "path": "karaj/pens/karaj-a3-portrait.pen-08-black-0-6.svg",
+          "sha256": "fbed4b7a4106284a0bf18a4e94ba8fec7bcdeaae3b3e3ea99fb138d8977e965f",
+          "bytes": 1983
+        },
+        {
+          "step": 9,
+          "pen_id": "black-1",
+          "path": "karaj/pens/karaj-a3-portrait.pen-09-black-1.svg",
+          "sha256": "1d9ae7de594df131df2c88af9f40844f25d4a6f71c76d9450a66f104d84a8d57",
+          "bytes": 2005
+        },
+        {
+          "step": 10,
+          "pen_id": "black-0-4",
+          "path": "karaj/pens/karaj-a3-portrait.pen-10-black-0-4.svg",
+          "sha256": "0d02293d4640e38b1f613207f3beefce4a2b7c7b1b1829d3a12d501e89ff001c",
+          "bytes": 6335
+        },
+        {
+          "step": 11,
+          "pen_id": "black-0-25",
+          "path": "karaj/pens/karaj-a3-portrait.pen-11-black-0-25.svg",
+          "sha256": "58c679a72946858f40b677c363105aa98cf0323a99e5bd30194456e1455b451a",
+          "bytes": 5409
+        }
+      ],
+      "visible_copy": [
+        "35.8250 N / 50.9910 E",
+        "KARAJ",
+        "N"
+      ],
+      "extent_wgs84": {
+        "west": 50.959982202591654,
+        "south": 35.79352378726964,
+        "east": 51.022017797408346,
+        "north": 35.856476212730364
+      },
+      "stroke_count": 5317,
+      "qa": {
+        "format": "passed",
+        "format_checks": 5817,
+        "strict_svg": "passed",
+        "pen_geometry_parity": "passed",
+        "map_geometry_unchanged": true,
+        "density_advisories": []
+      }
+    }
+  ]
+}

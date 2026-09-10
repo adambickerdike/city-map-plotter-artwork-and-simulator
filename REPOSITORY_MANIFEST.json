@@ -12,10 +12,10 @@
     "checksum_entry_count": 2463
   },
   "repository_assets": {
-    "png_count": 1650,
-    "png_bytes": 1587038199,
-    "svg_count": 5299,
-    "svg_bytes": 3698038278,
+    "png_count": 1655,
+    "png_bytes": 1601996373,
+    "svg_count": 5323,
+    "svg_bytes": 3739041780,
     "git_lfs_patterns": [
       "*.png",
       "*.svg",
@@ -25,13 +25,13 @@
       "artwork/latest-map-portfolio-2026-08-18-v3/03-hiking-maps/contracts/hiking-data/hike-plates-release-v1.json",
       "artwork/latest-map-portfolio-2026-08-18-v3/06-f1-courses/code/src/city_map_plotter/data/f1-circuits-2026.json"
     ],
-    "git_lfs_tracked_path_count": 8476,
-    "git_lfs_approximate_bytes": 8499218067,
+    "git_lfs_tracked_path_count": 8511,
+    "git_lfs_approximate_bytes": 8587290668,
     "production_visible_provider_copy_audit": "passed",
-    "production_visible_provider_copy_svg_count": 5299,
-    "production_visible_provider_copy_html_count": 28,
-    "git_lfs_matching_path_count": 8476,
-    "git_lfs_matching_bytes": 8499218067
+    "production_visible_provider_copy_svg_count": 5323,
+    "production_visible_provider_copy_html_count": 30,
+    "git_lfs_matching_path_count": 8511,
+    "git_lfs_matching_bytes": 8587290668
   },
   "standalone_releases": {
     "seaton_sluice_v8": {
@@ -173,5 +173,19 @@
     "website": "theplotroom.com",
     "physical_execution_allowed": false,
     "download_release": "https://github.com/adambickerdike/city-map-plotter-artwork-and-simulator/releases/tag/plot-room-promotional-a3-2026-09-09"
+  },
+  "iran_city_release": {
+    "path": "artwork/iran-city-maps-2026-09-10",
+    "catalog": "artwork/iran-city-maps-2026-09-10/catalog.json",
+    "verifier": "scripts/verify_iran_city_maps.py",
+    "maps": 2,
+    "cities": [
+      "Tehran",
+      "Karaj"
+    ],
+    "paper": "A3 portrait",
+    "style": "university-memorabilia-v2",
+    "source_snapshot": "2026-09-09T20:21:20Z",
+    "download_release": "https://github.com/adambickerdike/city-map-plotter-artwork-and-simulator/releases/tag/tehran-karaj-a3-2026-09-10"
   }
 }

@@ -1,5 +1,18 @@
 # City Map Plotter — artwork portfolio and physical simulator
 
+## Tehran and Karaj city maps
+
+Two separate [A3 city prints](artwork/iran-city-maps-2026-09-10/README.md) now use
+the established city/university colours, with city names, coordinates, compass
+and black borders. Each shows the city centre and surrounding neighbourhoods.
+
+[Download Tehran pen files (ZIP)](https://github.com/adambickerdike/city-map-plotter-artwork-and-simulator/releases/download/tehran-karaj-a3-2026-09-10/tehran-a3-pen-files.zip) ·
+[Download Karaj pen files (ZIP)](https://github.com/adambickerdike/city-map-plotter-artwork-and-simulator/releases/download/tehran-karaj-a3-2026-09-10/karaj-a3-pen-files.zip) ·
+[View both prints](artwork/iran-city-maps-2026-09-10/comparison.png)
+
+Each download includes the master SVG, ordered pen layers, PNG and PDF. Import
+the master SVG at A3 portrait, 297 × 420 mm, 100% / actual size.
+
 ## The Plot Room promotional writing plots
 
 The [A3 promotional lettering prints](artwork/the-plot-room-promotional-a3/README.md)

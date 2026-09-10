@@ -1,0 +1,44 @@
+{
+  "source_url": "https://download.geofabrik.de/asia/iran-260909.osm.pbf",
+  "source_parent_sha256": "ae75ac9281a88d05918eb81dc561ebcc9594f3ae78905a783279b4c5577dc7fb",
+  "source_parent_bytes": 229265843,
+  "retrieved_at": "2026-09-10",
+  "snapshot_timestamp": "2026-09-09T20:21:20Z",
+  "replication_sequence_number": 4903,
+  "method": "osmium extract 1.15.0 / smart / types=multipolygon; all tags, complete ways and intersecting multipolygons",
+  "extracts": [
+    {
+      "id": "tehran",
+      "title": "TEHRAN",
+      "center": [
+        35.7,
+        51.41
+      ],
+      "radius_km": 4.5,
+      "scope": "Central Tehran and surrounding neighbourhoods",
+      "extract_bbox_wsen": [
+        51.34770738441849,
+        35.64941319303926,
+        51.4722926155815,
+        35.75058680696075
+      ]
+    },
+    {
+      "id": "karaj",
+      "title": "KARAJ",
+      "center": [
+        35.825,
+        50.991
+      ],
+      "radius_km": 3.5,
+      "scope": "Central Karaj, surrounding neighbourhoods and the Karaj River",
+      "extract_bbox_wsen": [
+        50.942473999077826,
+        35.785654705697205,
+        51.03952600092217,
+        35.8643452943028
+      ]
+    }
+  ],
+  "notes": "The dated parent is locally cached; the two exact reference-complete extracts needed for offline reproduction are bundled."
+}
