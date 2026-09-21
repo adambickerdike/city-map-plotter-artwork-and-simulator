@@ -1,0 +1,35 @@
+{
+  "method": "Unresized crops of each master PNG at identical page coordinates; photograph and source-coordinate overlays rotated 45 degrees clockwise for comparison.",
+  "before_master_sha256": "3bc631bbda64fb3b9f331e61102c26d0cb57556d596118b53daf8220485a14b2",
+  "after_master_sha256": "f4106404c710e89bda8e2b32e4cfd92d9ff1c82b4f30c9ec7cbba89621e33678",
+  "crops": [
+    {
+      "file": "detail-horse-before.png",
+      "revision": 13,
+      "page_crop_pixels": [
+        3450,
+        280,
+        4020,
+        810
+      ]
+    },
+    {
+      "file": "detail-horse-after.png",
+      "revision": 14,
+      "page_crop_pixels": [
+        3450,
+        280,
+        4020,
+        810
+      ]
+    }
+  ],
+  "reference": {
+    "file": "invicta-gwra-2025-reference.jpg",
+    "sha256": "804dcdcffe113ef7a34e5caba36d491657b1953c9868de1b62e8edda2aeb39a3",
+    "credit": "GW Railwayana Auctions",
+    "source_url": "https://www.gwra.co.uk/auctions/aveling-porter-invicta-road-roller-cast-brass-hors-2025mar-0051.html",
+    "orientation_clockwise_degrees": 45,
+    "orientation_scope": "In-plane presentation rotation into an upright rearing pose; not a calibrated perspective reconstruction."
+  }
+}

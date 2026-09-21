@@ -163,14 +163,15 @@ Run it from any directory after cloning:
 
 ## Technical blueprints
 
-The [Aveling & Porter No. 5499 final blueprint](artwork/aveling-porter-5499-blueprint-v13/index.html)
-is a single large A3 side elevation of the 1904 R6, BS 8711. Revision 13 extends
-the lever below its toothed quadrant and behind the rear wheel, following the
-actual-engine photograph. The larger horse/plaque and rounded firebox are
-retained. Stroke lettering and White 0.30, 0.40 and 0.50 mm pens are verified.
-[The complete package](artwork/aveling-porter-5499-blueprint-v13/README.md)
-includes artwork, previews, references, simulator, checksums and portable rebuild
-source. [Download the full ZIP](artwork/aveling-porter-5499-blueprint-v13.zip).
+The [Aveling & Porter No. 5499 final blueprint](artwork/aveling-porter-5499-blueprint-v14/index.html)
+is a single large A3 side elevation of the 1904 R6, BS 8711. Revision 14 redraws
+the upright Invicta horse from the supplied GW Railwayana Auctions casting
+photograph, with a continuous contour and 39 sculpted relief details. All
+engine, plaque and lettering paths are retained. White 0.30, 0.40 and 0.50 mm
+pen widths and complete stroke lettering are verified.
+[The complete package](artwork/aveling-porter-5499-blueprint-v14/README.md)
+includes artwork, previews, photographic comparison, simulator, checksums and
+portable rebuild source. [Download the full ZIP](artwork/aveling-porter-5499-blueprint-v14.zip).
 The native-vector car collections below retain their separate source policy.
 
 The Shelby Cobra 427 A3 landscape package is also integrated as first-class

@@ -1,0 +1,24 @@
+{
+  "revision": 14,
+  "reviewed_at": "2026-09-21",
+  "inspected": [
+    "Full A3 PDF rendered at 2200 pixels",
+    "Full-page SVG-derived PNG and unresized final horse crop",
+    "User-selected 1980 x 1529 casting photograph, orientation comparison and detail crops",
+    "Final source-coordinate curve overlay and upright overlay"
+  ],
+  "observations": [
+    "Upright rearing horse follows the actual casting silhouette without stretching",
+    "Face, ears, eye, mane, muscular body, hooves and tail are visibly more detailed",
+    "One continuous smooth outline with 39 relief curves; no crossed reliefs or strokes outside the silhouette",
+    "The enlarged plaque remains left of the horse, with aligned vertical centres",
+    "All 823 non-horse paths, including engine, connected lever, plaque, lettering and frame, match revision 13 exactly",
+    "Physical 0.30/0.40/0.50 mm pen sizes and complete single-stroke lettering pass the export audit",
+    "No page clipping or lettering collisions in the one-page A3 PDF"
+  ],
+  "pdf_page_count": 1,
+  "pdf_page_size": "A3 landscape, 420 x 297 mm",
+  "master_svg_sha256": "f4106404c710e89bda8e2b32e4cfd92d9ff1c82b4f30c9ec7cbba89621e33678",
+  "pdf_sha256": "3a98b31b2b358d6788a2e651f920a5c495b420fdaa2bafe6e42634fa0cc5f8ce",
+  "scope": "Visual and vector review of a photograph-based interpretive illustration. Upright image rotation is not a calibrated perspective reconstruction; no physical plot was run."
+}

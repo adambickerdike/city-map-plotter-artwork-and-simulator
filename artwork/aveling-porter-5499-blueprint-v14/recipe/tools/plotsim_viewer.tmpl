@@ -1,0 +1,927 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
+<title>Plot Simulator — __TITLE__</title>
+<style>
+  :root {
+    --surface: #16191c; --surface-2: #1e2226; --surface-3: #272c31;
+    --edge: #333a40; --edge-soft: #2a3036;
+    --text: #e6e9ec; --text-dim: #9aa4ac; --text-faint: #6b757d;
+    --paper: #faf7f1; --paper-edge: #ddd6c8;
+    --signal: #f0a02c; --good: #5fbf8f;
+    --shadow: rgba(0,0,0,.55);
+    --mono: ui-monospace, "SF Mono", SFMono-Regular, "Cascadia Mono", Menlo, Consolas, monospace;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --surface: #d9d5cd; --surface-2: #e8e5df; --surface-3: #f1efea;
+      --edge: #bdb8ae; --edge-soft: #cbc7bd;
+      --text: #1d2124; --text-dim: #5a6167; --text-faint: #868d93;
+      --paper: #fffdf8; --paper-edge: #c9c2b4;
+      --signal: #b0700c; --good: #2c7f57; --shadow: rgba(60,52,40,.28);
+    }
+  }
+  :root[data-theme="dark"] {
+    --surface: #16191c; --surface-2: #1e2226; --surface-3: #272c31;
+    --edge: #333a40; --edge-soft: #2a3036;
+    --text: #e6e9ec; --text-dim: #9aa4ac; --text-faint: #6b757d;
+    --paper: #faf7f1; --paper-edge: #ddd6c8;
+    --signal: #f0a02c; --good: #5fbf8f; --shadow: rgba(0,0,0,.55);
+  }
+  :root[data-theme="light"] {
+    --surface: #d9d5cd; --surface-2: #e8e5df; --surface-3: #f1efea;
+    --edge: #bdb8ae; --edge-soft: #cbc7bd;
+    --text: #1d2124; --text-dim: #5a6167; --text-faint: #868d93;
+    --paper: #fffdf8; --paper-edge: #c9c2b4;
+    --signal: #b0700c; --good: #2c7f57; --shadow: rgba(60,52,40,.28);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--surface); color: var(--text);
+    font-family: var(--sans); font-size: 14px; line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  .app { display: flex; flex-direction: column; min-height: 100vh; }
+
+  header {
+    display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+    padding: 12px 20px; border-bottom: 1px solid var(--edge); background: var(--surface-2);
+  }
+  .eyebrow {
+    font-family: var(--mono); font-size: 10px; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--text-faint);
+  }
+  select {
+    font-family: var(--sans); font-size: 13px; color: var(--text);
+    background: var(--surface-3); border: 1px solid var(--edge);
+    border-radius: 3px; padding: 7px 10px; max-width: 380px; cursor: pointer;
+  }
+  header .spec { margin-left: auto; font-family: var(--mono); font-size: 11px; color: var(--text-dim); }
+
+  main { display: grid; grid-template-columns: minmax(0,1fr) 300px; flex: 1; min-height: 0; }
+  @media (max-width: 880px) { main { grid-template-columns: minmax(0,1fr); } }
+
+  .stage {
+    position: relative; display: grid; place-items: center; padding: 22px; min-height: 460px;
+    overflow: auto;
+    background: radial-gradient(ellipse at 50% 0%, var(--surface-2), var(--surface) 70%);
+  }
+  /* At 1:1 the sheet is bigger than most windows, so the stage scrolls and the
+     sheet pins to the top-left rather than being centred out of view. */
+  .stage.scrolls { place-items: start; }
+
+  .sheet {
+    display: grid; grid-template-columns: var(--gutter) auto; grid-template-rows: var(--gutter) auto;
+    --gutter: 20px;
+  }
+  .sheet .corner {
+    display: grid; place-items: center; background: var(--surface-2);
+    border-right: 1px solid var(--edge-soft); border-bottom: 1px solid var(--edge-soft);
+    font-family: var(--mono); font-size: 8px; letter-spacing: .06em; color: var(--text-faint);
+  }
+  .sheet canvas.ruler { display: block; background: var(--surface-2); }
+  .sheet .ruler.top { border-bottom: 1px solid var(--edge-soft); }
+  .sheet .ruler.left { border-right: 1px solid var(--edge-soft); }
+  /* The reference sheet: the paper you are actually holding. The plate is
+     pinned at its own origin inside it, so the ruler reads plate coordinates. */
+  .paper {
+    position: relative; background: var(--paper);
+    box-shadow: 0 18px 44px -12px var(--shadow);
+    outline: 1px dashed var(--paper-edge); outline-offset: 0;
+  }
+  canvas#c { display: block; position: absolute; left: 0; top: 0; border-radius: 2px; }
+  .paper.oversize { outline-color: var(--signal); }
+  .overflow-note {
+    position: absolute; right: 6px; bottom: 6px; font-family: var(--mono);
+    font-size: 10px; color: var(--signal); background: var(--surface-2);
+    border: 1px solid var(--edge); border-radius: 3px; padding: 2px 6px;
+  }
+
+  .badge {
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%,-50%) scale(.96);
+    display: flex; flex-direction: column; gap: 11px; min-width: 210px;
+    padding: 16px 20px; border-radius: 4px;
+    background: var(--surface-3); border: 1px solid var(--edge);
+    box-shadow: 0 14px 40px -10px var(--shadow);
+    opacity: 0; pointer-events: none; transition: opacity .2s ease, transform .2s ease;
+  }
+  .badge.on { opacity: 1; transform: translate(-50%,-50%) scale(1); }
+  .badge .row { display: flex; align-items: center; gap: 10px; font-family: var(--mono); font-size: 12px; letter-spacing: .05em; }
+  .badge .swatch { width: 14px; height: 14px; border-radius: 50%; border: 1px solid rgba(128,128,128,.5); }
+  .badge .bar { height: 3px; background: var(--edge); border-radius: 2px; overflow: hidden; }
+  .badge .bar i { display: block; height: 100%; background: var(--signal); width: 0; }
+
+  .busy {
+    position: absolute; inset: 0; display: none; place-items: center;
+    background: color-mix(in srgb, var(--surface) 70%, transparent);
+    font-family: var(--mono); font-size: 12px; color: var(--text-dim);
+  }
+  .busy.on { display: grid; }
+
+  .rail { border-left: 1px solid var(--edge); background: var(--surface-2); display: flex; flex-direction: column; overflow-y: auto; }
+  @media (max-width: 880px) { .rail { border-left: 0; border-top: 1px solid var(--edge); } }
+  .panel { padding: 15px 18px; border-bottom: 1px solid var(--edge-soft); }
+  .panel h2 {
+    margin: 0 0 11px; font-family: var(--mono); font-size: 10px; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--text-faint); font-weight: 500;
+  }
+  .clock { font-family: var(--mono); font-size: 28px; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+  .clock .of { color: var(--text-faint); font-size: 14px; }
+
+  .pens { display: flex; flex-direction: column; gap: 3px; }
+  .pen {
+    display: grid; grid-template-columns: 14px 1fr auto; align-items: center; gap: 10px;
+    padding: 6px 9px; border-radius: 3px; border: 1px solid transparent;
+    font-size: 12.5px; color: var(--text-dim); transition: background .2s, color .2s;
+  }
+  .pen.active { background: var(--surface-3); border-color: var(--edge); color: var(--text); }
+  .pen.done { color: var(--text-faint); }
+  .pen .dot { width: 11px; height: 11px; border-radius: 50%; border: 1px solid rgba(128,128,128,.45); }
+  .pen .n { font-family: var(--mono); font-size: 11px; font-variant-numeric: tabular-nums; }
+  .pen .bar { grid-column: 2 / -1; height: 2px; background: var(--edge); border-radius: 1px; overflow: hidden; }
+  .pen .bar i { display: block; height: 100%; background: var(--signal); width: 0; }
+
+  .plan { display: flex; flex-direction: column; gap: 6px; }
+  .plan .row {
+    display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 9px;
+    font-size: 12px; color: var(--text-dim);
+  }
+  .plan .row .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .plan .row .n { font-family: var(--mono); font-size: 11px; font-variant-numeric: tabular-nums; }
+  /* A true-scale swatch of the mark this layer actually leaves on paper. */
+  .plan .mark { height: 13px; width: 26px; display: grid; align-items: center; }
+  .plan .mark i { display: block; width: 100%; border-radius: .5px; }
+  .plan .offsets { color: var(--signal); }
+
+  dl.stats { display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; margin: 0; }
+  dl.stats dt { color: var(--text-dim); font-size: 12.5px; }
+  dl.stats dd { margin: 0; font-family: var(--mono); font-size: 12.5px; font-variant-numeric: tabular-nums; text-align: right; }
+  dd .delta { color: var(--good); font-size: 11px; }
+
+  .transport {
+    display: flex; align-items: center; gap: 13px; flex-wrap: wrap;
+    padding: 11px 20px; border-top: 1px solid var(--edge); background: var(--surface-2);
+  }
+  button, .seg {
+    font-family: var(--sans); font-size: 12.5px; color: var(--text);
+    background: var(--surface-3); border: 1px solid var(--edge); border-radius: 3px; cursor: pointer;
+  }
+  button { padding: 7px 15px; transition: border-color .15s, background .15s; }
+  button:hover { border-color: var(--text-faint); }
+  button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--signal); outline-offset: 2px; }
+  button.primary { background: var(--signal); border-color: var(--signal); color: #16120a; font-weight: 600; min-width: 80px; }
+  .upload {
+    display: inline-flex; align-items: center; padding: 7px 12px; border-radius: 3px;
+    background: var(--signal); color: #16120a; font-size: 12.5px; font-weight: 650;
+    cursor: pointer; border: 1px solid var(--signal);
+  }
+  .upload input { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+  .profile-grid { display: grid; grid-template-columns: 1fr 80px; gap: 7px 10px; align-items: center; }
+  .profile-grid label { color: var(--text-dim); font-size: 12px; }
+  .profile-grid input {
+    width: 80px; padding: 5px 6px; color: var(--text); background: var(--surface-3);
+    border: 1px solid var(--edge); border-radius: 3px; font-family: var(--mono); font-size: 11px;
+  }
+  .profile-grid button { grid-column: 1 / -1; margin-top: 4px; }
+  .findings { display: flex; flex-direction: column; gap: 7px; }
+  .finding { padding-left: 9px; border-left: 2px solid var(--edge); color: var(--text-dim); font-size: 11.5px; }
+  .finding.error { border-color: #d96565; color: #e98a8a; }
+  .finding.warning { border-color: var(--signal); }
+  .finding.good { border-color: var(--good); color: var(--good); }
+  .finding code { font-family: var(--mono); font-size: 10px; }
+  .seg { display: flex; padding: 2px; gap: 2px; }
+  .seg button { border: 0; background: transparent; padding: 5px 10px; font-family: var(--mono); font-size: 11px; }
+  .seg button[aria-pressed="true"] { background: var(--surface); color: var(--signal); }
+  input[type=range] { flex: 1; min-width: 150px; accent-color: var(--signal); }
+  label.check { display: flex; align-items: center; gap: 7px; font-size: 12.5px; color: var(--text-dim); cursor: pointer; }
+  .tlabel { font-family: var(--mono); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--text-faint); }
+  @media (prefers-reduced-motion: reduce) { .badge { transition: none; } }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <header>
+    <div>
+      <div class="eyebrow">Pen plot simulator</div>
+      <select id="plate" aria-label="Choose a plate"></select>
+    </div>
+    <div>
+      <div class="eyebrow">Paper</div>
+      <select id="paperChoice" aria-label="Choose the sheet to view the plate on"></select>
+    </div>
+    <div id="liveTools" style="display:none">
+      <div class="eyebrow">Artwork</div>
+      <label class="upload">Load SVG<input id="svgFile" type="file" accept=".svg,image/svg+xml"></label>
+    </div>
+    <div class="spec"><span id="spec"></span> · <span id="scaleNote"></span></div>
+  </header>
+
+  <main>
+    <div class="stage" id="stage">
+      <div class="sheet" id="sheet">
+        <div class="corner">mm</div>
+        <canvas class="ruler top" id="rulerTop"></canvas>
+        <canvas class="ruler left" id="rulerLeft"></canvas>
+        <div class="paper" id="paperSurface"><canvas id="c"></canvas></div>
+      </div>
+      <div class="badge" id="badge">
+        <div class="row"><span class="swatch" id="badgeSwatch"></span><span id="badgeText">Load pen</span></div>
+        <div class="bar"><i id="badgeBar"></i></div>
+      </div>
+      <div class="busy" id="busy">rebuilding…</div>
+    </div>
+
+    <aside class="rail">
+      <div class="panel">
+        <h2>Elapsed</h2>
+        <div class="clock"><span id="tNow">0:00</span> <span class="of" id="tTotal"></span></div>
+      </div>
+      <div class="panel"><h2>Pen sequence</h2><div class="pens" id="pens"></div></div>
+      <div class="panel"><h2>Physical plan</h2><div class="plan" id="plan"></div></div>
+      <div class="panel"><h2>This run</h2><dl class="stats" id="stats"></dl></div>
+      <div class="panel"><h2>Ordering</h2><dl class="stats" id="compare"></dl></div>
+      <div class="panel" id="machinePanel" style="display:none">
+        <h2>Machine model</h2>
+        <div class="profile-grid">
+          <label for="mDown">Pen-down mm/s</label><input id="mDown" type="number" min="0.1" step="0.1">
+          <label for="mUp">Pen-up mm/s</label><input id="mUp" type="number" min="0.1" step="0.1">
+          <label for="mAccel">Acceleration mm/s²</label><input id="mAccel" type="number" min="1" step="1">
+          <label for="mLift">Pen lift seconds</label><input id="mLift" type="number" min="0" step="0.01">
+          <label for="mLower">Pen lower seconds</label><input id="mLower" type="number" min="0" step="0.01">
+          <label for="mChange">Pen change seconds</label><input id="mChange" type="number" min="0" step="1">
+          <label for="mUncertainty">Uncertainty (0–1)</label><input id="mUncertainty" type="number" min="0" max="1" step="0.01">
+          <button id="replan">Re-plan loaded SVG</button>
+        </div>
+      </div>
+      <div class="panel"><h2>Preflight</h2><div class="findings" id="findings"></div></div>
+    </aside>
+  </main>
+
+  <div class="transport">
+    <button class="primary" id="play">Play</button>
+    <button id="restart">Restart</button>
+    <span class="tlabel">Speed</span><div class="seg" id="speed"></div>
+    <span class="tlabel">Order</span><div class="seg" id="order"></div>
+    <span class="tlabel">Zoom</span><div class="seg" id="zoom"></div>
+    <label class="check" title="Nominal CSS is 3.7795 px/mm. Hold a ruler against the scale bar and adjust until they agree.">
+      px/mm <input type="number" id="pxmm" step="0.01" min="0.5" max="40" style="width:74px">
+    </label>
+    <input type="range" id="scrub" min="0" max="1000" value="0" aria-label="Scrub through the plot">
+    <label class="check"><input type="checkbox" id="travel" checked> Pen-up travel</label>
+  </div>
+</div>
+
+<script id="timelines" type="application/json">__DATA__</script>
+<script>
+(function () {
+  "use strict";
+  const raw = document.getElementById("timelines").textContent.trim();
+  if (raw === "__" + "DATA" + "__" || raw === "") {
+    document.querySelector(".app").innerHTML =
+      '<div style="padding:40px;max-width:54ch">' +
+      '<h1 style="font-size:16px;margin:0 0 12px">This is a template, not a page</h1>' +
+      '<p style="color:var(--text-dim)">It has no plot data in it. Build a real one:</p>' +
+      '<pre style="background:var(--surface-3);border:1px solid var(--edge);padding:12px;' +
+      'border-radius:3px;overflow-x:auto;font-size:12px">python3 tools/build_plotsim_viewer.py \\\n' +
+      '    examples/york-a5-clean-poster.svg --out build/plotsim/york.html</pre>' +
+      '<p style="color:var(--text-dim)">Then open the file it writes.</p></div>';
+    return;
+  }
+  let DATA = JSON.parse(raw);
+  let MACHINE = DATA.machine;
+  const canvas = document.getElementById("c");
+  const ctx = canvas.getContext("2d");
+  const ink = document.createElement("canvas");
+  const inkCtx = ink.getContext("2d");
+  const trav = document.createElement("canvas");
+  const travCtx = trav.getContext("2d");
+
+  /* A CSS pixel is defined as 1/96 inch, so this is the nominal true-scale
+     factor. Real panels differ; the px/mm box lets you match a real ruler. */
+  const CSS_PX_PER_MM = 96 / 25.4;
+  /* ISO sheets, portrait. The plate's own size is always offered as well. */
+  const SHEETS = [
+    ["A6", 105, 148], ["A5", 148, 210], ["A4", 210, 297],
+    ["A3", 297, 420], ["A2", 420, 594],
+  ];
+
+  const state = {
+    plate: 0, order: "optimised", t: 0, playing: false, speed: 16, travel: true,
+    zoom: "fit", pxmm: CSS_PX_PER_MM, paper: "plate",
+  };
+  let scale = 1, dpr = 1, lastFrame = 0;
+  let TL = null, baked = 0, lastT = -1;
+  const cache = new Map();
+  const esc = (value) => String(value ?? "").replace(/[&<>"']/g, ch => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+  })[ch]);
+  const safeColour = (value) => {
+    const colour = String(value || "").trim();
+    return /^(#[0-9a-f]{3,8}|rgba?\([0-9., %]+\)|[a-z]{1,24})$/i.test(colour)
+      ? colour : "#222222";
+  };
+
+  /* The sheet the plate is being viewed on: its own, or a chosen reference. */
+  function paperSize() {
+    const page = plate().page;
+    if (state.paper === "plate") return { w: page.width, h: page.height, name: "plate" };
+    const [name, w, h] = SHEETS.find(s => s[0] === state.paper) || ["A4", 210, 297];
+    const landscape = page.width > page.height;
+    return { w: landscape ? h : w, h: landscape ? w : h, name };
+  }
+
+  const plate = () => DATA.plates[state.plate];
+  const orderData = () => plate().orders[state.order];
+  const fmt = (s) => {
+    s = Math.max(0, s);
+    const h = Math.floor(s / 3600), m = Math.floor(s / 60) % 60, x = Math.floor(s % 60);
+    return h ? h + ":" + String(m).padStart(2, "0") + ":" + String(x).padStart(2, "0")
+             : m + ":" + String(x).padStart(2, "0");
+  };
+
+  /* ---- timeline: durations -> absolute times, built once per plate/order ---- */
+  function timeline() {
+    const key = state.plate + "/" + state.order;
+    if (cache.has(key)) return cache.get(key);
+    const O = orderData(), n = O.seq.length;
+    const travelStart = new Float64Array(n), travelEnd = new Float64Array(n);
+    const drawStart = new Float64Array(n), drawEnd = new Float64Array(n);
+    const changeAt = new Map();
+    for (const c of O.changes) changeAt.set(c.at, c);
+    const changes = [];
+    let t = 0;
+    for (let i = 0; i < n; i++) {
+      const c = changeAt.get(i);
+      if (c) {
+        changes.push({ p: c.p, t: t, d: c.d, from: i });
+        t += c.d + MACHINE.pen_lift_s;
+      }
+      travelStart[i] = t; t += O.tm[i] / 1000; travelEnd[i] = t;
+      t += MACHINE.pen_lower_s;
+      drawStart[i] = t; t += O.dm[i] / 1000; drawEnd[i] = t;
+      t += MACHINE.pen_lift_s;
+    }
+    const built = { travelStart, travelEnd, drawStart, drawEnd, changes, total: t, n };
+    cache.set(key, built);
+    return built;
+  }
+
+  /* ---- geometry access: shared table + per-order reversal ---- */
+  function strokeAt(i) {
+    const O = orderData(), G = plate().geom;
+    const sid = O.seq[i], reversed = O.rev[i] === 1;
+    return { sid, a: G.off[sid], b: G.off[sid + 1], reversed, pen: plate().pens[G.pen[sid]] };
+  }
+  function vx(s, k) {
+    const G = plate().geom;
+    const idx = s.reversed ? (s.b - 1 - k) : (s.a + k);
+    return [G.pts[idx * 2], G.pts[idx * 2 + 1]];
+  }
+
+  function vertexMs(s, k) {
+    const G = plate().geom;
+    const idx = s.reversed ? (s.b - 1 - k) : (s.a + k);
+    const total = G.ct[s.b - 1];
+    return s.reversed ? total - G.ct[idx] : G.ct[idx];
+  }
+
+  function trapezoidProgress(elapsedMs, distance, speed, dx, dy) {
+    if (distance <= 1e-9) return 1;
+    let acceleration = MACHINE.acceleration_mm_s2;
+    if (MACHINE.motion_model === "grbl-cartesian") {
+      acceleration /= Math.max(Math.abs(dx) / distance, Math.abs(dy) / distance);
+    }
+    const t = Math.max(0, elapsedMs / 1000 / MACHINE.timing_scale);
+    const peak = Math.min(speed, Math.sqrt(acceleration * distance));
+    const rampT = peak / acceleration;
+    const rampD = .5 * acceleration * rampT * rampT;
+    const cruiseD = Math.max(0, distance - 2 * rampD);
+    const cruiseT = cruiseD / peak;
+    const totalT = 2 * rampT + cruiseT;
+    if (t >= totalT) return 1;
+    let travelled;
+    if (t < rampT) travelled = .5 * acceleration * t * t;
+    else if (t < rampT + cruiseT) travelled = rampD + peak * (t - rampT);
+    else {
+      const decelT = t - rampT - cruiseT;
+      travelled = rampD + cruiseD + peak * decelT - .5 * acceleration * decelT * decelT;
+    }
+    return Math.min(1, Math.max(0, travelled / distance));
+  }
+
+  function pathStroke(target, i, elapsedMs) {
+    const s = strokeAt(i), count = s.b - s.a;
+    if (count < 2) return null;
+    target.strokeStyle = safeColour(s.pen.colour);
+    target.lineWidth = Math.max(s.pen.nib_mm, 0.1);
+    target.beginPath();
+    let p = vx(s, 0);
+    target.moveTo(p[0], p[1]);
+    const motionMs = vertexMs(s, count - 1);
+    if (elapsedMs >= motionMs) {
+      for (let k = 1; k < count; k++) { p = vx(s, k); target.lineTo(p[0], p[1]); }
+      target.stroke();
+      return p;
+    }
+    if (count === 2 && plate().geom.raw_n[s.sid] === 2) {
+      const q = vx(s, 1);
+      const distance = Math.hypot(q[0] - p[0], q[1] - p[1]);
+      const f = trapezoidProgress(
+        elapsedMs, distance, MACHINE.pen_down_speed_mm_s,
+        q[0] - p[0], q[1] - p[1],
+      );
+      const tip = [p[0] + (q[0] - p[0]) * f, p[1] + (q[1] - p[1]) * f];
+      target.lineTo(tip[0], tip[1]); target.stroke();
+      return tip;
+    }
+    let tip = vx(s, 0), previousMs = vertexMs(s, 0);
+    for (let k = 1; k < count; k++) {
+      const q = vx(s, k), atMs = vertexMs(s, k);
+      if (atMs <= elapsedMs) { target.lineTo(q[0], q[1]); tip = q; previousMs = atMs; continue; }
+      const previous = vx(s, k - 1);
+      const f = atMs > previousMs ? (elapsedMs - previousMs) / (atMs - previousMs) : 0;
+      tip = [previous[0] + (q[0] - previous[0]) * f, previous[1] + (q[1] - previous[1]) * f];
+      target.lineTo(tip[0], tip[1]);
+      break;
+    }
+    target.stroke();
+    return tip;
+  }
+
+  function paintTravel(target, i) {
+    const s = strokeAt(i);
+    const start = vx(s, 0);
+    let from = [0, 0];
+    if (i > 0) { const p = strokeAt(i - 1); from = vx(p, p.b - p.a - 1); }
+    target.beginPath();
+    target.moveTo(from[0], from[1]);
+    target.lineTo(start[0], start[1]);
+    target.stroke();
+  }
+
+  function setupLayer(target, cnv) {
+    cnv.width = canvas.width; cnv.height = canvas.height;
+    target.setTransform(dpr * scale, 0, 0, dpr * scale, 0, 0);
+    target.lineCap = "round"; target.lineJoin = "round";
+  }
+
+  function resetLayers() {
+    setupLayer(inkCtx, ink);
+    setupLayer(travCtx, trav);
+    const css = getComputedStyle(document.documentElement);
+    travCtx.setLineDash([1.1, 1.4]);
+    travCtx.lineWidth = 0.1;
+    travCtx.strokeStyle = css.getPropertyValue("--text-faint").trim() || "#888";
+    travCtx.globalAlpha = 0.45;
+    baked = 0; lastT = -1;
+  }
+
+  /* ---- ruler: 1 mm ticks, 5 mm medium, 10 mm long and numbered ---- */
+  function drawRuler(cnv, lengthMm, horizontal) {
+    const css = getComputedStyle(document.documentElement);
+    const thickness = 20;
+    const px = lengthMm * scale;
+    cnv.width = Math.round((horizontal ? px : thickness) * dpr);
+    cnv.height = Math.round((horizontal ? thickness : px) * dpr);
+    cnv.style.width = (horizontal ? px : thickness) + "px";
+    cnv.style.height = (horizontal ? thickness : px) + "px";
+    const g = cnv.getContext("2d");
+    g.setTransform(dpr, 0, 0, dpr, 0, 0);
+    g.clearRect(0, 0, cnv.width, cnv.height);
+    const dim = css.getPropertyValue("--text-dim").trim() || "#9aa4ac";
+    const faint = css.getPropertyValue("--text-faint").trim() || "#6b757d";
+    g.font = "9px ui-monospace, Menlo, Consolas, monospace";
+    g.textBaseline = "top";
+    /* Below ~1.4 px per mm every millimetre tick collapses into a grey band,
+       so thin them out rather than draw a lie. */
+    const everyMm = scale >= 2.4 ? 1 : scale >= 1.2 ? 5 : 10;
+    for (let mm = 0; mm <= Math.floor(lengthMm); mm += everyMm) {
+      const major = mm % 10 === 0, medium = mm % 5 === 0;
+      const len = major ? 10 : medium ? 6 : 3;
+      const at = Math.round(mm * scale) + 0.5;
+      g.strokeStyle = major ? dim : faint;
+      g.lineWidth = 1;
+      g.beginPath();
+      if (horizontal) { g.moveTo(at, thickness); g.lineTo(at, thickness - len); }
+      else { g.moveTo(thickness, at); g.lineTo(thickness - len, at); }
+      g.stroke();
+      if (major && mm > 0 && scale * 10 >= 26) {
+        g.fillStyle = dim;
+        const label = String(mm);
+        if (horizontal) g.fillText(label, at + 2, 1);
+        else {
+          g.save(); g.translate(2, at + 2); g.rotate(0);
+          g.fillText(label, 0, 0); g.restore();
+        }
+      }
+    }
+  }
+
+  function layout() {
+    const page = plate().page, sheet = paperSize();
+    const stage = document.getElementById("stage");
+    const box = stage.getBoundingClientRect();
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    if (state.zoom === "fit") {
+      scale = Math.max(0.4, Math.min(
+        (box.width - 70) / sheet.w, (box.height - 70) / sheet.h));
+    } else {
+      /* 1:1 means one millimetre of paper is one millimetre of screen. */
+      scale = state.pxmm * Number(state.zoom);
+    }
+    stage.classList.toggle("scrolls",
+      sheet.w * scale + 70 > box.width || sheet.h * scale + 70 > box.height);
+
+    const paper = document.getElementById("paperSurface");
+    paper.style.width = (sheet.w * scale) + "px";
+    paper.style.height = (sheet.h * scale) + "px";
+    paper.classList.toggle("oversize",
+      page.width > sheet.w + 1e-6 || page.height > sheet.h + 1e-6);
+    let note = paper.querySelector(".overflow-note");
+    if (paper.classList.contains("oversize")) {
+      if (!note) {
+        note = document.createElement("div");
+        note.className = "overflow-note";
+        paper.appendChild(note);
+      }
+      note.textContent = `plate is ${page.width}×${page.height} mm — off this sheet`;
+    } else if (note) {
+      note.remove();
+    }
+
+    canvas.width = Math.round(page.width * scale * dpr);
+    canvas.height = Math.round(page.height * scale * dpr);
+    canvas.style.width = (page.width * scale) + "px";
+    canvas.style.height = (page.height * scale) + "px";
+    ctx.setTransform(dpr * scale, 0, 0, dpr * scale, 0, 0);
+
+    drawRuler(document.getElementById("rulerTop"), sheet.w, true);
+    drawRuler(document.getElementById("rulerLeft"), sheet.h, false);
+    document.getElementById("scaleNote").textContent =
+      state.zoom === "fit"
+        ? `fit · ${scale.toFixed(2)} px/mm`
+        : `${state.zoom}:1 true scale · ${scale.toFixed(2)} px/mm`;
+    resetLayers();
+    draw();
+    renderPlan();
+  }
+
+  const fit = layout;
+
+  function draw() {
+    const page = plate().page, t = state.t;
+    TL = timeline();
+
+    if (t < lastT) resetLayers();
+    /* bake every stroke that has fully completed since the last frame */
+    while (baked < TL.n && TL.drawEnd[baked] <= t) {
+      paintTravel(travCtx, baked);
+      pathStroke(inkCtx, baked, Infinity);
+      baked++;
+    }
+    lastT = t;
+
+    const css = getComputedStyle(document.documentElement);
+    ctx.save();
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.restore();
+    ctx.fillStyle = css.getPropertyValue("--paper").trim() || "#faf7f1";
+    ctx.fillRect(0, 0, page.width, page.height);
+    ctx.strokeStyle = css.getPropertyValue("--paper-edge").trim() || "#ddd";
+    ctx.lineWidth = 0.3; ctx.strokeRect(0.15, 0.15, page.width - 0.3, page.height - 0.3);
+
+    ctx.save();
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    if (state.travel) ctx.drawImage(trav, 0, 0);
+    ctx.drawImage(ink, 0, 0);
+    ctx.restore();
+
+    /* the move in flight */
+    let head = null, changeMove = null;
+    const i = baked;
+    if (i < TL.n) {
+      for (const c of TL.changes) {
+        if (c.from === i && c.d > 0 && c.t <= t && c.t + c.d > t) changeMove = c;
+      }
+      if (changeMove) {
+        const s = strokeAt(i); head = vx(s, 0);
+        if (i > 0) { const p = strokeAt(i - 1); head = vx(p, p.b - p.a - 1); }
+      } else if (t >= TL.drawStart[i]) {
+        head = pathStroke(ctx, i, Math.max(0, (t - TL.drawStart[i]) * 1000));
+      } else if (t >= TL.travelStart[i]) {
+        const s = strokeAt(i), to = vx(s, 0);
+        let from = [0, 0];
+        if (i > 0) { const p = strokeAt(i - 1); from = vx(p, p.b - p.a - 1); }
+        const distance = Math.hypot(to[0] - from[0], to[1] - from[1]);
+        const g = trapezoidProgress(
+          Math.max(0, (t - TL.travelStart[i]) * 1000),
+          distance,
+          MACHINE.pen_up_speed_mm_s,
+          to[0] - from[0],
+          to[1] - from[1],
+        );
+        head = [from[0] + (to[0] - from[0]) * g, from[1] + (to[1] - from[1]) * g];
+      }
+    }
+
+    if (head) {
+      const r = Math.max(1.4, 2.4 / Math.max(scale, .5));
+      ctx.save();
+      ctx.strokeStyle = css.getPropertyValue("--signal").trim() || "#f0a02c";
+      ctx.lineWidth = Math.max(.22, r * .18);
+      ctx.beginPath(); ctx.arc(head[0], head[1], r, 0, Math.PI * 2); ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(head[0] - r * 2.1, head[1]); ctx.lineTo(head[0] - r * .75, head[1]);
+      ctx.moveTo(head[0] + r * .75, head[1]); ctx.lineTo(head[0] + r * 2.1, head[1]);
+      ctx.moveTo(head[0], head[1] - r * 2.1); ctx.lineTo(head[0], head[1] - r * .75);
+      ctx.moveTo(head[0], head[1] + r * .75); ctx.lineTo(head[0], head[1] + r * 2.1);
+      ctx.stroke(); ctx.restore();
+    }
+    updateRail(changeMove);
+  }
+
+  function activePenIndex() {
+    let pen = 0;
+    for (const c of TL.changes) if (c.t <= state.t) pen = c.p;
+    return pen;
+  }
+
+  function updateRail(changeMove) {
+    const p = plate();
+    document.getElementById("tNow").textContent = fmt(state.t);
+    document.getElementById("tTotal").textContent = "/ " + fmt(TL.total);
+
+    const badge = document.getElementById("badge");
+    badge.classList.toggle("on", !!changeMove);
+    if (changeMove) {
+      const pen = p.pens[changeMove.p];
+      document.getElementById("badgeSwatch").style.background = safeColour(pen.colour);
+      document.getElementById("badgeText").textContent =
+        "Load " + pen.pen + " — " + Math.ceil(changeMove.t + changeMove.d - state.t) + "s";
+      document.getElementById("badgeBar").style.width =
+        (100 * Math.min(1, Math.max(0, (state.t - changeMove.t) / (changeMove.d || 1)))).toFixed(1) + "%";
+    }
+
+    const active = activePenIndex();
+    const spans = penSpans();
+    document.querySelectorAll(".pen").forEach((node, i) => {
+      node.classList.toggle("active", i === active);
+      node.classList.toggle("done", spans[i] && spans[i].end < state.t);
+      const s = spans[i];
+      const f = s ? (state.t - s.start) / Math.max(s.end - s.start, 1e-6) : 0;
+      node.querySelector("i").style.width = (100 * Math.min(1, Math.max(0, f))).toFixed(1) + "%";
+    });
+  }
+
+  function penSpans() {
+    const key = "spans/" + state.plate + "/" + state.order;
+    if (cache.has(key)) return cache.get(key);
+    const p = plate(), spans = p.pens.map(() => null);
+    for (let ci = 0; ci < TL.changes.length; ci++) {
+      const c = TL.changes[ci];
+      const next = TL.changes[ci + 1];
+      const end = next ? next.t : TL.total;
+      if (!spans[c.p]) spans[c.p] = { start: c.t, end: end };
+      else { spans[c.p].start = Math.min(spans[c.p].start, c.t); spans[c.p].end = Math.max(spans[c.p].end, end); }
+    }
+    cache.set(key, spans);
+    return spans;
+  }
+
+  /* ---- the physical plan: what each layer actually lays down ----
+     Nib swatches are drawn at the current view scale, so at 1:1 a 0.25 and a
+     0.60 differ on screen by exactly the amount they differ on paper. */
+  function renderPlan() {
+    const p = plate(), host = document.getElementById("plan");
+    if (!host) return;
+    const layers = p.layers || [];
+    if (!layers.length) {
+      host.innerHTML = '<div class="row"><span class="n">no layer metadata</span></div>';
+      return;
+    }
+    host.innerHTML = layers.map(layer => {
+      const pen = p.pens[layer.pen];
+      const px = Math.max(0.5, layer.nib_mm * scale);
+      const build = layer.strokes > 1
+        ? `<span class="offsets">${layer.nib_mm}×${layer.strokes} @ ${layer.pitch_mm}</span> = ${layer.width_mm}`
+        : `${layer.nib_mm}`;
+      const passes = layer.passes > 1 ? ` ·${layer.passes}p` : "";
+      return `<div class="row" title="${esc(layer.label)} — ${layer.subpaths} subpaths, ${(layer.length_mm / 1000).toFixed(2)} m">
+        <span class="mark"><i style="height:${px.toFixed(2)}px;background:${safeColour(pen.colour)}"></i></span>
+        <span class="name">${esc(layer.label.replace(/^\d+\s*—\s*/, ""))}</span>
+        <span class="n">${build}${passes}</span>
+      </div>`;
+    }).join("");
+  }
+
+  function buildRail() {
+    const p = plate();
+    TL = timeline();
+    document.getElementById("spec").textContent =
+      p.page.width + " × " + p.page.height + " mm · " +
+      p.geom.pen.length.toLocaleString() + " strokes · " + MACHINE.name;
+
+    const counts = p.pens.map(() => 0);
+    for (const pi of p.geom.pen) counts[pi]++;
+    document.getElementById("pens").innerHTML = p.pens.map((pen, i) => `
+      <div class="pen" title="${pen.measured ? "measured " + pen.nib_mm + " mm on stock" : "nominal, unmeasured"}">
+        <span class="dot" style="background:${safeColour(pen.colour)}"></span>
+        <span>${esc(pen.pen)}</span>
+        <span class="n">${counts[i].toLocaleString()}</span>
+        <span class="bar"><i></i></span>
+      </div>`).join("");
+
+    const s = orderData().stats;
+    document.getElementById("stats").innerHTML = `
+      <dt>Predicted</dt><dd>${fmt(s.total_seconds)}</dd>
+      <dt>Likely range</dt><dd>${fmt(s.total_low_seconds ?? s.total_seconds)}–${fmt(s.total_high_seconds ?? s.total_seconds)}</dd>
+      <dt>Calibration</dt><dd>${esc(s.calibration_state || "nominal")}</dd>
+      <dt>Drawing</dt><dd>${(s.pen_down_mm / 1000).toFixed(2)} m</dd>
+      <dt>Travel (pen up)</dt><dd>${(s.pen_up_mm / 1000).toFixed(2)} m</dd>
+      <dt>Travel ratio</dt><dd>${s.travel_ratio.toFixed(2)}×</dd>
+      <dt>Pen lifts</dt><dd>${s.pen_lifts.toLocaleString()}</dd>
+      <dt>Pen loads</dt><dd>${s.pen_loads ?? s.pen_changes}</dd>
+      <dt>Manual swaps</dt><dd>${s.pen_swaps ?? Math.max(0, s.pen_changes - 1)}</dd>
+      <dt>Motor time</dt><dd>${fmt(s.kinematic_seconds ?? 0)}</dd>
+      <dt>Servo time</dt><dd>${fmt(s.servo_seconds ?? 0)}</dd>
+      <dt>Swap time</dt><dd>${fmt(s.manual_change_seconds ?? 0)}</dd>
+      <dt>Ink laid down</dt><dd>${Math.round(s.ink_mm2 || 0).toLocaleString()} mm²</dd>`;
+
+    const doc = p.orders.document.stats, opt = p.orders.optimised.stats;
+    const travelSaved = doc.pen_up_mm > 1e-9 ? 100 * (1 - opt.pen_up_mm / doc.pen_up_mm) : 0;
+    document.getElementById("compare").innerHTML = `
+      <dt>As written</dt><dd>${fmt(doc.total_seconds)}</dd>
+      <dt>Optimised</dt><dd>${fmt(opt.total_seconds)} <span class="delta">−${fmt(doc.total_seconds - opt.total_seconds)}</span></dd>
+      <dt>Travel saved</dt><dd class="delta">${travelSaved.toFixed(0)}%</dd>`;
+
+    const preflight = p.preflight || { hardware_safe: false, issues: [] };
+    const findings = document.getElementById("findings");
+    const visible = (preflight.issues || []).filter(x => x.severity !== "info");
+    findings.innerHTML = visible.length
+      ? visible.map(x => `<div class="finding ${esc(x.severity)}"><code>${esc(x.code)}</code><br>${esc(x.message)}</div>`).join("")
+      : `<div class="finding good">SVG structure is plot-job compatible.</div>`;
+    if (DATA.live) {
+      document.getElementById("machinePanel").style.display = "block";
+      const values = {
+        mDown: MACHINE.pen_down_speed_mm_s, mUp: MACHINE.pen_up_speed_mm_s,
+        mAccel: MACHINE.acceleration_mm_s2, mLift: MACHINE.pen_lift_s,
+        mLower: MACHINE.pen_lower_s, mChange: MACHINE.pen_change_s,
+        mUncertainty: MACHINE.timing_uncertainty_fraction,
+      };
+      for (const [id, value] of Object.entries(values)) document.getElementById(id).value = value;
+    }
+  }
+
+  function tick(now) {
+    if (state.playing) {
+      const dt = lastFrame ? Math.min((now - lastFrame) / 1000, 0.25) : 0;
+      state.t += dt * state.speed;
+      if (state.t >= TL.total) { state.t = TL.total; setPlaying(false); }
+      document.getElementById("scrub").value = String(1000 * state.t / TL.total);
+      draw();
+    }
+    lastFrame = now;
+    requestAnimationFrame(tick);
+  }
+  function setPlaying(on) {
+    state.playing = on;
+    document.getElementById("play").textContent = on ? "Pause" : "Play";
+  }
+
+  function segment(id, values, current, onPick, label) {
+    const host = document.getElementById(id);
+    host.innerHTML = values.map(v => `<button data-v="${v}" aria-pressed="${v === current}">${label(v)}</button>`).join("");
+    host.addEventListener("click", (e) => {
+      const b = e.target.closest("button"); if (!b) return;
+      const raw = b.dataset.v;
+      onPick(isNaN(Number(raw)) ? raw : Number(raw));
+      host.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x === b));
+    });
+  }
+
+  function reload(resetTime) {
+    const busy = document.getElementById("busy");
+    busy.classList.add("on");
+    requestAnimationFrame(() => {
+      if (resetTime) { state.t = 0; document.getElementById("scrub").value = "0"; }
+      buildRail(); fit();
+      busy.classList.remove("on");
+    });
+  }
+
+  function populatePlates() {
+    document.getElementById("plate").innerHTML = DATA.plates.map((p, i) =>
+      `<option value="${i}">${esc(p.title || p.name)} — ${p.page.width}×${p.page.height} mm — ${p.geom.pen.length.toLocaleString()} strokes</option>`).join("");
+  }
+  populatePlates();
+  document.getElementById("plate").addEventListener("change", (e) => {
+    state.plate = Number(e.target.value); cache.clear(); setPlaying(false); reload(true);
+  });
+
+  document.getElementById("paperChoice").innerHTML =
+    ['<option value="plate">Plate’s own sheet</option>'].concat(
+      SHEETS.map(([name, w, h]) => `<option value="${name}">${name} — ${w}×${h} mm</option>`)
+    ).join("");
+  document.getElementById("paperChoice").addEventListener("change", (e) => {
+    state.paper = e.target.value; layout();
+  });
+
+  const pxmmInput = document.getElementById("pxmm");
+  pxmmInput.value = state.pxmm.toFixed(2);
+  pxmmInput.addEventListener("change", (e) => {
+    const v = Number(e.target.value);
+    if (isFinite(v) && v > 0) { state.pxmm = v; layout(); }
+    else { e.target.value = state.pxmm.toFixed(2); }
+  });
+
+  segment("speed", [1, 4, 16, 64, 256, 1024], state.speed, v => state.speed = v, v => v + "×");
+  segment("order", ["document", "optimised"], state.order,
+    v => { state.order = v; setPlaying(false); reload(true); },
+    v => v === "document" ? "As written" : "Optimised");
+  segment("zoom", ["fit", "1", "2", "4"], state.zoom,
+    v => { state.zoom = String(v); layout(); },
+    v => v === "fit" ? "Fit" : v + ":1");
+
+  document.getElementById("play").addEventListener("click", () => {
+    if (state.t >= TL.total) { state.t = 0; resetLayers(); }
+    setPlaying(!state.playing);
+  });
+  document.getElementById("restart").addEventListener("click", () => {
+    state.t = 0; document.getElementById("scrub").value = "0"; resetLayers(); draw();
+  });
+  document.getElementById("scrub").addEventListener("input", (e) => {
+    state.t = TL.total * Number(e.target.value) / 1000; draw();
+  });
+  document.getElementById("travel").addEventListener("change", (e) => {
+    state.travel = e.target.checked; draw();
+  });
+
+  let loadedFile = null;
+  async function planFile(file) {
+    if (!DATA.live) return;
+    loadedFile = file;
+    const params = new URLSearchParams({
+      down: document.getElementById("mDown").value,
+      up: document.getElementById("mUp").value,
+      accel: document.getElementById("mAccel").value,
+      lift: document.getElementById("mLift").value,
+      lower: document.getElementById("mLower").value,
+      change: document.getElementById("mChange").value,
+      uncertainty: document.getElementById("mUncertainty").value,
+    });
+    const busy = document.getElementById("busy");
+    busy.textContent = "parsing and planning…"; busy.classList.add("on");
+    try {
+      const response = await fetch("/api/plan?" + params, {
+        method: "POST", body: file,
+        headers: {
+          "Content-Type": "image/svg+xml", "X-Filename": file.name || "uploaded.svg",
+          "X-Plotter-Token": DATA.api_token || "",
+        },
+      });
+      const payload = await response.json();
+      if (!response.ok) throw new Error(payload.error || "planning failed");
+      DATA = payload; MACHINE = payload.machine;
+      state.plate = 0; state.t = 0; cache.clear(); setPlaying(false);
+      populatePlates(); reload(true);
+    } catch (error) {
+      const host = document.getElementById("findings");
+      host.innerHTML = `<div class="finding error"><code>planning-failed</code><br>${esc(error.message || error)}</div>`;
+    } finally {
+      busy.classList.remove("on"); busy.textContent = "rebuilding…";
+    }
+  }
+
+  if (DATA.live) {
+    document.getElementById("liveTools").style.display = "block";
+    const input = document.getElementById("svgFile");
+    input.addEventListener("change", () => { if (input.files[0]) planFile(input.files[0]); });
+    document.getElementById("replan").addEventListener("click", () => {
+      if (loadedFile) planFile(loadedFile); else input.click();
+    });
+    const stage = document.getElementById("stage");
+    stage.addEventListener("dragover", event => { event.preventDefault(); });
+    stage.addEventListener("drop", event => {
+      event.preventDefault();
+      const file = event.dataTransfer && event.dataTransfer.files[0];
+      if (file) planFile(file);
+    });
+  }
+  window.addEventListener("resize", fit);
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { resetLayers(); draw(); });
+  new MutationObserver(() => { resetLayers(); draw(); })
+    .observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+
+  buildRail(); fit(); requestAnimationFrame(tick);
+})();
+</script>
+</body>
+</html>
