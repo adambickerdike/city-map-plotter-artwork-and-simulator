@@ -1,0 +1,41 @@
+{
+  "method": "Unresized master PNG crops at identical page coordinates; unresized crop of retained reference photograph",
+  "before_master_sha256": "edffced5e7e663825214e6094167b676501b9ba5c277700ca66c90d96f9a2432",
+  "after_master_sha256": "3bc631bbda64fb3b9f331e61102c26d0cb57556d596118b53daf8220485a14b2",
+  "crops": [
+    {
+      "file": "detail-lever-before.png",
+      "revision": 12,
+      "page_crop_pixels": [
+        2780,
+        950,
+        3620,
+        1720
+      ]
+    },
+    {
+      "file": "detail-lever-after.png",
+      "revision": 13,
+      "page_crop_pixels": [
+        2780,
+        950,
+        3620,
+        1720
+      ]
+    }
+  ],
+  "reference": {
+    "file": "detail-lever-reference.png",
+    "original_file": "side-source-4096.jpg",
+    "original_sha256": "221987380e76a16b239b12bb9d7210ed767861c33cde43d68233242d69846d61",
+    "crop_pixels": [
+      2994,
+      1228,
+      3711,
+      2457
+    ],
+    "credit": "Benjamin Matthews",
+    "source_url": "https://www.flickr.com/photos/87050432@N03/52767059619/",
+    "supports": "Visible lever blade continues below quadrant before rear wheel hides it. Internal pivot/linkage obscured."
+  }
+}
