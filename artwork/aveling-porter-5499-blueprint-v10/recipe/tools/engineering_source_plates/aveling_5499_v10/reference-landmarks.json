@@ -1,0 +1,217 @@
+{
+  "units": "source pixels and arbitrary reconstruction units; no surveyed physical units",
+  "selection": "Human-selected rim landmarks on actual engine photographs; fitted as regular analytic features, not edge-map paths.",
+  "rim_landmarks": {
+    "rear_roll": {
+      "points": [
+        [
+          1118,
+          654
+        ],
+        [
+          1260,
+          704
+        ],
+        [
+          1330,
+          855
+        ],
+        [
+          1272,
+          1005
+        ],
+        [
+          1124,
+          1076
+        ],
+        [
+          976,
+          1016
+        ],
+        [
+          909,
+          865
+        ],
+        [
+          970,
+          711
+        ]
+      ],
+      "part": "near rear roll end rim",
+      "source": "side-working-1600.jpg",
+      "ellipse_fit": {
+        "centre": [
+          1119.0859375,
+          862.7299194335938
+        ],
+        "diameters": [
+          421.040771484375,
+          422.3274841308594
+        ],
+        "angle_deg": 3.7766590118408203
+      },
+      "circular_fit": {
+        "centre": [
+          1119.084909816031,
+          862.7287874439706
+        ],
+        "radius": 210.8473066397735,
+        "rms_point_residual_px": 1.6584814103634204
+      }
+    },
+    "front_roll": {
+      "points": [
+        [
+          291,
+          803
+        ],
+        [
+          385,
+          842
+        ],
+        [
+          428,
+          934
+        ],
+        [
+          389,
+          1028
+        ],
+        [
+          295,
+          1068
+        ],
+        [
+          204,
+          1031
+        ],
+        [
+          160,
+          936
+        ],
+        [
+          199,
+          842
+        ]
+      ],
+      "part": "near front roll end rim",
+      "source": "side-working-1600.jpg",
+      "ellipse_fit": {
+        "centre": [
+          293.7412109375,
+          935.5125732421875
+        ],
+        "diameters": [
+          262.6152038574219,
+          267.7471008300781
+        ],
+        "angle_deg": 116.38462829589844
+      },
+      "circular_fit": {
+        "centre": [
+          293.7465616270614,
+          935.4949374422592
+        ],
+        "radius": 132.58441046007306,
+        "rms_point_residual_px": 1.150077262935824
+      }
+    },
+    "flywheel": {
+      "points": [
+        [
+          966,
+          507
+        ],
+        [
+          1057,
+          544
+        ],
+        [
+          1097,
+          632
+        ],
+        [
+          1061,
+          719
+        ],
+        [
+          975,
+          768
+        ],
+        [
+          880,
+          726
+        ],
+        [
+          836,
+          641
+        ],
+        [
+          873,
+          548
+        ]
+      ],
+      "part": "solid flywheel rim",
+      "source": "side-working-1600.jpg",
+      "ellipse_fit": {
+        "centre": [
+          966.7688598632812,
+          635.7050170898438
+        ],
+        "diameters": [
+          257.3259582519531,
+          257.9955139160156
+        ],
+        "angle_deg": 156.3200225830078
+      },
+      "circular_fit": {
+        "centre": [
+          966.7686197190204,
+          635.7098037387542
+        ],
+        "radius": 128.82814408793425,
+        "rms_point_residual_px": 2.311278880831602
+      }
+    }
+  },
+  "front_frame_landmarks": {
+    "front_drum_bbox": [
+      199,
+      756,
+      501,
+      1017
+    ],
+    "rear_left_drum_bbox": [
+      141,
+      642,
+      238,
+      955
+    ],
+    "rear_right_drum_bbox": [
+      440,
+      642,
+      544,
+      955
+    ],
+    "chimney_centre_top": [
+      337,
+      342
+    ],
+    "number_plate": [
+      296,
+      537,
+      378,
+      554
+    ]
+  },
+  "constraints": [
+    "Side roll ends and flywheel are true circles in orthographic projection.",
+    "Front and rear roll geometry shares diameters and a ground datum across the two views.",
+    "Both views use exactly the same paper scale.",
+    "Longitudinal boiler and axle axes are horizontal; chimney is vertical.",
+    "Front frame and paired rear rolls are centred and level.",
+    "Flywheel and lubrication fittings remain asymmetric.",
+    "Perspective-visible tread widths disappear from the side elevation.",
+    "Photograph-derived proportions are inferred, not factory dimensions."
+  ]
+}

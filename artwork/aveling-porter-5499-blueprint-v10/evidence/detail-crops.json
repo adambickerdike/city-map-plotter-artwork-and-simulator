@@ -1,0 +1,47 @@
+{
+  "method": "Unresized master PNG crops at identical page coordinates",
+  "before_master_sha256": "bc25d145fa506f52514467d40de82f70b30b06a63a70012a4925cb5c01e2f68a",
+  "after_master_sha256": "a802c01dcd2402b56c7df51ac1bff8005935d417879a471bcd1cd2d330edff83",
+  "crops": [
+    {
+      "file": "detail-chain-before.png",
+      "revision": 9,
+      "page_crop_pixels": [
+        1580,
+        1620,
+        2360,
+        2040
+      ]
+    },
+    {
+      "file": "detail-ground-before.png",
+      "revision": 9,
+      "page_crop_pixels": [
+        230,
+        2220,
+        3970,
+        2530
+      ]
+    },
+    {
+      "file": "detail-chain-after.png",
+      "revision": 10,
+      "page_crop_pixels": [
+        1580,
+        1620,
+        2360,
+        2040
+      ]
+    },
+    {
+      "file": "detail-ground-after.png",
+      "revision": 10,
+      "page_crop_pixels": [
+        230,
+        2220,
+        3970,
+        2530
+      ]
+    }
+  ]
+}

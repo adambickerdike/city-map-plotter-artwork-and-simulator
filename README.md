@@ -163,6 +163,15 @@ Run it from any directory after cloning:
 
 ## Technical blueprints
 
+The [Aveling & Porter No. 5499 final blueprint](artwork/aveling-porter-5499-blueprint-v10/index.html)
+is a single large A3 side elevation of the 1904 R6, BS 8711. The far chain is
+hidden behind the central return pipe, and the ground line is removed. Complete
+single-stroke lettering and White 0.30, 0.40 and 0.50 mm pen assignments are verified.
+[The complete package](artwork/aveling-porter-5499-blueprint-v10/README.md)
+includes SVG and pen layers, PNG/PDF previews, references, simulator, checksums
+and a portable rebuild recipe. [Download the full ZIP](artwork/aveling-porter-5499-blueprint-v10.zip).
+The native-vector car collections below retain their separate source policy.
+
 The Shelby Cobra 427 A3 landscape package is also integrated as first-class
 artwork and simulator input:
 
