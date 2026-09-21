@@ -1,0 +1,47 @@
+{
+  "method": "Unresized master PNG crops at identical page coordinates",
+  "before_master_sha256": "a802c01dcd2402b56c7df51ac1bff8005935d417879a471bcd1cd2d330edff83",
+  "after_master_sha256": "84601ac5b686bc1e16fd9b26a042ab9d0e9f972eac3c647877f7a24306c8ac0c",
+  "crops": [
+    {
+      "file": "detail-badge-before.png",
+      "revision": 10,
+      "page_crop_pixels": [
+        3200,
+        200,
+        4030,
+        1190
+      ]
+    },
+    {
+      "file": "detail-position-before.png",
+      "revision": 10,
+      "page_crop_pixels": [
+        210,
+        2210,
+        4000,
+        2540
+      ]
+    },
+    {
+      "file": "detail-badge-after.png",
+      "revision": 11,
+      "page_crop_pixels": [
+        3200,
+        200,
+        4030,
+        1190
+      ]
+    },
+    {
+      "file": "detail-position-after.png",
+      "revision": 11,
+      "page_crop_pixels": [
+        210,
+        2210,
+        4000,
+        2540
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "city-map-plotter/device-profile-v1",
+  "id": "axidraw-class-simulation-v1",
+  "name": "AxiDraw-class nominal simulation",
+  "calibration_state": "template-unverified",
+  "work_area_mm": {
+    "width": 430.0,
+    "height": 310.0
+  },
+  "motion": {
+    "name": "AxiDraw-class nominal simulation",
+    "motion_model": "isotropic",
+    "pen_down_speed_mm_s": 80.0,
+    "pen_up_speed_mm_s": 230.0,
+    "acceleration_mm_s2": 1500.0,
+    "pen_lift_s": 0.22,
+    "pen_lower_s": 0.22,
+    "pen_change_s": 25.0,
+    "cornering_tolerance_mm": 0.05,
+    "curve_flatness_mm": 0.02,
+    "command_latency_s": 0.0,
+    "timing_scale": 1.0,
+    "timing_uncertainty_fraction": 0.15,
+    "calibration_state": "nominal-unmeasured",
+    "allow_page_rotation": true
+  },
+  "controller": {
+    "driver": "disabled",
+    "execution_enabled": false,
+    "serial_baud": 115200,
+    "origin_mm": {
+      "x": 0.0,
+      "y": 0.0
+    },
+    "invert_x": false,
+    "invert_y": false,
+    "page_rotation": "auto",
+    "coordinate_system": "G54",
+    "expected_work_offset_mm": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "header_commands": [],
+    "pen_up_commands": [],
+    "pen_down_commands": [],
+    "footer_commands": [],
+    "home_command": null,
+    "unlock_command": null,
+    "return_home": false,
+    "expected_settings": {}
+  }
+}
