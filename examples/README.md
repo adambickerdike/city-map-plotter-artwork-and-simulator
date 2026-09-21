@@ -2,14 +2,14 @@
 
 ## Aveling & Porter No. 5499
 
-The [Aveling & Porter No. 5499 final blueprint](../artwork/aveling-porter-5499-blueprint-v11/index.html)
-is a single large A3 side elevation of the 1904 R6, BS 8711. Revision 11 lowers
-the roller 6 mm and enlarges the horse and plaque by 10%. The far chain remains
-behind the return pipe, with no ground line. Stroke lettering and White 0.30,
-0.40 and 0.50 mm pen assignments are verified.
-[The complete package](../artwork/aveling-porter-5499-blueprint-v11/README.md)
+The [Aveling & Porter No. 5499 final blueprint](../artwork/aveling-porter-5499-blueprint-v12/index.html)
+is a single large A3 side elevation of the 1904 R6, BS 8711. Revision 12 places
+the larger worksplate left of the enlarged horse and gives the firebox a
+continuous upright and rounded corner behind the rear wheel. Stroke lettering
+and White 0.30, 0.40 and 0.50 mm pen assignments are verified.
+[The complete package](../artwork/aveling-porter-5499-blueprint-v12/README.md)
 includes artwork, previews, references, simulator, checksums and portable rebuild
-source. [Download the full ZIP](../artwork/aveling-porter-5499-blueprint-v11.zip).
+source. [Download the full ZIP](../artwork/aveling-porter-5499-blueprint-v12.zip).
 
 ## Augusta National
 

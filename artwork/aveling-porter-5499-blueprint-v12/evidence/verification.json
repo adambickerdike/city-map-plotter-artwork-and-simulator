@@ -1,0 +1,2337 @@
+{
+  "schema": "aveling-5499-detail-verification-v11",
+  "master_svg_sha256": "edffced5e7e663825214e6094167b676501b9ba5c277700ca66c90d96f9a2432",
+  "plotting_checks": {
+    "master_svg_sha256": "edffced5e7e663825214e6094167b676501b9ba5c277700ca66c90d96f9a2432",
+    "wheel_perimeter_guides_absent": true,
+    "ground_line_absent": true,
+    "engine_offset_mm": [
+      0,
+      6
+    ],
+    "badge_enlargement_from_v11": {
+      "horse": 1.4999999999999998,
+      "worksplate": 1.2
+    },
+    "badge_arrangement": "worksplate-left-horse-right",
+    "badge_vertical_centre_error_mm": 5.9181871847613365e-05,
+    "maximum_layout_coordinate_errors_mm": {
+      "horse": 0.001419815990624001,
+      "worksplate": 0.001293011968294107
+    },
+    "footer_and_frame_unchanged_from_v11": true,
+    "all_engine_paths_except_rear_frame_outline_unchanged_from_v11": true,
+    "pen_inventory_id": "white-blueprint-pens",
+    "pen_layers": [
+      {
+        "pen_id": "white-0-3",
+        "ink": "White",
+        "nominal_nib_mm": 0.3,
+        "exported_stroke_width_mm": 0.3,
+        "path_count": 707,
+        "minimum_path_length_mm": 0.9158034723672984
+      },
+      {
+        "pen_id": "white-0-4",
+        "ink": "White",
+        "nominal_nib_mm": 0.4,
+        "exported_stroke_width_mm": 0.4,
+        "path_count": 126,
+        "minimum_path_length_mm": 1.3576450198782226
+      },
+      {
+        "pen_id": "white-0-5",
+        "ink": "White",
+        "nominal_nib_mm": 0.5,
+        "exported_stroke_width_mm": 0.5,
+        "path_count": 5,
+        "minimum_path_length_mm": 37.82821629899661
+      }
+    ],
+    "single_pass_paths": true,
+    "no_live_text_or_raster": true,
+    "no_filled_font_outlines": true,
+    "font_id": "plotter-grid-v4",
+    "font_source_sha256": "d6a83ce73261f9b9cab9e8276097e9c9b05d537ad36592bd5a501a5f16efd18f",
+    "lettering_checks": [
+      {
+        "role": "worksplate-copy",
+        "copy": "BY ROYAL LETTERS PATENT",
+        "font_id": "plotter-grid-v4",
+        "pen_id": "white-0-3",
+        "cap_height_mm": 3.168,
+        "minimum_cap_mm": 2.4,
+        "stroke_count": 34,
+        "missing_glyph_strokes": 0,
+        "maximum_font_coordinate_error_mm": 0.001120518510019497
+      },
+      {
+        "role": "worksplate-copy",
+        "copy": "No. 5499",
+        "font_id": "plotter-grid-v4",
+        "pen_id": "white-0-3",
+        "cap_height_mm": 4.224,
+        "minimum_cap_mm": 2.4,
+        "stroke_count": 7,
+        "missing_glyph_strokes": 0,
+        "maximum_font_coordinate_error_mm": 0.0004472135955056682
+      },
+      {
+        "role": "worksplate-copy",
+        "copy": "AVELING & PORTER",
+        "font_id": "plotter-grid-v4",
+        "pen_id": "white-0-3",
+        "cap_height_mm": 4.224,
+        "minimum_cap_mm": 2.4,
+        "stroke_count": 22,
+        "missing_glyph_strokes": 0,
+        "maximum_font_coordinate_error_mm": 0.0006664320000311363
+      },
+      {
+        "role": "worksplate-copy",
+        "copy": "LIMITED",
+        "font_id": "plotter-grid-v4",
+        "pen_id": "white-0-3",
+        "cap_height_mm": 3.168,
+        "minimum_cap_mm": 2.4,
+        "stroke_count": 13,
+        "missing_glyph_strokes": 0,
+        "maximum_font_coordinate_error_mm": 3.908994210040608e-14
+      },
+      {
+        "role": "worksplate-copy",
+        "copy": "ROCHESTER",
+        "font_id": "plotter-grid-v4",
+        "pen_id": "white-0-3",
+        "cap_height_mm": 3.168,
+        "minimum_cap_mm": 2.4,
+        "stroke_count": 16,
+        "missing_glyph_strokes": 0,
+        "maximum_font_coordinate_error_mm": 4.1547862470286955e-14
+      },
+      {
+        "role": "worksplate-copy",
+        "copy": "KENT",
+        "font_id": "plotter-grid-v4",
+        "pen_id": "white-0-3",
+        "cap_height_mm": 3.168,
+        "minimum_cap_mm": 2.4,
+        "stroke_count": 7,
+        "missing_glyph_strokes": 0,
+        "maximum_font_coordinate_error_mm": 2.6645352591003757e-14
+      },
+      {
+        "role": "worksplate-copy",
+        "copy": "ENGLAND",
+        "font_id": "plotter-grid-v4",
+        "pen_id": "white-0-3",
+        "cap_height_mm": 3.168,
+        "minimum_cap_mm": 2.4,
+        "stroke_count": 9,
+        "missing_glyph_strokes": 0,
+        "maximum_font_coordinate_error_mm": 5.382463817271943e-14
+      },
+      {
+        "role": "footer-type",
+        "copy": "R6 STEAM ROAD ROLLER",
+        "font_id": "plotter-grid-v4",
+        "pen_id": "white-0-3",
+        "cap_height_mm": 3.0,
+        "minimum_cap_mm": 2.4,
+        "stroke_count": 26,
+        "missing_glyph_strokes": 0,
+        "maximum_font_coordinate_error_mm": 0.0005000000000094929
+      },
+      {
+        "role": "footer-registration",
+        "copy": "REG. BS 8711",
+        "font_id": "plotter-grid-v4",
+        "pen_id": "white-0-3",
+        "cap_height_mm": 3.0,
+        "minimum_cap_mm": 2.4,
+        "stroke_count": 16,
+        "missing_glyph_strokes": 0,
+        "maximum_font_coordinate_error_mm": 0.0010000000000083276
+      },
+      {
+        "role": "footer-maker",
+        "copy": "AVELING & PORTER",
+        "font_id": "plotter-grid-v4",
+        "pen_id": "white-0-4",
+        "cap_height_mm": 4.72,
+        "minimum_cap_mm": 3.2,
+        "stroke_count": 22,
+        "missing_glyph_strokes": 0,
+        "maximum_font_coordinate_error_mm": 0.0007453559924829665
+      },
+      {
+        "role": "footer-works-number",
+        "copy": "WORKS No. 5499",
+        "font_id": "plotter-grid-v4",
+        "pen_id": "white-0-4",
+        "cap_height_mm": 3.2,
+        "minimum_cap_mm": 3.2,
+        "stroke_count": 14,
+        "missing_glyph_strokes": 0,
+        "maximum_font_coordinate_error_mm": 0.0007453559925216941
+      },
+      {
+        "role": "footer-year",
+        "copy": "1904",
+        "font_id": "plotter-grid-v4",
+        "pen_id": "white-0-4",
+        "cap_height_mm": 4.72,
+        "minimum_cap_mm": 3.2,
+        "stroke_count": 6,
+        "missing_glyph_strokes": 0,
+        "maximum_font_coordinate_error_mm": 0.0007453559925203039
+      }
+    ],
+    "complete_text_block_count": 12,
+    "minimum_cap_to_nib_ratio": 8.0,
+    "all_pen_files_match_master": true,
+    "scope": "Checks use the configured nominal White blueprint inventory; physical mark widths on stock remain unmeasured."
+  },
+  "return_pipe_occlusion_checks": {
+    "previous_chain_inside_pipe_length_mm": 2.3587901626314816,
+    "final_chain_inside_pipe_length_mm": 0.0,
+    "chain_to_pipe_boundary_gap_mm": 0.0,
+    "far_chain_visible_fragments": 3,
+    "near_chain_visible_runs": 1
+  },
+  "view_count": 1,
+  "uniform_projection": true,
+  "no_raster_or_live_text": true,
+  "engine_width_mm": 371.6,
+  "engine_height_mm": 189.692,
+  "engine_paths": 620,
+  "all_svg_paths": 838,
+  "engine_centre_errors_mm": [
+    0.0,
+    -1.4210854715202004e-14
+  ],
+  "footer_alignment_checks": [
+    {
+      "value": "AVELING & PORTER",
+      "centre_error_mm": 0.0,
+      "baseline_mm": 261.0
+    },
+    {
+      "value": "R6 STEAM ROAD ROLLER",
+      "centre_error_mm": 0.0,
+      "baseline_mm": 270.0
+    },
+    {
+      "value": "WORKS No. 5499",
+      "centre_error_mm": 0.0,
+      "baseline_mm": 261.0
+    },
+    {
+      "value": "REG. BS 8711",
+      "centre_error_mm": 0.0,
+      "baseline_mm": 270.0
+    },
+    {
+      "value": "1904",
+      "centre_error_mm": 0.0,
+      "baseline_mm": 264.0
+    }
+  ],
+  "detail_axis_checks": [
+    {
+      "feature": "brake-t-handle",
+      "axis_error_mm": 8.176246547009214e-05
+    },
+    {
+      "feature": "brake-spindle",
+      "axis_error_mm": 8.176246547009214e-05
+    },
+    {
+      "feature": "feed-fitting-outline",
+      "axis_error_mm": -0.0001301255310011129
+    },
+    {
+      "feature": "feed-valve-spindle",
+      "axis_error_mm": -0.0001301255310011129
+    },
+    {
+      "feature": "cylinder-front-cover",
+      "axis_error_mm": 4.8574765344255866e-05
+    },
+    {
+      "feature": "steering-wheel-hub",
+      "axis_error_mm": 4.921842003113852e-05
+    }
+  ],
+  "endpoint_check_count": 700,
+  "endpoint_tolerance_mm": 0.2,
+  "unexplained_endpoint_gaps": [],
+  "intentional_free_tips": [
+    {
+      "component": "rear-axle-and-drive-pin",
+      "feature": "cotter-with-free-tip",
+      "end": "end",
+      "point_mm": [
+        310.429,
+        194.985
+      ],
+      "nearest_gap_mm": 0.1656818363741681,
+      "intentional_free_tip": true
+    },
+    {
+      "component": "rear-axle-and-drive-pin",
+      "feature": "cotter-with-free-tip",
+      "end": "end",
+      "point_mm": [
+        310.429,
+        194.205
+      ],
+      "nearest_gap_mm": 0.4702567172467496,
+      "intentional_free_tip": true
+    }
+  ],
+  "maximum_other_endpoint_gap_mm": 0.014022826511194629,
+  "emitted_joint_checks": [
+    {
+      "components": [
+        "front-casting",
+        "front-kingpin-and-fork"
+      ],
+      "features": [
+        null,
+        null
+      ],
+      "minimum_emitted_line_gap_mm": 0.0
+    },
+    {
+      "components": [
+        "front-kingpin-and-fork",
+        "front-scraper"
+      ],
+      "features": [
+        null,
+        null
+      ],
+      "minimum_emitted_line_gap_mm": 0.0
+    },
+    {
+      "components": [
+        "front-scraper",
+        "near-steering-chain"
+      ],
+      "features": [
+        null,
+        null
+      ],
+      "minimum_emitted_line_gap_mm": 0.0
+    },
+    {
+      "components": [
+        "steering-gear-housing",
+        "near-steering-chain"
+      ],
+      "features": [
+        null,
+        null
+      ],
+      "minimum_emitted_line_gap_mm": 0.0
+    },
+    {
+      "components": [
+        "cylinder-cover",
+        "motion-bed-and-bearings"
+      ],
+      "features": [
+        null,
+        null
+      ],
+      "minimum_emitted_line_gap_mm": 0.0
+    },
+    {
+      "components": [
+        "boiler-and-smokebox",
+        "cylinder-cover"
+      ],
+      "features": [
+        null,
+        null
+      ],
+      "minimum_emitted_line_gap_mm": 0.0
+    },
+    {
+      "components": [
+        "boiler-and-smokebox",
+        "rear-frame-and-platform"
+      ],
+      "features": [
+        null,
+        null
+      ],
+      "minimum_emitted_line_gap_mm": 0.0
+    },
+    {
+      "components": [
+        "solid-flywheel",
+        "motion-bed-and-bearings"
+      ],
+      "features": [
+        null,
+        null
+      ],
+      "minimum_emitted_line_gap_mm": 0.0
+    },
+    {
+      "components": [
+        "rear-frame-and-platform",
+        "tender-and-water-box"
+      ],
+      "features": [
+        null,
+        null
+      ],
+      "minimum_emitted_line_gap_mm": 0.0
+    },
+    {
+      "components": [
+        "rear-axle-and-drive-pin",
+        "rear-driving-roll"
+      ],
+      "features": [
+        null,
+        null
+      ],
+      "minimum_emitted_line_gap_mm": 0.0
+    },
+    {
+      "components": [
+        "feed-control-and-pipe",
+        "feed-control-and-pipe"
+      ],
+      "features": [
+        "feed-valve-spindle",
+        "feed-lever-boss-b"
+      ],
+      "minimum_emitted_line_gap_mm": 0.0
+    },
+    {
+      "components": [
+        "rear-brake-and-scraper",
+        "rear-brake-and-scraper"
+      ],
+      "features": [
+        "brake-spindle",
+        "brake-link-boss-b"
+      ],
+      "minimum_emitted_line_gap_mm": 0.0
+    }
+  ],
+  "connected_steering_chain_runs": 2,
+  "steering_handwheel_checks": {
+    "shaft_to_occluding_handwheel_gap_mm": 0.0,
+    "minimum_shaft_rear_silhouette_clearance_mm": 0.1462346098664753,
+    "visible_shaft_edge_length_mm": 11.863081108734605,
+    "shaft_descent_angle_degrees": 30.343825877725138,
+    "forward_shift_mm": 3.779259107310395,
+    "edge_on_profile": true,
+    "maximum_rim_shaft_normal_dot_error": 0.00016608012941314658
+  },
+  "staggered_spoke_occlusion_checks": [
+    {
+      "component": "rear-inner-spokes",
+      "visible_length_mm": 559.5260865736179,
+      "intrusion_into_outer_casting_mm": 0.0
+    },
+    {
+      "component": "front-inner-spokes",
+      "visible_length_mm": 185.37832006872168,
+      "intrusion_into_outer_casting_mm": 0.0
+    }
+  ],
+  "steering_chain_route_checks": {
+    "near_uses_lower_exit": true,
+    "far_uses_upper_opposite_exit": true,
+    "matching_leading_spring_attachments": true,
+    "spring_eye_join_mm": 0.0,
+    "connected_visible_runs": [
+      {
+        "component": "near-steering-chain",
+        "connected_visible_runs": 1
+      },
+      {
+        "component": "far-steering-chain",
+        "connected_visible_runs": 3
+      }
+    ],
+    "near_chain_to_lower_exit_mm": 0.7280726356582412,
+    "far_chain_to_foreground_casing_mm": 0.0,
+    "far_attachment_hidden_inside_casing_mm": 6.00062248514707
+  },
+  "quadrant_release_hinge_gap_mm": 0.0,
+  "quadrant_release_length_ratio_to_v7": 1.4422040225093442,
+  "oval_fitting_checks": {
+    "left_band_clearance_mm": 4.913034580218891,
+    "right_band_clearance_mm": 5.074408724609469,
+    "width_mm": 18.357
+  },
+  "printed_footer_words": [
+    "1904",
+    "AVELING & PORTER",
+    "R6 STEAM ROAD ROLLER",
+    "REG. BS 8711",
+    "WORKS No. 5499"
+  ],
+  "roller_rim_pen_checks": [
+    {
+      "component": "rear-driving-roll",
+      "line_width_mm": 0.5
+    },
+    {
+      "component": "front-roll-end",
+      "line_width_mm": 0.5
+    },
+    {
+      "component": "front-roll-end",
+      "line_width_mm": 0.5
+    },
+    {
+      "component": "front-roll-end",
+      "line_width_mm": 0.5
+    }
+  ],
+  "firebox_shoulder_checks": {
+    "upper_housing_alignment_error_mm": 0.0,
+    "visible_vertical_length_mm": 5.135000000000019,
+    "corner_radius_mm": 3.1200471323104093,
+    "maximum_exact_tangent_error_degrees": 2.8938885059512368e-12,
+    "maximum_exported_corner_radial_error_mm": 0.0003334456168953004,
+    "diagonal_shoulder_replaced": true
+  },
+  "circular_feature_checks": [
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-000",
+      "centre_mm": [
+        217.69165557338042,
+        154.7553285523812
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.000408038353218787
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-001",
+      "centre_mm": [
+        217.69165557338042,
+        160.7354188893095
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.000493493699490033
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-002",
+      "centre_mm": [
+        217.69165557338042,
+        166.71550922623777
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0005614929584752959
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-003",
+      "centre_mm": [
+        217.69165557338042,
+        172.69559956316607
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.00047603843347931996
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-008",
+      "centre_mm": [
+        217.69165557338042,
+        202.59605124780748
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.00035699365673702577
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-009",
+      "centre_mm": [
+        223.3605442343461,
+        154.7553285523812
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.00047331732947253347
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-010",
+      "centre_mm": [
+        223.3605442343461,
+        160.7354188893095
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0004769239224373667
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-011",
+      "centre_mm": [
+        223.3605442343461,
+        166.71550922623777
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0005106777780742311
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-013",
+      "centre_mm": [
+        223.3605442343461,
+        178.67568990009434
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.00047286526811685103
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-014",
+      "centre_mm": [
+        223.3605442343461,
+        184.65578023702264
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0004836454933493384
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-015",
+      "centre_mm": [
+        223.3605442343461,
+        190.6358705739509
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.00046848830488099846
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-016",
+      "centre_mm": [
+        223.3605442343461,
+        196.6159609108792
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.00046833335127560716
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-017",
+      "centre_mm": [
+        223.3605442343461,
+        202.59605124780748
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.00046833269083057516
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-018",
+      "centre_mm": [
+        230.64911536987339,
+        154.7553285523812
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.00034418920039758216
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-019",
+      "centre_mm": [
+        230.64911536987339,
+        160.7354188893095
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0004314499226615309
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-020",
+      "centre_mm": [
+        230.64911536987339,
+        166.71550922623777
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.00050252648435134
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-021",
+      "centre_mm": [
+        230.64911536987339,
+        172.69559956316607
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.00041299744728084953
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-022",
+      "centre_mm": [
+        230.64911536987339,
+        178.67568990009434
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.000354233987147512
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-023",
+      "centre_mm": [
+        230.64911536987339,
+        184.65578023702264
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0004644261418929041
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-024",
+      "centre_mm": [
+        230.64911536987339,
+        190.6358705739509
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0006280907381230882
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-025",
+      "centre_mm": [
+        230.64911536987339,
+        196.6159609108792
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0005642111933522598
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-026",
+      "centre_mm": [
+        230.64911536987339,
+        202.59605124780748
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0005728091964513071
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-027",
+      "centre_mm": [
+        238.20763358449426,
+        154.7553285523812
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0004678035465911501
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-028",
+      "centre_mm": [
+        238.20763358449426,
+        160.7354188893095
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0004375095891396841
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-029",
+      "centre_mm": [
+        238.20763358449426,
+        166.71550922623777
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0005058417478444044
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-030",
+      "centre_mm": [
+        238.20763358449426,
+        172.69559956316607
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0004190795044983764
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-031",
+      "centre_mm": [
+        238.20763358449426,
+        178.67568990009434
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0004808519390565591
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-032",
+      "centre_mm": [
+        238.20763358449426,
+        184.65578023702264
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0005452281557033478
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-034",
+      "centre_mm": [
+        238.20763358449426,
+        196.6159609108792
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.00037898320321583245
+    },
+    {
+      "component": "rear-frame-and-platform",
+      "feature": "source-fastener-pattern:circle-035",
+      "centre_mm": [
+        238.20763358449426,
+        202.59605124780748
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.00037898254284185473
+    },
+    {
+      "component": "tender-and-water-box",
+      "feature": "source-fastener-pattern:circle-000",
+      "centre_mm": [
+        330.472806859348,
+        183.09575667086742
+      ],
+      "radius_mm": 0.6760102120005946,
+      "maximum_radial_error_mm": 0.0003316080361347451
+    },
+    {
+      "component": "tender-and-water-box",
+      "feature": "source-fastener-pattern:circle-001",
+      "centre_mm": [
+        335.8717484412201,
+        183.09575667086742
+      ],
+      "radius_mm": 0.6760102120005946,
+      "maximum_radial_error_mm": 0.00036606776002545693
+    },
+    {
+      "component": "tender-and-water-box",
+      "feature": "source-fastener-pattern:circle-002",
+      "centre_mm": [
+        341.27069002309213,
+        183.09575667086742
+      ],
+      "radius_mm": 0.6760102120005946,
+      "maximum_radial_error_mm": 0.00040737399584311884
+    },
+    {
+      "component": "tender-and-water-box",
+      "feature": "source-fastener-pattern:circle-005",
+      "centre_mm": [
+        357.4675147687084,
+        183.09575667086742
+      ],
+      "radius_mm": 0.6760102120005946,
+      "maximum_radial_error_mm": 0.0004990624547118738
+    },
+    {
+      "component": "tender-and-water-box",
+      "feature": "source-fastener-pattern:circle-006",
+      "centre_mm": [
+        362.8664563505804,
+        183.09575667086742
+      ],
+      "radius_mm": 0.6760102120005946,
+      "maximum_radial_error_mm": 0.0005120948137787851
+    },
+    {
+      "component": "tender-and-water-box",
+      "feature": "source-fastener-pattern:circle-007",
+      "centre_mm": [
+        368.2653979324525,
+        183.09575667086742
+      ],
+      "radius_mm": 0.6760102120005946,
+      "maximum_radial_error_mm": 0.00046977945246973185
+    },
+    {
+      "component": "tender-and-water-box",
+      "feature": "edge:circle-008",
+      "centre_mm": [
+        378.25343985891584,
+        198.1759844770344
+      ],
+      "radius_mm": 1.3000196384626705,
+      "maximum_radial_error_mm": 0.000459497285804078
+    },
+    {
+      "component": "boiler-and-smokebox",
+      "feature": "source-fastener-pattern:circle-002",
+      "centre_mm": [
+        107.5827667819076,
+        163.8554660216199
+      ],
+      "radius_mm": 0.7800117830776023,
+      "maximum_radial_error_mm": 0.00048428927815991063
+    },
+    {
+      "component": "boiler-and-smokebox",
+      "feature": "source-fastener-pattern:circle-003",
+      "centre_mm": [
+        107.5827667819076,
+        171.65558385239592
+      ],
+      "radius_mm": 0.7800117830776023,
+      "maximum_radial_error_mm": 0.0004344760429789707
+    },
+    {
+      "component": "motion-bed-and-bearings",
+      "feature": "source-fastener-pattern:circle-000",
+      "centre_mm": [
+        168.91517032903803,
+        135.51503790313367
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0006022310482665105
+    },
+    {
+      "component": "motion-bed-and-bearings",
+      "feature": "source-fastener-pattern:circle-001",
+      "centre_mm": [
+        180.79284180915658,
+        135.51503790313367
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0003920219319180074
+    },
+    {
+      "component": "motion-bed-and-bearings",
+      "feature": "source-fastener-pattern:circle-002",
+      "centre_mm": [
+        196.4497723965856,
+        135.51503790313367
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.000337352533756774
+    },
+    {
+      "component": "motion-bed-and-bearings",
+      "feature": "source-fastener-pattern:circle-003",
+      "centre_mm": [
+        205.8979201648617,
+        135.51503790313367
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0005382469425958547
+    },
+    {
+      "component": "motion-bed-and-bearings",
+      "feature": "source-fastener-pattern:circle-005",
+      "centre_mm": [
+        294.17061502847,
+        135.51503790313367
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.00046846803017386307
+    },
+    {
+      "component": "motion-bed-and-bearings",
+      "feature": "source-fastener-pattern:circle-006",
+      "centre_mm": [
+        168.37527617085084,
+        119.91480224158164
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0006241028676786664
+    },
+    {
+      "component": "motion-bed-and-bearings",
+      "feature": "source-fastener-pattern:circle-007",
+      "centre_mm": [
+        168.37527617085084,
+        125.11488079543233
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0003762537072934391
+    },
+    {
+      "component": "motion-top-linkage",
+      "feature": "source-fastener-pattern:circle-000",
+      "centre_mm": [
+        277.16394904557296,
+        107.69461764003253
+      ],
+      "radius_mm": 0.7800117830776023,
+      "maximum_radial_error_mm": 0.0004945502555030457
+    },
+    {
+      "component": "cylinder-cover",
+      "feature": "source-fastener-pattern:circle-000",
+      "centre_mm": [
+        141.9204624196777,
+        107.95462156772507
+      ],
+      "radius_mm": 0.7800117830776023,
+      "maximum_radial_error_mm": 0.0004919349162889608
+    },
+    {
+      "component": "cylinder-cover",
+      "feature": "source-fastener-pattern:circle-001",
+      "centre_mm": [
+        162.43644043079158,
+        107.95462156772507
+      ],
+      "radius_mm": 0.7800117830776023,
+      "maximum_radial_error_mm": 0.0004700529606824766
+    },
+    {
+      "component": "cylinder-cover",
+      "feature": "source-fastener-pattern:circle-002",
+      "centre_mm": [
+        143.00025073605212,
+        115.23473154311603
+      ],
+      "radius_mm": 0.7800117830776023,
+      "maximum_radial_error_mm": 0.0004129852634747744
+    },
+    {
+      "component": "cylinder-cover",
+      "feature": "source-fastener-pattern:circle-003",
+      "centre_mm": [
+        161.35665211441713,
+        115.23473154311603
+      ],
+      "radius_mm": 0.7800117830776023,
+      "maximum_radial_error_mm": 0.00036870855165160865
+    },
+    {
+      "component": "cylinder-cover",
+      "feature": "source-fastener-pattern:circle-004",
+      "centre_mm": [
+        143.00025073605212,
+        131.8749829154382
+      ],
+      "radius_mm": 0.7800117830776023,
+      "maximum_radial_error_mm": 0.0004712862937341633
+    },
+    {
+      "component": "cylinder-cover",
+      "feature": "source-fastener-pattern:circle-005",
+      "centre_mm": [
+        161.35665211441713,
+        131.8749829154382
+      ],
+      "radius_mm": 0.7800117830776023,
+      "maximum_radial_error_mm": 0.00040433414465190776
+    },
+    {
+      "component": "cylinder-cover",
+      "feature": "source-fastener-pattern:circle-006",
+      "centre_mm": [
+        140.3007799451161,
+        137.59506932467397
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.00036713097912732806
+    },
+    {
+      "component": "cylinder-cover",
+      "feature": "source-fastener-pattern:circle-007",
+      "centre_mm": [
+        146.23961568517538,
+        137.59506932467397
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0003968805512258866
+    },
+    {
+      "component": "cylinder-cover",
+      "feature": "source-fastener-pattern:circle-008",
+      "centre_mm": [
+        152.17845142523464,
+        137.59506932467397
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.00046399096103599824
+    },
+    {
+      "component": "cylinder-cover",
+      "feature": "source-fastener-pattern:circle-009",
+      "centre_mm": [
+        158.1172871652939,
+        137.59506932467397
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.00032865812101023906
+    },
+    {
+      "component": "cylinder-cover",
+      "feature": "source-fastener-pattern:circle-010",
+      "centre_mm": [
+        164.0561229053532,
+        137.59506932467397
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0005909202332502472
+    },
+    {
+      "component": "steam-valves-and-lubricator",
+      "feature": "component-outline:circle-000",
+      "centre_mm": [
+        148.3991923179242,
+        90.79436234001781
+      ],
+      "radius_mm": 0.9880149252316178,
+      "maximum_radial_error_mm": 0.0005016489849075656
+    },
+    {
+      "component": "steam-valves-and-lubricator",
+      "feature": "component-outline:circle-001",
+      "centre_mm": [
+        155.4178163743579,
+        90.79436234001781
+      ],
+      "radius_mm": 0.9880149252316178,
+      "maximum_radial_error_mm": 0.0005077945890485935
+    },
+    {
+      "component": "steam-valves-and-lubricator",
+      "feature": "valve-cover:circle-002",
+      "centre_mm": [
+        172.4244823572549,
+        98.85448409848638
+      ],
+      "radius_mm": 2.600039276925341,
+      "maximum_radial_error_mm": 0.0005083322957313285
+    },
+    {
+      "component": "steam-valves-and-lubricator",
+      "feature": "valve-spindle:circle-003",
+      "centre_mm": [
+        172.4244823572549,
+        98.85448409848638
+      ],
+      "radius_mm": 1.1700176746164035,
+      "maximum_radial_error_mm": 0.0005138185490858316
+    },
+    {
+      "component": "steam-valves-and-lubricator",
+      "feature": "source-fastener-pattern:circle-004",
+      "centre_mm": [
+        169.18511740813165,
+        101.71452730310426
+      ],
+      "radius_mm": 0.5720086409235868,
+      "maximum_radial_error_mm": 0.0004824910883743927
+    },
+    {
+      "component": "steam-valves-and-lubricator",
+      "feature": "source-fastener-pattern:circle-005",
+      "centre_mm": [
+        175.6638473063781,
+        101.71452730310426
+      ],
+      "radius_mm": 0.5720086409235868,
+      "maximum_radial_error_mm": 0.00048336121014436184
+    },
+    {
+      "component": "steam-valves-and-lubricator",
+      "feature": "component-outline:circle-006",
+      "centre_mm": [
+        135.30675898188446,
+        113.4147040492683
+      ],
+      "radius_mm": 2.080031421540273,
+      "maximum_radial_error_mm": 0.0006564233862875746
+    },
+    {
+      "component": "steam-valves-and-lubricator",
+      "feature": "lubricator-sight:circle-007",
+      "centre_mm": [
+        135.30675898188446,
+        113.4147040492683
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0005795262145524838
+    },
+    {
+      "component": "feed-control-and-pipe",
+      "feature": "feed-lever-boss-a:circle-000",
+      "centre_mm": [
+        177.55347686003333,
+        128.7549357831278
+      ],
+      "radius_mm": 2.080031421540273,
+      "maximum_radial_error_mm": 0.0004922675320795378
+    },
+    {
+      "component": "feed-control-and-pipe",
+      "feature": "feed-lever-pin-a:circle-001",
+      "centre_mm": [
+        177.55347686003333,
+        128.7549357831278
+      ],
+      "radius_mm": 0.8736131970469182,
+      "maximum_radial_error_mm": 0.00047652246389762176
+    },
+    {
+      "component": "feed-control-and-pipe",
+      "feature": "feed-lever-boss-b:circle-002",
+      "centre_mm": [
+        181.872630125531,
+        141.7551321677545
+      ],
+      "radius_mm": 2.080031421540273,
+      "maximum_radial_error_mm": 0.00043201522021973915
+    },
+    {
+      "component": "feed-control-and-pipe",
+      "feature": "feed-lever-pin-b:circle-003",
+      "centre_mm": [
+        181.872630125531,
+        141.7551321677545
+      ],
+      "radius_mm": 0.8736131970469182,
+      "maximum_radial_error_mm": 0.0005004757275544058
+    },
+    {
+      "component": "front-casting",
+      "feature": "source-fastener-pattern:circle-000",
+      "centre_mm": [
+        101.91387812094192,
+        135.25503397544117
+      ],
+      "radius_mm": 1.0400157107701364,
+      "maximum_radial_error_mm": 0.0005073465038401004
+    },
+    {
+      "component": "front-casting",
+      "feature": "washer:circle-001",
+      "centre_mm": [
+        101.91387812094192,
+        135.25503397544117
+      ],
+      "radius_mm": 1.6900255300014717,
+      "maximum_radial_error_mm": 0.00017605129310260814
+    },
+    {
+      "component": "front-casting",
+      "feature": "source-fastener-pattern:circle-002",
+      "centre_mm": [
+        118.11070286655811,
+        135.51503790313367
+      ],
+      "radius_mm": 1.0400157107701364,
+      "maximum_radial_error_mm": 0.00038917069237265345
+    },
+    {
+      "component": "front-casting",
+      "feature": "washer:circle-003",
+      "centre_mm": [
+        118.11070286655811,
+        135.51503790313367
+      ],
+      "radius_mm": 1.6900255300014717,
+      "maximum_radial_error_mm": 0.0003406003826424975
+    },
+    {
+      "component": "front-casting",
+      "feature": "source-fastener-pattern:circle-004",
+      "centre_mm": [
+        110.01229049375002,
+        142.79514787852463
+      ],
+      "radius_mm": 1.0400157107701364,
+      "maximum_radial_error_mm": 0.0005362490539952969
+    },
+    {
+      "component": "front-casting",
+      "feature": "washer:circle-005",
+      "centre_mm": [
+        110.01229049375002,
+        142.79514787852463
+      ],
+      "radius_mm": 1.6900255300014717,
+      "maximum_radial_error_mm": 0.00037623160626121255
+    },
+    {
+      "component": "front-casting",
+      "feature": "source-fastener-pattern:circle-006",
+      "centre_mm": [
+        102.18382520003551,
+        147.73522250468278
+      ],
+      "radius_mm": 1.0400157107701364,
+      "maximum_radial_error_mm": 0.0005645348729372834
+    },
+    {
+      "component": "front-casting",
+      "feature": "washer:circle-007",
+      "centre_mm": [
+        102.18382520003551,
+        147.73522250468278
+      ],
+      "radius_mm": 1.6900255300014717,
+      "maximum_radial_error_mm": 0.00032660966625064347
+    },
+    {
+      "component": "front-casting",
+      "feature": "source-fastener-pattern:circle-008",
+      "centre_mm": [
+        120.81017365749415,
+        147.73522250468278
+      ],
+      "radius_mm": 1.0400157107701364,
+      "maximum_radial_error_mm": 0.0005653427479621609
+    },
+    {
+      "component": "front-casting",
+      "feature": "washer:circle-009",
+      "centre_mm": [
+        120.81017365749415,
+        147.73522250468278
+      ],
+      "radius_mm": 1.6900255300014717,
+      "maximum_radial_error_mm": 0.0003260965426894469
+    },
+    {
+      "component": "chimney",
+      "feature": "source-fastener-pattern:circle-000",
+      "centre_mm": [
+        106.82115931036738,
+        110.55466084465041
+      ],
+      "radius_mm": 0.7280109975390837,
+      "maximum_radial_error_mm": 0.0003519123873252372
+    },
+    {
+      "component": "chimney",
+      "feature": "source-fastener-pattern:circle-001",
+      "centre_mm": [
+        110.98122215344793,
+        110.55466084465041
+      ],
+      "radius_mm": 0.7280109975390837,
+      "maximum_radial_error_mm": 0.0003534564241217675
+    },
+    {
+      "component": "chimney",
+      "feature": "source-fastener-pattern:circle-002",
+      "centre_mm": [
+        115.14128499652847,
+        110.55466084465041
+      ],
+      "radius_mm": 0.7280109975390837,
+      "maximum_radial_error_mm": 0.0006638834456675902
+    },
+    {
+      "component": "chimney",
+      "feature": "source-fastener-pattern:circle-003",
+      "centre_mm": [
+        119.30134783960902,
+        110.55466084465041
+      ],
+      "radius_mm": 0.7280109975390837,
+      "maximum_radial_error_mm": 0.0006194476595222653
+    },
+    {
+      "component": "chimney",
+      "feature": "source-fastener-pattern:circle-004",
+      "centre_mm": [
+        123.46141068268956,
+        110.55466084465041
+      ],
+      "radius_mm": 0.7280109975390837,
+      "maximum_radial_error_mm": 0.0005750091587550799
+    },
+    {
+      "component": "driver-controls",
+      "feature": "source-fastener-pattern:circle-000",
+      "centre_mm": [
+        279.50953668581553,
+        118.35477867542645
+      ],
+      "radius_mm": 0.9880149252316178,
+      "maximum_radial_error_mm": 0.0004514362756476986
+    },
+    {
+      "component": "driver-controls",
+      "feature": "source-fastener-pattern:circle-001",
+      "centre_mm": [
+        296.24625558961895,
+        118.35477867542645
+      ],
+      "radius_mm": 0.9880149252316178,
+      "maximum_radial_error_mm": 0.0005566291383819477
+    },
+    {
+      "component": "driver-controls",
+      "feature": "source-fastener-pattern:circle-002",
+      "centre_mm": [
+        296.5162026687125,
+        124.33486901235472
+      ],
+      "radius_mm": 0.9880149252316178,
+      "maximum_radial_error_mm": 0.0004733872333352318
+    },
+    {
+      "component": "driver-controls",
+      "feature": "source-fastener-pattern:circle-003",
+      "centre_mm": [
+        297.86593806418057,
+        111.85468048311307
+      ],
+      "radius_mm": 0.7800117830776023,
+      "maximum_radial_error_mm": 0.0005103611356839233
+    },
+    {
+      "component": "driver-controls",
+      "feature": "component-outline:circle-004",
+      "centre_mm": [
+        297.86593806418057,
+        107.17460978464746
+      ],
+      "radius_mm": 1.5600235661552047,
+      "maximum_radial_error_mm": 0.000465708742168891
+    },
+    {
+      "component": "driver-controls",
+      "feature": "edge:circle-005",
+      "centre_mm": [
+        297.86593806418057,
+        107.17460978464746
+      ],
+      "radius_mm": 0.6500098192313353,
+      "maximum_radial_error_mm": 0.00040066102547953175
+    },
+    {
+      "component": "driver-controls",
+      "feature": "component-outline:circle-006",
+      "centre_mm": [
+        333.76889958362983,
+        132.91499862620836
+      ],
+      "radius_mm": 1.5600235661552047,
+      "maximum_radial_error_mm": 0.00030766035632368016
+    },
+    {
+      "component": "driver-controls",
+      "feature": "edge:circle-007",
+      "centre_mm": [
+        333.76889958362983,
+        132.91499862620836
+      ],
+      "radius_mm": 0.6500098192313353,
+      "maximum_radial_error_mm": 0.0006003997432714181
+    },
+    {
+      "component": "driver-controls",
+      "feature": "quadrant-release-hinge:circle-008",
+      "centre_mm": [
+        337.1010588411915,
+        112.37468833849815
+      ],
+      "radius_mm": 0.8320125686161209,
+      "maximum_radial_error_mm": 0.0003242280365011174
+    },
+    {
+      "component": "driver-controls",
+      "feature": "quadrant-release-pin:circle-009",
+      "centre_mm": [
+        337.1010588411915,
+        112.37468833849815
+      ],
+      "radius_mm": 0.41600628430806047,
+      "maximum_radial_error_mm": 0.0005072887359057754
+    },
+    {
+      "component": "driver-controls",
+      "feature": "edge:circle-010",
+      "centre_mm": [
+        334.86218525395884,
+        126.17569682041787
+      ],
+      "radius_mm": 0.5980090336928167,
+      "maximum_radial_error_mm": 0.0005486836682881968
+    },
+    {
+      "component": "driver-controls",
+      "feature": "edge:circle-011",
+      "centre_mm": [
+        335.8744868005599,
+        119.93560255579706
+      ],
+      "radius_mm": 0.5980090336928167,
+      "maximum_radial_error_mm": 0.0005856515620811242
+    },
+    {
+      "component": "solid-flywheel",
+      "feature": "component-outline:circle-000",
+      "centre_mm": [
+        246.39783599157533,
+        121.13936971231871
+      ],
+      "radius_mm": 33.495823460202615,
+      "maximum_radial_error_mm": 0.0005526326369249546
+    },
+    {
+      "component": "solid-flywheel",
+      "feature": "edge:circle-001",
+      "centre_mm": [
+        246.39783599157533,
+        121.13936971231871
+      ],
+      "radius_mm": 31.93579989404741,
+      "maximum_radial_error_mm": 0.0006017387671377605
+    },
+    {
+      "component": "solid-flywheel",
+      "feature": "dished-disc-shoulder:circle-002",
+      "centre_mm": [
+        246.39783599157533,
+        121.13936971231871
+      ],
+      "radius_mm": 24.655689918656456,
+      "maximum_radial_error_mm": 0.0005825416405258466
+    },
+    {
+      "component": "solid-flywheel",
+      "feature": "edge:circle-003",
+      "centre_mm": [
+        246.39783599157533,
+        121.13936971231871
+      ],
+      "radius_mm": 7.280109975390955,
+      "maximum_radial_error_mm": 0.0004808236466127269
+    },
+    {
+      "component": "solid-flywheel",
+      "feature": "edge:circle-004",
+      "centre_mm": [
+        246.39783599157533,
+        121.13936971231871
+      ],
+      "radius_mm": 5.200078553850682,
+      "maximum_radial_error_mm": 0.0004491951768130775
+    },
+    {
+      "component": "solid-flywheel",
+      "feature": "edge:circle-005",
+      "centre_mm": [
+        246.39783599157533,
+        121.13936971231871
+      ],
+      "radius_mm": 2.600039276925341,
+      "maximum_radial_error_mm": 0.00041121015619882684
+    },
+    {
+      "component": "solid-flywheel",
+      "feature": "edge:circle-006",
+      "centre_mm": [
+        235.64658253710869,
+        95.81100382604262
+      ],
+      "radius_mm": 0.8580129613853508,
+      "maximum_radial_error_mm": 0.0004304242681181236
+    },
+    {
+      "component": "solid-flywheel",
+      "feature": "edge:circle-007",
+      "centre_mm": [
+        273.708471012671,
+        124.49269404136342
+      ],
+      "radius_mm": 0.8580129613853508,
+      "maximum_radial_error_mm": 0.0004893387271345251
+    },
+    {
+      "component": "solid-flywheel",
+      "feature": "edge:circle-008",
+      "centre_mm": [
+        229.8384544249464,
+        143.1144112695501
+      ],
+      "radius_mm": 0.8580129613853508,
+      "maximum_radial_error_mm": 0.00047796133371369454
+    },
+    {
+      "component": "steering-gear-housing",
+      "feature": "component-outline:circle-002",
+      "centre_mm": [
+        205.4873092390097,
+        189.85585879087333
+      ],
+      "radius_mm": 5.980090336928285,
+      "maximum_radial_error_mm": 0.00047687910259242017
+    },
+    {
+      "component": "steering-gear-housing",
+      "feature": "edge:circle-003",
+      "centre_mm": [
+        205.4873092390097,
+        189.85585879087333
+      ],
+      "radius_mm": 4.160062843080546,
+      "maximum_radial_error_mm": 0.0005422395125123103
+    },
+    {
+      "component": "steering-gear-housing",
+      "feature": "edge:circle-004",
+      "centre_mm": [
+        205.4873092390097,
+        189.85585879087333
+      ],
+      "radius_mm": 1.8200274938477388,
+      "maximum_radial_error_mm": 0.0003838797356741086
+    },
+    {
+      "component": "rear-forward-scraper",
+      "feature": "source-fastener-pattern:circle-000",
+      "centre_mm": [
+        219.00280205798407,
+        176.8556624062466
+      ],
+      "radius_mm": 0.7800117830776023,
+      "maximum_radial_error_mm": 0.0004014229820027415
+    },
+    {
+      "component": "rear-forward-scraper",
+      "feature": "source-fastener-pattern:circle-001",
+      "centre_mm": [
+        219.00280205798407,
+        194.2759255616464
+      ],
+      "radius_mm": 0.7800117830776023,
+      "maximum_radial_error_mm": 0.0005875033112294759
+    },
+    {
+      "component": "rear-forward-scraper",
+      "feature": "scraper-adjusting-stay-boss-a:circle-002",
+      "centre_mm": [
+        223.32195532348172,
+        172.69559956316607
+      ],
+      "radius_mm": 1.3000196384626705,
+      "maximum_radial_error_mm": 0.00042037051518373225
+    },
+    {
+      "component": "rear-forward-scraper",
+      "feature": "scraper-adjusting-stay-pin-a:circle-003",
+      "centre_mm": [
+        223.32195532348172,
+        172.69559956316607
+      ],
+      "radius_mm": 0.5460082481543276,
+      "maximum_radial_error_mm": 0.0004364977513824364
+    },
+    {
+      "component": "rear-forward-scraper",
+      "feature": "scraper-adjusting-stay-boss-b:circle-004",
+      "centre_mm": [
+        240.4848713303542,
+        191.8438038688268
+      ],
+      "radius_mm": 1.3000196384626705,
+      "maximum_radial_error_mm": 0.0004081438631933221
+    },
+    {
+      "component": "rear-forward-scraper",
+      "feature": "scraper-hinged-arm-boss-a:circle-006",
+      "centre_mm": [
+        219.00280205798407,
+        179.97570953855703
+      ],
+      "radius_mm": 1.8200274938477388,
+      "maximum_radial_error_mm": 0.0004107154996979556
+    },
+    {
+      "component": "rear-forward-scraper",
+      "feature": "scraper-hinged-arm-pin-a:circle-007",
+      "centre_mm": [
+        219.00280205798407,
+        179.97570953855703
+      ],
+      "radius_mm": 0.7644115474160644,
+      "maximum_radial_error_mm": 0.00039497854133896393
+    },
+    {
+      "component": "rear-forward-scraper",
+      "feature": "scraper-hinged-arm-boss-b:circle-008",
+      "centre_mm": [
+        243.98195237469352,
+        193.77581922491723
+      ],
+      "radius_mm": 1.8200274938477388,
+      "maximum_radial_error_mm": 0.0002102115107538438
+    },
+    {
+      "component": "rear-forward-scraper",
+      "feature": "scraper-clevis-pin:circle-010",
+      "centre_mm": [
+        243.98195237469352,
+        193.77581922491723
+      ],
+      "radius_mm": 0.6760102120005946,
+      "maximum_radial_error_mm": 0.00019460337239463055
+    },
+    {
+      "component": "rear-brake-and-scraper",
+      "feature": "brake-link-boss-b:circle-002",
+      "centre_mm": [
+        356.1359182375345,
+        180.7557213216346
+      ],
+      "radius_mm": 2.080031421540273,
+      "maximum_radial_error_mm": 0.0005418998491775184
+    },
+    {
+      "component": "rear-brake-and-scraper",
+      "feature": "brake-link-pin-b:circle-003",
+      "centre_mm": [
+        356.1359182375345,
+        180.7557213216346
+      ],
+      "radius_mm": 0.8736131970469182,
+      "maximum_radial_error_mm": 0.00047144758970496525
+    },
+    {
+      "component": "rear-brake-and-scraper",
+      "feature": "pinned-rod-boss-a:circle-004",
+      "centre_mm": [
+        362.0747539775938,
+        194.79593341703145
+      ],
+      "radius_mm": 1.8200274938477388,
+      "maximum_radial_error_mm": 0.0002943196748155241
+    },
+    {
+      "component": "rear-brake-and-scraper",
+      "feature": "pinned-rod-pin-a:circle-005",
+      "centre_mm": [
+        362.0747539775938,
+        194.79593341703145
+      ],
+      "radius_mm": 0.7644115474160644,
+      "maximum_radial_error_mm": 0.00051516781665506
+    },
+    {
+      "component": "rear-brake-and-scraper",
+      "feature": "pinned-rod-boss-b:circle-006",
+      "centre_mm": [
+        349.9271354183817,
+        206.4961101631955
+      ],
+      "radius_mm": 1.8200274938477388,
+      "maximum_radial_error_mm": 0.00023901341260890163
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "fitted-circular-rim:circle-000",
+      "centre_mm": [
+        298.7285448472188,
+        180.16519713644243
+      ],
+      "radius_mm": 54.82112786973323,
+      "maximum_radial_error_mm": 0.0006316858284804994
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-lip:circle-001",
+      "centre_mm": [
+        298.7285448472188,
+        180.16519713644243
+      ],
+      "radius_mm": 52.741096448192955,
+      "maximum_radial_error_mm": 0.0006735222102207672
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-fastener:circle-002",
+      "centre_mm": [
+        347.3195508877893,
+        185.100891540081
+      ],
+      "radius_mm": 1.0660161035393958,
+      "maximum_radial_error_mm": 0.00046603281448032163
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-fastener:circle-003",
+      "centre_mm": [
+        346.7976794756664,
+        188.8141995848782
+      ],
+      "radius_mm": 1.0660161035393958,
+      "maximum_radial_error_mm": 0.0003396894939002859
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-fastener:circle-004",
+      "centre_mm": [
+        335.1383661275348,
+        212.71933453272916
+      ],
+      "radius_mm": 1.0660161035393958,
+      "maximum_radial_error_mm": 0.0006178492142423497
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-fastener:circle-005",
+      "centre_mm": [
+        332.5335355802981,
+        215.4167155266804
+      ],
+      "radius_mm": 1.0660161035393958,
+      "maximum_radial_error_mm": 0.00048693177014391686
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-fastener:circle-006",
+      "centre_mm": [
+        309.0498671625089,
+        227.90320351442975
+      ],
+      "radius_mm": 1.0660161035393663,
+      "maximum_radial_error_mm": 0.00054189909258473
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-fastener:circle-007",
+      "centre_mm": [
+        305.3570342142689,
+        228.55434959845368
+      ],
+      "radius_mm": 1.0660161035393663,
+      "maximum_radial_error_mm": 0.0003657014437954409
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-fastener:circle-008",
+      "centre_mm": [
+        279.0189738818849,
+        224.85277661489843
+      ],
+      "radius_mm": 1.0660161035393663,
+      "maximum_radial_error_mm": 0.0004773570284077877
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-fastener:circle-009",
+      "centre_mm": [
+        275.6486752040937,
+        223.20897211653923
+      ],
+      "radius_mm": 1.0660161035393663,
+      "maximum_radial_error_mm": 0.00034089908090062515
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-fastener:circle-010",
+      "centre_mm": [
+        256.5164668063404,
+        204.73321322955928
+      ],
+      "radius_mm": 1.0660161035393958,
+      "maximum_radial_error_mm": 0.0004863767913305672
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-fastener:circle-011",
+      "centre_mm": [
+        254.75604194167548,
+        201.42233559633024
+      ],
+      "radius_mm": 1.0660161035393958,
+      "maximum_radial_error_mm": 0.0003517027979413889
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-fastener:circle-012",
+      "centre_mm": [
+        250.13753880664842,
+        175.22950273280384
+      ],
+      "radius_mm": 1.0660161035393958,
+      "maximum_radial_error_mm": 0.0004992055283807861
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-fastener:circle-013",
+      "centre_mm": [
+        250.6594102187713,
+        171.51619468800664
+      ],
+      "radius_mm": 1.0660161035393958,
+      "maximum_radial_error_mm": 0.00042914066558097375
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-fastener:circle-014",
+      "centre_mm": [
+        262.3187235669029,
+        147.6110597401557
+      ],
+      "radius_mm": 1.0660161035393958,
+      "maximum_radial_error_mm": 0.0005386438830241591
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-fastener:circle-015",
+      "centre_mm": [
+        264.9235541141395,
+        144.91367874620448
+      ],
+      "radius_mm": 1.0660161035393958,
+      "maximum_radial_error_mm": 0.0005712812010458812
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-fastener:circle-016",
+      "centre_mm": [
+        288.4072225319288,
+        132.4271907584551
+      ],
+      "radius_mm": 1.0660161035393958,
+      "maximum_radial_error_mm": 0.0005931631596090003
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-fastener:circle-017",
+      "centre_mm": [
+        292.10005548016886,
+        131.77604467443118
+      ],
+      "radius_mm": 1.0660161035393958,
+      "maximum_radial_error_mm": 0.00037242840110329745
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-fastener:circle-018",
+      "centre_mm": [
+        318.43811581255284,
+        135.4776176579864
+      ],
+      "radius_mm": 1.0660161035393958,
+      "maximum_radial_error_mm": 0.00039935839585458766
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-fastener:circle-019",
+      "centre_mm": [
+        321.80841449034403,
+        137.12142215634555
+      ],
+      "radius_mm": 1.0660161035393958,
+      "maximum_radial_error_mm": 0.0005216925110083093
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-fastener:circle-020",
+      "centre_mm": [
+        340.9406228880973,
+        155.59718104332558
+      ],
+      "radius_mm": 1.0660161035393958,
+      "maximum_radial_error_mm": 0.0003956833647829061
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "rim-fastener:circle-021",
+      "centre_mm": [
+        342.7010477527622,
+        158.90805867655462
+      ],
+      "radius_mm": 1.0660161035393958,
+      "maximum_radial_error_mm": 0.0003768639762096182
+    },
+    {
+      "component": "rear-driving-roll",
+      "feature": "hub-casting:circle-022",
+      "centre_mm": [
+        298.7285448472188,
+        180.16519713644243
+      ],
+      "radius_mm": 11.700176746164034,
+      "maximum_radial_error_mm": 0.0004108545992504986
+    },
+    {
+      "component": "rear-axle-and-drive-pin",
+      "feature": "axle-cap:circle-000",
+      "centre_mm": [
+        298.7285448472188,
+        180.16519713644243
+      ],
+      "radius_mm": 7.540113903083489,
+      "maximum_radial_error_mm": 0.0004801617317902185
+    },
+    {
+      "component": "rear-axle-and-drive-pin",
+      "feature": "axle-shoulder:circle-001",
+      "centre_mm": [
+        298.7285448472188,
+        180.16519713644243
+      ],
+      "radius_mm": 5.980090336928285,
+      "maximum_radial_error_mm": 0.0005031083045112794
+    },
+    {
+      "component": "rear-axle-and-drive-pin",
+      "feature": "axle-centre:circle-002",
+      "centre_mm": [
+        298.7285448472188,
+        180.16519713644243
+      ],
+      "radius_mm": 4.160062843080546,
+      "maximum_radial_error_mm": 0.0004860144716269943
+    },
+    {
+      "component": "rear-axle-and-drive-pin",
+      "feature": "drive-pin-outer:circle-003",
+      "centre_mm": [
+        305.22864303953224,
+        192.3853817379915
+      ],
+      "radius_mm": 4.160062843080546,
+      "maximum_radial_error_mm": 0.00044947430897934737
+    },
+    {
+      "component": "rear-axle-and-drive-pin",
+      "feature": "drive-pin-inner:circle-004",
+      "centre_mm": [
+        305.22864303953224,
+        192.3853817379915
+      ],
+      "radius_mm": 2.600039276925341,
+      "maximum_radial_error_mm": 0.0004356470279383018
+    },
+    {
+      "component": "rear-axle-and-drive-pin",
+      "feature": "split-pin-hole:circle-005",
+      "centre_mm": [
+        305.22864303953224,
+        194.98542101491685
+      ],
+      "radius_mm": 0.5200078553850682,
+      "maximum_radial_error_mm": 0.0004426806577713105
+    },
+    {
+      "component": "front-roll-end",
+      "feature": "fitted-circular-rim:circle-000",
+      "centre_mm": [
+        67.3606519969607,
+        200.51385753575755
+      ],
+      "radius_mm": 34.472467470418096,
+      "maximum_radial_error_mm": 0.0005823831501459154
+    },
+    {
+      "component": "front-roll-end",
+      "feature": "rim-lip:circle-001",
+      "centre_mm": [
+        67.3606519969607,
+        200.51385753575755
+      ],
+      "radius_mm": 32.652439976570356,
+      "maximum_radial_error_mm": 0.0003219716780336057
+    },
+    {
+      "component": "front-roll-end",
+      "feature": "rim-fastener:circle-002",
+      "centre_mm": [
+        97.05056596415304,
+        207.80639985489384
+      ],
+      "radius_mm": 0.7020106047698539,
+      "maximum_radial_error_mm": 0.0004574864783853938
+    },
+    {
+      "component": "front-roll-end",
+      "feature": "rim-fastener:circle-003",
+      "centre_mm": [
+        96.40358567203246,
+        210.06268827051557
+      ],
+      "radius_mm": 0.7020106047698539,
+      "maximum_radial_error_mm": 0.00047874909947054345
+    },
+    {
+      "component": "front-roll-end",
+      "feature": "rim-fastener:circle-004",
+      "centre_mm": [
+        75.89008207401173,
+        229.87234842708867
+      ],
+      "radius_mm": 0.7020106047698539,
+      "maximum_radial_error_mm": 0.0003772452541241922
+    },
+    {
+      "component": "front-roll-end",
+      "feature": "rim-fastener:circle-005",
+      "centre_mm": [
+        73.61258884175854,
+        230.44019126617528
+      ],
+      "radius_mm": 0.7020106047698539,
+      "maximum_radial_error_mm": 0.00045048434974048757
+    },
+    {
+      "component": "front-roll-end",
+      "feature": "rim-fastener:circle-006",
+      "centre_mm": [
+        46.20016810681939,
+        222.5798061079524
+      ],
+      "radius_mm": 0.7020106047698539,
+      "maximum_radial_error_mm": 0.0005975641125269826
+    },
+    {
+      "component": "front-roll-end",
+      "feature": "rim-fastener:circle-007",
+      "centre_mm": [
+        44.56965516668675,
+        220.8913605314173
+      ],
+      "radius_mm": 0.7020106047698539,
+      "maximum_radial_error_mm": 0.0003803703029686689
+    },
+    {
+      "component": "front-roll-end",
+      "feature": "rim-fastener:circle-008",
+      "centre_mm": [
+        37.67073802976835,
+        193.22131521662124
+      ],
+      "radius_mm": 0.7020106047698539,
+      "maximum_radial_error_mm": 0.0004454040009045368
+    },
+    {
+      "component": "front-roll-end",
+      "feature": "rim-fastener:circle-009",
+      "centre_mm": [
+        38.31771832188891,
+        190.96502680099957
+      ],
+      "radius_mm": 0.7020106047698539,
+      "maximum_radial_error_mm": 0.0003831748499931731
+    },
+    {
+      "component": "front-roll-end",
+      "feature": "rim-fastener:circle-010",
+      "centre_mm": [
+        58.831221919909645,
+        171.1553666444264
+      ],
+      "radius_mm": 0.7020106047698539,
+      "maximum_radial_error_mm": 0.0004373653507345754
+    },
+    {
+      "component": "front-roll-end",
+      "feature": "rim-fastener:circle-011",
+      "centre_mm": [
+        61.108715152162844,
+        170.58752380533986
+      ],
+      "radius_mm": 0.7020106047698539,
+      "maximum_radial_error_mm": 0.0004910418492448665
+    },
+    {
+      "component": "front-roll-end",
+      "feature": "rim-fastener:circle-012",
+      "centre_mm": [
+        88.52113588710199,
+        178.44790896356272
+      ],
+      "radius_mm": 0.7020106047698539,
+      "maximum_radial_error_mm": 0.0005289452716660259
+    },
+    {
+      "component": "front-roll-end",
+      "feature": "rim-fastener:circle-013",
+      "centre_mm": [
+        90.15164882723464,
+        180.13635454009784
+      ],
+      "radius_mm": 0.7020106047698539,
+      "maximum_radial_error_mm": 0.00037469889354835306
+    },
+    {
+      "component": "front-roll-end",
+      "feature": "hub-casting:circle-014",
+      "centre_mm": [
+        67.3606519969607,
+        200.51385753575755
+      ],
+      "radius_mm": 7.280109975390955,
+      "maximum_radial_error_mm": 0.0005413772702889119
+    },
+    {
+      "component": "front-kingpin-and-fork",
+      "feature": "component-outline:circle-000",
+      "centre_mm": [
+        67.3606519969607,
+        200.51385753575755
+      ],
+      "radius_mm": 5.980090336928285,
+      "maximum_radial_error_mm": 0.0004485807077196924
+    },
+    {
+      "component": "front-kingpin-and-fork",
+      "feature": "edge:circle-001",
+      "centre_mm": [
+        67.3606519969607,
+        200.51385753575755
+      ],
+      "radius_mm": 3.9000589153880116,
+      "maximum_radial_error_mm": 0.0003300738310700879
+    },
+    {
+      "component": "front-kingpin-and-fork",
+      "feature": "edge:circle-002",
+      "centre_mm": [
+        67.3606519969607,
+        200.51385753575755
+      ],
+      "radius_mm": 2.080031421540273,
+      "maximum_radial_error_mm": 0.00027350547543836257
+    },
+    {
+      "component": "front-scraper",
+      "feature": "source-fastener-pattern:circle-001",
+      "centre_mm": [
+        103.50119794622293,
+        199.73384575267994
+      ],
+      "radius_mm": 0.7800117830776023,
+      "maximum_radial_error_mm": 0.0005310711550357006
+    },
+    {
+      "component": "near-steering-chain",
+      "feature": "front-spring-chain-eye:circle-000",
+      "centre_mm": [
+        46.30033385386543,
+        200.25385360806501
+      ],
+      "radius_mm": 1.0400157107701364,
+      "maximum_radial_error_mm": 0.000507162613828438
+    },
+    {
+      "component": "near-steering-chain",
+      "feature": "front-spring-eye-pin:circle-001",
+      "centre_mm": [
+        46.30033385386543,
+        200.25385360806501
+      ],
+      "radius_mm": 0.46800706984654955,
+      "maximum_radial_error_mm": 0.00043722311567961913
+    }
+  ],
+  "tangent_join_check_count": 299,
+  "maximum_spoke_join_tangent_error_degrees": 0.9483024436925628,
+  "closed_contour_seam_regression_passed": true,
+  "maximum_exact_spoke_tangent_error_degrees": 1.0389605489178034e-10,
+  "maximum_spoke_coordinate_rounding_error_mm": 0.0006963104311021151,
+  "exported_tangents_within_calculated_grid_error_bounds": true,
+  "source_hashes": [
+    {
+      "file": "side-source-4096.jpg",
+      "sha256": "221987380e76a16b239b12bb9d7210ed767861c33cde43d68233242d69846d61"
+    },
+    {
+      "file": "side-working-1600.jpg",
+      "sha256": "03594cb8a8cbb7d6022d6d2d327fb69ce0faa95955b07531257458f99067cc9e"
+    },
+    {
+      "file": "terry-reference-1600.jpg",
+      "sha256": "58e88de350d05b1eeeb41915de580300fdb33de758947fdd630d633a6b3d14de"
+    },
+    {
+      "file": "front-first-frame.png",
+      "sha256": "ea0470b488387a8ed76ff0674be427bc547a650a4fa58f69ec3726bbb047dc60"
+    },
+    {
+      "file": "front-reference.mp4",
+      "sha256": "4f447785a80192aa35cbb4fb07ea2d04147bc6127b93dd77d04ff24ab195221d"
+    },
+    {
+      "file": "merl-fowler-blueprint.jpg",
+      "sha256": "c64d07e7b92760626d506a41105ccd78b341d759d570d33bac3d77ac2242390e"
+    },
+    {
+      "file": "invicta-horse-reference.jpg",
+      "sha256": "7e11b8786a0d91bdf33972238b283b5bf1a208c5c9a6dff547d008a3c28b289e"
+    },
+    {
+      "file": "worksplate-6882-reference.jpg",
+      "sha256": "057cabb4b3d8e55f4a9a9f1a031b02edc39d7a0b24b15cae1aa4406f427cb6b3"
+    }
+  ],
+  "format_validation": "[PASS] examples/technical-objects/aveling-porter-5499-blueprint-v12/artwork/aveling-porter-5499-blueprint.svg  [a3-landscape]  (116 checks)",
+  "badge_clearance_from_engine_mm": 8.488271144134972,
+  "worksplate_text": [
+    "AVELING & PORTER",
+    "BY ROYAL LETTERS PATENT",
+    "ENGLAND",
+    "KENT",
+    "LIMITED",
+    "No. 5499",
+    "ROCHESTER"
+  ],
+  "far_chain_minimum_front_roll_clearance_mm": 6.7462610891045856,
+  "forward_scraper_blade_gap_mm": 0.0001625466784889722,
+  "chimney_upper_width_mm": 19.760000000000005,
+  "chimney_lower_width_mm": 16.653000000000006,
+  "strict_svg_preflight": {
+    "source_sha256": "edffced5e7e663825214e6094167b676501b9ba5c277700ca66c90d96f9a2432",
+    "source_bytes": 441394,
+    "page_mm": {
+      "width": 420.0,
+      "height": 297.0
+    },
+    "path_count": 838,
+    "layer_count": 3,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "simulation": {
+    "machine": "AxiDraw-class nominal simulation",
+    "total_seconds": 769.441192,
+    "total_low_seconds": 654.025013,
+    "total_high_seconds": 884.857371,
+    "timing_uncertainty_fraction": 0.15,
+    "calibration_state": "nominal-unmeasured",
+    "pen_changes": 3,
+    "pen_loads": 3,
+    "pen_swaps": 2,
+    "kinematic_seconds": 350.061192,
+    "command_latency_seconds": 0.0,
+    "servo_seconds": 369.38,
+    "manual_change_seconds": 50.0,
+    "pen_down_mm": 15968.899914,
+    "pen_up_mm": 6170.009824,
+    "pen_lifts": 838,
+    "travel_ratio": 0.386377,
+    "ink_mm2": 5542.455854,
+    "bounds": {
+      "min_x_mm": 0.0,
+      "min_y_mm": 0.0,
+      "max_x_mm": 408.0,
+      "max_y_mm": 285.0
+    }
+  },
+  "physical_execution_allowed": false,
+  "scope": "Exported geometric alignment, smoothness and visible joins are checked. Separate closed details need not touch. Proportions remain interpreted, not surveyed or factory dimensions."
+}
