@@ -12,6 +12,13 @@ pen widths and complete stroke lettering are verified.
 includes artwork, previews, photographic comparison, simulator, checksums and
 portable rebuild source. [Download the full ZIP](../artwork/aveling-porter-5499-blueprint-v14.zip).
 
+A separate [colour pen edition](../artwork/aveling-porter-5499-colour-v1/index.html)
+uses that same refined drawing on white paper, with photograph-informed green,
+red, black and brass-gold linework. It includes eight verified pen layers,
+an optimised plot job, an A3 colour PDF and a comparison with the blueprint.
+[Colour package and instructions](../artwork/aveling-porter-5499-colour-v1/README.md) ·
+[Download the colour ZIP](../artwork/aveling-porter-5499-colour-v1.zip).
+
 ## Augusta National
 
 `augusta-national/` contains the source example referenced by the simulator

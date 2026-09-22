@@ -172,6 +172,14 @@ pen widths and complete stroke lettering are verified.
 [The complete package](artwork/aveling-porter-5499-blueprint-v14/README.md)
 includes artwork, previews, photographic comparison, simulator, checksums and
 portable rebuild source. [Download the full ZIP](artwork/aveling-porter-5499-blueprint-v14.zip).
+
+A separate [colour pen edition](artwork/aveling-porter-5499-colour-v1/index.html)
+uses that same refined drawing on white paper, with photograph-informed green,
+red, black and brass-gold linework. It includes eight verified pen layers,
+an optimised plot job, an A3 colour PDF and a comparison with the blueprint.
+[Colour package and instructions](artwork/aveling-porter-5499-colour-v1/README.md) ·
+[Download the colour ZIP](artwork/aveling-porter-5499-colour-v1.zip).
+
 The native-vector car collections below retain their separate source policy.
 
 The Shelby Cobra 427 A3 landscape package is also integrated as first-class
