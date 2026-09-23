@@ -180,6 +180,39 @@ an optimised plot job, an A3 colour PDF and a comparison with the blueprint.
 [Colour package and instructions](artwork/aveling-porter-5499-colour-v1/README.md) ·
 [Download the colour ZIP](artwork/aveling-porter-5499-colour-v1.zip).
 
+[Colour edition 5](artwork/aveling-porter-5499-colour-v5/index.html) keeps all
+863 revision-14 path shapes as strong black outlines, with the engine linework
+one pen heavier. Inside them, the engine is coloured in with pen lines only,
+like a coloured engineering drawing:
+
+- green cladding, tender and spokes, with every spoke ruled in even parallel
+  lines;
+- black iron wheels and flywheel;
+- red scrapers and fork;
+- gold bands and fittings, each built from several 0.40 mm gold lines, as there
+  is no broad gold pen.
+
+Behind the rear wheel, everything up to the tender's straight front edge is a
+black hatch, a shade lighter than the wheels. The worksplate and horse at the
+top right are left as black engraving. Colour keeps at least 0.22 mm clear of
+black ink.
+
+Plot at A3 landscape, 100% scale. Use the eight pen files in order, one pen
+each:
+
+1. Gold 0.40
+2. Green 0.25
+3. Red 0.25
+4. Grey 0.25
+5. Black 0.25
+6. Black 0.40
+7. Black 0.60
+8. Black 1.00
+
+The plot takes about 54 minutes.
+[Colour edition 5 package](artwork/aveling-porter-5499-colour-v5/README.md) ·
+[Download the colour edition 5 ZIP](artwork/aveling-porter-5499-colour-v5.zip).
+
 The native-vector car collections below retain their separate source policy.
 
 The Shelby Cobra 427 A3 landscape package is also integrated as first-class
