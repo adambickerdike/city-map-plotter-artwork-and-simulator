@@ -1,0 +1,185 @@
+{
+  "schema": "aveling-5499-lined-colour-verification-v1",
+  "master_svg_sha256": "e3f82061e28dbdb55a3005db91897f7844722296b6a9c1af08cdcbdebaf40996",
+  "base_master_sha256": "f4106404c710e89bda8e2b32e4cfd92d9ff1c82b4f30c9ec7cbba89621e33678",
+  "all_svg_paths": 4029,
+  "source_outline_paths": 863,
+  "unchanged_source_paths": 863,
+  "fill_lines": 3166,
+  "dots": 0,
+  "fill_lines_by_pen": {
+    "gold-0-4": 43,
+    "green-0-25": 852,
+    "red-0-25": 139,
+    "grey-0-25": 912,
+    "black-0-25": 1220
+  },
+  "fill_length_m_by_pen": {
+    "gold-0-4": 0.495,
+    "green-0-25": 11.655,
+    "red-0-25": 1.535,
+    "grey-0-25": 8.698,
+    "black-0-25": 21.906
+  },
+  "outline_pens": {
+    "black-0-25": 588,
+    "black-0-4": 208,
+    "black-0-6": 63,
+    "black-1": 4
+  },
+  "required_white_gap_mm": 0.22,
+  "minimum_white_gap_to_black_ink_mm": {
+    "black-0-25": 0.222,
+    "gold-0-4": 0.2242,
+    "green-0-25": 0.2219,
+    "grey-0-25": 0.2219,
+    "red-0-25": 0.222
+  },
+  "top_right_badges_uncoloured": true,
+  "through_rear_wheel": {
+    "tender_front_edge_x_mm": 318.865,
+    "tender_top_y_mm": 150.335
+  },
+  "wheel_rim_to_spoke_white_gap_mm": {
+    "rear-wheel": 0.5705,
+    "front-roll": 0.6803
+  },
+  "spoke_lines": {
+    "rear-wheel-spokes": {
+      "lines": 62,
+      "pieces": 10,
+      "maximum_angle_spread_within_a_spoke_deg": 0.0738
+    },
+    "front-roll-spokes": {
+      "lines": 25,
+      "pieces": 7,
+      "maximum_angle_spread_within_a_spoke_deg": 0.0403
+    },
+    "rear-inner-spokes": {
+      "lines": 86,
+      "pieces": 18,
+      "maximum_angle_spread_within_a_spoke_deg": 0.0644
+    },
+    "front-inner-spokes": {
+      "lines": 24,
+      "pieces": 7,
+      "maximum_angle_spread_within_a_spoke_deg": 0.0311
+    }
+  },
+  "fills_inside_claimed_areas": true,
+  "exported_fills_match_plan": true,
+  "coloured_parts": 45,
+  "coloured_paper_cells": 283,
+  "paper_cells": 784,
+  "horse_paths_unchanged": 40,
+  "text_blocks_unchanged": 12,
+  "font_id": "plotter-grid-v4",
+  "font_source_sha256": "d6a83ce73261f9b9cab9e8276097e9c9b05d537ad36592bd5a501a5f16efd18f",
+  "minimum_cap_to_nib_ratio": 8.0,
+  "pen_sequence": [
+    "gold-0-4",
+    "green-0-25",
+    "red-0-25",
+    "grey-0-25",
+    "black-0-25",
+    "black-0-4",
+    "black-0-6",
+    "black-1"
+  ],
+  "pen_profile": "studio-pens-fine-gold",
+  "single_pass_paths": true,
+  "white_paper": true,
+  "gold": {
+    "pen": "gold-0-4",
+    "nib_mm": 0.4,
+    "nib_status": "user-confirmed nominal nib",
+    "lines_by_part": {
+      "boiler-bands": 6,
+      "safety-valves-and-lubricator": 12,
+      "whistle": 8,
+      "cylinder-maker-plate": 17
+    }
+  },
+  "all_pen_files_match_master": true,
+  "format_validation": "[PASS] /home/adam/Projects/city-map-plotter/examples/technical-objects/aveling-porter-5499-colour-v5/artwork/aveling-porter-5499-colour-hatched.svg  [a3-landscape]  (271 checks)",
+  "source_hashes": [
+    {
+      "file": "side-source-4096.jpg",
+      "sha256": "221987380e76a16b239b12bb9d7210ed767861c33cde43d68233242d69846d61"
+    },
+    {
+      "file": "side-working-1600.jpg",
+      "sha256": "03594cb8a8cbb7d6022d6d2d327fb69ce0faa95955b07531257458f99067cc9e"
+    },
+    {
+      "file": "terry-reference-1600.jpg",
+      "sha256": "58e88de350d05b1eeeb41915de580300fdb33de758947fdd630d633a6b3d14de"
+    },
+    {
+      "file": "front-first-frame.png",
+      "sha256": "ea0470b488387a8ed76ff0674be427bc547a650a4fa58f69ec3726bbb047dc60"
+    },
+    {
+      "file": "front-reference.mp4",
+      "sha256": "4f447785a80192aa35cbb4fb07ea2d04147bc6127b93dd77d04ff24ab195221d"
+    },
+    {
+      "file": "merl-fowler-blueprint.jpg",
+      "sha256": "c64d07e7b92760626d506a41105ccd78b341d759d570d33bac3d77ac2242390e"
+    },
+    {
+      "file": "invicta-horse-reference.jpg",
+      "sha256": "7e11b8786a0d91bdf33972238b283b5bf1a208c5c9a6dff547d008a3c28b289e"
+    },
+    {
+      "file": "worksplate-6882-reference.jpg",
+      "sha256": "057cabb4b3d8e55f4a9a9f1a031b02edc39d7a0b24b15cae1aa4406f427cb6b3"
+    },
+    {
+      "file": "invicta-gwra-2025-reference.jpg",
+      "sha256": "804dcdcffe113ef7a34e5caba36d491657b1953c9868de1b62e8edda2aeb39a3"
+    }
+  ],
+  "simulation": {
+    "machine": "AxiDraw-class nominal simulation",
+    "total_seconds": 3228.788072,
+    "total_low_seconds": 2744.469861,
+    "total_high_seconds": 3713.106283,
+    "timing_uncertainty_fraction": 0.15,
+    "calibration_state": "nominal-unmeasured",
+    "pen_changes": 8,
+    "pen_loads": 8,
+    "pen_swaps": 7,
+    "kinematic_seconds": 1279.268072,
+    "command_latency_seconds": 0.0,
+    "servo_seconds": 1774.52,
+    "manual_change_seconds": 175.0,
+    "pen_down_mm": 60365.862614,
+    "pen_up_mm": 14278.705608,
+    "pen_lifts": 4029,
+    "travel_ratio": 0.236536,
+    "ink_mm2": 17733.97983,
+    "bounds": {
+      "min_x_mm": 0.0,
+      "min_y_mm": 0.0,
+      "max_x_mm": 408.0,
+      "max_y_mm": 285.0
+    }
+  },
+  "strict_svg_preflight": {
+    "source_sha256": "e3f82061e28dbdb55a3005db91897f7844722296b6a9c1af08cdcbdebaf40996",
+    "source_bytes": 1407884,
+    "page_mm": {
+      "width": 420.0,
+      "height": 297.0
+    },
+    "path_count": 4029,
+    "layer_count": 8,
+    "metadata_complete": true,
+    "hardware_safe": true,
+    "issues": []
+  },
+  "inherited_geometry_proof": "revision-14-verification.json",
+  "inherited_font_proof": "revision-14-plotting-verification.json",
+  "scope": "Photograph-informed colour illustration using available studio inks, not measured paint matching. Vector geometry, clearance and pen-file checks only; no machine was operated."
+}

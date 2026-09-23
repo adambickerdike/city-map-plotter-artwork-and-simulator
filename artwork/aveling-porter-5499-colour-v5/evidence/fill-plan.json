@@ -1,0 +1,2289 @@
+{
+  "schema": "aveling-5499-lined-colour-plan-v2",
+  "base_master_sha256": "f4106404c710e89bda8e2b32e4cfd92d9ff1c82b4f30c9ec7cbba89621e33678",
+  "paper": "white",
+  "inventory": "studio-pens-fine-gold",
+  "gold_pen": "Gold 0.40 mm, the studio's gold (user-confirmed); every gold part is several fine lines",
+  "marks": "single-pass pen lines only; no dots or fills",
+  "clearance_model": {
+    "cell_offset_beyond_black_ink_mm": 0.15,
+    "white_paper_between_inks_mm": 0.22,
+    "fill_erosion_mm": "nib/2 + white gap - cell offset",
+    "minimum_fill_stroke_mm": "max(3 x nib, 1.2); ruled Gold on the maker's plate at least 2.0",
+    "gold_line_spacing_mm": 0.5,
+    "strokes": "every hatch line is a separate stroke with clean ends, in serpentine order"
+  },
+  "lighting": "Upper-left light: graded parallel lines model the boiler, smokebox and chimney as cylinders. The black iron wheels, hubs and flywheel are close, even Black circles all round; flat plates darken slightly to the lower right.",
+  "outline_weights": "Engine linework one pen heavier than the blueprint: 0.30 -> Black 0.40, 0.40 -> Black 0.60, roller tyres 0.50 -> Black 1.00. Fasteners, chains, small fittings, scrapers, controls, lettering, the badges and the sheet frame keep their original weights.",
+  "wheel_faces": [
+    {
+      "name": "rear-wheel",
+      "centre_mm": [
+        298.729,
+        180.165
+      ],
+      "split_radius_mm": 45.1,
+      "opening_cuts": 10,
+      "spoke_pieces": 10,
+      "rim_pieces": 1
+    },
+    {
+      "name": "front-roll",
+      "centre_mm": [
+        67.361,
+        200.514
+      ],
+      "split_radius_mm": 28.65,
+      "opening_cuts": 8,
+      "spoke_pieces": 8,
+      "rim_pieces": 3
+    }
+  ],
+  "spokes": "Every spoke of a wheel ruled with the same number of lines parallel to its edges: five on the rear wheel, four on the front roll.",
+  "through_the_wheels": "Rear wheel: everything seen between the spokes up to the tender front edge (x = 318.865 mm) and above its top rim is black iron in Black lines about 0.69 mm apart, lighter than the black wheel rims; the tender beyond that edge continues in green. Front roll: a hollow drum, so the spaces between its spokes stay paper.",
+  "badges": "The worksplate and Invicta horse at the top right are uncoloured black engraving.",
+  "paper_cell_count": 784,
+  "coloured_cell_count": 283,
+  "parts": [
+    {
+      "part": "rear-wheel-rim",
+      "material": "black-painted iron rim",
+      "painter": {
+        "painter": "concentric",
+        "pen": "black-0-25",
+        "centre": [
+          298.729,
+          180.165
+        ],
+        "pitch": 0.38,
+        "shade": null
+      },
+      "seed_points_mm": [
+        [
+          298.73,
+          229.67
+        ]
+      ],
+      "cell_count": 1,
+      "cell_area_mm2": 2035.995,
+      "strokes_by_pen": {
+        "black-0-25": 130
+      },
+      "note": "Face cells outside r = 45.22 mm: close, even Black circles."
+    },
+    {
+      "part": "rear-wheel-spokes",
+      "material": "green paint",
+      "painter": {
+        "painter": "ruled",
+        "pattern": [
+          "green-0-25",
+          "green-0-25",
+          "green-0-25",
+          "green-0-25",
+          "green-0-25"
+        ]
+      },
+      "seed_points_mm": [
+        [
+          298.73,
+          229.67
+        ]
+      ],
+      "cell_count": 10,
+      "cell_area_mm2": 780.905,
+      "strokes_by_pen": {
+        "green-0-25": 62
+      },
+      "note": "Face cells inside r = 44.98 mm, cut apart through the 10 spoke openings; 5 lines ruled along every spoke."
+    },
+    {
+      "part": "front-roll-rim",
+      "material": "black-painted iron rim",
+      "painter": {
+        "painter": "concentric",
+        "pen": "black-0-25",
+        "centre": [
+          67.361,
+          200.514
+        ],
+        "pitch": 0.38,
+        "shade": null
+      },
+      "seed_points_mm": [
+        [
+          44.87,
+          178.02
+        ],
+        [
+          89.85,
+          178.02
+        ],
+        [
+          67.36,
+          232.31
+        ]
+      ],
+      "cell_count": 3,
+      "cell_area_mm2": 508.816,
+      "strokes_by_pen": {
+        "black-0-25": 54
+      },
+      "note": "Face cells outside r = 28.77 mm: close, even Black circles."
+    },
+    {
+      "part": "front-roll-spokes",
+      "material": "green paint",
+      "painter": {
+        "painter": "ruled",
+        "pattern": [
+          "green-0-25",
+          "green-0-25",
+          "green-0-25",
+          "green-0-25"
+        ]
+      },
+      "seed_points_mm": [
+        [
+          44.87,
+          178.02
+        ],
+        [
+          89.85,
+          178.02
+        ],
+        [
+          67.36,
+          232.31
+        ]
+      ],
+      "cell_count": 8,
+      "cell_area_mm2": 210.264,
+      "strokes_by_pen": {
+        "green-0-25": 25
+      },
+      "note": "Face cells inside r = 28.53 mm, cut apart through the 8 spoke openings; 4 lines ruled along every spoke."
+    },
+    {
+      "part": "boiler-cladding",
+      "material": "green paint",
+      "painter": {
+        "painter": "cylinder",
+        "pen": "green-0-25",
+        "angle": 0.0,
+        "span": [
+          129.535,
+          175.816
+        ],
+        "coverage": [
+          0.2,
+          0.45
+        ],
+        "shade_tiers": [
+          "black-0-25",
+          [
+            [
+              0.8,
+              2
+            ]
+          ]
+        ],
+        "facing": 1.0
+      },
+      "seed_points_mm": [
+        [
+          145,
+          157
+        ],
+        [
+          182,
+          163
+        ],
+        [
+          208,
+          159
+        ],
+        [
+          132,
+          130
+        ],
+        [
+          145,
+          175.2
+        ],
+        [
+          179,
+          175.2
+        ],
+        [
+          206,
+          175.2
+        ]
+      ],
+      "cell_count": 7,
+      "cell_area_mm2": 2773.787,
+      "strokes_by_pen": {
+        "green-0-25": 125,
+        "black-0-25": 15
+      },
+      "note": "Horizontal cylinder: graded lines parallel to the barrel, darkest below."
+    },
+    {
+      "part": "cylinder-block",
+      "material": "green paint",
+      "painter": {
+        "painter": "flat",
+        "pen": "green-0-25",
+        "angle": -45.0,
+        "coverage": [
+          0.36,
+          0.44
+        ],
+        "shade": null
+      },
+      "seed_points_mm": [
+        [
+          152,
+          108
+        ],
+        [
+          140,
+          123
+        ],
+        [
+          143,
+          124
+        ]
+      ],
+      "cell_count": 3,
+      "cell_area_mm2": 506.697,
+      "strokes_by_pen": {
+        "green-0-25": 105
+      },
+      "note": ""
+    },
+    {
+      "part": "motion-side-plate",
+      "material": "green paint",
+      "painter": {
+        "painter": "flat",
+        "pen": "green-0-25",
+        "angle": -45.0,
+        "coverage": [
+          0.36,
+          0.44
+        ],
+        "shade": null
+      },
+      "seed_points_mm": [
+        [
+          197,
+          128
+        ],
+        [
+          189,
+          117
+        ],
+        [
+          195,
+          115
+        ]
+      ],
+      "cell_count": 3,
+      "cell_area_mm2": 917.717,
+      "strokes_by_pen": {
+        "green-0-25": 99
+      },
+      "note": ""
+    },
+    {
+      "part": "tender",
+      "material": "green paint",
+      "painter": {
+        "painter": "flat",
+        "pen": "green-0-25",
+        "angle": -45.0,
+        "coverage": [
+          0.36,
+          0.44
+        ],
+        "shade": null
+      },
+      "seed_points_mm": [
+        [
+          366,
+          172
+        ],
+        [
+          366,
+          200
+        ],
+        [
+          377,
+          158
+        ],
+        [
+          375,
+          182
+        ],
+        [
+          374,
+          208
+        ],
+        [
+          353,
+          167
+        ],
+        [
+          330,
+          154
+        ],
+        [
+          331,
+          152
+        ],
+        [
+          377,
+          171
+        ],
+        [
+          354,
+          198
+        ],
+        [
+          331,
+          179
+        ],
+        [
+          328,
+          200
+        ],
+        [
+          323,
+          163
+        ],
+        [
+          336,
+          166
+        ],
+        [
+          336,
+          192
+        ],
+        [
+          322,
+          208
+        ],
+        [
+          323,
+          215
+        ],
+        [
+          322,
+          218
+        ]
+      ],
+      "cell_count": 18,
+      "cell_area_mm2": 2028.305,
+      "strokes_by_pen": {
+        "green-0-25": 326
+      },
+      "note": "Includes the open space beside the rear scraper arm, and the tender seen between the rear spokes beyond its front edge, on one continuous hatch."
+    },
+    {
+      "part": "iron-behind-rear-wheel",
+      "material": "black paint in shadow",
+      "painter": {
+        "painter": "flat",
+        "pen": "black-0-25",
+        "angle": -45.0,
+        "coverage": [
+          0.36,
+          0.36
+        ],
+        "shade": null
+      },
+      "seed_points_mm": [
+        [
+          273,
+          164
+        ],
+        [
+          261,
+          168
+        ],
+        [
+          269,
+          181
+        ],
+        [
+          262,
+          195
+        ],
+        [
+          275,
+          198
+        ],
+        [
+          293,
+          203
+        ],
+        [
+          308,
+          204
+        ],
+        [
+          287,
+          218
+        ],
+        [
+          300,
+          220
+        ],
+        [
+          312,
+          218
+        ],
+        [
+          287,
+          147
+        ],
+        [
+          273,
+          148
+        ],
+        [
+          298,
+          147
+        ],
+        [
+          291,
+          164
+        ],
+        [
+          303,
+          163
+        ],
+        [
+          266,
+          156
+        ],
+        [
+          289,
+          156
+        ],
+        [
+          305,
+          156
+        ],
+        [
+          279,
+          156
+        ],
+        [
+          266,
+          152
+        ],
+        [
+          281.95,
+          159.6
+        ],
+        [
+          289,
+          213
+        ],
+        [
+          275,
+          213
+        ],
+        [
+          311,
+          213
+        ],
+        [
+          282,
+          205
+        ],
+        [
+          300,
+          213
+        ],
+        [
+          276,
+          217
+        ],
+        [
+          290,
+          210
+        ],
+        [
+          310,
+          210
+        ],
+        [
+          278,
+          210
+        ],
+        [
+          300,
+          210
+        ],
+        [
+          300,
+          207
+        ],
+        [
+          267,
+          210
+        ],
+        [
+          309,
+          145
+        ],
+        [
+          323,
+          147
+        ],
+        [
+          315,
+          156
+        ],
+        [
+          303,
+          153
+        ],
+        [
+          286,
+          139
+        ],
+        [
+          296,
+          139
+        ],
+        [
+          296,
+          136
+        ],
+        [
+          316,
+          162
+        ],
+        [
+          315,
+          191
+        ],
+        [
+          316,
+          180
+        ],
+        [
+          318,
+          206
+        ]
+      ],
+      "cell_count": 44,
+      "cell_area_mm2": 2453.864,
+      "strokes_by_pen": {
+        "black-0-25": 463
+      },
+      "note": "Firebox, horn plates and frame seen between the rear spokes, up to the tender edge."
+    },
+    {
+      "part": "rear-inner-spokes",
+      "material": "green paint",
+      "painter": {
+        "painter": "ruled",
+        "pattern": [
+          "green-0-25",
+          "green-0-25",
+          "green-0-25",
+          "green-0-25",
+          "green-0-25"
+        ]
+      },
+      "seed_points_mm": [
+        [
+          280,
+          148
+        ],
+        [
+          276,
+          206
+        ],
+        [
+          267,
+          188
+        ],
+        [
+          269,
+          168
+        ],
+        [
+          331,
+          173
+        ],
+        [
+          329,
+          193
+        ],
+        [
+          302,
+          146
+        ],
+        [
+          296,
+          212
+        ],
+        [
+          319,
+          156
+        ],
+        [
+          315,
+          206
+        ],
+        [
+          311,
+          173
+        ],
+        [
+          313,
+          181
+        ],
+        [
+          305,
+          166
+        ],
+        [
+          295,
+          165
+        ],
+        [
+          287,
+          170
+        ],
+        [
+          287,
+          188
+        ],
+        [
+          285,
+          180
+        ],
+        [
+          293,
+          194
+        ]
+      ],
+      "cell_count": 18,
+      "cell_area_mm2": 608.314,
+      "strokes_by_pen": {
+        "green-0-25": 86
+      },
+      "note": "The staggered inner spokes seen through the openings, ruled like the outer spokes."
+    },
+    {
+      "part": "front-inner-spokes",
+      "material": "green paint",
+      "painter": {
+        "painter": "ruled",
+        "pattern": [
+          "green-0-25",
+          "green-0-25",
+          "green-0-25",
+          "green-0-25"
+        ]
+      },
+      "seed_points_mm": [
+        [
+          52,
+          188
+        ],
+        [
+          63,
+          221
+        ],
+        [
+          48,
+          208
+        ],
+        [
+          83,
+          213
+        ],
+        [
+          83,
+          194
+        ],
+        [
+          61,
+          207
+        ],
+        [
+          70,
+          210
+        ]
+      ],
+      "cell_count": 7,
+      "cell_area_mm2": 143.795,
+      "strokes_by_pen": {
+        "green-0-25": 24
+      },
+      "note": ""
+    },
+    {
+      "part": "front-fork",
+      "material": "red-brown paint",
+      "painter": {
+        "painter": "axial",
+        "pen": "red-0-25",
+        "pitch": 0.55,
+        "angle": null,
+        "shade": [
+          "black-0-25",
+          1.1
+        ],
+        "single": false
+      },
+      "seed_points_mm": [
+        [
+          68,
+          180
+        ],
+        [
+          63,
+          181
+        ]
+      ],
+      "cell_count": 2,
+      "cell_area_mm2": 392.856,
+      "strokes_by_pen": {
+        "red-0-25": 34,
+        "black-0-25": 16
+      },
+      "note": ""
+    },
+    {
+      "part": "front-fork-bearing",
+      "material": "red-brown paint",
+      "painter": {
+        "painter": "concentric",
+        "pen": "red-0-25",
+        "centre": [
+          67.361,
+          200.514
+        ],
+        "pitch": 0.5,
+        "shade": [
+          "black-0-25",
+          2
+        ]
+      },
+      "seed_points_mm": [
+        [
+          67,
+          196
+        ],
+        [
+          64.52,
+          204.39
+        ]
+      ],
+      "cell_count": 2,
+      "cell_area_mm2": 25.427,
+      "strokes_by_pen": {
+        "red-0-25": 4,
+        "black-0-25": 2
+      },
+      "note": ""
+    },
+    {
+      "part": "front-scraper-bar",
+      "material": "red-brown paint",
+      "painter": {
+        "painter": "axial",
+        "pen": "red-0-25",
+        "pitch": 0.42,
+        "angle": 0.0,
+        "shade": null,
+        "single": false
+      },
+      "seed_points_mm": [
+        [
+          90,
+          200
+        ],
+        [
+          27,
+          200
+        ],
+        [
+          25.02,
+          200.12
+        ],
+        [
+          49.42,
+          201.25
+        ],
+        [
+          80.19,
+          201.75
+        ]
+      ],
+      "cell_count": 5,
+      "cell_area_mm2": 171.961,
+      "strokes_by_pen": {
+        "red-0-25": 39
+      },
+      "note": "The scraper bar and the spring bar the steering chain hooks onto: lines along the bar."
+    },
+    {
+      "part": "front-scraper-blade",
+      "material": "red-brown paint",
+      "painter": {
+        "painter": "flat",
+        "pen": "red-0-25",
+        "angle": -45.0,
+        "coverage": [
+          0.6,
+          0.6
+        ],
+        "shade": null
+      },
+      "seed_points_mm": [
+        [
+          96,
+          194
+        ],
+        [
+          106,
+          194
+        ]
+      ],
+      "cell_count": 2,
+      "cell_area_mm2": 131.889,
+      "strokes_by_pen": {
+        "red-0-25": 35
+      },
+      "note": ""
+    },
+    {
+      "part": "rear-forward-scraper",
+      "material": "red-brown paint",
+      "painter": {
+        "painter": "axial",
+        "pen": "red-0-25",
+        "pitch": 0.42,
+        "angle": null,
+        "shade": null,
+        "single": false
+      },
+      "seed_points_mm": [
+        [
+          235,
+          189
+        ],
+        [
+          245.36,
+          196.62
+        ],
+        [
+          244,
+          192
+        ],
+        [
+          220.29,
+          179.98
+        ],
+        [
+          217.64,
+          177.35
+        ],
+        [
+          220.28,
+          177.16
+        ],
+        [
+          218.87,
+          187.78
+        ],
+        [
+          221.97,
+          171.64
+        ],
+        [
+          224.24,
+          172.71
+        ],
+        [
+          222.02,
+          173.86
+        ]
+      ],
+      "cell_count": 10,
+      "cell_area_mm2": 96.814,
+      "strokes_by_pen": {
+        "red-0-25": 15
+      },
+      "note": "Arm, blade, bearing mount and adjuster mount of the scraper ahead of the rear roll."
+    },
+    {
+      "part": "rear-scraper",
+      "material": "red-brown paint",
+      "painter": {
+        "painter": "flat",
+        "pen": "red-0-25",
+        "angle": 0.0,
+        "coverage": [
+          0.6,
+          0.6
+        ],
+        "shade": null
+      },
+      "seed_points_mm": [
+        [
+          356,
+          201
+        ],
+        [
+          365,
+          192
+        ],
+        [
+          361,
+          192
+        ],
+        [
+          363.37,
+          194.8
+        ],
+        [
+          349,
+          207
+        ]
+      ],
+      "cell_count": 5,
+      "cell_area_mm2": 46.966,
+      "strokes_by_pen": {
+        "red-0-25": 12
+      },
+      "note": "Triangular bracket, pivot boss, arm and blade; the space between arm and spring rod is tender."
+    },
+    {
+      "part": "chimney",
+      "material": "black paint",
+      "painter": {
+        "painter": "cylinder",
+        "pen": "grey-0-25",
+        "angle": 90.0,
+        "span": [
+          -124.7,
+          -105.6
+        ],
+        "coverage": [
+          0.26,
+          0.45
+        ],
+        "shade_tiers": [
+          "black-0-25",
+          [
+            [
+              0.62,
+              2
+            ],
+            [
+              0.35,
+              4
+            ]
+          ]
+        ],
+        "facing": -1.0
+      },
+      "seed_points_mm": [
+        [
+          115,
+          79
+        ],
+        [
+          115,
+          121
+        ]
+      ],
+      "cell_count": 2,
+      "cell_area_mm2": 1195.554,
+      "strokes_by_pen": {
+        "grey-0-25": 42,
+        "black-0-25": 9
+      },
+      "note": "Vertical cylinder, lit from the left."
+    },
+    {
+      "part": "chimney-rings",
+      "material": "black paint",
+      "painter": {
+        "painter": "axial",
+        "pen": "grey-0-25",
+        "pitch": 0.55,
+        "angle": 0.0,
+        "shade": [
+          "black-0-25",
+          1.4
+        ],
+        "single": false
+      },
+      "seed_points_mm": [
+        [
+          115,
+          46
+        ],
+        [
+          115.14,
+          47.58
+        ],
+        [
+          115,
+          113
+        ],
+        [
+          109,
+          111
+        ]
+      ],
+      "cell_count": 4,
+      "cell_area_mm2": 97.284,
+      "strokes_by_pen": {
+        "grey-0-25": 19,
+        "black-0-25": 1
+      },
+      "note": ""
+    },
+    {
+      "part": "smokebox",
+      "material": "black paint",
+      "painter": {
+        "painter": "cylinder",
+        "pen": "grey-0-25",
+        "angle": 0.0,
+        "span": [
+          129.535,
+          175.816
+        ],
+        "coverage": [
+          0.26,
+          0.45
+        ],
+        "shade_tiers": [
+          "black-0-25",
+          [
+            [
+              0.62,
+              2
+            ],
+            [
+              0.35,
+              4
+            ]
+          ]
+        ],
+        "facing": 1.0
+      },
+      "seed_points_mm": [
+        [
+          114,
+          157
+        ],
+        [
+          105,
+          163
+        ],
+        [
+          114,
+          175
+        ],
+        [
+          123,
+          177
+        ]
+      ],
+      "cell_count": 4,
+      "cell_area_mm2": 381.649,
+      "strokes_by_pen": {
+        "grey-0-25": 34,
+        "black-0-25": 10
+      },
+      "note": ""
+    },
+    {
+      "part": "headstock",
+      "material": "black paint",
+      "painter": {
+        "painter": "flat",
+        "pen": "grey-0-25",
+        "angle": -45.0,
+        "coverage": [
+          0.34,
+          0.42
+        ],
+        "shade": [
+          "black-0-25",
+          1.4
+        ]
+      },
+      "seed_points_mm": [
+        [
+          90,
+          132
+        ],
+        [
+          78,
+          122
+        ],
+        [
+          67,
+          112
+        ],
+        [
+          67,
+          109
+        ],
+        [
+          71.34,
+          109.28
+        ]
+      ],
+      "cell_count": 5,
+      "cell_area_mm2": 1395.263,
+      "strokes_by_pen": {
+        "grey-0-25": 133,
+        "black-0-25": 66
+      },
+      "note": ""
+    },
+    {
+      "part": "front-axle-end",
+      "material": "black paint",
+      "painter": {
+        "painter": "concentric",
+        "pen": "black-0-25",
+        "centre": [
+          67.361,
+          200.514
+        ],
+        "pitch": 0.38,
+        "shade": null
+      },
+      "seed_points_mm": [
+        [
+          67,
+          197
+        ],
+        [
+          67,
+          203
+        ]
+      ],
+      "cell_count": 2,
+      "cell_area_mm2": 6.784,
+      "strokes_by_pen": {
+        "black-0-25": 2
+      },
+      "note": ""
+    },
+    {
+      "part": "kingpin-collars",
+      "material": "black paint",
+      "painter": {
+        "painter": "axial",
+        "pen": "grey-0-25",
+        "pitch": 0.55,
+        "angle": 0.0,
+        "shade": [
+          "black-0-25",
+          1.4
+        ],
+        "single": false
+      },
+      "seed_points_mm": [
+        [
+          67,
+          144
+        ],
+        [
+          67,
+          146
+        ],
+        [
+          67,
+          149
+        ],
+        [
+          67,
+          151
+        ]
+      ],
+      "cell_count": 4,
+      "cell_area_mm2": 79.586,
+      "strokes_by_pen": {
+        "grey-0-25": 11,
+        "black-0-25": 3
+      },
+      "note": ""
+    },
+    {
+      "part": "flywheel-disc",
+      "material": "black paint",
+      "painter": {
+        "painter": "concentric",
+        "pen": "black-0-25",
+        "centre": [
+          246.398,
+          121.139
+        ],
+        "pitch": 0.38,
+        "shade": null
+      },
+      "seed_points_mm": [
+        [
+          262,
+          121
+        ]
+      ],
+      "cell_count": 1,
+      "cell_area_mm2": 1666.426,
+      "strokes_by_pen": {
+        "black-0-25": 43
+      },
+      "note": "Turned, dished disc: close, even Black circles."
+    },
+    {
+      "part": "flywheel-rim",
+      "material": "black paint",
+      "painter": {
+        "painter": "concentric",
+        "pen": "black-0-25",
+        "centre": [
+          246.398,
+          121.139
+        ],
+        "pitch": 0.38,
+        "shade": null
+      },
+      "seed_points_mm": [
+        [
+          275,
+          121
+        ]
+      ],
+      "cell_count": 1,
+      "cell_area_mm2": 979.511,
+      "strokes_by_pen": {
+        "black-0-25": 43
+      },
+      "note": ""
+    },
+    {
+      "part": "flywheel-hub",
+      "material": "black paint",
+      "painter": {
+        "painter": "concentric",
+        "pen": "black-0-25",
+        "centre": [
+          246.398,
+          121.139
+        ],
+        "pitch": 0.38,
+        "shade": null
+      },
+      "seed_points_mm": [
+        [
+          240,
+          121
+        ],
+        [
+          250,
+          121
+        ],
+        [
+          246,
+          121
+        ]
+      ],
+      "cell_count": 3,
+      "cell_area_mm2": 114.266,
+      "strokes_by_pen": {
+        "black-0-25": 11
+      },
+      "note": ""
+    },
+    {
+      "part": "flywheel-edge",
+      "material": "black paint",
+      "painter": {
+        "painter": "concentric",
+        "pen": "black-0-25",
+        "centre": [
+          246.398,
+          121.139
+        ],
+        "pitch": 0.38,
+        "shade": null
+      },
+      "seed_points_mm": [
+        [
+          279,
+          121
+        ]
+      ],
+      "cell_count": 1,
+      "cell_area_mm2": 125.459,
+      "strokes_by_pen": {
+        "black-0-25": 2
+      },
+      "note": ""
+    },
+    {
+      "part": "firebox-and-hornplates",
+      "material": "black paint",
+      "painter": {
+        "painter": "flat",
+        "pen": "grey-0-25",
+        "angle": -45.0,
+        "coverage": [
+          0.34,
+          0.42
+        ],
+        "shade": [
+          "black-0-25",
+          1.4
+        ]
+      },
+      "seed_points_mm": [
+        [
+          237,
+          175
+        ],
+        [
+          238,
+          198
+        ],
+        [
+          226,
+          169
+        ],
+        [
+          227,
+          196
+        ],
+        [
+          240,
+          156
+        ],
+        [
+          226,
+          157
+        ],
+        [
+          219,
+          157
+        ],
+        [
+          219,
+          166
+        ],
+        [
+          225,
+          150
+        ],
+        [
+          219,
+          150
+        ],
+        [
+          232,
+          152
+        ],
+        [
+          219,
+          142
+        ],
+        [
+          214,
+          203
+        ],
+        [
+          229,
+          210
+        ],
+        [
+          229,
+          213
+        ],
+        [
+          225,
+          180
+        ],
+        [
+          231,
+          181
+        ],
+        [
+          232,
+          185
+        ]
+      ],
+      "cell_count": 18,
+      "cell_area_mm2": 1492.187,
+      "strokes_by_pen": {
+        "grey-0-25": 330,
+        "black-0-25": 163
+      },
+      "note": ""
+    },
+    {
+      "part": "rear-tyre",
+      "material": "iron tyre",
+      "painter": {
+        "painter": "concentric",
+        "pen": "black-0-25",
+        "centre": [
+          298.729,
+          180.165
+        ],
+        "pitch": 0.38,
+        "shade": null
+      },
+      "seed_points_mm": [
+        [
+          245,
+          180
+        ]
+      ],
+      "cell_count": 1,
+      "cell_area_mm2": 330.57,
+      "strokes_by_pen": {
+        "black-0-25": 2
+      },
+      "note": ""
+    },
+    {
+      "part": "rear-hub",
+      "material": "black paint",
+      "painter": {
+        "painter": "concentric",
+        "pen": "black-0-25",
+        "centre": [
+          298.729,
+          180.165
+        ],
+        "pitch": 0.38,
+        "shade": null
+      },
+      "seed_points_mm": [
+        [
+          308,
+          184
+        ],
+        [
+          292,
+          180
+        ],
+        [
+          294,
+          180
+        ],
+        [
+          299,
+          180
+        ],
+        [
+          305,
+          192
+        ],
+        [
+          302,
+          191
+        ],
+        [
+          304,
+          195
+        ],
+        [
+          306,
+          196
+        ]
+      ],
+      "cell_count": 8,
+      "cell_area_mm2": 399.763,
+      "strokes_by_pen": {
+        "black-0-25": 60
+      },
+      "note": ""
+    },
+    {
+      "part": "front-tyre",
+      "material": "iron tyre",
+      "painter": {
+        "painter": "concentric",
+        "pen": "black-0-25",
+        "centre": [
+          67.361,
+          200.514
+        ],
+        "pitch": 0.38,
+        "shade": null
+      },
+      "seed_points_mm": [
+        [
+          39.26,
+          182.35
+        ],
+        [
+          39.14,
+          218.49
+        ],
+        [
+          92,
+          178
+        ]
+      ],
+      "cell_count": 3,
+      "cell_area_mm2": 129.237,
+      "strokes_by_pen": {
+        "black-0-25": 3
+      },
+      "note": ""
+    },
+    {
+      "part": "steering-gear",
+      "material": "black paint",
+      "painter": {
+        "painter": "flat",
+        "pen": "grey-0-25",
+        "angle": -45.0,
+        "coverage": [
+          0.34,
+          0.42
+        ],
+        "shade": [
+          "black-0-25",
+          1.4
+        ]
+      },
+      "seed_points_mm": [
+        [
+          213,
+          186
+        ],
+        [
+          200,
+          190
+        ],
+        [
+          202,
+          190
+        ],
+        [
+          205,
+          190
+        ],
+        [
+          207,
+          200
+        ],
+        [
+          214,
+          199
+        ],
+        [
+          216.41,
+          188.89
+        ]
+      ],
+      "cell_count": 7,
+      "cell_area_mm2": 356.236,
+      "strokes_by_pen": {
+        "grey-0-25": 68,
+        "black-0-25": 29
+      },
+      "note": ""
+    },
+    {
+      "part": "under-boiler-fittings",
+      "material": "black paint",
+      "painter": {
+        "painter": "flat",
+        "pen": "grey-0-25",
+        "angle": -45.0,
+        "coverage": [
+          0.34,
+          0.42
+        ],
+        "shade": [
+          "black-0-25",
+          1.4
+        ]
+      },
+      "seed_points_mm": [
+        [
+          193,
+          187
+        ],
+        [
+          193,
+          181
+        ],
+        [
+          193,
+          177
+        ],
+        [
+          204,
+          178
+        ],
+        [
+          209,
+          177
+        ]
+      ],
+      "cell_count": 5,
+      "cell_area_mm2": 47.879,
+      "strokes_by_pen": {
+        "grey-0-25": 9
+      },
+      "note": ""
+    },
+    {
+      "part": "cylinder-flange",
+      "material": "black paint",
+      "painter": {
+        "painter": "flat",
+        "pen": "grey-0-25",
+        "angle": -45.0,
+        "coverage": [
+          0.34,
+          0.42
+        ],
+        "shade": [
+          "black-0-25",
+          1.4
+        ]
+      },
+      "seed_points_mm": [
+        [
+          143,
+          138
+        ],
+        [
+          149,
+          138
+        ],
+        [
+          155,
+          138
+        ],
+        [
+          161,
+          138
+        ],
+        [
+          138,
+          138
+        ],
+        [
+          166,
+          138
+        ]
+      ],
+      "cell_count": 6,
+      "cell_area_mm2": 32.201,
+      "strokes_by_pen": {
+        "grey-0-25": 12,
+        "black-0-25": 4
+      },
+      "note": ""
+    },
+    {
+      "part": "motion-top",
+      "material": "black paint",
+      "painter": {
+        "painter": "flat",
+        "pen": "grey-0-25",
+        "angle": -45.0,
+        "coverage": [
+          0.34,
+          0.42
+        ],
+        "shade": [
+          "black-0-25",
+          1.4
+        ]
+      },
+      "seed_points_mm": [
+        [
+          205,
+          112
+        ],
+        [
+          187,
+          111
+        ],
+        [
+          183,
+          109
+        ],
+        [
+          194,
+          112
+        ],
+        [
+          191.39,
+          109.22
+        ],
+        [
+          177,
+          113
+        ],
+        [
+          178,
+          106
+        ],
+        [
+          172,
+          104
+        ],
+        [
+          172,
+          106
+        ],
+        [
+          172,
+          109
+        ],
+        [
+          172,
+          113
+        ],
+        [
+          170,
+          115
+        ],
+        [
+          180,
+          113
+        ],
+        [
+          179.85,
+          106.13
+        ],
+        [
+          169,
+          99
+        ]
+      ],
+      "cell_count": 15,
+      "cell_area_mm2": 322.368,
+      "strokes_by_pen": {
+        "grey-0-25": 64,
+        "black-0-25": 25
+      },
+      "note": ""
+    },
+    {
+      "part": "motion-bed-underside",
+      "material": "black paint",
+      "painter": {
+        "painter": "flat",
+        "pen": "grey-0-25",
+        "angle": -45.0,
+        "coverage": [
+          0.34,
+          0.42
+        ],
+        "shade": [
+          "black-0-25",
+          1.4
+        ]
+      },
+      "seed_points_mm": [
+        [
+          189,
+          139
+        ],
+        [
+          193,
+          141
+        ],
+        [
+          173,
+          139
+        ],
+        [
+          208,
+          139
+        ],
+        [
+          208,
+          141
+        ],
+        [
+          198,
+          139
+        ],
+        [
+          198,
+          141
+        ]
+      ],
+      "cell_count": 7,
+      "cell_area_mm2": 106.265,
+      "strokes_by_pen": {
+        "grey-0-25": 28,
+        "black-0-25": 11
+      },
+      "note": ""
+    },
+    {
+      "part": "feed-fitting",
+      "material": "black paint",
+      "painter": {
+        "painter": "flat",
+        "pen": "grey-0-25",
+        "angle": -45.0,
+        "coverage": [
+          0.34,
+          0.42
+        ],
+        "shade": [
+          "black-0-25",
+          1.4
+        ]
+      },
+      "seed_points_mm": [
+        [
+          174,
+          147
+        ],
+        [
+          177,
+          147
+        ],
+        [
+          187,
+          147
+        ],
+        [
+          190,
+          148
+        ],
+        [
+          182,
+          148
+        ],
+        [
+          184,
+          147
+        ],
+        [
+          180,
+          147
+        ]
+      ],
+      "cell_count": 7,
+      "cell_area_mm2": 102.355,
+      "strokes_by_pen": {
+        "grey-0-25": 25,
+        "black-0-25": 10
+      },
+      "note": ""
+    },
+    {
+      "part": "steel-rods",
+      "material": "bright steel",
+      "painter": {
+        "painter": "axial",
+        "pen": "grey-0-25",
+        "pitch": 0.8,
+        "angle": null,
+        "shade": null,
+        "single": false
+      },
+      "seed_points_mm": [
+        [
+          179,
+          134
+        ],
+        [
+          201,
+          143
+        ],
+        [
+          176,
+          129
+        ],
+        [
+          183,
+          142
+        ]
+      ],
+      "cell_count": 4,
+      "cell_area_mm2": 84.955,
+      "strokes_by_pen": {
+        "grey-0-25": 12
+      },
+      "note": ""
+    },
+    {
+      "part": "rear-platform",
+      "material": "black paint",
+      "painter": {
+        "painter": "flat",
+        "pen": "grey-0-25",
+        "angle": -45.0,
+        "coverage": [
+          0.34,
+          0.42
+        ],
+        "shade": [
+          "black-0-25",
+          1.4
+        ]
+      },
+      "seed_points_mm": [
+        [
+          291,
+          121
+        ],
+        [
+          287,
+          111
+        ],
+        [
+          298,
+          110
+        ],
+        [
+          287,
+          108
+        ],
+        [
+          279.08,
+          110.87
+        ],
+        [
+          278.22,
+          106.52
+        ],
+        [
+          287.31,
+          114.6
+        ],
+        [
+          299,
+          107
+        ],
+        [
+          296,
+          106
+        ],
+        [
+          372,
+          152
+        ],
+        [
+          350,
+          152
+        ],
+        [
+          351,
+          154
+        ]
+      ],
+      "cell_count": 12,
+      "cell_area_mm2": 420.274,
+      "strokes_by_pen": {
+        "grey-0-25": 69,
+        "black-0-25": 28
+      },
+      "note": ""
+    },
+    {
+      "part": "driver-controls",
+      "material": "black paint",
+      "painter": {
+        "painter": "axial",
+        "pen": "grey-0-25",
+        "pitch": 0.6,
+        "angle": null,
+        "shade": [
+          "black-0-25",
+          1.4
+        ],
+        "single": false
+      },
+      "seed_points_mm": [
+        [
+          300,
+          94
+        ],
+        [
+          299,
+          101
+        ],
+        [
+          326,
+          131
+        ],
+        [
+          338,
+          107
+        ],
+        [
+          337,
+          115
+        ],
+        [
+          335,
+          123
+        ],
+        [
+          334,
+          129
+        ],
+        [
+          336,
+          118
+        ],
+        [
+          334,
+          107
+        ],
+        [
+          334.84,
+          132.93
+        ],
+        [
+          309,
+          125
+        ],
+        [
+          311,
+          122
+        ],
+        [
+          307,
+          116
+        ],
+        [
+          307,
+          124
+        ],
+        [
+          356,
+          143
+        ],
+        [
+          356,
+          149
+        ],
+        [
+          356,
+          147
+        ],
+        [
+          356,
+          145
+        ],
+        [
+          356,
+          154
+        ],
+        [
+          356,
+          176
+        ],
+        [
+          357.61,
+          180.76
+        ]
+      ],
+      "cell_count": 21,
+      "cell_area_mm2": 194.874,
+      "strokes_by_pen": {
+        "grey-0-25": 47,
+        "black-0-25": 15
+      },
+      "note": ""
+    },
+    {
+      "part": "drawbar",
+      "material": "black paint",
+      "painter": {
+        "painter": "flat",
+        "pen": "grey-0-25",
+        "angle": -45.0,
+        "coverage": [
+          0.34,
+          0.42
+        ],
+        "shade": [
+          "black-0-25",
+          1.4
+        ]
+      },
+      "seed_points_mm": [
+        [
+          388,
+          197
+        ],
+        [
+          381,
+          198
+        ],
+        [
+          394,
+          196
+        ],
+        [
+          378,
+          198
+        ]
+      ],
+      "cell_count": 4,
+      "cell_area_mm2": 63.777,
+      "strokes_by_pen": {
+        "grey-0-25": 9
+      },
+      "note": ""
+    },
+    {
+      "part": "boiler-bands",
+      "material": "brass",
+      "painter": {
+        "painter": "axial",
+        "pen": "gold-0-4",
+        "pitch": 0.5,
+        "angle": 90.0,
+        "shade": null,
+        "single": false
+      },
+      "seed_points_mm": [
+        [
+          123.37,
+          160.0
+        ],
+        [
+          166.84,
+          160.0
+        ],
+        [
+          198.15,
+          160.0
+        ]
+      ],
+      "cell_count": 3,
+      "cell_area_mm2": 103.002,
+      "strokes_by_pen": {
+        "gold-0-4": 6
+      },
+      "note": "Fine vertical Gold lines across the wide strip of each band; the narrow strip stays white."
+    },
+    {
+      "part": "safety-valves-and-lubricator",
+      "material": "brass",
+      "painter": {
+        "painter": "axial",
+        "pen": "gold-0-4",
+        "pitch": 0.5,
+        "angle": 90.0,
+        "shade": null,
+        "single": false
+      },
+      "seed_points_mm": [
+        [
+          148,
+          99
+        ],
+        [
+          155,
+          99
+        ],
+        [
+          135,
+          106
+        ]
+      ],
+      "cell_count": 3,
+      "cell_area_mm2": 57.702,
+      "strokes_by_pen": {
+        "gold-0-4": 12
+      },
+      "note": ""
+    },
+    {
+      "part": "whistle",
+      "material": "brass",
+      "painter": {
+        "painter": "axial",
+        "pen": "gold-0-4",
+        "pitch": 0.5,
+        "angle": 90.0,
+        "shade": null,
+        "single": false
+      },
+      "seed_points_mm": [
+        [
+          152,
+          99
+        ]
+      ],
+      "cell_count": 1,
+      "cell_area_mm2": 37.419,
+      "strokes_by_pen": {
+        "gold-0-4": 8
+      },
+      "note": ""
+    },
+    {
+      "part": "cylinder-maker-plate",
+      "material": "brass plate",
+      "painter": {
+        "painter": "masked",
+        "pen": "gold-0-4",
+        "angle": 0.0,
+        "pitch": 0.5,
+        "mask": null,
+        "min_length": 2.0,
+        "open_mm": 0.3
+      },
+      "seed_points_mm": [],
+      "cell_count": 1,
+      "cell_area_mm2": 93.279,
+      "strokes_by_pen": {
+        "gold-0-4": 17
+      },
+      "note": "Level Gold lines across the oval maker's plate on the cylinder block."
+    }
+  ],
+  "fill_strokes_by_pen": {
+    "black-0-25": 1220,
+    "green-0-25": 852,
+    "red-0-25": 139,
+    "grey-0-25": 912,
+    "gold-0-4": 43
+  },
+  "fill_length_m_by_pen": {
+    "black-0-25": 21.906,
+    "green-0-25": 11.655,
+    "red-0-25": 1.535,
+    "grey-0-25": 8.698,
+    "gold-0-4": 0.495
+  },
+  "unfilled_by_design": [
+    "sheet margins and background paper",
+    "the inside of the front roll, seen between its spokes",
+    "the worksplate and Invicta horse at the top right",
+    "lettering, footer and rivet heads",
+    "chain links and spring coils"
+  ],
+  "colour_scope": "Photograph-informed paint groups translated to available studio inks; not measured colour matching."
+}
