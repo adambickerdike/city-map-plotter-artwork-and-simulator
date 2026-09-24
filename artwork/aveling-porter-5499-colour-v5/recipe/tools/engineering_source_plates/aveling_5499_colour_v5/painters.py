@@ -26,10 +26,10 @@ from shapely.geometry import LineString
 from shapely.ops import unary_union
 
 from tools.engineering_source_plates.aveling_5499_colour_v5 import hatching as H
-from tools.engineering_source_plates.aveling_5499_colour_v5.inventory import GOLD_NIB_MM, GOLD_PEN
+from tools.engineering_source_plates.aveling_5499_colour_v5.inventory import BROWN_PEN, GOLD_NIB_MM, GOLD_PEN
 from tools.engineering_source_plates.aveling_5499_colour_v5.regions import BASE_MM, GAP_MM
 
-NIB = {'green-0-25': 0.25, 'red-0-25': 0.25, 'black-0-25': 0.25, GOLD_PEN: GOLD_NIB_MM}
+NIB = {'green-0-25': 0.25, 'red-0-25': 0.25, BROWN_PEN: 0.25, 'black-0-25': 0.25, GOLD_PEN: GOLD_NIB_MM}
 MIN_FILL_STROKE_MM = 1.2
 EROSION_MARGIN_MM = 0.006   # absorbs polygon-buffer chords and 0.001 mm rounding
 STRIP_WIDTH_MM = 2.2        # eroded width at or below which a piece is a strip
@@ -290,8 +290,9 @@ def ruled_set(pieces, count: int):
     return rows
 
 
-def contour_strokes(piece, pen, pitch):
-    """Lines parallel to a shape's edges, stepping inwards."""
+def contour_strokes(piece, pen, pitch, shade=None):
+    """Lines parallel to a shape's edges, stepping inwards; ``shade`` =
+    (pen, pitch) lays a shade line halfway between neighbouring base lines."""
 
     out = []
     step = 0
@@ -305,6 +306,16 @@ def contour_strokes(piece, pen, pitch):
             if line.length + 1e-9 >= minimum_length(pen):
                 out.append(Stroke(pen, 'base', line=line))
         step += 1
+    if shade:
+        spen, spitch = shade
+        every = max(1, int(round(spitch / pitch)))
+        for k in range(0, max(0, step - 1), every):
+            inner = piece.buffer(-(k + 0.5) * pitch, quad_segs=16)
+            for q in H.polygons_of(inner):
+                for ring in (q.exterior, *q.interiors):
+                    line = LineString(ring.coords)
+                    if line.length + 1e-9 >= minimum_length(spen):
+                        out.append(Stroke(spen, 'shade', line=line))
     return out
 
 
@@ -353,7 +364,7 @@ class Painter:
         count = max(1, int(math.floor((high - low) / pitch)) + 1)
         offsets = [middle + (i - (count - 1) / 2) * pitch for i in range(count)]
         out = emit(pen, H.clip_parallel(piece, angle, offsets), 'base')
-        if piece.area >= MIN_SHADE_AREA_MM2 or is_strip(piece):
+        if piece.area >= MIN_SHADE_AREA_MM2 or is_strip(piece) or self.params.get('shade_small'):
             out += self._interleave(piece, angle, offsets)
         return out
 
@@ -372,13 +383,14 @@ class Painter:
             if is_strip(piece):
                 out += self._along(piece, pen, rect_axis(piece)[0], NIB[pen] / cov(u))
             elif is_curved_strip(piece):
-                out += contour_strokes(piece, pen, NIB[pen] / cov(u))
+                out += contour_strokes(piece, pen, NIB[pen] / cov(u),
+                                       p.get('shade') if p.get('shade_small') else None)
             elif piece.area < MIN_SHADE_AREA_MM2:
                 small.append(piece)
             else:
                 wide.append(piece)
         offsets = H.graded(low, high, cov, NIB[pen])
-        for group, shaded in ((wide, True), (small, False)):
+        for group, shaded in ((wide, True), (small, bool(p.get('shade_small')))):
             if group:
                 area = unary_union(group)
                 out += emit(pen, H.clip_parallel(area, angle, offsets), 'base')

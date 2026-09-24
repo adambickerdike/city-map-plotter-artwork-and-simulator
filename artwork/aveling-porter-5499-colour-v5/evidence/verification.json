@@ -1,23 +1,25 @@
 {
   "schema": "aveling-5499-lined-colour-verification-v1",
-  "master_svg_sha256": "c21f174e5b5b3eca96ebb3cfa9673e12a02a84ffa2776d2fe06c695f66d5b1b6",
+  "master_svg_sha256": "3d9c1e91d02b7bf1faf9bf6e8d269ff2489e9e2f9d5914e0b00602725e69b23b",
   "base_master_sha256": "f4106404c710e89bda8e2b32e4cfd92d9ff1c82b4f30c9ec7cbba89621e33678",
-  "all_svg_paths": 3512,
+  "all_svg_paths": 3552,
   "source_outline_paths": 863,
   "unchanged_source_paths": 863,
-  "fill_lines": 2649,
+  "fill_lines": 2689,
   "dots": 0,
   "fill_lines_by_pen": {
     "gold-0-4": 43,
     "green-0-25": 852,
-    "red-0-25": 139,
-    "black-0-25": 1615
+    "red-0-25": 110,
+    "brown-0-25": 87,
+    "black-0-25": 1597
   },
   "fill_length_m_by_pen": {
     "gold-0-4": 0.495,
     "green-0-25": 11.655,
-    "red-0-25": 1.535,
-    "black-0-25": 26.096
+    "red-0-25": 1.252,
+    "brown-0-25": 1.057,
+    "black-0-25": 25.788
   },
   "outline_pens": {
     "black-0-25": 588,
@@ -28,11 +30,38 @@
   "required_white_gap_mm": 0.22,
   "minimum_white_gap_to_black_ink_mm": {
     "black-0-25": 0.2219,
+    "brown-0-25": 0.2224,
     "gold-0-4": 0.2242,
     "green-0-25": 0.2219,
     "red-0-25": 0.222
   },
   "grey_pen_used": false,
+  "red_brown": {
+    "front-fork": {
+      "red_lines": 33,
+      "brown_lines": 29
+    },
+    "front-fork-bearing": {
+      "red_lines": 2,
+      "brown_lines": 2
+    },
+    "front-scraper-bar": {
+      "red_lines": 29,
+      "brown_lines": 22
+    },
+    "front-scraper-blade": {
+      "red_lines": 26,
+      "brown_lines": 24
+    },
+    "rear-forward-scraper": {
+      "red_lines": 10,
+      "brown_lines": 5
+    },
+    "rear-scraper": {
+      "red_lines": 10,
+      "brown_lines": 5
+    }
+  },
   "top_right_badges_uncoloured": true,
   "through_rear_wheel": {
     "tender_front_edge_x_mm": 318.865,
@@ -78,6 +107,7 @@
     "gold-0-4",
     "green-0-25",
     "red-0-25",
+    "brown-0-25",
     "black-0-25",
     "black-0-4",
     "black-0-6",
@@ -98,7 +128,7 @@
     }
   },
   "all_pen_files_match_master": true,
-  "format_validation": "[PASS] /home/adam/Projects/city-map-plotter/examples/technical-objects/aveling-porter-5499-colour-v5/artwork/aveling-porter-5499-colour-hatched.svg  [a3-landscape]  (242 checks)",
+  "format_validation": "[PASS] /home/adam/Projects/city-map-plotter/examples/technical-objects/aveling-porter-5499-colour-v5/artwork/aveling-porter-5499-colour-hatched.svg  [a3-landscape]  (269 checks)",
   "source_hashes": [
     {
       "file": "side-source-4096.jpg",
@@ -139,23 +169,23 @@
   ],
   "simulation": {
     "machine": "AxiDraw-class nominal simulation",
-    "total_seconds": 2855.059979,
-    "total_low_seconds": 2426.800982,
-    "total_high_seconds": 3283.318976,
+    "total_seconds": 2910.862201,
+    "total_low_seconds": 2474.232871,
+    "total_high_seconds": 3347.491532,
     "timing_uncertainty_fraction": 0.15,
     "calibration_state": "nominal-unmeasured",
-    "pen_changes": 7,
-    "pen_loads": 7,
-    "pen_swaps": 6,
-    "kinematic_seconds": 1158.239979,
+    "pen_changes": 8,
+    "pen_loads": 8,
+    "pen_swaps": 7,
+    "kinematic_seconds": 1171.222201,
     "command_latency_seconds": 0.0,
-    "servo_seconds": 1546.82,
-    "manual_change_seconds": 150.0,
-    "pen_down_mm": 55857.977921,
-    "pen_up_mm": 12838.022749,
-    "pen_lifts": 3512,
-    "travel_ratio": 0.229833,
-    "ink_mm2": 16607.008657,
+    "servo_seconds": 1564.64,
+    "manual_change_seconds": 175.0,
+    "pen_down_mm": 56323.993366,
+    "pen_up_mm": 13338.823106,
+    "pen_lifts": 3552,
+    "travel_ratio": 0.236823,
+    "ink_mm2": 16723.512518,
     "bounds": {
       "min_x_mm": 0.0,
       "min_y_mm": 0.0,
@@ -164,14 +194,14 @@
     }
   },
   "strict_svg_preflight": {
-    "source_sha256": "c21f174e5b5b3eca96ebb3cfa9673e12a02a84ffa2776d2fe06c695f66d5b1b6",
-    "source_bytes": 1275770,
+    "source_sha256": "3d9c1e91d02b7bf1faf9bf6e8d269ff2489e9e2f9d5914e0b00602725e69b23b",
+    "source_bytes": 1285507,
     "page_mm": {
       "width": 420.0,
       "height": 297.0
     },
-    "path_count": 3512,
-    "layer_count": 7,
+    "path_count": 3552,
+    "layer_count": 8,
     "metadata_complete": true,
     "hardware_safe": true,
     "issues": []

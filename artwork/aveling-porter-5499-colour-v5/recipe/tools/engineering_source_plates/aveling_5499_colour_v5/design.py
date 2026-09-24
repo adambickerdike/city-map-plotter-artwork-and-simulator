@@ -22,7 +22,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from tools.engineering_source_plates.aveling_5499_colour_v5.inventory import GOLD_PEN
+from tools.engineering_source_plates.aveling_5499_colour_v5.inventory import BROWN_PEN, GOLD_PEN
 from tools.engineering_source_plates.aveling_5499_colour_v5.painters import Painter
 
 FRONT_ROLL = (67.361, 200.514)
@@ -30,7 +30,7 @@ REAR_ROLL = (298.729, 180.165)
 FLYWHEEL = (246.398, 121.139)
 BOILER_SPAN = (129.535, 175.816)      # cladding top and bottom, y
 CHIMNEY_SPAN = (-124.7, -105.6)       # -x, lines run vertically
-PEN_ORDER = (GOLD_PEN, 'green-0-25', 'red-0-25', 'black-0-25', 'black-0-4', 'black-0-6', 'black-1')
+PEN_ORDER = (GOLD_PEN, 'green-0-25', 'red-0-25', BROWN_PEN, 'black-0-25', 'black-0-4', 'black-0-6', 'black-1')
 
 # Wheel faces divide just outside the spoke openings (whose outer arcs reach
 # r = 44.942 and 28.493 mm) and inside the rivet circles.
@@ -55,9 +55,10 @@ GOLD_MIN_LINE_MM = 2.0                # shorter ruled Gold dashes read as stray 
 BAND_STRIP_POINTS = ((123.37, 160.0), (166.84, 160.0), (198.15, 160.0))
 
 
-def flat(pen, coverage, angle=-45.0, shade=None):
-    """Parallel hatch; ``shade`` = (pen, approximate pitch) adds lines between."""
-    return Painter('flat', dict(pen=pen, angle=angle, coverage=coverage, shade=shade))
+def flat(pen, coverage, angle=-45.0, shade=None, shade_small=False):
+    """Parallel hatch; ``shade`` = (pen, approximate pitch) adds lines between.
+    ``shade_small`` shades small and bent pieces too (used for red-brown)."""
+    return Painter('flat', dict(pen=pen, angle=angle, coverage=coverage, shade=shade, shade_small=shade_small))
 
 
 def green_flat():
@@ -79,23 +80,26 @@ def iron_axial(angle=None):
     return axial('black-0-25', IRON_AXIAL_PITCH_MM, angle=angle)
 
 
-def maroon_flat():
-    return flat('red-0-25', (0.44, 0.46), shade=('black-0-25', 1.1))
+# Red-brown paint: Red lines 0.60 mm apart with a Brown line in every gap, so
+# red and brown alternate 0.30 mm apart.  The brown darkens and warms the red
+# toward the engine's red-brown oxide paint.
+RED_PITCH_MM = 0.6
+RED_COVERAGE = 0.25 / RED_PITCH_MM
+RED_BROWN_SHADE = (BROWN_PEN, RED_PITCH_MM)
 
 
-SCRAPER_RED_PITCH_MM = 0.42
-
-
-def scraper_red(angle=None):
-    """Small red-brown scraper parts: close pure-Red lines, so they read red
-    between their black outlines (black shade lines would darken them to black)."""
+def red_brown(angle=None):
+    """Red-brown parts: alternating Red and Brown lines.  With an angle the
+    part is hatched at that angle (strips follow their own length); without,
+    each piece is ruled along its own axis."""
     if angle is None:
-        return axial('red-0-25', SCRAPER_RED_PITCH_MM)
-    return flat('red-0-25', (0.6, 0.6), angle=angle)
+        return axial('red-0-25', RED_PITCH_MM, shade=RED_BROWN_SHADE, shade_small=True)
+    return flat('red-0-25', (RED_COVERAGE, RED_COVERAGE), angle=angle, shade=RED_BROWN_SHADE, shade_small=True)
 
 
-def axial(pen, pitch, angle=None, shade=None, single=False):
-    return Painter('axial', dict(pen=pen, pitch=pitch, angle=angle, shade=shade, single=single))
+def axial(pen, pitch, angle=None, shade=None, single=False, shade_small=False):
+    return Painter('axial', dict(pen=pen, pitch=pitch, angle=angle, shade=shade, single=single,
+                                 shade_small=shade_small))
 
 
 def rings(pen, centre, pitch=RING_PITCH_MM, shade=None):
@@ -189,20 +193,21 @@ def parts():
         ((52, 188), (63, 221), (48, 208), (83, 213), (83, 194), (61, 207), (70, 210)))
 
     # ---- red-brown frames and scrapers ------------------------------------
-    add('front-fork', 'red-brown paint', axial('red-0-25', 0.55, shade=('black-0-25', 1.1)),
+    add('front-fork', 'red-brown paint', red_brown(),
         ((68, 180), (63, 181)))
-    add('front-fork-bearing', 'red-brown paint', rings('red-0-25', FRONT_ROLL, 0.5, shade=('black-0-25', 2)),
+    add('front-fork-bearing', 'red-brown paint', rings('red-0-25', FRONT_ROLL, RED_PITCH_MM, shade=(BROWN_PEN, 1)),
         ((67, 196), (64.52, 204.39)))
-    add('front-scraper-bar', 'red-brown paint', axial('red-0-25', SCRAPER_RED_PITCH_MM, angle=0.0),
+    add('front-scraper-bar', 'red-brown paint', axial('red-0-25', RED_PITCH_MM, angle=0.0, shade=RED_BROWN_SHADE,
+                                                       shade_small=True),
         ((90, 200), (27, 200), (25.02, 200.12), (49.42, 201.25), (80.19, 201.75)),
         'The scraper bar and the spring bar the steering chain hooks onto: lines along the bar.')
-    add('front-scraper-blade', 'red-brown paint', scraper_red(angle=-45.0), ((96, 194), (106, 194)))
-    add('rear-forward-scraper', 'red-brown paint', scraper_red(),
+    add('front-scraper-blade', 'red-brown paint', red_brown(angle=-45.0), ((96, 194), (106, 194)))
+    add('rear-forward-scraper', 'red-brown paint', red_brown(),
         ((235, 189), (245.36, 196.62), (244, 192), (220.29, 179.98),
          (217.64, 177.35), (220.28, 177.16), (218.87, 187.78),
          (221.97, 171.64), (224.24, 172.71), (222.02, 173.86)),
         'Arm, blade, bearing mount and adjuster mount of the scraper ahead of the rear roll.')
-    add('rear-scraper', 'red-brown paint', scraper_red(angle=0.0),
+    add('rear-scraper', 'red-brown paint', red_brown(angle=0.0),
         ((356, 201), (365, 192), (361, 192), (363.37, 194.8), (349, 207)),
         'Triangular bracket, pivot boss, arm and blade; the space between arm and spring rod is tender.')
 

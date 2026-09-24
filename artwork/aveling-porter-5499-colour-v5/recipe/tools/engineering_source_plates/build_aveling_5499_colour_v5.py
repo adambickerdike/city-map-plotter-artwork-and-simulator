@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path[:0] = [str(ROOT / 'src'), str(ROOT)]
 from city_map_plotter.niche_common import ArtworkLayer, PlateArtwork, PlateContext, Rect, write_plate
-from tools.engineering_source_plates.aveling_5499_colour_v5.inventory import EDITION_PEN_INVENTORY, GOLD_NIB_MM, GOLD_PEN, PENS
+from tools.engineering_source_plates.aveling_5499_colour_v5.inventory import BROWN_PEN, EDITION_PEN_INVENTORY, GOLD_NIB_MM, GOLD_PEN, PENS
 from tools.engineering_source_plates.aveling_5499_colour_v5 import hatching as H
 from tools.engineering_source_plates.aveling_5499_colour_v5.design import PEN_ORDER
 from tools.engineering_source_plates.aveling_5499_colour_v5.painters import minimum_length
@@ -24,7 +24,8 @@ OUTLINE_LAYERS = {'black-0-25': ('outline-fine', 'Fine details, fittings, letter
                   'black-1': ('outline-silhouette', 'Roller tyre silhouettes')}
 FILL_LAYERS = {GOLD_PEN: ('fill-brass', "Brass: boiler bands, valves and the cylinder maker's plate"),
                'green-0-25': ('fill-green', 'Green paint'),
-               'red-0-25': ('fill-red-brown', 'Red-brown frames and scrapers'),
+               'red-0-25': ('fill-red', 'Red of the red-brown fork and scrapers'),
+               BROWN_PEN: ('fill-brown', 'Brown lines darkening the red-brown fork and scrapers'),
                'black-0-25': ('fill-black', 'Black iron hatching: wheels, flywheel, chimney, smokebox, headstock, firebox, fittings; shade lines')}
 SKIP_ATTRIBUTES = {'d', 'data-logical-layer', 'data-role', 'data-source-ref', 'data-sequence'}
 
@@ -139,18 +140,19 @@ def build(output, dpi):
                      'Revision: lines not dots on the horse and both nameplates; even wheel shading; colour the engine seen through the rear wheel; consistent spoke lines; a more professional finish',
                      'Revision: rear scraper red with green around it; blacker wheels and flywheel; blacker outlines; black through the rear wheel up to the straight vertical line; worksplate and horse at the top right without colour',
                      'Revision: the black behind the rear wheel lighter; no broad gold pen, so every gold part built from multiple fine lines',
-                     'Revision: no grey pen, so the iron tones are drawn in black line hatching with the same look']}]
+                     'Revision: no grey pen, so the iron tones are drawn in black line hatching with the same look',
+                     'Revision: the red pen is too bright, so the red parts are darkened with the studio 0.25 mm brown pen alternating with the red lines']}]
     notes = [n.replace('White 0.30/0.40/0.50 mm pens on blue stock.', 'The source blueprint used White 0.30/0.40/0.50 mm pens on blue stock.') for n in facts['notes']]
     notes += [
         'Colour edition 5: every one of the 863 revision-14 paths is retained unchanged in shape as a black outline. Engine linework is drawn one pen heavier than the blueprint (Black 0.40/0.60 mm, roller tyres Black 1.00 mm); fasteners, chains, small fittings, scrapers, lettering, badges and frame keep Black 0.25/0.40/0.60 mm.',
         'Colour is added only as single-pass pen lines inside the enclosed paper cells, kept at least 0.22 mm clear of black ink.',
         'The wheels, hubs and flywheel are black iron drawn as close, even Black circles. Everything seen through the rear wheel up to the tender front edge is black iron in Black lines about 0.69 mm apart, lighter than the black wheels; the green tender continues beyond that edge.',
-        'Spokes are ruled with a fixed number of lines exactly parallel to their edges. Cylinders are graded lines under upper-left light. The scrapers, their mounts and the chain spring bar are pure Red lines.',
+        'Spokes are ruled with a fixed number of lines exactly parallel to their edges. Cylinders are graded lines under upper-left light. The fork, scrapers, scraper mounts and chain spring bar are red-brown: Red lines with a Brown line in every gap, 0.30 mm apart, so the red reads darker and warmer.',
         'Black-painted iron (chimney, smokebox, headstock, firebox, fittings and controls) is hatched in Black alone, its tone set by line spacing; the studio has no grey pen.',
         'The worksplate and Invicta horse at the top right are left as black engraving without colour. The boiler bands, valves, whistle and the maker plate on the cylinder are brass, each built from several fine lines 0.50 mm apart with the studio Gold 0.40 mm pen; there is no broad gold nib.',
     ]
     meta = dict(json.loads((evidence / 'revision-14-reconstruction.json').read_text())['metadata'])
-    meta.update(paper_preview_color='#ffffff', physical_inks=['Gold', 'Green', 'Red', 'Black'], gold_nib_mm=GOLD_NIB_MM,
+    meta.update(paper_preview_color='#ffffff', physical_inks=['Gold', 'Green', 'Red', 'Brown', 'Black'], gold_nib_mm=GOLD_NIB_MM,
                 colour_edition='lined-colour-v5', base_master_sha256=BASE_SHA,
                 colour_plan='evidence/fill-plan.json', geometry_record='evidence/revision-14-reconstruction.json',
                 current_geometry_scope='All 863 frozen revision-14 path shapes unchanged as black outlines, engine linework one pen heavier; pen-line colour added inside.',
