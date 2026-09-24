@@ -21,7 +21,8 @@ EDITION_DATE = '2026-09-24'
 OUTLINE_LAYERS = {'black-0-25': ('outline-fine', 'Fine details, fittings, lettering and the badges'),
                   'black-0-4': ('outline-engine', 'Engine linework'),
                   'black-0-6': ('outline-principal', 'Principal engine outlines and sheet frame'),
-                  'black-1': ('outline-silhouette', 'Roller tyre silhouettes')}
+                  'black-1': ('outline-silhouette', 'Roller tyre silhouettes'),
+                  GOLD_PEN: ('outline-brass', 'Inner lines of the brass boiler bands, drawn in Gold')}
 FILL_LAYERS = {GOLD_PEN: ('fill-brass', "Brass: boiler bands, valves and the cylinder maker's plate"),
                'green-0-25': ('fill-green', 'Green paint'),
                'red-0-25': ('fill-red', 'Red of the red-brown fork and scrapers'),
@@ -108,13 +109,16 @@ def build(output, dpi):
                             'fill_erosion_mm': 'nib/2 + white gap - cell offset',
                             'minimum_fill_stroke_mm': "max(3 x nib, 1.2); ruled Gold on the maker's plate at least 2.0",
                             'gold_line_spacing_mm': 0.5,
+                            'boiler_band_line_spacing_mm': 'even from edge to edge, about 0.42, stepping out from '
+                                                           "the band's own Gold inner line",
                             'strokes': 'every hatch line is a separate stroke with clean ends, in serpentine order'},
         'lighting': 'Upper-left light: graded parallel lines model the boiler, smokebox and chimney as cylinders. '
                     'The black iron wheels, hubs and flywheel are close, even Black circles all round; flat plates '
                     'darken slightly to the lower right.',
         'outline_weights': 'Engine linework one pen heavier than the blueprint: 0.30 -> Black 0.40, 0.40 -> Black 0.60, '
                            'roller tyres 0.50 -> Black 1.00. Fasteners, chains, small fittings, scrapers, controls, '
-                           'lettering, the badges and the sheet frame keep their original weights.',
+                           'lettering, the badges and the sheet frame keep their original weights. The four '
+                           'inner lines of the brass boiler bands are drawn in Gold, unchanged in shape.',
         'wheel_faces': [{'name': f.name, 'centre_mm': list(f.centre), 'split_radius_mm': f.split_radius_mm,
                          'opening_cuts': f.opening_cuts, 'spoke_pieces': len(f.spokes), 'rim_pieces': len(f.rim)}
                         for f in plan.wheel_faces],
@@ -141,21 +145,22 @@ def build(output, dpi):
                      'Revision: rear scraper red with green around it; blacker wheels and flywheel; blacker outlines; black through the rear wheel up to the straight vertical line; worksplate and horse at the top right without colour',
                      'Revision: the black behind the rear wheel lighter; no broad gold pen, so every gold part built from multiple fine lines',
                      'Revision: no grey pen, so the iron tones are drawn in black line hatching with the same look',
-                     'Revision: the red pen is too bright, so the red parts are darkened with the studio 0.25 mm brown pen alternating with the red lines']}]
+                     'Revision: the red pen is too bright, so the red parts are darkened with the studio 0.25 mm brown pen alternating with the red lines',
+                     'Revision: fill the whole of each gold boiler band with colour, not only the side to the right of its inner line']}]
     notes = [n.replace('White 0.30/0.40/0.50 mm pens on blue stock.', 'The source blueprint used White 0.30/0.40/0.50 mm pens on blue stock.') for n in facts['notes']]
     notes += [
-        'Colour edition 5: every one of the 863 revision-14 paths is retained unchanged in shape as a black outline. Engine linework is drawn one pen heavier than the blueprint (Black 0.40/0.60 mm, roller tyres Black 1.00 mm); fasteners, chains, small fittings, scrapers, lettering, badges and frame keep Black 0.25/0.40/0.60 mm.',
-        'Colour is added only as single-pass pen lines inside the enclosed paper cells, kept at least 0.22 mm clear of black ink.',
+        'Colour edition 5: every one of the 863 revision-14 paths is retained unchanged in shape. 859 are black outlines; engine linework is drawn one pen heavier than the blueprint (Black 0.40/0.60 mm, roller tyres Black 1.00 mm); fasteners, chains, small fittings, scrapers, lettering, badges and frame keep Black 0.25/0.40/0.60 mm. The inner lines of the three brass boiler bands (four paths) are drawn in Gold.',
+        'Colour is added only as single-pass pen lines inside the enclosed paper cells, kept at least 0.22 mm clear of black ink. The Gold band inner lines meet black ink only at their ends and where they cross the boiler lines, as the blueprint draws them.',
         'The wheels, hubs and flywheel are black iron drawn as close, even Black circles. Everything seen through the rear wheel up to the tender front edge is black iron in Black lines about 0.69 mm apart, lighter than the black wheels; the green tender continues beyond that edge.',
         'Spokes are ruled with a fixed number of lines exactly parallel to their edges. Cylinders are graded lines under upper-left light. The fork, scrapers, scraper mounts and chain spring bar are red-brown: Red lines with a Brown line in every gap, 0.30 mm apart, so the red reads darker and warmer.',
         'Black-painted iron (chimney, smokebox, headstock, firebox, fittings and controls) is hatched in Black alone, its tone set by line spacing; the studio has no grey pen.',
-        'The worksplate and Invicta horse at the top right are left as black engraving without colour. The boiler bands, valves, whistle and the maker plate on the cylinder are brass, each built from several fine lines 0.50 mm apart with the studio Gold 0.40 mm pen; there is no broad gold nib.',
+        'The worksplate and Invicta horse at the top right are left as black engraving without colour. The boiler bands, valves, whistle and the maker plate on the cylinder are brass, built from fine lines with the studio Gold 0.40 mm pen; there is no broad gold nib. Each boiler band is a solid gold bar of upright lines evenly spaced about 0.42 mm apart from one black edge to the other, its inner line drawn in Gold as one of them; the valves, whistle and maker plate are lined 0.50 mm apart.',
     ]
     meta = dict(json.loads((evidence / 'revision-14-reconstruction.json').read_text())['metadata'])
     meta.update(paper_preview_color='#ffffff', physical_inks=['Gold', 'Green', 'Red', 'Brown', 'Black'], gold_nib_mm=GOLD_NIB_MM,
                 colour_edition='lined-colour-v5', base_master_sha256=BASE_SHA,
                 colour_plan='evidence/fill-plan.json', geometry_record='evidence/revision-14-reconstruction.json',
-                current_geometry_scope='All 863 frozen revision-14 path shapes unchanged as black outlines, engine linework one pen heavier; pen-line colour added inside.',
+                current_geometry_scope='All 863 frozen revision-14 path shapes unchanged: black outlines with the engine linework one pen heavier, and the four brass-band inner lines in Gold; pen-line colour added inside.',
                 base_geometry_path_count=len(plan.source), unchanged_path_count=len(plan.source),
                 fill_stroke_count=len(fill_records), white_gap_mm=GAP_MM)
     meta.pop('physical_ink', None)

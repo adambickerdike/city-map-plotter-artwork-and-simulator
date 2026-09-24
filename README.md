@@ -181,21 +181,22 @@ an optimised plot job, an A3 colour PDF and a comparison with the blueprint.
 [Download the colour ZIP](artwork/aveling-porter-5499-colour-v1.zip).
 
 [Colour edition 5](artwork/aveling-porter-5499-colour-v5/index.html) keeps all
-863 revision-14 path shapes as strong black outlines, with the engine linework
-one pen heavier. Inside them, the engine is coloured in with pen lines only,
-like a coloured engineering drawing:
+863 revision-14 path shapes unchanged. They are drawn as strong black outlines,
+with the engine linework one pen heavier; only the thin inner lines of the
+boiler bands are gold. Inside them, the engine is coloured in with pen lines
+only, like a coloured engineering drawing:
 
 - green cladding, tender and spokes, with every spoke ruled in even parallel
   lines;
 - black iron wheels and flywheel;
 - red-brown scrapers and fork: red lines darkened with brown lines;
-- gold bands and fittings, each built from several 0.40 mm gold lines, as there
-  is no broad gold pen.
+- gold fittings and solid gold boiler bands, each built from several 0.40 mm
+  gold lines, as there is no broad gold pen.
 
 Behind the rear wheel, everything up to the tender's straight front edge is a
 black hatch, a shade lighter than the wheels. The worksplate and horse at the
-top right are left as black engraving. Colour keeps at least 0.22 mm clear of
-black ink.
+top right are left as black engraving. Colour fills keep at least 0.22 mm
+clear of black ink.
 
 Plot at A3 landscape, 100% scale. Use the eight pen files in order, one pen
 each:

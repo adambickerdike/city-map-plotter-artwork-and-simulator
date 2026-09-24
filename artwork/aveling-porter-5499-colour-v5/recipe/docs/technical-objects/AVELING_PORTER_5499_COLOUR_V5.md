@@ -25,10 +25,13 @@ Edition 5 revises edition 4 after review:
   continues beyond that edge.
 - **Top-right badges:** the worksplate and Invicta horse carry no colour, only
   their black engraving.
+- **Boiler bands:** solid gold from one black edge to the other (see
+  [Boiler bands](#boiler-bands)).
 
 The source is the hash-pinned final revision-14 SVG. All 863 path shapes are
-kept byte-for-byte; only their black pen weights follow the mapping above
-(`regions.black_pen`), which the verifier recomputes independently.
+kept byte-for-byte. Only their pens follow the mapping above
+(`regions.outline_pen`): the Black weights, plus Gold for the four band inner
+lines. The verifier recomputes the mapping independently.
 
 ## Unchanged from edition 4
 
@@ -45,16 +48,35 @@ kept byte-for-byte; only their black pen weights follow the mapping above
 
 The studio has no broad gold pen, so the edition carries its own inventory
 (`inventory.py`, id `studio-pens-fine-gold`): the studio template with the
-1.00 mm gold replaced by the studio's 0.40 mm gold. Every gold part is several fine lines
-0.50 mm apart:
+1.00 mm gold replaced by the studio's 0.40 mm gold. Every gold part is several
+fine lines. The fittings are lined 0.50 mm apart:
 
-- two per boiler band;
 - four per valve column;
 - eight on the whistle;
 - seventeen on the cylinder's maker plate.
 
 The gold pen is 0.40 mm, confirmed by the user. Change `GOLD_NIB_MM` and
 rebuild if the gold pen changes.
+
+## Boiler bands
+
+Each boiler band is drawn with a black edge either side and a thin inner line
+only 1.08 mm from its front edge. A 0.40 mm gold line cannot fit beside it
+with the 0.22 mm white gap, so that side of each band was left white.
+
+The inner lines (model paths 150, 151, 156 and 159) are therefore drawn in
+Gold, unchanged in shape. They no longer divide the paper, so each band is one
+cell between its black edges. The band painter fills it with five upright gold
+lines about 0.42 mm apart, from one edge to the other, with the inner line as
+one of them. The band reads as a solid gold bar.
+
+The short pieces of band below the boiler's lower line and above the feed pipe
+are too short for a 2 mm gold line, so only the gold inner line crosses them.
+
+These four lines are the only source lines not drawn in black. They reach
+black ink only where the blueprint's lines join them. Elsewhere they keep
+0.22 mm of white paper from black and from every other colour; the verifier
+checks both.
 
 ## No grey pen
 
@@ -84,12 +106,14 @@ every red part carries brown lines.
 ## Plotting
 
 Eight pen loads: Gold 0.40, Green, Red, Brown, Black 0.25, 0.40, 0.60, 1.00.
-The optimised nominal simulation is about 49 minutes, with 3,552 strokes;
+The optimised nominal simulation is about 49 minutes, with 3,556 strokes;
 document order would take 55 minutes.
 
 `verify.py` independently checks:
 
 - that the outline shapes are unchanged and on their mapped pens;
+- that the gold band inner lines reach black only where the blueprint's lines
+  join them;
 - that the fills match the plan and stay contained;
 - the paper gaps, and that the top-right badges carry no colour;
 - that the spoke lines are straight and parallel;

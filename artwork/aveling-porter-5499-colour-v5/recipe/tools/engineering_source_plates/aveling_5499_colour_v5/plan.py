@@ -104,6 +104,10 @@ def tender_front_edge_x(paths) -> float:
 
 def build_plan(svg: Path) -> Plan:
     paths = load_source(svg)
+    # the band painter steps out from each band's Gold inner line
+    inner_x = sorted({round(p.points[0][0], 3) for p in paths if not p.is_black})
+    if inner_x != sorted(D.BAND_INNER_X):
+        raise ValueError(f'band inner lines lie at x = {inner_x}, not at {sorted(D.BAND_INNER_X)}')
     cellmap = compute_cells(paths)
     claimed: dict[int, str] = {}
     zones: list[Zone] = []

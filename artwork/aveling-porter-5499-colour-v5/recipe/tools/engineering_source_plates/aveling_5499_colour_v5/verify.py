@@ -6,8 +6,9 @@ checks that every source outline is present and unchanged in black, that every
 colour line keeps its paper gap from black ink and stays inside the area its
 part claims, and that pen files, manifest and plot job agree.
 
-Outline shapes are byte-identical to the source; their pen weights follow
-the edition's documented mapping (``regions.black_pen``).
+Outline shapes are byte-identical to the source; their pens follow the
+edition's documented mapping (``regions.outline_pen``): Black weights, and
+Gold for the four inner lines of the brass boiler bands.
 """
 from collections import Counter, defaultdict
 import hashlib, json, math, subprocess, sys, xml.etree.ElementTree as ET
@@ -26,7 +27,8 @@ from tools.engineering_source_plates.aveling_5499_colour_v5.design import PEN_OR
 from tools.engineering_source_plates.aveling_5499_colour_v5 import hatching as H
 from tools.engineering_source_plates.aveling_5499_colour_v5.painters import fill_region, minimum_length
 from tools.engineering_source_plates.aveling_5499_colour_v5.plan import build_plan
-from tools.engineering_source_plates.aveling_5499_colour_v5.regions import GAP_MM, black_pen
+from tools.engineering_source_plates.aveling_5499_colour_v5.regions import (
+    BAND_INNER_LINES, BLACK_NIB, GAP_MM, is_band_inner_line, outline_pen)
 
 NS = '{http://www.w3.org/2000/svg}'
 TOLERANCE_MM = 0.005
@@ -94,13 +96,13 @@ def verify(package):
             assert length + 0.003 >= minimum_length(pen_id)
             fills.append((element, pen_id, vector, length))
 
-    # 1. every source outline, unchanged, on its Black pen
+    # 1. every source outline, unchanged, on its documented pen
     assert set(outlines) == set(range(863))
     copy_groups = defaultdict(list)
     for index, original in enumerate(old_paths):
         element, pen_id, vector = outlines[index]
         assert element.get('d') == original.get('d'), (index, 'outline geometry changed')
-        assert pen_id == black_pen(original.attrib, base_width(original), vector), index
+        assert pen_id == outline_pen(original.attrib, base_width(original), vector), index
         for key in PRESERVED:
             assert element.get(key) == original.get(key), (index, key)
         if element.get('data-copy'):
@@ -116,10 +118,14 @@ def verify(package):
 
     # 2. colour lines: paper to every black ink edge (horse gold excepted
     #    only from the horse's own relief lines)
-    black_lines, black_half, relief = [], [], []
+    black_lines, black_half, relief, gold_outlines = [], [], [], []
     for index in range(863):
         element, pen_id, vector = outlines[index]
-        black_lines.append(LineString(vector.flatten(0.0005).points))
+        line = LineString(vector.flatten(0.0005).points)
+        if pen_id not in BLACK_NIB:
+            gold_outlines.append((element, pen_id, line))
+            continue
+        black_lines.append(line)
         black_half.append(inventory[pen_id].mark_width_mm / 2)
         relief.append(is_horse_relief(element))
     assert sum(relief) == 39
@@ -172,6 +178,35 @@ def verify(package):
         exported[(part, pen_id)] += 1
         by_part[part].append((pen_id, line))
     assert exported == expected, set(exported.items()) ^ set(expected.items())
+
+    # 3b. the brass bands' inner lines are the only outlines drawn in colour:
+    #     exactly the documented four, in Gold.  They meet black ink only
+    #     where the blueprint's own lines join or cross them; everywhere else
+    #     they keep the white gap from black ink, run inside the bands' paper,
+    #     and keep the gap from every other colour
+    assert sorted(e.get('data-model-path-index') for e, _, _ in gold_outlines) == sorted(BAND_INNER_LINES)
+    assert all(is_band_inner_line(e.attrib) and pen_id == GOLD_PEN for e, pen_id, _ in gold_outlines)
+    fill_index = STRtree(fill_lines)
+    fill_pens = [pen_id for _, pen_id, _, _ in fills]
+    band_joins, gap_to_black, gap_to_colour = 0, math.inf, math.inf
+    for element, pen_id, line in gold_outlines:
+        half = inventory[pen_id].mark_width_mm / 2
+        near = [int(j) for j in tree_index.query(line.buffer(half + GAP_MM + 0.5 + 0.2))]
+        met = [j for j in near if line.distance(black_lines[j]) < 0.01]
+        joins = unary_union([black_lines[j].buffer(black_half[j] + half + GAP_MM, quad_segs=32) for j in met])
+        free = line.difference(joins)
+        band_joins += len(met)
+        assert met and not free.is_empty
+        for j in near:
+            gap_to_black = min(gap_to_black, free.distance(black_lines[j]) - half - black_half[j])
+        assert zone_area['boiler-bands'].contains(free), element.get('data-model-path-index')
+        for j in fill_index.query(line.buffer(half + GAP_MM + 0.5)):
+            j = int(j)
+            if fill_pens[j] != GOLD_PEN:
+                gap_to_colour = min(gap_to_colour, line.distance(fill_lines[j]) - half
+                                    - inventory[fill_pens[j]].mark_width_mm / 2)
+    assert gap_to_black + TOLERANCE_MM >= GAP_MM, gap_to_black
+    assert gap_to_colour + TOLERANCE_MM >= GAP_MM, gap_to_colour
 
     # 4. wheel faces: spokes and rim are split without a drawn line, so their
     #    inks must still keep a paper gap between them
@@ -265,7 +300,14 @@ def verify(package):
         'fill_lines_by_pen': dict(fill_counts),
         'fill_length_m_by_pen': {pen: round(sum(l for _, p, _, l in fills if p == pen) / 1000, 3) for pen in fill_counts},
         'outline_pens': {pen: sum(1 for e, p, v in outlines.values() if p == pen)
-                         for pen in ('black-0-25', 'black-0-4', 'black-0-6', 'black-1')},
+                         for pen in ('black-0-25', 'black-0-4', 'black-0-6', 'black-1', GOLD_PEN)},
+        'band_inner_lines': {
+            'pen': GOLD_PEN, 'paths': len(gold_outlines),
+            'model_path_indices': sorted(BAND_INNER_LINES, key=int), 'shapes_unchanged': True,
+            'joins_with_black_lines_as_drawn': band_joins,
+            'minimum_white_gap_to_black_ink_away_from_joins_mm': round(gap_to_black, 4),
+            'minimum_white_gap_to_other_colours_mm': round(gap_to_colour, 4),
+            'lie_inside_the_bands_away_from_joins': True},
         'required_white_gap_mm': GAP_MM,
         'minimum_white_gap_to_black_ink_mm': {pen: round(g, 4) for pen, g in sorted(minimum_gap.items())},
         'grey_pen_used': False,
@@ -283,7 +325,8 @@ def verify(package):
                                         inventory[inherited(v[0], 'data-plot-pen-id')].mark_width_mm
                                         for v in copy_groups.values()),
         'pen_sequence': sequence, 'pen_profile': EDITION_PEN_INVENTORY.id, 'single_pass_paths': True, 'white_paper': True,
-        'gold': {'pen': GOLD_PEN, 'nib_mm': GOLD_NIB_MM, 'nib_status': 'user-confirmed nominal nib', 'lines_by_part': dict(gold_parts)},
+        'gold': {'pen': GOLD_PEN, 'nib_mm': GOLD_NIB_MM, 'nib_status': 'user-confirmed nominal nib', 'lines_by_part': dict(gold_parts),
+                 'band_inner_lines': len(gold_outlines)},
         'all_pen_files_match_master': True, 'format_validation': validation.stdout.strip(),
         'source_hashes': source_checks, 'simulation': job['stats'], 'strict_svg_preflight': job['preflight'],
         'inherited_geometry_proof': 'revision-14-verification.json',
@@ -293,7 +336,7 @@ def verify(package):
     (evidence / 'verification.json').write_text(json.dumps(report, indent=2) + '\n')
     print(json.dumps({k: report[k] for k in ['master_svg_sha256', 'all_svg_paths', 'unchanged_source_paths',
                                              'fill_lines', 'minimum_white_gap_to_black_ink_mm',
-                                             'top_right_badges_uncoloured', 'outline_pens', 'gold', 'red_brown',
+                                             'top_right_badges_uncoloured', 'outline_pens', 'band_inner_lines', 'gold', 'red_brown',
                                              'wheel_rim_to_spoke_white_gap_mm', 'format_validation']}, indent=2))
     return report
 

@@ -9,8 +9,8 @@
 ![Colour pen drawing of Aveling and Porter No. 5499 with strong black outlines](artwork/aveling-porter-5499-colour-hatched.png)
 
 This edition colours in the latest refined **revision-14 drawing** like a
-coloured engineering drawing. Every outline is black and every coloured mark
-is a pen line.
+coloured engineering drawing. Every outline is black, apart from the thin gold
+inner lines of the boiler bands, and every coloured mark is a pen line.
 
 - **Outlines:** the engine's linework is drawn one pen heavier than the
   blueprint, so it stays strong beside the colour.
@@ -26,9 +26,11 @@ is a pen line.
   the rear wheel, four on the front roll.
 - **Top-right badges:** the worksplate and Invicta horse have no colour, only
   their black engraving.
-- **Gold:** the brass bands, valves, whistle and the cylinder's maker plate
-  are each built from several 0.40 mm gold lines, 0.50 mm apart, so no broad
-  gold pen is needed.
+- **Gold:** the three brass boiler bands are solid gold from one black edge
+  to the other: upright 0.40 mm gold lines about 0.42 mm apart. Each band's
+  thin inner line is drawn in gold as one of them. The valves, whistle and the
+  cylinder's maker plate are gold lines 0.50 mm apart. No broad gold pen is
+  needed.
 - **Iron without grey:** the chimney, smokebox, headstock, firebox and
   fittings are black-painted iron, hatched in black lines only. The line
   spacing sets the tone, so no grey pen is needed. The chimney and smokebox
@@ -46,9 +48,16 @@ do not close up:
 - small fittings, scrapers and controls;
 - lettering, both badges and the sheet frame.
 
-The colour is **2,689 added pen lines**, across 45 parts and 283 enclosed paper
-cells. Every coloured ink edge keeps **at least 0.22 mm of white paper** from
-black ink, so inks never mix and small pen-change offsets stay hidden.
+The only source lines not drawn in black are the thin inner lines of the three
+boiler bands (four paths). Each sits only 1.08 mm from its band's front edge,
+too close to fit a gold line beside it. They are drawn in gold instead, so each
+band reads as one gold bar between its black edges.
+
+The colour is **2,693 added pen lines**, across 45 parts and 286 enclosed paper
+cells. Every colour line keeps **at least 0.22 mm of white paper** from black
+ink, so inks never mix and small pen-change offsets stay hidden. The gold band
+inner lines reach black only where the blueprint's lines join them: at their
+ends and where they cross the boiler's lines.
 
 ## Plot and print
 
@@ -61,18 +70,18 @@ Plot the pens in file order, light to dark, with each pen loaded once:
 
 | Step | Actual studio pen | Paths | Use |
 |---:|---|---:|---|
-| 1 | Gold 0.40 mm | 43 | Boiler bands, valves, whistle, cylinder maker's plate |
+| 1 | Gold 0.40 mm | 53 | Boiler bands and their inner lines, valves, whistle, cylinder maker's plate |
 | 2 | Green 0.25 mm | 852 | Green paintwork and spokes |
 | 3 | Red 0.25 mm | 110 | Red of the fork, scrapers, scraper mounts and chain spring bar |
 | 4 | Brown 0.25 mm | 87 | Brown lines between the red, darkening it to red-brown |
-| 5 | Black 0.25 mm | 2,185 | 1,597 iron hatching and shade lines, then 588 fine details, lettering and badges |
-| 6 | Black 0.40 mm | 208 | Engine linework |
+| 5 | Black 0.25 mm | 2,183 | 1,595 iron hatching and shade lines, then 588 fine details, lettering and badges |
+| 6 | Black 0.40 mm | 204 | Engine linework |
 | 7 | Black 0.60 mm | 63 | Principal engine outlines and sheet frame |
 | 8 | Black 1.00 mm | 4 | Roller tyre silhouettes |
 
-The optimised job estimates **48 minutes 31 seconds** (41:14 to 55:47) with
-the nominal AxiDraw-class profile. It draws 3,552 strokes with 13.3 m of
-pen-up travel; document order would take 55.3 minutes. No physical
+The optimised job estimates **48 minutes 33 seconds** (41:16 to 55:50) with
+the nominal AxiDraw-class profile. It draws 3,556 strokes with 12.8 m of
+pen-up travel; document order would take 55.4 minutes. No physical
 machine was operated; pen and timing calibration remain the studio's usual
 pre-plot steps.
 
@@ -97,8 +106,10 @@ and rebuild. The gold line spacing and clearances follow from it.
 All **269 format checks** and strict SVG preflight pass. `verify.py` rereads
 the exported SVG and independently checks that:
 
-- all 863 outline shapes are unchanged and on the pen the documented weight
-  mapping gives;
+- all 863 outline shapes are unchanged and on the pen the documented mapping
+  gives: Black weights, and Gold for the four band inner lines;
+- the gold band inner lines meet black only where the blueprint's lines join
+  them, and keep 0.22 mm from black and every other colour elsewhere;
 - the exported lines exactly match the fill plan;
 - each line lies inside its own part;
 - the measured paper gap to black ink is at least 0.2219 mm;
