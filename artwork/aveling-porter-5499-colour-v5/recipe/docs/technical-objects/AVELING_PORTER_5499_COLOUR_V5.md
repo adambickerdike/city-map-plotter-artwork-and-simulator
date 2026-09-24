@@ -6,9 +6,9 @@ Plan, painters and verifier: `tools/engineering_source_plates/aveling_5499_colou
 
 Edition 5 revises edition 4 after review:
 
-- **Scrapers:** the rear scraper (bracket, boss, arm and blade) is pure Red
-  lines. The open space between its arm and the spring rod is green tender. The
-  forward scraper's bearing and adjuster mounts are red with its arm.
+- **Scrapers:** the rear scraper (bracket, boss, arm and blade) is red-brown.
+  The open space between its arm and the spring rod is green tender. The
+  forward scraper's bearing and adjuster mounts are red-brown with its arm.
 - **Black iron:** the wheels, hubs and flywheel are close, even Black circles
   (0.38 mm apart), so they read as black iron.
 - **Outlines:** engine linework is drawn one pen heavier than the blueprint:
@@ -72,11 +72,20 @@ The iron seen behind the rear wheel (36% ink) stays a touch darker than the
 firebox in front of it. Grey is left out of the edition inventory, and the
 verifier fails if any grey appears.
 
+## Red-brown
+
+The studio's red pen is too bright on its own. The fork, scrapers, scraper
+mounts and chain spring bar are therefore red-brown: Red 0.25 lines 0.60 mm
+apart, with a Brown 0.25 line in every gap. Red and brown alternate 0.30 mm
+apart and read as a deeper, warmer red, close to the engine's red-brown paint.
+The brown pen is plotted straight after the red. The verifier checks that
+every red part carries brown lines.
+
 ## Plotting
 
-Seven pen loads: Gold 0.40, Green, Red, Black 0.25, 0.40, 0.60, 1.00.
-The optimised nominal simulation is about 48 minutes, with 3,512 strokes;
-document order would take 54 minutes.
+Eight pen loads: Gold 0.40, Green, Red, Brown, Black 0.25, 0.40, 0.60, 1.00.
+The optimised nominal simulation is about 49 minutes, with 3,552 strokes;
+document order would take 55 minutes.
 
 `verify.py` independently checks:
 

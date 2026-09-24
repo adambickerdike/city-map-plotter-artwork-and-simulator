@@ -17,7 +17,7 @@ sys.path[:0] = [str(ROOT / 'src'), str(ROOT)]
 from shapely import STRtree
 from shapely.geometry import LineString, Point, Polygon
 from shapely.ops import unary_union
-from tools.engineering_source_plates.aveling_5499_colour_v5.inventory import EDITION_PEN_INVENTORY, GOLD_NIB_MM, GOLD_PEN
+from tools.engineering_source_plates.aveling_5499_colour_v5.inventory import BROWN_PEN, EDITION_PEN_INVENTORY, GOLD_NIB_MM, GOLD_PEN
 from city_map_plotter.stroke_font import STROKE_FONT_ID
 from city_map_plotter.technical_assets import parse_absolute_path_data
 from city_map_plotter.vector_path import LineSegment
@@ -230,6 +230,12 @@ def verify(package):
     # no grey pen anywhere in this edition's inventory or drawing
     assert not any(pen.ink == 'Grey' for pen in EDITION_PEN_INVENTORY.pens)
     assert not any(inventory[inherited(p, 'data-plot-pen-id')].ink == 'Grey' for p in paths)
+    # red-brown: every red part is darkened by Brown lines between its Red lines
+    red_parts = Counter(e.get('data-fill-part') for e, pen, _, _ in fills if pen == 'red-0-25')
+    brown_parts = Counter(e.get('data-fill-part') for e, pen, _, _ in fills if pen == BROWN_PEN)
+    assert set(brown_parts) <= set(red_parts), set(brown_parts) - set(red_parts)
+    assert all(brown_parts[part] >= 1 for part in red_parts), [p for p in red_parts if not brown_parts[p]]
+    assert inventory[BROWN_PEN].ink == 'Brown' and inventory[BROWN_PEN].mark_width_mm == 0.25
     # no broad gold: every gold mark is a fine line on the edition's gold pen
     gold_marks = [(e, pen) for e, pen, _, _ in fills if inventory[pen].ink == 'Gold']
     assert gold_marks and all(pen == GOLD_PEN for _, pen in gold_marks)
@@ -263,6 +269,7 @@ def verify(package):
         'required_white_gap_mm': GAP_MM,
         'minimum_white_gap_to_black_ink_mm': {pen: round(g, 4) for pen, g in sorted(minimum_gap.items())},
         'grey_pen_used': False,
+        'red_brown': {part: {'red_lines': red_parts[part], 'brown_lines': brown_parts[part]} for part in sorted(red_parts)},
         'top_right_badges_uncoloured': not any(e.get('data-fill-part') in {'invicta-horse', 'worksplate'}
                                                for e, _, _, _ in fills),
         'through_rear_wheel': {'tender_front_edge_x_mm': plan.tender_edge_x, 'tender_top_y_mm': plan.tender_top_y},
@@ -286,7 +293,7 @@ def verify(package):
     (evidence / 'verification.json').write_text(json.dumps(report, indent=2) + '\n')
     print(json.dumps({k: report[k] for k in ['master_svg_sha256', 'all_svg_paths', 'unchanged_source_paths',
                                              'fill_lines', 'minimum_white_gap_to_black_ink_mm',
-                                             'top_right_badges_uncoloured', 'outline_pens', 'gold',
+                                             'top_right_badges_uncoloured', 'outline_pens', 'gold', 'red_brown',
                                              'wheel_rim_to_spoke_white_gap_mm', 'format_validation']}, indent=2))
     return report
 

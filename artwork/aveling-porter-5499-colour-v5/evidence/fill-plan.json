@@ -239,7 +239,8 @@
           0.36,
           0.44
         ],
-        "shade": null
+        "shade": null,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -273,7 +274,8 @@
           0.36,
           0.44
         ],
-        "shade": null
+        "shade": null,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -307,7 +309,8 @@
           0.36,
           0.44
         ],
-        "shade": null
+        "shade": null,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -401,7 +404,8 @@
           0.36,
           0.36
         ],
-        "shade": null
+        "shade": null,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -737,13 +741,14 @@
       "painter": {
         "painter": "axial",
         "pen": "red-0-25",
-        "pitch": 0.55,
+        "pitch": 0.6,
         "angle": null,
         "shade": [
-          "black-0-25",
-          1.1
+          "brown-0-25",
+          0.6
         ],
-        "single": false
+        "single": false,
+        "shade_small": true
       },
       "seed_points_mm": [
         [
@@ -758,8 +763,8 @@
       "cell_count": 2,
       "cell_area_mm2": 392.856,
       "strokes_by_pen": {
-        "red-0-25": 34,
-        "black-0-25": 16
+        "red-0-25": 33,
+        "brown-0-25": 29
       },
       "note": ""
     },
@@ -773,10 +778,10 @@
           67.361,
           200.514
         ],
-        "pitch": 0.5,
+        "pitch": 0.6,
         "shade": [
-          "black-0-25",
-          2
+          "brown-0-25",
+          1
         ]
       },
       "seed_points_mm": [
@@ -792,8 +797,8 @@
       "cell_count": 2,
       "cell_area_mm2": 25.427,
       "strokes_by_pen": {
-        "red-0-25": 4,
-        "black-0-25": 2
+        "red-0-25": 2,
+        "brown-0-25": 2
       },
       "note": ""
     },
@@ -803,10 +808,14 @@
       "painter": {
         "painter": "axial",
         "pen": "red-0-25",
-        "pitch": 0.42,
+        "pitch": 0.6,
         "angle": 0.0,
-        "shade": null,
-        "single": false
+        "shade": [
+          "brown-0-25",
+          0.6
+        ],
+        "single": false,
+        "shade_small": true
       },
       "seed_points_mm": [
         [
@@ -833,7 +842,8 @@
       "cell_count": 5,
       "cell_area_mm2": 171.961,
       "strokes_by_pen": {
-        "red-0-25": 39
+        "red-0-25": 29,
+        "brown-0-25": 22
       },
       "note": "The scraper bar and the spring bar the steering chain hooks onto: lines along the bar."
     },
@@ -845,10 +855,14 @@
         "pen": "red-0-25",
         "angle": -45.0,
         "coverage": [
-          0.6,
+          0.4166666666666667,
+          0.4166666666666667
+        ],
+        "shade": [
+          "brown-0-25",
           0.6
         ],
-        "shade": null
+        "shade_small": true
       },
       "seed_points_mm": [
         [
@@ -863,7 +877,8 @@
       "cell_count": 2,
       "cell_area_mm2": 131.889,
       "strokes_by_pen": {
-        "red-0-25": 35
+        "red-0-25": 26,
+        "brown-0-25": 24
       },
       "note": ""
     },
@@ -873,10 +888,14 @@
       "painter": {
         "painter": "axial",
         "pen": "red-0-25",
-        "pitch": 0.42,
+        "pitch": 0.6,
         "angle": null,
-        "shade": null,
-        "single": false
+        "shade": [
+          "brown-0-25",
+          0.6
+        ],
+        "single": false,
+        "shade_small": true
       },
       "seed_points_mm": [
         [
@@ -923,7 +942,8 @@
       "cell_count": 10,
       "cell_area_mm2": 96.814,
       "strokes_by_pen": {
-        "red-0-25": 15
+        "red-0-25": 10,
+        "brown-0-25": 5
       },
       "note": "Arm, blade, bearing mount and adjuster mount of the scraper ahead of the rear roll."
     },
@@ -935,10 +955,14 @@
         "pen": "red-0-25",
         "angle": 0.0,
         "coverage": [
-          0.6,
+          0.4166666666666667,
+          0.4166666666666667
+        ],
+        "shade": [
+          "brown-0-25",
           0.6
         ],
-        "shade": null
+        "shade_small": true
       },
       "seed_points_mm": [
         [
@@ -965,7 +989,8 @@
       "cell_count": 5,
       "cell_area_mm2": 46.966,
       "strokes_by_pen": {
-        "red-0-25": 12
+        "red-0-25": 10,
+        "brown-0-25": 5
       },
       "note": "Triangular bracket, pivot boss, arm and blade; the space between arm and spring rod is tender."
     },
@@ -1013,7 +1038,8 @@
         "pitch": 0.7,
         "angle": 0.0,
         "shade": null,
-        "single": false
+        "single": false,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -1094,7 +1120,8 @@
           0.28,
           0.36
         ],
-        "shade": null
+        "shade": null,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -1164,7 +1191,8 @@
         "pitch": 0.7,
         "angle": 0.0,
         "shade": null,
-        "single": false
+        "single": false,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -1314,7 +1342,8 @@
           0.28,
           0.36
         ],
-        "shade": null
+        "shade": null,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -1522,7 +1551,8 @@
           0.28,
           0.36
         ],
-        "shade": null
+        "shade": null,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -1572,7 +1602,8 @@
           0.28,
           0.36
         ],
-        "shade": null
+        "shade": null,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -1614,7 +1645,8 @@
           0.28,
           0.36
         ],
-        "shade": null
+        "shade": null,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -1660,7 +1692,8 @@
           0.28,
           0.36
         ],
-        "shade": null
+        "shade": null,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -1742,7 +1775,8 @@
           0.28,
           0.36
         ],
-        "shade": null
+        "shade": null,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -1792,7 +1826,8 @@
           0.28,
           0.36
         ],
-        "shade": null
+        "shade": null,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -1840,7 +1875,8 @@
         "pitch": 1.0,
         "angle": null,
         "shade": null,
-        "single": false
+        "single": false,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -1878,7 +1914,8 @@
           0.28,
           0.36
         ],
-        "shade": null
+        "shade": null,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -1946,7 +1983,8 @@
         "pitch": 0.7,
         "angle": null,
         "shade": null,
-        "single": false
+        "single": false,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -2052,7 +2090,8 @@
           0.28,
           0.36
         ],
-        "shade": null
+        "shade": null,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -2088,7 +2127,8 @@
         "pitch": 0.5,
         "angle": 90.0,
         "shade": null,
-        "single": false
+        "single": false,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -2120,7 +2160,8 @@
         "pitch": 0.5,
         "angle": 90.0,
         "shade": null,
-        "single": false
+        "single": false,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -2152,7 +2193,8 @@
         "pitch": 0.5,
         "angle": 90.0,
         "shade": null,
-        "single": false
+        "single": false,
+        "shade_small": false
       },
       "seed_points_mm": [
         [
@@ -2189,15 +2231,17 @@
     }
   ],
   "fill_strokes_by_pen": {
-    "black-0-25": 1615,
+    "black-0-25": 1597,
     "green-0-25": 852,
-    "red-0-25": 139,
+    "red-0-25": 110,
+    "brown-0-25": 87,
     "gold-0-4": 43
   },
   "fill_length_m_by_pen": {
-    "black-0-25": 26.096,
+    "black-0-25": 25.788,
     "green-0-25": 11.655,
-    "red-0-25": 1.535,
+    "red-0-25": 1.252,
+    "brown-0-25": 1.057,
     "gold-0-4": 0.495
   },
   "unfilled_by_design": [
