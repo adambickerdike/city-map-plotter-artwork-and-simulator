@@ -1,32 +1,65 @@
 {
   "schema": "aveling-5499-lined-colour-verification-v1",
-  "master_svg_sha256": "f4bc98e3a2f9b0a4888cf7d9742b8655565c71cd63bfd6b6bf81bf8ed8cfd67a",
+  "master_svg_sha256": "9450abf5ea3dadb5fc10e741fe7259c2f4d1b1e61cf949fd18aec9eafb653008",
   "base_master_sha256": "f4106404c710e89bda8e2b32e4cfd92d9ff1c82b4f30c9ec7cbba89621e33678",
-  "all_svg_paths": 3497,
+  "all_svg_paths": 3599,
   "source_outline_paths": 863,
-  "unchanged_source_paths": 863,
-  "fill_lines": 2634,
+  "drawn_source_paths": 861,
+  "unchanged_source_paths": 852,
+  "geometry_edits": {
+    "reshaped_model_paths": [
+      "194",
+      "202",
+      "203",
+      "206",
+      "209",
+      "341",
+      "342",
+      "344",
+      "345"
+    ],
+    "removed_model_paths": [
+      "207",
+      "208"
+    ],
+    "what": "the regulator rod redrawn straight and level with a rounded bend down onto the motion plate"
+  },
+  "fill_lines": 2612,
   "dots": 0,
   "fill_lines_by_pen": {
-    "gold-0-4": 58,
-    "green-0-25": 857,
-    "red-0-25": 110,
-    "brown-0-25": 87,
-    "black-0-25": 1522
+    "gold-0-4": 53,
+    "green-0-25": 855,
+    "red-0-25": 120,
+    "brown-0-25": 95,
+    "black-0-25": 1489
   },
   "fill_length_m_by_pen": {
-    "gold-0-4": 0.682,
+    "gold-0-4": 0.694,
     "green-0-25": 11.717,
-    "red-0-25": 1.252,
-    "brown-0-25": 1.057,
-    "black-0-25": 25.425
+    "red-0-25": 1.308,
+    "brown-0-25": 1.131,
+    "black-0-25": 23.613
   },
-  "outline_pens": {
-    "black-0-25": 588,
-    "black-0-4": 204,
-    "black-0-6": 63,
-    "black-1": 4,
-    "gold-0-4": 4
+  "black_pen": "black-0-25",
+  "outline_paths_by_weight": {
+    "band-gold": 4,
+    "engine": 204,
+    "fine": 586,
+    "principal": 63,
+    "silhouette": 4
+  },
+  "outline_strokes": {
+    "path": 657,
+    "loop": 328,
+    "inset": 2
+  },
+  "heavy_lines_from_the_fine_black": {
+    "ink_beyond_the_line_width_mm2_worst": 0.0,
+    "line_width_left_uncovered_worst_fraction": 0.005483
+  },
+  "band_gold_crossings_under_black_lines": {
+    "162": 12,
+    "185": 4
   },
   "band_inner_lines": {
     "pen": "gold-0-4",
@@ -70,12 +103,12 @@
       "brown_lines": 24
     },
     "rear-forward-scraper": {
-      "red_lines": 10,
-      "brown_lines": 5
+      "red_lines": 17,
+      "brown_lines": 10
     },
     "rear-scraper": {
-      "red_lines": 10,
-      "brown_lines": 5
+      "red_lines": 13,
+      "brown_lines": 8
     }
   },
   "top_right_badges_uncoloured": true,
@@ -140,10 +173,10 @@
       },
       {
         "point_mm": [
-          152.1,
-          88.2
+          231.0,
+          181.0
         ],
-        "pen": "gold-0-4"
+        "pen": "red-0-25"
       }
     ]
   },
@@ -152,8 +185,8 @@
     "tender_top_y_mm": 150.335
   },
   "wheel_rim_to_spoke_white_gap_mm": {
-    "rear-wheel": 0.5705,
-    "front-roll": 0.6803
+    "rear-wheel": 0.7502,
+    "front-roll": 0.4004
   },
   "spoke_lines": {
     "rear-wheel-spokes": {
@@ -162,7 +195,7 @@
       "maximum_angle_spread_within_a_spoke_deg": 0.0738
     },
     "front-roll-spokes": {
-      "lines": 25,
+      "lines": 24,
       "pieces": 7,
       "maximum_angle_spread_within_a_spoke_deg": 0.0403
     },
@@ -180,24 +213,21 @@
   "fills_inside_claimed_areas": true,
   "exported_fills_match_plan": true,
   "coloured_parts": 45,
-  "coloured_paper_cells": 283,
-  "paper_cells": 776,
+  "coloured_paper_cells": 281,
+  "paper_cells": 773,
   "horse_paths_unchanged": 40,
   "text_blocks_unchanged": 12,
   "font_id": "plotter-grid-v4",
   "font_source_sha256": "d6a83ce73261f9b9cab9e8276097e9c9b05d537ad36592bd5a501a5f16efd18f",
-  "minimum_cap_to_nib_ratio": 8.0,
+  "minimum_cap_to_nib_ratio": 12.0,
   "pen_sequence": [
     "gold-0-4",
     "green-0-25",
     "red-0-25",
     "brown-0-25",
-    "black-0-25",
-    "black-0-4",
-    "black-0-6",
-    "black-1"
+    "black-0-25"
   ],
-  "pen_profile": "studio-pens-fine-gold",
+  "pen_profile": "studio-pens-fine-black",
   "single_pass_paths": true,
   "white_paper": true,
   "gold": {
@@ -205,15 +235,15 @@
     "nib_mm": 0.4,
     "nib_status": "user-confirmed nominal nib",
     "lines_by_part": {
-      "boiler-bands": 19,
+      "boiler-bands": 16,
       "safety-valves-and-lubricator": 12,
-      "whistle": 10,
+      "whistle": 8,
       "cylinder-maker-plate": 17
     },
     "band_inner_lines": 4
   },
   "all_pen_files_match_master": true,
-  "format_validation": "[PASS] /home/adam/Projects/city-map-plotter/examples/technical-objects/aveling-porter-5499-colour-v5/artwork/aveling-porter-5499-colour-hatched.svg  [a3-landscape]  (269 checks)",
+  "format_validation": "[PASS] /home/adam/Projects/city-map-plotter/examples/technical-objects/aveling-porter-5499-colour-v5/artwork/aveling-porter-5499-colour-hatched.svg  [a3-landscape]  (188 checks)",
   "source_hashes": [
     {
       "file": "side-source-4096.jpg",
@@ -254,23 +284,23 @@
   ],
   "simulation": {
     "machine": "AxiDraw-class nominal simulation",
-    "total_seconds": 2872.947637,
-    "total_low_seconds": 2442.005491,
-    "total_high_seconds": 3303.889782,
+    "total_seconds": 3005.651983,
+    "total_low_seconds": 2554.804186,
+    "total_high_seconds": 3456.49978,
     "timing_uncertainty_fraction": 0.15,
     "calibration_state": "nominal-unmeasured",
-    "pen_changes": 8,
-    "pen_loads": 8,
-    "pen_swaps": 7,
-    "kinematic_seconds": 1157.507637,
+    "pen_changes": 5,
+    "pen_loads": 5,
+    "pen_swaps": 4,
+    "kinematic_seconds": 1320.991983,
     "command_latency_seconds": 0.0,
-    "servo_seconds": 1540.44,
-    "manual_change_seconds": 175.0,
-    "pen_down_mm": 56209.882522,
-    "pen_up_mm": 12128.785442,
-    "pen_lifts": 3497,
-    "travel_ratio": 0.215777,
-    "ink_mm2": 16723.031657,
+    "servo_seconds": 1584.66,
+    "manual_change_seconds": 100.0,
+    "pen_down_mm": 69902.044958,
+    "pen_up_mm": 9554.279995,
+    "pen_lifts": 3599,
+    "travel_ratio": 0.136681,
+    "ink_mm2": 17594.41114,
     "bounds": {
       "min_x_mm": 0.0,
       "min_y_mm": 0.0,
@@ -279,14 +309,14 @@
     }
   },
   "strict_svg_preflight": {
-    "source_sha256": "f4bc98e3a2f9b0a4888cf7d9742b8655565c71cd63bfd6b6bf81bf8ed8cfd67a",
-    "source_bytes": 1273078,
+    "source_sha256": "9450abf5ea3dadb5fc10e741fe7259c2f4d1b1e61cf949fd18aec9eafb653008",
+    "source_bytes": 2133714,
     "page_mm": {
       "width": 420.0,
       "height": 297.0
     },
-    "path_count": 3497,
-    "layer_count": 8,
+    "path_count": 3599,
+    "layer_count": 5,
     "metadata_complete": true,
     "hardware_safe": true,
     "issues": []

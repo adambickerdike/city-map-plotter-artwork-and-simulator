@@ -4,17 +4,20 @@ Rebuild the colour SVG, pen layers, PNG, plot job, simulator, verification and
 A3 PDF with `python rebuild.py --output-dir /tmp/aveling-colour-v5-rebuild`.
 Install `requirements.txt` first; Inkscape is used for PNG/PDF export.
 
-The accepted revision-14 SVG is the exact geometry source. All 863 of its path
-shapes are kept unchanged: black outlines with the engine linework one pen
-heavier, and the thin inner lines of the three boiler bands in gold. The
-builder finds the enclosed paper cells between the black lines. The paint
+The accepted revision-14 SVG is the exact geometry source. Its path shapes
+are kept unchanged, except the regulator rod, which is redrawn straight and
+level (`regions.GEOMETRY_EDITS`). They are drawn as black outlines, the
+engine linework one weight heavier, with the thin inner lines of the three
+boiler bands in gold. The builder finds the enclosed paper cells between the
+black lines. The paint
 plan in `tools/engineering_source_plates/aveling_5499_colour_v5/` assigns the
 cells to parts and fills each part with pen lines, keeping at least 0.22 mm
 clear of black ink. `verify.py` rechecks the exported SVG independently.
 
-Every line width is one of the studio's pens. Gold parts are several lines
-from the studio's 0.40 mm gold pen, set by `GOLD_NIB_MM` in `inventory.py`;
-there is no broad gold nib.
+Every line is drawn with one of five studio pens. The only black is 0.25 mm,
+and each heavier black line is built from overlapping 0.25 mm strokes. Gold
+parts are several lines from the studio's 0.40 mm gold pen, set by
+`GOLD_NIB_MM` in `inventory.py`; there is no broad gold nib.
 
 The snapshot and evidence need no separate project checkout. Use `--skip-pdf`
 to omit the conventional-print PDF. No machine is operated.

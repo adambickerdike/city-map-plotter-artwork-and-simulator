@@ -124,7 +124,7 @@ def build_plan(svg: Path) -> Plan:
         faces.append(face)
         for index in face.face_cells:
             claim(index, spec['name'])
-        rim, spokes = D.black_rings(spec['centre']), D.ruled(pattern)
+        rim, spokes = D.black_rings(spec['centre']), D.ruled(pattern, spec['centre'])
         zones.append(Zone(spec['name'] + '-rim', 'black-painted iron rim', rim.describe(), face.rim,
                           list(face.face_cells), tuple(spec['face_points']),
                           note=f"Face cells outside r = {spec['split'] + 0.12:.2f} mm: close, even Black circles."))

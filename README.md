@@ -181,10 +181,11 @@ an optimised plot job, an A3 colour PDF and a comparison with the blueprint.
 [Download the colour ZIP](artwork/aveling-porter-5499-colour-v1.zip).
 
 [Colour edition 5](artwork/aveling-porter-5499-colour-v5/index.html) keeps all
-863 revision-14 path shapes unchanged. They are drawn as strong black outlines,
-with the engine linework one pen heavier; only the thin inner lines of the
-boiler bands are gold. Inside them, the engine is coloured in with pen lines
-only, like a coloured engineering drawing:
+revision-14 path shapes unchanged, apart from the regulator rod, which is
+redrawn straight and level. They are drawn as strong black outlines, with the
+engine linework one weight heavier; only the thin inner lines of the boiler
+bands are gold. Inside them, the engine is coloured in with pen lines only,
+like a coloured engineering drawing:
 
 - green cladding, tender and spokes, with every spoke ruled in even parallel
   lines;
@@ -198,7 +199,7 @@ black hatch, a shade lighter than the wheels. The worksplate and horse at the
 top right are left as black engraving. Colour fills keep at least 0.22 mm
 clear of black ink.
 
-Plot at A3 landscape, 100% scale. Use the eight pen files in order, one pen
+Plot at A3 landscape, 100% scale. Use the five pen files in order, one pen
 each:
 
 1. Gold 0.40
@@ -206,12 +207,10 @@ each:
 3. Red 0.25
 4. Brown 0.25
 5. Black 0.25
-6. Black 0.40
-7. Black 0.60
-8. Black 1.00
 
-No grey pen is needed: the iron is hatched in black lines only. The plot takes
-about 48 minutes.
+Only the fine 0.25 mm black is needed. The heavier outlines are built from
+overlapping 0.25 mm strokes, and the iron is hatched in black lines only, so
+no thick black or grey pen is needed. The plot takes about 50 minutes.
 [Colour edition 5 package](artwork/aveling-porter-5499-colour-v5/README.md) ·
 [Download the colour edition 5 ZIP](artwork/aveling-porter-5499-colour-v5.zip).
 

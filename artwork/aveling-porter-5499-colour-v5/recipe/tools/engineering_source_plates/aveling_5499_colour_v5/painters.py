@@ -22,7 +22,7 @@ from __future__ import annotations
 import math
 from dataclasses import dataclass, field
 
-from shapely.geometry import LineString
+from shapely.geometry import LineString, Polygon
 from shapely.ops import unary_union
 
 from tools.engineering_source_plates.aveling_5499_colour_v5 import hatching as H
@@ -256,14 +256,33 @@ def ruled_lines(piece, count: int, angle: float | None = None):
     return fit.lines(piece, count) if fit else []
 
 
-def ruled_set(pieces, count: int):
+def radial_fit(point, centre, width: float) -> StripFit:
+    """A spoke ``width`` wide on the line from a wheel's ``centre`` through
+    ``point``: the ruling of a spoke whose full length is hidden."""
+
+    angle = math.degrees(math.atan2(point[1] - centre[1], point[0] - centre[0]))
+    while angle <= -90:
+        angle += 180
+    while angle > 90:
+        angle -= 180
+    direction, normal = H._axes(angle)
+    u = centre[0] * normal[0] + centre[1] * normal[1]
+    return StripFit(angle, (u - width / 2, 0.0), (u + width / 2, 0.0), width, 0)
+
+
+def ruled_set(pieces, count: int, centre=None):
     """Rule a set of strips (the spokes of one wheel) consistently.
 
-    Pieces at the set's full width are ruled from their own fitted edges.  A
-    sliver (a spoke root, or a spoke mostly hidden behind another part) takes
-    the edges of the full strip whose band contains it, so its lines continue
-    that strip's ruling; with no such strip it is ruled with parallel lines at
-    the set's width, never with converging lines.
+    Pieces at the set's full width are ruled from their own fitted edges.  On
+    a wheel (``centre`` given) every other piece - a spoke root cut off at the
+    hub, a stretch of spoke between two parts that cross it, a sliver beside
+    the fork - belongs to the spoke that runs through it: the full spoke whose
+    axis is within a few degrees of the piece's direction from the centre and
+    whose band holds the piece, so its lines continue that spoke's ruling
+    exactly; a spoke hidden for its whole length is ruled on the line through
+    the centre.  Every line therefore runs along its own spoke's angle.
+    Without a centre, a sliver takes the band of a full strip that contains
+    it, or parallel lines at the set's width.
     """
 
     fits = [(piece, fit_strip(piece)) for piece in pieces]
@@ -277,15 +296,42 @@ def ruled_set(pieces, count: int):
                 and abs(f.left[1] - f.right[1]) < 0.02)
 
     full = [f for _, f in fits if is_full(f)]
+
+    def band(g):
+        """A full spoke's band between its fitted edges, carried on towards
+        the hub and the rim."""
+        direction, normal = H._axes(g.angle)
+        ts = [0.0, 1.0]
+        corners = []
+        reach = 60.0
+        for t, which in ((-reach, 'left'), (reach, 'left'), (reach, 'right'), (-reach, 'right')):
+            if centre is not None:
+                t += centre[0] * direction[0] + centre[1] * direction[1]
+            u = g.u(which, t)
+            corners.append((direction[0] * t + normal[0] * u, direction[1] * t + normal[1] * u))
+        return Polygon(corners)
+
+    bands = [(g, band(g)) for g in full]
+
+    def owner(piece, f):
+        point = piece.representative_point()
+        point = (point.x, point.y)
+        if centre is None:
+            found = next((g for g in full if g.contains(point)), None)
+            return found or parallel_fit(piece, f.angle if f else edge_direction(piece), width)
+        # the full spoke whose band covers most of the piece, if it covers at
+        # least half of it; otherwise the spoke is hidden: rule it on the line
+        # from the centre through the piece
+        best = max(((piece.intersection(area).area, g) for g, area in bands), key=lambda item: item[0],
+                   default=(0.0, None))
+        if best[1] is not None and best[0] >= 0.5 * piece.area:
+            return best[1]
+        return radial_fit(point, centre, width)
+
     rows = []
     for piece, f in fits:
         if not is_full(f):
-            point = piece.representative_point()
-            owner = next((g for g in full if g.contains((point.x, point.y))), None)
-            if owner is not None:
-                f = owner
-            else:
-                f = parallel_fit(piece, f.angle if f else edge_direction(piece), width)
+            f = owner(piece, f)
         rows.extend(f.lines(piece, count))
     return rows
 
@@ -464,7 +510,7 @@ class Painter:
         pattern = p['pattern']
         pens = sorted(set(pattern), key=pattern.index)
         out = []
-        rows = ruled_set(H.polygons_of(fill_region(cells, pens[0])), len(pattern))
+        rows = ruled_set(H.polygons_of(fill_region(cells, pens[0])), len(pattern), p.get('centre'))
         for pen in pens:
             mine = [(i, part) for i, part in rows if pattern[i] == pen]
             out += emit(pen, mine, 'base' if pen == pattern[0] else 'shade')
@@ -496,23 +542,71 @@ class Painter:
     # brass bands: upright lines evenly spaced from one black edge of a band
     # to the other, no wider apart than ``pitch``, stepping out either side of
     # the band's own Gold inner line (drawn with the outlines, at one of the
-    # ``anchors``); pieces too short for a ``min_length`` upright line take
-    # level lines across the band's full width instead
+    # ``anchors``).  Each line runs the band's whole length: where a thin black
+    # line crosses the band (a gap no wider than ``bridge_mm`` between two of
+    # its pieces) the gold carries on beneath it, as the inner line does; it
+    # stops only at a wider gap, where a part such as a rod passes in front
     def _band(self, cells):
         p = self.params
-        pen, pitch, shortest = p['pen'], p['pitch'], p['min_length']
+        pen, pitch, shortest, bridge = p['pen'], p['pitch'], p['min_length'], p['bridge_mm']
+        pieces = H.polygons_of(fill_region(cells, pen))
         out = []
-        for piece in H.polygons_of(fill_region(cells, pen)):
-            x0, y0, x1, y1 = piece.bounds
-            if y1 - y0 < shortest:
-                out += self._along(piece, pen, 0.0, pitch)
+        for anchor in p['anchors']:
+            mine = [q for q in pieces if q.bounds[0] < anchor < q.bounds[2]]
+            if not mine:
                 continue
-            (anchor,) = [x for x in p['anchors'] if x0 < x < x1]
+            tallest = max(mine, key=lambda q: q.bounds[3] - q.bounds[1])
+            x0, _, x1, _ = tallest.bounds
             sides = (anchor - x0, x1 - anchor)
             step = min(side / math.ceil(side / pitch - 1e-9) for side in sides) - 1e-6
             before, after = (int(math.floor(side / step)) for side in sides)
-            columns = [anchor + k * step for k in range(-before, after + 1) if k]
-            out += emit(pen, H.clip_parallel(piece, 90.0, [-x for x in columns]), 'base', shortest)
+            rows = []
+            for k in range(-before, after + 1):
+                if k == 0:
+                    continue
+                x = anchor + k * step
+                probe = LineString([(x, -1.0), (x, 400.0)])
+                spans = sorted((min(y for _, y in part.coords), max(y for _, y in part.coords))
+                               for q in mine for part in H.lines_of(q.intersection(probe)))
+                merged = []
+                for top, bottom in spans:
+                    if merged and top - merged[-1][1] <= bridge:
+                        merged[-1][1] = max(merged[-1][1], bottom)
+                    else:
+                        merged.append([top, bottom])
+                rows.extend((-x, LineString([(x, top), (x, bottom)])) for top, bottom in merged)
+            out += emit(pen, rows, 'base', shortest)
+        return out
+
+    # solid red-brown for small cast parts (the rear scrapers): every piece is
+    # filled edge to edge.  A strip takes lines along its length from one edge
+    # to the other, no more than ``spacing`` apart, alternating ``pen`` and
+    # ``shade_pen`` with ``pen`` at both edges; any other shape takes loops
+    # following its outline, stepping inward by ``spacing`` and alternating.
+    # Specks under ``min_area`` would plot as stray ticks and are left paper
+    def _solid(self, cells):
+        p = self.params
+        pen, shade_pen, spacing = p['pen'], p['shade_pen'], p['spacing']
+        out = []
+        for piece in H.polygons_of(fill_region(cells, pen)):
+            if piece.area < p['min_area']:
+                continue
+            angle, long, short = rect_axis(piece)
+            if long >= STRIP_ASPECT * max(short, 1e-6):
+                low, high = H.normal_range(piece, angle)
+                inset = 1e-4
+                low, high = low + inset, high - inset
+                if high - low < spacing:
+                    offsets = [(low + high) / 2]
+                else:
+                    count = 2 * math.ceil((high - low) / (2 * spacing) - 1e-9) + 1
+                    offsets = [low + (high - low) * i / (count - 1) for i in range(count)]
+                rows = H.clip_parallel(piece, angle, offsets)
+                index = {u: i for i, u in enumerate(offsets)}
+                out += emit(pen, [r for r in rows if index[r[0]] % 2 == 0], 'base')
+                out += emit(shade_pen, [r for r in rows if index[r[0]] % 2 == 1], 'shade')
+            else:
+                out += contour_strokes(piece, pen, 2 * spacing, (shade_pen, 2 * spacing))
         return out
 
     # parallel lines on a fixed lattice with an optional knockout mask
