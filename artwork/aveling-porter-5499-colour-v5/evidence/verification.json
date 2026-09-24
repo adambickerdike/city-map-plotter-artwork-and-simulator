@@ -1,25 +1,25 @@
 {
   "schema": "aveling-5499-lined-colour-verification-v1",
-  "master_svg_sha256": "8b453c3c766886ae75a723922ab43ab841bf8be388e4a5e22c0d2cd1e98d5e44",
+  "master_svg_sha256": "f4bc98e3a2f9b0a4888cf7d9742b8655565c71cd63bfd6b6bf81bf8ed8cfd67a",
   "base_master_sha256": "f4106404c710e89bda8e2b32e4cfd92d9ff1c82b4f30c9ec7cbba89621e33678",
-  "all_svg_paths": 3556,
+  "all_svg_paths": 3497,
   "source_outline_paths": 863,
   "unchanged_source_paths": 863,
-  "fill_lines": 2693,
+  "fill_lines": 2634,
   "dots": 0,
   "fill_lines_by_pen": {
-    "gold-0-4": 49,
-    "green-0-25": 852,
+    "gold-0-4": 58,
+    "green-0-25": 857,
     "red-0-25": 110,
     "brown-0-25": 87,
-    "black-0-25": 1595
+    "black-0-25": 1522
   },
   "fill_length_m_by_pen": {
-    "gold-0-4": 0.665,
-    "green-0-25": 11.655,
+    "gold-0-4": 0.682,
+    "green-0-25": 11.717,
     "red-0-25": 1.252,
     "brown-0-25": 1.057,
-    "black-0-25": 25.781
+    "black-0-25": 25.425
   },
   "outline_pens": {
     "black-0-25": 588,
@@ -79,6 +79,74 @@
     }
   },
   "top_right_badges_uncoloured": true,
+  "reviewed_areas": {
+    "open_air_left_paper": [
+      [
+        187.0,
+        111.0
+      ],
+      [
+        205.0,
+        112.0
+      ],
+      [
+        177.0,
+        113.0
+      ],
+      [
+        178.0,
+        106.0
+      ],
+      [
+        287.0,
+        111.0
+      ]
+    ],
+    "coloured_as_required": [
+      {
+        "point_mm": [
+          73.8,
+          176.5
+        ],
+        "pen": "green-0-25"
+      },
+      {
+        "point_mm": [
+          193.0,
+          141.0
+        ],
+        "pen": "green-0-25"
+      },
+      {
+        "point_mm": [
+          208.0,
+          141.0
+        ],
+        "pen": "green-0-25"
+      },
+      {
+        "point_mm": [
+          198.0,
+          139.0
+        ],
+        "pen": "gold-0-4"
+      },
+      {
+        "point_mm": [
+          198.0,
+          141.0
+        ],
+        "pen": "gold-0-4"
+      },
+      {
+        "point_mm": [
+          152.1,
+          88.2
+        ],
+        "pen": "gold-0-4"
+      }
+    ]
+  },
   "through_rear_wheel": {
     "tender_front_edge_x_mm": 318.865,
     "tender_top_y_mm": 150.335
@@ -104,15 +172,15 @@
       "maximum_angle_spread_within_a_spoke_deg": 0.0644
     },
     "front-inner-spokes": {
-      "lines": 24,
-      "pieces": 7,
+      "lines": 27,
+      "pieces": 8,
       "maximum_angle_spread_within_a_spoke_deg": 0.0311
     }
   },
   "fills_inside_claimed_areas": true,
   "exported_fills_match_plan": true,
   "coloured_parts": 45,
-  "coloured_paper_cells": 286,
+  "coloured_paper_cells": 283,
   "paper_cells": 776,
   "horse_paths_unchanged": 40,
   "text_blocks_unchanged": 12,
@@ -137,9 +205,9 @@
     "nib_mm": 0.4,
     "nib_status": "user-confirmed nominal nib",
     "lines_by_part": {
-      "boiler-bands": 12,
+      "boiler-bands": 19,
       "safety-valves-and-lubricator": 12,
-      "whistle": 8,
+      "whistle": 10,
       "cylinder-maker-plate": 17
     },
     "band_inner_lines": 4
@@ -186,23 +254,23 @@
   ],
   "simulation": {
     "machine": "AxiDraw-class nominal simulation",
-    "total_seconds": 2912.897151,
-    "total_low_seconds": 2475.962578,
-    "total_high_seconds": 3349.831724,
+    "total_seconds": 2872.947637,
+    "total_low_seconds": 2442.005491,
+    "total_high_seconds": 3303.889782,
     "timing_uncertainty_fraction": 0.15,
     "calibration_state": "nominal-unmeasured",
     "pen_changes": 8,
     "pen_loads": 8,
     "pen_swaps": 7,
-    "kinematic_seconds": 1171.497151,
+    "kinematic_seconds": 1157.507637,
     "command_latency_seconds": 0.0,
-    "servo_seconds": 1566.4,
+    "servo_seconds": 1540.44,
     "manual_change_seconds": 175.0,
-    "pen_down_mm": 56486.315615,
-    "pen_up_mm": 12799.110415,
-    "pen_lifts": 3556,
-    "travel_ratio": 0.226588,
-    "ink_mm2": 16789.53593,
+    "pen_down_mm": 56209.882522,
+    "pen_up_mm": 12128.785442,
+    "pen_lifts": 3497,
+    "travel_ratio": 0.215777,
+    "ink_mm2": 16723.031657,
     "bounds": {
       "min_x_mm": 0.0,
       "min_y_mm": 0.0,
@@ -211,13 +279,13 @@
     }
   },
   "strict_svg_preflight": {
-    "source_sha256": "8b453c3c766886ae75a723922ab43ab841bf8be388e4a5e22c0d2cd1e98d5e44",
-    "source_bytes": 1286628,
+    "source_sha256": "f4bc98e3a2f9b0a4888cf7d9742b8655565c71cd63bfd6b6bf81bf8ed8cfd67a",
+    "source_bytes": 1273078,
     "page_mm": {
       "width": 420.0,
       "height": 297.0
     },
-    "path_count": 3556,
+    "path_count": 3497,
     "layer_count": 8,
     "metadata_complete": true,
     "hardware_safe": true,

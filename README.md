@@ -211,7 +211,7 @@ each:
 8. Black 1.00
 
 No grey pen is needed: the iron is hatched in black lines only. The plot takes
-about 49 minutes.
+about 48 minutes.
 [Colour edition 5 package](artwork/aveling-porter-5499-colour-v5/README.md) ·
 [Download the colour edition 5 ZIP](artwork/aveling-porter-5499-colour-v5.zip).
 

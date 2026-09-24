@@ -135,6 +135,7 @@ def build(output, dpi):
         'fill_strokes_by_pen': dict(Counter(pen for _, pen in fill_records)),
         'fill_length_m_by_pen': {k: round(v / 1000, 3) for k, v in lengths.items()},
         'unfilled_by_design': ['sheet margins and background paper', 'the inside of the front roll, seen between its spokes',
+                               'the open air under the regulator rod on both sides of the flywheel, and between the lubricator pedestal and its pipe',
                                'the worksplate and Invicta horse at the top right',
                                'lettering, footer and rivet heads', 'chain links and spring coils'],
         'colour_scope': 'Photograph-informed paint groups translated to available studio inks; not measured colour matching.'}
@@ -146,11 +147,13 @@ def build(output, dpi):
                      'Revision: the black behind the rear wheel lighter; no broad gold pen, so every gold part built from multiple fine lines',
                      'Revision: no grey pen, so the iron tones are drawn in black line hatching with the same look',
                      'Revision: the red pen is too bright, so the red parts are darkened with the studio 0.25 mm brown pen alternating with the red lines',
-                     'Revision: fill the whole of each gold boiler band with colour, not only the side to the right of its inner line']}]
+                     'Revision: fill the whole of each gold boiler band with colour, not only the side to the right of its inner line',
+                     'Revision: leave the air gap under the regulator rod (handle, behind the flywheel, to the front) and between the lubricator pipes unfilled; the boiler beside the flywheel green, not black; the gold band nearest the flywheel up to the top; colour the top-right spoke of the front roll']}]
     notes = [n.replace('White 0.30/0.40/0.50 mm pens on blue stock.', 'The source blueprint used White 0.30/0.40/0.50 mm pens on blue stock.') for n in facts['notes']]
     notes += [
         'Colour edition 5: every one of the 863 revision-14 paths is retained unchanged in shape. 859 are black outlines; engine linework is drawn one pen heavier than the blueprint (Black 0.40/0.60 mm, roller tyres Black 1.00 mm); fasteners, chains, small fittings, scrapers, lettering, badges and frame keep Black 0.25/0.40/0.60 mm. The inner lines of the three brass boiler bands (four paths) are drawn in Gold.',
         'Colour is added only as single-pass pen lines inside the enclosed paper cells, kept at least 0.22 mm clear of black ink. The Gold band inner lines meet black ink only at their ends and where they cross the boiler lines, as the blueprint draws them.',
+        'Open air stays paper: under the regulator rod on both sides of the flywheel and between the lubricator pedestal and its pipe. The boiler barrel seen between the motion plate and the pump rod beside the flywheel is green, and the gold band nearest the flywheel runs up to the motion plate.',
         'The wheels, hubs and flywheel are black iron drawn as close, even Black circles. Everything seen through the rear wheel up to the tender front edge is black iron in Black lines about 0.69 mm apart, lighter than the black wheels; the green tender continues beyond that edge.',
         'Spokes are ruled with a fixed number of lines exactly parallel to their edges. Cylinders are graded lines under upper-left light. The fork, scrapers, scraper mounts and chain spring bar are red-brown: Red lines with a Brown line in every gap, 0.30 mm apart, so the red reads darker and warmer.',
         'Black-painted iron (chimney, smokebox, headstock, firebox, fittings and controls) is hatched in Black alone, its tone set by line spacing; the studio has no grey pen.',

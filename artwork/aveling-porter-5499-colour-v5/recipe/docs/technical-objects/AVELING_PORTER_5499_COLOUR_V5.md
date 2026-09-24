@@ -27,6 +27,8 @@ Edition 5 revises edition 4 after review:
   their black engraving.
 - **Boiler bands:** solid gold from one black edge to the other (see
   [Boiler bands](#boiler-bands)).
+- **Open air and review corrections:** see
+  [Review corrections](#review-corrections).
 
 The source is the hash-pinned final revision-14 SVG. All 863 path shapes are
 kept byte-for-byte. Only their pens follow the mapping above
@@ -70,13 +72,36 @@ cell between its black edges. The band painter fills it with five upright gold
 lines about 0.42 mm apart, from one edge to the other, with the inner line as
 one of them. The band reads as a solid gold bar.
 
-The short pieces of band below the boiler's lower line and above the feed pipe
-are too short for a 2 mm gold line, so only the gold inner line crosses them.
+The short pieces of band are too short for upright lines, so they take level
+gold lines across the band's full width. These are the pieces below the
+boiler's lower line, and on the band nearest the flywheel, the pieces above
+the pump rod up to the motion plate. Every band is gold from end to end.
 
 These four lines are the only source lines not drawn in black. They reach
 black ink only where the blueprint's lines join them. Elsewhere they keep
 0.22 mm of white paper from black and from every other colour; the verifier
 checks both.
+
+## Review corrections
+
+A review against the side photograph found five faults, now corrected:
+
+- **Air under the regulator rod:** the rod runs from the handle, behind the
+  flywheel, to the front. The open air under it, on both sides of the
+  flywheel, had been hatched black; it is now paper. The lubricator, its
+  pedestal and pipe, the rod and its stay stay black.
+- **Between the lubricator pipes:** the space between the pedestal and the
+  pipe had been hatched black; it is now paper.
+- **Boiler beside the flywheel:** the boiler barrel seen between the motion
+  plate and the pump rod had been drawn as black iron; it is now green.
+- **Top of the band nearest the flywheel:** the band now runs in gold up to
+  the motion plate.
+- **Front roll:** the sliver of the top-right far spoke, visible beside the
+  fork, is now ruled green.
+
+The whistle's top is now gold as well. `design.OPEN_AIR` lists points that
+must stay paper, and `design.MUST_CARRY` lists points that must carry a
+given ink. The verifier fails if any of them regresses.
 
 ## No grey pen
 
@@ -106,7 +131,7 @@ every red part carries brown lines.
 ## Plotting
 
 Eight pen loads: Gold 0.40, Green, Red, Brown, Black 0.25, 0.40, 0.60, 1.00.
-The optimised nominal simulation is about 49 minutes, with 3,556 strokes;
+The optimised nominal simulation is about 48 minutes, with 3,497 strokes;
 document order would take 55 minutes.
 
 `verify.py` independently checks:
@@ -114,6 +139,7 @@ document order would take 55 minutes.
 - that the outline shapes are unchanged and on their mapped pens;
 - that the gold band inner lines reach black only where the blueprint's lines
   join them;
+- that open air stays paper and every corrected area carries its ink;
 - that the fills match the plan and stay contained;
 - the paper gaps, and that the top-right badges carry no colour;
 - that the spoke lines are straight and parallel;

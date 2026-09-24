@@ -496,8 +496,8 @@ class Painter:
     # brass bands: upright lines evenly spaced from one black edge of a band
     # to the other, no wider apart than ``pitch``, stepping out either side of
     # the band's own Gold inner line (drawn with the outlines, at one of the
-    # ``anchors``); pieces too short for a ``min_length`` line keep only the
-    # inner line that crosses them
+    # ``anchors``); pieces too short for a ``min_length`` upright line take
+    # level lines across the band's full width instead
     def _band(self, cells):
         p = self.params
         pen, pitch, shortest = p['pen'], p['pitch'], p['min_length']
@@ -505,6 +505,7 @@ class Painter:
         for piece in H.polygons_of(fill_region(cells, pen)):
             x0, y0, x1, y1 = piece.bounds
             if y1 - y0 < shortest:
+                out += self._along(piece, pen, 0.0, pitch)
                 continue
             (anchor,) = [x for x in p['anchors'] if x0 < x < x1]
             sides = (anchor - x0, x1 - anchor)

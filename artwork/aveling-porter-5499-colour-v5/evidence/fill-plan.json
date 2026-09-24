@@ -44,7 +44,7 @@
   "through_the_wheels": "Rear wheel: everything seen between the spokes up to the tender front edge (x = 318.865 mm) and above its top rim is black iron in Black lines about 0.69 mm apart, lighter than the black wheel rims; the tender beyond that edge continues in green. Front roll: a hollow drum, so the spaces between its spokes stay paper.",
   "badges": "The worksplate and Invicta horse at the top right are uncoloured black engraving.",
   "paper_cell_count": 776,
-  "coloured_cell_count": 286,
+  "coloured_cell_count": 283,
   "parts": [
     {
       "part": "rear-wheel-rim",
@@ -219,15 +219,23 @@
         [
           206,
           175.2
+        ],
+        [
+          193,
+          141
+        ],
+        [
+          208,
+          141
         ]
       ],
-      "cell_count": 7,
-      "cell_area_mm2": 2773.787,
+      "cell_count": 9,
+      "cell_area_mm2": 2834.619,
       "strokes_by_pen": {
-        "green-0-25": 125,
+        "green-0-25": 128,
         "black-0-25": 15
       },
-      "note": "Horizontal cylinder: graded lines parallel to the barrel, darkest below."
+      "note": "Horizontal cylinder: graded lines parallel to the barrel, darkest below. Includes the barrel seen between the motion plate and the pump rod beside the flywheel."
     },
     {
       "part": "cylinder-block",
@@ -290,12 +298,16 @@
         [
           195,
           115
+        ],
+        [
+          170,
+          115
         ]
       ],
-      "cell_count": 3,
-      "cell_area_mm2": 917.717,
+      "cell_count": 4,
+      "cell_area_mm2": 924.172,
       "strokes_by_pen": {
-        "green-0-25": 99
+        "green-0-25": 98
       },
       "note": ""
     },
@@ -727,14 +739,18 @@
         [
           70,
           210
+        ],
+        [
+          73.8,
+          176.5
         ]
       ],
-      "cell_count": 7,
-      "cell_area_mm2": 143.795,
+      "cell_count": 8,
+      "cell_area_mm2": 150.877,
       "strokes_by_pen": {
-        "green-0-25": 24
+        "green-0-25": 27
       },
-      "note": ""
+      "note": "The far spokes seen through the openings, including the sliver of the top-right one beside the fork."
     },
     {
       "part": "front-fork",
@@ -1698,14 +1714,6 @@
       },
       "seed_points_mm": [
         [
-          205,
-          112
-        ],
-        [
-          187,
-          111
-        ],
-        [
           183,
           109
         ],
@@ -1716,14 +1724,6 @@
         [
           191.39,
           109.22
-        ],
-        [
-          177,
-          113
-        ],
-        [
-          178,
-          106
         ],
         [
           172,
@@ -1742,10 +1742,6 @@
           113
         ],
         [
-          170,
-          115
-        ],
-        [
           180,
           113
         ],
@@ -1758,12 +1754,12 @@
           99
         ]
       ],
-      "cell_count": 15,
-      "cell_area_mm2": 322.368,
+      "cell_count": 10,
+      "cell_area_mm2": 135.853,
       "strokes_by_pen": {
-        "black-0-25": 56
+        "black-0-25": 16
       },
-      "note": ""
+      "note": "The lubricator, its pedestal and pipe, the regulator rod and its stay; the open air under the rod and between the pipes stays paper."
     },
     {
       "part": "motion-bed-underside",
@@ -1785,28 +1781,20 @@
           139
         ],
         [
-          193,
-          141
-        ],
-        [
           173,
           139
         ],
         [
           208,
           139
-        ],
-        [
-          208,
-          141
         ]
       ],
-      "cell_count": 5,
-      "cell_area_mm2": 102.846,
+      "cell_count": 3,
+      "cell_area_mm2": 42.014,
       "strokes_by_pen": {
-        "black-0-25": 22
+        "black-0-25": 3
       },
-      "note": ""
+      "note": "The motion plate's bottom flange."
     },
     {
       "part": "feed-fitting",
@@ -1916,10 +1904,6 @@
           121
         ],
         [
-          287,
-          111
-        ],
-        [
           298,
           110
         ],
@@ -1960,12 +1944,12 @@
           154
         ]
       ],
-      "cell_count": 12,
-      "cell_area_mm2": 420.274,
+      "cell_count": 11,
+      "cell_area_mm2": 346.452,
       "strokes_by_pen": {
-        "black-0-25": 60
+        "black-0-25": 46
       },
-      "note": ""
+      "note": "The platform box, the regulator rod and lever brackets; the open air under the rod stays paper."
     },
     {
       "part": "driver-controls",
@@ -2162,9 +2146,9 @@
       "cell_count": 8,
       "cell_area_mm2": 207.967,
       "strokes_by_pen": {
-        "gold-0-4": 12
+        "gold-0-4": 19
       },
-      "note": "Upright Gold lines evenly spaced about 0.42 mm apart across the whole of each band, from one black edge to the other, its inner line drawn in Gold as one of them. The short pieces of band below the boiler line and above the feed pipe carry only the Gold inner line."
+      "note": "Upright Gold lines evenly spaced about 0.42 mm apart across the whole of each band, from one black edge to the other, its inner line drawn in Gold as one of them. The short pieces of band below the boiler line, and on the third band up to the motion plate, take level Gold lines."
     },
     {
       "part": "safety-valves-and-lubricator",
@@ -2215,12 +2199,16 @@
         [
           152,
           99
+        ],
+        [
+          152.1,
+          88.2
         ]
       ],
-      "cell_count": 1,
-      "cell_area_mm2": 37.419,
+      "cell_count": 2,
+      "cell_area_mm2": 41.73,
       "strokes_by_pen": {
-        "gold-0-4": 8
+        "gold-0-4": 10
       },
       "note": ""
     },
@@ -2246,22 +2234,23 @@
     }
   ],
   "fill_strokes_by_pen": {
-    "black-0-25": 1595,
-    "green-0-25": 852,
+    "black-0-25": 1522,
+    "green-0-25": 857,
     "red-0-25": 110,
     "brown-0-25": 87,
-    "gold-0-4": 49
+    "gold-0-4": 58
   },
   "fill_length_m_by_pen": {
-    "black-0-25": 25.781,
-    "green-0-25": 11.655,
+    "black-0-25": 25.425,
+    "green-0-25": 11.717,
     "red-0-25": 1.252,
     "brown-0-25": 1.057,
-    "gold-0-4": 0.665
+    "gold-0-4": 0.682
   },
   "unfilled_by_design": [
     "sheet margins and background paper",
     "the inside of the front roll, seen between its spokes",
+    "the open air under the regulator rod on both sides of the flywheel, and between the lubricator pedestal and its pipe",
     "the worksplate and Invicta horse at the top right",
     "lettering, footer and rivet heads",
     "chain links and spring coils"
