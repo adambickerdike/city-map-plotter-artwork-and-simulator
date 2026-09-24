@@ -29,7 +29,7 @@ from tools.engineering_source_plates.aveling_5499_colour_v5 import hatching as H
 from tools.engineering_source_plates.aveling_5499_colour_v5.inventory import GOLD_NIB_MM, GOLD_PEN
 from tools.engineering_source_plates.aveling_5499_colour_v5.regions import BASE_MM, GAP_MM
 
-NIB = {'green-0-25': 0.25, 'red-0-25': 0.25, 'grey-0-25': 0.25, 'black-0-25': 0.25, GOLD_PEN: GOLD_NIB_MM}
+NIB = {'green-0-25': 0.25, 'red-0-25': 0.25, 'black-0-25': 0.25, GOLD_PEN: GOLD_NIB_MM}
 MIN_FILL_STROKE_MM = 1.2
 EROSION_MARGIN_MM = 0.006   # absorbs polygon-buffer chords and 0.001 mm rounding
 STRIP_WIDTH_MM = 2.2        # eroded width at or below which a piece is a strip

@@ -56,11 +56,27 @@ The studio has no broad gold pen, so the edition carries its own inventory
 The gold pen is 0.40 mm, confirmed by the user. Change `GOLD_NIB_MM` and
 rebuild if the gold pen changes.
 
+## No grey pen
+
+The studio has no grey pen, so the black-painted iron is hatched in Black
+alone and its tone comes from line spacing:
+
+- **Plates** (headstock, firebox, horn plates, fittings): lines 0.89 mm apart
+  at the upper left, closing to 0.69 mm at the lower right.
+- **Chimney and smokebox:** graded as cylinders, from 14% ink in the light to
+  46% in shadow.
+- **Collars, rings and controls:** lines 0.70 mm apart.
+- **Bright steel rods:** lines 1.0 mm apart.
+
+The iron seen behind the rear wheel (36% ink) stays a touch darker than the
+firebox in front of it. Grey is left out of the edition inventory, and the
+verifier fails if any grey appears.
+
 ## Plotting
 
-Eight pen loads: Gold 0.40, Green, Red, Grey, Black 0.25, 0.40, 0.60, 1.00.
-The optimised nominal simulation is about 54 minutes, with 4,029 strokes;
-document order would take 61 minutes.
+Seven pen loads: Gold 0.40, Green, Red, Black 0.25, 0.40, 0.60, 1.00.
+The optimised nominal simulation is about 48 minutes, with 3,512 strokes;
+document order would take 54 minutes.
 
 `verify.py` independently checks:
 

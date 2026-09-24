@@ -227,6 +227,9 @@ def verify(package):
     assert manifest['rendering']['stock_tone'] == 'light' and manifest['rendering']['paper_preview_color'] == '#ffffff'
     assert manifest['rendering']['pen_profile'] == EDITION_PEN_INVENTORY.id
     assert manifest['rendering']['pen_inventory'] == EDITION_PEN_INVENTORY.as_dict()
+    # no grey pen anywhere in this edition's inventory or drawing
+    assert not any(pen.ink == 'Grey' for pen in EDITION_PEN_INVENTORY.pens)
+    assert not any(inventory[inherited(p, 'data-plot-pen-id')].ink == 'Grey' for p in paths)
     # no broad gold: every gold mark is a fine line on the edition's gold pen
     gold_marks = [(e, pen) for e, pen, _, _ in fills if inventory[pen].ink == 'Gold']
     assert gold_marks and all(pen == GOLD_PEN for _, pen in gold_marks)
@@ -259,6 +262,7 @@ def verify(package):
                          for pen in ('black-0-25', 'black-0-4', 'black-0-6', 'black-1')},
         'required_white_gap_mm': GAP_MM,
         'minimum_white_gap_to_black_ink_mm': {pen: round(g, 4) for pen, g in sorted(minimum_gap.items())},
+        'grey_pen_used': False,
         'top_right_badges_uncoloured': not any(e.get('data-fill-part') in {'invicta-horse', 'worksplate'}
                                                for e, _, _, _ in fills),
         'through_rear_wheel': {'tender_front_edge_x_mm': plan.tender_edge_x, 'tender_top_y_mm': plan.tender_top_y},

@@ -27,8 +27,11 @@ is a pen line.
 - **Gold:** the brass bands, valves, whistle and the cylinder's maker plate
   are each built from several 0.40 mm gold lines, 0.50 mm apart, so no broad
   gold pen is needed.
-- **Other colour:** the boiler, cylinder, tender and spokes are green; the
-  chimney, smokebox and headstock are grey-and-black iron.
+- **Iron without grey:** the chimney, smokebox, headstock, firebox and
+  fittings are black-painted iron, hatched in black lines only. The line
+  spacing sets the tone, so no grey pen is needed. The chimney and smokebox
+  are shaded as cylinders: lines sparse in the light and close in shadow.
+- **Other colour:** the boiler, cylinder, tender and spokes are green.
 
 ## The black drawing
 
@@ -41,7 +44,7 @@ do not close up:
 - small fittings, scrapers and controls;
 - lettering, both badges and the sheet frame.
 
-The colour is **3,166 added pen lines**, across 45 parts and 283 enclosed paper
+The colour is **2,649 added pen lines**, across 45 parts and 283 enclosed paper
 cells. Every coloured ink edge keeps **at least 0.22 mm of white paper** from
 black ink, so inks never mix and small pen-change offsets stay hidden.
 
@@ -59,20 +62,20 @@ Plot the pens in file order, light to dark, with each pen loaded once:
 | 1 | Gold 0.40 mm | 43 | Boiler bands, valves, whistle, cylinder maker's plate |
 | 2 | Green 0.25 mm | 852 | Green paintwork and spokes |
 | 3 | Red 0.25 mm | 139 | Fork, scrapers, scraper mounts and chain spring bar |
-| 4 | Grey 0.25 mm | 912 | Chimney, smokebox, headstock and fittings base tone |
-| 5 | Black 0.25 mm | 1,808 | 1,220 black iron and shade lines, then 588 fine details, lettering and badges |
-| 6 | Black 0.40 mm | 208 | Engine linework |
-| 7 | Black 0.60 mm | 63 | Principal engine outlines and sheet frame |
-| 8 | Black 1.00 mm | 4 | Roller tyre silhouettes |
+| 4 | Black 0.25 mm | 2,203 | 1,615 iron hatching and shade lines, then 588 fine details, lettering and badges |
+| 5 | Black 0.40 mm | 208 | Engine linework |
+| 6 | Black 0.60 mm | 63 | Principal engine outlines and sheet frame |
+| 7 | Black 1.00 mm | 4 | Roller tyre silhouettes |
 
-The optimised job estimates **53 minutes 49 seconds** (45:44 to 1:01:53) with
-the nominal AxiDraw-class profile. It draws 60.4 m with 4,029 pen lifts and
-14.3 m of pen-up travel; document order would take 61.2 minutes. No physical
+The optimised job estimates **47 minutes 35 seconds** (40:27 to 54:43) with
+the nominal AxiDraw-class profile. It draws 3,512 strokes with 12.8 m of
+pen-up travel; document order would take 54.3 minutes. No physical
 machine was operated; pen and timing calibration remain the studio's usual
 pre-plot steps.
 
 Every line width is one of the studio's pens: Black 0.25/0.40/0.60/1.00,
-Green, Red and Grey 0.25, and the 0.40 mm Gold. There is no broad gold nib.
+Green and Red 0.25, and the 0.40 mm Gold. No grey pen and no broad gold nib
+are used.
 If the gold pen ever changes, set `GOLD_NIB_MM` in
 `recipe/tools/engineering_source_plates/aveling_5499_colour_v5/inventory.py`
 and rebuild. The gold line spacing and clearances follow from it.
@@ -80,15 +83,14 @@ and rebuild. The gold line spacing and clearances follow from it.
 - [gold-0-4](artwork/aveling-porter-5499-colour-hatched.pen-01-gold-0-4.svg)
 - [green-0-25](artwork/aveling-porter-5499-colour-hatched.pen-02-green-0-25.svg)
 - [red-0-25](artwork/aveling-porter-5499-colour-hatched.pen-03-red-0-25.svg)
-- [grey-0-25](artwork/aveling-porter-5499-colour-hatched.pen-04-grey-0-25.svg)
-- [black-0-25](artwork/aveling-porter-5499-colour-hatched.pen-05-black-0-25.svg)
-- [black-0-4](artwork/aveling-porter-5499-colour-hatched.pen-06-black-0-4.svg)
-- [black-0-6](artwork/aveling-porter-5499-colour-hatched.pen-07-black-0-6.svg)
-- [black-1](artwork/aveling-porter-5499-colour-hatched.pen-08-black-1.svg)
+- [black-0-25](artwork/aveling-porter-5499-colour-hatched.pen-04-black-0-25.svg)
+- [black-0-4](artwork/aveling-porter-5499-colour-hatched.pen-05-black-0-4.svg)
+- [black-0-6](artwork/aveling-porter-5499-colour-hatched.pen-06-black-0-6.svg)
+- [black-1](artwork/aveling-porter-5499-colour-hatched.pen-07-black-1.svg)
 
 ## Verification and source scope
 
-All **271 format checks** and strict SVG preflight pass. `verify.py` rereads
+All **242 format checks** and strict SVG preflight pass. `verify.py` rereads
 the exported SVG and independently checks that:
 
 - all 863 outline shapes are unchanged and on the pen the documented weight
@@ -96,6 +98,7 @@ the exported SVG and independently checks that:
 - the exported lines exactly match the fill plan;
 - each line lies inside its own part;
 - the measured paper gap to black ink is at least 0.2219 mm;
+- no grey pen is used anywhere;
 - every gold part is at least two fine gold lines, all on the fine gold pen;
 - no colour reaches the top-right badges;
 - every spoke line is straight;
@@ -103,7 +106,7 @@ the exported SVG and independently checks that:
 - the rim-to-spoke gaps meet the minimum;
 - the pens have eight-nib cap heights and three-nib path lengths;
 - all 12 lettering blocks are complete;
-- all eight pen files together equal the master;
+- all seven pen files together equal the master;
 - the manifest and plot job agree.
 
 [Fill plan](evidence/fill-plan.json) · [Verification](evidence/verification.json) ·
