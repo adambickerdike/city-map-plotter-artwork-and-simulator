@@ -7,22 +7,25 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path[:0] = [str(ROOT / 'src'), str(ROOT)]
 from city_map_plotter.niche_common import ArtworkLayer, PlateArtwork, PlateContext, Rect, write_plate
-from tools.engineering_source_plates.aveling_5499_colour_v5.inventory import BROWN_PEN, EDITION_PEN_INVENTORY, GOLD_NIB_MM, GOLD_PEN, PENS
+from tools.engineering_source_plates.aveling_5499_colour_v5.inventory import BLACK_PEN, BROWN_PEN, EDITION_PEN_INVENTORY, GOLD_NIB_MM, GOLD_PEN, PENS
 from tools.engineering_source_plates.aveling_5499_colour_v5 import hatching as H
 from tools.engineering_source_plates.aveling_5499_colour_v5.design import PEN_ORDER
 from tools.engineering_source_plates.aveling_5499_colour_v5.painters import minimum_length
 from tools.engineering_source_plates.aveling_5499_colour_v5.plan import build_plan
-from tools.engineering_source_plates.aveling_5499_colour_v5.regions import BASE_MM, GAP_MM
+from tools.engineering_source_plates.aveling_5499_colour_v5.regions import (
+    BAND_GOLD, BASE_MM, GAP_MM, GEOMETRY_EDITS, WEIGHT_MM, outline_strokes, stroke_rings)
 
 ID = 'aveling-porter-5499-colour-hatched'
 DEFAULT_OUTPUT = ROOT / 'examples/technical-objects/aveling-porter-5499-colour-v5'
 BASE_SHA = 'f4106404c710e89bda8e2b32e4cfd92d9ff1c82b4f30c9ec7cbba89621e33678'
 EDITION_DATE = '2026-09-24'
-OUTLINE_LAYERS = {'black-0-25': ('outline-fine', 'Fine details, fittings, lettering and the badges'),
-                  'black-0-4': ('outline-engine', 'Engine linework'),
-                  'black-0-6': ('outline-principal', 'Principal engine outlines and sheet frame'),
-                  'black-1': ('outline-silhouette', 'Roller tyre silhouettes'),
-                  GOLD_PEN: ('outline-brass', 'Inner lines of the brass boiler bands, drawn in Gold')}
+# Outline layers by drawn weight.  Every black weight is drawn with the one
+# Black 0.25 mm pen: the heavier weights as loops of 0.25 mm strokes.
+OUTLINE_LAYERS = {'fine': ('outline-fine', BLACK_PEN, 'Fine details, fittings, lettering and the badges: single 0.25 mm lines'),
+                  'engine': ('outline-engine', BLACK_PEN, 'Engine linework 0.40 mm wide: a 0.25 mm loop round each line'),
+                  'principal': ('outline-principal', BLACK_PEN, 'Principal engine outlines and sheet frame 0.60 mm wide: loop and centre line'),
+                  'silhouette': ('outline-silhouette', BLACK_PEN, 'Roller tyre silhouettes 1.00 mm wide: two loops and centre line'),
+                  BAND_GOLD: ('outline-brass', GOLD_PEN, 'Inner lines of the brass boiler bands, drawn in Gold')}
 FILL_LAYERS = {GOLD_PEN: ('fill-brass', "Brass: boiler bands, valves and the cylinder maker's plate"),
                'green-0-25': ('fill-green', 'Green paint'),
                'red-0-25': ('fill-red', 'Red of the red-brown fork and scrapers'),
@@ -64,7 +67,7 @@ def build(output, dpi):
     layers = {}
     for pen, (layer_id, label) in FILL_LAYERS.items():
         layers[layer_id] = EditionLayer(layer_id, label, pen)
-    for pen, (layer_id, label) in OUTLINE_LAYERS.items():
+    for weight, (layer_id, pen, label) in OUTLINE_LAYERS.items():
         layers[layer_id] = EditionLayer(layer_id, label, pen)
 
     # Within the shared Black 0.25 mm pen the fills come first and the fine
@@ -86,12 +89,17 @@ def build(output, dpi):
         counts[zone.name][stroke.pen] += 1
         lengths[stroke.pen] += length
         fill_records.append((zone.name, stroke.pen))
+    outline_strokes_by_weight = Counter()
     for source in plan.source:
-        layer = layers[OUTLINE_LAYERS[source.pen_id][0]]
+        layer = layers[OUTLINE_LAYERS[source.weight][0]]
         attributes = {k: v for k, v in source.attributes.items() if k not in SKIP_ATTRIBUTES}
         attributes['data-base-path-index'] = str(source.index)
-        layer.add_path(source.path, role=source.get('data-role'), source_ref=source.get('data-source-ref'),
-                       sequence=source.index, attributes=attributes)
+        attributes['data-outline-weight'] = source.weight
+        attributes['data-outline-width-mm'] = f'{source.nib:g}'
+        for kind, path in outline_strokes(source):
+            layer.add_path(path, role=source.get('data-role'), source_ref=source.get('data-source-ref'),
+                           sequence=source.index, attributes={**attributes, 'data-outline-stroke': kind})
+            outline_strokes_by_weight[source.weight] += 1
 
     zones_record = []
     for zone in plan.zones:
@@ -115,10 +123,23 @@ def build(output, dpi):
         'lighting': 'Upper-left light: graded parallel lines model the boiler, smokebox and chimney as cylinders. '
                     'The black iron wheels, hubs and flywheel are close, even Black circles all round; flat plates '
                     'darken slightly to the lower right.',
-        'outline_weights': 'Engine linework one pen heavier than the blueprint: 0.30 -> Black 0.40, 0.40 -> Black 0.60, '
-                           'roller tyres 0.50 -> Black 1.00. Fasteners, chains, small fittings, scrapers, controls, '
-                           'lettering, the badges and the sheet frame keep their original weights. The four '
-                           'inner lines of the brass boiler bands are drawn in Gold, unchanged in shape.',
+        'outline_weights': 'Black 0.25 mm is the only black pen. Engine linework is one weight heavier than the '
+                           'blueprint: 0.30 -> 0.40 mm, 0.40 -> 0.60 mm, roller tyres 0.50 -> 1.00 mm. Fasteners, '
+                           'chains, small fittings, scrapers, controls, lettering, the badges and the sheet frame keep '
+                           'their original weights. The four inner lines of the brass boiler bands are drawn in Gold.',
+        'heavy_lines_from_the_fine_black': {
+            weight: {'width_mm': WEIGHT_MM[weight],
+                     'loops_mm_from_the_path': [round(d, 4) for d in stroke_rings(WEIGHT_MM[weight])[0]],
+                     'path_itself_drawn': stroke_rings(WEIGHT_MM[weight])[1]}
+            for weight in ('engine', 'principal', 'silhouette')},
+        'outline_strokes_by_weight': dict(outline_strokes_by_weight),
+        'geometry_edits': {
+            'what': 'The regulator rod is redrawn as one straight, level rod from the reversing-lever boss, behind the '
+                    'flywheel, to a rounded bend that turns it straight down onto the motion plate; the two brackets '
+                    'it passes through open to match. Revision 14 drew it sloping behind the lever, level at another '
+                    'height beyond the flywheel, and ending in a shallow diagonal that notched into the motion plate.',
+            'changed_model_paths': sorted(k for k, v in GEOMETRY_EDITS.items() if v is not None),
+            'removed_model_paths': sorted(k for k, v in GEOMETRY_EDITS.items() if v is None)},
         'wheel_faces': [{'name': f.name, 'centre_mm': list(f.centre), 'split_radius_mm': f.split_radius_mm,
                          'opening_cuts': f.opening_cuts, 'spoke_pieces': len(f.spokes), 'rim_pieces': len(f.rim)}
                         for f in plan.wheel_faces],
@@ -148,23 +169,25 @@ def build(output, dpi):
                      'Revision: no grey pen, so the iron tones are drawn in black line hatching with the same look',
                      'Revision: the red pen is too bright, so the red parts are darkened with the studio 0.25 mm brown pen alternating with the red lines',
                      'Revision: fill the whole of each gold boiler band with colour, not only the side to the right of its inner line',
-                     'Revision: leave the air gap under the regulator rod (handle, behind the flywheel, to the front) and between the lubricator pipes unfilled; the boiler beside the flywheel green, not black; the gold band nearest the flywheel up to the top; colour the top-right spoke of the front roll']}]
+                     'Revision: leave the air gap under the regulator rod (handle, behind the flywheel, to the front) and between the lubricator pipes unfilled; the boiler beside the flywheel green, not black; the gold band nearest the flywheel up to the top; colour the top-right spoke of the front roll',
+                     'Revision: the gold bands continuous with no horizontal lines; the rear-wheel scrapers filled better and the upper arm of the forward scraper red; no gold line on the whistle top; front spokes ruled consistently along each spoke; no thick black pen, so heavy black lines built from several fine black lines; the regulator rod neat and level; the black wheel and flywheel rings slightly less dense']}]
     notes = [n.replace('White 0.30/0.40/0.50 mm pens on blue stock.', 'The source blueprint used White 0.30/0.40/0.50 mm pens on blue stock.') for n in facts['notes']]
     notes += [
-        'Colour edition 5: every one of the 863 revision-14 paths is retained unchanged in shape. 859 are black outlines; engine linework is drawn one pen heavier than the blueprint (Black 0.40/0.60 mm, roller tyres Black 1.00 mm); fasteners, chains, small fittings, scrapers, lettering, badges and frame keep Black 0.25/0.40/0.60 mm. The inner lines of the three brass boiler bands (four paths) are drawn in Gold.',
+        'Colour edition 5: the 863 revision-14 paths are kept unchanged in shape, except the regulator rod, redrawn straight and level with a neat bend down onto the motion plate (8 paths reshaped, 2 removed). The black lines are drawn with the studio\'s one black pen, 0.25 mm: engine linework is one weight heavier than the blueprint (0.40/0.60 mm, roller tyres 1.00 mm), each heavier line built from 0.25 mm loops round its path; fasteners, chains, small fittings, scrapers, lettering, badges and frame keep their original weights. The inner lines of the three brass boiler bands (four paths) are drawn in Gold.',
         'Colour is added only as single-pass pen lines inside the enclosed paper cells, kept at least 0.22 mm clear of black ink. The Gold band inner lines meet black ink only at their ends and where they cross the boiler lines, as the blueprint draws them.',
         'Open air stays paper: under the regulator rod on both sides of the flywheel and between the lubricator pedestal and its pipe. The boiler barrel seen between the motion plate and the pump rod beside the flywheel is green, and the gold band nearest the flywheel runs up to the motion plate.',
         'The wheels, hubs and flywheel are black iron drawn as close, even Black circles. Everything seen through the rear wheel up to the tender front edge is black iron in Black lines about 0.69 mm apart, lighter than the black wheels; the green tender continues beyond that edge.',
         'Spokes are ruled with a fixed number of lines exactly parallel to their edges. Cylinders are graded lines under upper-left light. The fork, scrapers, scraper mounts and chain spring bar are red-brown: Red lines with a Brown line in every gap, 0.30 mm apart, so the red reads darker and warmer.',
         'Black-painted iron (chimney, smokebox, headstock, firebox, fittings and controls) is hatched in Black alone, its tone set by line spacing; the studio has no grey pen.',
-        'The worksplate and Invicta horse at the top right are left as black engraving without colour. The boiler bands, valves, whistle and the maker plate on the cylinder are brass, built from fine lines with the studio Gold 0.40 mm pen; there is no broad gold nib. Each boiler band is a solid gold bar of upright lines evenly spaced about 0.42 mm apart from one black edge to the other, its inner line drawn in Gold as one of them; the valves, whistle and maker plate are lined 0.50 mm apart.',
+        'The worksplate and Invicta horse at the top right are left as black engraving without colour. The boiler bands, valves, whistle and the maker plate on the cylinder are brass, built from fine lines with the studio Gold 0.40 mm pen; there is no broad gold nib. Each boiler band is a solid gold bar of upright lines evenly spaced about 0.42 mm apart from one black edge to the other, its inner line drawn in Gold as one of them; the lines run unbroken from end to end of the band, under the black boiler lines that cross it, stopping only where the pump rod passes in front. The valves, whistle and maker plate are lined 0.50 mm apart.',
     ]
     meta = dict(json.loads((evidence / 'revision-14-reconstruction.json').read_text())['metadata'])
     meta.update(paper_preview_color='#ffffff', physical_inks=['Gold', 'Green', 'Red', 'Brown', 'Black'], gold_nib_mm=GOLD_NIB_MM,
                 colour_edition='lined-colour-v5', base_master_sha256=BASE_SHA,
                 colour_plan='evidence/fill-plan.json', geometry_record='evidence/revision-14-reconstruction.json',
-                current_geometry_scope='All 863 frozen revision-14 path shapes unchanged: black outlines with the engine linework one pen heavier, and the four brass-band inner lines in Gold; pen-line colour added inside.',
-                base_geometry_path_count=len(plan.source), unchanged_path_count=len(plan.source),
+                current_geometry_scope='The frozen revision-14 path shapes, unchanged except the regulator rod redrawn straight and level; black outlines drawn with the one 0.25 mm black pen, the engine linework one weight heavier, and the four brass-band inner lines in Gold; pen-line colour added inside.',
+                base_geometry_path_count=863, drawn_source_path_count=len(plan.source),
+                unchanged_path_count=863 - len(GEOMETRY_EDITS),
                 fill_stroke_count=len(fill_records), white_gap_mm=GAP_MM)
     meta.pop('physical_ink', None)
     art = PlateArtwork(subject_id=ID, domain='heritage-engine-portrait', subject_kind='steam-road-roller',

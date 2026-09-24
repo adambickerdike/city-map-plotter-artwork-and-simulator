@@ -2,7 +2,7 @@
   "schema": "aveling-5499-lined-colour-plan-v2",
   "base_master_sha256": "f4106404c710e89bda8e2b32e4cfd92d9ff1c82b4f30c9ec7cbba89621e33678",
   "paper": "white",
-  "inventory": "studio-pens-fine-gold",
+  "inventory": "studio-pens-fine-black",
   "gold_pen": "Gold 0.40 mm, the studio's gold (user-confirmed); every gold part is several fine lines",
   "marks": "single-pass pen lines only; no dots or fills",
   "clearance_model": {
@@ -15,7 +15,56 @@
     "strokes": "every hatch line is a separate stroke with clean ends, in serpentine order"
   },
   "lighting": "Upper-left light: graded parallel lines model the boiler, smokebox and chimney as cylinders. The black iron wheels, hubs and flywheel are close, even Black circles all round; flat plates darken slightly to the lower right.",
-  "outline_weights": "Engine linework one pen heavier than the blueprint: 0.30 -> Black 0.40, 0.40 -> Black 0.60, roller tyres 0.50 -> Black 1.00. Fasteners, chains, small fittings, scrapers, controls, lettering, the badges and the sheet frame keep their original weights. The four inner lines of the brass boiler bands are drawn in Gold, unchanged in shape.",
+  "outline_weights": "Black 0.25 mm is the only black pen. Engine linework is one weight heavier than the blueprint: 0.30 -> 0.40 mm, 0.40 -> 0.60 mm, roller tyres 0.50 -> 1.00 mm. Fasteners, chains, small fittings, scrapers, controls, lettering, the badges and the sheet frame keep their original weights. The four inner lines of the brass boiler bands are drawn in Gold.",
+  "heavy_lines_from_the_fine_black": {
+    "engine": {
+      "width_mm": 0.4,
+      "loops_mm_from_the_path": [
+        0.075
+      ],
+      "path_itself_drawn": false
+    },
+    "principal": {
+      "width_mm": 0.6,
+      "loops_mm_from_the_path": [
+        0.175
+      ],
+      "path_itself_drawn": true
+    },
+    "silhouette": {
+      "width_mm": 1.0,
+      "loops_mm_from_the_path": [
+        0.375,
+        0.1875
+      ],
+      "path_itself_drawn": true
+    }
+  },
+  "outline_strokes_by_weight": {
+    "fine": 586,
+    "engine": 247,
+    "band-gold": 4,
+    "principal": 136,
+    "silhouette": 14
+  },
+  "geometry_edits": {
+    "what": "The regulator rod is redrawn as one straight, level rod from the reversing-lever boss, behind the flywheel, to a rounded bend that turns it straight down onto the motion plate; the two brackets it passes through open to match. Revision 14 drew it sloping behind the lever, level at another height beyond the flywheel, and ending in a shallow diagonal that notched into the motion plate.",
+    "changed_model_paths": [
+      "194",
+      "202",
+      "203",
+      "206",
+      "209",
+      "341",
+      "342",
+      "344",
+      "345"
+    ],
+    "removed_model_paths": [
+      "207",
+      "208"
+    ]
+  },
   "wheel_faces": [
     {
       "name": "rear-wheel",
@@ -43,8 +92,8 @@
   "spokes": "Every spoke of a wheel ruled with the same number of lines parallel to its edges: five on the rear wheel, four on the front roll.",
   "through_the_wheels": "Rear wheel: everything seen between the spokes up to the tender front edge (x = 318.865 mm) and above its top rim is black iron in Black lines about 0.69 mm apart, lighter than the black wheel rims; the tender beyond that edge continues in green. Front roll: a hollow drum, so the spaces between its spokes stay paper.",
   "badges": "The worksplate and Invicta horse at the top right are uncoloured black engraving.",
-  "paper_cell_count": 776,
-  "coloured_cell_count": 283,
+  "paper_cell_count": 773,
+  "coloured_cell_count": 281,
   "parts": [
     {
       "part": "rear-wheel-rim",
@@ -56,7 +105,7 @@
           298.729,
           180.165
         ],
-        "pitch": 0.38,
+        "pitch": 0.42,
         "shade": null
       },
       "seed_points_mm": [
@@ -68,7 +117,7 @@
       "cell_count": 1,
       "cell_area_mm2": 2035.995,
       "strokes_by_pen": {
-        "black-0-25": 130
+        "black-0-25": 109
       },
       "note": "Face cells outside r = 45.22 mm: close, even Black circles."
     },
@@ -83,6 +132,10 @@
           "green-0-25",
           "green-0-25",
           "green-0-25"
+        ],
+        "centre": [
+          298.729,
+          180.165
         ]
       },
       "seed_points_mm": [
@@ -108,7 +161,7 @@
           67.361,
           200.514
         ],
-        "pitch": 0.38,
+        "pitch": 0.42,
         "shade": null
       },
       "seed_points_mm": [
@@ -128,7 +181,7 @@
       "cell_count": 3,
       "cell_area_mm2": 508.816,
       "strokes_by_pen": {
-        "black-0-25": 54
+        "black-0-25": 63
       },
       "note": "Face cells outside r = 28.77 mm: close, even Black circles."
     },
@@ -142,6 +195,10 @@
           "green-0-25",
           "green-0-25",
           "green-0-25"
+        ],
+        "centre": [
+          67.361,
+          200.514
         ]
       },
       "seed_points_mm": [
@@ -161,7 +218,7 @@
       "cell_count": 8,
       "cell_area_mm2": 210.264,
       "strokes_by_pen": {
-        "green-0-25": 25
+        "green-0-25": 24
       },
       "note": "Face cells inside r = 28.53 mm, cut apart through the 8 spoke openings; 4 lines ruled along every spoke."
     },
@@ -298,16 +355,12 @@
         [
           195,
           115
-        ],
-        [
-          170,
-          115
         ]
       ],
-      "cell_count": 4,
-      "cell_area_mm2": 924.172,
+      "cell_count": 3,
+      "cell_area_mm2": 926.209,
       "strokes_by_pen": {
-        "green-0-25": 98
+        "green-0-25": 97
       },
       "note": ""
     },
@@ -616,6 +669,10 @@
           "green-0-25",
           "green-0-25",
           "green-0-25"
+        ],
+        "centre": [
+          298.729,
+          180.165
         ]
       },
       "seed_points_mm": [
@@ -709,6 +766,10 @@
           "green-0-25",
           "green-0-25",
           "green-0-25"
+        ],
+        "centre": [
+          67.361,
+          200.514
         ]
       },
       "seed_points_mm": [
@@ -903,16 +964,11 @@
       "part": "rear-forward-scraper",
       "material": "red-brown paint",
       "painter": {
-        "painter": "axial",
+        "painter": "solid",
         "pen": "red-0-25",
-        "pitch": 0.6,
-        "angle": null,
-        "shade": [
-          "brown-0-25",
-          0.6
-        ],
-        "single": false,
-        "shade_small": true
+        "shade_pen": "brown-0-25",
+        "spacing": 0.3,
+        "min_area": 0.3
       },
       "seed_points_mm": [
         [
@@ -954,32 +1010,29 @@
         [
           222.02,
           173.86
+        ],
+        [
+          231,
+          181
         ]
       ],
-      "cell_count": 10,
-      "cell_area_mm2": 96.814,
+      "cell_count": 11,
+      "cell_area_mm2": 107.696,
       "strokes_by_pen": {
-        "red-0-25": 10,
-        "brown-0-25": 5
+        "red-0-25": 17,
+        "brown-0-25": 10
       },
-      "note": "Arm, blade, bearing mount and adjuster mount of the scraper ahead of the rear roll."
+      "note": "Hinged arm, adjusting stay (the upper arm), blade, bearing mount and adjuster mount of the scraper ahead of the rear roll, filled edge to edge."
     },
     {
       "part": "rear-scraper",
       "material": "red-brown paint",
       "painter": {
-        "painter": "flat",
+        "painter": "solid",
         "pen": "red-0-25",
-        "angle": 0.0,
-        "coverage": [
-          0.4166666666666667,
-          0.4166666666666667
-        ],
-        "shade": [
-          "brown-0-25",
-          0.6
-        ],
-        "shade_small": true
+        "shade_pen": "brown-0-25",
+        "spacing": 0.3,
+        "min_area": 0.3
       },
       "seed_points_mm": [
         [
@@ -1006,10 +1059,10 @@
       "cell_count": 5,
       "cell_area_mm2": 46.966,
       "strokes_by_pen": {
-        "red-0-25": 10,
-        "brown-0-25": 5
+        "red-0-25": 13,
+        "brown-0-25": 8
       },
-      "note": "Triangular bracket, pivot boss, arm and blade; the space between arm and spring rod is tender."
+      "note": "Triangular bracket, pivot boss, arm and blade, filled edge to edge; the space between arm and spring rod is tender."
     },
     {
       "part": "chimney",
@@ -1179,7 +1232,7 @@
           67.361,
           200.514
         ],
-        "pitch": 0.38,
+        "pitch": 0.42,
         "shade": null
       },
       "seed_points_mm": [
@@ -1195,7 +1248,7 @@
       "cell_count": 2,
       "cell_area_mm2": 6.784,
       "strokes_by_pen": {
-        "black-0-25": 2
+        "black-0-25": 1
       },
       "note": ""
     },
@@ -1246,7 +1299,7 @@
           246.398,
           121.139
         ],
-        "pitch": 0.38,
+        "pitch": 0.42,
         "shade": null
       },
       "seed_points_mm": [
@@ -1258,7 +1311,7 @@
       "cell_count": 1,
       "cell_area_mm2": 1666.426,
       "strokes_by_pen": {
-        "black-0-25": 43
+        "black-0-25": 39
       },
       "note": "Turned, dished disc: close, even Black circles."
     },
@@ -1272,7 +1325,7 @@
           246.398,
           121.139
         ],
-        "pitch": 0.38,
+        "pitch": 0.42,
         "shade": null
       },
       "seed_points_mm": [
@@ -1284,7 +1337,7 @@
       "cell_count": 1,
       "cell_area_mm2": 979.511,
       "strokes_by_pen": {
-        "black-0-25": 43
+        "black-0-25": 37
       },
       "note": ""
     },
@@ -1298,7 +1351,7 @@
           246.398,
           121.139
         ],
-        "pitch": 0.38,
+        "pitch": 0.42,
         "shade": null
       },
       "seed_points_mm": [
@@ -1332,7 +1385,7 @@
           246.398,
           121.139
         ],
-        "pitch": 0.38,
+        "pitch": 0.42,
         "shade": null
       },
       "seed_points_mm": [
@@ -1428,18 +1481,14 @@
           180
         ],
         [
-          231,
-          181
-        ],
-        [
           232,
           185
         ]
       ],
-      "cell_count": 18,
-      "cell_area_mm2": 1492.187,
+      "cell_count": 17,
+      "cell_area_mm2": 1481.305,
       "strokes_by_pen": {
-        "black-0-25": 277
+        "black-0-25": 275
       },
       "note": ""
     },
@@ -1453,7 +1502,7 @@
           298.729,
           180.165
         ],
-        "pitch": 0.38,
+        "pitch": 0.42,
         "shade": null
       },
       "seed_points_mm": [
@@ -1465,7 +1514,7 @@
       "cell_count": 1,
       "cell_area_mm2": 330.57,
       "strokes_by_pen": {
-        "black-0-25": 2
+        "black-0-25": 1
       },
       "note": ""
     },
@@ -1479,7 +1528,7 @@
           298.729,
           180.165
         ],
-        "pitch": 0.38,
+        "pitch": 0.42,
         "shade": null
       },
       "seed_points_mm": [
@@ -1519,7 +1568,7 @@
       "cell_count": 8,
       "cell_area_mm2": 399.763,
       "strokes_by_pen": {
-        "black-0-25": 60
+        "black-0-25": 53
       },
       "note": ""
     },
@@ -1533,7 +1582,7 @@
           67.361,
           200.514
         ],
-        "pitch": 0.38,
+        "pitch": 0.42,
         "shade": null
       },
       "seed_points_mm": [
@@ -1755,7 +1804,7 @@
         ]
       ],
       "cell_count": 10,
-      "cell_area_mm2": 135.853,
+      "cell_area_mm2": 137.078,
       "strokes_by_pen": {
         "black-0-25": 16
       },
@@ -1917,7 +1966,7 @@
         ],
         [
           278.22,
-          106.52
+          106.15
         ],
         [
           287.31,
@@ -1945,7 +1994,7 @@
         ]
       ],
       "cell_count": 11,
-      "cell_area_mm2": 346.452,
+      "cell_area_mm2": 349.926,
       "strokes_by_pen": {
         "black-0-25": 46
       },
@@ -2107,7 +2156,8 @@
           165.891,
           197.205
         ],
-        "min_length": 2.0
+        "min_length": 2.0,
+        "bridge_mm": 1.5
       },
       "seed_points_mm": [
         [
@@ -2146,7 +2196,7 @@
       "cell_count": 8,
       "cell_area_mm2": 207.967,
       "strokes_by_pen": {
-        "gold-0-4": 19
+        "gold-0-4": 16
       },
       "note": "Upright Gold lines evenly spaced about 0.42 mm apart across the whole of each band, from one black edge to the other, its inner line drawn in Gold as one of them. The short pieces of band below the boiler line, and on the third band up to the motion plate, take level Gold lines."
     },
@@ -2199,16 +2249,12 @@
         [
           152,
           99
-        ],
-        [
-          152.1,
-          88.2
         ]
       ],
-      "cell_count": 2,
-      "cell_area_mm2": 41.73,
+      "cell_count": 1,
+      "cell_area_mm2": 37.419,
       "strokes_by_pen": {
-        "gold-0-4": 10
+        "gold-0-4": 8
       },
       "note": ""
     },
@@ -2234,18 +2280,18 @@
     }
   ],
   "fill_strokes_by_pen": {
-    "black-0-25": 1522,
-    "green-0-25": 857,
-    "red-0-25": 110,
-    "brown-0-25": 87,
-    "gold-0-4": 58
+    "black-0-25": 1489,
+    "green-0-25": 855,
+    "red-0-25": 120,
+    "brown-0-25": 95,
+    "gold-0-4": 53
   },
   "fill_length_m_by_pen": {
-    "black-0-25": 25.425,
+    "black-0-25": 23.613,
     "green-0-25": 11.717,
-    "red-0-25": 1.252,
-    "brown-0-25": 1.057,
-    "gold-0-4": 0.682
+    "red-0-25": 1.308,
+    "brown-0-25": 1.131,
+    "gold-0-4": 0.694
   },
   "unfilled_by_design": [
     "sheet margins and background paper",

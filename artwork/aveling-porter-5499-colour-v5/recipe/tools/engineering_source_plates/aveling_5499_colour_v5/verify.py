@@ -6,9 +6,12 @@ checks that every source outline is present and unchanged in black, that every
 colour line keeps its paper gap from black ink and stays inside the area its
 part claims, and that pen files, manifest and plot job agree.
 
-Outline shapes are byte-identical to the source; their pens follow the
-edition's documented mapping (``regions.outline_pen``): Black weights, and
-Gold for the four inner lines of the brass boiler bands.
+Outline shapes are byte-identical to the source except the documented
+regulator-rod redraw (``regions.GEOMETRY_EDITS``).  Every black line is drawn
+with the one Black 0.25 mm pen: a heavier weight (``regions.outline_weight``)
+as the loops of ``regions.stroke_rings``, whose ink is checked to cover the
+weight's full width and nothing beyond it.  The four inner lines of the brass
+boiler bands are Gold.
 """
 from collections import Counter, defaultdict
 import hashlib, json, math, subprocess, sys, xml.etree.ElementTree as ET
@@ -18,17 +21,20 @@ sys.path[:0] = [str(ROOT / 'src'), str(ROOT)]
 from shapely import STRtree
 from shapely.geometry import LineString, Point, Polygon
 from shapely.ops import unary_union
-from tools.engineering_source_plates.aveling_5499_colour_v5.inventory import BROWN_PEN, EDITION_PEN_INVENTORY, GOLD_NIB_MM, GOLD_PEN
+from tools.engineering_source_plates.aveling_5499_colour_v5.inventory import (
+    BLACK_NIB_MM, BLACK_PEN, BROWN_PEN, EDITION_PEN_INVENTORY, GOLD_NIB_MM, GOLD_PEN)
 from city_map_plotter.stroke_font import STROKE_FONT_ID
 from city_map_plotter.technical_assets import parse_absolute_path_data
 from city_map_plotter.vector_path import LineSegment
 from tools.engineering_source_plates.build_aveling_5499_colour_v5 import BASE_SHA, ID
-from tools.engineering_source_plates.aveling_5499_colour_v5.design import MUST_CARRY, OPEN_AIR, PEN_ORDER
+from tools.engineering_source_plates.aveling_5499_colour_v5.design import (
+    BAND_CROSSING_LINES, MUST_CARRY, MUST_STAY_PAPER, OPEN_AIR, PEN_ORDER)
 from tools.engineering_source_plates.aveling_5499_colour_v5 import hatching as H
 from tools.engineering_source_plates.aveling_5499_colour_v5.painters import fill_region, minimum_length
 from tools.engineering_source_plates.aveling_5499_colour_v5.plan import build_plan
 from tools.engineering_source_plates.aveling_5499_colour_v5.regions import (
-    BAND_INNER_LINES, BLACK_NIB, GAP_MM, is_band_inner_line, outline_pen)
+    BAND_GOLD, BAND_INNER_LINES, BASE_MM, GAP_MM, GEOMETRY_EDITS, INWARD_ROLES, WEIGHT_MM, is_band_inner_line,
+    outline_weight, stroke_rings)
 
 NS = '{http://www.w3.org/2000/svg}'
 TOLERANCE_MM = 0.005
@@ -72,7 +78,7 @@ def verify(package):
     assert not any(e.get('transform') for e in tree.iter())
     inventory = {p.identity: p for p in EDITION_PEN_INVENTORY.pens}
     paths = list(tree.iter(NS + 'path'))
-    outlines, fills = {}, []
+    strokes_by_base, fills = defaultdict(list), []
     for element in paths:
         pen_id = inherited(element, 'data-plot-pen-id')
         pen = inventory[pen_id]
@@ -89,61 +95,112 @@ def verify(package):
         length = vector.length(0.0001)
         assert length + 0.003 >= 3 * pen.mark_width_mm, (element.get('d')[:60], length)
         if element.get('data-base-path-index') is not None:
-            outlines[int(element.get('data-base-path-index'))] = (element, pen_id, vector)
+            strokes_by_base[int(element.get('data-base-path-index'))].append((element, pen_id, vector))
         else:
             assert element.get('data-role') == 'colour-fill'
             assert element.get('data-fill-role') in {'base', 'shade'}
             assert length + 0.003 >= minimum_length(pen_id)
             fills.append((element, pen_id, vector, length))
 
-    # 1. every source outline, unchanged, on its documented pen
-    assert set(outlines) == set(range(863))
-    copy_groups = defaultdict(list)
+    # 1. every source outline drawn as documented: its shape unchanged unless
+    #    it is one of the geometry edits, its weight from the documented
+    #    mapping, drawn with the one Black pen (Gold for the band inner lines)
+    #    as exactly the loops and path the weight calls for, their ink covering
+    #    the weight's full width and nothing beyond it
+    models = {e.get('data-model-path-index'): i for i, e in enumerate(old_paths)}
+    assert set(GEOMETRY_EDITS) <= set(models)
+    removed = {models[m] for m, d in GEOMETRY_EDITS.items() if d is None}
+    assert set(strokes_by_base) == set(range(863)) - removed
+    copy_groups = defaultdict(set)
+    outlines = {}
+    weights = Counter()
+    ink_checks = {'worst_ink_beyond_width_mm2': 0.0, 'worst_uncovered_fraction': 0.0}
     for index, original in enumerate(old_paths):
-        element, pen_id, vector = outlines[index]
-        assert element.get('d') == original.get('d'), (index, 'outline geometry changed')
-        assert pen_id == outline_pen(original.attrib, base_width(original), vector), index
-        for key in PRESERVED:
-            assert element.get(key) == original.get(key), (index, key)
-        if element.get('data-copy'):
-            assert float(element.get('data-cap-height-mm')) + 1e-9 >= 8 * inventory[pen_id].mark_width_mm
-            assert all(isinstance(s, LineSegment) for s in vector.segments)
-            copy_groups[(element.get('data-role'), element.get('data-copy'))].append(element)
+        if index in removed:
+            continue
+        d = GEOMETRY_EDITS.get(original.get('data-model-path-index')) or original.get('d')
+        source = parse_absolute_path_data(d)
+        weight = outline_weight(original.attrib, base_width(original), source)
+        weights[weight] += 1
+        width = GOLD_NIB_MM if weight == BAND_GOLD else WEIGHT_MM[weight]
+        pen_id = GOLD_PEN if weight == BAND_GOLD else BLACK_PEN
+        drawn = strokes_by_base[index]
+        inward = original.get('data-role') in INWARD_ROLES and weight != 'fine'
+        rings, centre = ([], True) if weight == BAND_GOLD else stroke_rings(width)
+        if inward:
+            rings, centre = ['inset'], True
+        kinds = Counter(e.get('data-outline-stroke') for e, _, _ in drawn)
+        assert kinds['path'] == (1 if centre else 0), (index, kinds)
+        assert all(k == 'path' or k.startswith('loop-' if not inward else 'inset-') for k in kinds), (index, kinds)
+        for element, pen, vector in drawn:
+            assert pen == pen_id, (index, pen)
+            assert element.get('data-outline-weight') == weight, index
+            for key in PRESERVED:
+                assert element.get(key) == original.get(key), (index, key)
+            if element.get('data-outline-stroke') == 'path':
+                assert element.get('d') == d, (index, 'outline geometry changed')
+            if element.get('data-copy'):
+                assert float(element.get('data-cap-height-mm')) + 1e-9 >= 8 * inventory[pen].mark_width_mm
+                assert all(isinstance(s, LineSegment) for s in vector.segments)
+                copy_groups[(element.get('data-role'), element.get('data-copy'))].add(index)
+        centreline = LineString(source.flatten(0.0005).points)
+        if rings:
+            band = centreline.buffer(width / 2, quad_segs=32)
+            if inward:
+                area = Polygon(centreline.coords).buffer(0)
+                band = area.buffer(BLACK_NIB_MM / 2, quad_segs=32).difference(
+                    area.buffer(-(width - BLACK_NIB_MM / 2), quad_segs=32))
+            ink = unary_union([LineString(v.flatten(0.0005).points).buffer(BLACK_NIB_MM / 2, quad_segs=32)
+                               for _, _, v in drawn])
+            beyond = ink.difference(band.buffer(0.012)).area
+            uncovered = band.difference(ink).area / band.area
+            ink_checks['worst_ink_beyond_width_mm2'] = max(ink_checks['worst_ink_beyond_width_mm2'], beyond)
+            ink_checks['worst_uncovered_fraction'] = max(ink_checks['worst_uncovered_fraction'], uncovered)
+            assert beyond < 1e-3 and uncovered < 0.01, (index, beyond, uncovered)
+        outlines[index] = (original, weight, width, centreline)
     prior = json.loads((evidence / 'revision-14-plotting-verification.json').read_text())
     assert prior['master_svg_sha256'] == BASE_SHA and prior['complete_text_block_count'] == 12
     assert prior['font_id'] == STROKE_FONT_ID
     assert prior['font_source_sha256'] == sha(ROOT / 'src/city_map_plotter/stroke_font.py')
     assert {(r['role'], r['copy']): r['stroke_count'] for r in prior['lettering_checks']} == \
         {k: len(v) for k, v in copy_groups.items()}
+    assert all(inventory[p.identity].ink != 'Black' or p.identity == BLACK_PEN for p in EDITION_PEN_INVENTORY.pens)
 
     # 2. colour lines: paper to every black ink edge (horse gold excepted
     #    only from the horse's own relief lines)
-    black_lines, black_half, relief, gold_outlines = [], [], [], []
-    for index in range(863):
-        element, pen_id, vector = outlines[index]
-        line = LineString(vector.flatten(0.0005).points)
-        if pen_id not in BLACK_NIB:
-            gold_outlines.append((element, pen_id, line))
+    black_lines, black_half, relief, black_models, gold_outlines = [], [], [], [], []
+    for index, (original, weight, width, line) in sorted(outlines.items()):
+        if weight == BAND_GOLD:
+            gold_outlines.append((original, GOLD_PEN, line))
             continue
         black_lines.append(line)
-        black_half.append(inventory[pen_id].mark_width_mm / 2)
-        relief.append(is_horse_relief(element))
+        black_half.append(width / 2)
+        relief.append(is_horse_relief(original))
+        black_models.append(original.get('data-model-path-index'))
     assert sum(relief) == 39
     tree_index = STRtree(black_lines)
     minimum_gap = defaultdict(lambda: math.inf)
     horse_relief_crossings = 0
+    band_crossings = Counter()
     fill_lines = []
     for element, pen_id, vector, length in fills:
         line = LineString(vector.flatten(0.0005).points)
         fill_lines.append(line)
         half = inventory[pen_id].mark_width_mm / 2
-        reach = half + GAP_MM + 0.3 + 0.2
+        reach = half + GAP_MM + 0.5 + 0.2
         horse = element.get('data-fill-part') == HORSE_PART
+        band = element.get('data-fill-part') == 'boiler-bands'
         for j in tree_index.query(line.buffer(reach)):
             j = int(j)
             gap = line.distance(black_lines[j]) - half - black_half[j]
             if horse and relief[j]:
                 horse_relief_crossings += gap < GAP_MM
+                continue
+            # a band's gold runs on under the thin boiler lines that cross
+            # the band, as its Gold inner line does; it may cross nothing else
+            if band and line.crosses(black_lines[j]):
+                assert black_models[j] in BAND_CROSSING_LINES, ('band gold crosses', black_models[j])
+                band_crossings[black_models[j]] += 1
                 continue
             minimum_gap[pen_id] = min(minimum_gap[pen_id], gap)
     for pen_id, gap in minimum_gap.items():
@@ -158,12 +215,16 @@ def verify(package):
     #    exported lines are exactly the plan's lines
     plan = build_plan(base)
     zone_area = {zone.name: unary_union(zone.cells).buffer(1e-3) for zone in plan.zones}
-    horse_outline = next(outlines[i] for i in range(863)
+    # a band's gold also runs through the thin corridors of the boiler lines
+    # that cross the band
+    zone_area['boiler-bands'] = unary_union(
+        [zone_area['boiler-bands']] + [black_lines[j].buffer(black_half[j] + BASE_MM) for j in range(len(black_lines))
+                                       if black_models[j] in BAND_CROSSING_LINES])
+    horse_outline = next(outlines[i] for i in outlines
                          if outlines[i][0].get('data-role') == 'invicta-emblem'
                          and outlines[i][0].get('data-feature') == 'source-casting-contour')
-    horse_silhouette = Polygon(horse_outline[2].flatten(0.0005).points).buffer(0)
-    zone_area[HORSE_PART] = horse_silhouette.buffer(
-        -(inventory[horse_outline[1]].mark_width_mm / 2 + GAP_MM) + 1e-3)
+    horse_silhouette = Polygon(horse_outline[3].coords).buffer(0)
+    zone_area[HORSE_PART] = horse_silhouette.buffer(-(horse_outline[2] / 2 + GAP_MM) + 1e-3)
     expected = Counter()
     for zone, stroke in plan.strokes():
         expected[(zone.name, stroke.pen)] += 1
@@ -215,6 +276,11 @@ def verify(package):
         assert index is not None and index not in plan.claimed, ('open air is claimed', point)
         cell = plan.cellmap.cells[index]
         assert not any(cell.intersects(fill_lines[int(j)]) for j in fill_index.query(cell)), ('colour in open air', point)
+    for point in MUST_STAY_PAPER:
+        index = plan.cellmap.find(point)
+        assert index is not None and index not in plan.claimed, ('must stay paper', point)
+        cell = plan.cellmap.cells[index]
+        assert not any(cell.intersects(fill_lines[int(j)]) for j in fill_index.query(cell)), ('colour on', point)
     for point, pen_id in MUST_CARRY:
         cell = plan.cellmap.cells[plan.cellmap.find(point)]
         assert any(fill_pens[int(j)] == pen_id and cell.intersects(fill_lines[int(j)])
@@ -308,11 +374,21 @@ def verify(package):
     report = {
         'schema': 'aveling-5499-lined-colour-verification-v1', 'master_svg_sha256': sha(svg),
         'base_master_sha256': BASE_SHA, 'all_svg_paths': len(paths), 'source_outline_paths': 863,
-        'unchanged_source_paths': 863, 'fill_lines': len(fills), 'dots': 0,
+        'drawn_source_paths': len(outlines), 'unchanged_source_paths': 863 - len(GEOMETRY_EDITS),
+        'geometry_edits': {'reshaped_model_paths': sorted(m for m, d in GEOMETRY_EDITS.items() if d),
+                           'removed_model_paths': sorted(m for m, d in GEOMETRY_EDITS.items() if d is None),
+                           'what': 'the regulator rod redrawn straight and level with a rounded bend down onto '
+                                   'the motion plate'},
+        'fill_lines': len(fills), 'dots': 0,
         'fill_lines_by_pen': dict(fill_counts),
         'fill_length_m_by_pen': {pen: round(sum(l for _, p, _, l in fills if p == pen) / 1000, 3) for pen in fill_counts},
-        'outline_pens': {pen: sum(1 for e, p, v in outlines.values() if p == pen)
-                         for pen in ('black-0-25', 'black-0-4', 'black-0-6', 'black-1', GOLD_PEN)},
+        'black_pen': BLACK_PEN,
+        'outline_paths_by_weight': dict(sorted(weights.items())),
+        'outline_strokes': dict(Counter(e.get('data-outline-stroke').split('-')[0]
+                                        for strokes in strokes_by_base.values() for e, _, _ in strokes)),
+        'heavy_lines_from_the_fine_black': {'ink_beyond_the_line_width_mm2_worst': round(ink_checks['worst_ink_beyond_width_mm2'], 6),
+                                            'line_width_left_uncovered_worst_fraction': round(ink_checks['worst_uncovered_fraction'], 6)},
+        'band_gold_crossings_under_black_lines': dict(band_crossings),
         'band_inner_lines': {
             'pen': GOLD_PEN, 'paths': len(gold_outlines),
             'model_path_indices': sorted(BAND_INNER_LINES, key=int), 'shapes_unchanged': True,
@@ -335,9 +411,8 @@ def verify(package):
         'coloured_paper_cells': len(plan.claimed), 'paper_cells': len(plan.cellmap.cells),
         'horse_paths_unchanged': 40, 'text_blocks_unchanged': 12,
         'font_id': STROKE_FONT_ID, 'font_source_sha256': prior['font_source_sha256'],
-        'minimum_cap_to_nib_ratio': min(float(v[0].get('data-cap-height-mm')) /
-                                        inventory[inherited(v[0], 'data-plot-pen-id')].mark_width_mm
-                                        for v in copy_groups.values()),
+        'minimum_cap_to_nib_ratio': min(float(old_paths[i].get('data-cap-height-mm')) / BLACK_NIB_MM
+                                        for group in copy_groups.values() for i in group),
         'pen_sequence': sequence, 'pen_profile': EDITION_PEN_INVENTORY.id, 'single_pass_paths': True, 'white_paper': True,
         'gold': {'pen': GOLD_PEN, 'nib_mm': GOLD_NIB_MM, 'nib_status': 'user-confirmed nominal nib', 'lines_by_part': dict(gold_parts),
                  'band_inner_lines': len(gold_outlines)},
@@ -350,7 +425,9 @@ def verify(package):
     (evidence / 'verification.json').write_text(json.dumps(report, indent=2) + '\n')
     print(json.dumps({k: report[k] for k in ['master_svg_sha256', 'all_svg_paths', 'unchanged_source_paths',
                                              'fill_lines', 'minimum_white_gap_to_black_ink_mm',
-                                             'top_right_badges_uncoloured', 'outline_pens', 'band_inner_lines', 'gold', 'red_brown',
+                                             'top_right_badges_uncoloured', 'outline_paths_by_weight', 'outline_strokes',
+                                             'heavy_lines_from_the_fine_black', 'band_gold_crossings_under_black_lines',
+                                             'band_inner_lines', 'gold', 'red_brown',
                                              'wheel_rim_to_spoke_white_gap_mm', 'format_validation']}, indent=2))
     return report
 
