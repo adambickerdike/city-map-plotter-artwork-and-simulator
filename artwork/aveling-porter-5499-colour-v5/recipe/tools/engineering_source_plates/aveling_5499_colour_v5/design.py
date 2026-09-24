@@ -53,12 +53,25 @@ GOLD_MIN_LINE_MM = 2.0                # shorter ruled Gold dashes read as stray 
 # ``regions.BAND_INNER_LINES``), so the whole band between its black edges is
 # one gold bar of upright Gold lines, evenly spaced about 0.42 mm apart from
 # edge to edge with the inner line one of them.  The short pieces of band
-# below the boiler's lower line, and above the feed pipe on the third band,
-# are too short for a Gold line; only the Gold inner line crosses them.
+# below the boiler's lower line, and above the pump rod on the third band up
+# to the motion plate, are too short for upright lines, so they take level
+# Gold lines across the band's full width: every band is gold from end to end.
 BAND_INNER_X = (122.43, 165.891, 197.205)
 BAND_POINTS = ((123.37, 160.0), (166.84, 160.0), (198.15, 160.0),           # the bands' length
                (122.83, 174.99), (166.3, 174.99), (197.61, 174.99),         # below the boiler's lower line
                (198.0, 139.0), (198.0, 141.0))                              # third band, above the feed pipe
+
+
+# Areas checked against the side photograph in review.  Open air must stay
+# paper: under the regulator rod on both sides of the flywheel and under its
+# bend, and between the lubricator's pedestal and its pipe.  The others must
+# carry lines of the given pen: the visible sliver of the front roll's
+# top-right far spoke beside the fork, the green barrel between the motion
+# plate and the pump rod beside the flywheel, the third band up to the motion
+# plate, and the whistle's top.  The verifier checks every one.
+OPEN_AIR = ((187.0, 111.0), (205.0, 112.0), (177.0, 113.0), (178.0, 106.0), (287.0, 111.0))
+MUST_CARRY = (((73.8, 176.5), 'green-0-25'), ((193.0, 141.0), 'green-0-25'), ((208.0, 141.0), 'green-0-25'),
+              ((198.0, 139.0), GOLD_PEN), ((198.0, 141.0), GOLD_PEN), ((152.1, 88.2), GOLD_PEN))
 
 
 def flat(pen, coverage, angle=-45.0, shade=None, shade_small=False):
@@ -186,10 +199,12 @@ def parts():
     # ---- green livery ------------------------------------------------------
     add('boiler-cladding', 'green paint',
         cylinder('green-0-25', 0.0, BOILER_SPAN, (0.20, 0.45), shade_tiers=('black-0-25', [(0.80, 2)])),
-        ((145, 157), (182, 163), (208, 159), (132, 130), (145, 175.2), (179, 175.2), (206, 175.2)),
-        'Horizontal cylinder: graded lines parallel to the barrel, darkest below.')
+        ((145, 157), (182, 163), (208, 159), (132, 130), (145, 175.2), (179, 175.2), (206, 175.2),
+         (193, 141), (208, 141)),
+        'Horizontal cylinder: graded lines parallel to the barrel, darkest below. Includes the '
+        'barrel seen between the motion plate and the pump rod beside the flywheel.')
     add('cylinder-block', 'green paint', green_flat(), ((152, 108), (140, 123), (143, 124)))
-    add('motion-side-plate', 'green paint', green_flat(), ((197, 128), (189, 117), (195, 115)))
+    add('motion-side-plate', 'green paint', green_flat(), ((197, 128), (189, 117), (195, 115), (170, 115)))
     add(TENDER_PART, 'green paint', green_flat(),
         ((366, 172), (366, 200), (377, 158), (375, 182), (374, 208), (353, 167), (330, 154),
          (331, 152), (377, 171), (354, 198)),
@@ -203,7 +218,8 @@ def parts():
          (287, 170), (287, 188), (285, 180), (293, 194)),
         'The staggered inner spokes seen through the openings, ruled like the outer spokes.')
     add('front-inner-spokes', 'green paint', ruled(FRONT_SPOKE_PATTERN),
-        ((52, 188), (63, 221), (48, 208), (83, 213), (83, 194), (61, 207), (70, 210)))
+        ((52, 188), (63, 221), (48, 208), (83, 213), (83, 194), (61, 207), (70, 210), (73.8, 176.5)),
+        'The far spokes seen through the openings, including the sliver of the top-right one beside the fork.')
 
     # ---- red-brown frames and scrapers ------------------------------------
     add('front-fork', 'red-brown paint', red_brown(),
@@ -258,17 +274,20 @@ def parts():
     add('cylinder-flange', 'black paint', iron_flat(),
         ((143, 138), (149, 138), (155, 138), (161, 138), (138, 138), (166, 138)))
     add('motion-top', 'black paint', iron_flat(),
-        ((205, 112), (187, 111), (183, 109), (194, 112), (191.39, 109.22), (177, 113), (178, 106),
-         (172, 104), (172, 106), (172, 109), (172, 113), (170, 115), (180, 113), (179.85, 106.13),
-         (169, 99)))
+        ((183, 109), (194, 112), (191.39, 109.22), (172, 104), (172, 106), (172, 109), (172, 113),
+         (180, 113), (179.85, 106.13), (169, 99)),
+        'The lubricator, its pedestal and pipe, the regulator rod and its stay; the open air under '
+        'the rod and between the pipes stays paper.')
     add('motion-bed-underside', 'black paint', iron_flat(),
-        ((189, 139), (193, 141), (173, 139), (208, 139), (208, 141)))
+        ((189, 139), (173, 139), (208, 139)),
+        "The motion plate's bottom flange.")
     add('feed-fitting', 'black paint', iron_flat(),
         ((174, 147), (177, 147), (187, 147), (190, 148), (182, 148), (184, 147), (180, 147)))
     add('steel-rods', 'bright steel', axial('black-0-25', STEEL_PITCH_MM), ((179, 134), (201, 143), (176, 129), (183, 142)))
     add('rear-platform', 'black paint', iron_flat(),
-        ((291, 121), (287, 111), (298, 110), (287, 108), (279.08, 110.87), (278.22, 106.52), (287.31, 114.6),
-         (299, 107), (296, 106), (372, 152), (350, 152), (351, 154)))
+        ((291, 121), (298, 110), (287, 108), (279.08, 110.87), (278.22, 106.52), (287.31, 114.6),
+         (299, 107), (296, 106), (372, 152), (350, 152), (351, 154)),
+        'The platform box, the regulator rod and lever brackets; the open air under the rod stays paper.')
     add('driver-controls', 'black paint', iron_axial(),
         ((300, 94), (299, 101), (326, 131), (338, 107), (337, 115), (335, 123), (334, 129),
          (336, 118), (334, 107), (334.84, 132.93), (309, 125), (311, 122), (307, 116), (307, 124),
@@ -279,7 +298,7 @@ def parts():
     add('boiler-bands', 'brass', gold_bands(), BAND_POINTS,
         'Upright Gold lines evenly spaced about 0.42 mm apart across the whole of each band, from one '
         'black edge to the other, its inner line drawn in Gold as one of them. The short pieces of band '
-        'below the boiler line and above the feed pipe carry only the Gold inner line.')
+        'below the boiler line, and on the third band up to the motion plate, take level Gold lines.')
     add('safety-valves-and-lubricator', 'brass', gold_columns(), ((148, 99), (155, 99), (135, 106)))
-    add('whistle', 'brass', gold_columns(), ((152, 99),))
+    add('whistle', 'brass', gold_columns(), ((152, 99), (152.1, 88.2)))
     return P

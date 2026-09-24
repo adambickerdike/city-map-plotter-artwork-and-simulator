@@ -23,7 +23,7 @@ from city_map_plotter.stroke_font import STROKE_FONT_ID
 from city_map_plotter.technical_assets import parse_absolute_path_data
 from city_map_plotter.vector_path import LineSegment
 from tools.engineering_source_plates.build_aveling_5499_colour_v5 import BASE_SHA, ID
-from tools.engineering_source_plates.aveling_5499_colour_v5.design import PEN_ORDER
+from tools.engineering_source_plates.aveling_5499_colour_v5.design import MUST_CARRY, OPEN_AIR, PEN_ORDER
 from tools.engineering_source_plates.aveling_5499_colour_v5 import hatching as H
 from tools.engineering_source_plates.aveling_5499_colour_v5.painters import fill_region, minimum_length
 from tools.engineering_source_plates.aveling_5499_colour_v5.plan import build_plan
@@ -208,6 +208,18 @@ def verify(package):
     assert gap_to_black + TOLERANCE_MM >= GAP_MM, gap_to_black
     assert gap_to_colour + TOLERANCE_MM >= GAP_MM, gap_to_colour
 
+    # 3c. areas reviewed against the side photograph: open air stays paper,
+    #     and each part found uncoloured or wrongly coloured carries its ink
+    for point in OPEN_AIR:
+        index = plan.cellmap.find(point)
+        assert index is not None and index not in plan.claimed, ('open air is claimed', point)
+        cell = plan.cellmap.cells[index]
+        assert not any(cell.intersects(fill_lines[int(j)]) for j in fill_index.query(cell)), ('colour in open air', point)
+    for point, pen_id in MUST_CARRY:
+        cell = plan.cellmap.cells[plan.cellmap.find(point)]
+        assert any(fill_pens[int(j)] == pen_id and cell.intersects(fill_lines[int(j)])
+                   for j in fill_index.query(cell)), ('missing colour', point, pen_id)
+
     # 4. wheel faces: spokes and rim are split without a drawn line, so their
     #    inks must still keep a paper gap between them
     wheel_gaps = {}
@@ -314,6 +326,8 @@ def verify(package):
         'red_brown': {part: {'red_lines': red_parts[part], 'brown_lines': brown_parts[part]} for part in sorted(red_parts)},
         'top_right_badges_uncoloured': not any(e.get('data-fill-part') in {'invicta-horse', 'worksplate'}
                                                for e, _, _, _ in fills),
+        'reviewed_areas': {'open_air_left_paper': [list(p) for p in OPEN_AIR],
+                           'coloured_as_required': [{'point_mm': list(p), 'pen': pen} for p, pen in MUST_CARRY]},
         'through_rear_wheel': {'tender_front_edge_x_mm': plan.tender_edge_x, 'tender_top_y_mm': plan.tender_top_y},
         'wheel_rim_to_spoke_white_gap_mm': wheel_gaps, 'spoke_lines': spoke_lines,
         'fills_inside_claimed_areas': True, 'exported_fills_match_plan': True,
