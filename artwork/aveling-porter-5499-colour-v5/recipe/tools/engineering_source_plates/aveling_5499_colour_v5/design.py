@@ -5,7 +5,8 @@ strictly inside the cell).  Seeds are checked at build time: every seed must
 land in a cell and no cell may be claimed twice.  Materials follow the
 retained photographs of No. 5499: green cladding, cylinder, motion plate,
 tender and spokes; black-painted iron for chimney, smokebox, headstock,
-flywheel, firebox, rims and fittings; red-brown fork and scrapers; brass on the
+flywheel, firebox, rims and fittings, drawn in Black line hatching alone (the
+studio has no grey pen), its tone set by line spacing; red-brown fork and scrapers; brass on the
 boiler bands, valves, both worksplates and the Invicta horse.  Studio inks
 stand in for those paint groups; they are not measured colour matches.
 
@@ -29,7 +30,7 @@ REAR_ROLL = (298.729, 180.165)
 FLYWHEEL = (246.398, 121.139)
 BOILER_SPAN = (129.535, 175.816)      # cladding top and bottom, y
 CHIMNEY_SPAN = (-124.7, -105.6)       # -x, lines run vertically
-PEN_ORDER = (GOLD_PEN, 'green-0-25', 'red-0-25', 'grey-0-25', 'black-0-25', 'black-0-4', 'black-0-6', 'black-1')
+PEN_ORDER = (GOLD_PEN, 'green-0-25', 'red-0-25', 'black-0-25', 'black-0-4', 'black-0-6', 'black-1')
 
 # Wheel faces divide just outside the spoke openings (whose outer arcs reach
 # r = 44.942 and 28.493 mm) and inside the rivet circles.
@@ -42,7 +43,7 @@ FRONT_WHEEL = dict(name='front-roll', centre=FRONT_ROLL, split=28.65, opening_co
 # to edge and 0.54 mm apart: five across a rear spoke, four across a front one.
 REAR_SPOKE_PATTERN = ('green-0-25',) * 5
 FRONT_SPOKE_PATTERN = ('green-0-25',) * 4
-RING_PITCH_MM = 0.56                  # grey turned surfaces
+RING_PITCH_MM = 0.56                  # default ring spacing
 BLACK_RING_PITCH_MM = 0.38            # black iron wheels, hubs and flywheel: two thirds ink
 # Every gold part is built from several fine Gold lines 0.50 mm apart: with the
 # 0.40 mm nib the ink covers 80% and the part reads as solid brass.
@@ -63,8 +64,19 @@ def green_flat():
     return flat('green-0-25', (0.36, 0.44))
 
 
+# Black-painted iron is hatched in Black alone; the tone comes from spacing.
+IRON_TONE = (0.28, 0.36)              # 0.89 -> 0.69 mm apart, lighter at the upper left
+CAST_IRON_CYLINDER = (0.14, 0.46)     # chimney and smokebox: sparse in the light, close in shade
+IRON_AXIAL_PITCH_MM = 0.7             # collars, rings and controls
+STEEL_PITCH_MM = 1.0                  # bright steel rods, lighter than painted iron
+
+
 def iron_flat():
-    return flat('grey-0-25', (0.34, 0.42), shade=('black-0-25', 1.4))
+    return flat('black-0-25', IRON_TONE)
+
+
+def iron_axial(angle=None):
+    return axial('black-0-25', IRON_AXIAL_PITCH_MM, angle=angle)
 
 
 def maroon_flat():
@@ -196,19 +208,17 @@ def parts():
 
     # ---- black-painted iron -----------------------------------------------
     add('chimney', 'black paint',
-        cylinder('grey-0-25', 90.0, CHIMNEY_SPAN, (0.26, 0.45),
-                 shade_tiers=('black-0-25', [(0.62, 2), (0.35, 4)]), facing=-1.0),
+        cylinder('black-0-25', 90.0, CHIMNEY_SPAN, CAST_IRON_CYLINDER, facing=-1.0),
         ((115, 79), (115, 121)), 'Vertical cylinder, lit from the left.')
-    add('chimney-rings', 'black paint', axial('grey-0-25', 0.55, angle=0.0, shade=('black-0-25', 1.4)),
+    add('chimney-rings', 'black paint', iron_axial(angle=0.0),
         ((115, 46), (115.14, 47.58), (115, 113), (109, 111)))
     add('smokebox', 'black paint',
-        cylinder('grey-0-25', 0.0, BOILER_SPAN, (0.26, 0.45),
-                 shade_tiers=('black-0-25', [(0.62, 2), (0.35, 4)])),
+        cylinder('black-0-25', 0.0, BOILER_SPAN, CAST_IRON_CYLINDER),
         ((114, 157), (105, 163), (114, 175), (123, 177)))
     add('headstock', 'black paint', iron_flat(),
         ((90, 132), (78, 122), (67, 112), (67, 109), (71.34, 109.28)))
     add('front-axle-end', 'black paint', black_rings(FRONT_ROLL), ((67, 197), (67, 203)))
-    add('kingpin-collars', 'black paint', axial('grey-0-25', 0.55, angle=0.0, shade=('black-0-25', 1.4)),
+    add('kingpin-collars', 'black paint', iron_axial(angle=0.0),
         ((67, 144), (67, 146), (67, 149), (67, 151)))
     add('flywheel-disc', 'black paint', black_rings(FLYWHEEL), ((262, 121),),
         'Turned, dished disc: close, even Black circles.')
@@ -237,11 +247,11 @@ def parts():
         ((189, 139), (193, 141), (173, 139), (208, 139), (208, 141), (198, 139), (198, 141)))
     add('feed-fitting', 'black paint', iron_flat(),
         ((174, 147), (177, 147), (187, 147), (190, 148), (182, 148), (184, 147), (180, 147)))
-    add('steel-rods', 'bright steel', axial('grey-0-25', 0.8), ((179, 134), (201, 143), (176, 129), (183, 142)))
+    add('steel-rods', 'bright steel', axial('black-0-25', STEEL_PITCH_MM), ((179, 134), (201, 143), (176, 129), (183, 142)))
     add('rear-platform', 'black paint', iron_flat(),
         ((291, 121), (287, 111), (298, 110), (287, 108), (279.08, 110.87), (278.22, 106.52), (287.31, 114.6),
          (299, 107), (296, 106), (372, 152), (350, 152), (351, 154)))
-    add('driver-controls', 'black paint', axial('grey-0-25', 0.6, shade=('black-0-25', 1.4)),
+    add('driver-controls', 'black paint', iron_axial(),
         ((300, 94), (299, 101), (326, 131), (338, 107), (337, 115), (335, 123), (334, 129),
          (336, 118), (334, 107), (334.84, 132.93), (309, 125), (311, 122), (307, 116), (307, 124),
          (356, 143), (356, 149), (356, 147), (356, 145), (356, 154), (356, 176), (357.61, 180.76)))

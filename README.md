@@ -197,19 +197,19 @@ black hatch, a shade lighter than the wheels. The worksplate and horse at the
 top right are left as black engraving. Colour keeps at least 0.22 mm clear of
 black ink.
 
-Plot at A3 landscape, 100% scale. Use the eight pen files in order, one pen
+Plot at A3 landscape, 100% scale. Use the seven pen files in order, one pen
 each:
 
 1. Gold 0.40
 2. Green 0.25
 3. Red 0.25
-4. Grey 0.25
-5. Black 0.25
-6. Black 0.40
-7. Black 0.60
-8. Black 1.00
+4. Black 0.25
+5. Black 0.40
+6. Black 0.60
+7. Black 1.00
 
-The plot takes about 54 minutes.
+No grey pen is needed: the iron is hatched in black lines only. The plot takes
+about 48 minutes.
 [Colour edition 5 package](artwork/aveling-porter-5499-colour-v5/README.md) ·
 [Download the colour edition 5 ZIP](artwork/aveling-porter-5499-colour-v5.zip).
 
