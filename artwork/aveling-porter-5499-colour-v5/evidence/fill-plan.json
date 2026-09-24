@@ -11,10 +11,11 @@
     "fill_erosion_mm": "nib/2 + white gap - cell offset",
     "minimum_fill_stroke_mm": "max(3 x nib, 1.2); ruled Gold on the maker's plate at least 2.0",
     "gold_line_spacing_mm": 0.5,
+    "boiler_band_line_spacing_mm": "even from edge to edge, about 0.42, stepping out from the band's own Gold inner line",
     "strokes": "every hatch line is a separate stroke with clean ends, in serpentine order"
   },
   "lighting": "Upper-left light: graded parallel lines model the boiler, smokebox and chimney as cylinders. The black iron wheels, hubs and flywheel are close, even Black circles all round; flat plates darken slightly to the lower right.",
-  "outline_weights": "Engine linework one pen heavier than the blueprint: 0.30 -> Black 0.40, 0.40 -> Black 0.60, roller tyres 0.50 -> Black 1.00. Fasteners, chains, small fittings, scrapers, controls, lettering, the badges and the sheet frame keep their original weights.",
+  "outline_weights": "Engine linework one pen heavier than the blueprint: 0.30 -> Black 0.40, 0.40 -> Black 0.60, roller tyres 0.50 -> Black 1.00. Fasteners, chains, small fittings, scrapers, controls, lettering, the badges and the sheet frame keep their original weights. The four inner lines of the brass boiler bands are drawn in Gold, unchanged in shape.",
   "wheel_faces": [
     {
       "name": "rear-wheel",
@@ -42,8 +43,8 @@
   "spokes": "Every spoke of a wheel ruled with the same number of lines parallel to its edges: five on the rear wheel, four on the front roll.",
   "through_the_wheels": "Rear wheel: everything seen between the spokes up to the tender front edge (x = 318.865 mm) and above its top rim is black iron in Black lines about 0.69 mm apart, lighter than the black wheel rims; the tender beyond that edge continues in green. Front roll: a hollow drum, so the spaces between its spokes stay paper.",
   "badges": "The worksplate and Invicta horse at the top right are uncoloured black engraving.",
-  "paper_cell_count": 784,
-  "coloured_cell_count": 283,
+  "paper_cell_count": 776,
+  "coloured_cell_count": 286,
   "parts": [
     {
       "part": "rear-wheel-rim",
@@ -1798,20 +1799,12 @@
         [
           208,
           141
-        ],
-        [
-          198,
-          139
-        ],
-        [
-          198,
-          141
         ]
       ],
-      "cell_count": 7,
-      "cell_area_mm2": 106.265,
+      "cell_count": 5,
+      "cell_area_mm2": 102.846,
       "strokes_by_pen": {
-        "black-0-25": 24
+        "black-0-25": 22
       },
       "note": ""
     },
@@ -1897,7 +1890,7 @@
         ]
       ],
       "cell_count": 4,
-      "cell_area_mm2": 84.955,
+      "cell_area_mm2": 84.998,
       "strokes_by_pen": {
         "black-0-25": 5
       },
@@ -2122,13 +2115,15 @@
       "part": "boiler-bands",
       "material": "brass",
       "painter": {
-        "painter": "axial",
+        "painter": "band",
         "pen": "gold-0-4",
         "pitch": 0.5,
-        "angle": 90.0,
-        "shade": null,
-        "single": false,
-        "shade_small": false
+        "anchors": [
+          122.43,
+          165.891,
+          197.205
+        ],
+        "min_length": 2.0
       },
       "seed_points_mm": [
         [
@@ -2142,14 +2137,34 @@
         [
           198.15,
           160.0
+        ],
+        [
+          122.83,
+          174.99
+        ],
+        [
+          166.3,
+          174.99
+        ],
+        [
+          197.61,
+          174.99
+        ],
+        [
+          198.0,
+          139.0
+        ],
+        [
+          198.0,
+          141.0
         ]
       ],
-      "cell_count": 3,
-      "cell_area_mm2": 103.002,
+      "cell_count": 8,
+      "cell_area_mm2": 207.967,
       "strokes_by_pen": {
-        "gold-0-4": 6
+        "gold-0-4": 12
       },
-      "note": "Fine vertical Gold lines across the wide strip of each band; the narrow strip stays white."
+      "note": "Upright Gold lines evenly spaced about 0.42 mm apart across the whole of each band, from one black edge to the other, its inner line drawn in Gold as one of them. The short pieces of band below the boiler line and above the feed pipe carry only the Gold inner line."
     },
     {
       "part": "safety-valves-and-lubricator",
@@ -2231,18 +2246,18 @@
     }
   ],
   "fill_strokes_by_pen": {
-    "black-0-25": 1597,
+    "black-0-25": 1595,
     "green-0-25": 852,
     "red-0-25": 110,
     "brown-0-25": 87,
-    "gold-0-4": 43
+    "gold-0-4": 49
   },
   "fill_length_m_by_pen": {
-    "black-0-25": 25.788,
+    "black-0-25": 25.781,
     "green-0-25": 11.655,
     "red-0-25": 1.252,
     "brown-0-25": 1.057,
-    "gold-0-4": 0.495
+    "gold-0-4": 0.665
   },
   "unfilled_by_design": [
     "sheet margins and background paper",

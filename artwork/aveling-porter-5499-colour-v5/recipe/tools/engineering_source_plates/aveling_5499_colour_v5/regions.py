@@ -6,7 +6,9 @@ cells: the enclosed faces of the drawing.  Colour is only ever placed inside a
 cell, eroded far enough that its ink edge keeps ``GAP_MM`` of white paper from
 the black ink edge.  The two wheel faces are the only cells divided without a
 drawn line, at a circle just outside the spoke openings, so the spokes and
-their iron rim can take different inks.
+their iron rim can take different inks.  The brass bands' inner lines are
+drawn in Gold, not Black (see ``BAND_INNER_LINES``), so they do not divide
+the paper: each band is one cell between its two black edges.
 """
 from __future__ import annotations
 
@@ -24,6 +26,7 @@ from city_map_plotter.technical_assets import parse_absolute_path_data
 from city_map_plotter.vector_path import VectorPath
 
 from tools.engineering_source_plates.aveling_5499_colour_v5.hatching import polygons_of
+from tools.engineering_source_plates.aveling_5499_colour_v5.inventory import GOLD_NIB_MM, GOLD_PEN
 
 NS = '{http://www.w3.org/2000/svg}'
 PAGE = (420.0, 297.0)
@@ -52,6 +55,15 @@ FINE_COMPONENTS = frozenset({'near-steering-chain', 'far-steering-chain', 'rear-
                              'under-boiler-fittings', 'rear-axle-and-drive-pin', 'quadrant-lower-blade',
                              'far-steering-column'})
 SMALL_FEATURE_MM = 3.0      # features smaller than this keep the finer pen
+# Each brass boiler band is drawn as a black edge either side and an upright
+# inner line only 1.08 mm from its front edge: too close for a 0.40 mm Gold
+# line to fit beside it with its white gap, which left that side of every band
+# white.  These inner lines (by revision-14 model path index) are therefore
+# drawn in Gold, unchanged in shape, as one of the band's own gold lines, so
+# the whole band reads as a gold bar between its two black edges.
+BAND_INNER_LINES = frozenset({'150', '151', '156', '159'})
+BAND_COMPONENT = 'boiler-and-smokebox'
+OUTLINE_NIB = {**BLACK_NIB, GOLD_PEN: GOLD_NIB_MM}
 
 
 def black_pen(attributes: dict, width: float, path: VectorPath) -> str:
@@ -72,6 +84,23 @@ def black_pen(attributes: dict, width: float, path: VectorPath) -> str:
     return heavy
 
 
+def is_band_inner_line(attributes: dict) -> bool:
+    return attributes.get('data-model-path-index') in BAND_INNER_LINES
+
+
+def outline_pen(attributes: dict, width: float, path: VectorPath) -> str:
+    """The pen for one source path: Gold for a brass band's inner line,
+    otherwise its Black pen."""
+
+    if is_band_inner_line(attributes):
+        bounds = path.bounds()
+        if attributes.get('data-component') != BAND_COMPONENT or bounds.width > 1e-6 or bounds.height < 3.0:
+            raise ValueError(f"band inner line {attributes.get('data-model-path-index')} is not an upright "
+                             f'{BAND_COMPONENT} line')
+        return GOLD_PEN
+    return black_pen(attributes, width, path)
+
+
 @dataclass
 class SourcePath:
     index: int
@@ -83,7 +112,11 @@ class SourcePath:
 
     @property
     def nib(self) -> float:
-        return BLACK_NIB[self.pen_id]
+        return OUTLINE_NIB[self.pen_id]
+
+    @property
+    def is_black(self) -> bool:
+        return self.pen_id in BLACK_NIB
 
     @property
     def line(self) -> LineString:
@@ -110,14 +143,17 @@ def load_source(svg: Path) -> list[SourcePath]:
         width = round(float(inherited(element, 'stroke-width')), 3)
         points = [(float(x), float(y)) for x, y in path.flatten(FLATTEN_MM).points]
         out.append(SourcePath(index, dict(element.attrib), path, points, width,
-                              black_pen(element.attrib, width, path)))
+                              outline_pen(element.attrib, width, path)))
+    found = sorted(p.get('data-model-path-index') for p in out if p.pen_id == GOLD_PEN)
+    if found != sorted(BAND_INNER_LINES):
+        raise ValueError(f'expected the band inner lines {sorted(BAND_INNER_LINES)}, found {found}')
     return out
 
 
 def black_ink(paths: list[SourcePath], margin: float = 0.0):
-    """Buffered black ink: each outline at its physical half-width + margin."""
+    """Buffered black ink: each Black outline at its physical half-width + margin."""
 
-    return [p.line.buffer(p.nib / 2 + margin, quad_segs=8) for p in paths]
+    return [p.line.buffer(p.nib / 2 + margin, quad_segs=8) for p in paths if p.is_black]
 
 
 @dataclass

@@ -5,8 +5,9 @@ A3 PDF with `python rebuild.py --output-dir /tmp/aveling-colour-v5-rebuild`.
 Install `requirements.txt` first; Inkscape is used for PNG/PDF export.
 
 The accepted revision-14 SVG is the exact geometry source. All 863 of its path
-shapes are kept unchanged as black outlines, with the engine linework one pen
-heavier. The builder finds the enclosed paper cells between them. The paint
+shapes are kept unchanged: black outlines with the engine linework one pen
+heavier, and the thin inner lines of the three boiler bands in gold. The
+builder finds the enclosed paper cells between the black lines. The paint
 plan in `tools/engineering_source_plates/aveling_5499_colour_v5/` assigns the
 cells to parts and fills each part with pen lines, keeping at least 0.22 mm
 clear of black ink. `verify.py` rechecks the exported SVG independently.

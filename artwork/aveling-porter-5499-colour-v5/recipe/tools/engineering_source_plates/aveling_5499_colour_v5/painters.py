@@ -493,6 +493,27 @@ class Painter:
                     out.append(Stroke(spen, 'shade', arc=(centre, radius, start, sweep)))
         return out
 
+    # brass bands: upright lines evenly spaced from one black edge of a band
+    # to the other, no wider apart than ``pitch``, stepping out either side of
+    # the band's own Gold inner line (drawn with the outlines, at one of the
+    # ``anchors``); pieces too short for a ``min_length`` line keep only the
+    # inner line that crosses them
+    def _band(self, cells):
+        p = self.params
+        pen, pitch, shortest = p['pen'], p['pitch'], p['min_length']
+        out = []
+        for piece in H.polygons_of(fill_region(cells, pen)):
+            x0, y0, x1, y1 = piece.bounds
+            if y1 - y0 < shortest:
+                continue
+            (anchor,) = [x for x in p['anchors'] if x0 < x < x1]
+            sides = (anchor - x0, x1 - anchor)
+            step = min(side / math.ceil(side / pitch - 1e-9) for side in sides) - 1e-6
+            before, after = (int(math.floor(side / step)) for side in sides)
+            columns = [anchor + k * step for k in range(-before, after + 1) if k]
+            out += emit(pen, H.clip_parallel(piece, 90.0, [-x for x in columns]), 'base', shortest)
+        return out
+
     # parallel lines on a fixed lattice with an optional knockout mask
     def _masked(self, cells):
         p = self.params

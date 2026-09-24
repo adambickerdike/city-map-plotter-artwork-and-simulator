@@ -49,10 +49,16 @@ BLACK_RING_PITCH_MM = 0.38            # black iron wheels, hubs and flywheel: tw
 # 0.40 mm nib the ink covers 80% and the part reads as solid brass.
 GOLD_PITCH_MM = 0.5
 GOLD_MIN_LINE_MM = 2.0                # shorter ruled Gold dashes read as stray marks
-# Brass boiler bands: each band's wide strip, between the band edge and its
-# off-centre inner line, is filled with fine vertical Gold lines; the narrow
-# strip stays white as the band's highlight.  All black band lines are kept.
-BAND_STRIP_POINTS = ((123.37, 160.0), (166.84, 160.0), (198.15, 160.0))
+# Brass boiler bands: each band's off-centre inner line is drawn in Gold (see
+# ``regions.BAND_INNER_LINES``), so the whole band between its black edges is
+# one gold bar of upright Gold lines, evenly spaced about 0.42 mm apart from
+# edge to edge with the inner line one of them.  The short pieces of band
+# below the boiler's lower line, and above the feed pipe on the third band,
+# are too short for a Gold line; only the Gold inner line crosses them.
+BAND_INNER_X = (122.43, 165.891, 197.205)
+BAND_POINTS = ((123.37, 160.0), (166.84, 160.0), (198.15, 160.0),           # the bands' length
+               (122.83, 174.99), (166.3, 174.99), (197.61, 174.99),         # below the boiler's lower line
+               (198.0, 139.0), (198.0, 141.0))                              # third band, above the feed pipe
 
 
 def flat(pen, coverage, angle=-45.0, shade=None, shade_small=False):
@@ -138,6 +144,13 @@ def gold_lines(angle=0.0, pitch=GOLD_PITCH_MM, mask=None, min_length=GOLD_MIN_LI
 def gold_columns():
     """Upright brass parts: fine vertical Gold lines across their width."""
     return axial(GOLD_PEN, GOLD_PITCH_MM, angle=90.0)
+
+
+def gold_bands():
+    """Brass boiler bands: upright Gold lines evenly spaced across each band,
+    stepping out from the band's own Gold inner line."""
+    return Painter('band', dict(pen=GOLD_PEN, pitch=GOLD_PITCH_MM, anchors=BAND_INNER_X,
+                                min_length=GOLD_MIN_LINE_MM))
 
 
 
@@ -249,7 +262,7 @@ def parts():
          (172, 104), (172, 106), (172, 109), (172, 113), (170, 115), (180, 113), (179.85, 106.13),
          (169, 99)))
     add('motion-bed-underside', 'black paint', iron_flat(),
-        ((189, 139), (193, 141), (173, 139), (208, 139), (208, 141), (198, 139), (198, 141)))
+        ((189, 139), (193, 141), (173, 139), (208, 139), (208, 141)))
     add('feed-fitting', 'black paint', iron_flat(),
         ((174, 147), (177, 147), (187, 147), (190, 148), (182, 148), (184, 147), (180, 147)))
     add('steel-rods', 'bright steel', axial('black-0-25', STEEL_PITCH_MM), ((179, 134), (201, 143), (176, 129), (183, 142)))
@@ -263,8 +276,10 @@ def parts():
     add('drawbar', 'black paint', iron_flat(), ((388, 197), (381, 198), (394, 196), (378, 198)))
 
     # ---- brass: fine Gold lines ----------------------------------------------
-    add('boiler-bands', 'brass', gold_columns(), BAND_STRIP_POINTS,
-        'Fine vertical Gold lines across the wide strip of each band; the narrow strip stays white.')
+    add('boiler-bands', 'brass', gold_bands(), BAND_POINTS,
+        'Upright Gold lines evenly spaced about 0.42 mm apart across the whole of each band, from one '
+        'black edge to the other, its inner line drawn in Gold as one of them. The short pieces of band '
+        'below the boiler line and above the feed pipe carry only the Gold inner line.')
     add('safety-valves-and-lubricator', 'brass', gold_columns(), ((148, 99), (155, 99), (135, 106)))
     add('whistle', 'brass', gold_columns(), ((152, 99),))
     return P
